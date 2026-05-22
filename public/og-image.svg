@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#07111F"/>
+  <path d="M0 520C174 443 282 456 431 503C615 561 741 572 1200 421V630H0V520Z" fill="#123B66"/>
+  <path d="M0 0H1200V630H0V0Z" fill="url(#grid)" opacity=".2"/>
+  <circle cx="924" cy="174" r="158" fill="#606AF4" opacity=".22"/>
+  <circle cx="202" cy="506" r="118" fill="#2FB8D4" opacity=".16"/>
+  <path d="M350 195C438 101 584 79 666 160C748 242 717 396 629 490C541 584 395 606 313 525C231 443 262 289 350 195Z" stroke="#606AF4" stroke-width="18"/>
+  <path d="M300 494C212 412 242 258 330 164C418 70 564 48 646 130C728 211 698 365 610 459C522 553 376 575 300 494Z" stroke="#F17D30" stroke-width="18"/>
+  <text x="90" y="118" fill="#F17D30" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">GLOBAL CORE TECHNOLOGIES</text>
+  <text x="90" y="230" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="68" font-weight="800">Consultoria SAP,</text>
+  <text x="90" y="312" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="68" font-weight="800">seguridad y evolucion</text>
+  <text x="90" y="394" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="68" font-weight="800">digital</text>
+  <text x="90" y="480" fill="#D7DCE3" font-family="Arial, sans-serif" font-size="30">S/4HANA · GRC · AMS · Cloud · AI</text>
+  <defs>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" stroke="#FFFFFF" stroke-width="1"/>
+    </pattern>
+  </defs>
+</svg>

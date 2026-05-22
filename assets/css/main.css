@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --core-ink: #07111f;
+  --core-midnight: #0b1d33;
+  --core-navy: #123b66;
+  --core-blue: #606af4;
+  --core-cyan: #2fb8d4;
+  --core-orange: #f17d30;
+  --core-mist: #f5f7fa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--core-mist);
+  color: var(--core-ink);
+  font-family: 'Source Sans 3', Aptos, 'Segoe UI', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(241, 125, 48, 0.28);
+}
+
+*:focus-visible {
+  outline: 3px solid var(--core-orange);
+  outline-offset: 4px;
+}
+
+.section-shell {
+  margin-inline: auto;
+  width: min(100% - 2rem, 1180px);
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  transform: translateY(-140%);
+  border-radius: 0.375rem;
+  background: white;
+  color: var(--core-ink);
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  transition: transform 180ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: reveal-up 680ms ease both;
+  }
+
+  @keyframes reveal-up {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
