@@ -10,6 +10,10 @@ Corporate landing page for Global Core Technologies, built with Nuxt 4, Vue 3, T
 - Modern SAP, security, cloud and AI positioning.
 - AI-First documentation with SDD and ADRs.
 
+## Design
+
+- Figma: [landing page gct](https://www.figma.com/design/z8GZJf68n8MiiMMSxSvpH1/landing-page-gct?node-id=2-422&t=zzvEigjmLwgFw6io-1)
+
 ## Commands
 
 Use Node `^22.12.0`, `^24.11.0` or `>=26.0.0` for Nuxt 4.4.x.
