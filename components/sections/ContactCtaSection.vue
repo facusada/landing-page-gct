@@ -11,7 +11,7 @@ import BaseButton from '~/components/ui/BaseButton.vue'
       loading="lazy"
     >
     <div class="absolute inset-0 -z-10 bg-core-ink/78" />
-    <div class="section-shell max-w-4xl text-center">
+    <div v-reveal class="section-shell max-w-4xl text-center">
       <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">Proximo paso</p>
       <h2 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl">
         Tu estrategia SAP deberia estar alineada al crecimiento del negocio

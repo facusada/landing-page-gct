@@ -6,9 +6,9 @@ services:
     image: global-core-technologies-landing:local
     container_name: gct-landing
     ports:
-      - "3000:3000"
+      - "3010:3000"
     environment:
       NODE_ENV: production
       HOST: 0.0.0.0
       PORT: 3000
-    restart: unless-stopped
+    restart: "no"

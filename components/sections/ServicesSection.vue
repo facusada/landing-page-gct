@@ -8,6 +8,7 @@ import { services } from '~/data/landing'
   <section id="servicios" class="bg-core-mist py-20 md:py-28">
     <div class="section-shell">
       <SectionHeading
+        v-reveal
         align="center"
         eyebrow="Lo que ofrecemos"
         title="Servicios SAP para evolucionar sin perder control"
@@ -18,6 +19,7 @@ import { services } from '~/data/landing'
         <FeatureCard
           v-for="(service, index) in services"
           :key="service.title"
+          v-reveal="{ delay: Math.min(index * 110, 440), distance: 40, duration: 820 }"
           :title="service.title"
           :description="service.description"
           :proof="service.proof"

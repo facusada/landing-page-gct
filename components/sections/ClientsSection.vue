@@ -5,14 +5,15 @@ import { clientLogos } from '~/data/landing'
 <template>
   <section id="clientes" class="bg-white py-16 md:py-20">
     <div class="section-shell">
-      <h2 class="text-center font-display text-3xl font-extrabold md:text-5xl">Clientes que confian</h2>
-      <p class="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-slate-600">
+      <h2 v-reveal class="text-center font-display text-3xl font-extrabold md:text-5xl">Clientes que confian</h2>
+      <p v-reveal="{ delay: 120, distance: 26 }" class="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-slate-600">
         Organizaciones de energia, industria, retail, salud, infraestructura y servicios confian en equipos con experiencia SAP de alta criticidad.
       </p>
       <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         <figure
-          v-for="client in clientLogos"
+          v-for="(client, index) in clientLogos"
           :key="client.name"
+          v-reveal="{ delay: Math.min(index * 90, 540), distance: 36, duration: 820 }"
           class="grid h-32 place-items-center border border-core-line px-5 py-6 transition duration-200 hover:border-core-orange/50 hover:shadow-lift"
           :class="client.tone === 'dark' ? 'bg-core-ink' : 'bg-white'"
         >

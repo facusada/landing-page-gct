@@ -5,7 +5,7 @@ import { technologyPillars } from '~/data/landing'
 <template>
   <section id="tecnologia" class="bg-core-ink py-20 text-white md:py-28">
     <div class="section-shell">
-      <div class="max-w-3xl">
+      <div v-reveal class="max-w-3xl">
         <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">Tecnologia</p>
         <h2 class="mt-3 font-display text-3xl font-extrabold leading-tight md:text-5xl">
           SAP, seguridad, cloud e AI conectados al resultado operativo
@@ -13,7 +13,12 @@ import { technologyPillars } from '~/data/landing'
       </div>
 
       <div class="mt-12 grid gap-5 lg:grid-cols-3">
-        <article v-for="pillar in technologyPillars" :key="pillar.title" class="border border-white/14 bg-white/[0.04] p-6">
+        <article
+          v-for="(pillar, index) in technologyPillars"
+          :key="pillar.title"
+          v-reveal="{ delay: Math.min(index * 120, 420), distance: 42, duration: 840 }"
+          class="border border-white/14 bg-white/[0.04] p-6"
+        >
           <h3 class="font-display text-2xl font-extrabold">{{ pillar.title }}</h3>
           <p class="mt-4 leading-7 text-white/72">{{ pillar.description }}</p>
           <div class="mt-6 flex flex-wrap gap-2">

@@ -15,7 +15,7 @@ import { hero } from '~/data/landing'
     <div class="absolute inset-0 -z-10 bg-core-grid bg-[length:42px_42px] opacity-35" />
 
     <div class="section-shell grid min-h-[calc(100vh-5rem)] content-center py-20 md:min-h-[640px]">
-      <div class="max-w-4xl reveal">
+      <div class="max-w-4xl">
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">
           {{ hero.eyebrow }}
         </p>
