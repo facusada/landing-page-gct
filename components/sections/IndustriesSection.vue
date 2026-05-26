@@ -17,7 +17,7 @@ import { industries } from '~/data/landing'
           v-for="(industry, index) in industries"
           :key="industry.name"
           v-reveal="{ delay: Math.min(index * 110, 420), distance: 38, duration: 820 }"
-          class="border border-core-line p-6"
+          class="rounded-xl border border-core-line p-6"
         >
           <h3 class="font-display text-xl font-extrabold">{{ industry.name }}</h3>
           <p class="mt-3 leading-7 text-slate-600">{{ industry.description }}</p>

@@ -41,6 +41,10 @@ The container serves the production Nuxt build at `http://localhost:3010`.
 
 ![Technology section screenshot](docs/screenshots/landing-tecnologia.png)
 
+### Clients section (hover/remarco)
+
+![Clients section hover screenshot](docs/screenshots/landing-clientes-hover.png)
+
 ## Project Structure
 
 - `docs/sdd/wip/corporate-landing-page/spec.md`: active SDD.

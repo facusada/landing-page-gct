@@ -14,7 +14,7 @@ import { clientLogos } from '~/data/landing'
           v-for="(client, index) in clientLogos"
           :key="client.name"
           v-reveal="{ delay: Math.min(index * 90, 540), distance: 36, duration: 820 }"
-          class="grid h-32 place-items-center border border-core-line px-5 py-6 transition duration-200 hover:border-core-orange/50 hover:shadow-lift"
+          class="grid h-32 place-items-center rounded-xl border border-core-line px-5 py-6 transition duration-200 hover:border-core-orange/50 hover:shadow-lift"
           :class="client.tone === 'dark' ? 'bg-core-ink' : 'bg-white'"
         >
           <img

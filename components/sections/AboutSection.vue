@@ -13,13 +13,13 @@ import SectionHeading from '~/components/ui/SectionHeading.vue'
         />
       </div>
       <div class="grid gap-4">
-        <div v-reveal="{ delay: 120, distance: 34 }" class="border-l-4 border-core-orange bg-core-mist p-6">
+        <div v-reveal="{ delay: 120, distance: 34 }" class="rounded-xl border-l-4 border-core-orange bg-core-mist p-6">
           <h3 class="font-display text-xl font-extrabold">Del diagnostico a la ejecucion</h3>
           <p class="mt-3 leading-7 text-slate-600">
             Priorizamos decisiones accionables: roadmap, controles, arquitectura objetivo, equipos responsables y metricas de avance.
           </p>
         </div>
-        <div v-reveal="{ delay: 260, distance: 34 }" class="border-l-4 border-core-blue bg-core-mist p-6">
+        <div v-reveal="{ delay: 260, distance: 34 }" class="rounded-xl border-l-4 border-core-blue bg-core-mist p-6">
           <h3 class="font-display text-xl font-extrabold">Menos complejidad comercial, mas claridad tecnica</h3>
           <p class="mt-3 leading-7 text-slate-600">
             Reordenamos la propuesta del Figma para que el valor sea escaneable, directo y util para busquedas organicas.

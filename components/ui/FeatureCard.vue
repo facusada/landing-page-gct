@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <article
-    class="group flex h-full flex-col border border-core-line bg-white p-6 shadow-[0_1px_0_rgba(7,17,31,0.04)] transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-premium"
+    class="group flex h-full flex-col rounded-xl border border-core-line bg-white p-6 shadow-[0_1px_0_rgba(7,17,31,0.04)] transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-premium"
   >
     <div class="mb-6 flex h-12 w-12 items-center justify-center rounded-md bg-core-mist text-lg font-extrabold text-core-orange">
       {{ String((index ?? 0) + 1).padStart(2, '0') }}

@@ -17,7 +17,7 @@ import { technologyPillars } from '~/data/landing'
           v-for="(pillar, index) in technologyPillars"
           :key="pillar.title"
           v-reveal="{ delay: Math.min(index * 120, 420), distance: 42, duration: 840 }"
-          class="border border-core-line bg-white p-6 shadow-[0_6px_26px_rgba(7,17,31,0.07)]"
+          class="rounded-xl border border-core-line bg-white p-6 shadow-[0_6px_26px_rgba(7,17,31,0.07)]"
         >
           <h3 class="font-display text-2xl font-extrabold">{{ pillar.title }}</h3>
           <p class="mt-4 leading-7 text-slate-600">{{ pillar.description }}</p>
