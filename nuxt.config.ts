@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
+  experimental: {
+    payloadExtraction: false
+  },
   typescript: {
     strict: true,
     typeCheck: true
