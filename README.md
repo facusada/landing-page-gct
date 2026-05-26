@@ -29,7 +29,17 @@ pnpm generate
 docker compose up --build
 ```
 
-The container serves the production Nuxt build at `http://localhost:3000`.
+The container serves the production Nuxt build at `http://localhost:3010`.
+
+## Screenshots
+
+### Hero
+
+![Hero screenshot](docs/screenshots/landing-hero.png)
+
+### Technology section
+
+![Technology section screenshot](docs/screenshots/landing-tecnologia.png)
 
 ## Project Structure
 
@@ -53,4 +63,4 @@ The container serves the production Nuxt build at `http://localhost:3000`.
 
 ## Visual Notes
 
-The Figma reference establishes the brand direction: dark navy technology surfaces, blue accent and orange CTA. This implementation keeps those brand signals while improving content hierarchy, density, responsive behavior and component consistency.
+The current iteration keeps the SAP/tech corporate identity with a lighter overall surface, stronger content hierarchy, scroll-reveal transitions, and a hero image carousel to showcase completed work.

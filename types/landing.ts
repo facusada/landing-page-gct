@@ -3,6 +3,20 @@ export interface NavigationItem {
   href: string
 }
 
+export interface HeroContent {
+  eyebrow: string
+  title: string
+  description: string
+  primaryCta: string
+  secondaryCta: string
+}
+
+export interface HeroSlide {
+  src: string
+  alt: string
+  label: string
+}
+
 export interface ServiceItem {
   title: string
   description: string

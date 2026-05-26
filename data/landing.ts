@@ -1,6 +1,6 @@
-import type { ClientLogo, DifferentiatorItem, IndustryItem, ServiceItem, TechnologyPillar } from '~/types/landing'
+import type { ClientLogo, DifferentiatorItem, HeroContent, HeroSlide, IndustryItem, ServiceItem, TechnologyPillar } from '~/types/landing'
 
-export const hero = {
+export const hero: HeroContent = {
   eyebrow: 'Consultoria SAP, seguridad y evolucion digital',
   title: 'Global Core Technologies',
   description:
@@ -8,6 +8,29 @@ export const hero = {
   primaryCta: 'Hablemos de tu entorno SAP',
   secondaryCta: 'Ver servicios'
 }
+
+export const heroSlides: HeroSlide[] = [
+  {
+    src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2400&q=80',
+    alt: 'Placa electronica y componentes de infraestructura tecnologica empresarial',
+    label: 'Arquitectura tecnologica empresarial'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=2400&q=80',
+    alt: 'Datacenter con servidores y equipamiento de infraestructura cloud',
+    label: 'Infraestructura cloud y continuidad operativa'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2400&q=80',
+    alt: 'Equipo profesional en reunion de trabajo y planificacion de proyectos',
+    label: 'Equipos especializados y gobierno de proyectos'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=2400&q=80',
+    alt: 'Monitoreo de datos y analitica en pantallas de operaciones',
+    label: 'Analitica, monitoreo y mejora continua'
+  }
+]
 
 export const services: ServiceItem[] = [
   {

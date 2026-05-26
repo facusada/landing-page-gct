@@ -5,7 +5,7 @@ const isOpen = ref(false)
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#07111F]/95 text-white backdrop-blur-xl">
+  <header class="sticky top-0 z-50 border-b border-core-line bg-white/95 text-core-ink backdrop-blur-xl">
     <nav class="section-shell flex min-h-20 items-center justify-between" aria-label="Navegacion principal">
       <a href="#inicio" class="block" aria-label="Global Core Technologies inicio">
         <img
@@ -23,14 +23,14 @@ const isOpen = ref(false)
           v-for="item in navigationItems"
           :key="item.href"
           :href="item.href"
-          class="text-sm font-extrabold uppercase tracking-wide text-white/82 transition hover:text-white"
+          class="text-sm font-extrabold uppercase tracking-wide text-core-ink/78 transition hover:text-core-ink"
         >
           {{ item.label }}
         </a>
       </div>
 
       <button
-        class="grid h-11 w-11 place-items-center rounded-md border border-white/18 text-white md:hidden"
+        class="grid h-11 w-11 place-items-center rounded-md border border-core-line text-core-ink md:hidden"
         type="button"
         :aria-expanded="isOpen"
         aria-controls="mobile-navigation"
@@ -41,13 +41,13 @@ const isOpen = ref(false)
       </button>
     </nav>
 
-    <div v-if="isOpen" id="mobile-navigation" class="border-t border-white/10 bg-core-ink md:hidden">
+    <div v-if="isOpen" id="mobile-navigation" class="border-t border-core-line bg-white md:hidden">
       <div class="section-shell grid gap-1 py-4">
         <a
           v-for="item in navigationItems"
           :key="item.href"
           :href="item.href"
-          class="rounded-md px-3 py-3 text-sm font-bold uppercase tracking-wide text-white/86 hover:bg-white/8"
+          class="rounded-md px-3 py-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
           @click="isOpen = false"
         >
           {{ item.label }}
