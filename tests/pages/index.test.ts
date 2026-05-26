@@ -46,7 +46,7 @@ describe('home page', () => {
 
     expect(wrapper.find('h1').text()).toContain('Global Core Technologies')
     expect(wrapper.text()).toContain('Servicios SAP')
-    expect(wrapper.text()).toContain('Clientes que confian')
+    expect(wrapper.text()).toContain('Clientes que confían')
     expect(wrapper.find('img[alt="Logo de Mercado Libre"]').exists()).toBe(true)
     expect(wrapper.text()).toContain('Tenaris')
     expect(wrapper.text()).toContain('Haleon')

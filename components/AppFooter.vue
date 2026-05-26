@@ -15,7 +15,7 @@ import { siteConfig } from '~/data/site'
           loading="lazy"
         >
         <p class="mt-4 max-w-md text-slate-600">
-          Consultoria SAP, seguridad y evolucion digital para organizaciones que necesitan operar con control,
+          Consultoría SAP, seguridad y evolución digital para organizaciones que necesitan operar con control,
           continuidad y capacidad de cambio.
         </p>
       </div>

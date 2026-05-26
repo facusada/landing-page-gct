@@ -12,7 +12,7 @@ import { services } from '~/data/landing'
         align="center"
         eyebrow="Lo que ofrecemos"
         title="Servicios SAP para evolucionar sin perder control"
-        description="Cinco frentes de trabajo pensados para organizaciones que necesitan transformar, asegurar y operar con continuidad."
+        description="Ocho frentes de trabajo para organizaciones que necesitan transformar, asegurar y operar con continuidad."
       />
 
       <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">

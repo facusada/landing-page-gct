@@ -1,10 +1,10 @@
 import type { ClientLogo, DifferentiatorItem, HeroContent, HeroSlide, IndustryItem, ServiceItem, TechnologyPillar } from '~/types/landing'
 
 export const hero: HeroContent = {
-  eyebrow: 'Consultoria SAP, seguridad y evolucion digital',
+  eyebrow: 'Consultoría SAP, seguridad y evolución digital',
   title: 'Global Core Technologies',
   description:
-    'Acompanamos a empresas medianas y grandes a modernizar, asegurar y operar sus plataformas SAP con criterio estrategico, foco en riesgo y ejecucion medible.',
+    'Acompañamos a empresas medianas y grandes a modernizar, asegurar y operar sus plataformas SAP con criterio estratégico, foco en riesgo y ejecución medible.',
   primaryCta: 'Hablemos de tu entorno SAP',
   secondaryCta: 'Ver servicios'
 }
@@ -12,8 +12,8 @@ export const hero: HeroContent = {
 export const heroSlides: HeroSlide[] = [
   {
     src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2400&q=80',
-    alt: 'Placa electronica y componentes de infraestructura tecnologica empresarial',
-    label: 'Arquitectura tecnologica empresarial'
+    alt: 'Placa electrónica y componentes de infraestructura tecnológica empresarial',
+    label: 'Arquitectura tecnológica empresarial'
   },
   {
     src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=2400&q=80',
@@ -22,72 +22,87 @@ export const heroSlides: HeroSlide[] = [
   },
   {
     src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2400&q=80',
-    alt: 'Equipo profesional en reunion de trabajo y planificacion de proyectos',
+    alt: 'Equipo profesional en reunión de trabajo y planificación de proyectos',
     label: 'Equipos especializados y gobierno de proyectos'
   },
   {
     src: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=2400&q=80',
-    alt: 'Monitoreo de datos y analitica en pantallas de operaciones',
-    label: 'Analitica, monitoreo y mejora continua'
+    alt: 'Monitoreo de datos y analítica en pantallas de operaciones',
+    label: 'Analítica, monitoreo y mejora continua'
   }
 ]
 
 export const services: ServiceItem[] = [
   {
-    title: 'Migracion y transformacion SAP',
-    description: 'Roadmaps S/4HANA, evolucion hacia cloud y modernizacion de procesos criticos.',
-    proof: 'Menos riesgo en decisiones de migracion'
+    title: 'Migración y transformación SAP',
+    description: 'Roadmaps S/4HANA, evolución hacia cloud y modernización de procesos críticos.',
+    proof: 'Menos riesgo en decisiones de migración'
   },
   {
-    title: 'Implementacion SAP',
-    description: 'Implementaciones y rollouts con foco Clean Core, adopcion operativa y trazabilidad.',
-    proof: 'Ejecucion ordenada para escala regional'
+    title: 'Implementación SAP',
+    description: 'Implementaciones y rollouts con foco Clean Core, adopción operativa y trazabilidad.',
+    proof: 'Ejecución ordenada para escala regional'
   },
   {
     title: 'Seguridad SAP & GRC',
-    description: 'Gobierno de accesos, RBAC, SoD, compliance continuo y reduccion de exposicion.',
-    proof: 'Controles claros para auditoria'
+    description: 'Gobierno de accesos, RBAC, SoD, compliance continuo y reducción de exposición.',
+    proof: 'Controles claros para auditoría'
   },
   {
-    title: 'Operacion y soporte AMS',
+    title: 'Operación y soporte AMS',
     description: 'SAP Basis, soporte funcional y mejora continua para plataformas estables.',
     proof: 'Continuidad operativa y respuesta experta'
   },
   {
-    title: 'Innovacion SAP',
-    description: 'Datos, analitica, automatizacion e inteligencia artificial aplicada al ecosistema SAP.',
+    title: 'Innovación SAP',
+    description: 'Datos, analítica, automatización e inteligencia artificial aplicada al ecosistema SAP.',
     proof: 'Valor nuevo sobre procesos existentes'
+  },
+  {
+    title: 'SAP Techs Managed Services',
+    description: 'Soporte técnico Basis para mantener la capa core SAP actualizada, estable y alineada con la operación del negocio.',
+    proof: 'Mayor disponibilidad y control de plataforma'
+  },
+  {
+    title: 'SAP Performance Services',
+    description: 'Análisis técnico y ajuste de parámetros para optimizar rendimiento, eficiencia y tiempos de respuesta de entornos SAP.',
+    proof: 'Mejor performance sobre cargas críticas'
+  },
+  {
+    title: 'Servicios para SAP Solution Manager',
+    description: 'Consultoría técnica para configurar, optimizar y sostener Solution Manager como base de upgrades, monitoreo y mejoras.',
+    proof: 'Gobierno técnico continuo de la operación SAP'
   }
 ]
 
 export const differentiators: DifferentiatorItem[] = [
-  { value: '+20', label: 'anos de experiencia', detail: 'Trayectoria en entornos SAP de alta criticidad.' },
+  { value: '+20', label: 'años de experiencia', detail: 'Trayectoria en entornos SAP de alta criticidad.' },
   { value: '+150', label: 'proyectos finalizados', detail: 'Implementaciones, migraciones, seguridad y soporte.' },
-  { value: '+50', label: 'profesionales', detail: 'Equipos especializados por dominio funcional y tecnico.' },
-  { value: '+200M', label: 'horas de servicio', detail: 'Operacion continua para clientes regionales.' }
+  { value: '+50', label: 'profesionales', detail: 'Equipos especializados por dominio funcional y técnico.' },
+  { value: '+200M', label: 'horas de servicio', detail: 'Operación continua para clientes regionales.' }
 ]
 
 export const industries: IndustryItem[] = [
-  { name: 'Energia', description: 'Operacion, compliance y continuidad para negocios intensivos en activos.' },
+  { name: 'Energía', description: 'Operación, compliance y continuidad para negocios intensivos en activos.' },
   { name: 'Industria y manufactura', description: 'Procesos integrados, trazabilidad y eficiencia operativa.' },
-  { name: 'Retail y marketplaces', description: 'Escalabilidad, seguridad y evolucion de plataformas transaccionales.' },
-  { name: 'Servicios regulados', description: 'Gobierno, auditoria y controles para operaciones sensibles.' }
+  { name: 'Retail y marketplaces', description: 'Escalabilidad, seguridad y evolución de plataformas transaccionales.' },
+  { name: 'Servicios regulados', description: 'Gobierno, auditoría y controles para operaciones sensibles.' }
 ]
 
 export const technologyPillars: TechnologyPillar[] = [
   {
     title: 'SAP S/4HANA',
-    description: 'Planificacion de migracion, arquitectura objetivo, gobierno de cambio y adopcion.',
+    description: 'Planificación de migración, arquitectura objetivo, gobierno de cambio y adopción.',
     tags: ['S/4HANA', 'Clean Core', 'Roadmap']
   },
   {
     title: 'Security & GRC',
-    description: 'Modelo de roles, segregacion de funciones, compliance y monitoreo continuo.',
+    description: 'Modelo de roles, segregación de funciones, compliance y monitoreo continuo.',
     tags: ['RBAC', 'SoD', 'GRC']
   },
   {
     title: 'Cloud, data & AI',
-    description: 'Automatizacion, analitica y modernizacion cloud con foco en resultados operativos.',
+    description: 'Automatización, analítica y modernización cloud con foco en resultados operativos.',
     tags: ['Cloud', 'Analytics', 'AI']
   }
 ]

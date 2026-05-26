@@ -10,7 +10,7 @@ import { industries } from '~/data/landing'
         v-reveal
         eyebrow="Industrias"
         title="Experiencia para empresas con operaciones exigentes"
-        description="El foco esta en sectores donde SAP, seguridad, auditoria y continuidad operativa impactan directamente en el negocio."
+        description="El foco está en sectores donde SAP, seguridad, auditoría y continuidad operativa impactan directamente en el negocio."
       />
       <div class="grid gap-4 sm:grid-cols-2">
         <article

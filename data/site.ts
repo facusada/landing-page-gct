@@ -3,10 +3,10 @@ export const siteConfig = {
   shortName: 'Global Core',
   url: 'https://www.gctechs.com',
   description:
-    'Consultora especializada en SAP, seguridad, GRC, migracion S/4HANA, operacion AMS, cloud e innovacion para empresas medianas y grandes.',
+    'Consultora especializada en SAP, seguridad, GRC, migración S/4HANA, operación AMS, cloud e innovación para empresas medianas y grandes.',
   email: 'info@gctechs.com',
   phone: '+54 11 5697-2958',
-  address: 'Bartolome Mitre 797, 4to piso, CABA, Argentina',
+  address: 'Bartolomé Mitre 797, 4to piso, CABA, Argentina',
   social: {
     linkedin: 'https://www.linkedin.com/company/global-core-technologies',
     facebook: 'https://www.facebook.com/globalcoretechnologies',
@@ -24,7 +24,7 @@ export const organizationJsonLd = {
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Bartolome Mitre 797, 4to piso',
-    addressLocality: 'Ciudad Autonoma de Buenos Aires',
+    addressLocality: 'Ciudad Autónoma de Buenos Aires',
     addressCountry: 'AR'
   },
   sameAs: Object.values(siteConfig.social),

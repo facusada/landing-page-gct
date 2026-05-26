@@ -6,7 +6,7 @@ import { technologyPillars } from '~/data/landing'
   <section id="tecnologia" class="bg-[#EEF3FA] py-20 text-core-ink md:py-28">
     <div class="section-shell">
       <div v-reveal class="max-w-3xl">
-        <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">Tecnologia</p>
+        <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">Tecnología</p>
         <h2 class="mt-3 font-display text-3xl font-extrabold leading-tight md:text-5xl">
           SAP, seguridad, cloud e AI conectados al resultado operativo
         </h2>
