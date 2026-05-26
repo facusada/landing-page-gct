@@ -76,7 +76,7 @@ onBeforeUnmount(() => {
         :aria-hidden="index === currentSlide ? 'false' : 'true'"
       >
     </div>
-    <div class="section-shell grid min-h-[calc(100vh-5rem)] content-center py-20 md:min-h-[640px]">
+    <div class="section-shell grid min-h-[54vh] content-center py-10 md:min-h-[62vh] md:py-12 lg:min-h-[58vh]">
       <div class="max-w-4xl drop-shadow-[0_10px_24px_rgba(0,0,0,0.35)]">
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">
           {{ hero.eyebrow }}
