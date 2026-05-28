@@ -42,18 +42,6 @@ The container serves the production Nuxt build at `http://localhost:3010`.
 
 ![Hero](docs/screenshots/landing-hero.png)
 
-### Servicios — Listado
-
-![Servicios](docs/screenshots/landing-servicios.png)
-
-### Servicios — Detalle de servicio
-
-![Detalle de servicio](docs/screenshots/landing-servicio-detalle.png)
-
-### Contacto
-
-![Contacto](docs/screenshots/landing-contacto.png)
-
 ## Routes
 
 | Route | Description |
