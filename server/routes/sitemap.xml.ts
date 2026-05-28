@@ -1,4 +1,5 @@
 import { services } from '../../data/landing'
+import { sapProducts } from '../../data/sap-products'
 import { siteConfig } from '../../data/site'
 
 export default defineEventHandler((event: Parameters<typeof setHeader>[0]) => {
@@ -10,6 +11,16 @@ export default defineEventHandler((event: Parameters<typeof setHeader>[0]) => {
     <loc>${siteConfig.url}/servicios/${s.slug}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>`
+    )
+    .join('\n')
+
+  const solutionUrls = sapProducts
+    .map(
+      (p) => `  <url>
+    <loc>${siteConfig.url}/soluciones/${p.id}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>`
     )
     .join('\n')
@@ -27,6 +38,7 @@ export default defineEventHandler((event: Parameters<typeof setHeader>[0]) => {
     <priority>0.8</priority>
   </url>
 ${serviceUrls}
+${solutionUrls}
   <url>
     <loc>${siteConfig.url}/contacto</loc>
     <changefreq>monthly</changefreq>

@@ -1,8 +1,10 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import { services } from './data/landing'
+import { sapProducts } from './data/sap-products'
 import { organizationJsonLd, siteConfig } from './data/site'
 
 const serviceRoutes = services.map(s => `/servicios/${s.slug}`)
+const solutionRoutes = sapProducts.map(p => `/soluciones/${p.id}`)
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-05-22',
@@ -42,13 +44,14 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/servicios', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes]
+      routes: ['/', '/servicios', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes, ...solutionRoutes]
     }
   },
   routeRules: {
     '/': { prerender: true },
     '/servicios': { prerender: true },
     '/servicios/**': { prerender: true },
+    '/soluciones/**': { prerender: true },
     '/contacto': { prerender: true }
   }
 })

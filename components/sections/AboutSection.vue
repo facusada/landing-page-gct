@@ -5,8 +5,9 @@ import { aboutTabs } from '~/data/about-tabs'
 </script>
 
 <template>
-  <section id="nosotros" class="bg-white py-20 md:py-28">
-    <div class="section-shell grid gap-12 md:grid-cols-[1.05fr_.95fr] md:items-start">
+  <section id="nosotros" class="relative overflow-hidden bg-white py-20 md:py-28">
+    <div class="absolute inset-0 bg-dot-grid opacity-60" aria-hidden="true" />
+    <div class="section-shell relative grid gap-12 md:grid-cols-[1.05fr_.95fr] md:items-start">
       <div v-reveal>
         <SectionHeading
           eyebrow="Sobre nosotros"
