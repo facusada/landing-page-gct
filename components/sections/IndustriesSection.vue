@@ -11,8 +11,9 @@ const iconPaths: Record<string, string> = {
 </script>
 
 <template>
-  <section class="bg-white py-20 md:py-28">
-    <div class="section-shell grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
+  <section class="relative overflow-hidden bg-white py-20 md:py-28">
+    <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
+    <div class="section-shell relative grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
       <SectionHeading
         v-reveal
         eyebrow="Industrias"
