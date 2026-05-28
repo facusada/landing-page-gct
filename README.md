@@ -11,10 +11,6 @@ Corporate landing page for Global Core Technologies (SAP Silver Partner), built 
 - Modern SAP, security, cloud and AI positioning.
 - High interactivity via native browser APIs only (no external animation libraries).
 
-## Design
-
-- Figma: [landing page gct](https://www.figma.com/design/z8GZJf68n8MiiMMSxSvpH1/landing-page-gct?node-id=2-422&t=zzvEigjmLwgFw6io-1)
-
 ## Commands
 
 Use Node `^22.12.0`, `^24.11.0` or `>=26.0.0` for Nuxt 4.4.x.
