@@ -1,5 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
+import { services } from './data/landing'
 import { organizationJsonLd, siteConfig } from './data/site'
+
+const serviceRoutes = services.map(s => `/servicios/${s.slug}`)
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-05-22',
@@ -15,6 +18,7 @@ export default defineNuxtConfig({
     typeCheck: true
   },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       htmlAttrs: { lang: 'es-AR' },
       titleTemplate: `%s | ${siteConfig.name}`,
@@ -38,10 +42,13 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/sitemap.xml', '/robots.txt']
+      routes: ['/', '/servicios', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes]
     }
   },
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
+    '/servicios': { prerender: true },
+    '/servicios/**': { prerender: true },
+    '/contacto': { prerender: true }
   }
 })

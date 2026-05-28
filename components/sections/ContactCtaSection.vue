@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import BaseButton from '~/components/ui/BaseButton.vue'
+import { useParallax } from '~/composables/useParallax'
+
+const imgRef = ref<HTMLElement | null>(null) as Ref<HTMLElement | null>
+useParallax(imgRef, 0.1)
 </script>
 
 <template>
   <section class="relative isolate overflow-hidden bg-white py-20 text-core-ink md:py-28">
     <img
+      ref="imgRef"
       class="absolute inset-0 -z-20 h-full w-full object-cover opacity-14"
       src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=2200&q=80"
       alt="Infraestructura cloud y servidores para servicios SAP empresariales"
@@ -20,7 +25,7 @@ import BaseButton from '~/components/ui/BaseButton.vue'
         Revisemos migración, seguridad y operación con un enfoque que reduzca riesgos y habilite una evolución sostenible.
       </p>
       <div class="mt-8">
-        <BaseButton href="mailto:info@gctechs.com">Contactar a Global Core</BaseButton>
+        <BaseButton to="/contacto">Contactar a Global Core</BaseButton>
       </div>
     </div>
   </section>

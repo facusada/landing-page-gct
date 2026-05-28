@@ -1,21 +1,26 @@
 <script setup lang="ts">
+import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import { differentiators } from '~/data/landing'
+import { useParallax } from '~/composables/useParallax'
+
+const bgRef = ref<HTMLElement | null>(null) as Ref<HTMLElement | null>
+useParallax(bgRef, 0.08)
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-white py-16 text-core-ink md:py-20">
-    <div class="absolute inset-0 bg-hero-radial opacity-35" />
+  <section class="relative overflow-hidden bg-core-ink py-16 text-white md:py-20">
+    <div ref="bgRef" class="absolute inset-0 bg-hero-radial opacity-35" aria-hidden="true" />
     <div class="section-shell relative grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-      <article
-        v-for="(item, index) in differentiators"
+      <AnimatedCounter
+        v-for="item in differentiators"
         :key="item.label"
-        v-reveal="{ delay: Math.min(index * 120, 420), distance: 38, duration: 820 }"
-        class="border-l border-core-line pl-5"
-      >
-        <p class="font-display text-5xl font-extrabold">{{ item.value }}</p>
-        <h3 class="mt-2 text-xl font-bold">{{ item.label }}</h3>
-        <p class="mt-3 text-slate-600">{{ item.detail }}</p>
-      </article>
+        v-reveal="{ delay: 0, distance: 38, duration: 820 }"
+        :value="item.numericValue"
+        :prefix="item.prefix ?? ''"
+        :suffix="item.suffix ?? ''"
+        :label="item.label"
+        :detail="item.detail"
+      />
     </div>
   </section>
 </template>

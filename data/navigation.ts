@@ -1,9 +1,9 @@
 import type { NavigationItem } from '~/types/landing'
 
 export const navigationItems: NavigationItem[] = [
-  { label: 'Nosotros', href: '#nosotros' },
-  { label: 'Servicios', href: '#servicios' },
-  { label: 'Tecnología', href: '#tecnologia' },
-  { label: 'Clientes', href: '#clientes' },
-  { label: 'Contacto', href: '#contacto' }
+  { label: 'Nosotros', to: '/#nosotros' },
+  { label: 'Servicios', to: '/servicios' },
+  { label: 'Tecnología', to: '/#tecnologia' },
+  { label: 'Clientes', to: '/#clientes' },
+  { label: 'Contacto', to: '/contacto' }
 ]

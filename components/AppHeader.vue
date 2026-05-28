@@ -2,12 +2,17 @@
 import { navigationItems } from '~/data/navigation'
 
 const isOpen = ref(false)
+const route = useRoute()
+
+watch(() => route.path, () => {
+  isOpen.value = false
+})
 </script>
 
 <template>
   <header class="sticky top-0 z-50 border-b border-core-line bg-white/95 text-core-ink backdrop-blur-xl">
     <nav class="section-shell flex min-h-20 items-center justify-between" aria-label="Navegacion principal">
-      <a href="#inicio" class="block" aria-label="Global Core Technologies inicio">
+      <NuxtLink to="/" class="block" aria-label="Global Core Technologies inicio">
         <img
           class="h-12 w-auto"
           :src="'/global-core-logo.png'"
@@ -16,17 +21,17 @@ const isOpen = ref(false)
           height="237"
           fetchpriority="high"
         >
-      </a>
+      </NuxtLink>
 
       <div class="hidden items-center gap-8 md:flex">
-        <a
+        <NuxtLink
           v-for="item in navigationItems"
-          :key="item.href"
-          :href="item.href"
+          :key="item.to"
+          :to="item.to"
           class="text-sm font-extrabold uppercase tracking-wide text-core-ink/78 transition hover:text-core-ink"
         >
           {{ item.label }}
-        </a>
+        </NuxtLink>
       </div>
 
       <button
@@ -43,15 +48,14 @@ const isOpen = ref(false)
 
     <div v-if="isOpen" id="mobile-navigation" class="border-t border-core-line bg-white md:hidden">
       <div class="section-shell grid gap-1 py-4">
-        <a
+        <NuxtLink
           v-for="item in navigationItems"
-          :key="item.href"
-          :href="item.href"
+          :key="item.to"
+          :to="item.to"
           class="rounded-md px-3 py-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
-          @click="isOpen = false"
         >
           {{ item.label }}
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </header>

@@ -18,11 +18,13 @@ import { services } from '~/data/landing'
       <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         <FeatureCard
           v-for="(service, index) in services"
-          :key="service.title"
+          :key="service.slug"
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 40, duration: 820 }"
           :title="service.title"
           :description="service.description"
           :proof="service.proof"
+          :icon="service.icon"
+          :to="`/servicios/${service.slug}`"
           :index="index"
         />
       </div>

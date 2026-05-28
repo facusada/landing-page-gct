@@ -4,6 +4,7 @@ defineProps<{
   title: string
   description?: string
   align?: 'left' | 'center'
+  dark?: boolean
 }>()
 </script>
 
@@ -12,10 +13,17 @@ defineProps<{
     <p v-if="eyebrow" class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">
       {{ eyebrow }}
     </p>
-    <h2 class="mt-3 font-display text-3xl font-extrabold leading-tight text-core-ink md:text-5xl">
+    <h2
+      class="mt-3 font-display text-3xl font-extrabold leading-tight md:text-5xl"
+      :class="dark ? 'text-white' : 'text-core-ink'"
+    >
       {{ title }}
     </h2>
-    <p v-if="description" class="mt-4 text-lg leading-8 text-slate-600">
+    <p
+      v-if="description"
+      class="mt-4 text-lg leading-8"
+      :class="dark ? 'text-white/70' : 'text-slate-600'"
+    >
       {{ description }}
     </p>
   </div>
