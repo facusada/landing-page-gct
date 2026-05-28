@@ -4,7 +4,7 @@ import { clientLogos } from '~/data/landing'
 
 <template>
   <section id="clientes" class="relative overflow-hidden bg-white py-16 md:py-20">
-    <div class="absolute inset-0 bg-dot-grid opacity-60" aria-hidden="true" />
+    <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
     <div class="section-shell relative">
       <h2 v-reveal class="text-center font-display text-3xl font-extrabold md:text-5xl">Clientes que confían</h2>
       <p v-reveal="{ delay: 120, distance: 26 }" class="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-slate-600">
