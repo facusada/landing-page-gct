@@ -6,7 +6,7 @@ services:
     image: global-core-technologies-landing:local
     container_name: gct-landing
     ports:
-      - "${PORT:-3000}:3000"
+      - "${PORT_BINDING:-3000:3000}"
     env_file:
       - .env
     environment:
