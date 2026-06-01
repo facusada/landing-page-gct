@@ -14,3 +14,10 @@ services:
       HOST: 0.0.0.0
       PORT: ${PORT:-3000}
     restart: "no"
+    networks:
+      nginx_red_compartida:
+        ipv4_address: ${IPV4_ADDRESS}
+
+networks:
+  nginx_red_compartida:
+    external: true
