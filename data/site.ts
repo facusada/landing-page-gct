@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: 'Global Core Technologies',
   shortName: 'Global Core',
-  url: 'https://www.gctechs.com',
+  url: process.env.NUXT_PUBLIC_SITE_URL ?? 'https://www.gctechs.com',
   description:
     'Consultora especializada en SAP, seguridad, GRC, migración S/4HANA, operación AMS, cloud e innovación para empresas medianas y grandes.',
-  email: 'info@gctechs.com',
+  email: process.env.NUXT_PUBLIC_CONTACT_EMAIL ?? 'info@gctechs.com',
   phone: '+54 11 5697-2958',
   address: 'Bartolomé Mitre 797, 4to piso, CABA, Argentina',
   social: {

@@ -7,6 +7,12 @@ const serviceRoutes = services.map(s => `/servicios/${s.slug}`)
 const solutionRoutes = sapProducts.map(p => `/soluciones/${p.id}`)
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? 'https://www.gctechs.com',
+      contactEmail: process.env.NUXT_PUBLIC_CONTACT_EMAIL ?? 'info@gctechs.com'
+    }
+  },
   compatibilityDate: '2026-05-22',
   srcDir: '.',
   modules: ['@nuxtjs/tailwindcss'],
