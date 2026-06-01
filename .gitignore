@@ -11,4 +11,8 @@ coverage
 .DS_Store
 npm-debug.log*
 .vercel
-.claude/
+.claude/worktrees/
+.claude/settings.local.json
+.claude/projects/
+.claude/cache/
+.claude/history.jsonl
