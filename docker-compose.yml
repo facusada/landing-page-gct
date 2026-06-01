@@ -1,5 +1,5 @@
 services:
-  landing:
+  landing-page:
     build:
       context: .
       dockerfile: Dockerfile
