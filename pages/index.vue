@@ -2,7 +2,6 @@
 import AboutSection from '~/components/sections/AboutSection.vue'
 import ClientsSection from '~/components/sections/ClientsSection.vue'
 import ContactCtaSection from '~/components/sections/ContactCtaSection.vue'
-import DifferentiatorsSection from '~/components/sections/DifferentiatorsSection.vue'
 import HeroSection from '~/components/sections/HeroSection.vue'
 import IndustriesSection from '~/components/sections/IndustriesSection.vue'
 import SapProductsSection from '~/components/sections/SapProductsSection.vue'
@@ -37,7 +36,6 @@ useSeoMeta({
   <ServicesSection />
   <SapSolutionsSection />
   <SapProductsSection />
-  <DifferentiatorsSection />
   <IndustriesSection />
   <TechnologySection />
   <ClientsSection />

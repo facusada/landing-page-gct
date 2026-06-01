@@ -3,6 +3,10 @@ import ServiceIcon from '~/components/ui/ServiceIcon.vue'
 import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
+onMounted(() => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+})
+
 const pageTitle = 'Servicios SAP'
 const pageDescription = 'Ocho frentes de trabajo SAP: migración S/4HANA, implementación, seguridad GRC, soporte AMS, innovación, managed services, performance y Solution Manager.'
 
