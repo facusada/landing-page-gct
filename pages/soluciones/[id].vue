@@ -116,7 +116,7 @@ useHead({
           <img
             :src="product.detailImage"
             :alt="`Implementación de ${product.title}`"
-            class="relative rounded-xl shadow-premium object-cover w-full aspect-[4/3]"
+            :class="['relative rounded-xl shadow-premium w-full aspect-[4/3]', product.detailImage.endsWith('.svg') ? 'object-contain p-4' : 'object-cover']"
             loading="lazy"
           >
         </div>

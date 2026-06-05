@@ -15,13 +15,13 @@ import { sapProducts } from '~/data/sap-products'
         description="Como SAP Silver Partner, acompañamos a cada organización en la elección e implementación de la solución más adecuada para su tamaño y madurez digital."
       />
 
-      <div class="mt-14 grid gap-6 lg:grid-cols-3">
+      <div class="mt-14 grid gap-6 lg:grid-cols-6">
         <NuxtLink
           v-for="(product, index) in sapProducts"
           :key="product.id"
           :to="`/soluciones/${product.id}`"
           v-reveal="{ delay: Math.min(index * 130, 400), distance: 40, duration: 840 }"
-          class="group flex flex-col rounded-xl border border-core-line bg-white overflow-hidden shadow-[0_2px_12px_rgba(7,17,31,0.06)] transition duration-200 hover:-translate-y-1 hover:shadow-premium"
+          :class="['group flex flex-col rounded-xl border border-core-line bg-white overflow-hidden shadow-[0_2px_12px_rgba(7,17,31,0.06)] transition duration-200 hover:-translate-y-1 hover:shadow-premium lg:col-span-2', index === 3 ? 'lg:col-start-2' : '']"
         >
           <div class="p-7 flex-1 flex flex-col">
             <div class="mb-5 inline-flex items-center gap-2.5">

@@ -217,7 +217,7 @@ export const sapProducts: SapProduct[] = [
     ],
     minUsers: 'Por proyecto',
     heroImage: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=2000&q=80',
-    detailImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80'
+    detailImage: '/sap-btp.webp'
   },
   {
     id: 'integration-suite',
@@ -267,6 +267,6 @@ export const sapProducts: SapProduct[] = [
     ],
     minUsers: 'Por proyecto',
     heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80',
-    detailImage: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80'
+    detailImage: '/sap-integration-suite-graphic.svg'
   }
 ]
