@@ -29,6 +29,16 @@ export interface ServiceItem {
   proof: string
 }
 
+export interface ServiceModule {
+  title: string
+  slug: string
+  icon: string
+  description: string
+  benefit: string
+  capabilities: string[]
+  image: string
+}
+
 export interface DifferentiatorItem {
   value: string
   numericValue: number

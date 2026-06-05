@@ -1,4 +1,4 @@
-import type { ClientLogo, DifferentiatorItem, HeroContent, HeroSlide, IndustryItem, ServiceItem, TechnologyPillar } from '~/types/landing'
+import type { ClientLogo, DifferentiatorItem, HeroContent, HeroSlide, IndustryItem, ServiceItem, ServiceModule, TechnologyPillar } from '~/types/landing'
 
 export const hero: HeroContent = {
   eyebrow: 'SAP Silver Partner',
@@ -306,5 +306,132 @@ export const clientLogos: ClientLogo[] = [
     src: '/clients/hospital-universitario-austral.png',
     width: 1242,
     height: 381
+  }
+]
+
+export const serviceModules: ServiceModule[] = [
+  {
+    title: 'Transformación SAP',
+    slug: 'migracion-transformacion-sap',
+    icon: 'migration',
+    image: '/services/01_transformacion_sap.png',
+    description: 'Acompañamos la migración hacia S/4HANA y el cloud con metodología, gobierno y foco en continuidad operativa en cada etapa.',
+    benefit: 'Roadmap claro y riesgo controlado en cada fase de la transformación',
+    capabilities: [
+      'Migración SAP ECC → S/4HANA',
+      'RISE with SAP',
+      'SAP S/4HANA Public Cloud',
+      'SAP Cloud ERP Private',
+      'Assessment y Roadmap',
+      'Clean Core Strategy',
+      'Conversiones y Rollouts'
+    ]
+  },
+  {
+    title: 'Implementación SAP',
+    slug: 'implementacion-sap',
+    icon: 'implementation',
+    image: '/services/02_implementacion_sap.png',
+    description: 'Implementamos soluciones SAP con enfoque Clean Core, adopción real y trazabilidad de extremo a extremo en proyectos de cualquier escala.',
+    benefit: 'Sistema en producción adoptado por los usuarios desde el día uno',
+    capabilities: [
+      'SAP S/4HANA',
+      'SAP Business One',
+      'SAP SuccessFactors',
+      'SAP Analytics Cloud',
+      'SAP Ariba',
+      'SAP IBP',
+      'SAP EWM',
+      'SAP Commerce Cloud',
+      'SAP BTP'
+    ]
+  },
+  {
+    title: 'Seguridad y Compliance SAP',
+    slug: 'seguridad-sap-grc',
+    icon: 'security',
+    image: '/services/03_seguridad_compliance_sap.png',
+    description: 'Gobierno de accesos, segregación de funciones y compliance continuo para entornos SAP auditables y alineados a regulaciones.',
+    benefit: 'Controles que pasan auditorías y reducen el riesgo de fraude interno',
+    capabilities: [
+      'SAP GRC',
+      'Segregación de Funciones (SoD)',
+      'Gestión de accesos',
+      'Auditoría SAP',
+      'Compliance regulatorio',
+      'Seguridad SAP BTP'
+    ]
+  },
+  {
+    title: 'Operación y Soporte SAP',
+    slug: 'operacion-soporte-ams',
+    icon: 'support',
+    image: '/services/04_operacion_soporte_sap.png',
+    description: 'Soporte funcional y técnico con SLAs comprometidos para mantener la plataforma SAP estable, evolucionando y alineada al negocio.',
+    benefit: 'Continuidad operativa con equipo experto sin costo de contratación directa',
+    capabilities: [
+      'SAP AMS',
+      'SAP Basis',
+      'Gestión de incidentes',
+      'Gestión de cambios',
+      'Monitoreo operativo',
+      'Gestión de transportes',
+      'Certificados',
+      'Soporte funcional y técnico'
+    ]
+  },
+  {
+    title: 'Innovación SAP',
+    slug: 'innovacion-sap',
+    icon: 'innovation',
+    image: '/services/05_innovacion_sap.png',
+    description: 'Llevamos inteligencia artificial, automatización y analítica avanzada al ecosistema SAP con resultados medibles sobre datos reales.',
+    benefit: 'Valor nuevo sobre procesos existentes con tiempo de adopción reducido',
+    capabilities: [
+      'SAP BTP',
+      'SAP Build',
+      'SAP Integration Suite',
+      'SAP Joule',
+      'Inteligencia Artificial',
+      'Automatización',
+      'APIs',
+      'Analítica avanzada'
+    ]
+  },
+  {
+    title: 'SAP Managed Services',
+    slug: 'sap-techs-managed-services',
+    icon: 'managed',
+    image: '/services/06_sap_managed_services.png',
+    description: 'Gestión integral de la capa técnica SAP — Basis, HANA, monitoreo 24x7 y evolución controlada de la plataforma sin interrupciones.',
+    benefit: 'Mayor disponibilidad con plataforma siempre actualizada y segura',
+    capabilities: [
+      'Administración SAP Basis',
+      'Administración SAP HANA',
+      'SAP Cloud ALM',
+      'SAP Solution Manager',
+      'Actualizaciones',
+      'Performance Tuning',
+      'Capacity Planning',
+      'Monitoreo 24x7'
+    ]
+  },
+  {
+    title: 'Performance & Optimization',
+    slug: 'sap-performance-services',
+    icon: 'performance',
+    image: '/services/07_performance_optimization.png',
+    description: 'Diagnóstico y optimización técnica de entornos SAP para mejorar rendimiento, tiempos de respuesta y eficiencia de la plataforma.',
+    benefit: 'Usuarios más productivos y operaciones batch sin cuellos de botella',
+    capabilities: [
+      'Performance SAP',
+      'Optimización HANA',
+      'Ajuste de parámetros',
+      'ST03N',
+      'STAD',
+      'ST22',
+      'Jobs Batch',
+      'Capacity Management'
+    ]
   }
 ]
