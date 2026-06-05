@@ -37,7 +37,9 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'canonical', href: siteConfig.url },
-        { rel: 'icon', href: '/global-core-logo.png', type: 'image/png' }
+        { rel: 'icon', href: '/favicon.png', type: 'image/png', sizes: '512x512' },
+        { rel: 'shortcut icon', href: '/favicon.png' },
+        { rel: 'apple-touch-icon', href: '/favicon.png' }
       ],
       script: [
         {

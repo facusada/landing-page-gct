@@ -5,10 +5,8 @@ import ContactCtaSection from '~/components/sections/ContactCtaSection.vue'
 import HeroSection from '~/components/sections/HeroSection.vue'
 import IndustriesSection from '~/components/sections/IndustriesSection.vue'
 import SapProductsSection from '~/components/sections/SapProductsSection.vue'
-import SapSolutionsSection from '~/components/sections/SapSolutionsSection.vue'
 import ServicesSection from '~/components/sections/ServicesSection.vue'
 import TechnologySection from '~/components/sections/TechnologySection.vue'
-import TestimonialsSection from '~/components/sections/TestimonialsSection.vue'
 import { siteConfig } from '~/data/site'
 
 const pageTitle = 'Consultoria SAP, seguridad GRC, cloud e AI'
@@ -33,12 +31,10 @@ useSeoMeta({
 <template>
   <HeroSection />
   <AboutSection />
-  <ServicesSection />
-  <SapSolutionsSection />
   <SapProductsSection />
+  <ServicesSection />
   <IndustriesSection />
   <TechnologySection />
   <ClientsSection />
-  <TestimonialsSection />
   <ContactCtaSection />
 </template>

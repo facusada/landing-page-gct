@@ -21,9 +21,9 @@ export const heroSlides: HeroSlide[] = [
     label: 'Infraestructura cloud y continuidad operativa'
   },
   {
-    src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2400&q=80',
-    alt: 'Equipo profesional en reunión de trabajo y planificación de proyectos',
-    label: 'Equipos especializados y gobierno de proyectos'
+    src: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=2400&q=80',
+    alt: 'Inteligencia artificial y automatización aplicada a procesos empresariales',
+    label: 'Inteligencia artificial y automatización empresarial'
   },
   {
     src: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=2400&q=80',

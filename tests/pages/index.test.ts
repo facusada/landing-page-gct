@@ -9,17 +9,14 @@ import ContactCtaSection from '../../components/sections/ContactCtaSection.vue'
 import DifferentiatorsSection from '../../components/sections/DifferentiatorsSection.vue'
 import HeroSection from '../../components/sections/HeroSection.vue'
 import IndustriesSection from '../../components/sections/IndustriesSection.vue'
-import SapSolutionsSection from '../../components/sections/SapSolutionsSection.vue'
 import ServicesSection from '../../components/sections/ServicesSection.vue'
 import TechnologySection from '../../components/sections/TechnologySection.vue'
-import TestimonialsSection from '../../components/sections/TestimonialsSection.vue'
 import AnimatedCounter from '../../components/ui/AnimatedCounter.vue'
 import BaseButton from '../../components/ui/BaseButton.vue'
 import FeatureCard from '../../components/ui/FeatureCard.vue'
 import SectionHeading from '../../components/ui/SectionHeading.vue'
 import ServiceIcon from '../../components/ui/ServiceIcon.vue'
 import TabPanel from '../../components/ui/TabPanel.vue'
-import TestimonialCard from '../../components/ui/TestimonialCard.vue'
 import IndexPage from '../../pages/index.vue'
 import { services } from '../../data/landing'
 
@@ -63,14 +60,11 @@ const globalComponents = {
   FeatureCard,
   HeroSection,
   IndustriesSection,
-  SapSolutionsSection,
   SectionHeading,
   ServiceIcon,
   ServicesSection,
   TabPanel,
-  TechnologySection,
-  TestimonialCard,
-  TestimonialsSection
+  TechnologySection
 }
 
 describe('home page', () => {
@@ -88,8 +82,6 @@ describe('home page', () => {
     expect(wrapper.text()).toContain('Servicios SAP')
     expect(wrapper.text()).toContain('Clientes que confían')
     expect(wrapper.text()).toContain('Tu estrategia SAP')
-    expect(wrapper.text()).toContain('Soluciones SAP')
-    expect(wrapper.text()).toContain('Testimonios')
   })
 
   it('renders every configured service', () => {

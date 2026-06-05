@@ -20,13 +20,63 @@ export interface SapProduct {
 
 export const sapProducts: SapProduct[] = [
   {
+    id: 's4hana',
+    badge: 'S/4HANA',
+    title: 'SAP S/4HANA',
+    subtitle: 'ERP para grandes empresas',
+    description: 'El ERP inteligente de SAP para grandes organizaciones: procesos end-to-end integrados, tiempo real sobre HANA y transformación digital a escala.',
+    longDescription:
+      'SAP S/4HANA es el ERP de nueva generación diseñado para grandes empresas que necesitan operar con visibilidad total, velocidad y capacidad de adaptación. Construido sobre la base de datos en memoria SAP HANA, elimina las capas de agregación y permite decisiones en tiempo real sobre toda la cadena de valor: finanzas, supply chain, manufactura, compras y ventas. Global Core Technologies acompaña proyectos S/4HANA con metodología probada en entornos de alta criticidad, desde el diseño de la arquitectura objetivo hasta la estabilización post-arranque, con foco en continuidad operativa y adopción real.',
+    features: [
+      {
+        title: 'Finanzas en tiempo real',
+        description: 'SAP Universal Journal unifica contabilidad financiera y de gestión en un único modelo de datos sin reconciliaciones.',
+        icon: 'M12 2v20M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6'
+      },
+      {
+        title: 'Supply chain integrada',
+        description: 'Planificación, aprovisionamiento, gestión de inventario y logística de distribución en una plataforma unificada.',
+        icon: 'M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0zM13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2-2h8zM8 11h7m0 0l-3-3m3 3l-3 3'
+      },
+      {
+        title: 'Manufactura y producción',
+        description: 'MRP, órdenes de producción, control de planta y gestión de calidad integrados con finanzas y logística.',
+        icon: 'M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z'
+      },
+      {
+        title: 'Ventas y gestión de clientes',
+        description: 'Order-to-cash completo con pricing avanzado, available-to-promise y facturación integrada.',
+        icon: 'M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75'
+      },
+      {
+        title: 'Analítica embebida',
+        description: 'SAP Fiori apps con analítica en tiempo real sobre datos operativos sin necesidad de sistemas BI separados.',
+        icon: 'M18 20V10M12 20V4M6 20v-6'
+      },
+      {
+        title: 'Extensibilidad Clean Core',
+        description: 'Extensiones side-by-side vía SAP BTP que permiten adaptaciones sin comprometer las actualizaciones estándar.',
+        icon: 'M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4'
+      }
+    ],
+    useCases: [
+      'Grandes empresas que migran desde SAP ECC y necesitan un roadmap de transformación controlado',
+      'Organizaciones con operaciones regionales o multi-país que requieren un landscape SAP unificado',
+      'Empresas de industria, energía o retail que necesitan procesos end-to-end integrados en tiempo real',
+      'Equipos de finanzas que requieren cierre contable acelerado y reportería de gestión unificada'
+    ],
+    minUsers: 'Grandes organizaciones',
+    heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80',
+    detailImage: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80'
+  },
+  {
     id: 'cloud-erp',
-    badge: 'Cloud ERP',
-    title: 'SAP Cloud ERP',
+    badge: 'S/4HANA Public Cloud',
+    title: 'SAP S/4HANA Public Cloud',
     subtitle: 'GROW with SAP',
     description: 'Modernizá tu gestión empresarial con GROW with SAP: un ERP en la nube con mejores prácticas de la industria, actualizaciones automáticas e innovación continua.',
     longDescription:
-      'SAP Cloud ERP con GROW with SAP es la solución ideal para empresas medianas que buscan crecer con un ERP moderno sin la complejidad de implementaciones on-premise. Adoptás las mejores prácticas de la industria desde el primer día, con un modelo de suscripción predecible y actualizaciones automáticas que mantienen tu plataforma siempre actualizada. Global Core Technologies acompaña cada etapa de la adopción — desde el diseño del proceso hasta la estabilización post-arranque — garantizando que tu equipo opere con confianza y tus datos sean confiables desde el día uno.',
+      'SAP S/4HANA Public Cloud con GROW with SAP es la solución ideal para empresas medianas que buscan crecer con un ERP moderno sin la complejidad de implementaciones on-premise. Adoptás las mejores prácticas de la industria desde el primer día, con un modelo de suscripción predecible y actualizaciones automáticas que mantienen tu plataforma siempre actualizada. Global Core Technologies acompaña cada etapa de la adopción — desde el diseño del proceso hasta la estabilización post-arranque — garantizando que tu equipo opere con confianza y tus datos sean confiables desde el día uno.',
     features: [
       {
         title: 'Finanzas y contabilidad',
@@ -120,53 +170,103 @@ export const sapProducts: SapProduct[] = [
     detailImage: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=900&q=80'
   },
   {
-    id: 'business-one',
-    badge: 'Business One',
-    title: 'SAP Business One',
-    subtitle: 'ERP para PYMEs',
-    description: 'Solución ERP integral para PYMEs que centraliza finanzas, ventas, compras, inventario y operaciones en una sola plataforma ágil y accesible.',
+    id: 'btp',
+    badge: 'BTP',
+    title: 'SAP Business Technology Platform',
+    subtitle: 'Plataforma e innovación',
+    description: 'La plataforma tecnológica de SAP para desarrollar aplicaciones, automatizar procesos, integrar sistemas y aplicar inteligencia artificial sobre el ecosistema SAP.',
     longDescription:
-      'SAP Business One es la solución ERP de SAP diseñada específicamente para pequeñas y medianas empresas que necesitan visibilidad total de su operación en tiempo real. Centraliza finanzas, ventas, compras, inventario y producción en una única plataforma, eliminando los silos de información y los procesos manuales que frenan el crecimiento. Global Core Technologies implementa SAP Business One con un enfoque práctico orientado a la adopción real por parte de los equipos, asegurando que cada proceso quede configurado según la realidad operativa de tu empresa y que tu equipo esté capacitado para operar con autonomía.',
+      'SAP Business Technology Platform (BTP) es el hub de innovación que extiende y conecta el ecosistema SAP. Permite desarrollar aplicaciones low-code y pro-code, automatizar flujos de trabajo, integrar sistemas heterogéneos y aplicar capacidades de IA y machine learning sobre datos SAP en tiempo real. En Global Core Technologies usamos BTP para construir extensiones Clean Core que agregan valor sin comprometer las actualizaciones estándar, e integramos BTP en estrategias de transformación digital donde la plataforma opera como el tejido tecnológico que une ERP, datos y procesos de negocio.',
     features: [
       {
-        title: 'Gestión financiera y contabilidad',
-        description: 'Libro mayor, flujo de fondos, conciliaciones y reportes contables automáticos sin procesos manuales.',
-        icon: 'M12 2v20M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6'
+        title: 'Desarrollo de aplicaciones',
+        description: 'SAP Build Apps y SAP AppGyver para aplicaciones low-code, más CAP framework para desarrollo pro-code sobre Node.js y Java.',
+        icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4'
       },
       {
-        title: 'Ventas y gestión de clientes',
-        description: 'Presupuestos, pedidos, facturación electrónica y seguimiento del pipeline comercial.',
-        icon: 'M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z'
+        title: 'Automatización de procesos',
+        description: 'SAP Build Process Automation para workflows, RPA y formularios digitales sin necesidad de codificación compleja.',
+        icon: 'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15'
       },
       {
-        title: 'Compras y proveedores',
-        description: 'Solicitudes de compra, órdenes, recepción de mercadería y gestión de pagos a proveedores.',
-        icon: 'M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2m4-2H8a1 1 0 00-1 1v2a1 1 0 001 1h8a1 1 0 001-1V3a1 1 0 00-1-1zm-4 8H8m4 4H8m4-8H8'
+        title: 'Inteligencia artificial',
+        description: 'SAP AI Core y AI Launchpad para desplegar modelos de ML, Joule como copiloto de IA generativa sobre datos SAP.',
+        icon: 'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z'
       },
       {
-        title: 'Inventario y almacenes',
-        description: 'Control de stock en tiempo real, múltiples depósitos, trazabilidad por lote y número de serie.',
-        icon: 'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4'
+        title: 'Gestión de datos',
+        description: 'SAP Datasphere para federación, virtualización y gobierno de datos empresariales con visibilidad semántica.',
+        icon: 'M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4'
       },
       {
-        title: 'Producción y planificación',
-        description: 'Órdenes de producción, listas de materiales (BOM) y planificación de necesidades.',
-        icon: 'M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z'
+        title: 'Integración nativa',
+        description: 'SAP Integration Suite embebida para conectar sistemas SAP y no SAP con APIs, iFlows y eventos.',
+        icon: 'M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
       },
       {
-        title: 'Reportería y analítica',
-        description: 'Dashboard ejecutivo, informes predefinidos y Crystal Reports integrado para análisis profundo.',
+        title: 'Extensibilidad Clean Core',
+        description: 'Extensiones side-by-side que enriquecen S/4HANA sin tocar el core, garantizando compatibilidad con upgrades futuros.',
+        icon: 'M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4'
+      }
+    ],
+    useCases: [
+      'Organizaciones que necesitan extender S/4HANA con lógica de negocio propia sin modificar el core SAP',
+      'Empresas que quieren automatizar procesos transversales conectando SAP con sistemas de terceros',
+      'Equipos que buscan incorporar IA generativa y analítica avanzada sobre datos SAP en tiempo real',
+      'Proyectos de integración donde SAP debe conectarse con plataformas cloud, ERPs externos o marketplaces'
+    ],
+    minUsers: 'Por proyecto',
+    heroImage: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=2000&q=80',
+    detailImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    id: 'integration-suite',
+    badge: 'Integration Suite',
+    title: 'SAP Integration Suite',
+    subtitle: 'Integración SAP y no SAP',
+    description: 'Conectá tu landscape SAP con cualquier sistema externo mediante APIs, iFlows, eventos y automatizaciones — sin fricciones entre SAP y el resto del negocio.',
+    longDescription:
+      'SAP Integration Suite es la plataforma de integración empresarial de SAP que conecta aplicaciones cloud y on-premise, sistemas SAP y no SAP, con un enfoque unificado de APIs, mensajería, eventos y automatización. Incluye Cloud Integration para iFlows, API Management para ciclo de vida completo de APIs, Event Mesh para arquitecturas orientadas a eventos, e Integration Advisor para mappings estandarizados. Global Core Technologies diseña e implementa arquitecturas de integración que reducen la deuda técnica, estandarizan los flujos de datos y habilitan ecosistemas digitales donde SAP opera como el núcleo de una red conectada de sistemas.',
+    features: [
+      {
+        title: 'Cloud Integration (iFlows)',
+        description: 'Diseño y operación de flujos de integración entre SAP y sistemas externos con monitoreo en tiempo real.',
+        icon: 'M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
+      },
+      {
+        title: 'API Management',
+        description: 'Publicación, gobierno, seguridad y analítica del ciclo de vida completo de APIs empresariales.',
+        icon: 'M13 10V3L4 14h7v7l9-11h-7z'
+      },
+      {
+        title: 'Event Mesh',
+        description: 'Arquitecturas orientadas a eventos para desacoplar sistemas y habilitar flujos asincrónicos escalables.',
+        icon: 'M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18'
+      },
+      {
+        title: 'Open Connectors',
+        description: 'Conectores predefinidos para más de 170 aplicaciones de terceros: Salesforce, ServiceNow, Workday y más.',
+        icon: 'M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1'
+      },
+      {
+        title: 'Integration Advisor',
+        description: 'Generación asistida por IA de mappings y documentación para estándares B2B como EDI, ANSI X12 e IDOC.',
+        icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
+      },
+      {
+        title: 'Monitoreo y operación',
+        description: 'Dashboard centralizado de mensajes, alertas y trazabilidad end-to-end de todos los flujos de integración.',
         icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z'
       }
     ],
     useCases: [
-      'PYMEs que dan su primer paso hacia la gestión integrada y quieren un ERP confiable y respaldado por SAP',
-      'Empresas de distribución y comercio que necesitan control de inventario y trazabilidad en tiempo real',
-      'Organizaciones que superaron las capacidades de Excel y sistemas básicos de facturación',
-      'Compañías con múltiples unidades de negocio o sucursales que requieren visibilidad financiera unificada'
+      'Empresas con landscapes híbridos que necesitan conectar SAP on-premise con aplicaciones cloud de terceros',
+      'Organizaciones que buscan reemplazar integraciones punto a punto por una plataforma centralizada y auditable',
+      'Proyectos de migración a S/4HANA donde los flujos de integración deben rediseñarse o modernizarse',
+      'Negocios con intercambio B2B que requieren conectividad EDI estándar y rastreable con socios comerciales'
     ],
-    minUsers: 'Desde 5 usuarios',
-    heroImage: 'https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=2000&q=80',
-    detailImage: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80'
+    minUsers: 'Por proyecto',
+    heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80',
+    detailImage: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80'
   }
 ]

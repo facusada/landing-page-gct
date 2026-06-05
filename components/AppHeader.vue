@@ -15,7 +15,7 @@ watch(() => route.path, () => {
       <NuxtLink to="/" class="block" aria-label="Global Core Technologies inicio">
         <img
           class="h-12 w-auto"
-          :src="'/global-core-logo.png'"
+          :src="'/logo.png'"
           alt="Global Core Technologies"
           width="960"
           height="237"

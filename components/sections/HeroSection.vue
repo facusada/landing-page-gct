@@ -2,6 +2,16 @@
 import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import { differentiators, hero } from '~/data/landing'
+
+useHead({
+  script: [
+    {
+      src: 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js',
+      type: 'text/javascript',
+      tagPosition: 'bodyClose',
+    }
+  ]
+})
 </script>
 
 <template>
@@ -9,40 +19,77 @@ import { differentiators, hero } from '~/data/landing'
     <div class="hero-mesh absolute inset-0 -z-20" aria-hidden="true" />
     <div class="hero-grid absolute inset-0 -z-10 opacity-[0.04]" aria-hidden="true" />
 
-    <div class="section-shell grid min-h-[60vh] content-center py-14 md:min-h-[68vh] md:py-16 lg:min-h-[62vh]">
-      <div class="max-w-4xl drop-shadow-[0_10px_24px_rgba(0,0,0,0.35)]">
-        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 backdrop-blur-sm">
-          <span class="h-2 w-2 rounded-full bg-core-orange" />
-          <span class="text-sm font-bold text-white/90">{{ hero.eyebrow }}</span>
+    <div class="section-shell py-14 md:py-16 lg:py-20">
+      <div class="grid min-h-[60vh] items-center gap-10 lg:min-h-[62vh] lg:grid-cols-[1fr_420px] lg:gap-12 xl:grid-cols-[1fr_480px]">
+
+        <!-- Text content -->
+        <div class="drop-shadow-[0_10px_24px_rgba(0,0,0,0.35)]">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 backdrop-blur-sm">
+            <span class="h-2 w-2 rounded-full bg-core-orange" />
+            <span class="text-sm font-bold text-white/90">{{ hero.eyebrow }}</span>
+          </div>
+
+          <h1 class="font-display text-5xl font-extrabold leading-[1.02] md:text-7xl">
+            {{ hero.title }}
+          </h1>
+          <p class="mt-6 max-w-2xl text-xl leading-8 text-white/80 md:text-2xl md:leading-9">
+            {{ hero.description }}
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <BaseButton to="/contacto">{{ hero.primaryCta }}</BaseButton>
+            <BaseButton to="/servicios" variant="secondary">{{ hero.secondaryCta }}</BaseButton>
+          </div>
+
+          <div class="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
+            <AnimatedCounter
+              v-for="item in differentiators"
+              :key="item.label"
+              :value="item.numericValue"
+              :prefix="item.prefix ?? ''"
+              :suffix="item.suffix ?? ''"
+              :label="item.label"
+            />
+          </div>
         </div>
 
-        <h1 class="font-display text-5xl font-extrabold leading-[1.02] md:text-7xl">
-          {{ hero.title }}
-        </h1>
-        <p class="mt-6 max-w-2xl text-xl leading-8 text-white/86 md:text-2xl md:leading-9">
-          {{ hero.description }}
-        </p>
-        <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-          <BaseButton to="/contacto">{{ hero.primaryCta }}</BaseButton>
-          <BaseButton to="/servicios" variant="secondary">{{ hero.secondaryCta }}</BaseButton>
+        <!-- Lottie animation -->
+        <div class="flex items-center justify-center">
+          <ClientOnly>
+            <!-- @ts-ignore: lottie-player is a web component loaded via CDN -->
+            <lottie-player
+              src="/animations/hero.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              class="lottie-hero"
+            />
+            <template #fallback>
+              <div class="lottie-placeholder" />
+            </template>
+          </ClientOnly>
         </div>
-      </div>
 
-      <div class="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
-        <AnimatedCounter
-          v-for="item in differentiators"
-          :key="item.label"
-          :value="item.numericValue"
-          :prefix="item.prefix ?? ''"
-          :suffix="item.suffix ?? ''"
-          :label="item.label"
-        />
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.lottie-hero {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 33 / 20;
+  filter: drop-shadow(0 0 32px rgba(47, 184, 212, 0.25));
+}
+
+.lottie-placeholder {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 33 / 20;
+}
+
 .hero-mesh {
   background:
     radial-gradient(ellipse 80% 60% at 20% 80%, rgba(47, 184, 212, 0.18), transparent),
@@ -61,20 +108,13 @@ import { differentiators, hero } from '~/data/landing'
 }
 
 @keyframes meshDrift {
-  0%, 100% {
-    background-position: 0% 50%, 100% 50%, 0% 0%, 0% 0%;
-  }
-  33% {
-    background-position: 50% 0%, 50% 100%, 0% 0%, 0% 0%;
-  }
-  66% {
-    background-position: 100% 50%, 0% 50%, 0% 0%, 0% 0%;
-  }
+  0%, 100% { background-position: 0% 50%, 100% 50%, 0% 0%, 0% 0%; }
+  33%       { background-position: 50% 0%, 50% 100%, 0% 0%, 0% 0%; }
+  66%       { background-position: 100% 50%, 0% 50%, 0% 0%, 0% 0%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-mesh {
-    animation: none;
-  }
+  .hero-mesh { animation: none; }
+  lottie-player { display: none; }
 }
 </style>
