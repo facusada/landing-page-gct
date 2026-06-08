@@ -3,17 +3,19 @@ import ServiceIcon from '~/components/ui/ServiceIcon.vue'
 import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
+const { t } = useI18n()
+
 onMounted(() => {
   window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
 })
 
-const pageTitle = 'Servicios SAP'
-const pageDescription = 'Ocho frentes de trabajo SAP: migración S/4HANA, implementación, seguridad GRC, soporte AMS, innovación, managed services, performance y Solution Manager.'
+const pageTitle = computed(() => t('services.page.seoTitle'))
+const pageDescription = computed(() => t('services.page.seoDescription'))
 
 useSeoMeta({
   title: pageTitle,
   description: pageDescription,
-  ogTitle: `${pageTitle} | ${siteConfig.name}`,
+  ogTitle: computed(() => `${pageTitle.value} | ${siteConfig.name}`),
   ogDescription: pageDescription,
   ogType: 'website'
 })
@@ -40,16 +42,16 @@ useHead({
   <section class="bg-core-ink py-16 text-white md:py-20">
     <div class="section-shell">
       <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-        <NuxtLink to="/" class="hover:text-white">Inicio</NuxtLink>
+        <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
         <span class="mx-2">/</span>
-        <span class="text-white/90">Servicios</span>
+        <span class="text-white/90">{{ t('breadcrumb.services') }}</span>
       </nav>
-      <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">Lo que ofrecemos</p>
+      <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">{{ t('services.page.eyebrow') }}</p>
       <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl">
-        Servicios SAP para evolucionar sin perder control
+        {{ t('services.page.title') }}
       </h1>
       <p class="mt-4 max-w-3xl text-xl leading-8 text-white/80">
-        Ocho frentes de trabajo para organizaciones que necesitan transformar, asegurar y operar con continuidad.
+        {{ t('services.page.description') }}
       </p>
     </div>
   </section>
@@ -68,16 +70,16 @@ useHead({
             <ServiceIcon :name="service.icon" :size="24" />
           </div>
           <h2 class="font-display text-xl font-extrabold leading-snug text-core-ink">
-            {{ service.title }}
+            {{ t(`services.items.${service.slug}.title`) }}
           </h2>
           <p class="mt-4 flex-1 text-base leading-7 text-slate-600">
-            {{ service.description }}
+            {{ t(`services.items.${service.slug}.description`) }}
           </p>
           <p class="mt-6 border-t border-core-line pt-4 text-sm font-bold text-core-navy">
-            {{ service.proof }}
+            {{ t(`services.items.${service.slug}.proof`) }}
           </p>
           <p class="mt-4 text-sm font-bold text-core-orange transition group-hover:translate-x-1">
-            Ver detalle →
+            {{ t('services.detail.viewDetail') }}
           </p>
         </NuxtLink>
       </div>

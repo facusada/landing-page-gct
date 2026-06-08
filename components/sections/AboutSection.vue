@@ -1,7 +1,17 @@
 <script setup lang="ts">
 import SectionHeading from '~/components/ui/SectionHeading.vue'
 import TabPanel from '~/components/ui/TabPanel.vue'
-import { aboutTabs } from '~/data/about-tabs'
+import { aboutTabIds } from '~/data/about-tabs'
+
+const { t } = useI18n()
+
+const tabs = computed(() =>
+  aboutTabIds.map(id => ({
+    id,
+    label: t(`about.tabs.${id}.label`),
+    content: t(`about.tabs.${id}.content`)
+  }))
+)
 </script>
 
 <template>
@@ -10,12 +20,12 @@ import { aboutTabs } from '~/data/about-tabs'
     <div class="section-shell relative grid gap-12 md:grid-cols-[1.05fr_.95fr] md:items-start">
       <div v-reveal>
         <SectionHeading
-          eyebrow="Sobre nosotros"
-          title="Estrategia, seguridad y operación para ecosistemas SAP críticos"
+          :eyebrow="t('about.eyebrow')"
+          :title="t('about.title')"
         />
       </div>
       <div v-reveal="{ delay: 160 }">
-        <TabPanel :tabs="aboutTabs" />
+        <TabPanel :tabs="tabs" />
       </div>
     </div>
   </section>

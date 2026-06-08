@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
-import { differentiators, hero } from '~/data/landing'
+import { differentiators } from '~/data/landing'
+
+const { t } = useI18n()
 
 useHead({
   script: [
@@ -26,28 +28,28 @@ useHead({
         <div class="drop-shadow-[0_10px_24px_rgba(0,0,0,0.35)]">
           <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 backdrop-blur-sm">
             <span class="h-2 w-2 rounded-full bg-core-orange" />
-            <span class="text-sm font-bold text-white/90">{{ hero.eyebrow }}</span>
+            <span class="text-sm font-bold text-white/90">{{ t('hero.eyebrow') }}</span>
           </div>
 
           <h1 class="font-display text-5xl font-extrabold leading-[1.02] md:text-7xl">
-            {{ hero.title }}
+            {{ t('hero.title') }}
           </h1>
           <p class="mt-6 max-w-2xl text-xl leading-8 text-white/80 md:text-2xl md:leading-9">
-            {{ hero.description }}
+            {{ t('hero.description') }}
           </p>
           <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-            <BaseButton to="/contacto">{{ hero.primaryCta }}</BaseButton>
-            <BaseButton to="/servicios" variant="secondary">{{ hero.secondaryCta }}</BaseButton>
+            <BaseButton to="/contacto">{{ t('hero.primaryCta') }}</BaseButton>
+            <BaseButton to="/servicios" variant="secondary">{{ t('hero.secondaryCta') }}</BaseButton>
           </div>
 
           <div class="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
             <AnimatedCounter
               v-for="item in differentiators"
-              :key="item.label"
+              :key="item.id"
               :value="item.numericValue"
               :prefix="item.prefix ?? ''"
               :suffix="item.suffix ?? ''"
-              :label="item.label"
+              :label="t(`differentiators.${item.id}.label`)"
             />
           </div>
         </div>

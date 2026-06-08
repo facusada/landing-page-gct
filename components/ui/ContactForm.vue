@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { services } from '~/data/landing'
 
+const { t } = useI18n()
 const route = useRoute()
 const preselectedService = (route.query.servicio as string) ?? ''
 
@@ -20,13 +21,13 @@ const submitError = ref('')
 const validateField = (field: string) => {
   switch (field) {
     case 'name':
-      errors.name = form.name.trim().length < 2 ? 'El nombre debe tener al menos 2 caracteres.' : ''
+      errors.name = form.name.trim().length < 2 ? t('form.errors.name') : ''
       break
     case 'email':
-      errors.email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email) ? '' : 'Ingresá un email válido.'
+      errors.email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email) ? '' : t('form.errors.email')
       break
     case 'message':
-      errors.message = form.message.trim().length < 10 ? 'El mensaje debe tener al menos 10 caracteres.' : ''
+      errors.message = form.message.trim().length < 10 ? t('form.errors.message') : ''
       break
   }
 }
@@ -55,7 +56,7 @@ const handleSubmit = async () => {
     form.message = ''
     form.serviceInterest = ''
   } catch {
-    submitError.value = 'Hubo un error al enviar el formulario. Por favor intentá de nuevo.'
+    submitError.value = t('form.submitError')
   } finally {
     isSubmitting.value = false
   }
@@ -68,13 +69,13 @@ const handleSubmit = async () => {
       <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" />
       <path d="M22 4L12 14.01l-3-3" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
-    <h3 class="mt-4 font-display text-xl font-extrabold text-core-ink">Consulta enviada</h3>
-    <p class="mt-2 text-slate-600">Gracias por contactarnos. Un especialista se pondrá en contacto a la brevedad.</p>
+    <h3 class="mt-4 font-display text-xl font-extrabold text-core-ink">{{ t('form.success.title') }}</h3>
+    <p class="mt-2 text-slate-600">{{ t('form.success.message') }}</p>
   </div>
 
   <form v-else class="grid gap-6" @submit.prevent="handleSubmit" novalidate>
     <div>
-      <label for="contact-name" class="mb-1.5 block text-sm font-bold text-core-ink">Nombre *</label>
+      <label for="contact-name" class="mb-1.5 block text-sm font-bold text-core-ink">{{ t('form.name') }}</label>
       <input
         id="contact-name"
         v-model="form.name"
@@ -90,7 +91,7 @@ const handleSubmit = async () => {
     </div>
 
     <div>
-      <label for="contact-email" class="mb-1.5 block text-sm font-bold text-core-ink">Email *</label>
+      <label for="contact-email" class="mb-1.5 block text-sm font-bold text-core-ink">{{ t('form.email') }}</label>
       <input
         id="contact-email"
         v-model="form.email"
@@ -106,7 +107,7 @@ const handleSubmit = async () => {
     </div>
 
     <div>
-      <label for="contact-company" class="mb-1.5 block text-sm font-bold text-core-ink">Empresa</label>
+      <label for="contact-company" class="mb-1.5 block text-sm font-bold text-core-ink">{{ t('form.company') }}</label>
       <input
         id="contact-company"
         v-model="form.company"
@@ -117,21 +118,21 @@ const handleSubmit = async () => {
     </div>
 
     <div>
-      <label for="contact-service" class="mb-1.5 block text-sm font-bold text-core-ink">Servicio de interés</label>
+      <label for="contact-service" class="mb-1.5 block text-sm font-bold text-core-ink">{{ t('form.service') }}</label>
       <select
         id="contact-service"
         v-model="form.serviceInterest"
         class="w-full rounded-md border border-core-line px-4 py-3 text-base transition focus:border-core-blue focus:ring-2 focus:ring-core-blue/20 focus:outline-none"
       >
-        <option value="">Seleccionar servicio (opcional)</option>
+        <option value="">{{ t('form.servicePlaceholder') }}</option>
         <option v-for="service in services" :key="service.slug" :value="service.slug">
-          {{ service.title }}
+          {{ t(`services.items.${service.slug}.title`) }}
         </option>
       </select>
     </div>
 
     <div>
-      <label for="contact-message" class="mb-1.5 block text-sm font-bold text-core-ink">Mensaje *</label>
+      <label for="contact-message" class="mb-1.5 block text-sm font-bold text-core-ink">{{ t('form.message') }}</label>
       <textarea
         id="contact-message"
         v-model="form.message"
@@ -152,7 +153,7 @@ const handleSubmit = async () => {
       :disabled="isSubmitting"
       class="inline-flex min-h-11 items-center justify-center rounded-md bg-core-orange px-6 py-3 text-sm font-bold text-white shadow-lift transition duration-200 hover:bg-[#D9661F] disabled:opacity-60 disabled:cursor-not-allowed"
     >
-      {{ isSubmitting ? 'Enviando...' : 'Enviar consulta' }}
+      {{ isSubmitting ? t('form.submitting') : t('form.submit') }}
     </button>
   </form>
 </template>

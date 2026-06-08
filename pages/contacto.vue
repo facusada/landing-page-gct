@@ -2,13 +2,15 @@
 import ContactForm from '~/components/ui/ContactForm.vue'
 import { siteConfig } from '~/data/site'
 
-const pageTitle = 'Contacto'
-const pageDescription = 'Contactá a Global Core Technologies para consultoría SAP, seguridad GRC, migración S/4HANA y soporte AMS.'
+const { t } = useI18n()
+
+const pageTitle = computed(() => t('contactPage.seoTitle'))
+const pageDescription = computed(() => t('contactPage.seoDescription'))
 
 useSeoMeta({
   title: pageTitle,
   description: pageDescription,
-  ogTitle: `${pageTitle} | ${siteConfig.name}`,
+  ogTitle: computed(() => `${pageTitle.value} | ${siteConfig.name}`),
   ogDescription: pageDescription,
   ogType: 'website'
 })
@@ -35,16 +37,16 @@ useHead({
   <section class="bg-core-ink py-16 text-white md:py-20">
     <div class="section-shell">
       <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-        <NuxtLink to="/" class="hover:text-white">Inicio</NuxtLink>
+        <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
         <span class="mx-2">/</span>
-        <span class="text-white/90">Contacto</span>
+        <span class="text-white/90">{{ t('contactPage.breadcrumb') }}</span>
       </nav>
-      <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">Próximo paso</p>
+      <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">{{ t('contactPage.hero.eyebrow') }}</p>
       <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl">
-        Hablemos de tu entorno SAP
+        {{ t('contactPage.hero.title') }}
       </h1>
       <p class="mt-4 max-w-3xl text-xl leading-8 text-white/80">
-        Dejanos tu consulta y un especialista de nuestro equipo se pondrá en contacto con vos.
+        {{ t('contactPage.hero.description') }}
       </p>
     </div>
   </section>
@@ -52,18 +54,18 @@ useHead({
   <section class="bg-core-mist py-16 md:py-24">
     <div class="section-shell grid gap-16 lg:grid-cols-[1fr_1.2fr]">
       <div v-reveal>
-        <h2 class="font-display text-2xl font-extrabold text-core-ink">Información de contacto</h2>
+        <h2 class="font-display text-2xl font-extrabold text-core-ink">{{ t('contactPage.info.title') }}</h2>
         <address class="mt-6 grid gap-5 not-italic text-slate-600">
           <div>
-            <p class="text-sm font-bold uppercase tracking-wide text-core-ink">Email</p>
+            <p class="text-sm font-bold uppercase tracking-wide text-core-ink">{{ t('contactPage.info.email') }}</p>
             <a class="mt-1 block hover:text-core-orange" :href="`mailto:${siteConfig.email}`">{{ siteConfig.email }}</a>
           </div>
           <div>
-            <p class="text-sm font-bold uppercase tracking-wide text-core-ink">Teléfono</p>
+            <p class="text-sm font-bold uppercase tracking-wide text-core-ink">{{ t('contactPage.info.phone') }}</p>
             <a class="mt-1 block hover:text-core-orange" :href="`tel:${siteConfig.phone.replaceAll(' ', '')}`">{{ siteConfig.phone }}</a>
           </div>
           <div>
-            <p class="text-sm font-bold uppercase tracking-wide text-core-ink">Oficina</p>
+            <p class="text-sm font-bold uppercase tracking-wide text-core-ink">{{ t('contactPage.info.office') }}</p>
             <p class="mt-1">{{ siteConfig.address }}</p>
           </div>
         </address>
@@ -81,8 +83,8 @@ useHead({
       </div>
 
       <div v-reveal="{ delay: 150 }" class="rounded-xl border border-core-line bg-white p-8 shadow-premium">
-        <h2 class="font-display text-2xl font-extrabold text-core-ink">Envianos tu consulta</h2>
-        <p class="mt-2 mb-6 text-slate-600">Completá el formulario y te respondemos a la brevedad.</p>
+        <h2 class="font-display text-2xl font-extrabold text-core-ink">{{ t('contactPage.form.title') }}</h2>
+        <p class="mt-2 mb-6 text-slate-600">{{ t('contactPage.form.description') }}</p>
         <ContactForm />
       </div>
     </div>

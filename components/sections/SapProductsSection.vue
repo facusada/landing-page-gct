@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import SectionHeading from '~/components/ui/SectionHeading.vue'
 import { sapProducts } from '~/data/sap-products'
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -10,9 +12,9 @@ import { sapProducts } from '~/data/sap-products'
       <SectionHeading
         v-reveal
         align="center"
-        eyebrow="Portfolio SAP"
-        title="Soluciones SAP que implementamos"
-        description="Como SAP Silver Partner, acompañamos a cada organización en la elección e implementación de la solución más adecuada para su tamaño y madurez digital."
+        :eyebrow="t('portfolio.eyebrow')"
+        :title="t('portfolio.title')"
+        :description="t('portfolio.description')"
       />
 
       <div class="mt-14 grid gap-6 lg:grid-cols-6">
@@ -28,16 +30,16 @@ import { sapProducts } from '~/data/sap-products'
               <div class="flex items-center justify-center rounded-[5px] bg-[#1872CE] px-2 py-0.5">
                 <span class="font-display text-[13px] font-extrabold leading-5 tracking-wide text-white">SAP</span>
               </div>
-              <span class="font-display text-base font-bold text-core-ink">{{ product.badge }}</span>
+              <span class="font-display text-base font-bold text-core-ink">{{ t(`portfolio.products.${product.id}.badge`) }}</span>
             </div>
 
-            <h3 class="font-display text-2xl font-extrabold text-core-ink">{{ product.title }}</h3>
-            <p class="mt-3 text-base leading-7 text-slate-600 flex-1">{{ product.description }}</p>
+            <h3 class="font-display text-2xl font-extrabold text-core-ink">{{ t(`portfolio.products.${product.id}.title`) }}</h3>
+            <p class="mt-3 text-base leading-7 text-slate-600 flex-1">{{ t(`portfolio.products.${product.id}.description`) }}</p>
           </div>
 
           <div class="flex items-center justify-between border-t border-core-line px-7 py-4">
-            <span class="text-sm font-bold text-slate-500">{{ product.minUsers }}</span>
-            <span class="text-sm font-bold text-[#1872CE] transition group-hover:translate-x-1">Ver detalle →</span>
+            <span class="text-sm font-bold text-slate-500">{{ t(`portfolio.products.${product.id}.minUsers`) }}</span>
+            <span class="text-sm font-bold text-[#1872CE] transition group-hover:translate-x-1">{{ t('portfolio.viewDetail') }}</span>
           </div>
 
           <div class="h-1 bg-[#1872CE]" />

@@ -1,62 +1,33 @@
 export interface NavigationItem {
-  label: string
+  key: string
   to: string
-  href?: string
-}
-
-export interface HeroContent {
-  eyebrow: string
-  title: string
-  description: string
-  primaryCta: string
-  secondaryCta: string
-}
-
-export interface HeroSlide {
-  src: string
-  alt: string
-  label: string
 }
 
 export interface ServiceItem {
-  title: string
   slug: string
   icon: string
-  description: string
-  longDescription: string
-  features: string[]
-  benefits: string[]
-  proof: string
 }
 
 export interface ServiceModule {
-  title: string
   slug: string
   icon: string
-  description: string
-  benefit: string
-  capabilities: string[]
   image: string
 }
 
 export interface DifferentiatorItem {
-  value: string
+  id: string
   numericValue: number
   prefix?: string
   suffix?: string
-  label: string
-  detail: string
 }
 
 export interface IndustryItem {
-  name: string
+  id: string
   icon: string
-  description: string
 }
 
 export interface TechnologyPillar {
-  title: string
-  description: string
+  id: string
   tags: string[]
   accent: string
 }
@@ -67,6 +38,12 @@ export interface ClientLogo {
   width?: number
   height?: number
   tone?: 'light' | 'dark'
+}
+
+export interface TabItem {
+  id: string
+  label: string
+  content: string
 }
 
 export interface TestimonialItem {
@@ -83,12 +60,6 @@ export interface SapSolutionItem {
   features: string[]
   cta: string
   ctaTo: string
-}
-
-export interface TabItem {
-  id: string
-  label: string
-  content: string
 }
 
 export interface ContactFormData {

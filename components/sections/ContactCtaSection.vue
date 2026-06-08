@@ -2,6 +2,7 @@
 import BaseButton from '~/components/ui/BaseButton.vue'
 import { useParallax } from '~/composables/useParallax'
 
+const { t } = useI18n()
 const imgRef = ref<HTMLElement | null>(null) as Ref<HTMLElement | null>
 useParallax(imgRef, 0.1)
 </script>
@@ -17,15 +18,15 @@ useParallax(imgRef, 0.1)
     >
     <div class="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(255,255,255,.96),rgba(255,255,255,.86))]" />
     <div v-reveal class="section-shell max-w-4xl text-center">
-      <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">Próximo paso</p>
+      <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('contactCta.eyebrow') }}</p>
       <h2 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl">
-        Tu estrategia SAP debería estar alineada al crecimiento del negocio
+        {{ t('contactCta.title') }}
       </h2>
       <p class="mx-auto mt-5 max-w-2xl text-xl leading-8 text-slate-700">
-        Revisemos migración, seguridad y operación con un enfoque que reduzca riesgos y habilite una evolución sostenible.
+        {{ t('contactCta.description') }}
       </p>
       <div class="mt-8">
-        <BaseButton to="/contacto">Contactar a Global Core</BaseButton>
+        <BaseButton to="/contacto">{{ t('contactCta.cta') }}</BaseButton>
       </div>
     </div>
   </section>

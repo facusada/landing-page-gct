@@ -2,6 +2,8 @@
 import SectionHeading from '~/components/ui/SectionHeading.vue'
 import { industries } from '~/data/landing'
 
+const { t } = useI18n()
+
 const iconPaths: Record<string, string> = {
   bolt: 'M13 2L3 14h9l-1 10 10-12h-9l1-10z',
   factory: 'M2 20V8l5 4V8l5 4V4l4 4h4v12H2zM6 16h3v4H6v-4zm5 0h3v4h-3v-4z',
@@ -16,14 +18,14 @@ const iconPaths: Record<string, string> = {
     <div class="section-shell relative grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
       <SectionHeading
         v-reveal
-        eyebrow="Industrias"
-        title="Experiencia para empresas con operaciones exigentes"
-        description="El foco está en sectores donde SAP, seguridad, auditoría y continuidad operativa impactan directamente en el negocio."
+        :eyebrow="t('industries.eyebrow')"
+        :title="t('industries.title')"
+        :description="t('industries.description')"
       />
       <div class="grid gap-4 sm:grid-cols-2">
         <article
           v-for="(industry, index) in industries"
-          :key="industry.name"
+          :key="industry.id"
           v-reveal="{ delay: Math.min(index * 110, 420), distance: 38, duration: 820 }"
           class="group rounded-xl border border-core-line p-6 transition duration-200 hover:border-core-orange/40 hover:shadow-lift"
         >
@@ -32,8 +34,8 @@ const iconPaths: Record<string, string> = {
               <path :d="iconPaths[industry.icon] ?? iconPaths.shield" />
             </svg>
           </div>
-          <h3 class="font-display text-xl font-extrabold">{{ industry.name }}</h3>
-          <p class="mt-3 leading-7 text-slate-600">{{ industry.description }}</p>
+          <h3 class="font-display text-xl font-extrabold">{{ t(`industries.items.${industry.id}.name`) }}</h3>
+          <p class="mt-3 leading-7 text-slate-600">{{ t(`industries.items.${industry.id}.description`) }}</p>
         </article>
       </div>
     </div>

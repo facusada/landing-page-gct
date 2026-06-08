@@ -3,6 +3,7 @@ import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import { differentiators } from '~/data/landing'
 import { useParallax } from '~/composables/useParallax'
 
+const { t } = useI18n()
 const bgRef = ref<HTMLElement | null>(null) as Ref<HTMLElement | null>
 useParallax(bgRef, 0.08)
 </script>
@@ -13,13 +14,13 @@ useParallax(bgRef, 0.08)
     <div class="section-shell relative grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       <AnimatedCounter
         v-for="item in differentiators"
-        :key="item.label"
+        :key="item.id"
         v-reveal="{ delay: 0, distance: 38, duration: 820 }"
         :value="item.numericValue"
         :prefix="item.prefix ?? ''"
         :suffix="item.suffix ?? ''"
-        :label="item.label"
-        :detail="item.detail"
+        :label="t(`differentiators.${item.id}.label`)"
+        :detail="t(`differentiators.${item.id}.detail`)"
       />
     </div>
   </section>

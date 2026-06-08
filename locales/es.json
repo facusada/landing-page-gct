@@ -1,0 +1,427 @@
+{
+  "layout": {
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "nav": {
+    "ariaLabel": "Navegacion principal",
+    "logoAriaLabel": "Global Core Technologies inicio",
+    "openMenu": "Abrir menu de navegacion",
+    "items": {
+      "about": "Nosotros",
+      "services": "Servicios",
+      "technology": "Tecnología",
+      "clients": "Clientes",
+      "contact": "Contacto"
+    }
+  },
+  "footer": {
+    "tagline": "Consultoría SAP, seguridad y evolución digital para organizaciones que necesitan operar con control, continuidad y capacidad de cambio.",
+    "sapPartner": "SAP Silver Partner",
+    "headings": {
+      "services": "Servicios",
+      "links": "Enlaces",
+      "contact": "Contacto"
+    },
+    "viewAll": "Ver todos →",
+    "links": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "technology": "Tecnología",
+      "clients": "Clientes",
+      "contact": "Contacto"
+    },
+    "copyright": "© 2026 Global Core Technologies. Todos los derechos reservados."
+  },
+  "hero": {
+    "eyebrow": "SAP Silver Partner",
+    "title": "Consultoría SAP, seguridad y evolución digital",
+    "description": "Acompañamos a empresas medianas y grandes a modernizar, asegurar y operar sus plataformas SAP con criterio estratégico, foco en riesgo y ejecución medible.",
+    "primaryCta": "Hablemos de tu entorno SAP",
+    "secondaryCta": "Ver servicios"
+  },
+  "differentiators": {
+    "years": {
+      "label": "años de experiencia",
+      "detail": "Trayectoria en entornos SAP de alta criticidad."
+    },
+    "projects": {
+      "label": "proyectos finalizados",
+      "detail": "Implementaciones, migraciones, seguridad y soporte."
+    },
+    "professionals": {
+      "label": "profesionales",
+      "detail": "Equipos especializados por dominio funcional y técnico."
+    },
+    "hours": {
+      "label": "horas de servicio",
+      "detail": "Operación continua para clientes regionales."
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Estrategia, seguridad y operación para ecosistemas SAP críticos",
+    "tabs": {
+      "about": {
+        "label": "Sobre nosotros",
+        "content": "Global Core Technologies combina consultoría funcional, arquitectura técnica y gobierno de riesgo para que cada evolución SAP llegue con control, adopción y continuidad. Trabajamos con empresas medianas y grandes que operan en sectores exigentes donde SAP es la columna vertebral de sus operaciones."
+      },
+      "mission": {
+        "label": "Misión",
+        "content": "Acompañar a organizaciones en la evolución de sus plataformas SAP con un enfoque que prioriza la reducción de riesgo, la continuidad operativa y la generación de valor medible. Creemos que la tecnología tiene que estar al servicio del negocio, no al revés."
+      },
+      "vision": {
+        "label": "Visión",
+        "content": "Ser el referente regional en consultoría SAP de alta criticidad, reconocidos por la calidad técnica, el compromiso con los resultados y la capacidad de transformar entornos complejos en plataformas estables, seguras y evolutivas."
+      },
+      "team": {
+        "label": "Equipo",
+        "content": "Más de 50 profesionales especializados por dominio: consultores funcionales, arquitectos SAP Basis, especialistas en seguridad y GRC, y líderes de proyecto con experiencia en implementaciones regionales. Cada equipo se configura según las necesidades del proyecto."
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio SAP",
+    "title": "Soluciones SAP que implementamos",
+    "description": "Como SAP Silver Partner, acompañamos a cada organización en la elección e implementación de la solución más adecuada para su tamaño y madurez digital.",
+    "viewDetail": "Ver detalle →",
+    "products": {
+      "s4hana": {
+        "badge": "S/4HANA",
+        "title": "SAP S/4HANA",
+        "subtitle": "ERP para grandes empresas",
+        "description": "El ERP inteligente de SAP para grandes organizaciones: procesos end-to-end integrados, tiempo real sobre HANA y transformación digital a escala.",
+        "longDescription": "SAP S/4HANA es el ERP de nueva generación diseñado para grandes empresas que necesitan operar con visibilidad total, velocidad y capacidad de adaptación. Construido sobre la base de datos en memoria SAP HANA, elimina las capas de agregación y permite decisiones en tiempo real sobre toda la cadena de valor: finanzas, supply chain, manufactura, compras y ventas. Global Core Technologies acompaña proyectos S/4HANA con metodología probada en entornos de alta criticidad, desde el diseño de la arquitectura objetivo hasta la estabilización post-arranque, con foco en continuidad operativa y adopción real.",
+        "minUsers": "Grandes organizaciones",
+        "features": [
+          { "title": "Finanzas en tiempo real", "description": "SAP Universal Journal unifica contabilidad financiera y de gestión en un único modelo de datos sin reconciliaciones." },
+          { "title": "Supply chain integrada", "description": "Planificación, aprovisionamiento, gestión de inventario y logística de distribución en una plataforma unificada." },
+          { "title": "Manufactura y producción", "description": "MRP, órdenes de producción, control de planta y gestión de calidad integrados con finanzas y logística." },
+          { "title": "Ventas y gestión de clientes", "description": "Order-to-cash completo con pricing avanzado, available-to-promise y facturación integrada." },
+          { "title": "Analítica embebida", "description": "SAP Fiori apps con analítica en tiempo real sobre datos operativos sin necesidad de sistemas BI separados." },
+          { "title": "Extensibilidad Clean Core", "description": "Extensiones side-by-side vía SAP BTP que permiten adaptaciones sin comprometer las actualizaciones estándar." }
+        ],
+        "useCases": [
+          "Grandes empresas que migran desde SAP ECC y necesitan un roadmap de transformación controlado",
+          "Organizaciones con operaciones regionales o multi-país que requieren un landscape SAP unificado",
+          "Empresas de industria, energía o retail que necesitan procesos end-to-end integrados en tiempo real",
+          "Equipos de finanzas que requieren cierre contable acelerado y reportería de gestión unificada"
+        ]
+      },
+      "cloud-erp": {
+        "badge": "S/4HANA Public Cloud",
+        "title": "SAP S/4HANA Public Cloud",
+        "subtitle": "GROW with SAP",
+        "description": "Modernizá tu gestión empresarial con GROW with SAP: un ERP en la nube con mejores prácticas de la industria, actualizaciones automáticas e innovación continua.",
+        "longDescription": "SAP S/4HANA Public Cloud con GROW with SAP es la solución ideal para empresas medianas que buscan crecer con un ERP moderno sin la complejidad de implementaciones on-premise. Adoptás las mejores prácticas de la industria desde el primer día, con un modelo de suscripción predecible y actualizaciones automáticas que mantienen tu plataforma siempre actualizada. Global Core Technologies acompaña cada etapa de la adopción — desde el diseño del proceso hasta la estabilización post-arranque — garantizando que tu equipo opere con confianza y tus datos sean confiables desde el día uno.",
+        "minUsers": "Desde 15 usuarios",
+        "features": [
+          { "title": "Finanzas y contabilidad", "description": "Cierre contable ágil, libro mayor, cuentas a pagar y cobrar integradas con la operación." },
+          { "title": "Gestión de aprovisionamiento", "description": "Ciclo completo de compras, órdenes de compra, recepción de mercadería y gestión de proveedores." },
+          { "title": "Ventas y gestión de pedidos", "description": "Presupuestos, pedidos, facturación y seguimiento de clientes en una sola plataforma." },
+          { "title": "Control de inventario", "description": "Visibilidad en tiempo real de stock, movimientos y valorización de almacenes." },
+          { "title": "Analítica en tiempo real", "description": "Dashboards, reportes embebidos y KPIs operativos sin necesidad de herramientas externas." },
+          { "title": "Actualizaciones automáticas", "description": "SAP gestiona la infraestructura y las actualizaciones, vos solo operás el negocio." }
+        ],
+        "useCases": [
+          "Empresas que quieren reemplazar sistemas legacy sin inversión en infraestructura propia",
+          "Organizaciones que buscan adoptar best practices SAP como estándar operativo de la industria",
+          "Equipos de finanzas que necesitan cierre contable ágil y reportería integrada en tiempo real",
+          "Empresas con operaciones regionales que requieren una plataforma centralizada y escalable"
+        ]
+      },
+      "cloud-erp-private": {
+        "badge": "Cloud ERP Private",
+        "title": "SAP Cloud ERP Private",
+        "subtitle": "RISE with SAP",
+        "description": "Transformá tus procesos SAP con RISE with SAP: un paquete integral diseñado para la transformación única de tu organización con personalización avanzada y control total.",
+        "longDescription": "SAP Cloud ERP Private con RISE with SAP es el paquete de transformación digital más completo de SAP, diseñado para organizaciones que necesitan migrar a S/4HANA Cloud manteniendo su nivel de personalización y cumplimiento. Incluye infraestructura cloud privada, herramientas de análisis de procesos (Business Process Intelligence), integración con SAP BTP y soporte de migración asistida. En Global Core Technologies acompañamos desde el assessment inicial hasta la hiperestabilización, con experiencia comprobada en entornos SAP de alta criticidad donde la continuidad operativa no admite interrupciones.",
+        "minUsers": "Desde 60 usuarios",
+        "features": [
+          { "title": "Migración asistida a S/4HANA", "description": "Roadmap de migración desde SAP ECC u otras versiones con metodología probada y herramientas SAP oficiales." },
+          { "title": "Personalización avanzada", "description": "Adaptación de procesos de negocio exclusivos que van más allá de las best practices estándar." },
+          { "title": "Entorno cloud privado", "description": "Infraestructura dedicada con SLA empresarial, aislamiento de datos y cumplimiento normativo." },
+          { "title": "Business Process Intelligence", "description": "Análisis y optimización de procesos existentes antes y durante la transformación con datos reales." },
+          { "title": "Integración SAP BTP", "description": "Extensiones, integraciones e innovación sobre la Business Technology Platform de SAP." },
+          { "title": "Seguridad y compliance enterprise", "description": "Controles de acceso, auditoría, encriptación y cumplimiento de normativas locales e internacionales." }
+        ],
+        "useCases": [
+          "Migración desde SAP ECC 6.0 con procesos altamente customizados que deben preservarse",
+          "Consolidación de múltiples instancias SAP en una única plataforma cloud con governance centralizado",
+          "Transformación de procesos de alta criticidad con cero tolerancia a la interrupción operativa",
+          "Adopción de capacidades de inteligencia artificial y machine learning sobre datos SAP existentes"
+        ]
+      },
+      "btp": {
+        "badge": "BTP",
+        "title": "SAP Business Technology Platform",
+        "subtitle": "Plataforma e innovación",
+        "description": "La plataforma tecnológica de SAP para desarrollar aplicaciones, automatizar procesos, integrar sistemas y aplicar inteligencia artificial sobre el ecosistema SAP.",
+        "longDescription": "SAP Business Technology Platform (BTP) es el hub de innovación que extiende y conecta el ecosistema SAP. Permite desarrollar aplicaciones low-code y pro-code, automatizar flujos de trabajo, integrar sistemas heterogéneos y aplicar capacidades de IA y machine learning sobre datos SAP en tiempo real. En Global Core Technologies usamos BTP para construir extensiones Clean Core que agregan valor sin comprometer las actualizaciones estándar, e integramos BTP en estrategias de transformación digital donde la plataforma opera como el tejido tecnológico que une ERP, datos y procesos de negocio.",
+        "minUsers": "Por proyecto",
+        "features": [
+          { "title": "Desarrollo de aplicaciones", "description": "SAP Build Apps y SAP AppGyver para aplicaciones low-code, más CAP framework para desarrollo pro-code sobre Node.js y Java." },
+          { "title": "Automatización de procesos", "description": "SAP Build Process Automation para workflows, RPA y formularios digitales sin necesidad de codificación compleja." },
+          { "title": "Inteligencia artificial", "description": "SAP AI Core y AI Launchpad para desplegar modelos de ML, Joule como copiloto de IA generativa sobre datos SAP." },
+          { "title": "Gestión de datos", "description": "SAP Datasphere para federación, virtualización y gobierno de datos empresariales con visibilidad semántica." },
+          { "title": "Integración nativa", "description": "SAP Integration Suite embebida para conectar sistemas SAP y no SAP con APIs, iFlows y eventos." },
+          { "title": "Extensibilidad Clean Core", "description": "Extensiones side-by-side que enriquecen S/4HANA sin tocar el core, garantizando compatibilidad con upgrades futuros." }
+        ],
+        "useCases": [
+          "Organizaciones que necesitan extender S/4HANA con lógica de negocio propia sin modificar el core SAP",
+          "Empresas que quieren automatizar procesos transversales conectando SAP con sistemas de terceros",
+          "Equipos que buscan incorporar IA generativa y analítica avanzada sobre datos SAP en tiempo real",
+          "Proyectos de integración donde SAP debe conectarse con plataformas cloud, ERPs externos o marketplaces"
+        ]
+      },
+      "integration-suite": {
+        "badge": "Integration Suite",
+        "title": "SAP Integration Suite",
+        "subtitle": "Integración SAP y no SAP",
+        "description": "Conectá tu landscape SAP con cualquier sistema externo mediante APIs, iFlows, eventos y automatizaciones — sin fricciones entre SAP y el resto del negocio.",
+        "longDescription": "SAP Integration Suite es la plataforma de integración empresarial de SAP que conecta aplicaciones cloud y on-premise, sistemas SAP y no SAP, con un enfoque unificado de APIs, mensajería, eventos y automatización. Incluye Cloud Integration para iFlows, API Management para ciclo de vida completo de APIs, Event Mesh para arquitecturas orientadas a eventos, e Integration Advisor para mappings estandarizados. Global Core Technologies diseña e implementa arquitecturas de integración que reducen la deuda técnica, estandarizan los flujos de datos y habilitan ecosistemas digitales donde SAP opera como el núcleo de una red conectada de sistemas.",
+        "minUsers": "Por proyecto",
+        "features": [
+          { "title": "Cloud Integration (iFlows)", "description": "Diseño y operación de flujos de integración entre SAP y sistemas externos con monitoreo en tiempo real." },
+          { "title": "API Management", "description": "Publicación, gobierno, seguridad y analítica del ciclo de vida completo de APIs empresariales." },
+          { "title": "Event Mesh", "description": "Arquitecturas orientadas a eventos para desacoplar sistemas y habilitar flujos asincrónicos escalables." },
+          { "title": "Open Connectors", "description": "Conectores predefinidos para más de 170 aplicaciones de terceros: Salesforce, ServiceNow, Workday y más." },
+          { "title": "Integration Advisor", "description": "Generación asistida por IA de mappings y documentación para estándares B2B como EDI, ANSI X12 e IDOC." },
+          { "title": "Monitoreo y operación", "description": "Dashboard centralizado de mensajes, alertas y trazabilidad end-to-end de todos los flujos de integración." }
+        ],
+        "useCases": [
+          "Empresas con landscapes híbridos que necesitan conectar SAP on-premise con aplicaciones cloud de terceros",
+          "Organizaciones que buscan reemplazar integraciones punto a punto por una plataforma centralizada y auditable",
+          "Proyectos de migración a S/4HANA donde los flujos de integración deben rediseñarse o modernizarse",
+          "Negocios con intercambio B2B que requieren conectividad EDI estándar y rastreable con socios comerciales"
+        ]
+      }
+    }
+  },
+  "services": {
+    "section": {
+      "eyebrow": "Pilares de servicio",
+      "title": "Servicios SAP para evolucionar sin perder control",
+      "description": "Siete módulos estratégicos para organizaciones que necesitan transformar, asegurar y operar con continuidad.",
+      "viewDetail": "Ver detalle →"
+    },
+    "page": {
+      "eyebrow": "Lo que ofrecemos",
+      "title": "Servicios SAP para evolucionar sin perder control",
+      "description": "Ocho frentes de trabajo para organizaciones que necesitan transformar, asegurar y operar con continuidad.",
+      "seoTitle": "Servicios SAP",
+      "seoDescription": "Ocho frentes de trabajo SAP: migración S/4HANA, implementación, seguridad GRC, soporte AMS, innovación, managed services, performance y Solution Manager."
+    },
+    "detail": {
+      "eyebrow": "Servicio SAP",
+      "sectionDescription": "Descripción",
+      "sectionIncludes": "Qué incluye",
+      "sectionBenefits": "Beneficios",
+      "sectionOther": "Otros servicios",
+      "cta": "Consultar sobre este servicio",
+      "viewDetail": "Ver detalle →"
+    },
+    "modules": {
+      "migracion-transformacion-sap": {
+        "title": "Transformación SAP",
+        "description": "Acompañamos la migración hacia S/4HANA y el cloud con metodología, gobierno y foco en continuidad operativa en cada etapa.",
+        "benefit": "Roadmap claro y riesgo controlado en cada fase de la transformación",
+        "capabilities": ["Migración SAP ECC → S/4HANA", "RISE with SAP", "SAP S/4HANA Public Cloud", "SAP Cloud ERP Private", "Assessment y Roadmap", "Clean Core Strategy", "Conversiones y Rollouts"]
+      },
+      "implementacion-sap": {
+        "title": "Implementación SAP",
+        "description": "Implementamos soluciones SAP con enfoque Clean Core, adopción real y trazabilidad de extremo a extremo en proyectos de cualquier escala.",
+        "benefit": "Sistema en producción adoptado por los usuarios desde el día uno",
+        "capabilities": ["SAP S/4HANA", "SAP Business One", "SAP SuccessFactors", "SAP Analytics Cloud", "SAP Ariba", "SAP IBP", "SAP EWM", "SAP Commerce Cloud", "SAP BTP"]
+      },
+      "seguridad-sap-grc": {
+        "title": "Seguridad y Compliance SAP",
+        "description": "Gobierno de accesos, segregación de funciones y compliance continuo para entornos SAP auditables y alineados a regulaciones.",
+        "benefit": "Controles que pasan auditorías y reducen el riesgo de fraude interno",
+        "capabilities": ["SAP GRC", "Segregación de Funciones (SoD)", "Gestión de accesos", "Auditoría SAP", "Compliance regulatorio", "Seguridad SAP BTP"]
+      },
+      "operacion-soporte-ams": {
+        "title": "Operación y Soporte SAP",
+        "description": "Soporte funcional y técnico con SLAs comprometidos para mantener la plataforma SAP estable, evolucionando y alineada al negocio.",
+        "benefit": "Continuidad operativa con equipo experto sin costo de contratación directa",
+        "capabilities": ["SAP AMS", "SAP Basis", "Gestión de incidentes", "Gestión de cambios", "Monitoreo operativo", "Gestión de transportes", "Certificados", "Soporte funcional y técnico"]
+      },
+      "innovacion-sap": {
+        "title": "Innovación SAP",
+        "description": "Llevamos inteligencia artificial, automatización y analítica avanzada al ecosistema SAP con resultados medibles sobre datos reales.",
+        "benefit": "Valor nuevo sobre procesos existentes con tiempo de adopción reducido",
+        "capabilities": ["SAP BTP", "SAP Build", "SAP Integration Suite", "SAP Joule", "Inteligencia Artificial", "Automatización", "APIs", "Analítica avanzada"]
+      },
+      "sap-techs-managed-services": {
+        "title": "SAP Managed Services",
+        "description": "Gestión integral de la capa técnica SAP — Basis, HANA, monitoreo 24x7 y evolución controlada de la plataforma sin interrupciones.",
+        "benefit": "Mayor disponibilidad con plataforma siempre actualizada y segura",
+        "capabilities": ["Administración SAP Basis", "Administración SAP HANA", "SAP Cloud ALM", "SAP Solution Manager", "Actualizaciones", "Performance Tuning", "Capacity Planning", "Monitoreo 24x7"]
+      },
+      "sap-performance-services": {
+        "title": "Performance & Optimization",
+        "description": "Diagnóstico y optimización técnica de entornos SAP para mejorar rendimiento, tiempos de respuesta y eficiencia de la plataforma.",
+        "benefit": "Usuarios más productivos y operaciones batch sin cuellos de botella",
+        "capabilities": ["Performance SAP", "Optimización HANA", "Ajuste de parámetros", "ST03N", "STAD", "ST22", "Jobs Batch", "Capacity Management"]
+      }
+    },
+    "items": {
+      "migracion-transformacion-sap": {
+        "title": "Migración y transformación SAP",
+        "description": "Roadmaps S/4HANA, evolución hacia cloud y modernización de procesos críticos.",
+        "longDescription": "Diseñamos y ejecutamos estrategias de migración hacia SAP S/4HANA con foco en reducción de riesgo, continuidad operativa y adopción real. Cada roadmap contempla arquitectura objetivo, gobierno de cambio, dependencias técnicas y métricas de avance para que la transformación sea medible desde el primer sprint.",
+        "features": ["Assessment técnico y funcional del landscape actual", "Roadmap de migración S/4HANA con fases y milestones", "Estrategia de conversión Brownfield, Greenfield o híbrida", "Gobierno de cambio y plan de adopción operativa", "Migración de datos con validación y reconciliación", "Soporte post-migración y estabilización"],
+        "benefits": ["Menor riesgo en decisiones de migración", "Continuidad operativa durante la transición", "Roadmap claro con visibilidad de costos y plazos", "Adopción real del nuevo entorno por los usuarios"],
+        "proof": "Menos riesgo en decisiones de migración"
+      },
+      "implementacion-sap": {
+        "title": "Implementación SAP",
+        "description": "Implementaciones y rollouts con foco Clean Core, adopción operativa y trazabilidad.",
+        "longDescription": "Implementamos soluciones SAP con metodología probada, priorizando Clean Core para minimizar customizaciones innecesarias. Cada proyecto se ejecuta con trazabilidad completa, gobierno de alcance y un plan de adopción que asegura que el sistema se use como fue diseñado.",
+        "features": ["Implementaciones SAP con metodología Activate", "Enfoque Clean Core para minimizar customizaciones", "Rollouts regionales y multi-país", "Gestión de alcance y gobierno de proyecto", "Plan de testing integral (unitario, integración, UAT)", "Capacitación y change management"],
+        "benefits": ["Ejecución ordenada para escala regional", "Menor costo de mantenimiento por Clean Core", "Usuarios capacitados y adoptando el sistema", "Trazabilidad completa del proyecto"],
+        "proof": "Ejecución ordenada para escala regional"
+      },
+      "seguridad-sap-grc": {
+        "title": "Seguridad SAP & GRC",
+        "description": "Gobierno de accesos, RBAC, SoD, compliance continuo y reducción de exposición.",
+        "longDescription": "Protegemos entornos SAP con un enfoque integral que abarca gobierno de accesos, segregación de funciones, compliance continuo y reducción de superficie de ataque. Implementamos controles que pasan auditorías y reducen riesgo operativo sin frenar la operación del negocio.",
+        "features": ["Diseño de modelo de roles (RBAC) alineado al negocio", "Análisis y remediación de conflictos SoD", "Implementación SAP GRC Access Control", "Monitoreo continuo de accesos críticos", "Hardening de plataforma SAP (Basis security)", "Preparación para auditorías SOX, GDPR, regulatorias"],
+        "benefits": ["Controles claros para auditoría", "Reducción de riesgo de fraude interno", "Compliance continuo sin intervención manual", "Accesos alineados a responsabilidades reales"],
+        "proof": "Controles claros para auditoría"
+      },
+      "operacion-soporte-ams": {
+        "title": "Operación y soporte AMS",
+        "description": "SAP Basis, soporte funcional y mejora continua para plataformas estables.",
+        "longDescription": "Operamos y mantenemos plataformas SAP con equipos dedicados que combinan soporte Basis, soporte funcional y mejora continua. Nuestro modelo AMS asegura estabilidad, tiempos de respuesta comprometidos y evolución controlada del entorno.",
+        "features": ["Soporte SAP Basis L1, L2 y L3", "Soporte funcional por módulo (FI, CO, MM, SD, PP, HCM)", "Gestión de incidentes, problemas y cambios (ITIL)", "Monitoreo proactivo de performance y disponibilidad", "Aplicación de notas SAP y patches de seguridad", "Mejora continua con backlog priorizado"],
+        "benefits": ["Continuidad operativa y respuesta experta", "SLAs comprometidos y medibles", "Evolución controlada sin disrupciones", "Equipo especializado sin costo de contratación directa"],
+        "proof": "Continuidad operativa y respuesta experta"
+      },
+      "innovacion-sap": {
+        "title": "Innovación SAP",
+        "description": "Datos, analítica, automatización e inteligencia artificial aplicada al ecosistema SAP.",
+        "longDescription": "Llevamos capacidades de analítica avanzada, automatización e inteligencia artificial al ecosistema SAP. Desde dashboards ejecutivos hasta modelos predictivos, transformamos datos operativos en decisiones más rápidas y precisas.",
+        "features": ["Dashboards ejecutivos con SAP Analytics Cloud", "Integración de datos con SAP BTP y herramientas BI", "Automatización de procesos con RPA e inteligencia artificial", "Modelos predictivos sobre datos transaccionales SAP", "Estrategia de datos y governance", "Pruebas de concepto (PoC) de bajo riesgo"],
+        "benefits": ["Valor nuevo sobre procesos existentes", "Decisiones basadas en datos, no en intuición", "Automatización de tareas repetitivas", "Time-to-insight reducido"],
+        "proof": "Valor nuevo sobre procesos existentes"
+      },
+      "sap-techs-managed-services": {
+        "title": "SAP Techs Managed Services",
+        "description": "Soporte técnico Basis para mantener la capa core SAP actualizada, estable y alineada con la operación del negocio.",
+        "longDescription": "Gestionamos la capa técnica de SAP de forma integral: administración Basis, monitoreo, actualizaciones, upgrades y resolución de incidentes técnicos. Nuestro servicio gestionado permite que tu equipo se concentre en el negocio mientras nosotros mantenemos la plataforma estable y actualizada.",
+        "features": ["Administración SAP Basis dedicada", "Monitoreo 24x7 de sistemas SAP", "Gestión de upgrades y actualizaciones técnicas", "Administración de transportes y landscape", "Gestión de conexiones RFC e integraciones", "Documentación técnica y procedimientos operativos"],
+        "benefits": ["Mayor disponibilidad y control de plataforma", "Reducción de incidentes técnicos recurrentes", "Plataforma siempre actualizada y segura", "Liberación de recursos internos para el negocio"],
+        "proof": "Mayor disponibilidad y control de plataforma"
+      },
+      "sap-performance-services": {
+        "title": "SAP Performance Services",
+        "description": "Análisis técnico y ajuste de parámetros para optimizar rendimiento, eficiencia y tiempos de respuesta de entornos SAP.",
+        "longDescription": "Diagnosticamos y optimizamos el rendimiento de entornos SAP con un enfoque técnico profundo. Desde análisis de queries ABAP hasta tuning de base de datos y dimensionamiento de infraestructura, cada ajuste se mide y documenta para garantizar resultados sostenibles.",
+        "features": ["Análisis de performance end-to-end", "Tuning de queries ABAP y programas custom", "Optimización de base de datos HANA/Oracle/SQL Server", "Dimensionamiento y sizing de infraestructura", "Análisis de carga y pruebas de stress", "Recomendaciones de arquitectura para escalabilidad"],
+        "benefits": ["Mejor performance sobre cargas críticas", "Reducción de tiempos de procesamiento batch", "Usuarios más productivos con respuestas más rápidas", "Infraestructura dimensionada correctamente"],
+        "proof": "Mejor performance sobre cargas críticas"
+      },
+      "servicios-sap-solution-manager": {
+        "title": "Servicios para SAP Solution Manager",
+        "description": "Consultoría técnica para configurar, optimizar y sostener Solution Manager como base de upgrades, monitoreo y mejoras.",
+        "longDescription": "Configuramos y optimizamos SAP Solution Manager como el centro nervioso de tu landscape SAP. Desde la gestión de proyectos de implementación hasta el monitoreo técnico y la documentación de procesos, SolMan se convierte en la herramienta que gobierna tu operación SAP.",
+        "features": ["Implementación y configuración de SAP Solution Manager", "Setup de Change Request Management (ChaRM)", "Configuración de Test Suite y gestión de testing", "Monitoreo técnico (System Monitoring, EWA)", "Business Process Monitoring y documentación", "Upgrade y migración de Solution Manager"],
+        "benefits": ["Gobierno técnico continuo de la operación SAP", "Gestión de cambios controlada y auditable", "Monitoreo centralizado del landscape", "Documentación de procesos siempre actualizada"],
+        "proof": "Gobierno técnico continuo de la operación SAP"
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Industrias",
+    "title": "Experiencia para empresas con operaciones exigentes",
+    "description": "El foco está en sectores donde SAP, seguridad, auditoría y continuidad operativa impactan directamente en el negocio.",
+    "items": {
+      "energia": { "name": "Energía", "description": "Operación, compliance y continuidad para negocios intensivos en activos." },
+      "industria": { "name": "Industria y manufactura", "description": "Procesos integrados, trazabilidad y eficiencia operativa." },
+      "retail": { "name": "Retail y marketplaces", "description": "Escalabilidad, seguridad y evolución de plataformas transaccionales." },
+      "servicios": { "name": "Servicios regulados", "description": "Gobierno, auditoría y controles para operaciones sensibles." }
+    }
+  },
+  "technology": {
+    "eyebrow": "Tecnología",
+    "title": "SAP, seguridad, cloud e AI conectados al resultado operativo",
+    "pillars": {
+      "s4hana": { "title": "SAP S/4HANA", "description": "Planificación de migración, arquitectura objetivo, gobierno de cambio y adopción." },
+      "security": { "title": "Security & GRC", "description": "Modelo de roles, segregación de funciones, compliance y monitoreo continuo." },
+      "cloud": { "title": "Cloud, data & AI", "description": "Automatización, analítica y modernización cloud con foco en resultados operativos." }
+    }
+  },
+  "clients": {
+    "title": "Clientes que confían",
+    "description": "Organizaciones de energía, industria, retail, salud, infraestructura y servicios confían en equipos con experiencia SAP de alta criticidad.",
+    "logoAlt": "Logo de {name}"
+  },
+  "contactCta": {
+    "eyebrow": "Próximo paso",
+    "title": "Tu estrategia SAP debería estar alineada al crecimiento del negocio",
+    "description": "Revisemos migración, seguridad y operación con un enfoque que reduzca riesgos y habilite una evolución sostenible.",
+    "cta": "Contactar a Global Core"
+  },
+  "contactPage": {
+    "seoTitle": "Contacto",
+    "seoDescription": "Contactá a Global Core Technologies para consultoría SAP, seguridad GRC, migración S/4HANA y soporte AMS.",
+    "breadcrumb": "Contacto",
+    "hero": {
+      "eyebrow": "Próximo paso",
+      "title": "Hablemos de tu entorno SAP",
+      "description": "Dejanos tu consulta y un especialista de nuestro equipo se pondrá en contacto con vos."
+    },
+    "info": {
+      "title": "Información de contacto",
+      "email": "Email",
+      "phone": "Teléfono",
+      "office": "Oficina"
+    },
+    "form": {
+      "title": "Envianos tu consulta",
+      "description": "Completá el formulario y te respondemos a la brevedad."
+    }
+  },
+  "form": {
+    "name": "Nombre *",
+    "email": "Email *",
+    "company": "Empresa",
+    "service": "Servicio de interés",
+    "servicePlaceholder": "Seleccionar servicio (opcional)",
+    "message": "Mensaje *",
+    "submit": "Enviar consulta",
+    "submitting": "Enviando...",
+    "errors": {
+      "name": "El nombre debe tener al menos 2 caracteres.",
+      "email": "Ingresá un email válido.",
+      "message": "El mensaje debe tener al menos 10 caracteres."
+    },
+    "success": {
+      "title": "Consulta enviada",
+      "message": "Gracias por contactarnos. Un especialista se pondrá en contacto a la brevedad."
+    },
+    "submitError": "Hubo un error al enviar el formulario. Por favor intentá de nuevo."
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portfolio SAP"
+  },
+  "solutionsPage": {
+    "whatIs": "¿Qué es?",
+    "whatIsTitle": "{product} para organizaciones que necesitan operar con control",
+    "featuresEyebrow": "Funcionalidades",
+    "featuresTitle": "Qué incluye {product}",
+    "useCasesEyebrow": "Casos de uso",
+    "useCasesTitle": "¿En qué situaciones aplica {product}?",
+    "useCasesDescription": "Estas son las situaciones donde más valor genera la implementación de {product} acompañada por Global Core Technologies.",
+    "ctaEyebrow": "Próximo paso",
+    "ctaTitle": "¿Es {product} la solución para tu organización?",
+    "ctaDescription": "Conversemos sobre tu contexto actual, tus objetivos y cómo {subtitle} puede acelerar tu evolución digital con el respaldo de Global Core Technologies.",
+    "consultSolution": "Consultar esta solución",
+    "viewSapServices": "Ver servicios SAP",
+    "talkToExpert": "Hablar con un especialista",
+    "exploreServices": "Explorar servicios SAP"
+  }
+}

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -16,46 +18,45 @@ import { siteConfig } from '~/data/site'
           loading="lazy"
         >
         <p class="mt-4 text-sm leading-6 text-white/60">
-          Consultoría SAP, seguridad y evolución digital para organizaciones que necesitan operar con control,
-          continuidad y capacidad de cambio.
+          {{ t('footer.tagline') }}
         </p>
         <div class="mt-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-bold text-white/80">
           <span class="h-1.5 w-1.5 rounded-full bg-core-orange" />
-          SAP Silver Partner
+          {{ t('footer.sapPartner') }}
         </div>
       </div>
 
       <div>
-        <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">Servicios</h3>
-        <nav class="mt-4 grid gap-2" aria-label="Servicios">
+        <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">{{ t('footer.headings.services') }}</h3>
+        <nav class="mt-4 grid gap-2" :aria-label="t('footer.headings.services')">
           <NuxtLink
             v-for="service in services.slice(0, 6)"
             :key="service.slug"
             :to="`/servicios/${service.slug}`"
             class="text-sm text-white/50 transition hover:text-white"
           >
-            {{ service.title }}
+            {{ t(`services.items.${service.slug}.title`) }}
           </NuxtLink>
           <NuxtLink to="/servicios" class="text-sm font-bold text-core-orange hover:text-white">
-            Ver todos →
+            {{ t('footer.viewAll') }}
           </NuxtLink>
         </nav>
       </div>
 
       <div>
-        <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">Enlaces</h3>
-        <nav class="mt-4 grid gap-2" aria-label="Enlaces rápidos">
-          <NuxtLink to="/" class="text-sm text-white/50 transition hover:text-white">Inicio</NuxtLink>
-          <NuxtLink to="/#nosotros" class="text-sm text-white/50 transition hover:text-white">Nosotros</NuxtLink>
-          <NuxtLink to="/servicios" class="text-sm text-white/50 transition hover:text-white">Servicios</NuxtLink>
-          <NuxtLink to="/#tecnologia" class="text-sm text-white/50 transition hover:text-white">Tecnología</NuxtLink>
-          <NuxtLink to="/#clientes" class="text-sm text-white/50 transition hover:text-white">Clientes</NuxtLink>
-          <NuxtLink to="/contacto" class="text-sm text-white/50 transition hover:text-white">Contacto</NuxtLink>
+        <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">{{ t('footer.headings.links') }}</h3>
+        <nav class="mt-4 grid gap-2" :aria-label="t('footer.headings.links')">
+          <NuxtLink to="/" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.home') }}</NuxtLink>
+          <NuxtLink to="/#nosotros" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.about') }}</NuxtLink>
+          <NuxtLink to="/servicios" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.services') }}</NuxtLink>
+          <NuxtLink to="/#tecnologia" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.technology') }}</NuxtLink>
+          <NuxtLink to="/#clientes" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.clients') }}</NuxtLink>
+          <NuxtLink to="/contacto" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.contact') }}</NuxtLink>
         </nav>
       </div>
 
       <div>
-        <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">Contacto</h3>
+        <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">{{ t('footer.headings.contact') }}</h3>
         <address class="mt-4 grid gap-3 not-italic text-sm text-white/50">
           <a class="transition hover:text-white" :href="`mailto:${siteConfig.email}`">{{ siteConfig.email }}</a>
           <a class="transition hover:text-white" :href="`tel:${siteConfig.phone.replaceAll(' ', '')}`">{{ siteConfig.phone }}</a>
@@ -77,7 +78,7 @@ import { siteConfig } from '~/data/site'
 
     <div class="border-t border-white/10 py-5">
       <p class="section-shell text-center text-sm text-white/40">
-        © 2026 Global Core Technologies. Todos los derechos reservados.
+        {{ t('footer.copyright') }}
       </p>
     </div>
   </footer>

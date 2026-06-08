@@ -1,14 +1,16 @@
 <script setup lang="ts">
 import { clientLogos } from '~/data/landing'
+
+const { t } = useI18n()
 </script>
 
 <template>
   <section id="clientes" class="relative overflow-hidden bg-white py-16 md:py-20">
     <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
     <div class="section-shell relative">
-      <h2 v-reveal class="text-center font-display text-3xl font-extrabold md:text-5xl">Clientes que confían</h2>
+      <h2 v-reveal class="text-center font-display text-3xl font-extrabold md:text-5xl">{{ t('clients.title') }}</h2>
       <p v-reveal="{ delay: 120, distance: 26 }" class="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-slate-600">
-        Organizaciones de energía, industria, retail, salud, infraestructura y servicios confían en equipos con experiencia SAP de alta criticidad.
+        {{ t('clients.description') }}
       </p>
       <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         <figure
@@ -22,7 +24,7 @@ import { clientLogos } from '~/data/landing'
             v-if="client.src"
             class="max-h-20 w-full max-w-[13rem] object-contain"
             :src="client.src"
-            :alt="`Logo de ${client.name}`"
+            :alt="t('clients.logoAlt', { name: client.name })"
             :width="client.width"
             :height="client.height"
             loading="lazy"

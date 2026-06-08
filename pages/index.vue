@@ -9,20 +9,21 @@ import ServicesSection from '~/components/sections/ServicesSection.vue'
 import TechnologySection from '~/components/sections/TechnologySection.vue'
 import { siteConfig } from '~/data/site'
 
-const pageTitle = 'Consultoria SAP, seguridad GRC, cloud e AI'
-const pageDescription =
-  'Global Core Technologies ayuda a empresas medianas y grandes a modernizar, asegurar y operar plataformas SAP con foco en S/4HANA, GRC, AMS, cloud e inteligencia artificial.'
+const { t } = useI18n()
+
+const pageTitle = computed(() => t('hero.title'))
+const pageDescription = computed(() => t('hero.description'))
 
 useSeoMeta({
   title: pageTitle,
   description: pageDescription,
-  ogTitle: `${pageTitle} | ${siteConfig.name}`,
+  ogTitle: computed(() => `${pageTitle.value} | ${siteConfig.name}`),
   ogDescription: pageDescription,
   ogType: 'website',
   ogUrl: siteConfig.url,
   ogImage: `${siteConfig.url}/og-image.svg`,
   twitterCard: 'summary_large_image',
-  twitterTitle: `${pageTitle} | ${siteConfig.name}`,
+  twitterTitle: computed(() => `${pageTitle.value} | ${siteConfig.name}`),
   twitterDescription: pageDescription,
   twitterImage: `${siteConfig.url}/og-image.svg`
 })

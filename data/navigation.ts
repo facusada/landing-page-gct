@@ -1,9 +1,7 @@
-import type { NavigationItem } from '~/types/landing'
-
-export const navigationItems: NavigationItem[] = [
-  { label: 'Nosotros', to: '/#nosotros' },
-  { label: 'Servicios', to: '/servicios' },
-  { label: 'Tecnología', to: '/#tecnologia' },
-  { label: 'Clientes', to: '/#clientes' },
-  { label: 'Contacto', to: '/contacto' }
-]
+export const navigationItems = [
+  { key: 'about', to: '/#nosotros' },
+  { key: 'services', to: '/servicios' },
+  { key: 'technology', to: '/#tecnologia' },
+  { key: 'clients', to: '/#clientes' },
+  { key: 'contact', to: '/contacto' }
+] as const

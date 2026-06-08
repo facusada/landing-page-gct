@@ -2,6 +2,8 @@
 import SectionHeading from '~/components/ui/SectionHeading.vue'
 import ServiceIcon from '~/components/ui/ServiceIcon.vue'
 import { serviceModules } from '~/data/landing'
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -11,9 +13,9 @@ import { serviceModules } from '~/data/landing'
       <SectionHeading
         v-reveal
         align="center"
-        eyebrow="Pilares de servicio"
-        title="Servicios SAP para evolucionar sin perder control"
-        description="Siete módulos estratégicos para organizaciones que necesitan transformar, asegurar y operar con continuidad."
+        :eyebrow="t('services.section.eyebrow')"
+        :title="t('services.section.title')"
+        :description="t('services.section.description')"
       />
 
       <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -31,13 +33,13 @@ import { serviceModules } from '~/data/landing'
           <!-- text content -->
           <div class="absolute inset-x-0 bottom-0 p-5">
             <h3 class="font-display text-base font-extrabold leading-snug text-white">
-              {{ module.title }}
+              {{ t(`services.modules.${module.slug}.title`) }}
             </h3>
             <p class="mt-1.5 text-xs leading-5 text-white/75 line-clamp-3">
-              {{ module.description }}
+              {{ t(`services.modules.${module.slug}.description`) }}
             </p>
             <p class="mt-3 text-xs font-bold text-core-orange transition-transform duration-200 group-hover:translate-x-1">
-              Ver detalle →
+              {{ t('services.section.viewDetail') }}
             </p>
           </div>
         </NuxtLink>

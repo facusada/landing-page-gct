@@ -15,7 +15,21 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2026-05-22',
   srcDir: '.',
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+  i18n: {
+    locales: [
+      { code: 'es', language: 'es-AR', name: 'Español', file: 'es.json' },
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' }
+    ],
+    defaultLocale: 'es',
+    lazy: true,
+    langDir: 'locales/',
+    strategy: 'prefix_except_default',
+    restructureDir: false,
+    bundle: {
+      optimizeTranslationDirective: false
+    }
+  },
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   experimental: {
@@ -27,7 +41,6 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      htmlAttrs: { lang: 'es-AR' },
       titleTemplate: `%s | ${siteConfig.name}`,
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

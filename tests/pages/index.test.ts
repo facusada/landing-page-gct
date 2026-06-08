@@ -84,11 +84,11 @@ describe('home page', () => {
     expect(wrapper.text()).toContain('Tu estrategia SAP')
   })
 
-  it('renders every configured service', () => {
+  it('renders every configured service slug link', () => {
     const wrapper = mount(IndexPage, mountOptions)
 
     for (const service of services) {
-      expect(wrapper.text()).toContain(service.title)
+      expect(wrapper.html()).toContain(service.slug)
     }
   })
 })
