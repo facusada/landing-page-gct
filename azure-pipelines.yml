@@ -1,3 +1,4 @@
+# Deploy automático a gct-vm en cada push a main
 trigger:
   branches:
     include:
