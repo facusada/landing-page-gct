@@ -34,6 +34,7 @@ export interface PillarItem {
   iconPaths: string[]
   to: string
   image: string
+  bgPosition?: string
 }
 
 export interface FeaturedExpertiseItem {

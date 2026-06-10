@@ -23,7 +23,7 @@ const { t } = useI18n()
           :key="pillar.id"
           :to="pillar.to"
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 38, duration: 820 }"
-          :style="{ backgroundImage: `url('${pillar.image}')` }"
+          :style="{ backgroundImage: `url('${pillar.image}')`, backgroundPosition: pillar.bgPosition ?? 'center' }"
           class="group relative h-[300px] overflow-hidden rounded-xl bg-cover bg-center transition duration-200 hover:-translate-y-1 hover:shadow-lift"
         >
           <!-- top gradient for title readability -->

@@ -47,7 +47,8 @@ export const pillars: PillarItem[] = [
     index: '05',
     iconPaths: ['M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2', 'M12 8.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4z'],
     to: '/servicios/innovacion-sap',
-    image: '/pillars/05_innovate.png'
+    image: '/pillars/05_innovate.png',
+    bgPosition: '30% center'
   }
 ]
 
