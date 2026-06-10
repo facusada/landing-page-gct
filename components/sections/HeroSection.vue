@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
-import { differentiators } from '~/data/landing'
+import { heroMetrics } from '~/data/landing'
 
 const { t } = useI18n()
 
@@ -42,14 +42,14 @@ useHead({
             <BaseButton to="/servicios" variant="secondary">{{ t('hero.secondaryCta') }}</BaseButton>
           </div>
 
-          <div class="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
+          <div class="mt-14 grid gap-6 sm:grid-cols-3 md:gap-8">
             <AnimatedCounter
-              v-for="item in differentiators"
+              v-for="item in heroMetrics"
               :key="item.id"
               :value="item.numericValue"
               :prefix="item.prefix ?? ''"
               :suffix="item.suffix ?? ''"
-              :label="t(`differentiators.${item.id}.label`)"
+              :label="t(`hero.metrics.${item.id}.label`)"
             />
           </div>
         </div>

@@ -7,7 +7,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section id="servicios" class="relative overflow-hidden bg-core-mist py-20 md:py-28">
+  <section id="servicios" class="relative overflow-hidden bg-white py-20 md:py-28">
     <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
     <div class="section-shell relative">
       <SectionHeading

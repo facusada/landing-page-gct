@@ -1,10 +1,82 @@
-import type { ClientLogo, DifferentiatorItem, IndustryItem, ServiceItem, ServiceModule, TechnologyPillar } from '~/types/landing'
+import type { ClientLogo, DifferentiatorItem, FeaturedExpertiseItem, HeroMetric, IndustryItem, PillarItem, PlatformItem, ServiceItem, ServiceModule, TechnologyPillar, TrustCardItem } from '~/types/landing'
 
 export const differentiators: DifferentiatorItem[] = [
   { id: 'years', numericValue: 20, prefix: '+' },
   { id: 'projects', numericValue: 150, prefix: '+' },
   { id: 'professionals', numericValue: 50, prefix: '+' },
   { id: 'hours', numericValue: 200, prefix: '+', suffix: 'M' }
+]
+
+export const heroMetrics: HeroMetric[] = [
+  { id: 'years', numericValue: 20, suffix: '+' },
+  { id: 'operations', numericValue: 24, suffix: '/7' },
+  { id: 'governance', numericValue: 100, suffix: '%' }
+]
+
+export const pillars: PillarItem[] = [
+  {
+    id: 'transform',
+    index: '01',
+    iconPaths: ['M21 3v6h-6', 'M3 12a9 9 0 0 1 15-6.7L21 9', 'M3 21v-6h6', 'M21 12a9 9 0 0 1-15 6.7L3 15'],
+    to: '/servicios/migracion-transformacion-sap',
+    image: '/pillars/01_transform.png'
+  },
+  {
+    id: 'secure',
+    index: '02',
+    iconPaths: ['M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z', 'M9 12l2 2 4-4'],
+    to: '/servicios/seguridad-sap-grc',
+    image: '/pillars/02_secure.png'
+  },
+  {
+    id: 'operate',
+    index: '03',
+    iconPaths: ['M3 12h4l2 6 4-14 2 8h6'],
+    to: '/servicios/operacion-soporte-ams',
+    image: '/pillars/04_operate.png'
+  },
+  {
+    id: 'govern',
+    index: '04',
+    iconPaths: ['M12 4v16M6 8h12M8 20h8', 'M6 8l-3 6a3 3 0 0 0 6 0z', 'M18 8l-3 6a3 3 0 0 0 6 0z'],
+    to: '/servicios/servicios-sap-solution-manager',
+    image: '/pillars/03_govern.png'
+  },
+  {
+    id: 'innovate',
+    index: '05',
+    iconPaths: ['M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2', 'M12 8.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4z'],
+    to: '/servicios/innovacion-sap',
+    image: '/pillars/05_innovate.png'
+  }
+]
+
+export const featuredExpertise: FeaturedExpertiseItem[] = [
+  { id: 'transformation', pillarTag: '01', to: '/servicios/migracion-transformacion-sap' },
+  { id: 'security', pillarTag: '02', to: '/servicios/seguridad-sap-grc', flip: true },
+  { id: 'operations', pillarTag: '03', to: '/servicios/sap-techs-managed-services' }
+]
+
+export const platforms: PlatformItem[] = [
+  {
+    id: 'intelliguard',
+    accent: 'orange',
+    iconPaths: ['M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z', 'M9 12l2 2 4-4']
+  },
+  {
+    id: 'opsIntelligence',
+    accent: 'cyan',
+    iconPaths: ['M6 6h12v12H6z', 'M9 1.5v3M15 1.5v3M9 19.5v3M15 19.5v3M1.5 9h3M1.5 15h3M19.5 9h3M19.5 15h3']
+  }
+]
+
+export const whyItemIds = ['expertise', 'governance', 'security', 'cleanCore', 'ai', 'partnership'] as const
+
+export const trustCards: TrustCardItem[] = [
+  { id: 'sap', tag: 'SAP' },
+  { id: 'grc', tag: 'GRC' },
+  { id: 'ai', tag: 'AI' },
+  { id: 'ops', tag: '24/7' }
 ]
 
 export const services: ServiceItem[] = [
@@ -19,10 +91,12 @@ export const services: ServiceItem[] = [
 ]
 
 export const industries: IndustryItem[] = [
-  { id: 'energia', icon: 'bolt' },
-  { id: 'industria', icon: 'factory' },
+  { id: 'manufactura', icon: 'factory' },
+  { id: 'logistica', icon: 'truck' },
   { id: 'retail', icon: 'cart' },
-  { id: 'servicios', icon: 'shield' }
+  { id: 'energia', icon: 'bolt' },
+  { id: 'consumo', icon: 'package' },
+  { id: 'farma', icon: 'pharma' }
 ]
 
 export const technologyPillars: TechnologyPillar[] = [

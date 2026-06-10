@@ -35,5 +35,11 @@ export const sapProducts: SapProduct[] = [
     featureCount: 6,
     heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80',
     detailImage: '/sap-integration-suite-graphic.svg'
+  },
+  {
+    id: 'sac',
+    featureCount: 6,
+    heroImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=2000&q=80',
+    detailImage: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=900&q=80'
   }
 ]

@@ -1,6 +1,9 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 import { defineComponent, h } from 'vue'
+import { createI18n } from 'vue-i18n'
+import en from '../../locales/en.json'
+import es from '../../locales/es.json'
 import AppFooter from '../../components/AppFooter.vue'
 import AppHeader from '../../components/AppHeader.vue'
 import AboutSection from '../../components/sections/AboutSection.vue'
@@ -21,7 +24,8 @@ import IndexPage from '../../pages/index.vue'
 import { services } from '../../data/landing'
 
 vi.mock('#app/composables/head', () => ({
-  useSeoMeta: vi.fn()
+  useSeoMeta: vi.fn(),
+  useHead: vi.fn()
 }))
 
 vi.mock('#app/composables/router', () => ({
@@ -67,10 +71,18 @@ const globalComponents = {
   TechnologySection
 }
 
+const i18n = createI18n({
+  legacy: false,
+  locale: 'es',
+  fallbackLocale: 'es',
+  messages: { es, en }
+})
+
 describe('home page', () => {
   const mountOptions = {
     global: {
       components: globalComponents,
+      plugins: [i18n],
       stubs: { NuxtLink: NuxtLinkStub }
     }
   }
@@ -78,10 +90,14 @@ describe('home page', () => {
   it('renders the principal landing sections', () => {
     const wrapper = mount(IndexPage, mountOptions)
 
-    expect(wrapper.find('h1').text()).toContain('Consultoría SAP')
+    expect(wrapper.find('h1').text()).toContain('Transformación, seguridad y operación inteligente de SAP')
     expect(wrapper.text()).toContain('Servicios SAP')
+    expect(wrapper.text()).toContain('cinco pilares')
+    expect(wrapper.text()).toContain('Intelliguard')
+    expect(wrapper.text()).toContain('Operations Intelligence')
+    expect(wrapper.text()).toContain('Más que consultoría SAP')
     expect(wrapper.text()).toContain('Clientes que confían')
-    expect(wrapper.text()).toContain('Tu estrategia SAP')
+    expect(wrapper.text()).toContain('transformar tu ecosistema SAP')
   })
 
   it('renders every configured service slug link', () => {

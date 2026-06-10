@@ -9,7 +9,8 @@
     "items": {
       "about": "Nosotros",
       "services": "Servicios",
-      "technology": "Tecnología",
+      "solutions": "Soluciones",
+      "platforms": "Plataformas",
       "clients": "Clientes",
       "contact": "Contacto"
     }
@@ -27,18 +28,67 @@
       "home": "Inicio",
       "about": "Nosotros",
       "services": "Servicios",
-      "technology": "Tecnología",
+      "solutions": "Soluciones SAP",
+      "platforms": "Plataformas",
       "clients": "Clientes",
       "contact": "Contacto"
     },
     "copyright": "© 2026 Global Core Technologies. Todos los derechos reservados."
   },
   "hero": {
-    "eyebrow": "SAP Silver Partner",
-    "title": "Consultoría SAP, seguridad y evolución digital",
-    "description": "Acompañamos a empresas medianas y grandes a modernizar, asegurar y operar sus plataformas SAP con criterio estratégico, foco en riesgo y ejecución medible.",
-    "primaryCta": "Hablemos de tu entorno SAP",
-    "secondaryCta": "Ver servicios"
+    "eyebrow": "Seguridad · Operación · Transformación SAP",
+    "title": "Transformación, seguridad y operación inteligente de SAP",
+    "description": "Ayudamos a las organizaciones a transformar, proteger, operar y optimizar sus ecosistemas SAP mediante gobierno, automatización e inteligencia impulsada por IA.",
+    "primaryCta": "Agendá una evaluación estratégica",
+    "secondaryCta": "Explorá nuestra experiencia",
+    "metrics": {
+      "years": { "label": "años de experiencia SAP" },
+      "operations": { "label": "operación SAP gestionada" },
+      "governance": { "label": "entrega basada en gobierno" }
+    }
+  },
+  "pillars": {
+    "eyebrow": "Nuestra experiencia",
+    "title": "Los cinco pilares de un ecosistema SAP sostenible",
+    "description": "Cada proyecto se construye sobre cinco disciplinas conectadas para que tu entorno SAP permanezca seguro, gobernado y listo para evolucionar.",
+    "learnMore": "Conocer más →",
+    "items": {
+      "transform": { "title": "Transformar", "description": "Acelerá tu camino hacia SAP S/4HANA y el ERP en la nube." },
+      "secure": { "title": "Proteger", "description": "Protegé tu entorno SAP con seguridad, gobierno y cumplimiento." },
+      "operate": { "title": "Operar", "description": "Garantizá disponibilidad, rendimiento y excelencia operativa." },
+      "govern": { "title": "Gobernar", "description": "Establecé los marcos, estándares y controles necesarios para el éxito a largo plazo." },
+      "innovate": { "title": "Innovar", "description": "Liberá nuevo valor de negocio con IA, automatización y decisiones basadas en datos." }
+    }
+  },
+  "featured": {
+    "eyebrow": "Experiencia destacada",
+    "title": "Donde las empresas más confían en nosotros",
+    "items": {
+      "security": {
+        "tag": "Pilar 02 · Proteger",
+        "title": "Seguridad y gobierno SAP",
+        "highlight": "La seguridad no es un complemento. Es la base de un ecosistema SAP resiliente.",
+        "description": "Integramos controles de identidad, acceso y cumplimiento en todo tu entorno SAP, desde el diseño de roles hasta la monitorización continua.",
+        "chips": ["SAP Security", "RBAC", "SoD", "SAP GRC", "Servicios Gestionados de Seguridad", "Monitorización de Cumplimiento"],
+        "cta": "Explorá los servicios de seguridad"
+      },
+      "operations": {
+        "tag": "Pilar 03 · Operar",
+        "title": "Servicios gestionados SAP y BASIS NextGen",
+        "highlight": "La operación tradicional de SAP está evolucionando.",
+        "description": "Nuestro enfoque BASIS NextGen combina automatización, observabilidad, gobierno y operaciones inteligentes para mejorar la fiabilidad reduciendo el esfuerzo operativo.",
+        "chips": ["SAP AMS", "SAP Basis", "Cloud ALM", "Monitorización y Automatización", "Análisis de Causa Raíz", "Gobierno Técnico"],
+        "cta": "Descubrí BASIS NextGen"
+      },
+      "transformation": {
+        "tag": "Pilar 01 · Transformar",
+        "title": "Transformación SAP S/4HANA",
+        "highlight": "Transformá con confianza.",
+        "description": "Modernizamos los entornos SAP mediante programas de transformación estructurados, evaluaciones de preparación para la migración y una ejecución basada en gobierno.",
+        "chips": ["SAP S/4HANA", "RISE with SAP", "Evaluaciones de Preparación", "Estrategia Clean Core", "Gobierno de Migración"],
+        "cta": "Iniciá tu transformación"
+      }
+    }
   },
   "differentiators": {
     "years": {
@@ -195,6 +245,28 @@
           "Proyectos de migración a S/4HANA donde los flujos de integración deben rediseñarse o modernizarse",
           "Negocios con intercambio B2B que requieren conectividad EDI estándar y rastreable con socios comerciales"
         ]
+      },
+      "sac": {
+        "badge": "Analytics Cloud",
+        "title": "SAP Analytics Cloud",
+        "subtitle": "Analítica y planificación",
+        "description": "Analítica y planificación en tiempo real para convertir los datos SAP en decisiones más rápidas y precisas.",
+        "longDescription": "SAP Analytics Cloud (SAC) unifica business intelligence, planificación financiera y analítica aumentada en una única plataforma cloud conectada en vivo a S/4HANA, BW y fuentes externas. Permite construir dashboards ejecutivos, presupuestos y forecasts colaborativos, y simulaciones what-if sobre datos operativos reales, sin replicar información. Global Core Technologies diseña e implementa modelos analíticos y de planning alineados a los procesos del negocio, para que las decisiones se tomen sobre una única versión de la verdad.",
+        "minUsers": "Datos y decisiones",
+        "features": [
+          { "title": "Dashboards ejecutivos", "description": "Historias y tableros interactivos sobre datos SAP en vivo, con conexión nativa a S/4HANA y BW." },
+          { "title": "Planificación colaborativa", "description": "Presupuestos, forecasts y simulaciones what-if integrados con los datos reales de la operación." },
+          { "title": "Analítica aumentada", "description": "Insights automáticos, búsqueda en lenguaje natural y predicciones asistidas por IA." },
+          { "title": "Conectividad en vivo", "description": "Live connections a fuentes SAP y no SAP sin replicar datos ni perder gobierno." },
+          { "title": "Modelado de datos", "description": "Modelos analíticos y de planning con dimensiones, jerarquías y reglas de negocio." },
+          { "title": "Seguridad y gobierno", "description": "Roles, autorizaciones y trazabilidad alineados al modelo de seguridad SAP existente." }
+        ],
+        "useCases": [
+          "Equipos de dirección que necesitan visibilidad ejecutiva en tiempo real sobre la operación SAP",
+          "Áreas de finanzas que buscan unificar presupuesto, forecast y reporting en una sola herramienta",
+          "Organizaciones que quieren reemplazar planillas y reportes manuales por analítica gobernada",
+          "Empresas con S/4HANA que quieren aprovechar la analítica embebida y extenderla a toda la organización"
+        ]
       }
     }
   },
@@ -333,15 +405,73 @@
     }
   },
   "industries": {
-    "eyebrow": "Industrias",
-    "title": "Experiencia para empresas con operaciones exigentes",
+    "eyebrow": "Industrias que atendemos",
+    "title": "Experiencia SAP en industrias críticas",
     "description": "El foco está en sectores donde SAP, seguridad, auditoría y continuidad operativa impactan directamente en el negocio.",
     "items": {
-      "energia": { "name": "Energía", "description": "Operación, compliance y continuidad para negocios intensivos en activos." },
-      "industria": { "name": "Industria y manufactura", "description": "Procesos integrados, trazabilidad y eficiencia operativa." },
-      "retail": { "name": "Retail y marketplaces", "description": "Escalabilidad, seguridad y evolución de plataformas transaccionales." },
-      "servicios": { "name": "Servicios regulados", "description": "Gobierno, auditoría y controles para operaciones sensibles." }
+      "manufactura": { "name": "Manufactura", "description": "Producción, cadena de suministro y operación de planta." },
+      "logistica": { "name": "Logística y transporte", "description": "Flota, almacenamiento y distribución." },
+      "retail": { "name": "Retail y marketplaces", "description": "Comercio omnicanal y plataformas transaccionales." },
+      "energia": { "name": "Energía y utilities", "description": "Operación, activos críticos y servicio de campo." },
+      "consumo": { "name": "Bienes de consumo", "description": "Demanda, comercio y fulfilment." },
+      "farma": { "name": "Farmacéutica", "description": "Cumplimiento, calidad y trazabilidad." }
     }
+  },
+  "platforms": {
+    "eyebrow": "Plataformas de innovación",
+    "title": "Construyendo el futuro de la operación SAP",
+    "description": "Estamos invirtiendo en plataformas propias diseñadas para redefinir el gobierno, la seguridad y la operación de SAP.",
+    "badge": "Iniciativa de Innovación Estratégica",
+    "items": {
+      "intelliguard": {
+        "name": "Intelliguard™",
+        "type": "Inteligencia de seguridad SAP con IA",
+        "description": "Una plataforma de nueva generación para simplificar el gobierno de seguridad SAP, la monitorización de cumplimiento, la evaluación de riesgos y las operaciones de seguridad.",
+        "features": ["Inteligencia de seguridad", "Detección de riesgos", "Monitorización de cumplimiento", "Automatización de gobierno", "Visibilidad ejecutiva"],
+        "cta": "Conocé Intelliguard"
+      },
+      "opsIntelligence": {
+        "name": "Operations Intelligence™",
+        "type": "El futuro de la operación SAP BASIS",
+        "description": "Una plataforma de operaciones inteligente para mejorar la observabilidad, automatizar el análisis de causa raíz y aportar inteligencia operativa en entornos SAP complejos.",
+        "features": ["Inteligencia operativa", "Análisis impulsado por IA", "Detección de causa raíz", "Monitorización predictiva", "Operaciones autónomas"],
+        "cta": "Explorá la visión"
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Por qué Global Core Technologies",
+    "title": "Más que consultoría SAP",
+    "description": "Combinamos transformación, seguridad, gobierno y operaciones inteligentes para ayudar a las organizaciones a gestionar entornos SAP críticos.",
+    "items": {
+      "expertise": { "title": "Profunda experiencia SAP", "description": "Décadas de experiencia combinada en Seguridad, Basis, Arquitectura y Transformación." },
+      "governance": { "title": "Enfoque basado en gobierno", "description": "Alineamos cada decisión tecnológica con objetivos de negocio claros." },
+      "security": { "title": "Seguridad por diseño", "description": "La seguridad se integra en cada proyecto, nunca se añade al final." },
+      "cleanCore": { "title": "Mentalidad Clean Core", "description": "Protegemos la actualizabilidad y mantenemos tu núcleo SAP limpio a largo plazo." },
+      "ai": { "title": "Visión de IA y automatización", "description": "Construimos plataformas de nueva generación para el futuro de la operación SAP." },
+      "partnership": { "title": "Alianza a largo plazo", "description": "Acompañamos todo el ciclo de vida de SAP, no solo un proyecto puntual." }
+    },
+    "aside": {
+      "eyebrow": "Empezá acá",
+      "title": "¿No sabés por dónde empezar?",
+      "description": "Realizá una evaluación estratégica con nuestros expertos SAP y recibí una hoja de ruta priorizada para seguridad, operación y transformación.",
+      "cta": "Agendá una evaluación estratégica",
+      "stats": {
+        "time": { "value": "30 min", "label": "Evaluación estratégica" },
+        "pillars": { "value": "5", "label": "Pilares conectados" }
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Confianza y credibilidad",
+    "title": "Un socio empresarial sobre el que construir",
+    "cards": {
+      "sap": { "title": "Experiencia en el ecosistema", "description": "Especialización profunda en Seguridad SAP, BASIS y S/4HANA." },
+      "grc": { "title": "Gobierno y cumplimiento", "description": "Marcos alineados con auditoría, SoD y necesidades regulatorias." },
+      "ai": { "title": "Plataformas de innovación", "description": "Inteligencia propia para la seguridad y operación de SAP." },
+      "ops": { "title": "Operación gestionada", "description": "Monitorización continua y modelos de soporte flexibles." }
+    },
+    "certs": ["SAP Silver Partner", "Consultores Certificados SAP", "Alianzas Estratégicas"]
   },
   "technology": {
     "eyebrow": "Tecnología",
@@ -359,9 +489,10 @@
   },
   "contactCta": {
     "eyebrow": "Próximo paso",
-    "title": "Tu estrategia SAP debería estar alineada al crecimiento del negocio",
-    "description": "Revisemos migración, seguridad y operación con un enfoque que reduzca riesgos y habilite una evolución sostenible.",
-    "cta": "Contactar a Global Core"
+    "title": "¿Listo para transformar tu ecosistema SAP?",
+    "description": "Ya sea que estés planeando una transformación SAP, reforzando la seguridad, optimizando la operación o explorando la innovación con IA, nuestros expertos pueden ayudarte.",
+    "cta": "Agendá una consulta",
+    "secondaryCta": "Hablá con un experto"
   },
   "contactPage": {
     "seoTitle": "Contacto",

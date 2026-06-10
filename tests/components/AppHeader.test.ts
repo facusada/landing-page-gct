@@ -1,8 +1,11 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 import { defineComponent, h, ref } from 'vue'
+import { createI18n } from 'vue-i18n'
 import AppHeader from '../../components/AppHeader.vue'
 import { navigationItems } from '../../data/navigation'
+import en from '../../locales/en.json'
+import es from '../../locales/es.json'
 
 const NuxtLinkStub = defineComponent({
   name: 'NuxtLink',
@@ -17,6 +20,19 @@ vi.mock('#app/composables/router', () => ({
   useRouter: () => ({ push: vi.fn(), replace: vi.fn() })
 }))
 
+const i18n = createI18n({
+  legacy: false,
+  locale: 'es',
+  fallbackLocale: 'es',
+  messages: { es, en }
+})
+
+// El composable de @nuxtjs/i18n expone `locales` y `setLocale` sobre el composer global
+Object.assign(i18n.global, {
+  locales: ref([{ code: 'es' }, { code: 'en' }]),
+  setLocale: vi.fn()
+})
+
 vi.mock('#imports', () => ({
   ref,
   computed: (fn: () => unknown) => ({ value: fn() }),
@@ -28,6 +44,7 @@ vi.mock('#imports', () => ({
 describe('AppHeader', () => {
   const mountOptions = {
     global: {
+      plugins: [i18n],
       stubs: { NuxtLink: NuxtLinkStub }
     }
   }
@@ -43,7 +60,7 @@ describe('AppHeader', () => {
   it('opens mobile navigation from the menu button', async () => {
     const wrapper = mount(AppHeader, mountOptions)
 
-    await wrapper.get('button').trigger('click')
+    await wrapper.get('button[aria-controls="mobile-navigation"]').trigger('click')
 
     expect(wrapper.get('#mobile-navigation').isVisible()).toBe(true)
   })

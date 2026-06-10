@@ -4,7 +4,7 @@ import ServiceIcon from '~/components/ui/ServiceIcon.vue'
 import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
 const route = useRoute()
 const slug = route.params.slug as string
 
@@ -21,8 +21,8 @@ onMounted(() => {
 const title = computed(() => t(`services.items.${slug}.title`))
 const description = computed(() => t(`services.items.${slug}.description`))
 const longDescription = computed(() => t(`services.items.${slug}.longDescription`))
-const features = computed(() => t(`services.items.${slug}.features`) as unknown as string[])
-const benefits = computed(() => t(`services.items.${slug}.benefits`) as unknown as string[])
+const features = computed(() => (tm(`services.items.${slug}.features`) as unknown[]).map(i => rt(i as Parameters<typeof rt>[0])))
+const benefits = computed(() => (tm(`services.items.${slug}.benefits`) as unknown[]).map(i => rt(i as Parameters<typeof rt>[0])))
 
 useSeoMeta({
   title,

@@ -23,7 +23,7 @@ const { t } = useI18n()
           :key="product.id"
           :to="`/soluciones/${product.id}`"
           v-reveal="{ delay: Math.min(index * 130, 400), distance: 40, duration: 840 }"
-          :class="['group flex flex-col rounded-xl border border-core-line bg-white overflow-hidden shadow-[0_2px_12px_rgba(7,17,31,0.06)] transition duration-200 hover:-translate-y-1 hover:shadow-premium lg:col-span-2', index === 3 ? 'lg:col-start-2' : '']"
+          class="group flex flex-col rounded-xl border border-core-line bg-white overflow-hidden shadow-[0_2px_12px_rgba(7,17,31,0.06)] transition duration-200 hover:-translate-y-1 hover:shadow-premium lg:col-span-2"
         >
           <div class="p-7 flex-1 flex flex-col">
             <div class="mb-5 inline-flex items-center gap-2.5">

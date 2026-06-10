@@ -25,8 +25,9 @@ useParallax(imgRef, 0.1)
       <p class="mx-auto mt-5 max-w-2xl text-xl leading-8 text-slate-700">
         {{ t('contactCta.description') }}
       </p>
-      <div class="mt-8">
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
         <BaseButton to="/contacto">{{ t('contactCta.cta') }}</BaseButton>
+        <BaseButton to="/contacto" variant="secondary">{{ t('contactCta.secondaryCta') }}</BaseButton>
       </div>
     </div>
   </section>

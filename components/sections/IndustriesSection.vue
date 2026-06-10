@@ -8,12 +8,15 @@ const iconPaths: Record<string, string> = {
   bolt: 'M13 2L3 14h9l-1 10 10-12h-9l1-10z',
   factory: 'M2 20V8l5 4V8l5 4V4l4 4h4v12H2zM6 16h3v4H6v-4zm5 0h3v4h-3v-4z',
   cart: 'M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6M9 22a1 1 0 100-2 1 1 0 000 2zM20 22a1 1 0 100-2 1 1 0 000 2z',
-  shield: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'
+  shield: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+  truck: 'M1 3h15v13H1zM16 8h4l3 3v5h-7V8zM5.5 21a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM18.5 21a2.5 2.5 0 100-5 2.5 2.5 0 000 5z',
+  package: 'M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16zM3.27 6.96L12 12.01l8.73-5.05M12 22.08V12',
+  pharma: 'M12 8v8M8 12h8M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
 }
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-white py-20 md:py-28">
+  <section id="industrias" class="relative overflow-hidden bg-core-mist py-20 md:py-28">
     <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
     <div class="section-shell relative grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
       <SectionHeading

@@ -10,7 +10,7 @@ const { t } = useI18n()
     <div class="section-shell grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-4">
       <div>
         <img
-          class="h-12 w-auto brightness-0 invert"
+          class="h-12 w-auto"
           :src="'/global-core-logo.png'"
           alt="Global Core Technologies"
           width="960"
@@ -49,7 +49,8 @@ const { t } = useI18n()
           <NuxtLink to="/" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.home') }}</NuxtLink>
           <NuxtLink to="/#nosotros" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.about') }}</NuxtLink>
           <NuxtLink to="/servicios" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.services') }}</NuxtLink>
-          <NuxtLink to="/#tecnologia" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.technology') }}</NuxtLink>
+          <NuxtLink to="/#portfolio" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.solutions') }}</NuxtLink>
+          <NuxtLink to="/#plataformas" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.platforms') }}</NuxtLink>
           <NuxtLink to="/#clientes" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.clients') }}</NuxtLink>
           <NuxtLink to="/contacto" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.contact') }}</NuxtLink>
         </nav>

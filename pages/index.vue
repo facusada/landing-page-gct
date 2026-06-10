@@ -2,11 +2,14 @@
 import AboutSection from '~/components/sections/AboutSection.vue'
 import ClientsSection from '~/components/sections/ClientsSection.vue'
 import ContactCtaSection from '~/components/sections/ContactCtaSection.vue'
+import FeaturedExpertiseSection from '~/components/sections/FeaturedExpertiseSection.vue'
 import HeroSection from '~/components/sections/HeroSection.vue'
 import IndustriesSection from '~/components/sections/IndustriesSection.vue'
+import PillarsSection from '~/components/sections/PillarsSection.vue'
+import PlatformsSection from '~/components/sections/PlatformsSection.vue'
 import SapProductsSection from '~/components/sections/SapProductsSection.vue'
-import ServicesSection from '~/components/sections/ServicesSection.vue'
-import TechnologySection from '~/components/sections/TechnologySection.vue'
+import TrustSection from '~/components/sections/TrustSection.vue'
+import WhyGctSection from '~/components/sections/WhyGctSection.vue'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
@@ -32,10 +35,13 @@ useSeoMeta({
 <template>
   <HeroSection />
   <AboutSection />
+  <PillarsSection />
+  <FeaturedExpertiseSection />
   <SapProductsSection />
-  <ServicesSection />
+  <PlatformsSection />
+  <WhyGctSection />
   <IndustriesSection />
-  <TechnologySection />
+  <TrustSection />
   <ClientsSection />
   <ContactCtaSection />
 </template>

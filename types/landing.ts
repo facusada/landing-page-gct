@@ -21,6 +21,39 @@ export interface DifferentiatorItem {
   suffix?: string
 }
 
+export interface HeroMetric {
+  id: string
+  numericValue: number
+  prefix?: string
+  suffix?: string
+}
+
+export interface PillarItem {
+  id: string
+  index: string
+  iconPaths: string[]
+  to: string
+  image: string
+}
+
+export interface FeaturedExpertiseItem {
+  id: string
+  pillarTag: string
+  to: string
+  flip?: boolean
+}
+
+export interface PlatformItem {
+  id: string
+  accent: 'orange' | 'cyan'
+  iconPaths: string[]
+}
+
+export interface TrustCardItem {
+  id: string
+  tag: string
+}
+
 export interface IndustryItem {
   id: string
   icon: string
