@@ -3,10 +3,12 @@ import { navigationItems } from '~/data/navigation'
 
 const { t, locale, locales, setLocale } = useI18n()
 const isOpen = ref(false)
+const openDropdown = ref<string | null>(null)
 const route = useRoute()
 
 watch(() => route.path, () => {
   isOpen.value = false
+  openDropdown.value = null
 })
 
 const availableLocales = computed(() =>
@@ -29,14 +31,51 @@ const availableLocales = computed(() =>
       </NuxtLink>
 
       <div class="hidden items-center gap-8 md:flex">
-        <NuxtLink
-          v-for="item in navigationItems"
-          :key="item.to"
-          :to="item.to"
-          class="text-sm font-extrabold uppercase tracking-wide text-core-ink/78 transition hover:text-core-ink"
-        >
-          {{ t(`nav.items.${item.key}`) }}
-        </NuxtLink>
+        <template v-for="item in navigationItems" :key="item.key">
+          <!-- dropdown -->
+          <div
+            v-if="item.children"
+            class="relative"
+            @mouseenter="openDropdown = item.key"
+            @mouseleave="openDropdown = null"
+          >
+            <button
+              type="button"
+              class="inline-flex items-center gap-1.5 text-sm font-extrabold uppercase tracking-wide text-core-ink/78 transition hover:text-core-ink"
+              :class="openDropdown === item.key ? 'text-core-ink' : ''"
+              :aria-expanded="openDropdown === item.key"
+              @click="openDropdown = openDropdown === item.key ? null : item.key"
+              @keydown.escape="openDropdown = null"
+            >
+              {{ t(`nav.items.${item.key}`) }}
+              <svg class="h-3.5 w-3.5 transition-transform duration-200" :class="openDropdown === item.key ? 'rotate-180' : ''" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </button>
+            <div v-show="openDropdown === item.key" class="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3">
+              <div class="min-w-[240px] rounded-xl border border-core-line bg-white p-2 shadow-premium">
+                <NuxtLink
+                  v-for="child in item.children"
+                  :key="child.to"
+                  :to="child.to"
+                  class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-bold text-core-ink/80 transition hover:bg-core-mist hover:text-core-orange"
+                  @click="openDropdown = null"
+                >
+                  <span class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
+                  {{ t(`pillars.items.${child.key}.title`) }}
+                </NuxtLink>
+              </div>
+            </div>
+          </div>
+          <!-- regular link -->
+          <NuxtLink
+            v-else
+            :to="item.to"
+            class="text-sm font-extrabold uppercase tracking-wide text-core-ink/78 transition hover:text-core-ink"
+          >
+            {{ t(`nav.items.${item.key}`) }}
+          </NuxtLink>
+        </template>
 
         <button
           v-for="loc in availableLocales"
@@ -66,14 +105,29 @@ const availableLocales = computed(() =>
 
     <div v-if="isOpen" id="mobile-navigation" class="border-t border-core-line bg-white md:hidden">
       <div class="section-shell grid gap-1 py-4">
-        <NuxtLink
-          v-for="item in navigationItems"
-          :key="item.to"
-          :to="item.to"
-          class="rounded-md px-3 py-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
-        >
-          {{ t(`nav.items.${item.key}`) }}
-        </NuxtLink>
+        <template v-for="item in navigationItems" :key="item.key">
+          <div v-if="item.children">
+            <p class="px-3 pb-1 pt-3 text-xs font-bold uppercase tracking-wide text-core-ink/40">
+              {{ t(`nav.items.${item.key}`) }}
+            </p>
+            <NuxtLink
+              v-for="child in item.children"
+              :key="child.to"
+              :to="child.to"
+              class="flex items-center gap-3 rounded-md py-2.5 pl-6 pr-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
+            >
+              <span class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
+              {{ t(`pillars.items.${child.key}.title`) }}
+            </NuxtLink>
+          </div>
+          <NuxtLink
+            v-else
+            :to="item.to"
+            class="rounded-md px-3 py-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
+          >
+            {{ t(`nav.items.${item.key}`) }}
+          </NuxtLink>
+        </template>
         <button
           v-for="loc in availableLocales"
           :key="loc.code"

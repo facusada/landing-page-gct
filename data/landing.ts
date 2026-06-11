@@ -18,44 +18,59 @@ export const pillars: PillarItem[] = [
     id: 'transform',
     index: '01',
     iconPaths: ['M21 3v6h-6', 'M3 12a9 9 0 0 1 15-6.7L21 9', 'M3 21v-6h6', 'M21 12a9 9 0 0 1-15 6.7L3 15'],
-    to: '/servicios/migracion-transformacion-sap',
+    to: '/pilares/transform',
+    relatedSlug: 'migracion-transformacion-sap',
     image: '/pillars/01_transform.png'
   },
   {
     id: 'secure',
     index: '02',
     iconPaths: ['M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z', 'M9 12l2 2 4-4'],
-    to: '/servicios/seguridad-sap-grc',
+    to: '/pilares/secure',
+    relatedSlug: 'seguridad-sap-grc',
     image: '/pillars/02_secure.png'
   },
   {
     id: 'operate',
     index: '03',
     iconPaths: ['M3 12h4l2 6 4-14 2 8h6'],
-    to: '/servicios/operacion-soporte-ams',
+    to: '/pilares/operate',
+    relatedSlug: 'operacion-soporte-ams',
     image: '/pillars/04_operate.png'
   },
   {
     id: 'govern',
     index: '04',
     iconPaths: ['M12 4v16M6 8h12M8 20h8', 'M6 8l-3 6a3 3 0 0 0 6 0z', 'M18 8l-3 6a3 3 0 0 0 6 0z'],
-    to: '/servicios/servicios-sap-solution-manager',
+    to: '/pilares/govern',
+    relatedSlug: 'servicios-sap-solution-manager',
     image: '/pillars/03_govern.png'
   },
   {
     id: 'innovate',
     index: '05',
     iconPaths: ['M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2', 'M12 8.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4z'],
-    to: '/servicios/innovacion-sap',
+    to: '/pilares/innovate',
+    relatedSlug: 'innovacion-sap',
     image: '/pillars/05_innovate.png',
     bgPosition: '30% center'
   }
 ]
 
+export const pillarServiceKeys: Record<string, string[]> = {
+  transform: ['s4hana', 'riseWithSap', 'readinessAssessment', 'migrationGovernance', 'cleanCoreStrategy'],
+  secure: ['sapSecurity', 'rbac', 'sod', 'sapGrc', 'complianceMonitoring', 'securityManagedServices'],
+  operate: ['sapAms', 'sapBasis', 'cloudAlm', 'monitoringAutomation', 'rootCauseAnalysis', 'technicalGovernance'],
+  govern: ['governanceAdvisory', 'migrationGovernance', 'compliance', 'executiveControls', 'cleanCoreGovernance'],
+  innovate: ['aiAutomation', 'btpAutomation', 'intelliguard', 'opsIntelligencePlatform', 'predictiveMonitoring']
+}
+
 export const featuredExpertise: FeaturedExpertiseItem[] = [
-  { id: 'transformation', pillarTag: '01', to: '/servicios/migracion-transformacion-sap' },
-  { id: 'security', pillarTag: '02', to: '/servicios/seguridad-sap-grc', flip: true },
-  { id: 'operations', pillarTag: '03', to: '/servicios/sap-techs-managed-services' }
+  { id: 'transformation', pillarTag: '01', to: '/pilares/transform' },
+  { id: 'security', pillarTag: '02', to: '/pilares/secure', flip: true },
+  { id: 'operations', pillarTag: '03', to: '/pilares/operate' },
+  { id: 'governance', pillarTag: '04', to: '/pilares/govern', flip: true },
+  { id: 'innovation', pillarTag: '05', to: '/pilares/innovate' }
 ]
 
 export const platforms: PlatformItem[] = [

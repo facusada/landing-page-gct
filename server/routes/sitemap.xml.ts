@@ -1,4 +1,4 @@
-import { services } from '../../data/landing'
+import { pillars, services } from '../../data/landing'
 import { sapProducts } from '../../data/sap-products'
 import { siteConfig } from '../../data/site'
 
@@ -25,6 +25,16 @@ export default defineEventHandler((event: Parameters<typeof setHeader>[0]) => {
     )
     .join('\n')
 
+  const pillarUrls = pillars
+    .map(
+      (p) => `  <url>
+    <loc>${siteConfig.url}/pilares/${p.id}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>`
+    )
+    .join('\n')
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -39,6 +49,7 @@ export default defineEventHandler((event: Parameters<typeof setHeader>[0]) => {
   </url>
 ${serviceUrls}
 ${solutionUrls}
+${pillarUrls}
   <url>
     <loc>${siteConfig.url}/contacto</loc>
     <changefreq>monthly</changefreq>

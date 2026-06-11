@@ -8,6 +8,7 @@
     "openMenu": "Abrir menu de navegacion",
     "items": {
       "about": "Nosotros",
+      "pillars": "Pilares",
       "services": "Servicios",
       "solutions": "Soluciones",
       "platforms": "Plataformas",
@@ -87,6 +88,22 @@
         "description": "Modernizamos los entornos SAP mediante programas de transformación estructurados, evaluaciones de preparación para la migración y una ejecución basada en gobierno.",
         "chips": ["SAP S/4HANA", "RISE with SAP", "Evaluaciones de Preparación", "Estrategia Clean Core", "Gobierno de Migración"],
         "cta": "Iniciá tu transformación"
+      },
+      "governance": {
+        "tag": "Pilar 04 · Gobernar",
+        "title": "Gobierno SAP y Clean Core",
+        "highlight": "El gobierno no es burocracia. Es la diferencia entre un SAP que dura y uno que acumula deuda técnica.",
+        "description": "Diseñamos marcos de gobierno que alinean la estrategia SAP con los objetivos del negocio, garantizando trazabilidad, cumplimiento y la capacidad de actualizar sin fricciones.",
+        "chips": ["Governance Advisory", "Migration Governance", "Compliance", "Executive Controls", "Clean Core Governance"],
+        "cta": "Explorá el marco de gobierno"
+      },
+      "innovation": {
+        "tag": "Pilar 05 · Innovar",
+        "title": "IA, Automatización y Plataformas Inteligentes",
+        "highlight": "La IA no reemplaza a los equipos SAP. Los hace más efectivos.",
+        "description": "Integramos inteligencia artificial, automatización BTP y plataformas propietarias como Intelliguard y Operations Intelligence para que tus operaciones SAP evolucionen hacia decisiones basadas en datos.",
+        "chips": ["AI & Automation", "BTP Automation", "Intelliguard", "Operations Intelligence Platform", "Predictive Monitoring"],
+        "cta": "Descubrí nuestras plataformas"
       }
     }
   },
@@ -538,6 +555,134 @@
     "home": "Inicio",
     "services": "Servicios",
     "portfolio": "Portfolio SAP"
+  },
+  "pillarDetail": {
+    "breadcrumb": "Pilares",
+    "eyebrow": "Pilar {index}",
+    "servicesTitle": "Servicios relacionados",
+    "servicesDescription": "Capacidades especializadas que desplegamos dentro de este pilar para maximizar el valor de tu ecosistema SAP.",
+    "relatedServiceCta": "Ver servicio completo",
+    "contactCta": "Hablar con un especialista",
+    "items": {
+      "transform": {
+        "s4hana": {
+          "title": "SAP S/4HANA Transformation",
+          "description": "Diseño y ejecución de programas de transformación hacia SAP S/4HANA con metodología probada y control de riesgos."
+        },
+        "riseWithSap": {
+          "title": "RISE with SAP",
+          "description": "Adopción del modelo RISE with SAP para migrar a la nube con soporte contractual, técnico y de gobierno integrado."
+        },
+        "readinessAssessment": {
+          "title": "Readiness Assessment",
+          "description": "Evaluación de madurez técnica, funcional y organizacional para validar el estado de preparación antes de la migración."
+        },
+        "migrationGovernance": {
+          "title": "Migration Governance",
+          "description": "Marcos de control, seguimiento y toma de decisiones que garantizan la ejecución ordenada del proceso de migración."
+        },
+        "cleanCoreStrategy": {
+          "title": "Clean Core Strategy",
+          "description": "Definición de la estrategia de extensibilidad y modernización del núcleo SAP para preservar la capacidad de actualización."
+        }
+      },
+      "secure": {
+        "sapSecurity": {
+          "title": "SAP Security",
+          "description": "Diseño e implementación de controles de seguridad nativos de SAP para proteger accesos, datos y procesos críticos."
+        },
+        "rbac": {
+          "title": "RBAC",
+          "description": "Gestión de roles y perfiles basada en principio de mínimo privilegio para un control de acceso granular y auditable."
+        },
+        "sod": {
+          "title": "SoD",
+          "description": "Análisis y remediación de conflictos de segregación de funciones para eliminar riesgos de fraude y error operativo."
+        },
+        "sapGrc": {
+          "title": "SAP GRC",
+          "description": "Implementación de la suite SAP GRC Access Control, Process Control y Risk Management para gobierno integral del riesgo."
+        },
+        "complianceMonitoring": {
+          "title": "Compliance Monitoring",
+          "description": "Monitorización continua de cumplimiento normativo y controles internos con alertas, reportes y auditoría en tiempo real."
+        },
+        "securityManagedServices": {
+          "title": "Security Managed Services",
+          "description": "Servicio gestionado de seguridad SAP con operación continua, respuesta ante incidentes y mejora iterativa de controles."
+        }
+      },
+      "operate": {
+        "sapAms": {
+          "title": "SAP AMS",
+          "description": "Servicio de Application Management Services para soporte funcional y técnico de los módulos SAP en producción."
+        },
+        "sapBasis": {
+          "title": "SAP Basis",
+          "description": "Administración y operación de la plataforma técnica SAP BASIS NextGen con foco en disponibilidad y rendimiento."
+        },
+        "cloudAlm": {
+          "title": "Cloud ALM",
+          "description": "Implementación y operación de SAP Cloud ALM para gestión del ciclo de vida, proyectos y operaciones en la nube."
+        },
+        "monitoringAutomation": {
+          "title": "Monitoring & Automation",
+          "description": "Plataformas de monitorización proactiva y automatización de tareas operativas para reducir el trabajo manual y los tiempos de respuesta."
+        },
+        "rootCauseAnalysis": {
+          "title": "Root Cause Analysis",
+          "description": "Análisis estructurado de incidentes para identificar causas raíz, implementar correcciones y prevenir recurrencias."
+        },
+        "technicalGovernance": {
+          "title": "Technical Governance",
+          "description": "Establecimiento de estándares técnicos, change management y controles de calidad para la operación sostenible del sistema."
+        }
+      },
+      "govern": {
+        "governanceAdvisory": {
+          "title": "Governance Advisory",
+          "description": "Asesoría ejecutiva para diseñar marcos de gobierno SAP alineados a la estrategia del negocio y requisitos regulatorios."
+        },
+        "migrationGovernance": {
+          "title": "Migration Governance",
+          "description": "Estructuras de control para proyectos de migración que aseguran visibilidad, trazabilidad y gestión de decisiones críticas."
+        },
+        "compliance": {
+          "title": "Compliance",
+          "description": "Implementación de controles de cumplimiento normativo integrados en los procesos SAP para reducir la exposición regulatoria."
+        },
+        "executiveControls": {
+          "title": "Executive Controls",
+          "description": "Paneles ejecutivos y KPIs de control que brindan visibilidad al liderazgo sobre el estado del ecosistema SAP."
+        },
+        "cleanCoreGovernance": {
+          "title": "Clean Core Governance",
+          "description": "Políticas y procesos de gobierno para mantener el núcleo SAP limpio, actualizable y alineado a las mejores prácticas."
+        }
+      },
+      "innovate": {
+        "aiAutomation": {
+          "title": "AI & Automation",
+          "description": "Integración de inteligencia artificial y automatización inteligente en procesos SAP para incrementar productividad y precisión."
+        },
+        "btpAutomation": {
+          "title": "BTP Automation",
+          "description": "Desarrollo de automatizaciones y extensiones sobre SAP Business Technology Platform con enfoque en escalabilidad y gobernabilidad."
+        },
+        "intelliguard": {
+          "title": "Intelliguard",
+          "description": "Plataforma propietaria de monitorización inteligente que detecta anomalías, anticipa riesgos y acelera la respuesta operativa."
+        },
+        "opsIntelligencePlatform": {
+          "title": "Operations Intelligence Platform",
+          "description": "Solución de análisis operacional que centraliza métricas de rendimiento y disponibilidad para decisiones basadas en datos."
+        },
+        "predictiveMonitoring": {
+          "title": "Predictive Monitoring",
+          "description": "Modelos predictivos que anticipan incidentes, cuellos de botella y degradaciones antes de que impacten el negocio."
+        }
+      }
+    }
   },
   "solutionsPage": {
     "whatIs": "¿Qué es?",

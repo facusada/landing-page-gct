@@ -1,7 +1,22 @@
-export interface NavigationItem {
+export interface NavigationChild {
   key: string
   to: string
+  index: string
 }
+
+export interface NavigationLink {
+  key: string
+  to: string
+  children?: never
+}
+
+export interface NavigationDropdown {
+  key: string
+  to?: never
+  children: NavigationChild[]
+}
+
+export type NavigationItem = NavigationLink | NavigationDropdown
 
 export interface ServiceItem {
   slug: string
@@ -35,6 +50,12 @@ export interface PillarItem {
   to: string
   image: string
   bgPosition?: string
+  relatedSlug?: string
+}
+
+export interface PillarServiceItem {
+  id: string
+  icon?: string
 }
 
 export interface FeaturedExpertiseItem {

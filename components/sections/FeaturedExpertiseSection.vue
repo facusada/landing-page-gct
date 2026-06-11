@@ -98,6 +98,158 @@ const chipsFor = (id: string): string[] =>
                 </g>
               </svg>
 
+              <!-- Governance: framework / clean core -->
+              <svg v-else-if="item.id === 'governance'" viewBox="0 0 720 560" class="relative h-auto w-full" fill="none" role="img" font-family="'Inter','Segoe UI',Arial,sans-serif" :aria-label="t(`featured.items.${item.id}.title`)">
+                <defs>
+                  <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#0c1730"/><stop offset="1" stop-color="#070d1c"/>
+                  </linearGradient>
+                  <radialGradient id="glowG" cx="50%" cy="32%" r="55%">
+                    <stop offset="0" stop-color="#1d3a7a" stop-opacity="0.55"/><stop offset="1" stop-color="#1d3a7a" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="coreG" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#5b78f0"/><stop offset="1" stop-color="#3a55c8"/>
+                  </linearGradient>
+                  <filter id="softG" x="-40%" y="-40%" width="180%" height="180%">
+                    <feGaussianBlur stdDeviation="6"/>
+                  </filter>
+                </defs>
+                <rect width="720" height="560" rx="24" fill="url(#bgG)"/>
+                <rect width="720" height="560" rx="24" fill="url(#glowG)"/>
+                <g stroke="#2a3c63" stroke-opacity="0.28" stroke-width="1">
+                  <line x1="0" y1="70" x2="720" y2="70"/><line x1="0" y1="140" x2="720" y2="140"/>
+                  <line x1="0" y1="210" x2="720" y2="210"/><line x1="0" y1="280" x2="720" y2="280"/>
+                  <line x1="0" y1="350" x2="720" y2="350"/><line x1="0" y1="420" x2="720" y2="420"/>
+                  <line x1="0" y1="490" x2="720" y2="490"/>
+                  <line x1="80" y1="0" x2="80" y2="560"/><line x1="160" y1="0" x2="160" y2="560"/>
+                  <line x1="240" y1="0" x2="240" y2="560"/><line x1="320" y1="0" x2="320" y2="560"/>
+                  <line x1="400" y1="0" x2="400" y2="560"/><line x1="480" y1="0" x2="480" y2="560"/>
+                  <line x1="560" y1="0" x2="560" y2="560"/><line x1="640" y1="0" x2="640" y2="560"/>
+                </g>
+                <g stroke="#3a4c78" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round">
+                  <path d="M360 196 L360 250"/>
+                  <path d="M360 320 C360 360 200 360 200 392"/>
+                  <path d="M360 320 L360 392"/>
+                  <path d="M360 320 C360 360 520 360 520 392"/>
+                </g>
+                <circle cx="360" cy="150" r="62" fill="url(#coreG)" filter="url(#softG)" opacity="0.5"/>
+                <circle cx="360" cy="150" r="56" fill="url(#coreG)"/>
+                <circle cx="360" cy="150" r="56" fill="none" stroke="#8aa0ff" stroke-opacity="0.5" stroke-width="1.5"/>
+                <g stroke="#eaf0ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                  <rect x="340" y="135" width="40" height="30" rx="4"/>
+                  <line x1="340" y1="150" x2="380" y2="150"/>
+                  <line x1="350" y1="135" x2="350" y2="165"/>
+                  <line x1="370" y1="135" x2="370" y2="165"/>
+                </g>
+                <text x="360" y="245" text-anchor="middle" fill="#9fb0d8" font-size="13" letter-spacing="3">POLICY CORE</text>
+                <g>
+                  <rect x="120" y="392" width="160" height="58" rx="12" fill="#101c39" stroke="#2c3e66" stroke-width="1.5"/>
+                  <circle cx="262" cy="421" r="6" fill="#2ecc71"/>
+                  <text x="142" y="418" fill="#dfe7fa" font-size="15" font-weight="700">CONTROLES</text>
+                  <text x="142" y="437" fill="#7d8db5" font-size="11" letter-spacing="1.5">COMPLIANCE</text>
+                  <rect x="296" y="392" width="128" height="58" rx="12" fill="#101c39" stroke="#2c3e66" stroke-width="1.5"/>
+                  <circle cx="406" cy="421" r="6" fill="#e8682c"/>
+                  <text x="316" y="418" fill="#dfe7fa" font-size="15" font-weight="700">RIESGO</text>
+                  <text x="316" y="437" fill="#7d8db5" font-size="11" letter-spacing="1.5">RISK MGMT</text>
+                  <rect x="440" y="392" width="160" height="58" rx="12" fill="#101c39" stroke="#2c3e66" stroke-width="1.5"/>
+                  <circle cx="582" cy="421" r="6" fill="#4a6cf6"/>
+                  <text x="462" y="418" fill="#dfe7fa" font-size="15" font-weight="700">AUDITORÍA</text>
+                  <text x="462" y="437" fill="#7d8db5" font-size="11" letter-spacing="1.5">AUDIT TRAIL</text>
+                </g>
+                <g>
+                  <circle cx="200" cy="492" r="5" fill="#2ecc71"/>
+                  <circle cx="360" cy="492" r="5" fill="#e8682c"/>
+                  <circle cx="520" cy="492" r="5" fill="#4a6cf6"/>
+                  <text x="200" y="520" text-anchor="middle" fill="#8595bd" font-size="12" letter-spacing="2">DEFINE</text>
+                  <text x="360" y="520" text-anchor="middle" fill="#8595bd" font-size="12" letter-spacing="2">ENFORCE</text>
+                  <text x="520" y="520" text-anchor="middle" fill="#8595bd" font-size="12" letter-spacing="2">MONITOR</text>
+                </g>
+              </svg>
+
+              <!-- Innovation: AI / BTP / Intelliguard -->
+              <svg v-else-if="item.id === 'innovation'" viewBox="0 0 720 560" class="relative h-auto w-full" fill="none" role="img" font-family="'Inter','Segoe UI',Arial,sans-serif" :aria-label="t(`featured.items.${item.id}.title`)">
+                <defs>
+                  <linearGradient id="bgI" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#0c1730"/><stop offset="1" stop-color="#070d1c"/>
+                  </linearGradient>
+                  <radialGradient id="glowI" cx="50%" cy="40%" r="55%">
+                    <stop offset="0" stop-color="#7a3a1d" stop-opacity="0.42"/><stop offset="1" stop-color="#7a3a1d" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="coreI" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#f0823e"/><stop offset="1" stop-color="#d4541f"/>
+                  </linearGradient>
+                  <filter id="softI" x="-40%" y="-40%" width="180%" height="180%">
+                    <feGaussianBlur stdDeviation="6"/>
+                  </filter>
+                </defs>
+                <rect width="720" height="560" rx="24" fill="url(#bgI)"/>
+                <rect width="720" height="560" rx="24" fill="url(#glowI)"/>
+                <g stroke="#2a3c63" stroke-opacity="0.28" stroke-width="1">
+                  <line x1="0" y1="70" x2="720" y2="70"/><line x1="0" y1="140" x2="720" y2="140"/>
+                  <line x1="0" y1="210" x2="720" y2="210"/><line x1="0" y1="280" x2="720" y2="280"/>
+                  <line x1="0" y1="350" x2="720" y2="350"/><line x1="0" y1="420" x2="720" y2="420"/>
+                  <line x1="0" y1="490" x2="720" y2="490"/>
+                  <line x1="80" y1="0" x2="80" y2="560"/><line x1="160" y1="0" x2="160" y2="560"/>
+                  <line x1="240" y1="0" x2="240" y2="560"/><line x1="320" y1="0" x2="320" y2="560"/>
+                  <line x1="400" y1="0" x2="400" y2="560"/><line x1="480" y1="0" x2="480" y2="560"/>
+                  <line x1="560" y1="0" x2="560" y2="560"/><line x1="640" y1="0" x2="640" y2="560"/>
+                </g>
+                <g stroke="#3a4c78" stroke-width="2" stroke-linecap="round">
+                  <line x1="360" y1="200" x2="180" y2="120"/>
+                  <line x1="360" y1="200" x2="540" y2="120"/>
+                  <line x1="360" y1="200" x2="150" y2="270"/>
+                  <line x1="360" y1="200" x2="570" y2="270"/>
+                  <line x1="360" y1="200" x2="250" y2="330"/>
+                  <line x1="360" y1="200" x2="470" y2="330"/>
+                </g>
+                <g fill="#101c39" stroke="#2c3e66" stroke-width="1.5">
+                  <circle cx="180" cy="120" r="16"/><circle cx="540" cy="120" r="16"/>
+                  <circle cx="150" cy="270" r="16"/><circle cx="570" cy="270" r="16"/>
+                  <circle cx="250" cy="330" r="16"/><circle cx="470" cy="330" r="16"/>
+                </g>
+                <g fill="#4a6cf6">
+                  <circle cx="180" cy="120" r="5"/><circle cx="570" cy="270" r="5"/>
+                </g>
+                <g fill="#2ecc71">
+                  <circle cx="540" cy="120" r="5"/><circle cx="250" cy="330" r="5"/>
+                </g>
+                <g fill="#e8682c">
+                  <circle cx="150" cy="270" r="5"/><circle cx="470" cy="330" r="5"/>
+                </g>
+                <circle cx="360" cy="200" r="64" fill="url(#coreI)" filter="url(#softI)" opacity="0.5"/>
+                <circle cx="360" cy="200" r="56" fill="url(#coreI)"/>
+                <circle cx="360" cy="200" r="56" fill="none" stroke="#ffc59a" stroke-opacity="0.55" stroke-width="1.5"/>
+                <g stroke="#fff3ea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                  <path d="M360 174 L360 226"/>
+                  <path d="M334 200 L386 200"/>
+                  <path d="M342 182 L378 218"/>
+                  <path d="M378 182 L342 218"/>
+                </g>
+                <text x="360" y="295" text-anchor="middle" fill="#d8b39c" font-size="13" letter-spacing="3">AI · BTP CORE</text>
+                <g>
+                  <rect x="120" y="392" width="150" height="58" rx="12" fill="#101c39" stroke="#2c3e66" stroke-width="1.5"/>
+                  <circle cx="252" cy="421" r="6" fill="#2ecc71"/>
+                  <text x="142" y="418" fill="#dfe7fa" font-size="15" font-weight="700">SAP BTP</text>
+                  <text x="142" y="437" fill="#7d8db5" font-size="11" letter-spacing="1.5">PLATFORM</text>
+                  <rect x="286" y="392" width="148" height="58" rx="12" fill="#101c39" stroke="#2c3e66" stroke-width="1.5"/>
+                  <circle cx="416" cy="421" r="6" fill="#e8682c"/>
+                  <text x="308" y="418" fill="#dfe7fa" font-size="15" font-weight="700">JOULE AI</text>
+                  <text x="308" y="437" fill="#7d8db5" font-size="11" letter-spacing="1.5">COPILOT</text>
+                  <rect x="450" y="392" width="150" height="58" rx="12" fill="#101c39" stroke="#2c3e66" stroke-width="1.5"/>
+                  <circle cx="582" cy="421" r="6" fill="#4a6cf6"/>
+                  <text x="472" y="418" fill="#dfe7fa" font-size="15" font-weight="700">EXTENSIÓN</text>
+                  <text x="472" y="437" fill="#7d8db5" font-size="11" letter-spacing="1.5">SIDE-BY-SIDE</text>
+                </g>
+                <g>
+                  <circle cx="200" cy="492" r="5" fill="#2ecc71"/>
+                  <circle cx="360" cy="492" r="5" fill="#e8682c"/>
+                  <circle cx="520" cy="492" r="5" fill="#4a6cf6"/>
+                  <text x="200" y="520" text-anchor="middle" fill="#8595bd" font-size="12" letter-spacing="2">EXPLORE</text>
+                  <text x="360" y="520" text-anchor="middle" fill="#8595bd" font-size="12" letter-spacing="2">BUILD</text>
+                  <text x="520" y="520" text-anchor="middle" fill="#8595bd" font-size="12" letter-spacing="2">SCALE</text>
+                </g>
+              </svg>
+
               <!-- Transformation: ECC → RISE → S/4HANA journey -->
               <svg v-else viewBox="0 0 360 290" class="relative h-auto w-full" fill="none" role="img" :aria-label="t(`featured.items.${item.id}.title`)">
                 <defs>
