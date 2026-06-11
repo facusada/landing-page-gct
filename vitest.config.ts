@@ -11,6 +11,7 @@ export default defineVitestConfig({
   test: {
     environment: 'happy-dom',
     globals: true,
-    include: ['tests/**/*.test.ts']
+    include: ['tests/**/*.test.ts'],
+    setupFiles: ['./tests/setup.ts']
   }
 })

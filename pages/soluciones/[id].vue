@@ -4,6 +4,7 @@ import { sapProducts } from '~/data/sap-products'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 const route = useRoute()
 const id = route.params.id as string
 
@@ -72,9 +73,9 @@ useHead({
       <div class="absolute inset-0 -z-10 bg-gradient-to-b from-core-ink/60 via-core-ink/80 to-core-ink" />
       <div class="section-shell">
         <nav class="mb-10 text-sm text-white/60" aria-label="Breadcrumb">
-          <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
           <span class="mx-2">/</span>
-          <NuxtLink to="/#portfolio" class="hover:text-white">{{ t('breadcrumb.portfolio') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/#portfolio')" class="hover:text-white">{{ t('breadcrumb.portfolio') }}</NuxtLink>
           <span class="mx-2">/</span>
           <span class="text-white/90">{{ productTitle }}</span>
         </nav>

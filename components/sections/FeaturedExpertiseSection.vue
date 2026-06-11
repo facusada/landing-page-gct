@@ -3,6 +3,7 @@ import SectionHeading from '~/components/ui/SectionHeading.vue'
 import { featuredExpertise } from '~/data/landing'
 
 const { t, tm, rt } = useI18n()
+const localizedTo = useLocalizedTo()
 
 const chipsFor = (id: string): string[] =>
   (tm(`featured.items.${id}.chips`) as unknown[]).map(chip => rt(chip as never))
@@ -49,7 +50,7 @@ const chipsFor = (id: string): string[] =>
               </span>
             </div>
             <NuxtLink
-              :to="item.to"
+              :to="localizedTo(item.to)"
               class="group mt-7 inline-flex items-center gap-1.5 text-sm font-bold text-core-orange transition hover:text-[#C95718]"
             >
               {{ t(`featured.items.${item.id}.cta`) }}

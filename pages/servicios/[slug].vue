@@ -5,6 +5,7 @@ import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
 const { t, tm, rt } = useI18n()
+const localizedTo = useLocalizedTo()
 const route = useRoute()
 const slug = route.params.slug as string
 
@@ -73,9 +74,9 @@ const otherServices = services.filter(s => s.slug !== slug)
     <section class="bg-core-ink py-16 text-white md:py-20">
       <div class="section-shell">
         <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-          <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
           <span class="mx-2">/</span>
-          <NuxtLink to="/servicios" class="hover:text-white">{{ t('breadcrumb.services') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/servicios')" class="hover:text-white">{{ t('breadcrumb.services') }}</NuxtLink>
           <span class="mx-2">/</span>
           <span class="text-white/90">{{ title }}</span>
         </nav>
@@ -147,7 +148,7 @@ const otherServices = services.filter(s => s.slug !== slug)
           <NuxtLink
             v-for="other in otherServices.slice(0, 4)"
             :key="other.slug"
-            :to="`/servicios/${other.slug}`"
+            :to="localizedTo(`/servicios/${other.slug}`)"
             v-reveal="{ delay: 100, distance: 30 }"
             class="group rounded-xl border border-core-line bg-white p-5 transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-lift"
           >

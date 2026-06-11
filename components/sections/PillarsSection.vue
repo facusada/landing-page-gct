@@ -3,6 +3,7 @@ import SectionHeading from '~/components/ui/SectionHeading.vue'
 import { pillars } from '~/data/landing'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 </script>
 
 <template>
@@ -21,7 +22,7 @@ const { t } = useI18n()
         <NuxtLink
           v-for="(pillar, index) in pillars"
           :key="pillar.id"
-          :to="pillar.to"
+          :to="localizedTo(pillar.to)"
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 38, duration: 820 }"
           :style="{ backgroundImage: `url('${pillar.image}')`, backgroundPosition: pillar.bgPosition ?? 'center' }"
           class="group relative h-[300px] overflow-hidden rounded-xl bg-cover bg-center transition duration-200 hover:-translate-y-1 hover:shadow-lift"

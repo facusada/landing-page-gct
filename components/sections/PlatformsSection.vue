@@ -3,6 +3,7 @@ import SectionHeading from '~/components/ui/SectionHeading.vue'
 import { platforms } from '~/data/landing'
 
 const { t, tm, rt } = useI18n()
+const localizedTo = useLocalizedTo()
 
 const featuresFor = (id: string): string[] =>
   (tm(`platforms.items.${id}.features`) as unknown[]).map(feature => rt(feature as never))
@@ -76,7 +77,7 @@ const accentTile: Record<string, string> = {
             </ul>
 
             <NuxtLink
-              to="/contacto"
+              :to="localizedTo('/contacto')"
               :class="['group mt-8 inline-flex items-center gap-1.5 text-sm font-bold transition hover:text-white', accentText[platform.accent]]"
             >
               {{ t(`platforms.items.${platform.id}.cta`) }}

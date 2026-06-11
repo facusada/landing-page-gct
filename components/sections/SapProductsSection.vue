@@ -3,6 +3,7 @@ import SectionHeading from '~/components/ui/SectionHeading.vue'
 import { sapProducts } from '~/data/sap-products'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 </script>
 
 <template>
@@ -21,7 +22,7 @@ const { t } = useI18n()
         <NuxtLink
           v-for="(product, index) in sapProducts"
           :key="product.id"
-          :to="`/soluciones/${product.id}`"
+          :to="localizedTo(`/soluciones/${product.id}`)"
           v-reveal="{ delay: Math.min(index * 130, 400), distance: 40, duration: 840 }"
           class="group flex flex-col rounded-xl border border-core-line bg-white overflow-hidden shadow-[0_2px_12px_rgba(7,17,31,0.06)] transition duration-200 hover:-translate-y-1 hover:shadow-premium lg:col-span-2"
         >

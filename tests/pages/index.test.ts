@@ -21,7 +21,8 @@ import SectionHeading from '../../components/ui/SectionHeading.vue'
 import ServiceIcon from '../../components/ui/ServiceIcon.vue'
 import TabPanel from '../../components/ui/TabPanel.vue'
 import IndexPage from '../../pages/index.vue'
-import { services } from '../../data/landing'
+import { pillars } from '../../data/landing'
+import { sapProducts } from '../../data/sap-products'
 
 vi.mock('#app/composables/head', () => ({
   useSeoMeta: vi.fn(),
@@ -91,7 +92,7 @@ describe('home page', () => {
     const wrapper = mount(IndexPage, mountOptions)
 
     expect(wrapper.find('h1').text()).toContain('Transformación, seguridad y operación inteligente de SAP')
-    expect(wrapper.text()).toContain('Servicios SAP')
+    expect(wrapper.text()).toContain('Soluciones SAP que implementamos')
     expect(wrapper.text()).toContain('cinco pilares')
     expect(wrapper.text()).toContain('Intelliguard')
     expect(wrapper.text()).toContain('Operations Intelligence')
@@ -100,11 +101,14 @@ describe('home page', () => {
     expect(wrapper.text()).toContain('transformar tu ecosistema SAP')
   })
 
-  it('renders every configured service slug link', () => {
+  it('links to every pillar and SAP solution', () => {
     const wrapper = mount(IndexPage, mountOptions)
 
-    for (const service of services) {
-      expect(wrapper.html()).toContain(service.slug)
+    for (const pillar of pillars) {
+      expect(wrapper.html()).toContain(`/pilares/${pillar.id}`)
+    }
+    for (const product of sapProducts) {
+      expect(wrapper.html()).toContain(`/soluciones/${product.id}`)
     }
   })
 })

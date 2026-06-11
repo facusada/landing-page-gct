@@ -4,6 +4,7 @@ import { pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 const route = useRoute()
 const slug = route.params.slug as string
 
@@ -46,7 +47,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
       <div class="absolute inset-0 bg-core-ink/80" />
       <div class="section-shell relative">
         <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-          <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
           <span class="mx-2">/</span>
           <span class="text-white/90">{{ t('pillarDetail.breadcrumb') }}</span>
           <span class="mx-2">/</span>
@@ -113,7 +114,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
           <NuxtLink
             v-for="(other, index) in otherPillars"
             :key="other.id"
-            :to="other.to"
+            :to="localizedTo(other.to)"
             v-reveal="{ delay: Math.min(index * 80, 320), distance: 24 }"
             :style="{ backgroundImage: `url('${other.image}')`, backgroundPosition: other.bgPosition ?? 'center' }"
             class="group relative h-[180px] overflow-hidden rounded-xl bg-cover bg-center transition duration-200 hover:-translate-y-1 hover:shadow-lift"

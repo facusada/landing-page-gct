@@ -4,6 +4,7 @@ import ServiceIcon from '~/components/ui/ServiceIcon.vue'
 import { serviceModules } from '~/data/landing'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 </script>
 
 <template>
@@ -22,7 +23,7 @@ const { t } = useI18n()
         <NuxtLink
           v-for="(module, index) in serviceModules"
           :key="module.slug"
-          :to="`/servicios/${module.slug}`"
+          :to="localizedTo(`/servicios/${module.slug}`)"
           v-reveal="{ delay: Math.min(index * 100, 400), distance: 30, duration: 820 }"
           :style="{ backgroundImage: `url('${module.image}')` }"
           :class="['group relative h-[340px] overflow-hidden rounded-xl bg-cover bg-center', index === 4 ? 'lg:col-start-1' : '']"

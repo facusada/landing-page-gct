@@ -10,7 +10,9 @@ const props = withDefaults(
   }
 )
 
+const localizedTo = useLocalizedTo()
 const isInternal = computed(() => !!props.to)
+const localizedHref = computed(() => (props.to ? localizedTo(props.to) : undefined))
 
 const sharedClasses = computed(() => [
   'inline-flex min-h-11 items-center justify-center rounded-md px-5 py-3 text-sm font-bold transition duration-200',
@@ -23,7 +25,7 @@ const sharedClasses = computed(() => [
 </script>
 
 <template>
-  <NuxtLink v-if="isInternal && to" :to="to" :class="sharedClasses">
+  <NuxtLink v-if="isInternal && localizedHref" :to="localizedHref" :class="sharedClasses">
     <slot />
   </NuxtLink>
   <a v-else :href="href" :class="sharedClasses">

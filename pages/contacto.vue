@@ -3,6 +3,7 @@ import ContactForm from '~/components/ui/ContactForm.vue'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 
 const pageTitle = computed(() => t('contactPage.seoTitle'))
 const pageDescription = computed(() => t('contactPage.seoDescription'))
@@ -37,7 +38,7 @@ useHead({
   <section class="bg-core-ink py-16 text-white md:py-20">
     <div class="section-shell">
       <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-        <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
+        <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
         <span class="mx-2">/</span>
         <span class="text-white/90">{{ t('contactPage.breadcrumb') }}</span>
       </nav>

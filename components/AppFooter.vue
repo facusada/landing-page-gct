@@ -3,6 +3,7 @@ import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 </script>
 
 <template>
@@ -32,12 +33,12 @@ const { t } = useI18n()
           <NuxtLink
             v-for="service in services.slice(0, 6)"
             :key="service.slug"
-            :to="`/servicios/${service.slug}`"
+            :to="localizedTo(`/servicios/${service.slug}`)"
             class="text-sm text-white/50 transition hover:text-white"
           >
             {{ t(`services.items.${service.slug}.title`) }}
           </NuxtLink>
-          <NuxtLink to="/servicios" class="text-sm font-bold text-core-orange hover:text-white">
+          <NuxtLink :to="localizedTo('/servicios')" class="text-sm font-bold text-core-orange hover:text-white">
             {{ t('footer.viewAll') }}
           </NuxtLink>
         </nav>
@@ -46,13 +47,13 @@ const { t } = useI18n()
       <div>
         <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">{{ t('footer.headings.links') }}</h3>
         <nav class="mt-4 grid gap-2" :aria-label="t('footer.headings.links')">
-          <NuxtLink to="/" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.home') }}</NuxtLink>
-          <NuxtLink to="/#nosotros" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.about') }}</NuxtLink>
-          <NuxtLink to="/servicios" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.services') }}</NuxtLink>
-          <NuxtLink to="/#portfolio" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.solutions') }}</NuxtLink>
-          <NuxtLink to="/#plataformas" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.platforms') }}</NuxtLink>
-          <NuxtLink to="/#clientes" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.clients') }}</NuxtLink>
-          <NuxtLink to="/contacto" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.contact') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.home') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/#nosotros')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.about') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/servicios')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.services') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/#portfolio')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.solutions') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/#plataformas')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.platforms') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/#clientes')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.clients') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/contacto')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.contact') }}</NuxtLink>
         </nav>
       </div>
 

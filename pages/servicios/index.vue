@@ -4,6 +4,7 @@ import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
+const localizedTo = useLocalizedTo()
 
 onMounted(() => {
   window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
@@ -42,7 +43,7 @@ useHead({
   <section class="bg-core-ink py-16 text-white md:py-20">
     <div class="section-shell">
       <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-        <NuxtLink to="/" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
+        <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
         <span class="mx-2">/</span>
         <span class="text-white/90">{{ t('breadcrumb.services') }}</span>
       </nav>
@@ -62,7 +63,7 @@ useHead({
         <NuxtLink
           v-for="(service, index) in services"
           :key="service.slug"
-          :to="`/servicios/${service.slug}`"
+          :to="localizedTo(`/servicios/${service.slug}`)"
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 40, duration: 820 }"
           class="group flex h-full flex-col rounded-xl border border-core-line bg-white p-6 shadow-[0_1px_0_rgba(7,17,31,0.04)] transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-premium"
         >

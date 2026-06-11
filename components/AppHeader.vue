@@ -2,6 +2,7 @@
 import { navigationItems } from '~/data/navigation'
 
 const { t, locale, locales, setLocale } = useI18n()
+const localizedTo = useLocalizedTo()
 const isOpen = ref(false)
 const openDropdown = ref<string | null>(null)
 const route = useRoute()
@@ -19,7 +20,7 @@ const availableLocales = computed(() =>
 <template>
   <header class="sticky top-0 z-50 border-b border-core-line bg-white/95 text-core-ink backdrop-blur-xl">
     <nav class="section-shell flex min-h-20 items-center justify-between" :aria-label="t('nav.ariaLabel')">
-      <NuxtLink to="/" class="block" :aria-label="t('nav.logoAriaLabel')">
+      <NuxtLink :to="localizedTo('/')" class="block" :aria-label="t('nav.logoAriaLabel')">
         <img
           class="h-12 w-auto"
           :src="'/logo.png'"
@@ -57,7 +58,7 @@ const availableLocales = computed(() =>
                 <NuxtLink
                   v-for="child in item.children"
                   :key="child.to"
-                  :to="child.to"
+                  :to="localizedTo(child.to)"
                   class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-bold text-core-ink/80 transition hover:bg-core-mist hover:text-core-orange"
                   @click="openDropdown = null"
                 >
@@ -70,7 +71,7 @@ const availableLocales = computed(() =>
           <!-- regular link -->
           <NuxtLink
             v-else
-            :to="item.to"
+            :to="localizedTo(item.to)"
             class="text-sm font-extrabold uppercase tracking-wide text-core-ink/78 transition hover:text-core-ink"
           >
             {{ t(`nav.items.${item.key}`) }}
@@ -122,7 +123,7 @@ const availableLocales = computed(() =>
           </div>
           <NuxtLink
             v-else
-            :to="item.to"
+            :to="localizedTo(item.to)"
             class="rounded-md px-3 py-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
           >
             {{ t(`nav.items.${item.key}`) }}
