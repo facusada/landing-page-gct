@@ -65,13 +65,14 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/servicios', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes, ...solutionRoutes, ...pillarRoutes]
+      routes: ['/', '/servicios', '/soluciones', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes, ...solutionRoutes, ...pillarRoutes]
     }
   },
   routeRules: {
     '/': { prerender: true },
     '/servicios': { prerender: true },
     '/servicios/**': { prerender: true },
+    '/soluciones': { prerender: true },
     '/soluciones/**': { prerender: true },
     '/pilares/**': { prerender: true },
     '/contacto': { prerender: true }

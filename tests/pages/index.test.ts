@@ -22,7 +22,6 @@ import ServiceIcon from '../../components/ui/ServiceIcon.vue'
 import TabPanel from '../../components/ui/TabPanel.vue'
 import IndexPage from '../../pages/index.vue'
 import { pillars } from '../../data/landing'
-import { sapProducts } from '../../data/sap-products'
 
 vi.mock('#app/composables/head', () => ({
   useSeoMeta: vi.fn(),
@@ -92,7 +91,7 @@ describe('home page', () => {
     const wrapper = mount(IndexPage, mountOptions)
 
     expect(wrapper.find('h1').text()).toContain('Transformación, seguridad y operación inteligente de SAP')
-    expect(wrapper.text()).toContain('Soluciones SAP que implementamos')
+    expect(wrapper.text()).toContain('Donde las empresas más confían en nosotros')
     expect(wrapper.text()).toContain('cinco pilares')
     expect(wrapper.text()).toContain('Intelliguard')
     expect(wrapper.text()).toContain('Operations Intelligence')
@@ -101,14 +100,11 @@ describe('home page', () => {
     expect(wrapper.text()).toContain('transformar tu ecosistema SAP')
   })
 
-  it('links to every pillar and SAP solution', () => {
+  it('links to every pillar', () => {
     const wrapper = mount(IndexPage, mountOptions)
 
     for (const pillar of pillars) {
       expect(wrapper.html()).toContain(`/pilares/${pillar.id}`)
-    }
-    for (const product of sapProducts) {
-      expect(wrapper.html()).toContain(`/soluciones/${product.id}`)
     }
   })
 })

@@ -47,6 +47,11 @@ export default defineEventHandler((event: Parameters<typeof setHeader>[0]) => {
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>${siteConfig.url}/soluciones</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 ${serviceUrls}
 ${solutionUrls}
 ${pillarUrls}

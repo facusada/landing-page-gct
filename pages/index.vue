@@ -7,7 +7,6 @@ import HeroSection from '~/components/sections/HeroSection.vue'
 import IndustriesSection from '~/components/sections/IndustriesSection.vue'
 import PillarsSection from '~/components/sections/PillarsSection.vue'
 import PlatformsSection from '~/components/sections/PlatformsSection.vue'
-import SapProductsSection from '~/components/sections/SapProductsSection.vue'
 import TrustSection from '~/components/sections/TrustSection.vue'
 import WhyGctSection from '~/components/sections/WhyGctSection.vue'
 import { siteConfig } from '~/data/site'
@@ -37,7 +36,6 @@ useSeoMeta({
   <AboutSection />
   <PillarsSection />
   <FeaturedExpertiseSection />
-  <SapProductsSection />
   <PlatformsSection />
   <WhyGctSection />
   <IndustriesSection />

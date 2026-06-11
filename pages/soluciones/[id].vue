@@ -3,7 +3,7 @@ import BaseButton from '~/components/ui/BaseButton.vue'
 import { sapProducts } from '~/data/sap-products'
 import { siteConfig } from '~/data/site'
 
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
 const localizedTo = useLocalizedTo()
 const route = useRoute()
 const id = route.params.id as string
@@ -14,12 +14,21 @@ if (!product) {
   throw createError({ statusCode: 404, statusMessage: 'Solución no encontrada' })
 }
 
+type RtMessage = Parameters<typeof rt>[0]
+
 const productTitle = computed(() => t(`portfolio.products.${id}.title`))
 const productSubtitle = computed(() => t(`portfolio.products.${id}.subtitle`))
 const productDescription = computed(() => t(`portfolio.products.${id}.description`))
 const productLongDescription = computed(() => t(`portfolio.products.${id}.longDescription`))
-const productFeatures = computed(() => t(`portfolio.products.${id}.features`) as unknown as Array<{ title: string; description: string }>)
-const productUseCases = computed(() => t(`portfolio.products.${id}.useCases`) as unknown as string[])
+const productFeatures = computed(() =>
+  (tm(`portfolio.products.${id}.features`) as Array<{ title: RtMessage; description: RtMessage }>).map(f => ({
+    title: rt(f.title),
+    description: rt(f.description)
+  }))
+)
+const productUseCases = computed(() =>
+  (tm(`portfolio.products.${id}.useCases`) as unknown[]).map(u => rt(u as RtMessage))
+)
 const productMinUsers = computed(() => t(`portfolio.products.${id}.minUsers`))
 
 useSeoMeta({
@@ -51,7 +60,7 @@ useHead({
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteConfig.url },
-          { '@type': 'ListItem', position: 2, name: 'Portfolio SAP', item: `${siteConfig.url}/#portfolio` },
+          { '@type': 'ListItem', position: 2, name: 'Soluciones', item: `${siteConfig.url}/soluciones` },
           { '@type': 'ListItem', position: 3, name: productTitle.value, item: `${siteConfig.url}/soluciones/${id}` }
         ]
       })
@@ -75,7 +84,7 @@ useHead({
         <nav class="mb-10 text-sm text-white/60" aria-label="Breadcrumb">
           <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
           <span class="mx-2">/</span>
-          <NuxtLink :to="localizedTo('/#portfolio')" class="hover:text-white">{{ t('breadcrumb.portfolio') }}</NuxtLink>
+          <NuxtLink :to="localizedTo('/soluciones')" class="hover:text-white">{{ t('nav.items.solutions') }}</NuxtLink>
           <span class="mx-2">/</span>
           <span class="text-white/90">{{ productTitle }}</span>
         </nav>

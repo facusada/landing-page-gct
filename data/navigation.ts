@@ -13,6 +13,7 @@ export const navigationItems: NavigationItem[] = [
     ]
   },
   { key: 'services', to: '/servicios' },
+  { key: 'solutions', to: '/soluciones' },
   { key: 'platforms', to: '/#plataformas' },
   { key: 'contact', to: '/contacto' }
 ]

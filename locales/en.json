@@ -152,6 +152,8 @@
     "title": "SAP Solutions We Implement",
     "description": "As an SAP Silver Partner, we guide each organization in choosing and implementing the most suitable solution for their size and digital maturity.",
     "viewDetail": "View details →",
+    "seoTitle": "SAP Solutions",
+    "seoDescription": "Full SAP portfolio: S/4HANA, S/4HANA Cloud (GROW & RISE), Business Technology Platform, Integration Suite and Analytics Cloud, implemented by Global Core Technologies.",
     "products": {
       "s4hana": {
         "badge": "S/4HANA",
