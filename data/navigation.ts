@@ -12,9 +12,8 @@ export const navigationItems: NavigationItem[] = [
       { key: 'innovate', to: '/pilares/innovate', index: '05', labelKey: 'pillars.items.innovate.title' }
     ]
   },
-  { key: 'solutions', to: '/soluciones' },
   {
-    key: 'platforms',
+    key: 'solutions',
     children: [
       { key: 'intelliguard', to: '/plataformas/intelliguard', labelKey: 'platforms.items.intelliguard.name' },
       { key: 'opsIntelligence', to: '/plataformas/operations-intelligence', labelKey: 'platforms.items.opsIntelligence.name' }

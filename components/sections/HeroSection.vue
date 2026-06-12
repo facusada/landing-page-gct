@@ -20,7 +20,6 @@ useHead({
 <template>
   <section id="inicio" class="relative isolate overflow-hidden bg-core-ink text-white">
     <div class="hero-mesh absolute inset-0 -z-20" aria-hidden="true" />
-    <div class="hero-grid absolute inset-0 -z-10 opacity-[0.04]" aria-hidden="true" />
     <ParticleField class="-z-10" />
 
     <div class="section-shell py-14 md:py-16 lg:py-20">
@@ -33,10 +32,10 @@ useHead({
             <span class="text-sm font-bold text-white/90">{{ t('hero.eyebrow') }}</span>
           </div>
 
-          <h1 class="font-display text-5xl font-extrabold leading-[1.02] md:text-7xl">
+          <h1 class="font-display text-4xl font-extrabold leading-[1.02] md:text-6xl">
             {{ t('hero.title') }}
           </h1>
-          <p class="mt-6 max-w-2xl text-xl leading-8 text-white/80 md:text-2xl md:leading-9">
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-white/80 md:text-xl md:leading-9">
             {{ t('hero.description') }}
           </p>
           <div class="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -100,13 +99,6 @@ useHead({
     radial-gradient(ellipse 70% 50% at 75% 25%, rgba(96, 106, 244, 0.22), transparent),
     radial-gradient(ellipse 50% 40% at 50% 50%, rgba(18, 59, 102, 0.3), transparent),
     linear-gradient(180deg, #07111f 0%, #0b1d33 100%);
-}
-
-.hero-grid {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 1) 1px, transparent 1px);
-  background-size: 60px 60px;
 }
 
 @media (prefers-reduced-motion: reduce) {

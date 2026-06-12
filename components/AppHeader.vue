@@ -19,10 +19,10 @@ const availableLocales = computed(() =>
 
 <template>
   <header class="sticky top-0 z-50 border-b border-core-line bg-white/95 text-core-ink backdrop-blur-xl">
-    <nav class="section-shell flex min-h-20 items-center justify-between" :aria-label="t('nav.ariaLabel')">
+    <nav class="flex min-h-20 items-center justify-between pl-4 pr-4 md:pl-8 md:pr-8" :aria-label="t('nav.ariaLabel')">
       <NuxtLink :to="localizedTo('/')" class="block" :aria-label="t('nav.logoAriaLabel')">
         <img
-          class="h-12 w-auto"
+          class="h-14 w-auto"
           :src="'/logo.png'"
           alt="Global Core Technologies"
           width="960"
