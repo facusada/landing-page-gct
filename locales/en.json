@@ -446,14 +446,30 @@
         "name": "Intelliguard™",
         "type": "AI-Powered SAP Security Intelligence",
         "description": "A next-generation platform to simplify SAP security governance, compliance monitoring, risk assessment and security operations.",
+        "longDescription": "Intelliguard is being built to unify SAP security that today lives scattered across separate tools and manual processes. We're creating a platform that centralizes security intelligence, automates access governance and delivers real-time executive visibility into the security and compliance posture of your entire SAP ecosystem.",
         "features": ["Security Intelligence", "Risk Detection", "Compliance Monitoring", "Governance Automation", "Executive Visibility"],
+        "capabilities": [
+          { "title": "Security Intelligence", "description": "Continuous correlation of SAP security events into a single, risk-prioritized view." },
+          { "title": "Risk Detection", "description": "Early identification of insecure configurations, critical access and deviations from the defined baseline." },
+          { "title": "Compliance Monitoring", "description": "Regulatory controls evaluated automatically and continuously, with audit-ready evidence at all times." },
+          { "title": "Governance Automation", "description": "Access approval, remediation and certification workflows that cut manual effort and human error." },
+          { "title": "Executive Visibility", "description": "Security posture and risk dashboards built for the CISO and leadership, not just technical teams." }
+        ],
         "cta": "Learn About Intelliguard"
       },
       "opsIntelligence": {
-        "name": "Operations Intelligence™",
+        "name": "Operations Intelligence Platform™",
         "type": "The Future of SAP BASIS Operations",
         "description": "An intelligent operations platform to enhance observability, automate root cause analysis and deliver operational intelligence across complex SAP landscapes.",
+        "longDescription": "Operations Intelligence Platform is our bet to move SAP BASIS operations from reactive to predictive. We're building a platform that combines deep observability, AI-assisted root cause analysis and operational intelligence so teams can resolve issues before they hit the business — and, over time, enable autonomous operations.",
         "features": ["Operational Intelligence", "AI-Driven Analysis", "Root Cause Detection", "Predictive Monitoring", "Autonomous Operations"],
+        "capabilities": [
+          { "title": "Operational Intelligence", "description": "A unified view of the status, performance and health of your entire SAP landscape in real time." },
+          { "title": "AI-Driven Analysis", "description": "Pattern and anomaly detection across operational metrics that traditional thresholds miss." },
+          { "title": "Root Cause Detection", "description": "Automatic event correlation to reach the source of an incident in minutes, not hours." },
+          { "title": "Predictive Monitoring", "description": "Anticipates bottlenecks, degradations and failures before they impact business operations." },
+          { "title": "Autonomous Operations", "description": "Progressive automation of routine operational tasks toward a self-healing model." }
+        ],
         "cta": "Explore the Vision"
       }
     }
@@ -685,6 +701,2676 @@
         }
       }
     }
+  },
+  "serviceDetail": {
+    "labels": {
+      "problem": "The challenge",
+      "howWeHelp": "How we help",
+      "benefits": "Business benefits",
+      "methodology": "Methodology",
+      "whyGct": "Why GCT",
+      "related": "Related services in this pillar",
+      "relatedCta": "View service",
+      "backToPillar": "Back to pillar",
+      "phase": "Phase",
+      "deliverable": "Deliverable",
+      "platformCta": "Explore the platform"
+    },
+    "items": {
+      "sap-s4hana-transformation": {
+        "metaTitle": "SAP S/4HANA Transformation | Governed Migration | GCT",
+        "metaDescription": "Transform your ERP to SAP S/4HANA with a proven methodology, Clean Core, and risk control. +150 projects and +20 years of SAP expertise. Talk to an expert.",
+        "eyebrow": "Pillar 01 · Transform",
+        "h1": "SAP S/4HANA transformation, delivered with governance and no surprises",
+        "heroSubtitle": "We design and execute your migration to SAP S/4HANA with a proven methodology, a Clean Core strategy from day one, and risk control at every phase — so you reach the cloud without disrupting operations.",
+        "ctaPrimary": "Book an S/4HANA assessment",
+        "ctaSecondary": "Talk to an S/4HANA architect",
+        "metrics": {
+          "projects": "completed projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Migrating isn't the problem. Migrating badly is.",
+          "items": [
+            {
+              "title": "The clock is ticking",
+              "description": "SAP ECC support ends in 2027 (2030 with extended maintenance). Every month without a roadmap is accumulated technical debt and the risk of missing the next wave of innovation."
+            },
+            {
+              "title": "Fear of breaking operations",
+              "description": "Poorly governed migrations lead to cost overruns, scope creep, and a go-live that paralyzes the business exactly when it needs continuity most."
+            },
+            {
+              "title": "The customized core",
+              "description": "Years of Z-code and modifications make every upgrade painful. Without a Clean Core strategy, S/4HANA inherits the same baggage you carried over from ECC."
+            }
+          ],
+          "closing": "The question is no longer whether to migrate to S/4HANA, but how to do it without turning the transformation into a business risk."
+        },
+        "howWeHelp": {
+          "title": "An end-to-end transformation program",
+          "description": "We don't deliver an isolated technical migration: we design the full journey, from the business case to post go-live operations.",
+          "items": [
+            {
+              "title": "Assessment & Roadmap",
+              "description": "We evaluate technical, functional, and organizational readiness and define the optimal scenario: greenfield, brownfield, or selective data transition, with a roadmap prioritized by value waves."
+            },
+            {
+              "title": "Clean Core strategy",
+              "description": "We classify customizations, remove the obsolete, and move extensions to SAP BTP to preserve upgradeability and leave your core ready to innovate."
+            },
+            {
+              "title": "Governed execution",
+              "description": "Phased migration with control over scope, risk, data quality, and traceable decisions. Security and segregation of duties are designed from the blueprint."
+            },
+            {
+              "title": "Flexible adoption model",
+              "description": "We guide the decision between on-premise, private cloud, or RISE with SAP, aligning the target architecture to your IT strategy and contractual reality."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            {
+              "title": "Accelerated time-to-value",
+              "description": "A prioritized roadmap that delivers capabilities in waves, not in a single high-risk big bang."
+            },
+            {
+              "title": "Risk under control",
+              "description": "Governance and security by design reduce rework, budget deviations, and cutover surprises."
+            },
+            {
+              "title": "A future-proof core",
+              "description": "Clean Core keeps your S/4HANA upgradeable and ready to adopt AI and automation without friction."
+            },
+            {
+              "title": "Operational continuity",
+              "description": "Phased migration with minimal business disruption during cutover, and a hypercare that secures the landing."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to S/4HANA",
+          "description": "Five phases that connect strategy to operations. The transformation doesn't end at go-live: it hands off to managed operations and continuous innovation.",
+          "phases": [
+            {
+              "name": "Discover",
+              "deliverable": "Readiness assessment and business case"
+            },
+            {
+              "name": "Design",
+              "deliverable": "Target architecture, Clean Core strategy, and roadmap"
+            },
+            {
+              "name": "Migrate",
+              "deliverable": "Wave-based conversion / implementation with data control"
+            },
+            {
+              "name": "Validate",
+              "deliverable": "Integrated testing, security, SoD, and governed cutover"
+            },
+            {
+              "name": "Evolve",
+              "deliverable": "Hypercare, AMS support, and continuous innovation"
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your transformation",
+          "items": [
+            {
+              "title": "Deep SAP expertise",
+              "description": "Decades of combined experience in Basis, Architecture, Security, and Transformation of mission-critical SAP environments."
+            },
+            {
+              "title": "Governance-driven approach",
+              "description": "We align every technical decision with clear business objectives and traceable decisions."
+            },
+            {
+              "title": "Security by design",
+              "description": "RBAC and SoD built in from the blueprint, never bolted on at the end of the project."
+            },
+            {
+              "title": "Clean Core mindset",
+              "description": "We protect upgradeability and keep your SAP core clean for the long term."
+            },
+            {
+              "title": "Proprietary platforms",
+              "description": "Intelliguard™ accelerates security and intelligent monitoring of the post-migration environment."
+            },
+            {
+              "title": "SAP Silver Partner",
+              "description": "SAP-certified consultants and strategic alliances backing every program."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "Technical session: we map your path to S/4HANA",
+          "description": "In 45 minutes with our architects we assess your current landscape, identify critical blockers, and walk you through your available migration path options.",
+          "cta": "Book your technical session"
+        },
+        "finalCta": {
+          "title": "Ready to define your path to S/4HANA?",
+          "description": "Book a session with our architects and walk away with a prioritized roadmap and an initial business case for your transformation.",
+          "ctaPrimary": "Book your assessment",
+          "ctaSecondary": "Explore the Transform pillar"
+        }
+      },
+      "rise-with-sap": {
+        "metaTitle": "RISE with SAP | Managed Cloud Migration | GCT",
+        "metaDescription": "Adopt RISE with SAP with a partner that integrates contract, technical migration, and governance. Reach S/4HANA Cloud with controlled risk. Talk to an expert.",
+        "eyebrow": "Pillar 01 · Transform",
+        "h1": "RISE with SAP, adopted with a partner that governs the contract and the migration",
+        "heroSubtitle": "We guide your RISE with SAP adoption: we define the sizing, scope the agreement, execute the technical migration, and set up the governance so the managed cloud model delivers real value, not just a licensing change.",
+        "ctaPrimary": "Evaluate your RISE with SAP case",
+        "ctaSecondary": "Request your free RISE analysis",
+        "metrics": {
+          "projects": "completed projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "RISE with SAP isn't just a license. It's an operating-model shift.",
+          "items": [
+            {
+              "title": "A contract you don't fully understand",
+              "description": "RISE bundles infrastructure, S/4HANA Cloud, and services into a single agreement. Without an independent analysis, it's easy to oversize or fall short of what you actually need."
+            },
+            {
+              "title": "The cloud doesn't migrate itself",
+              "description": "Moving to RISE means a real technical conversion to S/4HANA. Without methodology, the project inherits the risks of any poorly governed migration."
+            },
+            {
+              "title": "Who operates what?",
+              "description": "The managed model redefines responsibilities between SAP, the partner, and your team. Without clear governance, the gray areas turn into incidents."
+            }
+          ],
+          "closing": "RISE with SAP can be the fastest path to the cloud — or an expensive, underused contract. The difference is in how you adopt it."
+        },
+        "howWeHelp": {
+          "title": "End-to-end RISE adoption",
+          "description": "From the business case analysis to cloud operations, with a single party accountable for the outcome.",
+          "items": [
+            {
+              "title": "Analysis and sizing",
+              "description": "We assess whether RISE is the right model for your organization and size the scope, resources, and total cost of ownership with no surprises."
+            },
+            {
+              "title": "Conversion to S/4HANA Cloud",
+              "description": "We execute the technical migration with a proven methodology, a Clean Core strategy, and data control in every wave."
+            },
+            {
+              "title": "Managed-model governance",
+              "description": "We define roles, responsibilities, and SLAs between SAP, GCT, and your team so no one falls into the gray area."
+            },
+            {
+              "title": "Operations and continuous innovation",
+              "description": "After go-live, we operate and evolve the environment with AMS support and leverage the cloud capabilities included in RISE."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Total cost under control", "description": "Independent sizing that avoids overpaying for capacity or services you don't use." },
+            { "title": "Migration with no surprises", "description": "The technical conversion runs with the same rigor and governance as any S/4HANA program." },
+            { "title": "Clear responsibilities", "description": "An explicit governance model eliminates the gray areas of the managed service." },
+            { "title": "Cloud ready to innovate", "description": "You leverage the S/4HANA Cloud and BTP capabilities included in RISE from day one." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to RISE with SAP",
+          "description": "Four phases that connect the contractual decision to cloud operations.",
+          "phases": [
+            { "name": "Assess", "deliverable": "Business case, RISE fit, and sizing" },
+            { "name": "Plan", "deliverable": "Contractual scope, target architecture, and roadmap" },
+            { "name": "Migrate", "deliverable": "Wave-based conversion to S/4HANA Cloud with data control" },
+            { "name": "Operate", "deliverable": "Managed-model governance, hypercare, and continuous improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your RISE adoption",
+          "items": [
+            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, and Transformation of mission-critical SAP environments." },
+            { "title": "Governance-driven approach", "description": "We align every technical and contractual decision with clear business objectives." },
+            { "title": "Independent view", "description": "We advise on RISE in your interest, not from a license sale." },
+            { "title": "Clean Core mindset", "description": "We protect your SAP core's upgradeability in the cloud too." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ centralizes monitoring and performance of your cloud environment." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every program." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "RISE analysis: does this contract actually work for you?",
+          "description": "We review your sizing case, contractual scope, and governance model before you sign. No cost, no commitment.",
+          "cta": "Book your RISE analysis"
+        },
+        "finalCta": {
+          "title": "Is RISE with SAP the right path for you?",
+          "description": "Book a session with our architects and get an independent analysis of fit, scope, and total cost.",
+          "ctaPrimary": "Evaluate your RISE case",
+          "ctaSecondary": "Explore the Transform pillar"
+        }
+      },
+      "s4hana-readiness-assessment": {
+        "metaTitle": "SAP S/4HANA Readiness Assessment | Evaluation | GCT",
+        "metaDescription": "Assess your technical, functional, and data readiness to migrate to SAP S/4HANA. Get a clear diagnosis and a prioritized roadmap. Book your assessment.",
+        "eyebrow": "Pillar 01 · Transform",
+        "h1": "Readiness Assessment: know exactly how ready you are for S/4HANA",
+        "heroSubtitle": "Before investing in a migration, we assess the technical, functional, data, and organizational maturity of your SAP environment. You walk away with an objective diagnosis, identified risks, and a prioritized roadmap to reach S/4HANA with confidence.",
+        "ctaPrimary": "Book your readiness assessment",
+        "ctaSecondary": "Request an assessment demo",
+        "metrics": {
+          "projects": "completed projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Migrating without a diagnosis is navigating blind.",
+          "items": [
+            {
+              "title": "Surprises mid-project",
+              "description": "Without a prior assessment, custom code, data, or integration issues show up when they're already expensive to fix."
+            },
+            {
+              "title": "Decisions without data",
+              "description": "The committee needs to know the real effort, risk, and cost before approving the investment — not after."
+            },
+            {
+              "title": "Greenfield or brownfield: how do you decide?",
+              "description": "Choosing the migration scenario without a rigorous analysis of your installed base jeopardizes the entire program."
+            }
+          ],
+          "closing": "A readiness assessment turns uncertainty into a plan: you know where you stand before taking the first step."
+        },
+        "howWeHelp": {
+          "title": "A 360° diagnosis of your readiness",
+          "description": "We analyze every dimension that impacts the migration and translate the findings into actionable decisions.",
+          "items": [
+            {
+              "title": "Technical analysis",
+              "description": "Custom code, add-ons, integrations, and S/4HANA compatibility, using SAP's Readiness Check and our expert analysis."
+            },
+            {
+              "title": "Data quality and volume",
+              "description": "We assess the state of master and transactional data to anticipate the cleansing and migration effort."
+            },
+            {
+              "title": "Functional and process maturity",
+              "description": "We identify the gaps between your current processes and S/4HANA standard processes."
+            },
+            {
+              "title": "Organizational readiness",
+              "description": "We assess team capabilities, change management, and the governance needed to sustain the transformation."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Well-founded decisions", "description": "Your committee approves the investment with effort, risk, and cost data on the table." },
+            { "title": "Anticipated risks", "description": "You identify critical issues while they're still cheap to fix." },
+            { "title": "Optimal scenario defined", "description": "You know whether greenfield, brownfield, or selective transition is the right path for you." },
+            { "title": "Actionable roadmap", "description": "You walk away with a prioritized plan, not a report that gathers dust." }
+          ]
+        },
+        "methodology": {
+          "title": "How we run the assessment",
+          "description": "Four phases that go from discovery to roadmap, typically within a few weeks.",
+          "phases": [
+            { "name": "Discover", "deliverable": "Environment data collection and SAP Readiness Check" },
+            { "name": "Analyze", "deliverable": "Technical, data, functional, and organizational analysis" },
+            { "name": "Prioritize", "deliverable": "Risk map, estimated effort, and recommended scenario" },
+            { "name": "Recommend", "deliverable": "Prioritized roadmap and initial business case" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your assessment",
+          "items": [
+            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, Security, and SAP Transformation." },
+            { "title": "Governance-driven approach", "description": "Every finding translates into decisions aligned with your business objectives." },
+            { "title": "Objective diagnosis", "description": "We assess your environment with no commercial agenda: the result reflects your reality." },
+            { "title": "Clean Core mindset", "description": "From the assessment, we identify which customizations threaten your upgradeability." },
+            { "title": "Proven method", "description": "We combine SAP's official tools with expert judgment honed across +150 projects." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every assessment." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free diagnostic",
+          "title": "Express diagnostic: your readiness level in 48 hours",
+          "description": "Share the basic data from your SAP landscape and we return a readiness scorecard with the top 3 blockers to resolve before starting the migration.",
+          "cta": "Request your express diagnostic"
+        },
+        "finalCta": {
+          "title": "Want to know how ready you are for S/4HANA?",
+          "description": "Book your readiness assessment and walk away with a clear diagnosis and a prioritized roadmap.",
+          "ctaPrimary": "Book your assessment",
+          "ctaSecondary": "Explore the Transform pillar"
+        }
+      },
+      "sap-migration-governance": {
+        "metaTitle": "SAP Migration Governance | Migration Control | GCT",
+        "metaDescription": "Govern your SAP S/4HANA migration with control frameworks, risk management, and traceable decisions. Secure the go-live without deviations. Talk to an expert.",
+        "eyebrow": "Pillar 01 · Transform",
+        "h1": "Migration Governance: the control that keeps your S/4HANA migration on track",
+        "heroSubtitle": "We provide the control, tracking, and decision-making frameworks that keep your migration program within scope, time, and budget — with executive visibility and traceability on every critical decision.",
+        "ctaPrimary": "Secure your migration",
+        "ctaSecondary": "Request a governance plan review",
+        "metrics": {
+          "projects": "completed projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Most migrations don't fail on the technology. They fail on management.",
+          "items": [
+            {
+              "title": "Scope that spirals",
+              "description": "Without change control, every 'small' addition erodes the schedule and budget until they're unrecognizable."
+            },
+            {
+              "title": "Decisions without traceability",
+              "description": "When no one knows who decided what or why, rework and conflict multiply."
+            },
+            {
+              "title": "Leadership in the dark",
+              "description": "Without clear reporting, leadership learns about problems once they've already hit the business."
+            }
+          ],
+          "closing": "S/4HANA's technology is proven. What separates a successful go-live from a budget disaster is program governance."
+        },
+        "howWeHelp": {
+          "title": "A governance framework the whole program respects",
+          "description": "We bring structure, cadence, and visibility so the migration advances with firm, traceable decisions.",
+          "items": [
+            {
+              "title": "Scope and change control",
+              "description": "Formal processes to assess, approve, and trace every change before it impacts the plan."
+            },
+            {
+              "title": "Risk and dependency management",
+              "description": "Early identification, active mitigation, and tracking of critical risks and dependencies."
+            },
+            {
+              "title": "Decision governance",
+              "description": "Committees, roles, and clear criteria so every critical decision is made on time and documented."
+            },
+            {
+              "title": "Executive visibility",
+              "description": "Reports and KPIs that give leadership a real picture of progress, risk, and budget."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Protected budget", "description": "Scope control prevents the overruns that sink most migrations." },
+            { "title": "Sustainable schedule", "description": "Decisions are made on time and blockers are resolved before they escalate." },
+            { "title": "Full traceability", "description": "Every decision is documented — key for audit and for resolving conflicts." },
+            { "title": "Leadership confidence", "description": "Leadership decides with real data and no last-minute surprises." }
+          ]
+        },
+        "methodology": {
+          "title": "How we install governance",
+          "description": "Four phases that set up the control structure and sustain it throughout the program.",
+          "phases": [
+            { "name": "Structure", "deliverable": "Governance model, committees, roles, and RACI" },
+            { "name": "Instrument", "deliverable": "Change, risk, and tracking-KPI processes" },
+            { "name": "Operate", "deliverable": "Cadenced committees, traced decisions, and active mitigation" },
+            { "name": "Secure", "deliverable": "Cutover control and governed program closure" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT to govern your migration",
+          "items": [
+            { "title": "Deep SAP expertise", "description": "Decades governing mission-critical, high-stakes SAP programs." },
+            { "title": "Governance is in our DNA", "description": "Govern is one of our five pillars: control isn't an add-on, it's how we work." },
+            { "title": "Independent view", "description": "As a governance layer, we protect the program's interests above any vendor." },
+            { "title": "Clean Core mindset", "description": "We govern extensibility decisions so upgradeability is never compromised." },
+            { "title": "Security by design", "description": "We embed security and SoD controls into the program's governance." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every program." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free review",
+          "title": "Governance review: we identify risks before they escalate",
+          "description": "A GCT architect reviews your migration plan and flags the most critical governance, quality control, and vendor coordination gaps.",
+          "cta": "Book your governance review"
+        },
+        "finalCta": {
+          "title": "Does your migration need more control?",
+          "description": "Book a session and let's design the governance framework that keeps your program in scope, time, and budget.",
+          "ctaPrimary": "Secure your migration",
+          "ctaSecondary": "Explore the Transform pillar"
+        }
+      },
+      "clean-core-strategy": {
+        "metaTitle": "Clean Core Strategy SAP | Clean, Upgradeable Core | GCT",
+        "metaDescription": "Define your Clean Core strategy for SAP S/4HANA: extensibility on BTP, less custom code, and an always-upgradeable core. Talk to an expert.",
+        "eyebrow": "Pillar 01 · Transform",
+        "h1": "Clean Core Strategy: an SAP that upgrades painlessly, forever",
+        "heroSubtitle": "We define and execute your Clean Core strategy: we classify customizations, move extensions to SAP BTP, and establish the policies that keep your S/4HANA core clean, upgradeable, and ready to innovate.",
+        "ctaPrimary": "Define your Clean Core strategy",
+        "ctaSecondary": "Request your Clean Core evaluation",
+        "metrics": {
+          "projects": "completed projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Your custom code was a solution. Today it can be your biggest liability.",
+          "items": [
+            {
+              "title": "Every upgrade hurts",
+              "description": "Years of modifications to the standard turn every update into an expensive, risky project."
+            },
+            {
+              "title": "Innovation blocked",
+              "description": "A modified core can't adopt new SAP capabilities or AI without constant rework."
+            },
+            {
+              "title": "Growing technical debt",
+              "description": "Without a clear policy, custom code accumulates and the cost of maintaining it only rises."
+            }
+          ],
+          "closing": "S/4HANA promises an upgradeable, cloud-ready core. That promise is only kept with a deliberate Clean Core strategy."
+        },
+        "howWeHelp": {
+          "title": "From a modified core to a clean core",
+          "description": "We define the strategy, execute the extension migration, and establish the governance that sustains it.",
+          "items": [
+            {
+              "title": "Inventory and classification",
+              "description": "We analyze your custom code and classify it: remove, replace with standard, or rebuild as an extension."
+            },
+            {
+              "title": "Extensibility strategy",
+              "description": "We define the extension model — in-app and side-by-side on SAP BTP — aligned with SAP best practices."
+            },
+            {
+              "title": "Extension migration",
+              "description": "We rebuild critical customizations on BTP, decoupled from the core and upgrade-proof."
+            },
+            {
+              "title": "Clean Core governance",
+              "description": "We establish the policies and controls that prevent the core from getting dirty again over time."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Painless upgrades", "description": "A standard core upgrades faster, cheaper, and with less risk." },
+            { "title": "Innovation enabled", "description": "You adopt new SAP, BTP, and AI capabilities without fighting your own system." },
+            { "title": "Low maintenance cost", "description": "Less custom code means less effort and fewer errors over time." },
+            { "title": "Future-proof core", "description": "Your S/4HANA investment retains its value release after release." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to a Clean Core",
+          "description": "Four phases that go from diagnosing custom code to the governance that keeps it clean.",
+          "phases": [
+            { "name": "Discover", "deliverable": "Custom code inventory and impact analysis" },
+            { "name": "Define", "deliverable": "Extensibility strategy and BTP model" },
+            { "name": "Migrate", "deliverable": "Rebuild of extensions decoupled from the core" },
+            { "name": "Govern", "deliverable": "Policies, controls, and clean-core metrics" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your Clean Core strategy",
+          "items": [
+            { "title": "Deep SAP expertise", "description": "Decades in Architecture, Basis, and Transformation of mission-critical SAP environments." },
+            { "title": "Clean Core mindset", "description": "It's one of our founding principles: we protect upgradeability in every project." },
+            { "title": "SAP BTP mastery", "description": "We design scalable, governed extensions on Business Technology Platform." },
+            { "title": "Governance-driven approach", "description": "The policies we define keep the core clean long after the project." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ helps monitor the health and security of your S/4HANA environment." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every program." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free evaluation",
+          "title": "Clean Core evaluation: how much of your custom code is modification vs. extension",
+          "description": "We analyze your customization landscape and deliver a technical debt map showing the impact on future upgrades and available remediation options.",
+          "cta": "Book your Clean Core evaluation"
+        },
+        "finalCta": {
+          "title": "Ready for a clean, future-proof SAP core?",
+          "description": "Book a session with our architects and let's define the Clean Core strategy for your S/4HANA.",
+          "ctaPrimary": "Define your Clean Core",
+          "ctaSecondary": "Explore the Transform pillar"
+        }
+      },
+      "sap-security": {
+        "metaTitle": "SAP Security | Native Security Controls | GCT",
+        "metaDescription": "Design and implement your SAP security architecture: authorization objects, system hardening, and access controls. Protect critical access and data.",
+        "eyebrow": "Pillar 02 · Secure",
+        "h1": "SAP Security: native controls that protect access without slowing operations",
+        "heroSubtitle": "We design and implement the SAP security architecture from the ground up: authorization objects, system hardening, secure user configuration, and access controls that protect your critical data without creating operational friction.",
+        "ctaPrimary": "Assess your SAP security posture",
+        "ctaSecondary": "Request your security review",
+        "metrics": {
+          "projects": "security assessments",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "A misconfigured SAP is your biggest internal risk.",
+          "items": [
+            {
+              "title": "Authorizations without control",
+              "description": "SAP systems accumulate years of authorizations granted without a clear policy. The result: users with access to what they shouldn't have, and audits that discover it too late."
+            },
+            {
+              "title": "Superusers without justification",
+              "description": "SAP_ALL, emergency profiles, and active development users in production are risk vectors that manual controls rarely detect in time."
+            },
+            {
+              "title": "Reactive security",
+              "description": "Configuring security after go-live or in response to an audit finding is expensive and generates rework that a preventive design would have avoided."
+            }
+          ],
+          "closing": "SAP security isn't a layer you add at the end — it's an architecture you design from the start or pay for dearly later."
+        },
+        "howWeHelp": {
+          "title": "End-to-end SAP security architecture",
+          "description": "From the assessment to continuous operations, we build a security posture that protects without interfering with the business.",
+          "items": [
+            {
+              "title": "Security assessment",
+              "description": "We evaluate the current configuration: authorization objects, user profiles, system parameters, and entry points."
+            },
+            {
+              "title": "Access architecture design",
+              "description": "We define the role, profile, and segregation-of-duties structure aligned to business processes and the principle of least privilege."
+            },
+            {
+              "title": "System hardening",
+              "description": "We configure system security parameters, session management, password controls, and network access restrictions."
+            },
+            {
+              "title": "Remediation and continuous governance",
+              "description": "We implement controls, remediate identified gaps, and establish the governance to maintain the posture over time."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Audits without surprises", "description": "A designed security architecture turns critical audit findings into minor ones — or zero findings." },
+            { "title": "Reduced internal risk", "description": "Native access controls eliminate the error and fraud vectors that cause the greatest operational damage." },
+            { "title": "Operational continuity", "description": "Well-designed security doesn't slow down users who need access — it gives them exactly what they need and nothing more." },
+            { "title": "Foundation for regulatory compliance", "description": "A solid security architecture is the foundation of any compliance, GRC, or external audit initiative." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to an SAP security posture",
+          "description": "Four phases from diagnosis to continuous governance.",
+          "phases": [
+            { "name": "Assess", "deliverable": "Security assessment: gaps, risks, and current configuration" },
+            { "name": "Design", "deliverable": "Access architecture, roles, and security policy" },
+            { "name": "Implement", "deliverable": "Hardening, gap remediation, and validation" },
+            { "name": "Govern", "deliverable": "Continuous monitoring, access governance, and iterative improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SAP security",
+          "items": [
+            { "title": "Security by design", "description": "SAP security is one of our five pillars: it's not a complementary service, it's the core of how we work." },
+            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, and Security of mission-critical SAP environments." },
+            { "title": "Clean Core mindset", "description": "We design controls that don't compromise system upgradeability." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ accelerates intelligent security monitoring and anomaly detection in your SAP environment." },
+            { "title": "Governance-driven approach", "description": "Every security control we implement is aligned to business objectives and regulatory compliance." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every security project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free review",
+          "title": "Security review: we identify the 5 most critical configurations in your SAP",
+          "description": "A GCT architect reviews your system's most critical parameters and delivers a risk scorecard with priority actions to take.",
+          "cta": "Book your security review"
+        },
+        "finalCta": {
+          "title": "Is your SAP truly protected?",
+          "description": "Book a session with our specialists and get an honest diagnosis of your SAP security posture.",
+          "ctaPrimary": "Assess your security posture",
+          "ctaSecondary": "Explore the Secure pillar"
+        }
+      },
+      "sap-rbac": {
+        "metaTitle": "SAP RBAC | Role and Access Management | GCT",
+        "metaDescription": "Design and manage SAP roles based on least privilege. Eliminate superusers, simplify the role landscape, and pass audits with no access findings.",
+        "eyebrow": "Pillar 02 · Secure",
+        "h1": "RBAC in SAP: roles designed with least privilege, clean landscape, audits that pass",
+        "heroSubtitle": "We design and cleanse your SAP role landscape applying the principle of least privilege: we eliminate role proliferation, remediate superusers, and establish the governance process that keeps access control clean and auditable.",
+        "ctaPrimary": "Assess your role landscape",
+        "ctaSecondary": "Request a role analysis",
+        "metrics": {
+          "projects": "SAP role projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "The SAP role landscape gets dirty over time — and with it, the risk.",
+          "items": [
+            {
+              "title": "Role proliferation",
+              "description": "Years of go-lives, upgrades, and ad hoc access requests generate hundreds of overlapping, orphaned, undocumented roles — impossible to audit manually."
+            },
+            {
+              "title": "The superuser legacy",
+              "description": "SAP_ALL granted in past projects, or users with accumulated profiles over time, create gaps that standard controls rarely detect."
+            },
+            {
+              "title": "No governance process",
+              "description": "Without a formal process for requesting, approving, and reviewing access, the landscape degrades as fast as it's cleaned up."
+            }
+          ],
+          "closing": "A clean role landscape isn't a one-time project: it's the result of correct design plus continuous governance."
+        },
+        "howWeHelp": {
+          "title": "From role chaos to granular, auditable control",
+          "description": "We analyze, redesign, and govern your SAP role landscape with methodology and expert judgment.",
+          "items": [
+            {
+              "title": "Current landscape analysis",
+              "description": "We inventory all roles, profiles, and assignments, identifying duplicates, orphaned roles, and over-privileged assignments."
+            },
+            {
+              "title": "Role model design",
+              "description": "We design the role structure based on business functions and least privilege, aligned to the system's actual processes."
+            },
+            {
+              "title": "Implementation and migration",
+              "description": "We deploy the new roles, migrate assignments, and deactivate obsolete ones with a plan that doesn't disrupt operations."
+            },
+            {
+              "title": "Access governance",
+              "description": "We establish the access lifecycle management process: request, approval, periodic review, and access recertification."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Access audits with no findings", "description": "A clean, documented landscape passes access reviews without critical observations." },
+            { "title": "Reduced fraud risk", "description": "Least privilege eliminates unnecessary access — the main vector of internal fraud." },
+            { "title": "Agile operations", "description": "A well-designed access process reduces onboarding time and response times to requests." },
+            { "title": "Foundation for SoD and GRC", "description": "A clean role landscape is the prerequisite for implementing effective SoD controls and SAP GRC." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to clean RBAC",
+          "description": "Four phases from landscape analysis to continuous access governance.",
+          "phases": [
+            { "name": "Analyze", "deliverable": "Role inventory, gaps, and access risk map" },
+            { "name": "Design", "deliverable": "Role model by business function and least privilege policy" },
+            { "name": "Implement", "deliverable": "Role deployment, assignment migration, and validation" },
+            { "name": "Govern", "deliverable": "Access lifecycle process and periodic recertification" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SAP role management",
+          "items": [
+            { "title": "Security by design", "description": "Good RBAC requires deep knowledge of SAP processes, not just role technology." },
+            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Security, and functional modules of critical SAP environments." },
+            { "title": "SoD and GRC integration", "description": "We design roles with SoD conflicts already built in as a design constraint." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ complements access governance with visibility and anomaly alerts." },
+            { "title": "Governance-driven approach", "description": "The governance process we design ensures the landscape stays clean after the project." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every access project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free analysis",
+          "title": "Role analysis: we tell you how many critical accesses your SAP has today",
+          "description": "We review a sample of your role landscape and return an exposure indicator with the 3 most frequent risk patterns.",
+          "cta": "Request your role analysis"
+        },
+        "finalCta": {
+          "title": "Is your SAP role landscape under control?",
+          "description": "Book a session with our specialists and walk away with a clear exposure diagnosis and a prioritized remediation plan.",
+          "ctaPrimary": "Assess your role landscape",
+          "ctaSecondary": "Explore the Secure pillar"
+        }
+      },
+      "sap-segregation-of-duties": {
+        "metaTitle": "SAP Segregation of Duties | SoD Analysis & Remediation | GCT",
+        "metaDescription": "Detect and remediate SoD conflicts in SAP before they become audit findings or fraud risks. Diagnosis, remediation, and continuous governance.",
+        "eyebrow": "Pillar 02 · Secure",
+        "h1": "SAP Segregation of Duties: eliminate the conflicts that produce audit findings and fraud risk",
+        "heroSubtitle": "We analyze your SAP environment to identify segregation-of-duties conflicts, assess the real risk of each one, and execute the remediation that eliminates exposure without paralyzing operations — with the continuous governance that prevents them from reappearing.",
+        "ctaPrimary": "Analyze your SoD conflicts",
+        "ctaSecondary": "Request an SoD diagnostic",
+        "metrics": {
+          "projects": "SoD analyses completed",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Undetected SoD conflicts are fraud in waiting.",
+          "items": [
+            {
+              "title": "Recurring audit findings",
+              "description": "SoD conflicts are the most frequent finding in SAP system audits. Without systematic analysis, they appear every audit cycle and generate observations that escalate to the board."
+            },
+            {
+              "title": "Unquantified fraud risk",
+              "description": "A user who can create a vendor and approve their payment has the technical ability to execute fraud. Without visibility into these combinations, the risk exists without control."
+            },
+            {
+              "title": "Remediation that creates more problems",
+              "description": "Remediating an SoD conflict without understanding the underlying business processes breaks operations. Removing access without analysis creates production blockages."
+            }
+          ],
+          "closing": "Segregation of duties isn't an audit requirement — it's the control that protects your business from the risks hardest to detect from the outside."
+        },
+        "howWeHelp": {
+          "title": "SoD analysis, remediation, and governance without disrupting operations",
+          "description": "A complete cycle from diagnosis to risk elimination, with the business intelligence needed to not break what works.",
+          "items": [
+            {
+              "title": "SoD conflict analysis",
+              "description": "We run a complete access conflict analysis across your SAP environment, classified by risk level (critical, high, medium) and actual usage frequency."
+            },
+            {
+              "title": "Real risk assessment",
+              "description": "Beyond the existence of the conflict, we analyze whether it is actually exercised — to prioritize remediation where the risk is effective, not just theoretical."
+            },
+            {
+              "title": "Remediation and compensating controls",
+              "description": "For each critical conflict we define the optimal remediation path: role redesign, access restriction, or a documented compensating control."
+            },
+            {
+              "title": "Governance and continuous monitoring",
+              "description": "We implement the process and tools so that SoD conflicts are detected and resolved before the next audit cycle."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Zero SoD findings in audit", "description": "A complete analysis and remediation converts audit observations into closed findings." },
+            { "title": "Fraud risk quantified and controlled", "description": "You know exactly which access combinations exist, their real risk, and how they are mitigated." },
+            { "title": "Operations without disruption", "description": "Remediation is designed with business processes in mind: no one loses access they need to operate." },
+            { "title": "Strengthened regulatory compliance", "description": "Well-managed SoD is a requirement of SOX, GDPR, ISO 27001, and any internal controls audit." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to risk-free SoD",
+          "description": "Four phases from analysis to continuous governance.",
+          "phases": [
+            { "name": "Diagnose", "deliverable": "SoD conflict matrix by module, risk level, and usage frequency" },
+            { "name": "Prioritize", "deliverable": "Critical conflict ranking and remediation plan" },
+            { "name": "Remediate", "deliverable": "Role redesign, restrictions, and documented compensating controls" },
+            { "name": "Monitor", "deliverable": "Continuous process for detecting and resolving new conflicts" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SoD management",
+          "items": [
+            { "title": "Security by design", "description": "We embed SoD as a design constraint in every role project and SAP transformation." },
+            { "title": "Deep functional knowledge", "description": "Understanding business processes is essential to remediating SoD without breaking operations." },
+            { "title": "Audit experience", "description": "We have supported clients through SOX, ISO 27001, and internal controls reviews." },
+            { "title": "SAP GRC integration", "description": "If you have or plan to implement SAP GRC, we align the SoD analysis with the suite." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ complements continuous SoD conflict monitoring with real-time alerts." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every analysis and remediation." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free diagnostic",
+          "title": "SoD diagnostic: how many critical conflicts does your SAP have today",
+          "description": "We run a sample analysis on your system and return the count of active critical conflicts and the 3 most exposed business processes.",
+          "cta": "Request your SoD diagnostic"
+        },
+        "finalCta": {
+          "title": "Do you know how many SoD conflicts your SAP has today?",
+          "description": "Book a session with our specialists and walk away with an honest exposure diagnosis and a prioritized remediation plan.",
+          "ctaPrimary": "Analyze your SoD conflicts",
+          "ctaSecondary": "Explore the Secure pillar"
+        }
+      },
+      "sap-grc": {
+        "metaTitle": "SAP GRC | Access Control, Process Control, Risk Management | GCT",
+        "metaDescription": "Implement SAP GRC to automate access control, process monitoring, and risk management. Continuous compliance, without manual overhead.",
+        "eyebrow": "Pillar 02 · Secure",
+        "h1": "SAP GRC: automated risk governance and compliance in a single suite",
+        "heroSubtitle": "We implement and operate the SAP GRC suite — Access Control, Process Control, and Risk Management — to replace manual, reactive controls with automated, continuous, and auditable risk governance.",
+        "ctaPrimary": "Assess your SAP GRC case",
+        "ctaSecondary": "Request your GRC session",
+        "metrics": {
+          "projects": "GRC implementations",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Manual compliance doesn't scale — and auditors already know it.",
+          "items": [
+            {
+              "title": "Access reviews in spreadsheets",
+              "description": "Manual access recertification and SoD analysis processes consume weeks of work and still produce incomplete, inconsistent results."
+            },
+            {
+              "title": "Reactive risk management",
+              "description": "Without a centralized platform, risks are identified late, mitigations are undocumented, and the control history doesn't exist when the audit arrives."
+            },
+            {
+              "title": "Multiple systems, one responsibility",
+              "description": "IT Security, Internal Audit, and Compliance often work with disconnected tools. The result: gaps nobody sees until they become a problem."
+            }
+          ],
+          "closing": "SAP GRC isn't an IT project — it's the governance infrastructure that connects security, compliance, and risk management in a single source of truth."
+        },
+        "howWeHelp": {
+          "title": "End-to-end SAP GRC implementation and operations",
+          "description": "From scope definition to production operations, with a focus on real adoption and measurable value.",
+          "items": [
+            {
+              "title": "SAP GRC Access Control",
+              "description": "We implement the access control module: request management, periodic reviews, SoD analysis, and emergency access management (Firefighter)."
+            },
+            {
+              "title": "SAP GRC Process Control",
+              "description": "We automate process control monitoring: control definition, automated testing, and audit evidence generation."
+            },
+            {
+              "title": "SAP GRC Risk Management",
+              "description": "We centralize the risk register, mitigation plans, and control tracking in a unified, auditable repository."
+            },
+            {
+              "title": "Operations and adoption",
+              "description": "We support the go-live, train Security, Audit, and Compliance teams, and ensure the platform is used as designed."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Continuous compliance", "description": "Automated controls replace point-in-time review with permanent monitoring that detects deviations in real time." },
+            { "title": "More efficient audits", "description": "Control evidence is centralized and available: audits take days, not weeks." },
+            { "title": "Controlled emergency access", "description": "Firefighter and emergency access are logged, approved, and reviewed — with no traceability gaps." },
+            { "title": "A common language between IT and business", "description": "GRC connects technical risks with business objectives and translates them into terms the board understands." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to SAP GRC in production",
+          "description": "Four phases from design to adopted operations.",
+          "phases": [
+            { "name": "Define", "deliverable": "Scope, modules, and GRC implementation roadmap" },
+            { "name": "Configure", "deliverable": "SoD rules, process controls, and risk register" },
+            { "name": "Validate", "deliverable": "Integrated testing with real roles, processes, and data" },
+            { "name": "Operate", "deliverable": "Go-live, team adoption, and continuous control improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SAP GRC implementation",
+          "items": [
+            { "title": "Security and GRC are our DNA", "description": "Secure is one of our five pillars: we don't implement GRC as an isolated project but as part of the governance strategy." },
+            { "title": "Deep SAP expertise", "description": "We know SAP modules in depth — a prerequisite for configuring SoD rules and process controls that work in practice." },
+            { "title": "Full integration", "description": "We integrate GRC with the role landscape, functional modules, and existing ITSM tools." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ complements SAP GRC for broader security and compliance coverage." },
+            { "title": "Focus on adoption", "description": "A GRC implementation without adoption is a failed project. We ensure teams actually use it." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every GRC project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "GRC session: we map the modules that would give you the most value in your context",
+          "description": "In 45 minutes we assess your current governance maturity and tell you which SAP GRC modules would address your most critical gaps first.",
+          "cta": "Book your GRC session"
+        },
+        "finalCta": {
+          "title": "Ready to automate your SAP risk governance?",
+          "description": "Book a session with our specialists and let's define the GRC implementation roadmap that closes your most urgent compliance gaps.",
+          "ctaPrimary": "Assess your SAP GRC case",
+          "ctaSecondary": "Explore the Secure pillar"
+        }
+      },
+      "sap-compliance-monitoring": {
+        "metaTitle": "SAP Compliance Monitoring | Continuous Compliance | GCT",
+        "metaDescription": "Monitor your SAP environment's regulatory compliance in real time: alerts, reports, and deviation control before the auditor finds them.",
+        "eyebrow": "Pillar 02 · Secure",
+        "h1": "Compliance Monitoring: continuous control that detects deviations before the auditor does",
+        "heroSubtitle": "We implement and operate continuous compliance monitoring for your SAP environment: real-time alerts on control deviations, automated audit reports, and permanent visibility into the status of your regulatory obligations.",
+        "ctaPrimary": "Assess your monitoring coverage",
+        "ctaSecondary": "Request a monitoring demo",
+        "metrics": {
+          "projects": "monitored environments",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "If you only check compliance when the audit arrives, it's already too late.",
+          "items": [
+            {
+              "title": "Point-in-time audits vs. continuous risk",
+              "description": "An annual or semi-annual review captures a snapshot. Compliance risks materialize throughout the year: access granted, controls disabled, configurations modified."
+            },
+            {
+              "title": "Manual reports that don't scale",
+              "description": "Preparing evidence for an audit means weeks of data extraction, consolidation, and review. A process that should take hours consumes the team's entire month."
+            },
+            {
+              "title": "Deviations nobody sees until they escalate",
+              "description": "Without automatic alerts, deviations from critical controls — a security parameter change, an unjustified emergency access — go unnoticed until they cause a finding."
+            }
+          ],
+          "closing": "Compliance isn't a state — it's a continuous process. The only way to manage it effectively is to monitor it permanently."
+        },
+        "howWeHelp": {
+          "title": "Continuous, automated, auditable compliance monitoring",
+          "description": "We build and operate the monitoring layer that gives you permanent visibility into the status of your controls and regulatory obligations.",
+          "items": [
+            {
+              "title": "Control framework definition",
+              "description": "We map your regulatory obligations (SOX, GDPR, ISO 27001, etc.) to specific SAP controls, with clear, measurable compliance criteria."
+            },
+            {
+              "title": "Automated monitoring",
+              "description": "We configure continuous monitoring of technical and process controls, with real-time alerts on deviations and risk thresholds."
+            },
+            {
+              "title": "Automated audit reports",
+              "description": "We generate control evidence automatically: audit reports are ready when auditors ask for them, not weeks later."
+            },
+            {
+              "title": "Finding management",
+              "description": "When a deviation is detected, we support the investigation, remediation, and finding closure with full traceability."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Audits without emergency preparation", "description": "Control evidence is always available: audits are answered in days, not weeks of frantic preparation." },
+            { "title": "Deviations detected before they escalate", "description": "Real-time alerts allow action on a deviation before it becomes a finding or an incident." },
+            { "title": "Quantified compliance", "description": "Instead of a yes/no compliance status, you have continuous metrics showing the real state of each control." },
+            { "title": "Team focused on value", "description": "Eliminating manual evidence preparation frees the security and audit team for higher-value work." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to continuous monitoring",
+          "description": "Four phases from regulatory mapping to operational monitoring.",
+          "phases": [
+            { "name": "Map", "deliverable": "Control framework: regulatory obligations → measurable SAP controls" },
+            { "name": "Instrument", "deliverable": "Monitoring configuration, alerts, and automated reports" },
+            { "name": "Operate", "deliverable": "Production monitoring, alert management, and audit reports" },
+            { "name": "Improve", "deliverable": "Periodic review of framework, coverage, and control effectiveness" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your compliance monitoring",
+          "items": [
+            { "title": "Security by design", "description": "The compliance monitoring we build is integrated with the security architecture, not added on top." },
+            { "title": "Functional and technical knowledge", "description": "Mapping a regulatory obligation to a measurable SAP control requires knowing both the standard and the system deeply." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ extends monitoring coverage with anomaly detection and intelligent alerting capabilities." },
+            { "title": "SAP GRC integration", "description": "If you already have SAP GRC, we extend and complement its monitoring coverage." },
+            { "title": "Managed operations", "description": "If you prefer to delegate monitoring operations, our managed service takes it end to end." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every compliance project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free evaluation",
+          "title": "Coverage evaluation: what percentage of your SAP controls are being monitored today",
+          "description": "We map your key regulatory obligations against active SAP controls and tell you what monitoring gaps you have.",
+          "cta": "Request your coverage evaluation"
+        },
+        "finalCta": {
+          "title": "Do you know in real time whether your SAP controls are active?",
+          "description": "Book a session with our specialists and walk away with a monitoring coverage map and the priority gaps to close.",
+          "ctaPrimary": "Assess your monitoring coverage",
+          "ctaSecondary": "Explore the Secure pillar"
+        }
+      },
+      "sap-security-managed-services": {
+        "metaTitle": "SAP Security Managed Services | Managed SAP Security | GCT",
+        "metaDescription": "Delegate continuous SAP security operations: monitoring, incident response, and iterative control improvement. Full-time SAP security experts.",
+        "eyebrow": "Pillar 02 · Secure",
+        "h1": "Security Managed Services: continuous SAP security operations without building the team from scratch",
+        "heroSubtitle": "We operate your SAP environment's security on an ongoing basis: proactive monitoring, access management, incident response, and iterative control improvement — all with a specialized SAP security team acting as an extension of your area.",
+        "ctaPrimary": "Assess the managed service model",
+        "ctaSecondary": "Request a service proposal",
+        "metrics": {
+          "projects": "managed environments",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "SAP security needs specialized expertise — which is expensive and scarce.",
+          "items": [
+            {
+              "title": "The security team isn't SAP",
+              "description": "Corporate security teams rarely have deep expertise in SAP authorizations, Basis, or GRC. The gap between available knowledge and what's required creates real vulnerabilities."
+            },
+            {
+              "title": "Security operations never end",
+              "description": "Managing access, reviewing alerts, responding to incidents, auditing controls — SAP security is a permanent function, not a project."
+            },
+            {
+              "title": "The cost of building the team in-house",
+              "description": "Hiring, training, and retaining SAP security specialists is expensive and slow. While building the team, the operational risk remains active."
+            }
+          ],
+          "closing": "A managed security model gives you the expertise and coverage you need from day one — at a fraction of the cost of building it."
+        },
+        "howWeHelp": {
+          "title": "End-to-end SAP security operations",
+          "description": "We take responsibility for operating your SAP environment's security: monitoring, management, response, and improvement.",
+          "items": [
+            {
+              "title": "Proactive security monitoring",
+              "description": "Continuous monitoring of the SAP environment: user activity, critical access, configuration changes, and security alerts."
+            },
+            {
+              "title": "Access lifecycle management",
+              "description": "We process access requests, periodic recertifications, emergency access management, and role landscape maintenance."
+            },
+            {
+              "title": "Security incident response",
+              "description": "When an anomaly or incident is detected, we investigate, contain, and document with full traceability and defined SLAs."
+            },
+            {
+              "title": "Continuous control improvement",
+              "description": "We periodically review the coverage and effectiveness of security controls and propose improvements based on the system's real operation."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Expertise from day one", "description": "You access a specialized SAP security team without the time and cost of building it internally." },
+            { "title": "Continuous coverage", "description": "Your SAP environment's security is monitored and managed permanently, without depending on internal availability." },
+            { "title": "Predictable cost", "description": "A managed service model converts the variable cost of the team into a fixed, plannable, scalable cost." },
+            { "title": "Internal team focused on value", "description": "Your internal team is freed from repetitive security operations and can focus on higher-value strategic initiatives." }
+          ]
+        },
+        "methodology": {
+          "title": "How we operate your SAP security",
+          "description": "Four phases from onboarding to continuous managed operations.",
+          "phases": [
+            { "name": "Onboard", "deliverable": "Initial assessment, security baseline, and operations plan" },
+            { "name": "Stabilize", "deliverable": "Critical gap remediation and operating model adjustment" },
+            { "name": "Operate", "deliverable": "Steady-state monitoring, access management, and incident response" },
+            { "name": "Improve", "deliverable": "Periodic maturity reviews and coverage evolution" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for managed SAP security operations",
+          "items": [
+            { "title": "SAP security is our core", "description": "We're not a generic MSSP with an SAP practice: we're SAP specialists with a security practice." },
+            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, Security, and functional modules of critical SAP environments." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ powers monitoring with anomaly detection, intelligent alerts, and extended visibility." },
+            { "title": "Business integration", "description": "We act as an extension of your area, not an external vendor. Your context is part of how we operate." },
+            { "title": "Defined and measured SLAs", "description": "Every component of the service has a clear SLA, measurable and reported periodically." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing managed operations." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "Scoping session: we design the service model that fits your environment",
+          "description": "In 45 minutes we assess your SAP environment, your internal team, and your coverage needs to design the most efficient managed service model.",
+          "cta": "Book your scoping session"
+        },
+        "finalCta": {
+          "title": "Does your SAP security need more coverage than you can build in-house?",
+          "description": "Book a session with our specialists and let's design the managed service model that covers your security needs from day one.",
+          "ctaPrimary": "Assess the managed service model",
+          "ctaSecondary": "Explore the Secure pillar"
+        }
+      },
+      "sap-ams": {
+        "metaTitle": "SAP AMS | Application Management Services | GCT",
+        "metaDescription": "Functional and technical SAP support in production with committed SLAs. Incidents, improvements, and continuous system evolution without building a full internal team.",
+        "eyebrow": "Pillar 03 · Operate",
+        "h1": "SAP AMS: functional and technical support with SLA so your production never stops",
+        "heroSubtitle": "We operate the support of your SAP production platform: we resolve functional and technical incidents, manage continuous improvements, and ensure the system evolves aligned with the business — with measurable SLAs and a team that knows your environment.",
+        "ctaPrimary": "Assess your SAP support model",
+        "ctaSecondary": "Request an AMS evaluation",
+        "metrics": {
+          "projects": "environments in operation",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Production doesn't wait — and SAP support can't either.",
+          "items": [
+            {
+              "title": "Incidents without expert resolution",
+              "description": "Production SAP errors require combined functional and technical expertise. A generalist internal team rarely resolves them at the speed the business demands."
+            },
+            {
+              "title": "The backlog that never goes down",
+              "description": "Continuous improvements, user requests, and business changes accumulate without a disciplined management process. The result: functional debt that grows and frustrated users."
+            },
+            {
+              "title": "Expertise that leaves with people",
+              "description": "System knowledge stays with key individuals. When they leave, the organization loses support capacity and is exposed until a replacement is found and trained."
+            }
+          ],
+          "closing": "AMS isn't just support: it's the function that keeps your SAP investment producing value every day."
+        },
+        "howWeHelp": {
+          "title": "End-to-end SAP production support",
+          "description": "An AMS model that combines functional, technical, and Basis expertise to cover all layers of the system.",
+          "items": [
+            {
+              "title": "Functional support by module",
+              "description": "Specialists in FI, CO, MM, SD, PP, HCM, and more resolve functional incidents and requests with deep knowledge of business processes."
+            },
+            {
+              "title": "SAP Basis technical support",
+              "description": "Technical platform coverage: transports, performance, SAP note updates, and landscape management."
+            },
+            {
+              "title": "Incident and change management (ITIL)",
+              "description": "Formal process for managing incidents, problems, and changes with full traceability, agreed priorities, and measurable SLAs."
+            },
+            {
+              "title": "Improvement backlog and evolution",
+              "description": "Backlog management with business-value-based prioritization, sprint planning, and measurable delivery."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Guaranteed operational continuity", "description": "Incidents are resolved within the agreed SLA, without depending on the availability of internal resources." },
+            { "title": "Controlled backlog", "description": "User improvements and requests are managed with a disciplined process that prioritizes the greatest business value." },
+            { "title": "Documented, transferable knowledge", "description": "All operations are documented: system knowledge doesn't depend on a single person." },
+            { "title": "Predictable cost", "description": "A service model replaces the variable cost of the in-house team with a fixed, plannable, scalable cost." }
+          ]
+        },
+        "methodology": {
+          "title": "How we operate your SAP support",
+          "description": "Four phases from onboarding to continuous managed operations.",
+          "phases": [
+            { "name": "Onboard", "deliverable": "System assessment, service agreements, and support process setup" },
+            { "name": "Stabilize", "deliverable": "Open incident resolution and environment documentation" },
+            { "name": "Operate", "deliverable": "Steady-state support: incidents, changes, and improvement backlog" },
+            { "name": "Evolve", "deliverable": "Periodic service reviews and continuous model improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SAP AMS",
+          "items": [
+            { "title": "Functional and technical coverage", "description": "We cover module functional and technical Basis in a single integrated team, without silos." },
+            { "title": "Deep SAP expertise", "description": "Decades of experience in mission-critical SAP environments across different industries." },
+            { "title": "Flexible service model", "description": "The AMS model adapts to your volume, criticality, and budget: it's not one-size-fits-all." },
+            { "title": "Security built in", "description": "The support team operates with security awareness: no change bypasses access controls." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ and Operations Intelligence™ power monitoring and proactive problem detection." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every support operation." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free evaluation",
+          "title": "AMS evaluation: we assess the maturity of your current SAP support model",
+          "description": "We review how you currently manage incidents, backlog, and changes in SAP and tell you where your main service gaps are.",
+          "cta": "Request your AMS evaluation"
+        },
+        "finalCta": {
+          "title": "Does your SAP production support meet what the business needs?",
+          "description": "Book a session with our specialists and let's design the AMS model that ensures continuity and controlled evolution.",
+          "ctaPrimary": "Assess your support model",
+          "ctaSecondary": "Explore the Operate pillar"
+        }
+      },
+      "sap-basis": {
+        "metaTitle": "SAP Basis | SAP Technical Platform Administration | GCT",
+        "metaDescription": "SAP Basis platform administration and operations: availability, performance, updates, and technical security. Specialized expertise available 24/7.",
+        "eyebrow": "Pillar 03 · Operate",
+        "h1": "SAP Basis: the technical platform that sustains operations must always be in expert hands",
+        "heroSubtitle": "We administer the technical layer of your SAP environment: landscape and transport management, database performance tuning, updates, and proactive monitoring — so the platform is never the bottleneck of your operations.",
+        "ctaPrimary": "Assess your SAP Basis platform",
+        "ctaSecondary": "Request a technical diagnostic",
+        "metrics": {
+          "projects": "systems administered",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "SAP Basis is the foundation of everything — and the hardest to cover internally.",
+          "items": [
+            {
+              "title": "Scarce and expensive expertise",
+              "description": "A senior SAP Basis administrator with real experience in critical production environments is one of the hardest profiles to hire and retain in the SAP market."
+            },
+            {
+              "title": "The platform degrades without active maintenance",
+              "description": "Without regular SAP note updates, performance optimization, and landscape reviews, systems accumulate technical debt that eventually affects availability."
+            },
+            {
+              "title": "Changes without technical governance",
+              "description": "In environments where the transport process isn't governed, development changes reach production without adequate validation, with unpredictable consequences."
+            }
+          ],
+          "closing": "The SAP technical layer is invisible when it works well — and devastating when it fails. Maintaining it requires expertise that shouldn't depend on a single internal person."
+        },
+        "howWeHelp": {
+          "title": "End-to-end SAP Basis technical administration",
+          "description": "We cover all dimensions of the SAP technical platform with a specialized team and documented processes.",
+          "items": [
+            {
+              "title": "Landscape and transport administration",
+              "description": "System landscape management (DEV/QAS/PRD), formal transport process, and change control to protect production."
+            },
+            {
+              "title": "Database administration",
+              "description": "SAP HANA, Oracle, or SQL Server administration: backups, performance tuning, disk space, and patch updates."
+            },
+            {
+              "title": "Monitoring and availability",
+              "description": "Proactive system monitoring: performance alerts, resource usage, batch jobs, and instance availability."
+            },
+            {
+              "title": "Updates and technical security",
+              "description": "SAP note application, support packages, kernel upgrades, and security patches with documented rollback procedures."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Sustained availability", "description": "The platform stays stable and updated with proactive monitoring that acts before incidents occur." },
+            { "title": "Technical security assured", "description": "SAP security notes are applied regularly: the platform isn't exposed to known vulnerabilities." },
+            { "title": "Transports under control", "description": "The change process protects production from unvalidated modifications that generate incidents." },
+            { "title": "Expertise without personal dependency", "description": "Platform knowledge is documented and distributed across the team, not concentrated in a single person." }
+          ]
+        },
+        "methodology": {
+          "title": "How we administer your SAP Basis platform",
+          "description": "Four phases from initial diagnosis to continuous technical operations.",
+          "phases": [
+            { "name": "Diagnose", "deliverable": "Technical landscape assessment, gaps, and performance baseline" },
+            { "name": "Stabilize", "deliverable": "Critical issue resolution, environment documentation, and formal processes" },
+            { "name": "Operate", "deliverable": "Steady-state technical administration: monitoring, transports, DB, updates" },
+            { "name": "Optimize", "deliverable": "Performance tuning, capacity planning, and technical evolution" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP Basis administration",
+          "items": [
+            { "title": "Basis is our technical core", "description": "Our SAP Basis practice has decades of experience in critical production environments across multiple industries." },
+            { "title": "Full stack coverage", "description": "We cover SAP Basis, HANA DB, technical security, and landscape in a single integrated team." },
+            { "title": "Documented processes", "description": "Every operation has a documented procedure: knowledge doesn't leave with people." },
+            { "title": "Business-aligned operations", "description": "We understand the impact of the technical platform on business operations and prioritize accordingly." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ extends technical monitoring with advanced visibility and proactive alerts." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every technical operation." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free diagnostic",
+          "title": "Technical diagnostic: we assess the state of your SAP Basis platform",
+          "description": "We review the key indicators of your SAP technical platform and tell you what risk points your landscape has today.",
+          "cta": "Request your technical diagnostic"
+        },
+        "finalCta": {
+          "title": "Is your SAP technical platform in the hands of the expertise it needs?",
+          "description": "Book a session with our Basis specialists and walk away with an honest diagnosis of the state of your SAP technical infrastructure.",
+          "ctaPrimary": "Assess your SAP Basis platform",
+          "ctaSecondary": "Explore the Operate pillar"
+        }
+      },
+      "sap-cloud-alm": {
+        "metaTitle": "SAP Cloud ALM | Implementation and Operations | GCT",
+        "metaDescription": "Implement and operate SAP Cloud ALM: project management, operations, and quality in the cloud. Replace Solution Manager with a modern, cloud-native platform.",
+        "eyebrow": "Pillar 03 · Operate",
+        "h1": "SAP Cloud ALM: the SAP operations hub that replaces Solution Manager in the cloud",
+        "heroSubtitle": "We implement and operate SAP Cloud ALM as the central management hub for your SAP landscape: implementation projects, continuous operations, integration monitoring, and quality management — all in the cloud, without the complexity of Solution Manager.",
+        "ctaPrimary": "Assess your Cloud ALM case",
+        "ctaSecondary": "Request your roadmap session",
+        "metrics": {
+          "projects": "ALM implementations",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Solution Manager is reaching end-of-support — and Cloud ALM doesn't implement itself.",
+          "items": [
+            {
+              "title": "The transition from SolMan is complex",
+              "description": "Migrating ChaRM, monitoring, and documentation processes from Solution Manager to Cloud ALM requires design, configuration, and change management in the team."
+            },
+            {
+              "title": "Cloud ALM underused due to lack of adoption",
+              "description": "Many organizations have access to Cloud ALM included in their SAP contract but don't use it effectively due to lack of implementation and training."
+            },
+            {
+              "title": "Fragmented ALM processes",
+              "description": "Without a unified ALM platform, project management, change, testing, and operations are spread across disconnected tools that multiply overhead."
+            }
+          ],
+          "closing": "SAP Cloud ALM isn't just another tool — it's the platform that unifies the lifecycle of your SAP landscape from implementation to continuous operations."
+        },
+        "howWeHelp": {
+          "title": "End-to-end SAP Cloud ALM implementation and operations",
+          "description": "From initial setup to productive use, with a focus on real adoption and measurable operational value.",
+          "items": [
+            {
+              "title": "Cloud ALM implementation",
+              "description": "We configure Cloud ALM Project & Portfolio Management, Change & Deploy Management, and Operations Monitoring according to your actual processes."
+            },
+            {
+              "title": "Migration from Solution Manager",
+              "description": "We assess active processes in SolMan and design the migration of ChaRM, monitoring, and documentation to Cloud ALM with minimal disruption."
+            },
+            {
+              "title": "Quality management and testing",
+              "description": "We configure the Quality Gates and Test Management module to integrate quality into the change delivery process."
+            },
+            {
+              "title": "Adoption and continuous operations",
+              "description": "We train Basis, project, and quality teams, and operate Cloud ALM as part of the continuous SAP operations service."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Landscape under unified control", "description": "Projects, changes, testing, and operations managed from a single cloud-native control center." },
+            { "title": "Frictionless SolMan transition", "description": "The migration is managed with methodology: operational processes aren't disrupted during the transition." },
+            { "title": "Quality integrated in delivery", "description": "Integrated quality gates and test management reduce post-go-live incidents from unvalidated changes." },
+            { "title": "SAP contract value maximized", "description": "Cloud ALM is included in most SAP contracts — an effective implementation maximizes an investment already made." }
+          ]
+        },
+        "methodology": {
+          "title": "The GCT path to Cloud ALM in production",
+          "description": "Four phases from design to adopted operations.",
+          "phases": [
+            { "name": "Design", "deliverable": "Module scope, SolMan process mapping, and migration plan" },
+            { "name": "Configure", "deliverable": "Cloud ALM setup, integrations, and change management process" },
+            { "name": "Validate", "deliverable": "Process testing, team training, and go-live" },
+            { "name": "Operate", "deliverable": "Cloud ALM in steady state as the SAP landscape hub" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your Cloud ALM implementation",
+          "items": [
+            { "title": "Basis + ALM in one team", "description": "Technical landscape management and ALM implementation go hand in hand: our team integrates them naturally." },
+            { "title": "Solution Manager experience", "description": "We know SolMan in depth, making the migration to Cloud ALM more efficient and less risky." },
+            { "title": "Focus on real adoption", "description": "An ALM tool nobody uses is a failed project. We ensure teams operate from Cloud ALM from day one." },
+            { "title": "Technical governance integrated", "description": "Cloud ALM is implemented with the technical governance controls that protect production from unvalidated changes." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ complements Cloud ALM for extended operational visibility." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every ALM implementation." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "Roadmap session: we design your transition from Solution Manager to Cloud ALM",
+          "description": "In 45 minutes we assess your current SolMan usage and present a Cloud ALM migration roadmap with priorities and estimated effort.",
+          "cta": "Book your roadmap session"
+        },
+        "finalCta": {
+          "title": "Does your SAP landscape already have a cloud operations hub?",
+          "description": "Book a session with our specialists and let's design the Cloud ALM implementation roadmap for your organization.",
+          "ctaPrimary": "Assess your Cloud ALM case",
+          "ctaSecondary": "Explore the Operate pillar"
+        }
+      },
+      "sap-monitoring-automation": {
+        "metaTitle": "SAP Monitoring & Automation | Proactive Monitoring and Automation | GCT",
+        "metaDescription": "Proactive monitoring and operational automation for SAP environments: real-time alerts, early problem detection, and elimination of repetitive manual tasks.",
+        "eyebrow": "Pillar 03 · Operate",
+        "h1": "Monitoring & Automation: stop fighting fires and start preventing them",
+        "heroSubtitle": "We implement proactive monitoring platforms and operational automation for your SAP environment: alerts before problems impact users, real-time visibility dashboards, and automation of repetitive tasks that consume expert time.",
+        "ctaPrimary": "Assess your monitoring coverage",
+        "ctaSecondary": "Request a monitoring demo",
+        "metrics": {
+          "projects": "monitored environments",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "SAP problems don't announce themselves — but the right tools can.",
+          "items": [
+            {
+              "title": "Reactive monitoring: always too late",
+              "description": "When a user reports a problem, it has already impacted operations. Reactive monitoring only records what happened — it doesn't prevent what's about to happen."
+            },
+            {
+              "title": "Expert time wasted on manual tasks",
+              "description": "Checking systems, running jobs, cleaning logs, restarting processes: repetitive operational tasks consume hours of expertise that should go to higher-value work."
+            },
+            {
+              "title": "No executive visibility of operational state",
+              "description": "Leadership makes decisions about a platform whose real state they don't know. Manual availability reports are snapshots already outdated when published."
+            }
+          ],
+          "closing": "Proactive monitoring and automation aren't luxuries — they're the difference between operating reactively and operating with control."
+        },
+        "howWeHelp": {
+          "title": "Real-time visibility and automated operations",
+          "description": "We build and implement the monitoring and automation layer that turns SAP operations into a predictable, efficient process.",
+          "items": [
+            {
+              "title": "End-to-end proactive monitoring",
+              "description": "We configure monitoring of SAP systems, interfaces, batch jobs, database performance, and service availability — with alerts before the impact."
+            },
+            {
+              "title": "Operational visibility dashboards",
+              "description": "We build real-time dashboards that give the technical team and leadership a clear picture of platform status."
+            },
+            {
+              "title": "Operational task automation",
+              "description": "We identify and automate repetitive tasks: system start/stop, log cleanup, health checks, operational report generation."
+            },
+            {
+              "title": "Alert and incident management",
+              "description": "We implement the alert management process: what gets notified, to whom, with what priority, and what standard action is executed."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Problems detected before impact", "description": "Proactive alerts allow action before the user reports a problem, reducing impact time." },
+            { "title": "More efficient team", "description": "Operational task automation frees expert time for higher-value work and innovation." },
+            { "title": "Real executive visibility", "description": "Real-time dashboards give an honest picture of platform status, available to any stakeholder." },
+            { "title": "Reduced MTTR", "description": "Early detection and a structured alert process reduce incident resolution time." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement monitoring and automation",
+          "description": "Four phases from design to continuous operational monitoring.",
+          "phases": [
+            { "name": "Design", "deliverable": "Coverage map: what to monitor, thresholds, and response actions" },
+            { "name": "Instrument", "deliverable": "Tool configuration, alerts, dashboards, and automations" },
+            { "name": "Validate", "deliverable": "Alert testing, threshold tuning, and operational team training" },
+            { "name": "Operate", "deliverable": "Production monitoring, alert management, and continuous coverage improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP monitoring and automation",
+          "items": [
+            { "title": "Technical and functional knowledge", "description": "Monitoring SAP effectively requires understanding what matters: critical business processes, not just infrastructure metrics." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ and Intelliguard™ provide advanced monitoring, anomaly detection, and intelligent alerting capabilities." },
+            { "title": "Integration with AMS and Basis", "description": "Monitoring integrates with the support process: an alert automatically triggers the incident management flow." },
+            { "title": "End-to-end coverage", "description": "We cover the full stack: SAP application, database, interfaces, jobs, and infrastructure layer." },
+            { "title": "Governance-driven approach", "description": "Alerts and automations are governed with clear criteria, not ad hoc." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every monitoring project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free demo",
+          "title": "Demo: this is how we monitor a mission-critical SAP environment",
+          "description": "We show you in 30 minutes how we see the state of an SAP environment in real time, what alerts we generate, and how we respond before the impact.",
+          "cta": "Request your monitoring demo"
+        },
+        "finalCta": {
+          "title": "Does your SAP team operate proactively or reactively?",
+          "description": "Book a session with our specialists and assess how to take your SAP operations from reactive to preventive.",
+          "ctaPrimary": "Assess your monitoring coverage",
+          "ctaSecondary": "Explore the Operate pillar"
+        }
+      },
+      "sap-root-cause-analysis": {
+        "metaTitle": "SAP Root Cause Analysis | Root Cause Analysis | GCT",
+        "metaDescription": "Structured SAP incident analysis to identify root causes, implement definitive fixes, and eliminate recurrence. Expert methodology, lasting resolution.",
+        "eyebrow": "Pillar 03 · Operate",
+        "h1": "Root Cause Analysis: recurring incidents shouldn't repeat — and they won't",
+        "heroSubtitle": "We apply structured root cause analysis methodology to resolve the SAP incidents that keep coming back: ABAP traces, HANA analysis, configuration reviews, and definitive fixes that eliminate the problem instead of patching it.",
+        "ctaPrimary": "Analyze a recurring incident",
+        "ctaSecondary": "Request an incident diagnostic",
+        "metrics": {
+          "projects": "incidents definitively resolved",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Fixing the symptom isn't fixing the problem.",
+          "items": [
+            {
+              "title": "The same incident, again",
+              "description": "Quick workarounds resolve the visible symptom but leave the root cause intact. The incident comes back — sometimes with greater impact than before."
+            },
+            {
+              "title": "High MTTR from superficial diagnosis",
+              "description": "Without a structured analysis methodology, resolution time extends because the team attacks the first visible thing rather than what's actually causing the problem."
+            },
+            {
+              "title": "Operational debt that grows",
+              "description": "Each incident patched instead of resolved adds operational debt. Over time, the system accumulates workarounds that become more fragile and harder to maintain."
+            }
+          ],
+          "closing": "A truly resolved incident doesn't come back. The difference between patching it and resolving it lies in the depth of the analysis."
+        },
+        "howWeHelp": {
+          "title": "Structured analysis that reaches the cause, not the symptom",
+          "description": "We combine analysis methodology with deep SAP knowledge to solve the problems others can't.",
+          "items": [
+            {
+              "title": "ABAP trace and dump analysis",
+              "description": "Deep analysis of ST22, SM21, SLG1, and program traces to identify the exact point of failure in code or configuration."
+            },
+            {
+              "title": "SAP HANA performance diagnosis",
+              "description": "Analysis of slow queries, locks, memory consumption, and database statistics to identify the cause of degradation."
+            },
+            {
+              "title": "Configuration and customizing analysis",
+              "description": "Systematic review of system configuration to identify incorrect or inconsistent settings that generate unexpected behavior."
+            },
+            {
+              "title": "Definitive fix and documentation",
+              "description": "We implement the definitive fix with a documented procedure and QAS validation before production, to avoid regressions."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Incidents that don't come back", "description": "The definitive root cause fix eliminates recurrence and reduces incident volume over time." },
+            { "title": "Reduced MTTR", "description": "A structured methodology reduces diagnosis time because the team knows where to look and how to interpret data." },
+            { "title": "Operational debt going down", "description": "Resolving root causes instead of patching them gradually reduces the system's operational complexity." },
+            { "title": "Knowledge transferred", "description": "Each analysis produces a report documenting the problem, the analysis, and the solution — knowledge that stays in the organization." }
+          ]
+        },
+        "methodology": {
+          "title": "How we analyze and resolve SAP incidents",
+          "description": "Four phases from data collection to documented definitive resolution.",
+          "phases": [
+            { "name": "Collect", "deliverable": "Incident context, logs, traces, and system data at the time of failure" },
+            { "name": "Analyze", "deliverable": "Root cause identification with documented technical evidence" },
+            { "name": "Fix", "deliverable": "Definitive fix implementation validated in QAS" },
+            { "name": "Prevent", "deliverable": "Preventive actions, specific monitoring, and case documentation" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP root cause analysis",
+          "items": [
+            { "title": "Deep technical and functional knowledge", "description": "Resolving root causes in SAP requires understanding both the technology and the business processes the system supports." },
+            { "title": "Experience in critical environments", "description": "Decades resolving complex problems in mission-critical SAP production environments." },
+            { "title": "Structured methodology", "description": "We don't improvise: we apply analysis methodology that guarantees reaching the cause, not the symptom." },
+            { "title": "Documentation always", "description": "Every analysis produces evidence and documentation: knowledge isn't lost when the incident ends." },
+            { "title": "Integration with monitoring", "description": "Patterns identified in analysis become proactive monitoring rules to prevent recurrence." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every analysis." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free diagnostic",
+          "title": "Incident diagnostic: we analyze a recurring problem in your SAP environment",
+          "description": "You share the data of an incident that keeps coming back and one of our specialists returns a root cause hypothesis and verification steps.",
+          "cta": "Request your incident diagnostic"
+        },
+        "finalCta": {
+          "title": "Do you have SAP incidents that keep coming back without a definitive resolution?",
+          "description": "Book a session with our specialists and start resolving your SAP environment's recurring problems at the root.",
+          "ctaPrimary": "Analyze a recurring incident",
+          "ctaSecondary": "Explore the Operate pillar"
+        }
+      },
+      "sap-technical-governance": {
+        "metaTitle": "SAP Technical Governance | SAP Technical Governance | GCT",
+        "metaDescription": "Technical standards, change management, and quality controls for sustainable SAP operations. Protect production and reduce technical debt with formal governance.",
+        "eyebrow": "Pillar 03 · Operate",
+        "h1": "Technical Governance: the standards that protect production from changes that shouldn't arrive",
+        "heroSubtitle": "We design and implement the technical governance framework that regulates how changes are made, quality is maintained, and technical decisions are taken in your SAP environment — so production is stable, predictable, and free from ungoverned change incidents.",
+        "ctaPrimary": "Assess your technical governance maturity",
+        "ctaSecondary": "Request a governance review",
+        "metrics": {
+          "projects": "governance models implemented",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Without technical governance, SAP production is always one change away from an incident.",
+          "items": [
+            {
+              "title": "Changes that arrive without validation",
+              "description": "When the change management process lacks teeth, development changes reach production without adequate testing. The incidents that follow are predictable — and avoidable."
+            },
+            {
+              "title": "Standards nobody follows",
+              "description": "Without a documented and enforceable technical policy, every developer and administrator operates by their own rules. The result: technical inconsistency that generates debt and fragility."
+            },
+            {
+              "title": "Technical decisions without traceability",
+              "description": "Without a record of why technical decisions were made, the team that comes next can't understand the system they maintain — and makes the same mistakes."
+            }
+          ],
+          "closing": "Technical governance isn't bureaucracy — it's the structure that makes SAP operations predictable, sustainable, and free from avoidable incidents."
+        },
+        "howWeHelp": {
+          "title": "A technical governance framework your team can actually follow",
+          "description": "We design and implement the technical governance that adapts to your organization, not the ideal nobody applies.",
+          "items": [
+            {
+              "title": "Change management process",
+              "description": "We design and implement the formal change management process: from request to production go-live, with quality gates and full traceability."
+            },
+            {
+              "title": "Technical standards and policies",
+              "description": "We define ABAP development standards, naming conventions, configuration guides, and technical security policies that govern team work."
+            },
+            {
+              "title": "Technical quality control",
+              "description": "We implement quality gates: code review, transport testing in QAS, and approval criteria before production."
+            },
+            {
+              "title": "Documentation and traceability",
+              "description": "We establish the technical documentation process: design decisions, critical configurations, and operational procedures the team can consult."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your business gains",
+          "items": [
+            { "title": "Production protected", "description": "Formal change management prevents unvalidated changes from reaching production and generating avoidable incidents." },
+            { "title": "Technical debt under control", "description": "Technical standards prevent the accumulation of inconsistencies that make the system more fragile over time." },
+            { "title": "Team independent of the key expert", "description": "Documentation and standards distribute knowledge: the system doesn't depend on a single person." },
+            { "title": "Compliance and audits simplified", "description": "A change process with full traceability dramatically simplifies IT control audits." }
+          ]
+        },
+        "methodology": {
+          "title": "How we install SAP technical governance",
+          "description": "Four phases from maturity diagnosis to operational governance.",
+          "phases": [
+            { "name": "Diagnose", "deliverable": "Technical maturity assessment: current processes, standards, and governance gaps" },
+            { "name": "Design", "deliverable": "Technical governance framework: processes, standards, quality gates, and roles" },
+            { "name": "Implement", "deliverable": "Process deployment, documentation, and technical team training" },
+            { "name": "Sustain", "deliverable": "Governance metrics, periodic reviews, and continuous improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP technical governance",
+          "items": [
+            { "title": "Govern is one of our pillars", "description": "Governance isn't a complementary service: it's part of the DNA of how we work on every SAP project." },
+            { "title": "Deep technical expertise", "description": "Decades of experience in Basis, ABAP development, and SAP architecture give credibility to the governance we design." },
+            { "title": "Pragmatism in design", "description": "We design the governance your team can sustain, not the ideal that collapses under the first operational pressure." },
+            { "title": "Cloud ALM integration", "description": "The technical governance we implement leverages SAP Cloud ALM as the lifecycle management tool." },
+            { "title": "Security integrated", "description": "The technical standards we define include security controls: technical governance and access governance go hand in hand." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every technical governance project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free evaluation",
+          "title": "Maturity evaluation: how governed is your SAP technical environment?",
+          "description": "We review your change management process, technical standards, and current quality gates and tell you what maturity level your technical governance is at.",
+          "cta": "Request your technical maturity evaluation"
+        },
+        "finalCta": {
+          "title": "Is your SAP production protected from changes that shouldn't arrive?",
+          "description": "Book a session with our specialists and let's design the technical governance framework that makes your SAP operations predictable and sustainable.",
+          "ctaPrimary": "Assess your technical governance maturity",
+          "ctaSecondary": "Explore the Operate pillar"
+        }
+      },
+      "sap-governance-advisory": {
+        "metaTitle": "SAP Governance Advisory | SAP Governance | GCT",
+        "metaDescription": "Design and implementation of SAP governance frameworks: roles, decision processes, change management policies, and controls that make your SAP investment predictable and traceable.",
+        "eyebrow": "Pillar 04 · Govern",
+        "h1": "SAP Governance Advisory: we design the governance model that aligns SAP with business strategy",
+        "heroSubtitle": "We advise organizations on designing and implementing SAP governance frameworks: role structure, decision-making bodies, change management policies, and control mechanisms that make the SAP investment predictable, traceable, and sustainable.",
+        "ctaPrimary": "Assess your SAP governance maturity",
+        "ctaSecondary": "Request a Governance Advisory session",
+        "metrics": {
+          "projects": "governance projects",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "SAP without governance is not a strategic asset — it's an operational risk.",
+          "items": [
+            {
+              "title": "Decisions without process or traceability",
+              "description": "When no governance framework exists, critical SAP decisions — what gets customized, migrated, or decommissioned — are made informally, with no traceability or accountability."
+            },
+            {
+              "title": "Blurred roles that create friction",
+              "description": "Without a clear definition of who decides what in the SAP ecosystem, projects stall, conflicts escalate, and strategic decisions are delayed."
+            },
+            {
+              "title": "Paper governance nobody applies",
+              "description": "Many organizations have written policies that go unenforced because the governance framework wasn't designed for the team's operational reality."
+            }
+          ],
+          "closing": "An effective SAP governance framework isn't documentation — it's the structure that makes the system evolve in a predictable, business-aligned way."
+        },
+        "howWeHelp": {
+          "title": "SAP governance that works in practice",
+          "description": "We design and implement the governance model that reflects how your organization actually works, not how it should work in a manual.",
+          "items": [
+            {
+              "title": "Governance model design",
+              "description": "Definition of the SAP governance framework: roles, responsibilities, decision-making bodies, escalation processes, and accountability mechanisms."
+            },
+            {
+              "title": "Change management policies",
+              "description": "Design of the formal change management process: how changes to the SAP system are approved, prioritized, and managed."
+            },
+            {
+              "title": "Control and audit framework",
+              "description": "Definition of key governance controls, required evidence, review processes, and readiness for internal and external audits."
+            },
+            {
+              "title": "Enablement and adoption",
+              "description": "Implementation support: team workshops, framework communication, and building accountability from day one."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Traceable decisions", "description": "Every important SAP decision has a process, an owner, and documented evidence." },
+            { "title": "Conflicts resolved by process, not escalation", "description": "A clear role framework resolves conflicts at the right level, without unnecessarily reaching senior leadership." },
+            { "title": "Audits without surprises", "description": "The governance framework naturally generates the evidence auditors will look for." },
+            { "title": "Governance that evolves with the organization", "description": "The model is designed to be sustainable and adapt as the organization and system evolve." }
+          ]
+        },
+        "methodology": {
+          "title": "How we design and implement SAP governance",
+          "description": "Four phases from diagnosis to operational governance.",
+          "phases": [
+            { "name": "Diagnose", "deliverable": "Governance maturity assessment: current roles, processes, gaps, and policy status" },
+            { "name": "Design", "deliverable": "SAP governance framework: roles, bodies, processes, policies, and controls" },
+            { "name": "Implement", "deliverable": "Model deployment, team enablement workshops, and adoption" },
+            { "name": "Sustain", "deliverable": "Governance metrics, periodic reviews, and continuous framework improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SAP Governance Advisory",
+          "items": [
+            { "title": "Govern is one of our core pillars", "description": "SAP systems governance isn't a complementary service — it's one of the five pillars on which we build all our practices." },
+            { "title": "Experience across multiple industries", "description": "We have designed SAP governance models for organizations in manufacturing, energy, logistics, and consumer goods, each with their own regulatory and operational constraints." },
+            { "title": "Pragmatic governance", "description": "We design the governance your team can sustain, not the ideal that collapses under the first operational pressure." },
+            { "title": "Integration with other pillars", "description": "The governance framework integrates with Transform, Operate, and Secure processes for a unified view of the SAP ecosystem." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ provides the executive visibility the governance framework needs to be operational." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every governance advisory project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free evaluation",
+          "title": "Governance maturity evaluation: where does your SAP organization stand on the governance axis?",
+          "description": "You answer a questionnaire with our specialists and we return a SAP governance maturity diagnostic with the three most impactful improvement priorities.",
+          "cta": "Request your maturity evaluation"
+        },
+        "finalCta": {
+          "title": "Does your SAP investment have the governance it needs to be predictable and sustainable?",
+          "description": "Book a session with our specialists and let's design the governance framework that aligns SAP with your business strategy.",
+          "ctaPrimary": "Assess your SAP governance maturity",
+          "ctaSecondary": "Explore the Govern pillar"
+        }
+      },
+      "sap-program-governance": {
+        "metaTitle": "SAP Program Governance | SAP Transformation Program Governance | GCT",
+        "metaDescription": "Control structures for SAP transformation programs: steering committees, PMO, risk and scope management that make large projects predictable.",
+        "eyebrow": "Pillar 04 · Govern",
+        "h1": "SAP Program Governance: the discipline that turns large projects into predictable deliveries",
+        "heroSubtitle": "We structure the governance of your SAP transformation programs: steering committees, PMO, risk management, scope control, and escalation mechanisms that make large projects land without the surprises that cost the most.",
+        "ctaPrimary": "Assess your SAP program governance",
+        "ctaSecondary": "Request a program governance review",
+        "metrics": {
+          "projects": "programs governed",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "Large SAP programs fail when governance doesn't grow alongside complexity.",
+          "items": [
+            {
+              "title": "Steering committees that don't decide",
+              "description": "The steering committee exists in the org chart but lacks the information or process to make decisions in time. Problems escalate too late — or never."
+            },
+            {
+              "title": "Scope that grows without control",
+              "description": "Without a formal scope management process, every stakeholder adds requirements that stretch the schedule and erode the budget until the project is no longer what was approved."
+            },
+            {
+              "title": "Risks that become incidents",
+              "description": "Program risks are identified but not actively managed. When they materialize, the team enters crisis mode and the program goes off track."
+            }
+          ],
+          "closing": "Program governance is not overhead — it's the structure that ensures the SAP transformation investment reaches its destination."
+        },
+        "howWeHelp": {
+          "title": "Program governance that protects the investment and the date",
+          "description": "We design and implement the governance structures that make SAP transformation programs predictable.",
+          "items": [
+            {
+              "title": "Governance structure design",
+              "description": "Definition of the steering committee, PMO, roles and responsibilities, meeting cadence, and formal escalation channels."
+            },
+            {
+              "title": "Scope and change management",
+              "description": "Formal process for managing scope changes: how additional requirements are evaluated, approved, and controlled with time and cost impact."
+            },
+            {
+              "title": "Program risk management",
+              "description": "Framework for identifying, assessing, and actively managing risks with accountable owners and concrete mitigation plans."
+            },
+            {
+              "title": "Executive reporting",
+              "description": "Dashboards and status reports that give the steering committee the real information it needs to make decisions — not the eternal green of the project schedule."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Projects that land on time", "description": "Effective program governance identifies deviations when they're still correctable, not when it's too late." },
+            { "title": "Controlled scope", "description": "The formal change management process prevents scope creep from eroding the budget and schedule without accountability." },
+            { "title": "Risks mitigated before they escalate", "description": "Active risk management turns potential threats into preventive actions with owners and deadlines." },
+            { "title": "Effective steering committee", "description": "Leadership makes decisions based on real information at the right time, not after the fact." }
+          ]
+        },
+        "methodology": {
+          "title": "How we structure your SAP program governance",
+          "description": "Four phases from initial assessment to formal program close.",
+          "phases": [
+            { "name": "Frame", "deliverable": "Program assessment: current state, existing risks, and governance gaps" },
+            { "name": "Establish", "deliverable": "Program governance structure: roles, processes, tools, and cadence" },
+            { "name": "Govern", "deliverable": "Program governance operations: meetings, reports, risk management, and escalations" },
+            { "name": "Close", "deliverable": "Formal program close: lessons learned, handover, and post-implementation" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for your SAP program governance",
+          "items": [
+            { "title": "Govern is one of our core pillars", "description": "SAP program governance is one of our most established practices, with decades of experience in complex transformations." },
+            { "title": "Experience with large programs", "description": "We have governed SAP transformation programs with multiple modules, countries, and vendors running in parallel." },
+            { "title": "We govern the PMO, not replace it", "description": "We structure and enable the client team's governance capability — we don't replace it." },
+            { "title": "Focus on decisions, not reports", "description": "The goal of program governance is to enable timely decisions, not generate documentation nobody reads." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ provides real-time program status visibility for the steering committee." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every program governance project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free review",
+          "title": "Program governance review: we identify the risks in your SAP program before they escalate",
+          "description": "A GCT architect reviews the governance state of your SAP program — committee structure, risk management, and scope control — and flags the three highest-exposure points.",
+          "cta": "Request your program governance review"
+        },
+        "finalCta": {
+          "title": "Does your SAP program have the governance it needs to reach its destination?",
+          "description": "Book a session with our specialists and let's design the governance structure that makes your SAP transformation predictable.",
+          "ctaPrimary": "Assess your SAP program governance",
+          "ctaSecondary": "Explore the Govern pillar"
+        }
+      },
+      "sap-compliance": {
+        "metaTitle": "SAP Compliance | SAP Regulatory Compliance | GCT",
+        "metaDescription": "SAP compliance framework: automatic controls, audit evidence, exception management, and continuous monitoring that replaces costly manual processes.",
+        "eyebrow": "Pillar 04 · Govern",
+        "h1": "SAP Compliance: regulatory compliance built inside the system, not on top of it",
+        "heroSubtitle": "We design and implement the compliance framework for your SAP ecosystem: automatic controls, audit evidence, exception management, and continuous monitoring that replace costly manual processes and regulatory exposure.",
+        "ctaPrimary": "Assess your SAP compliance exposure",
+        "ctaSecondary": "Request a compliance diagnostic",
+        "metrics": {
+          "projects": "compliance frameworks implemented",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "SAP compliance managed manually scales in cost and risk.",
+          "items": [
+            {
+              "title": "Manual controls that don't scale",
+              "description": "Verifying regulatory compliance in SAP through periodic manual reviews is costly, inconsistent, and generates low-quality audit evidence."
+            },
+            {
+              "title": "Audits that always surprise",
+              "description": "Without continuous monitoring, compliance problems are discovered during the audit — not before. Post-audit remediation cost is a multiple of the cost of prevention."
+            },
+            {
+              "title": "Exceptions without formal management",
+              "description": "Exceptions to regulatory compliance exist in every real SAP ecosystem. Without a formal management process, they accumulate without accountability and become risks."
+            }
+          ],
+          "closing": "Effective SAP compliance isn't a layer on top of the system — it's part of how the system operates."
+        },
+        "howWeHelp": {
+          "title": "SAP compliance that runs itself, not with manual work",
+          "description": "We design and implement controls that generate compliance evidence automatically and continuously.",
+          "items": [
+            {
+              "title": "SAP compliance framework",
+              "description": "Design of the regulatory compliance framework: identification of applicable regulatory requirements, corresponding SAP controls, and required evidence."
+            },
+            {
+              "title": "Automatic controls in SAP",
+              "description": "Implementation of preventive and detective controls in SAP that operate automatically and generate audit evidence without manual work."
+            },
+            {
+              "title": "Exception management",
+              "description": "Formal process for approving, recording, and reviewing compliance exceptions with accountable owners and expiration dates."
+            },
+            {
+              "title": "Continuous compliance monitoring",
+              "description": "Dashboards and compliance status reports that provide continuous visibility into the regulatory exposure of the SAP ecosystem."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Audits without surprises", "description": "Continuous monitoring detects problems before the audit, eliminating last-minute remediation costs." },
+            { "title": "Controls that require no manual work", "description": "Automatic controls generate compliance evidence continuously, without depending on periodic reviews." },
+            { "title": "Exceptions under control", "description": "Every compliance exception has an owner, a deadline, and a formal review process." },
+            { "title": "Executive visibility of exposure", "description": "Leadership has real visibility into SAP compliance status, not just during an audit." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement SAP compliance",
+          "description": "Four phases from assessment to continuous production monitoring.",
+          "phases": [
+            { "name": "Assess", "deliverable": "Compliance exposure assessment: regulatory requirements, existing controls, and gaps" },
+            { "name": "Design", "deliverable": "SAP compliance framework: controls, evidence, exceptions, and reporting" },
+            { "name": "Implement", "deliverable": "SAP control configuration, dashboards, and exception management process" },
+            { "name": "Monitor", "deliverable": "Compliance operations: continuous monitoring, exception reviews, and audit readiness" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP compliance",
+          "items": [
+            { "title": "Govern is one of our core pillars", "description": "SAP compliance is one of our most established practices, with decades of experience in regulated environments." },
+            { "title": "Experience in regulated industries", "description": "We have implemented SAP compliance frameworks for organizations in pharma, energy, manufacturing, and financial services." },
+            { "title": "Compliance built inside the system", "description": "We design controls that operate in SAP — not manual layers on top of the system that generate overhead without resilience." },
+            { "title": "Integration with Secure", "description": "The SAP compliance framework integrates with the security and GRC practice for a unified view of exposure." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ provides continuous compliance monitoring with early warnings before problems escalate." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every compliance project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free diagnostic",
+          "title": "Compliance diagnostic: we assess your SAP regulatory exposure in 48 hours",
+          "description": "Share the basic data from your SAP environment and we return a compliance exposure map with the top three controls to implement.",
+          "cta": "Request your compliance diagnostic"
+        },
+        "finalCta": {
+          "title": "Is your SAP ecosystem ready for the next audit?",
+          "description": "Book a session with our specialists and let's design the SAP compliance framework that eliminates audit surprises.",
+          "ctaPrimary": "Assess your SAP compliance exposure",
+          "ctaSecondary": "Explore the Govern pillar"
+        }
+      },
+      "sap-executive-controls": {
+        "metaTitle": "SAP Executive Controls | SAP Executive Governance | GCT",
+        "metaDescription": "Executive controls framework for SAP: business KPIs, leadership dashboards, escalation mechanisms, and reporting that connects SAP with strategic objectives.",
+        "eyebrow": "Pillar 04 · Govern",
+        "h1": "Executive Controls: the visibility and controls leadership needs over their SAP investment",
+        "heroSubtitle": "We design and implement the executive controls framework for the SAP ecosystem: business and operational KPIs, status dashboards, escalation mechanisms, and reports that give leadership the real information they need to make decisions.",
+        "ctaPrimary": "Design your executive controls framework",
+        "ctaSecondary": "Request an Executive Controls session",
+        "metrics": {
+          "projects": "executive frameworks implemented",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "Leadership makes SAP decisions without the information they need to make them well.",
+          "items": [
+            {
+              "title": "No business KPIs for SAP",
+              "description": "SAP operations are measured in technical metrics leadership doesn't understand. There's no visible connection between system state and impact on business objectives."
+            },
+            {
+              "title": "Reports that always say everything is fine",
+              "description": "SAP status reports that reach senior leadership are optimized to avoid hard questions, not to enable informed decisions."
+            },
+            {
+              "title": "Leadership enters problems too late",
+              "description": "Without formal escalation mechanisms, leadership learns about SAP problems when they're already visible incidents — not when they're still manageable risks."
+            }
+          ],
+          "closing": "Executive controls over SAP aren't bureaucracy — they're the structure that makes the system investment traceable for those accountable for it."
+        },
+        "howWeHelp": {
+          "title": "Executive visibility that enables real decisions",
+          "description": "We design and implement the controls framework that connects SAP state with the executive agenda.",
+          "items": [
+            {
+              "title": "SAP executive KPI framework",
+              "description": "Definition of the business and operational KPIs that give leadership a comprehensive view of their SAP investment — value delivered, active risks, and relevant trends."
+            },
+            {
+              "title": "Executive dashboards",
+              "description": "Design and implementation of SAP status dashboards for senior leadership: simple, actionable, and updated in real time."
+            },
+            {
+              "title": "Formal escalation mechanisms",
+              "description": "Definition of the executive escalation process: which situations require leadership attention, when, and with what information."
+            },
+            {
+              "title": "SAP executive meeting governance",
+              "description": "Design of the cadence and structure of SAP executive review meetings: agenda, participants, expected decisions, and follow-up."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Decisions based on real information", "description": "Leadership has visibility into the real SAP state, not the optimistic version filtered by the project team." },
+            { "title": "Risks visible before they escalate", "description": "Formal escalation mechanisms ensure leadership enters problems when they're still manageable." },
+            { "title": "Traceable accountability", "description": "The KPI and controls framework creates formal accountability over the SAP investment at the executive level." },
+            { "title": "SAP connected to business objectives", "description": "Executive KPIs establish the visible connection between system state and business performance." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement SAP executive controls",
+          "description": "Four phases from KPI definition to continuous executive reporting operations.",
+          "phases": [
+            { "name": "Define", "deliverable": "Current executive reporting assessment and definition of relevant leadership KPIs" },
+            { "name": "Design", "deliverable": "Executive controls framework: KPIs, dashboards, escalations, and meeting governance" },
+            { "name": "Implement", "deliverable": "Dashboard deployment, escalation processes, and first executive reporting cycle" },
+            { "name": "Operate", "deliverable": "Continuous operations: status updates, executive reviews, and framework improvement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP executive controls",
+          "items": [
+            { "title": "Govern is one of our core pillars", "description": "SAP executive controls are an integral part of our governance practice, not an add-on." },
+            { "title": "We understand both the business and the system", "description": "Designing relevant executive KPIs requires understanding how SAP creates value for the business — not just the system's technical metrics." },
+            { "title": "Dashboards that get used", "description": "A dashboard nobody consults is a failed project. We design for real adoption by senior leadership." },
+            { "title": "We communicate upward", "description": "We know how to translate SAP technical complexity into executive language that enables decisions without oversimplifying what matters." },
+            { "title": "Proprietary platforms", "description": "Operations Intelligence™ provides the operational data foundation that feeds executive dashboards in real time." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every executive controls project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "Executive controls session: what information does your leadership need about SAP?",
+          "description": "In 45 minutes we work with you to identify the most relevant executive KPIs for your organization and the reporting model that would make them actionable.",
+          "cta": "Book your executive controls session"
+        },
+        "finalCta": {
+          "title": "Does your leadership have the real visibility it needs over the SAP investment?",
+          "description": "Book a session with our specialists and let's design the executive controls framework that connects SAP with your business objectives.",
+          "ctaPrimary": "Design your executive controls framework",
+          "ctaSecondary": "Explore the Govern pillar"
+        }
+      },
+      "sap-clean-core-governance": {
+        "metaTitle": "Clean Core Governance | SAP Clean Core Governance | GCT",
+        "metaDescription": "Governance framework to sustain the SAP Clean Core strategy over time: extensibility policies, customization review, and continuous core monitoring.",
+        "eyebrow": "Pillar 04 · Govern",
+        "h1": "Clean Core Governance: the governance that keeps the SAP core clean project after project",
+        "heroSubtitle": "We design and implement the governance framework to sustain the SAP Clean Core strategy over time: extensibility policies, customization review process, exception management, and continuous monitoring of core state — so clean core is not a migration milestone but a permanent operational standard.",
+        "ctaPrimary": "Assess your Clean Core governance",
+        "ctaSecondary": "Request a Clean Core Governance evaluation",
+        "metrics": {
+          "projects": "Clean Core projects governed",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "Clean Core is easy to achieve once — the hard part is keeping it clean over time.",
+          "items": [
+            {
+              "title": "Customizations that return immediately",
+              "description": "Without an active governance process, the development team reverts to familiar customization patterns, and the clean core achieved in the migration erodes project by project."
+            },
+            {
+              "title": "Extensions nobody reviews",
+              "description": "SAP extensions and modifications accumulate without a review process that assesses whether they're truly necessary, whether they meet extensibility standards, and what their impact on future upgrades is."
+            },
+            {
+              "title": "Exceptions that become the norm",
+              "description": "Without formal management of clean core standard exceptions, every urgent case becomes a precedent that dilutes the standard until it no longer exists."
+            }
+          ],
+          "closing": "Clean Core isn't a state you achieve — it's a discipline you govern. Without the right governance, the core becomes dirty again."
+        },
+        "howWeHelp": {
+          "title": "Active governance of the SAP Clean Core",
+          "description": "We design and implement the governance framework that makes clean core a permanent operational standard, not a migration milestone.",
+          "items": [
+            {
+              "title": "SAP extensibility policy",
+              "description": "Design of the clean core policy: what is permitted, what requires review, what is prohibited, and what process each type of change follows."
+            },
+            {
+              "title": "Extension review process",
+              "description": "Definition of the design review process: who reviews, what criteria apply, and how the decision is documented for each proposed extension or modification."
+            },
+            {
+              "title": "Standard exception management",
+              "description": "Formal process for approving clean core exceptions with accountable owners, documented justification, and remediation plan."
+            },
+            {
+              "title": "Continuous core state monitoring",
+              "description": "Clean core status dashboard with evolution of customization percentage, trends, and standard degradation alerts."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Clean core sustainable over time", "description": "Active governance prevents the gradual erosion of clean core through accumulation of unmanaged exceptions." },
+            { "title": "Predictable upgrades", "description": "A truly clean SAP core makes version upgrades predictable and low-cost." },
+            { "title": "Technical debt under control", "description": "The extension review process prevents the accumulation of customizations that become technical debt." },
+            { "title": "Enabled team", "description": "Developers understand the correct extensibility options and the review process, reducing design review time." }
+          ]
+        },
+        "methodology": {
+          "title": "How we install SAP Clean Core governance",
+          "description": "Four phases from assessment to continuous standard improvement.",
+          "phases": [
+            { "name": "Assess", "deliverable": "Current clean core state assessment: existing customizations, trends, and governance gaps" },
+            { "name": "Design", "deliverable": "Clean Core Governance framework: policies, review processes, exceptions, and status dashboard" },
+            { "name": "Implement", "deliverable": "Process deployment, development team enablement, and first review cycles" },
+            { "name": "Improve", "deliverable": "Continuous framework improvement based on core state metrics and team feedback" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for Clean Core Governance",
+          "items": [
+            { "title": "Clean Core spans Transform and Govern", "description": "We have experience both achieving clean core in migration projects and sustaining it with active governance post-go-live." },
+            { "title": "Govern is one of our core pillars", "description": "Clean core governance is a natural application of our governance capabilities to the most strategic technical asset in SAP." },
+            { "title": "We know the SAP extensibility landscape", "description": "BTP, ABAP Cloud, RAP, key-user extensions: we design the extensibility policy with real knowledge of the available options." },
+            { "title": "Integration with Transform", "description": "The Clean Core Governance framework connects with the strategy defined in the migration project to maintain coherence." },
+            { "title": "Proprietary platforms", "description": "Intelliguard™ monitors clean core state in real time with customization percentage metrics and degradation alerts." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every Clean Core Governance project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free evaluation",
+          "title": "Clean Core Governance evaluation: how well-governed is your SAP core?",
+          "description": "We assess the state of your SAP extension management process and tell you how at-risk your core's cleanliness is with current practices.",
+          "cta": "Request your Clean Core Governance evaluation"
+        },
+        "finalCta": {
+          "title": "Does your Clean Core strategy have the governance it needs to be maintained over time?",
+          "description": "Book a session with our specialists and let's design the governance framework that makes Clean Core a permanent operational standard.",
+          "ctaPrimary": "Assess your Clean Core governance",
+          "ctaSecondary": "Explore the Govern pillar"
+        }
+      },
+      "sap-ai-automation": {
+        "metaTitle": "SAP AI & Automation | SAP AI and Automation | GCT",
+        "metaDescription": "AI and intelligent automation in SAP ecosystems: process automation on BTP, embedded AI models, and high-impact use cases in production.",
+        "eyebrow": "Pillar 05 · Innovate",
+        "h1": "SAP AI & Automation: artificial intelligence integrated into SAP processes where it creates the most value",
+        "heroSubtitle": "We implement AI and intelligent automation capabilities in your SAP ecosystem: from process automation on BTP to AI models embedded in critical workflows — so technology handles the repetitive work and people focus on what actually matters.",
+        "ctaPrimary": "Explore SAP AI use cases",
+        "ctaSecondary": "Request an AI ideation session",
+        "metrics": {
+          "projects": "AI projects implemented",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "AI in SAP isn't science fiction — but without the right focus, it doesn't generate real value either.",
+          "items": [
+            {
+              "title": "Use cases disconnected from business",
+              "description": "Many SAP AI projects launch from technology, not from the problem. The result: pilots that don't scale because they don't solve anything urgent for the business."
+            },
+            {
+              "title": "Automation that amplifies the problem",
+              "description": "Automating poorly designed processes doesn't improve them — it makes them faster and harder to maintain. Without prior redesign, automation scales the problem, not the solution."
+            },
+            {
+              "title": "SAP as an untapped data source",
+              "description": "SAP systems accumulate years of business data that aren't used to make better decisions. AI without quality data doesn't work; data without AI doesn't create advantage."
+            }
+          ],
+          "closing": "AI in SAP creates value when it starts from a real problem, has quality data, and integrates into the workflow where people already operate."
+        },
+        "howWeHelp": {
+          "title": "SAP AI and automation that works in production",
+          "description": "We prioritize use cases where AI creates tangible value and implement them with the technical discipline that ensures real adoption.",
+          "items": [
+            {
+              "title": "High-impact use case identification",
+              "description": "We map SAP processes with the highest automation and AI potential based on volume, frequency, and error cost — prioritizing those that create tangible value in 90 days."
+            },
+            {
+              "title": "Process automation on SAP BTP",
+              "description": "Implementation of process automations on SAP Build Process Automation: approvals, workflows, notifications, and repetitive tasks."
+            },
+            {
+              "title": "Embedded AI in SAP",
+              "description": "Configuration and extension of native SAP AI capabilities: predictions, classifications, and anomaly detection in critical modules like FI, MM, and SD."
+            },
+            {
+              "title": "Integration and adoption",
+              "description": "Automation without adoption is a failed project. We support deployment with training and change management to guarantee real usage."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Faster processes, without manual errors", "description": "Automations eliminate repetitive manual tasks and reduce errors that generate rework and lost time." },
+            { "title": "AI-assisted decisions", "description": "AI models embedded in SAP help teams make better decisions with the right information at the right time." },
+            { "title": "Time freed for high-value work", "description": "When AI handles routine work, people can focus on exceptions, analysis, and continuous improvement." },
+            { "title": "Sustainable competitive advantage", "description": "Intelligent automation isn't a one-off project — it's a capability that accumulates and generates differential advantage over time." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement AI and automation in SAP",
+          "description": "Four phases from use case identification to scaled production.",
+          "phases": [
+            { "name": "Identify", "deliverable": "Use case workshop: process map, value estimation, and prioritization" },
+            { "name": "Design", "deliverable": "Automation or AI model design: architecture, data, and workflow" },
+            { "name": "Build", "deliverable": "Implementation on BTP or SAP AI Core with testing and QAS validation" },
+            { "name": "Scale", "deliverable": "Go-live, team adoption, and next use case roadmap" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP AI and automation",
+          "items": [
+            { "title": "Innovate is our leading-edge pillar", "description": "We combine SAP expertise with AI and automation capabilities to deliver use cases that work in production, not in demos." },
+            { "title": "Proprietary platforms as proof", "description": "Intelliguard™ and Operations Intelligence™ incorporate AI capabilities we also apply to client projects." },
+            { "title": "Focus on value, not technology", "description": "We don't do AI projects for the sake of AI projects. The starting point is always the business problem to solve." },
+            { "title": "Governance integrated", "description": "Every automation is designed with the right controls: traceability, auditability, and a defined exception process." },
+            { "title": "SAP BTP expertise", "description": "Deep experience in SAP Business Technology Platform as the foundation for automations and AI integrations." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every AI and automation project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "Ideation session: we map the 3 SAP AI use cases with the highest impact on your operations",
+          "description": "In 60 minutes with our specialists, we analyze your most critical SAP processes and identify where AI and automation would generate the fastest return.",
+          "cta": "Book your AI ideation session"
+        },
+        "finalCta": {
+          "title": "Is your SAP ecosystem already harnessing the potential of AI and automation?",
+          "description": "Book a session with our specialists and let's explore together the use cases that would generate the most value for your organization.",
+          "ctaPrimary": "Explore SAP AI use cases",
+          "ctaSecondary": "Explore the Innovate pillar"
+        }
+      },
+      "sap-btp-automation": {
+        "metaTitle": "SAP BTP Automation | SAP BTP Automations and Extensions | GCT",
+        "metaDescription": "Automations, integrations, and extensions on SAP Business Technology Platform with clean core focus: SAP Build, Integration Suite, and Extension Suite.",
+        "eyebrow": "Pillar 05 · Innovate",
+        "h1": "SAP BTP Automation: automations and extensions on the SAP platform that scale with the business",
+        "heroSubtitle": "We develop automations, integrations, and extensions on SAP Business Technology Platform: from approval workflows to complex multi-system integrations — with the clean core approach that ensures extensions don't compromise the base system's upgradability.",
+        "ctaPrimary": "Assess your BTP use case",
+        "ctaSecondary": "Request a BTP architecture session",
+        "metrics": {
+          "projects": "BTP projects implemented",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "BTP is a powerful platform — but without design, it generates technical debt as fast as it generates value.",
+          "items": [
+            {
+              "title": "Extensions that aren't really extensions",
+              "description": "Many organizations on BTP replicate the same core modification patterns they were migrating away from. The result: the same technical problem in the cloud."
+            },
+            {
+              "title": "Fragile integrations nobody maintains",
+              "description": "Integrations designed without standards become black boxes nobody can maintain when the original developer leaves."
+            },
+            {
+              "title": "BTP as a tool, not a platform",
+              "description": "Using BTP for point automations without a platform architecture produces fragmentation: every project builds its own island with no reuse."
+            }
+          ],
+          "closing": "BTP delivers its maximum potential when used as a designed platform, not as a set of tools without architecture."
+        },
+        "howWeHelp": {
+          "title": "BTP well-designed that scales and stays maintainable",
+          "description": "We design and implement on BTP with the technical discipline that makes automations sustainable.",
+          "items": [
+            {
+              "title": "Process automation on SAP Build",
+              "description": "Implementation of process flows, approvals, and tasks on SAP Build Process Automation with direct integration to SAP modules."
+            },
+            {
+              "title": "Side-by-side extensions on BTP",
+              "description": "Development of extensions on BTP that expand SAP without touching the core: new interfaces, additional logic, and external APIs integrated cleanly."
+            },
+            {
+              "title": "Multi-system integration on BTP",
+              "description": "Design and implementation of integrations on SAP Integration Suite: SAP ↔ third parties, SAP ↔ SAP, and B2B/B2G scenarios."
+            },
+            {
+              "title": "BTP platform architecture",
+              "description": "Design of the BTP tenant architecture: subdomain organization, services, security, landscapes, and development governance."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Extensions that don't compromise upgrades", "description": "Side-by-side extensions on BTP don't touch the SAP core, preserving clean upgradability to new versions." },
+            { "title": "Maintainable integrations", "description": "Design standards and documentation ensure integrations can be maintained by the in-house team or by GCT." },
+            { "title": "Reusable platform", "description": "A well-designed BTP architecture accumulates reusable assets: APIs, connectors, and process templates that accelerate future projects." },
+            { "title": "Accelerated time-to-market", "description": "BTP, well-used, reduces new feature development time from months to weeks." }
+          ]
+        },
+        "methodology": {
+          "title": "How we build on SAP BTP",
+          "description": "Four phases from architecture to platform operations.",
+          "phases": [
+            { "name": "Design", "deliverable": "BTP architecture: tenant, services, landscapes, security, and governance" },
+            { "name": "Build", "deliverable": "Automation or extension development and implementation with QAS testing" },
+            { "name": "Integrate", "deliverable": "Connection with SAP modules and external systems with data validation" },
+            { "name": "Operate", "deliverable": "Go-live, monitoring, and BTP platform evolution" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP BTP Automation",
+          "items": [
+            { "title": "BTP expertise with clean core focus", "description": "We develop on BTP with clean core discipline: every extension preserves the base system's upgradability." },
+            { "title": "Transform and Innovate integrated", "description": "The same team that designs the migration architecture designs the BTP architecture, ensuring coherence." },
+            { "title": "Proprietary platforms on BTP", "description": "Intelliguard™ and Operations Intelligence™ are concrete examples of what we build on BTP." },
+            { "title": "BTP governance", "description": "We design with the right controls: change traceability, auditability, and a defined release process." },
+            { "title": "SAP BTP expertise", "description": "Deep experience in SAP Build, Integration Suite, Extension Suite, and SAP AI Core." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every BTP project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free session",
+          "title": "BTP architecture session: we assess your use case and design the right approach",
+          "description": "In 45 minutes with our BTP specialists, we analyze your specific use case and propose the implementation architecture with an effort estimate.",
+          "cta": "Book your BTP architecture session"
+        },
+        "finalCta": {
+          "title": "Is your organization leveraging SAP BTP to extend and automate without technical debt?",
+          "description": "Book a session with our specialists and let's design the right BTP architecture for your use case.",
+          "ctaPrimary": "Assess your BTP use case",
+          "ctaSecondary": "Explore the Innovate pillar"
+        }
+      },
+      "intelliguard-platform": {
+        "metaTitle": "Intelliguard™ | Intelligent SAP Monitoring Platform | GCT",
+        "metaDescription": "Intelliguard™ is GCT's proprietary platform for intelligent SAP monitoring: anomaly detection, proactive alerts, and unified real-time visibility of the entire ecosystem.",
+        "eyebrow": "Pillar 05 · Innovate",
+        "h1": "Intelliguard™: the intelligent monitoring platform that anticipates risks before they materialize",
+        "heroSubtitle": "Intelliguard™ is GCT's proprietary platform for intelligent monitoring of SAP ecosystems: anomaly detection across security and operations, proactive alerts before impact, and unified real-time visibility of system state.",
+        "ctaPrimary": "Explore Intelliguard™ in detail",
+        "ctaSecondary": "Request an Intelliguard™ demo",
+        "metrics": {
+          "projects": "environments monitored",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "SAP in production deteriorates silently — problems accumulate until they can no longer be ignored.",
+          "items": [
+            {
+              "title": "Reactive monitoring: always too late",
+              "description": "SAP teams learn about problems when users report errors. By then, the operational impact has already happened and resolution time is measured in hours."
+            },
+            {
+              "title": "Security anomalies nobody sees",
+              "description": "Unusual access, out-of-profile transactions, and unauthorized configuration changes happen without detection until there's a formal incident."
+            },
+            {
+              "title": "Fragmented monitoring tools",
+              "description": "Multiple tools monitoring different layers without integration generate alert fatigue and blind spots: too many alarms about the trivial, silence about what matters."
+            }
+          ],
+          "closing": "Intelliguard™ unifies operations and security monitoring in a single platform with the intelligence to distinguish signals from noise."
+        },
+        "howWeHelp": {
+          "title": "Intelligent monitoring that acts before impact",
+          "description": "Intelliguard™ combines continuous monitoring, anomaly detection, and proactive alerts in a platform designed specifically for SAP ecosystems.",
+          "items": [
+            {
+              "title": "Unified operations monitoring",
+              "description": "Real-time visibility of availability, performance, jobs, interfaces, and technical state of all SAP systems in the landscape."
+            },
+            {
+              "title": "Security anomaly detection",
+              "description": "Identification of unusual access, out-of-profile transactions, and unauthorized configuration changes before they generate an incident."
+            },
+            {
+              "title": "Proactive and intelligent alerts",
+              "description": "Alert system based on thresholds and patterns that notifies what matters, filters the noise, and proposes remediation actions."
+            },
+            {
+              "title": "Executive and operational dashboards",
+              "description": "Real-time SAP ecosystem status visibility for technical teams and leadership, with different levels of detail per role."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Problems detected before impact", "description": "Intelliguard™'s proactive alerts give time to act before a user reports an error." },
+            { "title": "Security incidents anticipated", "description": "Access and configuration anomalies are detected in real time, closing the exposure window." },
+            { "title": "Less alert fatigue", "description": "The system's intelligence distinguishes real signals from noise, reducing false alarms that paralyze the team." },
+            { "title": "Unified landscape visibility", "description": "A single platform showing the state of all SAP systems, without jumping between tools." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement Intelliguard™ in your environment",
+          "description": "Four phases from landscape connection to full monitoring operations.",
+          "phases": [
+            { "name": "Connect", "deliverable": "Intelliguard™ connection to the SAP landscape and monitoring agent configuration" },
+            { "name": "Calibrate", "deliverable": "Alert thresholds, rules, and dashboard definition based on environment criticality" },
+            { "name": "Validate", "deliverable": "Alert system testing, fine-tuning, and operational team training" },
+            { "name": "Operate", "deliverable": "Continuous monitoring with periodic coverage review and rule evolution" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why Intelliguard™ is different",
+          "items": [
+            { "title": "Designed for SAP, not adapted", "description": "Intelliguard™ was built to monitor SAP production ecosystems — it's not a generic tool applied to SAP." },
+            { "title": "Operations and security in one platform", "description": "Operational monitoring and security anomaly detection coexist on the same platform, eliminating silos." },
+            { "title": "Intelligence that learns from the environment", "description": "The system calibrates its thresholds to the actual behavior of the environment, reducing false alarms without losing sensitivity." },
+            { "title": "Built by those who operate SAP", "description": "GCT has operated critical SAP environments for decades. Intelliguard™ is the product of that operational knowledge." },
+            { "title": "Integration with AMS and Operate", "description": "Intelliguard™ integrates with the AMS support process so an alert automatically generates the right ticket." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every Intelliguard™ implementation." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free demo",
+          "title": "Intelliguard™ demo: this is how we see your SAP state in real time",
+          "description": "We show you in 30 minutes how Intelliguard™ monitors a mission-critical SAP environment: what it detects, what it alerts, and how it responds before impact.",
+          "cta": "Request your Intelliguard™ demo"
+        },
+        "finalCta": {
+          "title": "Does your SAP ecosystem have the intelligent monitoring it needs to operate without surprises?",
+          "description": "Book a demo with our specialists and see how Intelliguard™ transforms the operational visibility of your SAP landscape.",
+          "ctaPrimary": "Explore Intelliguard™ in detail",
+          "ctaSecondary": "Explore the Innovate pillar"
+        }
+      },
+      "operations-intelligence-platform": {
+        "metaTitle": "Operations Intelligence™ | SAP Operational Visibility Platform | GCT",
+        "metaDescription": "Operations Intelligence™ turns SAP operational data into executive visibility and decisions: real-time dashboards, business KPIs, and trend analysis.",
+        "eyebrow": "Pillar 05 · Innovate",
+        "h1": "Operations Intelligence™: the operational visibility hub that turns SAP data into decisions",
+        "heroSubtitle": "Operations Intelligence™ is GCT's proprietary platform for operational visibility of SAP ecosystems: real-time business and operational KPIs, trend analysis, and dashboards that connect system state with strategic objectives.",
+        "ctaPrimary": "Explore Operations Intelligence™ in detail",
+        "ctaSecondary": "Request an Operations Intelligence™ demo",
+        "metrics": {
+          "projects": "environments with operational visibility",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "SAP data exists — the problem is nobody turns it into actionable intelligence.",
+          "items": [
+            {
+              "title": "Data without business context",
+              "description": "SAP generates enormous volumes of operational data that technical teams can't transform into business visibility without an appropriate analysis and presentation layer."
+            },
+            {
+              "title": "Static reports that arrive late",
+              "description": "Traditional SAP operational reports are snapshots of the past: by the time they reach whoever needs them, the situation has changed and the decision arrives too late."
+            },
+            {
+              "title": "Leadership disconnected from operations",
+              "description": "Without real-time executive dashboards, senior leadership makes SAP investment decisions with information weeks old — when they have it at all."
+            }
+          ],
+          "closing": "Operations Intelligence™ closes the gap between the data SAP generates and the intelligence the business needs to operate with advantage."
+        },
+        "howWeHelp": {
+          "title": "Operational visibility that connects SAP with business objectives",
+          "description": "Operations Intelligence™ transforms SAP operational data into KPIs, trends, and dashboards that enable real-time decisions.",
+          "items": [
+            {
+              "title": "Real-time business and operational KPIs",
+              "description": "Definition and implementation of the key indicators that reflect real SAP ecosystem performance: availability, process throughput, cycle times, and operational cost."
+            },
+            {
+              "title": "Executive and operational dashboards",
+              "description": "Real-time visualizations for different roles: operational dashboards for the technical team and executive dashboards for senior leadership."
+            },
+            {
+              "title": "Trend and anomaly analysis",
+              "description": "Identification of deterioration trends and anomalies in operational data before they become incidents."
+            },
+            {
+              "title": "Integration with support processes",
+              "description": "Operations Intelligence™ integrates with the AMS process so operational visibility directly feeds support prioritization."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Real-time decisions", "description": "Real-time dashboards allow decision-makers to act on information while it's still useful for making decisions." },
+            { "title": "SAP connected to the business", "description": "Business KPIs establish the visible connection between system state and the performance of critical processes." },
+            { "title": "Trends detected before they escalate", "description": "Trend analysis identifies gradual deterioration before it manifests as an incident." },
+            { "title": "Executive reporting without manual work", "description": "Dashboards update automatically, eliminating the manual preparation work for status reports." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement Operations Intelligence™ in your environment",
+          "description": "Four phases from landscape connection to production dashboards.",
+          "phases": [
+            { "name": "Connect", "deliverable": "Connection to SAP data sources and operational data model definition" },
+            { "name": "Design", "deliverable": "KPI and metric definition and dashboard design by role" },
+            { "name": "Build", "deliverable": "Dashboard implementation, trend alerts, and update process" },
+            { "name": "Operate", "deliverable": "Production dashboards with periodic KPI review and platform evolution" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why Operations Intelligence™ is different",
+          "items": [
+            { "title": "Designed for SAP, not adapted", "description": "Operations Intelligence™ was built on the SAP operational knowledge GCT has accumulated over decades of running critical environments." },
+            { "title": "Business KPIs, not just technical metrics", "description": "The platform translates system state into indicators leadership understands and can use to make decisions." },
+            { "title": "Real time, not snapshots", "description": "Dashboards update continuously, not as periodic reports that arrive when they've already lost relevance." },
+            { "title": "Integration with Intelliguard™", "description": "Operations Intelligence™ and Intelliguard™ work together: proactive monitoring and operational intelligence in a unified view." },
+            { "title": "Integrated with AMS support", "description": "Operational visibility feeds support prioritization: low KPIs automatically generate improvement actions." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every Operations Intelligence™ implementation." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free demo",
+          "title": "Operations Intelligence™ demo: this is how we turn your SAP data into executive visibility",
+          "description": "We show you in 30 minutes how Operations Intelligence™ presents the operational state of a SAP environment in real time for technical teams and leadership.",
+          "cta": "Request your Operations Intelligence™ demo"
+        },
+        "finalCta": {
+          "title": "Does your organization have the operational visibility it needs over its SAP investment?",
+          "description": "Book a demo with our specialists and see how Operations Intelligence™ connects SAP state with your business objectives.",
+          "ctaPrimary": "Explore Operations Intelligence™ in detail",
+          "ctaSecondary": "Explore the Innovate pillar"
+        }
+      },
+      "predictive-monitoring": {
+        "metaTitle": "Predictive Monitoring SAP | SAP Predictive Monitoring | GCT",
+        "metaDescription": "Predictive monitoring for SAP: early degradation detection, failure prediction models, and alerts before problems impact production.",
+        "eyebrow": "Pillar 05 · Innovate",
+        "h1": "Predictive Monitoring: from reacting to incidents to preventing them before they impact operations",
+        "heroSubtitle": "We implement predictive monitoring capabilities in your SAP ecosystem: models that learn your environment's normal behavior and detect early degradation before it becomes an incident — so the team acts before the user notices anything.",
+        "ctaPrimary": "Assess your current predictive capability",
+        "ctaSecondary": "Request a predictive monitoring demo",
+        "metrics": {
+          "projects": "environments with predictive monitoring",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first"
+        },
+        "problem": {
+          "title": "Reactive monitoring always arrives too late — and arriving late in mission-critical SAP is expensive.",
+          "items": [
+            {
+              "title": "Fixed thresholds don't detect gradual degradation",
+              "description": "Alerts based on static thresholds don't capture the gradual performance deterioration that precedes incidents. The system looks green until, suddenly, it fails."
+            },
+            {
+              "title": "The team operates in firefighter mode",
+              "description": "Without prediction, the operations team spends most of their time responding to incidents instead of preventing them. Free time goes to reactive tasks, not improvement."
+            },
+            {
+              "title": "Recurring incidents that are never anticipated",
+              "description": "Problems that repeat every month, every Monday, or every period close are predictable — but without historical pattern analysis, the team always faces them as if they're new."
+            }
+          ],
+          "closing": "Predictive monitoring doesn't eliminate all incidents — but it anticipates the avoidable ones and dramatically reduces the impact of those that aren't."
+        },
+        "howWeHelp": {
+          "title": "Failure prediction before it impacts operations",
+          "description": "We implement the predictive layer on your SAP monitoring to turn historical data and early signals into actionable alerts.",
+          "items": [
+            {
+              "title": "Baseline behavior modeling",
+              "description": "Analysis of the SAP environment's historical behavior to define the normality baseline by system, process, and time period."
+            },
+            {
+              "title": "Early degradation detection",
+              "description": "Identification of degradation signals — increasing latency, trending memory usage, error frequency — before they exceed the impact threshold."
+            },
+            {
+              "title": "Recurring incident prediction",
+              "description": "Analysis of historical incident patterns to predict when and under what conditions they're likely to recur."
+            },
+            {
+              "title": "Actionable predictive alerts",
+              "description": "Alerts with context: not just warning that something is degrading, but what's happening, what the potential impact is, and what the recommended action is."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "What your organization gains",
+          "items": [
+            { "title": "Avoidable incidents that don't happen", "description": "Early degradation detection allows action before the problem materializes as an incident impacting users." },
+            { "title": "Operations team that prevents instead of firefights", "description": "With prediction, the team can plan preventive actions in maintenance windows instead of working in crisis mode." },
+            { "title": "Reduced MTTR when incidents do occur", "description": "Pre-incident degradation information dramatically accelerates root cause diagnosis." },
+            { "title": "Critical periods protected", "description": "Month-end closes, inventory periods, and demand peaks can be prepared in advance based on historical data." }
+          ]
+        },
+        "methodology": {
+          "title": "How we implement SAP predictive monitoring",
+          "description": "Four phases from historical analysis to predictive alerts in production.",
+          "phases": [
+            { "name": "Analyze", "deliverable": "Historical environment analysis: incident patterns, performance trends, and critical periods" },
+            { "name": "Model", "deliverable": "Normality baseline definition and early degradation detection rules" },
+            { "name": "Calibrate", "deliverable": "Predictive alert implementation, sensitivity testing, and false positive tuning" },
+            { "name": "Operate", "deliverable": "Predictive monitoring in production with continuous model refinement" }
+          ]
+        },
+        "whyGct": {
+          "title": "Why choose GCT for SAP predictive monitoring",
+          "items": [
+            { "title": "Decades operating mission-critical SAP", "description": "Knowing which signals precede incidents in SAP isn't learned in courses — it's accumulated by operating real environments over years." },
+            { "title": "Intelliguard™ as the foundation", "description": "Predictive monitoring is built on Intelliguard™, our intelligent monitoring platform designed for SAP." },
+            { "title": "Model calibrated for your environment", "description": "We don't use generic thresholds: the normality baseline is built on the actual data from your specific environment." },
+            { "title": "Integration with Root Cause Analysis", "description": "Predictive signals connect with the root cause analysis practice to close the loop: prediction + definitive resolution." },
+            { "title": "Alerts that inform, not overwhelm", "description": "The system is calibrated to notify what matters, not to generate alert fatigue that paralyzes the team." },
+            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every predictive monitoring project." }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free demo",
+          "title": "Predictive monitoring demo: this is how we anticipate an incident before it happens",
+          "description": "We show you in 30 minutes how our system detects early degradation in a real SAP environment and generates the predictive alert with enough time to act.",
+          "cta": "Request your predictive monitoring demo"
+        },
+        "finalCta": {
+          "title": "Does your SAP team react to incidents or anticipate them?",
+          "description": "Book a session with our specialists and let's assess how to implement the predictive layer in your SAP environment.",
+          "ctaPrimary": "Assess your current predictive capability",
+          "ctaSecondary": "Explore the Innovate pillar"
+        }
+      }
+    }
+  },
+  "platformsPage": {
+    "breadcrumb": "Platforms",
+    "statusBadge": "In development · Innovation initiative",
+    "aboutEyebrow": "The vision",
+    "aboutTitle": "What is {product}",
+    "capabilitiesEyebrow": "Capabilities",
+    "capabilitiesTitle": "What {product} will solve",
+    "ctaEyebrow": "Get early access",
+    "ctaTitle": "Interested in {product}?",
+    "ctaDescription": "We're building {product} alongside clients running SAP in critical environments. Let's talk about your context and how you can join the roadmap.",
+    "primaryCta": "Talk to us",
+    "secondaryCta": "Explore our services",
+    "otherTitle": "Other platforms",
+    "seoDescriptionSuffix": "An SAP innovation platform by Global Core Technologies, in development."
   },
   "solutionsPage": {
     "whatIs": "What is it?",

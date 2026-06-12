@@ -1,7 +1,8 @@
 export interface NavigationChild {
   key: string
   to: string
-  index: string
+  labelKey: string
+  index?: string
 }
 
 export interface NavigationLink {
@@ -58,6 +59,30 @@ export interface PillarServiceItem {
   icon?: string
 }
 
+export interface L3ServiceMetric {
+  id: string
+  numericValue: number
+  prefix?: string
+  suffix?: string
+}
+
+export interface PillarL3Service {
+  /** Pillar slug this service belongs to, e.g. 'transform' */
+  pillar: string
+  /** Existing pillarDetail.items.<pillar>.<key> key, e.g. 's4hana' */
+  key: string
+  /** URL slug used at /pilares/<pillar>/<slug> */
+  slug: string
+  icon: string
+  /** Hero background image (defaults to the pillar image) */
+  image: string
+  bgPosition?: string
+  /** Hero proof metrics rendered with AnimatedCounter */
+  metrics: L3ServiceMetric[]
+  /** Optional innovation platform cross-link, e.g. '/plataformas/intelliguard' */
+  platformLink?: string
+}
+
 export interface FeaturedExpertiseItem {
   id: string
   pillarTag: string
@@ -67,6 +92,7 @@ export interface FeaturedExpertiseItem {
 
 export interface PlatformItem {
   id: string
+  slug: string
   accent: 'orange' | 'cyan'
   iconPaths: string[]
 }

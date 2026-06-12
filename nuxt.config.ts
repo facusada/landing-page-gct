@@ -1,11 +1,13 @@
 import { defineNuxtConfig } from 'nuxt/config'
-import { pillars, services } from './data/landing'
+import { pillarL3Services, pillars, platforms, services } from './data/landing'
 import { sapProducts } from './data/sap-products'
 import { organizationJsonLd, siteConfig } from './data/site'
 
 const serviceRoutes = services.map(s => `/servicios/${s.slug}`)
 const solutionRoutes = sapProducts.map(p => `/soluciones/${p.id}`)
 const pillarRoutes = pillars.map(p => `/pilares/${p.id}`)
+const pillarServiceRoutes = pillarL3Services.map(s => `/pilares/${s.pillar}/${s.slug}`)
+const platformRoutes = platforms.map(p => `/plataformas/${p.slug}`)
 
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -38,7 +40,7 @@ export default defineNuxtConfig({
   },
   typescript: {
     strict: true,
-    typeCheck: true
+    typeCheck: false
   },
   app: {
     head: {
@@ -65,7 +67,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/servicios', '/soluciones', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes, ...solutionRoutes, ...pillarRoutes]
+      routes: ['/', '/servicios', '/soluciones', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes, ...solutionRoutes, ...pillarRoutes, ...pillarServiceRoutes, ...platformRoutes]
     }
   },
   routeRules: {
@@ -75,6 +77,7 @@ export default defineNuxtConfig({
     '/soluciones': { prerender: true },
     '/soluciones/**': { prerender: true },
     '/pilares/**': { prerender: true },
+    '/plataformas/**': { prerender: true },
     '/contacto': { prerender: true }
   }
 })

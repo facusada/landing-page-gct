@@ -51,7 +51,6 @@ const localizedTo = useLocalizedTo()
           <NuxtLink :to="localizedTo('/#nosotros')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.about') }}</NuxtLink>
           <NuxtLink :to="localizedTo('/servicios')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.services') }}</NuxtLink>
           <NuxtLink :to="localizedTo('/soluciones')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.solutions') }}</NuxtLink>
-          <NuxtLink :to="localizedTo('/#plataformas')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.platforms') }}</NuxtLink>
           <NuxtLink :to="localizedTo('/#clientes')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.clients') }}</NuxtLink>
           <NuxtLink :to="localizedTo('/contacto')" class="text-sm text-white/50 transition hover:text-white">{{ t('footer.links.contact') }}</NuxtLink>
         </nav>

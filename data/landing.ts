@@ -1,4 +1,4 @@
-import type { ClientLogo, DifferentiatorItem, FeaturedExpertiseItem, HeroMetric, IndustryItem, PillarItem, PlatformItem, ServiceItem, ServiceModule, TechnologyPillar, TrustCardItem } from '~/types/landing'
+import type { ClientLogo, DifferentiatorItem, FeaturedExpertiseItem, HeroMetric, IndustryItem, PillarItem, PillarL3Service, PlatformItem, ServiceItem, ServiceModule, TechnologyPillar, TrustCardItem } from '~/types/landing'
 
 export const differentiators: DifferentiatorItem[] = [
   { id: 'years', numericValue: 20, prefix: '+' },
@@ -65,6 +65,324 @@ export const pillarServiceKeys: Record<string, string[]> = {
   innovate: ['aiAutomation', 'btpAutomation', 'intelliguard', 'opsIntelligencePlatform', 'predictiveMonitoring']
 }
 
+/**
+ * Level 3 of the SEO architecture: dedicated landing pages for individual
+ * services within a pillar, served at /pilares/<pillar>/<slug>.
+ * Rich copy lives in i18n under `serviceDetail.items.<slug>`.
+ */
+const transformMetrics: PillarL3Service['metrics'] = [
+  { id: 'projects', numericValue: 150, prefix: '+' },
+  { id: 'years', numericValue: 20, prefix: '+' },
+  { id: 'governance', numericValue: 100, suffix: '%' }
+]
+
+const secureMetrics: PillarL3Service['metrics'] = [
+  { id: 'projects', numericValue: 150, prefix: '+' },
+  { id: 'years', numericValue: 20, prefix: '+' },
+  { id: 'governance', numericValue: 100, suffix: '%' }
+]
+
+export const pillarL3Services: PillarL3Service[] = [
+  {
+    pillar: 'transform',
+    key: 's4hana',
+    slug: 'sap-s4hana-transformation',
+    icon: 'migration',
+    image: '/pillars/01_transform.png',
+    metrics: transformMetrics,
+    platformLink: '/plataformas/intelliguard'
+  },
+  {
+    pillar: 'transform',
+    key: 'riseWithSap',
+    slug: 'rise-with-sap',
+    icon: 'migration',
+    image: '/pillars/01_transform.png',
+    metrics: transformMetrics,
+    platformLink: '/plataformas/operations-intelligence'
+  },
+  {
+    pillar: 'transform',
+    key: 'readinessAssessment',
+    slug: 's4hana-readiness-assessment',
+    icon: 'performance',
+    image: '/pillars/01_transform.png',
+    metrics: transformMetrics
+  },
+  {
+    pillar: 'transform',
+    key: 'migrationGovernance',
+    slug: 'sap-migration-governance',
+    icon: 'solman',
+    image: '/pillars/01_transform.png',
+    metrics: transformMetrics
+  },
+  {
+    pillar: 'transform',
+    key: 'cleanCoreStrategy',
+    slug: 'clean-core-strategy',
+    icon: 'implementation',
+    image: '/pillars/01_transform.png',
+    metrics: transformMetrics,
+    platformLink: '/plataformas/intelliguard'
+  },
+  // Secure pillar
+  {
+    pillar: 'secure',
+    key: 'sapSecurity',
+    slug: 'sap-security',
+    icon: 'security',
+    image: '/pillars/02_secure.png',
+    metrics: secureMetrics,
+    platformLink: '/plataformas/intelliguard'
+  },
+  {
+    pillar: 'secure',
+    key: 'rbac',
+    slug: 'sap-rbac',
+    icon: 'security',
+    image: '/pillars/02_secure.png',
+    metrics: secureMetrics
+  },
+  {
+    pillar: 'secure',
+    key: 'sod',
+    slug: 'sap-segregation-of-duties',
+    icon: 'security',
+    image: '/pillars/02_secure.png',
+    metrics: secureMetrics
+  },
+  {
+    pillar: 'secure',
+    key: 'sapGrc',
+    slug: 'sap-grc',
+    icon: 'implementation',
+    image: '/pillars/02_secure.png',
+    metrics: secureMetrics,
+    platformLink: '/plataformas/intelliguard'
+  },
+  {
+    pillar: 'secure',
+    key: 'complianceMonitoring',
+    slug: 'sap-compliance-monitoring',
+    icon: 'performance',
+    image: '/pillars/02_secure.png',
+    metrics: secureMetrics
+  },
+  {
+    pillar: 'secure',
+    key: 'securityManagedServices',
+    slug: 'sap-security-managed-services',
+    icon: 'managed',
+    image: '/pillars/02_secure.png',
+    metrics: secureMetrics,
+    platformLink: '/plataformas/intelliguard'
+  },
+  // Govern pillar
+  {
+    pillar: 'govern',
+    key: 'governanceAdvisory',
+    slug: 'sap-governance-advisory',
+    icon: 'implementation',
+    image: '/pillars/03_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'govern',
+    key: 'migrationGovernance',
+    slug: 'sap-program-governance',
+    icon: 'managed',
+    image: '/pillars/03_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'govern',
+    key: 'compliance',
+    slug: 'sap-compliance',
+    icon: 'security',
+    image: '/pillars/03_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'govern',
+    key: 'executiveControls',
+    slug: 'sap-executive-controls',
+    icon: 'performance',
+    image: '/pillars/03_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'govern',
+    key: 'cleanCoreGovernance',
+    slug: 'sap-clean-core-governance',
+    icon: 'implementation',
+    image: '/pillars/03_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  // Operate pillar
+  {
+    pillar: 'operate',
+    key: 'sapAms',
+    slug: 'sap-ams',
+    icon: 'support',
+    image: '/pillars/04_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'operate',
+    key: 'sapBasis',
+    slug: 'sap-basis',
+    icon: 'managed',
+    image: '/pillars/04_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'operate',
+    key: 'cloudAlm',
+    slug: 'sap-cloud-alm',
+    icon: 'performance',
+    image: '/pillars/04_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'operate',
+    key: 'monitoringAutomation',
+    slug: 'sap-monitoring-automation',
+    icon: 'performance',
+    image: '/pillars/04_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'operate',
+    key: 'rootCauseAnalysis',
+    slug: 'sap-root-cause-analysis',
+    icon: 'solman',
+    image: '/pillars/04_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'operate',
+    key: 'technicalGovernance',
+    slug: 'sap-technical-governance',
+    icon: 'implementation',
+    image: '/pillars/04_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  // Innovate pillar
+  {
+    pillar: 'innovate',
+    key: 'aiAutomation',
+    slug: 'sap-ai-automation',
+    icon: 'innovation',
+    image: '/pillars/05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'innovate',
+    key: 'btpAutomation',
+    slug: 'sap-btp-automation',
+    icon: 'implementation',
+    image: '/pillars/05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'innovate',
+    key: 'intelliguard',
+    slug: 'intelliguard-platform',
+    icon: 'security',
+    image: '/pillars/05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ],
+    platformLink: '/plataformas/intelliguard'
+  },
+  {
+    pillar: 'innovate',
+    key: 'opsIntelligencePlatform',
+    slug: 'operations-intelligence-platform',
+    icon: 'performance',
+    image: '/pillars/05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ],
+    platformLink: '/plataformas/operations-intelligence'
+  },
+  {
+    pillar: 'innovate',
+    key: 'predictiveMonitoring',
+    slug: 'predictive-monitoring',
+    icon: 'managed',
+    image: '/pillars/05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  }
+]
+
+export const findL3Service = (pillar: string, slug: string): PillarL3Service | undefined =>
+  pillarL3Services.find(s => s.pillar === pillar && s.slug === slug)
+
+export const findL3ServiceByKey = (pillar: string, key: string): PillarL3Service | undefined =>
+  pillarL3Services.find(s => s.pillar === pillar && s.key === key)
+
 export const featuredExpertise: FeaturedExpertiseItem[] = [
   { id: 'transformation', pillarTag: '01', to: '/pilares/transform' },
   { id: 'security', pillarTag: '02', to: '/pilares/secure', flip: true },
@@ -76,11 +394,13 @@ export const featuredExpertise: FeaturedExpertiseItem[] = [
 export const platforms: PlatformItem[] = [
   {
     id: 'intelliguard',
+    slug: 'intelliguard',
     accent: 'orange',
     iconPaths: ['M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z', 'M9 12l2 2 4-4']
   },
   {
     id: 'opsIntelligence',
+    slug: 'operations-intelligence',
     accent: 'cyan',
     iconPaths: ['M6 6h12v12H6z', 'M9 1.5v3M15 1.5v3M9 19.5v3M15 19.5v3M1.5 9h3M1.5 15h3M19.5 9h3M19.5 15h3']
   }
@@ -122,9 +442,9 @@ export const technologyPillars: TechnologyPillar[] = [
 ]
 
 export const clientLogos: ClientLogo[] = [
-  { name: 'Tecnoperfiles Sustentable', src: '/clients/tecnoperfiles.png', width: 458, height: 110 },
-  { name: 'Tenaris' },
-  { name: 'Haleon' },
+  { name: 'Tecnoperfiles Sustentable', src: '/clients/tecnoperfiles.jpg', width: 458, height: 110 },
+  { name: 'Tenaris', src: '/clients/tenaris.png', width: 600, height: 600 },
+  { name: 'Haleon', src: '/clients/haleon.jpg', width: 736, height: 736 },
   { name: 'Mercado Libre', src: '/clients/mercado-libre.png', width: 3500, height: 860 },
   { name: 'Pan American Energy', src: '/clients/pan-american-energy.png', width: 324, height: 130 },
   { name: 'COFCO', src: '/clients/cofco.png', width: 280, height: 92 },

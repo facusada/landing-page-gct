@@ -29,8 +29,9 @@ const iconPaths: Record<string, string> = {
         <article
           v-for="(industry, index) in industries"
           :key="industry.id"
+          v-tilt
           v-reveal="{ delay: Math.min(index * 110, 420), distance: 38, duration: 820 }"
-          class="group rounded-xl border border-core-line p-6 transition duration-200 hover:border-core-orange/40 hover:shadow-lift"
+          class="group rounded-xl border border-core-line bg-white p-6 transition duration-200 hover:border-core-orange/40 hover:shadow-lift"
         >
           <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-md bg-core-mist text-core-navy transition-colors group-hover:bg-core-orange/10 group-hover:text-core-orange">
             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

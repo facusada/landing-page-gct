@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BaseButton from '~/components/ui/BaseButton.vue'
-import { pillars, pillarServiceKeys } from '~/data/landing'
+import { findL3ServiceByKey, pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
@@ -18,7 +18,10 @@ onMounted(() => {
   window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
 })
 
-const serviceKeys = pillarServiceKeys[slug] ?? []
+const serviceKeys = (pillarServiceKeys[slug] ?? []).map((key) => {
+  const landing = findL3ServiceByKey(slug, key)
+  return { key, to: landing ? `/pilares/${slug}/${landing.slug}` : undefined }
+})
 const title = computed(() => t(`pillars.items.${slug}.title`))
 const description = computed(() => t(`pillars.items.${slug}.description`))
 
@@ -78,22 +81,42 @@ const otherPillars = pillars.filter(p => p.id !== slug)
         </div>
 
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          <div
-            v-for="(key, index) in serviceKeys"
-            :key="key"
-            v-reveal="{ delay: Math.min(index * 90, 360), distance: 30, duration: 760 }"
-            class="rounded-xl border border-core-line bg-core-mist p-6 transition duration-200 hover:-translate-y-0.5 hover:border-core-orange/40 hover:shadow-lift"
-          >
-            <div class="mb-1 flex items-center gap-2">
-              <span class="shrink-0 font-display text-xs font-extrabold text-core-orange/60">{{ String(index + 1).padStart(2, '0') }}</span>
+          <template v-for="(item, index) in serviceKeys" :key="item.key">
+            <NuxtLink
+              v-if="item.to"
+              :to="localizedTo(item.to)"
+              v-reveal="{ delay: Math.min(index * 90, 360), distance: 30, duration: 760 }"
+              class="group flex h-full flex-col rounded-xl border border-core-line bg-core-mist p-6 transition duration-200 hover:-translate-y-0.5 hover:border-core-orange/40 hover:shadow-lift"
+            >
+              <div class="mb-1 flex items-center gap-2">
+                <span class="shrink-0 font-display text-xs font-extrabold text-core-orange/60">{{ String(index + 1).padStart(2, '0') }}</span>
+              </div>
+              <h3 class="font-display text-lg font-extrabold leading-snug text-core-ink">
+                {{ t(`pillarDetail.items.${slug}.${item.key}.title`) }}
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-slate-600">
+                {{ t(`pillarDetail.items.${slug}.${item.key}.description`) }}
+              </p>
+              <p class="mt-auto pt-4 text-xs font-bold text-core-orange transition-transform duration-200 group-hover:translate-x-1">
+                {{ t('pillarDetail.relatedServiceCta') }} →
+              </p>
+            </NuxtLink>
+            <div
+              v-else
+              v-reveal="{ delay: Math.min(index * 90, 360), distance: 30, duration: 760 }"
+              class="rounded-xl border border-core-line bg-core-mist p-6"
+            >
+              <div class="mb-1 flex items-center gap-2">
+                <span class="shrink-0 font-display text-xs font-extrabold text-core-orange/60">{{ String(index + 1).padStart(2, '0') }}</span>
+              </div>
+              <h3 class="font-display text-lg font-extrabold leading-snug text-core-ink">
+                {{ t(`pillarDetail.items.${slug}.${item.key}.title`) }}
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-slate-600">
+                {{ t(`pillarDetail.items.${slug}.${item.key}.description`) }}
+              </p>
             </div>
-            <h3 class="font-display text-lg font-extrabold leading-snug text-core-ink">
-              {{ t(`pillarDetail.items.${slug}.${key}.title`) }}
-            </h3>
-            <p class="mt-3 text-sm leading-6 text-slate-600">
-              {{ t(`pillarDetail.items.${slug}.${key}.description`) }}
-            </p>
-          </div>
+          </template>
         </div>
 
         <div v-reveal="{ delay: 200 }" class="mt-12">

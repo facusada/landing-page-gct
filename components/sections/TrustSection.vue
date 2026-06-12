@@ -24,6 +24,7 @@ const certs = computed(() =>
         <article
           v-for="(card, index) in trustCards"
           :key="card.id"
+          v-tilt
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 36, duration: 820 }"
           class="rounded-xl border border-core-line bg-white p-6 shadow-[0_2px_12px_rgba(7,17,31,0.05)] transition duration-200 hover:-translate-y-1 hover:border-core-orange/30 hover:shadow-lift"
         >

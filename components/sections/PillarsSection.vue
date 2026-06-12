@@ -23,6 +23,7 @@ const localizedTo = useLocalizedTo()
           v-for="(pillar, index) in pillars"
           :key="pillar.id"
           :to="localizedTo(pillar.to)"
+          v-tilt
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 38, duration: 820 }"
           :style="{ backgroundImage: `url('${pillar.image}')`, backgroundPosition: pillar.bgPosition ?? 'center' }"
           class="group relative h-[300px] overflow-hidden rounded-xl bg-cover bg-center transition duration-200 hover:-translate-y-1 hover:shadow-lift"

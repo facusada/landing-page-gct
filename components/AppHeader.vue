@@ -54,7 +54,7 @@ const availableLocales = computed(() =>
               </svg>
             </button>
             <div v-show="openDropdown === item.key" class="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3">
-              <div class="min-w-[240px] rounded-xl border border-core-line bg-white p-2 shadow-premium">
+              <div class="min-w-[260px] rounded-xl border border-core-line bg-white p-2 shadow-premium">
                 <NuxtLink
                   v-for="child in item.children"
                   :key="child.to"
@@ -62,8 +62,8 @@ const availableLocales = computed(() =>
                   class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-bold text-core-ink/80 transition hover:bg-core-mist hover:text-core-orange"
                   @click="openDropdown = null"
                 >
-                  <span class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
-                  {{ t(`pillars.items.${child.key}.title`) }}
+                  <span v-if="child.index" class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
+                  {{ t(child.labelKey) }}
                 </NuxtLink>
               </div>
             </div>
@@ -114,11 +114,12 @@ const availableLocales = computed(() =>
             <NuxtLink
               v-for="child in item.children"
               :key="child.to"
-              :to="child.to"
+              :to="localizedTo(child.to)"
               class="flex items-center gap-3 rounded-md py-2.5 pl-6 pr-3 text-sm font-bold uppercase tracking-wide text-core-ink/82 hover:bg-core-mist"
+              @click="isOpen = false"
             >
-              <span class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
-              {{ t(`pillars.items.${child.key}.title`) }}
+              <span v-if="child.index" class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
+              {{ t(child.labelKey) }}
             </NuxtLink>
           </div>
           <NuxtLink

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
+import ParticleField from '~/components/ui/ParticleField.vue'
 import { heroMetrics } from '~/data/landing'
 
 const { t } = useI18n()
@@ -20,6 +21,7 @@ useHead({
   <section id="inicio" class="relative isolate overflow-hidden bg-core-ink text-white">
     <div class="hero-mesh absolute inset-0 -z-20" aria-hidden="true" />
     <div class="hero-grid absolute inset-0 -z-10 opacity-[0.04]" aria-hidden="true" />
+    <ParticleField class="-z-10" />
 
     <div class="section-shell py-14 md:py-16 lg:py-20">
       <div class="grid min-h-[60vh] items-center gap-10 lg:min-h-[62vh] lg:grid-cols-[1fr_420px] lg:gap-12 xl:grid-cols-[1fr_480px]">
@@ -98,8 +100,6 @@ useHead({
     radial-gradient(ellipse 70% 50% at 75% 25%, rgba(96, 106, 244, 0.22), transparent),
     radial-gradient(ellipse 50% 40% at 50% 50%, rgba(18, 59, 102, 0.3), transparent),
     linear-gradient(180deg, #07111f 0%, #0b1d33 100%);
-  background-size: 200% 200%, 200% 200%, 100% 100%, 100% 100%;
-  animation: meshDrift 24s ease-in-out infinite;
 }
 
 .hero-grid {
@@ -109,14 +109,7 @@ useHead({
   background-size: 60px 60px;
 }
 
-@keyframes meshDrift {
-  0%, 100% { background-position: 0% 50%, 100% 50%, 0% 0%, 0% 0%; }
-  33%       { background-position: 50% 0%, 50% 100%, 0% 0%, 0% 0%; }
-  66%       { background-position: 100% 50%, 0% 50%, 0% 0%, 0% 0%; }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .hero-mesh { animation: none; }
   lottie-player { display: none; }
 }
 </style>

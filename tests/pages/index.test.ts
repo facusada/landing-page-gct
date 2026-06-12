@@ -93,8 +93,6 @@ describe('home page', () => {
     expect(wrapper.find('h1').text()).toContain('Transformación, seguridad y operación inteligente de SAP')
     expect(wrapper.text()).toContain('Donde las empresas más confían en nosotros')
     expect(wrapper.text()).toContain('cinco pilares')
-    expect(wrapper.text()).toContain('Intelliguard')
-    expect(wrapper.text()).toContain('Operations Intelligence')
     expect(wrapper.text()).toContain('Más que consultoría SAP')
     expect(wrapper.text()).toContain('Clientes que confían')
     expect(wrapper.text()).toContain('transformar tu ecosistema SAP')
