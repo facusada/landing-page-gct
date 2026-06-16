@@ -1,0 +1,80 @@
+<svg width="1920" height="460" viewBox="0 0 1920 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract dark navy operations dashboard background">
+  <defs>
+    <radialGradient id="bgo" gradientUnits="userSpaceOnUse" cx="1382" cy="180" r="1550">
+      <stop offset="0%" stop-color="#11293f"/>
+      <stop offset="48%" stop-color="#0a1c2d"/>
+      <stop offset="100%" stop-color="#060e18"/>
+    </radialGradient>
+    <radialGradient id="blueGlowO" gradientUnits="userSpaceOnUse" cx="1500" cy="210" r="560">
+      <stop offset="0%" stop-color="#3b82c4" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#3b82c4" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#3b82c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberGlowO" gradientUnits="userSpaceOnUse" cx="1680" cy="330" r="440">
+      <stop offset="0%" stop-color="#f5912e" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#f5912e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leftFadeO" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1920" y2="0">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.92"/>
+      <stop offset="42%" stop-color="#060e18" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topbotO" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="460">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.5"/>
+      <stop offset="22%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="perfLine" gradientUnits="userSpaceOnUse" x1="1080" y1="320" x2="1820" y2="120">
+      <stop offset="0%" stop-color="#5aa0d8" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#5fd0df" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#5fd0df" stop-opacity="0.9"/>
+    </linearGradient>
+    <pattern id="gridO" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#274a64" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="460" fill="url(#bgo)"/>
+  <rect width="1920" height="460" fill="url(#gridO)"/>
+  <circle cx="1500" cy="210" r="560" fill="url(#blueGlowO)"/>
+  <circle cx="1680" cy="330" r="440" fill="url(#amberGlowO)"/>
+
+  <!-- Uptime donut gauge (the signature) -->
+  <g transform="translate(1430 230)">
+    <circle r="120" fill="none" stroke="#274a64" stroke-opacity="0.35" stroke-width="20"/>
+    <!-- circumference = 2*pi*120 = 753.98. cyan ~86% arc -->
+    <circle r="120" fill="none" stroke="#5fd0df" stroke-opacity="0.85" stroke-width="18"
+            stroke-linecap="round" stroke-dasharray="648 106" transform="rotate(-90)"/>
+    <!-- amber segment ~10% -->
+    <circle r="120" fill="none" stroke="#f5912e" stroke-opacity="0.85" stroke-width="18"
+            stroke-linecap="round" stroke-dasharray="75 679" stroke-dashoffset="-668" transform="rotate(-90)"/>
+    <!-- center percentage tick marks -->
+    <circle r="78" fill="none" stroke="#5aa0d8" stroke-opacity="0.18" stroke-width="1.5"/>
+  </g>
+
+  <!-- Performance line chart rising across the right -->
+  <path d="M1080 330 L1180 290 L1280 305 L1380 245 L1500 270 L1620 195 L1740 215 L1830 140"
+        fill="none" stroke="url(#perfLine)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#5fd0df" fill-opacity="0.8">
+    <circle cx="1380" cy="245" r="4"/>
+    <circle cx="1620" cy="195" r="4"/>
+    <circle cx="1830" cy="140" r="4.5"/>
+  </g>
+
+  <!-- Metric mini-bars -->
+  <g fill="#5aa0d8" fill-opacity="0.45">
+    <rect x="1060" y="380" width="14" height="40" rx="3"/>
+    <rect x="1086" y="360" width="14" height="60" rx="3"/>
+    <rect x="1112" y="395" width="14" height="25" rx="3"/>
+    <rect x="1138" y="345" width="14" height="75" rx="3"/>
+  </g>
+
+  <!-- Faint ridge lines -->
+  <g stroke="#2a4a66" stroke-opacity="0.14" stroke-width="1.4" fill="none">
+    <path d="M0 460 L260 300 L420 370 L640 260 L820 350"/>
+  </g>
+
+  <rect width="1920" height="460" fill="url(#leftFadeO)"/>
+  <rect width="1920" height="460" fill="url(#topbotO)"/>
+</svg>

@@ -1,0 +1,83 @@
+<svg width="1920" height="460" viewBox="0 0 1920 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract dark navy governance scales background">
+  <defs>
+    <radialGradient id="bgg" gradientUnits="userSpaceOnUse" cx="1400" cy="180" r="1550">
+      <stop offset="0%" stop-color="#11293f"/>
+      <stop offset="48%" stop-color="#0a1c2d"/>
+      <stop offset="100%" stop-color="#060e18"/>
+    </radialGradient>
+    <radialGradient id="amberGlowG" gradientUnits="userSpaceOnUse" cx="1430" cy="160" r="540">
+      <stop offset="0%" stop-color="#f5912e" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#f5912e" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#f5912e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlowG" gradientUnits="userSpaceOnUse" cx="1620" cy="340" r="480">
+      <stop offset="0%" stop-color="#3b82c4" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#3b82c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leftFadeG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1920" y2="0">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.92"/>
+      <stop offset="42%" stop-color="#060e18" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topbotG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="460">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.5"/>
+      <stop offset="22%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="beamStroke" gradientUnits="userSpaceOnUse" x1="1250" y1="120" x2="1610" y2="120">
+      <stop offset="0%" stop-color="#5aa0d8"/>
+      <stop offset="50%" stop-color="#f5912e"/>
+      <stop offset="100%" stop-color="#5aa0d8"/>
+    </linearGradient>
+    <pattern id="gridG" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#274a64" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="460" fill="url(#bgg)"/>
+  <rect width="1920" height="460" fill="url(#gridG)"/>
+  <circle cx="1430" cy="160" r="540" fill="url(#amberGlowG)"/>
+  <circle cx="1620" cy="340" r="480" fill="url(#blueGlowG)"/>
+
+  <!-- Scales of governance (the signature), centered around x=1430 -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- vertical post -->
+    <line x1="1430" y1="95" x2="1430" y2="370" stroke="#5aa0d8" stroke-opacity="0.55" stroke-width="3"/>
+    <!-- base -->
+    <path d="M1370 372 H1490" stroke="#5aa0d8" stroke-opacity="0.55" stroke-width="4"/>
+    <ellipse cx="1430" cy="378" rx="70" ry="9" fill="none" stroke="#5aa0d8" stroke-opacity="0.3" stroke-width="2"/>
+    <!-- top pivot -->
+    <circle cx="1430" cy="95" r="8" fill="#f5912e" fill-opacity="0.9"/>
+    <!-- balanced beam -->
+    <line x1="1250" y1="120" x2="1610" y2="120" stroke="url(#beamStroke)" stroke-width="4" stroke-opacity="0.85"/>
+    <!-- hangers -->
+    <line x1="1270" y1="122" x2="1270" y2="185" stroke="#5aa0d8" stroke-opacity="0.45" stroke-width="2"/>
+    <line x1="1590" y1="122" x2="1590" y2="185" stroke="#5aa0d8" stroke-opacity="0.45" stroke-width="2"/>
+    <line x1="1242" y1="185" x2="1298" y2="185" stroke="#5aa0d8" stroke-opacity="0.45" stroke-width="2"/>
+    <line x1="1562" y1="185" x2="1618" y2="185" stroke="#5aa0d8" stroke-opacity="0.45" stroke-width="2"/>
+    <!-- left pan -->
+    <path d="M1238 185 A 42 42 0 0 0 1302 185 Z" fill="#3b82c4" fill-opacity="0.16" stroke="#5aa0d8" stroke-opacity="0.6" stroke-width="2.5"/>
+    <!-- right pan -->
+    <path d="M1558 185 A 42 42 0 0 0 1622 185 Z" fill="#f5912e" fill-opacity="0.14" stroke="#f5912e" stroke-opacity="0.6" stroke-width="2.5"/>
+  </g>
+
+  <!-- Orbiting control dots (standards / controls) -->
+  <g stroke="#5aa0d8" stroke-opacity="0.18" stroke-width="1.3" fill="none">
+    <ellipse cx="1430" cy="230" rx="320" ry="150"/>
+  </g>
+  <g fill="#7cb6e8" fill-opacity="0.65">
+    <circle cx="1110" cy="230" r="4"/>
+    <circle cx="1750" cy="230" r="4"/>
+    <circle cx="1280" cy="95" r="3"/>
+    <circle cx="1580" cy="365" r="3.5"/>
+  </g>
+
+  <!-- Faint ridge lines -->
+  <g stroke="#2a4a66" stroke-opacity="0.14" stroke-width="1.4" fill="none">
+    <path d="M0 460 L260 300 L420 370 L640 260 L820 350"/>
+  </g>
+
+  <rect width="1920" height="460" fill="url(#leftFadeG)"/>
+  <rect width="1920" height="460" fill="url(#topbotG)"/>
+</svg>

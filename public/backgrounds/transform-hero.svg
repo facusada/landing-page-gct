@@ -1,0 +1,88 @@
+<svg width="1920" height="420" viewBox="0 0 1920 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract dark navy transformation journey background">
+  <defs>
+    <!-- Base background: absolute coords so it renders identically everywhere -->
+    <radialGradient id="bg3" gradientUnits="userSpaceOnUse" cx="1382" cy="160" r="1500">
+      <stop offset="0%" stop-color="#11293f"/>
+      <stop offset="48%" stop-color="#0a1c2d"/>
+      <stop offset="100%" stop-color="#060e18"/>
+    </radialGradient>
+
+    <!-- Amber glow, circular in user space, placed at 1640,120 radius 480 -->
+    <radialGradient id="amberGlow3" gradientUnits="userSpaceOnUse" cx="1640" cy="120" r="480">
+      <stop offset="0%" stop-color="#f5912e" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#f5912e" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#f5912e" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="blueGlow3" gradientUnits="userSpaceOnUse" cx="1240" cy="320" r="460">
+      <stop offset="0%" stop-color="#3b82c4" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#3b82c4" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="leftFade3" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1920" y2="0">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.92"/>
+      <stop offset="40%" stop-color="#060e18" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="topbot3" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="420">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.5"/>
+      <stop offset="22%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="78%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <linearGradient id="path3" gradientUnits="userSpaceOnUse" x1="820" y1="420" x2="1620" y2="150">
+      <stop offset="0%" stop-color="#3b82c4" stop-opacity="0.15"/>
+      <stop offset="55%" stop-color="#5aa0d8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f5912e" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <pattern id="grid3" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#274a64" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1920" height="420" fill="url(#bg3)"/>
+  <rect width="1920" height="420" fill="url(#grid3)"/>
+
+  <!-- Ambient glows: now circular gradients on circles (no objectBoundingBox stretch) -->
+  <circle cx="1640" cy="120" r="480" fill="url(#amberGlow3)"/>
+  <circle cx="1240" cy="320" r="460" fill="url(#blueGlow3)"/>
+
+  <!-- The journey path -->
+  <path d="M820 420 C 1000 360, 1080 300, 1240 280 S 1500 240, 1620 150"
+        fill="none" stroke="url(#path3)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1620 150 C 1680 110, 1720 95, 1770 85"
+        fill="none" stroke="#f5912e" stroke-opacity="0.5" stroke-width="2.5"
+        stroke-linecap="round" stroke-dasharray="2 10"/>
+
+  <!-- Milestones -->
+  <g>
+    <circle cx="900" cy="383" r="5" fill="#5aa0d8" fill-opacity="0.7"/>
+    <circle cx="1100" cy="297" r="5.5" fill="#5aa0d8" fill-opacity="0.8"/>
+    <circle cx="1300" cy="272" r="5.5" fill="#6fb0e0" fill-opacity="0.85"/>
+    <circle cx="1480" cy="225" r="6" fill="#7cb6e8" fill-opacity="0.9"/>
+  </g>
+
+  <!-- Destination node -->
+  <circle cx="1620" cy="150" r="8" fill="#f5912e" fill-opacity="0.95"/>
+  <circle cx="1620" cy="150" r="18" fill="none" stroke="#f5912e" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Cloud outline -->
+  <g transform="translate(1700 95)" opacity="0.5">
+    <path d="M-55 22 a26 26 0 0 1 6 -51 a34 34 0 0 1 64 -8 a24 24 0 0 1 18 59 Z"
+          stroke="#7cb6e8" stroke-opacity="0.45" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Faint ridge lines -->
+  <g stroke="#2a4a66" stroke-opacity="0.18" stroke-width="1.4" fill="none">
+    <path d="M0 420 L260 250 L420 330 L640 200 L820 300"/>
+    <path d="M1100 420 L1280 320 L1440 380 L1660 290 L1920 360" stroke-opacity="0.12"/>
+  </g>
+
+  <!-- Legibility fades -->
+  <rect width="1920" height="420" fill="url(#leftFade3)"/>
+  <rect width="1920" height="420" fill="url(#topbot3)"/>
+</svg>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BaseButton from '~/components/ui/BaseButton.vue'
+import ParticleField from '~/components/ui/ParticleField.vue'
 import { findL3ServiceByKey, pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
@@ -44,10 +45,17 @@ const otherPillars = pillars.filter(p => p.id !== slug)
   <div v-if="pillar">
     <!-- Hero -->
     <section
-      class="relative overflow-hidden bg-core-ink py-16 text-white md:py-24"
-      :style="{ backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' }"
+      class="relative isolate overflow-hidden py-16 text-white md:py-24"
+      :class="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate' ? 'bg-[#060e18]' : 'bg-core-ink'"
+      :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
-      <div class="absolute inset-0 bg-core-ink/80" />
+      <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <div v-else class="absolute inset-0 bg-core-ink/80" />
+      <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
       <div class="section-shell relative">
         <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
           <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>

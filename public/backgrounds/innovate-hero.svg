@@ -1,0 +1,92 @@
+<svg width="1920" height="460" viewBox="0 0 1920 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract dark navy innovation lightbulb background">
+  <defs>
+    <radialGradient id="bgi" gradientUnits="userSpaceOnUse" cx="1430" cy="200" r="1500">
+      <stop offset="0%" stop-color="#11293f"/>
+      <stop offset="48%" stop-color="#0a1c2d"/>
+      <stop offset="100%" stop-color="#060e18"/>
+    </radialGradient>
+    <radialGradient id="bulbGlow" gradientUnits="userSpaceOnUse" cx="1430" cy="180" r="320">
+      <stop offset="0%" stop-color="#f5c878" stop-opacity="0.30"/>
+      <stop offset="40%" stop-color="#f5912e" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#f5912e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlowI" gradientUnits="userSpaceOnUse" cx="1650" cy="330" r="460">
+      <stop offset="0%" stop-color="#3b82c4" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leftFadeI" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1920" y2="0">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.92"/>
+      <stop offset="42%" stop-color="#060e18" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topbotI" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="460">
+      <stop offset="0%" stop-color="#060e18" stop-opacity="0.5"/>
+      <stop offset="22%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#060e18" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#060e18" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="bulbStroke" gradientUnits="userSpaceOnUse" x1="1430" y1="60" x2="1430" y2="320">
+      <stop offset="0%" stop-color="#f5912e" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5aa0d8" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="gridI" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#274a64" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="460" fill="url(#bgi)"/>
+  <rect width="1920" height="460" fill="url(#gridI)"/>
+  <circle cx="1430" cy="180" r="320" fill="url(#bulbGlow)"/>
+  <circle cx="1650" cy="330" r="460" fill="url(#blueGlowI)"/>
+
+  <!-- Orbiting idea rings (atomic / data orbits) -->
+  <g stroke-width="1.4" fill="none">
+    <ellipse cx="1430" cy="200" rx="360" ry="120" stroke="#5aa0d8" stroke-opacity="0.22" transform="rotate(24 1430 200)"/>
+    <ellipse cx="1430" cy="200" rx="360" ry="120" stroke="#5aa0d8" stroke-opacity="0.18" transform="rotate(-24 1430 200)"/>
+    <ellipse cx="1430" cy="200" rx="370" ry="110" stroke="#f5912e" stroke-opacity="0.16" transform="rotate(78 1430 200)"/>
+  </g>
+  <g fill="#7cb6e8">
+    <circle cx="1130" cy="150" r="6" fill-opacity="0.75"/>
+    <circle cx="1740" cy="135" r="5" fill-opacity="0.7"/>
+    <circle cx="1160" cy="330" r="5" fill-opacity="0.6"/>
+  </g>
+  <circle cx="1720" cy="290" r="6" fill="#f5912e" fill-opacity="0.85"/>
+
+  <!-- Lightbulb (the signature) -->
+  <g transform="translate(1430 0)">
+    <!-- glass bulb -->
+    <path d="M0 70
+             C -85 70, -150 135, -150 215
+             C -150 270, -120 310, -85 335
+             L -70 360 H 70 L 85 335
+             C 120 310, 150 270, 150 215
+             C 150 135, 85 70, 0 70 Z"
+          fill="#0e2236" fill-opacity="0.4" stroke="url(#bulbStroke)" stroke-width="2.5"/>
+    <!-- circuit filament inside -->
+    <g stroke="#f5912e" stroke-opacity="0.6" stroke-width="2" fill="none" stroke-linecap="round">
+      <path d="M0 360 V230"/>
+      <path d="M0 230 H-45 V160 M0 230 H45 V160"/>
+      <path d="M-45 160 H-70 M45 160 H70"/>
+      <circle cx="0" cy="200" r="22" stroke-opacity="0.5"/>
+      <path d="M-22 200 H-50 M22 200 H50"/>
+    </g>
+    <g fill="#f5912e" fill-opacity="0.8">
+      <circle cx="-70" cy="160" r="3.5"/><circle cx="70" cy="160" r="3.5"/>
+      <circle cx="-50" cy="200" r="3"/><circle cx="50" cy="200" r="3"/>
+    </g>
+    <!-- screw base -->
+    <g stroke="#5aa0d8" stroke-opacity="0.5" stroke-width="2" fill="none">
+      <path d="M-55 365 H55"/>
+      <path d="M-48 382 H48"/>
+      <path d="M-40 399 H40"/>
+    </g>
+  </g>
+
+  <!-- Faint ridge lines -->
+  <g stroke="#2a4a66" stroke-opacity="0.14" stroke-width="1.4" fill="none">
+    <path d="M0 460 L260 300 L420 370 L640 260 L820 350"/>
+  </g>
+
+  <rect width="1920" height="460" fill="url(#leftFadeI)"/>
+  <rect width="1920" height="460" fill="url(#topbotI)"/>
+</svg>
