@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BaseButton from '~/components/ui/BaseButton.vue'
+import ParticleField from '~/components/ui/ParticleField.vue'
 import { platforms } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
@@ -55,8 +56,11 @@ useHead({
 <template>
   <div v-if="platform">
     <!-- Hero -->
-    <section class="relative isolate overflow-hidden bg-core-ink py-20 text-white md:py-28">
-      <div class="absolute inset-0 -z-10 bg-hero-radial opacity-40" aria-hidden="true" />
+    <section class="relative isolate overflow-hidden py-20 text-white md:py-28" :class="slug === 'intelliguard' || slug === 'operations-intelligence' ? 'bg-[#060e18]' : 'bg-core-ink'">
+      <img v-if="slug === 'intelliguard'" src="/backgrounds/intelliguard-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'operations-intelligence'" src="/backgrounds/operations-intelligence-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <div v-else class="absolute inset-0 -z-10 bg-hero-radial opacity-40" aria-hidden="true" />
+      <ParticleField v-if="slug === 'intelliguard' || slug === 'operations-intelligence'" class="-z-10" />
       <div class="section-shell">
         <nav class="mb-10 text-sm text-white/60" aria-label="Breadcrumb">
           <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
