@@ -20,7 +20,7 @@ const certs = computed(() =>
         :title="t('trust.title')"
       />
 
-      <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <article
           v-for="(card, index) in trustCards"
           :key="card.id"

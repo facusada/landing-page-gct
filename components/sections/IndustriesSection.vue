@@ -18,7 +18,7 @@ const iconPaths: Record<string, string> = {
 <template>
   <section id="industrias" class="relative overflow-hidden bg-core-mist py-20 md:py-28">
     <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
-    <div class="section-shell relative grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
+    <div class="relative grid gap-12 px-6 md:px-10 lg:grid-cols-[.8fr_1.2fr] lg:px-28">
       <SectionHeading
         v-reveal
         :eyebrow="t('industries.eyebrow')"

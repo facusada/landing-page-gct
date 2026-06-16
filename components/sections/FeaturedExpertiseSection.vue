@@ -12,7 +12,7 @@ const chipsFor = (id: string): string[] =>
 <template>
   <section id="expertise" class="relative overflow-hidden bg-white py-20 md:py-28">
     <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
-    <div class="section-shell relative">
+    <div class="relative px-6 md:px-10 lg:px-28">
       <SectionHeading
         v-reveal
         align="center"
@@ -61,7 +61,7 @@ const chipsFor = (id: string): string[] =>
           </div>
 
           <div :class="item.flip ? 'lg:order-1' : ''">
-            <div class="relative overflow-hidden rounded-xl border border-white/10 bg-core-ink shadow-premium">
+            <div class="relative mx-auto max-w-[420px] overflow-hidden rounded-xl border border-white/10 bg-core-ink p-4 shadow-premium md:p-6">
               <div class="absolute inset-0 bg-core-grid bg-[size:42px_42px]" aria-hidden="true" />
               <div class="absolute inset-0 bg-hero-radial opacity-40" aria-hidden="true" />
 
