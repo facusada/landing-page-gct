@@ -10,8 +10,8 @@ const chipsFor = (id: string): string[] =>
 </script>
 
 <template>
-  <section id="expertise" class="relative overflow-hidden bg-white py-20 md:py-28">
-    <div class="absolute inset-0 bg-dot-grid" aria-hidden="true" />
+  <section id="expertise" class="relative overflow-hidden bg-core-mist py-20 md:py-28">
+    <div class="absolute inset-0 bg-dot-grid opacity-50" aria-hidden="true" />
     <div class="relative px-6 md:px-10 lg:px-28">
       <SectionHeading
         v-reveal

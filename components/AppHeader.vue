@@ -18,7 +18,7 @@ const availableLocales = computed(() =>
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-core-line bg-white/95 text-core-ink backdrop-blur-xl">
+  <header class="sticky top-0 z-50 border-b border-core-line bg-core-mist/95 text-core-ink backdrop-blur-xl">
     <nav class="flex min-h-20 items-center justify-between pl-4 pr-4 md:pl-8 md:pr-8" :aria-label="t('nav.ariaLabel')">
       <NuxtLink :to="localizedTo('/')" class="block" :aria-label="t('nav.logoAriaLabel')">
         <img
@@ -104,7 +104,7 @@ const availableLocales = computed(() =>
       </button>
     </nav>
 
-    <div v-if="isOpen" id="mobile-navigation" class="border-t border-core-line bg-white md:hidden">
+    <div v-if="isOpen" id="mobile-navigation" class="border-t border-core-line bg-core-mist md:hidden">
       <div class="section-shell grid gap-1 py-4">
         <template v-for="item in navigationItems" :key="item.key">
           <div v-if="item.children">
