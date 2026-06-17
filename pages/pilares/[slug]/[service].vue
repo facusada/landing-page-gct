@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
+import ParticleField from '~/components/ui/ParticleField.vue'
 import ServiceIcon from '~/components/ui/ServiceIcon.vue'
 import { findL3Service, findL3ServiceByKey, pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
@@ -55,6 +56,15 @@ const methodologyColsClass = computed(() => {
 })
 
 const pillarTitle = computed(() => t(`pillars.items.${pillarSlug}.title`))
+
+const pillarHeroBg: Record<string, string> = {
+  transform: '/backgrounds/transform-hero.svg',
+  secure: '/backgrounds/secure-hero.svg',
+  operate: '/backgrounds/operate-hero.svg',
+  govern: '/backgrounds/govern-hero.svg',
+  innovate: '/backgrounds/innovate-hero.svg',
+}
+const heroBgSrc = pillarHeroBg[pillarSlug] ?? null
 
 const related = (pillarServiceKeys[pillarSlug] ?? [])
   .filter(key => key !== service.key)
@@ -113,10 +123,13 @@ useHead({
   <div v-if="service">
     <!-- 1. Hero -->
     <section
-      class="relative overflow-hidden bg-core-ink py-16 text-white md:py-24"
-      :style="{ backgroundImage: `url('${service.image}')`, backgroundSize: 'cover', backgroundPosition: service.bgPosition ?? pillar?.bgPosition ?? 'center' }"
+      class="relative isolate overflow-hidden py-16 text-white md:py-24"
+      :class="heroBgSrc ? 'bg-[#060e18]' : 'bg-core-ink'"
+      :style="!heroBgSrc ? { backgroundImage: `url('${service.image}')`, backgroundSize: 'cover', backgroundPosition: service.bgPosition ?? pillar?.bgPosition ?? 'center' } : undefined"
     >
-      <div class="absolute inset-0 bg-core-ink/85" />
+      <img v-if="heroBgSrc" :src="heroBgSrc" class="absolute inset-0 -z-20 h-full w-full object-fill" aria-hidden="true" />
+      <div v-else class="absolute inset-0 bg-core-ink/85" />
+      <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
         <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
           <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
