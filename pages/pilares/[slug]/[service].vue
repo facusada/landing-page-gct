@@ -127,7 +127,10 @@ useHead({
       :class="heroBgSrc ? 'bg-[#060e18]' : 'bg-core-ink'"
       :style="!heroBgSrc ? { backgroundImage: `url('${service.image}')`, backgroundSize: 'cover', backgroundPosition: service.bgPosition ?? pillar?.bgPosition ?? 'center' } : undefined"
     >
-      <img v-if="heroBgSrc" :src="heroBgSrc" class="absolute inset-0 -z-20 h-full w-full object-fill" aria-hidden="true" />
+      <div v-if="heroBgSrc" class="absolute inset-x-0 top-0 -z-20">
+        <img :src="heroBgSrc" class="w-full" aria-hidden="true" />
+        <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#060e18]" />
+      </div>
       <div v-else class="absolute inset-0 bg-core-ink/85" />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
