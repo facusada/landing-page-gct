@@ -45,7 +45,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
 <template>
   <div v-if="pillar">
     <StickyContextBar
-      :label="t('pillarDetail.eyebrow', { index: pillar.index })"
+      :label="t('pillarDetail.eyebrow')"
       :sublabel="title"
       :back-to="localizedTo('/')"
       :back-label="t('breadcrumb.home')"
@@ -66,7 +66,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
       <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
       <div class="section-shell relative">
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">
-          {{ t('pillarDetail.eyebrow', { index: pillar.index }) }}
+          {{ t('pillarDetail.eyebrow') }}
         </p>
         <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl">
           {{ title }}

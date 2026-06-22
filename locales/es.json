@@ -518,7 +518,7 @@
     }
   },
   "clients": {
-    "title": "Clientes que confían",
+    "title": "Confían en nosotros",
     "description": "Organizaciones de energía, industria, retail, salud, infraestructura y servicios confían en equipos con experiencia SAP de alta criticidad.",
     "logoAlt": "Logo de {name}"
   },
@@ -576,7 +576,7 @@
   },
   "pillarDetail": {
     "breadcrumb": "Pilares",
-    "eyebrow": "Pilar {index}",
+    "eyebrow": "Pilar",
     "servicesTitle": "Servicios relacionados",
     "servicesDescription": "Capacidades especializadas que desplegamos dentro de este pilar para maximizar el valor de tu ecosistema SAP.",
     "relatedServiceCta": "Ver servicio completo",
@@ -720,7 +720,7 @@
       "sap-s4hana-transformation": {
         "metaTitle": "SAP S/4HANA Transformation | Migración con Gobierno | GCT",
         "metaDescription": "Transformá tu ERP hacia SAP S/4HANA con una metodología probada, Clean Core y control de riesgos. +150 proyectos y +20 años de expertise SAP. Hablá con un experto.",
-        "eyebrow": "Pilar 01 · Transform",
+        "eyebrow": "Pilar · Transform",
         "h1": "Transformación a SAP S/4HANA, ejecutada con gobierno y sin sorpresas",
         "heroSubtitle": "Diseñamos y ejecutamos tu programa de migración a SAP S/4HANA con una metodología probada, una estrategia Clean Core desde el día uno y control de riesgos en cada fase — para que llegues a la nube sin frenar la operación.",
         "ctaPrimary": "Agendá un assessment de S/4HANA",
@@ -862,7 +862,7 @@
       "rise-with-sap": {
         "metaTitle": "RISE with SAP | Migración a la Nube Gestionada | GCT",
         "metaDescription": "Adoptá RISE with SAP con un partner que integra contrato, migración técnica y gobierno. Llegá a S/4HANA Cloud con riesgo controlado. Hablá con un experto.",
-        "eyebrow": "Pilar 01 · Transform",
+        "eyebrow": "Pilar · Transform",
         "h1": "RISE with SAP, adoptado con un partner que gobierna el contrato y la migración",
         "heroSubtitle": "Te acompañamos en la adopción de RISE with SAP: definimos el dimensionamiento, ordenamos el alcance, ejecutamos la migración técnica y montamos el gobierno para que el modelo de nube gestionada entregue valor real, no solo un cambio de licenciamiento.",
         "ctaPrimary": "Evaluá tu caso RISE with SAP",
@@ -970,7 +970,7 @@
       "s4hana-readiness-assessment": {
         "metaTitle": "SAP S/4HANA Readiness Assessment | Evaluación | GCT",
         "metaDescription": "Evaluá tu preparación técnica, funcional y de datos para migrar a SAP S/4HANA. Recibí un diagnóstico claro y un roadmap priorizado. Agendá tu assessment.",
-        "eyebrow": "Pilar 01 · Transform",
+        "eyebrow": "Pilar · Transform",
         "h1": "Readiness Assessment: sabé exactamente qué tan listo estás para S/4HANA",
         "heroSubtitle": "Antes de invertir en una migración, evaluamos la madurez técnica, funcional, de datos y organizacional de tu entorno SAP. Salís con un diagnóstico objetivo, los riesgos identificados y un roadmap priorizado para llegar a S/4HANA con confianza.",
         "ctaPrimary": "Agendá tu readiness assessment",
@@ -1066,7 +1066,7 @@
       "sap-migration-governance": {
         "metaTitle": "SAP Migration Governance | Control de Migración | GCT",
         "metaDescription": "Goberná tu migración a SAP S/4HANA con marcos de control, gestión de riesgos y decisiones trazables. Asegurá el go-live sin desvíos. Hablá con un experto.",
-        "eyebrow": "Pilar 01 · Transform",
+        "eyebrow": "Pilar · Transform",
         "h1": "Migration Governance: el control que mantiene tu migración a S/4HANA en curso",
         "heroSubtitle": "Aportamos los marcos de control, seguimiento y toma de decisiones que mantienen tu programa de migración dentro de alcance, tiempo y presupuesto — con visibilidad ejecutiva y trazabilidad en cada decisión crítica.",
         "ctaPrimary": "Asegurá tu migración",
@@ -1162,7 +1162,7 @@
       "clean-core-strategy": {
         "metaTitle": "Clean Core Strategy SAP | Núcleo Limpio y Actualizable | GCT",
         "metaDescription": "Definí tu estrategia Clean Core para SAP S/4HANA: extensibilidad en BTP, menos custom code y un núcleo siempre actualizable. Hablá con un experto.",
-        "eyebrow": "Pilar 01 · Transform",
+        "eyebrow": "Pilar · Transform",
         "h1": "Clean Core Strategy: un SAP que se actualiza sin dolor, para siempre",
         "heroSubtitle": "Definimos y ejecutamos tu estrategia Clean Core: clasificamos las customizaciones, movemos las extensiones a SAP BTP y establecemos las políticas que mantienen tu núcleo S/4HANA limpio, actualizable y listo para innovar.",
         "ctaPrimary": "Definí tu estrategia Clean Core",
@@ -1258,7 +1258,7 @@
       "sap-security": {
         "metaTitle": "SAP Security | Controles Nativos de Seguridad | GCT",
         "metaDescription": "Diseñá e implementá la arquitectura de seguridad SAP: objetos de autorización, hardening del sistema y controles de acceso. Protegé accesos y datos críticos.",
-        "eyebrow": "Pilar 02 · Secure",
+        "eyebrow": "Pilar · Secure",
         "h1": "SAP Security: controles nativos que protegen el acceso sin frenar la operación",
         "heroSubtitle": "Diseñamos e implementamos la arquitectura de seguridad SAP desde la base: objetos de autorización, hardening del sistema, configuración segura de usuarios y controles de acceso que protegen tus datos críticos sin generar fricción operativa.",
         "ctaPrimary": "Evaluá tu postura de seguridad SAP",
@@ -1354,7 +1354,7 @@
       "sap-rbac": {
         "metaTitle": "RBAC SAP | Gestión de Roles y Accesos | GCT",
         "metaDescription": "Diseñá y gestioná roles SAP basados en mínimo privilegio. Eliminá superusuarios, simplificá el landscape de roles y pasá las auditorías sin hallazgos de acceso.",
-        "eyebrow": "Pilar 02 · Secure",
+        "eyebrow": "Pilar · Secure",
         "h1": "RBAC en SAP: roles diseñados con mínimo privilegio, landscape limpio, auditorías que se aprueban",
         "heroSubtitle": "Diseñamos y depuramos tu landscape de roles SAP aplicando el principio de mínimo privilegio: eliminamos la proliferación de roles, remediamos los superusuarios y establecemos el proceso de gobierno que mantiene el control de acceso limpio y auditable.",
         "ctaPrimary": "Evaluá tu landscape de roles",
@@ -1450,7 +1450,7 @@
       "sap-segregation-of-duties": {
         "metaTitle": "Segregación de Funciones SAP | SoD Analysis & Remediation | GCT",
         "metaDescription": "Detectá y remediá conflictos de SoD en SAP antes de que se conviertan en hallazgos de auditoría o riesgos de fraude. Diagnóstico, remediación y gobierno continuo.",
-        "eyebrow": "Pilar 02 · Secure",
+        "eyebrow": "Pilar · Secure",
         "h1": "Segregación de Funciones SAP: eliminá los conflictos que producen hallazgos de auditoría y riesgos de fraude",
         "heroSubtitle": "Analizamos tu entorno SAP para identificar conflictos de segregación de funciones, evaluamos el riesgo real de cada uno y ejecutamos la remediación que elimina la exposición sin paralizar la operación — con el gobierno continuo que evita que vuelvan a aparecer.",
         "ctaPrimary": "Analizá tus conflictos SoD",
@@ -1546,7 +1546,7 @@
       "sap-grc": {
         "metaTitle": "SAP GRC | Access Control, Process Control, Risk Management | GCT",
         "metaDescription": "Implementá SAP GRC para automatizar el control de acceso, el monitoreo de procesos y la gestión de riesgos. Cumplimiento continuo, sin overhead manual.",
-        "eyebrow": "Pilar 02 · Secure",
+        "eyebrow": "Pilar · Secure",
         "h1": "SAP GRC: gobierno del riesgo y cumplimiento automatizado en una sola suite",
         "heroSubtitle": "Implementamos y operamos la suite SAP GRC — Access Control, Process Control y Risk Management — para reemplazar los controles manuales y reactivos por un gobierno del riesgo automatizado, continuo y auditable.",
         "ctaPrimary": "Evaluá tu caso de SAP GRC",
@@ -1642,7 +1642,7 @@
       "sap-compliance-monitoring": {
         "metaTitle": "Compliance Monitoring SAP | Monitoreo Continuo de Cumplimiento | GCT",
         "metaDescription": "Monitoreá el cumplimiento normativo de tu entorno SAP en tiempo real: alertas, reportes y control de desviaciones antes de que las encuentre el auditor.",
-        "eyebrow": "Pilar 02 · Secure",
+        "eyebrow": "Pilar · Secure",
         "h1": "Compliance Monitoring: control continuo que detecta las desviaciones antes de que las encuentre el auditor",
         "heroSubtitle": "Implementamos y operamos el monitoreo continuo de cumplimiento en tu entorno SAP: alertas en tiempo real sobre desviaciones de controles, reportes de auditoría automatizados y visibilidad permanente sobre el estado de tus obligaciones normativas.",
         "ctaPrimary": "Evaluá tu cobertura de monitoreo",
@@ -1738,7 +1738,7 @@
       "sap-security-managed-services": {
         "metaTitle": "SAP Security Managed Services | Seguridad SAP Gestionada | GCT",
         "metaDescription": "Delegá la operación continua de seguridad SAP: monitoreo, respuesta a incidentes y mejora iterativa de controles. Expertos SAP security a tiempo completo.",
-        "eyebrow": "Pilar 02 · Secure",
+        "eyebrow": "Pilar · Secure",
         "h1": "Security Managed Services: operación continua de seguridad SAP sin construir el equipo desde cero",
         "heroSubtitle": "Operamos la seguridad de tu entorno SAP de forma continua: monitoreo proactivo, gestión de accesos, respuesta a incidentes y mejora iterativa de controles — todo con el expertise de un equipo especializado en SAP security que actúa como extensión de tu área.",
         "ctaPrimary": "Evaluá el modelo de servicio gestionado",
@@ -1834,7 +1834,7 @@
       "sap-ams": {
         "metaTitle": "SAP AMS | Application Management Services | GCT",
         "metaDescription": "Soporte funcional y técnico SAP en producción con SLAs comprometidos. Incidentes, mejoras y evolución continua del sistema sin armar un equipo interno completo.",
-        "eyebrow": "Pilar 03 · Operate",
+        "eyebrow": "Pilar · Operate",
         "h1": "SAP AMS: soporte funcional y técnico con SLA para que tu producción nunca se detenga",
         "heroSubtitle": "Operamos el soporte de tu plataforma SAP en producción: resolvemos incidentes funcionales y técnicos, gestionamos las mejoras continuas y aseguramos que el sistema evolucione alineado al negocio — con SLAs medibles y un equipo que conoce tu entorno.",
         "ctaPrimary": "Evaluá tu modelo de soporte SAP",
@@ -1930,7 +1930,7 @@
       "sap-basis": {
         "metaTitle": "SAP Basis | Administración de Plataforma Técnica SAP | GCT",
         "metaDescription": "Administración y operación de la plataforma técnica SAP Basis: disponibilidad, rendimiento, actualizaciones y seguridad técnica. Expertise especializado 24/7.",
-        "eyebrow": "Pilar 03 · Operate",
+        "eyebrow": "Pilar · Operate",
         "h1": "SAP Basis: la plataforma técnica que sostiene la operación debe estar siempre en manos expertas",
         "heroSubtitle": "Administramos la capa técnica de tu entorno SAP: gestión del landscape, transports, performance de base de datos, actualizaciones y monitoreo proactivo — para que la plataforma nunca sea el cuello de botella de tu operación.",
         "ctaPrimary": "Evaluá tu plataforma SAP Basis",
@@ -2026,7 +2026,7 @@
       "sap-cloud-alm": {
         "metaTitle": "SAP Cloud ALM | Implementación y Operación | GCT",
         "metaDescription": "Implementá y operá SAP Cloud ALM: gestión de proyectos, operaciones y calidad en la nube. Reemplazá Solution Manager con una plataforma moderna y nativa cloud.",
-        "eyebrow": "Pilar 03 · Operate",
+        "eyebrow": "Pilar · Operate",
         "h1": "SAP Cloud ALM: el centro de operaciones SAP que reemplaza a Solution Manager en la nube",
         "heroSubtitle": "Implementamos y operamos SAP Cloud ALM como el hub central de gestión de tu landscape SAP: proyectos de implementación, operaciones continuas, monitoreo de integraciones y gestión de la calidad — todo en la nube, sin la complejidad de Solution Manager.",
         "ctaPrimary": "Evaluá tu caso de Cloud ALM",
@@ -2122,7 +2122,7 @@
       "sap-monitoring-automation": {
         "metaTitle": "SAP Monitoring & Automation | Monitoreo Proactivo y Automatización | GCT",
         "metaDescription": "Monitoreo proactivo y automatización operativa para entornos SAP: alertas en tiempo real, detección temprana de problemas y eliminación de tareas manuales repetitivas.",
-        "eyebrow": "Pilar 03 · Operate",
+        "eyebrow": "Pilar · Operate",
         "h1": "Monitoring & Automation: dejá de apagar incendios y empezá a prevenirlos",
         "heroSubtitle": "Implementamos plataformas de monitoreo proactivo y automatización operativa para tu entorno SAP: alertas antes de que los problemas impacten al usuario, dashboards de visibilidad en tiempo real y automatización de las tareas repetitivas que consumen tiempo experto.",
         "ctaPrimary": "Evaluá tu cobertura de monitoreo",
@@ -2218,7 +2218,7 @@
       "sap-root-cause-analysis": {
         "metaTitle": "SAP Root Cause Analysis | Análisis de Causa Raíz | GCT",
         "metaDescription": "Análisis estructurado de incidentes SAP para identificar causas raíz, implementar correcciones definitivas y eliminar la recurrencia. Metodología experta, resolución duradera.",
-        "eyebrow": "Pilar 03 · Operate",
+        "eyebrow": "Pilar · Operate",
         "h1": "Root Cause Analysis: los incidentes recurrentes no deberían repetirse — y no lo harán",
         "heroSubtitle": "Aplicamos metodología estructurada de análisis de causa raíz para resolver los incidentes SAP que siguen volviendo: trazas ABAP, análisis de HANA, revisión de configuraciones y correcciones definitivas que eliminan el problema en lugar de parcharlo.",
         "ctaPrimary": "Analizá un incidente recurrente",
@@ -2314,7 +2314,7 @@
       "sap-technical-governance": {
         "metaTitle": "SAP Technical Governance | Gobierno Técnico SAP | GCT",
         "metaDescription": "Estándares técnicos, gestión de cambios y controles de calidad para la operación SAP sostenible. Protegé la producción y reducí la deuda técnica con gobierno formal.",
-        "eyebrow": "Pilar 03 · Operate",
+        "eyebrow": "Pilar · Operate",
         "h1": "Technical Governance: los estándares que protegen la producción de los cambios que no deberían llegar",
         "heroSubtitle": "Diseñamos e implementamos el marco de gobierno técnico que regula cómo se hacen los cambios, se mantiene la calidad y se toman las decisiones técnicas en tu entorno SAP — para que la producción sea estable, predecible y libre de incidentes por cambios no gobernados.",
         "ctaPrimary": "Evaluá tu madurez de gobierno técnico",
@@ -2410,7 +2410,7 @@
       "sap-governance-advisory": {
         "metaTitle": "SAP Governance Advisory | Gobierno SAP | GCT",
         "metaDescription": "Diseño e implementación de marcos de gobierno SAP: roles, procesos de decisión, políticas de change management y controles que hacen la inversión SAP predecible y trazable.",
-        "eyebrow": "Pilar 04 · Govern",
+        "eyebrow": "Pilar · Govern",
         "h1": "SAP Governance Advisory: diseñamos el modelo de gobierno que alinea SAP con la estrategia del negocio",
         "heroSubtitle": "Asesoramos a organizaciones en el diseño e implementación de marcos de gobierno SAP: estructura de roles, instancias de decisión, políticas de gestión del cambio y mecanismos de control que hacen que la inversión SAP sea predecible, trazable y sostenible.",
         "ctaPrimary": "Evaluá tu madurez de gobierno SAP",
@@ -2506,7 +2506,7 @@
       "sap-program-governance": {
         "metaTitle": "Gobierno de Programa SAP | Program Governance | GCT",
         "metaDescription": "Estructuras de control para programas de transformación SAP: steering committees, PMO, gestión de riesgos y alcance que hacen los proyectos grandes predecibles.",
-        "eyebrow": "Pilar 04 · Govern",
+        "eyebrow": "Pilar · Govern",
         "h1": "Gobierno de Programa SAP: la disciplina que convierte proyectos grandes en entregas predecibles",
         "heroSubtitle": "Estructuramos el gobierno de tus programas de transformación SAP: steering committees, PMO, gestión de riesgos, control de alcance y mecanismos de escalada que hacen que los proyectos grandes se entreguen sin las sorpresas que cuestan carísimas.",
         "ctaPrimary": "Evaluá el gobierno de tu programa SAP",
@@ -2602,7 +2602,7 @@
       "sap-compliance": {
         "metaTitle": "SAP Compliance | Cumplimiento Normativo SAP | GCT",
         "metaDescription": "Framework de compliance SAP: controles automáticos, evidencia de auditoría, gestión de excepciones y monitoreo continuo que reemplaza los procesos manuales costosos.",
-        "eyebrow": "Pilar 04 · Govern",
+        "eyebrow": "Pilar · Govern",
         "h1": "SAP Compliance: cumplimiento normativo construido dentro del sistema, no encima",
         "heroSubtitle": "Diseñamos e implementamos el marco de cumplimiento normativo de tu ecosistema SAP: controles automáticos, evidencia de auditoría, gestión de excepciones y monitoreo continuo que reemplazan los procesos manuales costosos y la exposición regulatoria.",
         "ctaPrimary": "Evaluá tu exposición de compliance SAP",
@@ -2698,7 +2698,7 @@
       "sap-executive-controls": {
         "metaTitle": "SAP Executive Controls | Controles Ejecutivos SAP | GCT",
         "metaDescription": "Framework de controles ejecutivos para SAP: KPIs de negocio, dashboards de liderazgo, mecanismos de escalada y reporting que conectan SAP con los objetivos estratégicos.",
-        "eyebrow": "Pilar 04 · Govern",
+        "eyebrow": "Pilar · Govern",
         "h1": "Executive Controls: la visibilidad y los controles que el liderazgo necesita sobre su inversión SAP",
         "heroSubtitle": "Diseñamos e implementamos el framework de controles ejecutivos para el ecosistema SAP: KPIs de negocio y operacionales, dashboards de estado, mecanismos de escalada y reportes que dan al liderazgo la información real que necesita para tomar decisiones.",
         "ctaPrimary": "Diseñá tu framework de controles ejecutivos",
@@ -2794,7 +2794,7 @@
       "sap-clean-core-governance": {
         "metaTitle": "Clean Core Governance | Gobierno de Clean Core SAP | GCT",
         "metaDescription": "Marco de gobierno para sostener la estrategia de Clean Core SAP en el tiempo: políticas de extensibilidad, revisión de personalizaciones y monitoreo continuo del núcleo.",
-        "eyebrow": "Pilar 04 · Govern",
+        "eyebrow": "Pilar · Govern",
         "h1": "Clean Core Governance: el gobierno que mantiene el núcleo SAP limpio proyecto tras proyecto",
         "heroSubtitle": "Diseñamos e implementamos el marco de gobierno para sostener la estrategia de Clean Core SAP en el tiempo: políticas de extensibilidad, proceso de revisión de personalizaciones, gestión de excepciones y monitoreo continuo del estado del núcleo.",
         "ctaPrimary": "Evaluá el gobierno de tu Clean Core",
@@ -2890,7 +2890,7 @@
       "sap-ai-automation": {
         "metaTitle": "SAP AI & Automation | IA y Automatización SAP | GCT",
         "metaDescription": "Implementación de IA y automatización inteligente en ecosistemas SAP: process automation en BTP, modelos de IA embebidos y casos de uso de alto impacto en producción.",
-        "eyebrow": "Pilar 05 · Innovate",
+        "eyebrow": "Pilar · Innovate",
         "h1": "SAP AI & Automation: inteligencia artificial integrada en los procesos SAP donde crea más valor",
         "heroSubtitle": "Implementamos capacidades de IA y automatización inteligente en tu ecosistema SAP: desde process automation en BTP hasta modelos de IA embebidos en flujos de trabajo críticos — para que la tecnología haga el trabajo repetitivo y las personas se enfoquen en el trabajo que importa.",
         "ctaPrimary": "Explorá casos de uso de IA en SAP",
@@ -2986,7 +2986,7 @@
       "sap-btp-automation": {
         "metaTitle": "SAP BTP Automation | Automatización y Extensiones SAP BTP | GCT",
         "metaDescription": "Automatizaciones, integraciones y extensiones sobre SAP Business Technology Platform con enfoque clean core: SAP Build, Integration Suite y Extension Suite.",
-        "eyebrow": "Pilar 05 · Innovate",
+        "eyebrow": "Pilar · Innovate",
         "h1": "SAP BTP Automation: automatizaciones y extensiones sobre la plataforma SAP que escalan con el negocio",
         "heroSubtitle": "Desarrollamos automatizaciones, integraciones y extensiones sobre SAP Business Technology Platform: desde flujos de aprobación hasta integraciones multi-sistema complejas — con el enfoque clean core que garantiza que las extensiones no comprometan la actualización del sistema base.",
         "ctaPrimary": "Evaluá tu caso de uso en BTP",
@@ -3082,7 +3082,7 @@
       "intelliguard-platform": {
         "metaTitle": "Intelliguard™ | Plataforma de Monitorización Inteligente SAP | GCT",
         "metaDescription": "Intelliguard™ es la plataforma propietaria de GCT para monitorización inteligente de SAP: detección de anomalías, alertas proactivas y visibilidad unificada del ecosistema en tiempo real.",
-        "eyebrow": "Pilar 05 · Innovate",
+        "eyebrow": "Pilar · Innovate",
         "h1": "Intelliguard™: la plataforma de monitorización inteligente que anticipa riesgos antes de que se materialicen",
         "heroSubtitle": "Intelliguard™ es la plataforma propietaria de GCT para la monitorización inteligente de ecosistemas SAP: detección de anomalías en seguridad y operaciones, alertas proactivas antes del impacto y visibilidad unificada del estado del sistema en tiempo real.",
         "ctaPrimary": "Conocé Intelliguard™ en detalle",
@@ -3178,7 +3178,7 @@
       "operations-intelligence-platform": {
         "metaTitle": "Operations Intelligence™ | Plataforma de Visibilidad Operacional SAP | GCT",
         "metaDescription": "Operations Intelligence™ convierte los datos operacionales de SAP en visibilidad ejecutiva y decisiones: dashboards en tiempo real, KPIs de negocio y análisis de tendencias.",
-        "eyebrow": "Pilar 05 · Innovate",
+        "eyebrow": "Pilar · Innovate",
         "h1": "Operations Intelligence™: el centro de visibilidad operacional que convierte datos SAP en decisiones",
         "heroSubtitle": "Operations Intelligence™ es la plataforma propietaria de GCT para la visibilidad operacional de ecosistemas SAP: KPIs de negocio y operacionales en tiempo real, análisis de tendencias y dashboards que conectan el estado del sistema con los objetivos estratégicos.",
         "ctaPrimary": "Conocé Operations Intelligence™ en detalle",
@@ -3274,7 +3274,7 @@
       "predictive-monitoring": {
         "metaTitle": "Monitorización Predictiva SAP | Predictive Monitoring | GCT",
         "metaDescription": "Monitorización predictiva para SAP: detección temprana de degradación, modelos de predicción de fallos y alertas antes de que los problemas impacten la producción.",
-        "eyebrow": "Pilar 05 · Innovate",
+        "eyebrow": "Pilar · Innovate",
         "h1": "Monitorización Predictiva: de reaccionar a incidentes a prevenirlos antes de que impacten la operación",
         "heroSubtitle": "Implementamos capacidades de monitorización predictiva en tu ecosistema SAP: modelos que aprenden el comportamiento normal de tu entorno y detectan la degradación temprana antes de que se convierta en un incidente — para que el equipo actúe antes de que el usuario note algo.",
         "ctaPrimary": "Evaluá tu capacidad predictiva actual",
