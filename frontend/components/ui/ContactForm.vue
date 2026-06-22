@@ -3,6 +3,7 @@ import { services } from '~/data/landing'
 
 const { t } = useI18n()
 const route = useRoute()
+const config = useRuntimeConfig()
 const preselectedService = (route.query.servicio as string) ?? ''
 
 const form = reactive({
@@ -48,7 +49,17 @@ const handleSubmit = async () => {
   submitError.value = ''
 
   try {
-    await new Promise(resolve => setTimeout(resolve, 1200))
+    await $fetch('/api/contact', {
+      baseURL: config.public.apiBase,
+      method: 'POST',
+      body: {
+        name: form.name,
+        email: form.email,
+        company: form.company,
+        serviceInterest: form.serviceInterest,
+        message: form.message
+      }
+    })
     isSuccess.value = true
     form.name = ''
     form.email = ''
