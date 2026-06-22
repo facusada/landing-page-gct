@@ -61,9 +61,18 @@ const localizedTo = useLocalizedTo()
       <div>
         <h3 class="text-sm font-bold uppercase tracking-wide text-white/90">{{ t('footer.headings.contact') }}</h3>
         <address class="mt-4 grid gap-3 not-italic text-sm text-white/50">
-          <a class="transition hover:text-white" :href="`mailto:${siteConfig.email}`">{{ siteConfig.email }}</a>
-          <a class="transition hover:text-white" :href="`tel:${siteConfig.phone.replaceAll(' ', '')}`">{{ siteConfig.phone }}</a>
-          <span>{{ siteConfig.address }}</span>
+          <a class="group flex items-center gap-3 transition hover:text-white" :href="`mailto:${siteConfig.email}`">
+            <svg class="h-4 w-4 shrink-0 text-core-orange" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5A2.5 2.5 0 0 1 5.5 5h13A2.5 2.5 0 0 1 21 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 16.5v-9Z" /><path stroke-linecap="round" stroke-linejoin="round" d="m4 7 8 6 8-6" /></svg>
+            {{ siteConfig.email }}
+          </a>
+          <a class="group flex items-center gap-3 transition hover:text-white" :href="`tel:${siteConfig.phone.replaceAll(' ', '')}`">
+            <svg class="h-4 w-4 shrink-0 text-core-orange" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.5 5.5C3.5 4.7 4.2 4 5 4h2.3c.6 0 1.1.4 1.3 1l.9 3a1.3 1.3 0 0 1-.4 1.4L7.8 11a13 13 0 0 0 5.2 5.2l1.6-1.3c.4-.3.9-.4 1.4-.3l3 .9c.6.2 1 .7 1 1.3V19c0 .8-.7 1.5-1.5 1.5h-1C10.3 20.5 3.5 13.7 3.5 6.5v-1Z" /></svg>
+            {{ siteConfig.phone }}
+          </a>
+          <span class="flex items-start gap-3">
+            <svg class="h-4 w-4 shrink-0 translate-y-0.5 text-core-orange" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z" /><circle cx="12" cy="10" r="2.5" /></svg>
+            {{ siteConfig.address }}
+          </span>
         </address>
         <div class="mt-5 flex gap-3">
           <a :href="siteConfig.social.linkedin" class="text-white/40 transition hover:text-white" aria-label="LinkedIn">
