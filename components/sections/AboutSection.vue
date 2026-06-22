@@ -15,8 +15,7 @@ const tabs = computed(() =>
 </script>
 
 <template>
-  <section id="nosotros" class="relative overflow-hidden bg-core-mist py-20 md:py-28">
-    <div class="absolute inset-0 bg-dot-grid opacity-50" aria-hidden="true" />
+  <section id="nosotros" class="relative overflow-hidden py-20 md:py-28">
     <div class="section-shell relative grid gap-12 md:grid-cols-[1.05fr_.95fr] md:items-start">
       <div v-reveal>
         <SectionHeading

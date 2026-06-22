@@ -7,8 +7,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section id="por-que-gct" class="relative overflow-hidden bg-white py-20 md:py-28">
-    <div class="absolute inset-0 mesh-backdrop" aria-hidden="true" />
+  <section id="por-que-gct" class="relative overflow-hidden py-20 md:py-28">
     <div class="section-shell relative grid gap-12 lg:gap-20 lg:grid-cols-[1.15fr_.85fr] lg:items-start">
       <div v-reveal>
         <SectionHeading

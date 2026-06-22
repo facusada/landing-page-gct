@@ -7,8 +7,7 @@ const localizedTo = useLocalizedTo()
 </script>
 
 <template>
-  <section id="pilares" class="relative overflow-hidden bg-core-mist py-20 md:py-28">
-    <div class="absolute inset-0 bg-dot-grid opacity-50" aria-hidden="true" />
+  <section id="pilares" class="relative overflow-hidden py-20 md:py-28">
     <div class="relative px-6 md:px-10 lg:px-16">
       <SectionHeading
         v-reveal

@@ -32,12 +32,17 @@ useSeoMeta({
 
 <template>
   <HeroSection />
-  <AboutSection />
-  <PillarsSection />
-  <FeaturedExpertiseSection />
-  <WhyGctSection />
-  <IndustriesSection />
-  <TrustSection />
-  <ClientsSection />
+  <div class="relative bg-white">
+    <div class="pointer-events-none absolute inset-0 landing-mesh" aria-hidden="true" />
+    <div class="relative">
+      <AboutSection />
+      <PillarsSection />
+      <FeaturedExpertiseSection />
+      <WhyGctSection />
+      <IndustriesSection />
+      <TrustSection />
+      <ClientsSection />
+    </div>
+  </div>
   <ContactCtaSection />
 </template>

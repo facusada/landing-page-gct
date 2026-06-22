@@ -6,8 +6,7 @@ const doubled = [...clientLogos, ...clientLogos]
 </script>
 
 <template>
-  <section id="clientes" class="relative overflow-hidden bg-core-mist py-16 md:py-20">
-    <div class="absolute inset-0 bg-dot-grid opacity-50" aria-hidden="true" />
+  <section id="clientes" class="relative overflow-hidden py-16 md:py-20">
 
     <div class="section-shell relative">
       <h2 v-reveal class="text-center font-display text-3xl font-extrabold md:text-5xl">{{ t('clients.title') }}</h2>
