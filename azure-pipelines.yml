@@ -9,7 +9,24 @@ pool:
 
 steps:
   - script: |
+      set -euo pipefail
       cd /etc/GlobalCore/landing-page
       git pull origin main
-      docker compose up --build -d
-    displayName: 'Deploy landing page'
+
+      # Archivos de entorno requeridos (gitignored, viven en el servidor).
+      # Ver .env.example y backend/.env.example para las claves necesarias.
+      missing=0
+      for f in .env backend/.env; do
+        if [ ! -f "$f" ]; then
+          echo "ERROR: falta '$f' en el servidor."
+          missing=1
+        fi
+      done
+      if [ "$missing" -ne 0 ]; then
+        echo "Crear los archivos de entorno faltantes y reintentar el deploy."
+        exit 1
+      fi
+
+      docker compose up --build -d --remove-orphans
+      docker image prune -f
+    displayName: 'Deploy landing page + API'
