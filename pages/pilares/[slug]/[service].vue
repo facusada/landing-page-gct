@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
 import ServiceIcon from '~/components/ui/ServiceIcon.vue'
@@ -154,17 +153,6 @@ useHead({
           <BaseButton :to="`/contacto?servicio=${serviceSlug}`">{{ t(`${base}.ctaPrimary`) }}</BaseButton>
           <BaseButton href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
         </div>
-
-        <dl class="mt-12 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
-          <AnimatedCounter
-            v-for="metric in service.metrics"
-            :key="metric.id"
-            :value="metric.numericValue"
-            :prefix="metric.prefix ?? ''"
-            :suffix="metric.suffix ?? ''"
-            :label="t(`${base}.metrics.${metric.id}`)"
-          />
-        </dl>
       </div>
     </section>
 
