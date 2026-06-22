@@ -38,7 +38,7 @@
   },
   "hero": {
     "eyebrow": "Seguridad · Operación · Transformación SAP",
-    "title": "Transformación, seguridad y operación inteligente de SAP",
+    "title": "Transformación, seguridad y operación inteligente",
     "description": "Ayudamos a las organizaciones a transformar, proteger, operar y optimizar sus ecosistemas SAP mediante gobierno, automatización e inteligencia impulsada por IA.",
     "primaryCta": "Agendá una evaluación estratégica",
     "secondaryCta": "Explorá nuestra experiencia",
@@ -66,7 +66,7 @@
     "title": "Donde las empresas más confían en nosotros",
     "items": {
       "security": {
-        "tag": "Pilar 02 · Proteger",
+        "tag": "Pilar · Proteger",
         "title": "Seguridad y gobierno SAP",
         "highlight": "La seguridad no es un complemento. Es la base de un ecosistema SAP resiliente.",
         "description": "Integramos controles de identidad, acceso y cumplimiento en todo tu entorno SAP, desde el diseño de roles hasta la monitorización continua.",
@@ -74,7 +74,7 @@
         "cta": "Explorá los servicios de seguridad"
       },
       "operations": {
-        "tag": "Pilar 03 · Operar",
+        "tag": "Pilar · Operar",
         "title": "Servicios gestionados SAP y BASIS NextGen",
         "highlight": "La operación tradicional de SAP está evolucionando.",
         "description": "Nuestro enfoque BASIS NextGen combina automatización, observabilidad, gobierno y operaciones inteligentes para mejorar la fiabilidad reduciendo el esfuerzo operativo.",
@@ -82,7 +82,7 @@
         "cta": "Descubrí BASIS NextGen"
       },
       "transformation": {
-        "tag": "Pilar 01 · Transformar",
+        "tag": "Pilar · Transformar",
         "title": "Transformación SAP S/4HANA",
         "highlight": "Transformá con confianza.",
         "description": "Modernizamos los entornos SAP mediante programas de transformación estructurados, evaluaciones de preparación para la migración y una ejecución basada en gobierno.",
@@ -90,7 +90,7 @@
         "cta": "Iniciá tu transformación"
       },
       "governance": {
-        "tag": "Pilar 04 · Gobernar",
+        "tag": "Pilar · Gobernar",
         "title": "Gobierno SAP y Clean Core",
         "highlight": "El gobierno no es burocracia. Es la diferencia entre un SAP que dura y uno que acumula deuda técnica.",
         "description": "Diseñamos marcos de gobierno que alinean la estrategia SAP con los objetivos del negocio, garantizando trazabilidad, cumplimiento y la capacidad de actualizar sin fricciones.",
@@ -98,7 +98,7 @@
         "cta": "Explorá el marco de gobierno"
       },
       "innovation": {
-        "tag": "Pilar 05 · Innovar",
+        "tag": "Pilar · Innovar",
         "title": "IA, Automatización y Plataformas Inteligentes",
         "highlight": "La IA no reemplaza a los equipos SAP. Los hace más efectivos.",
         "description": "Integramos inteligencia artificial, automatización BTP y plataformas propietarias como Intelliguard y Operations Intelligence para que tus operaciones SAP evolucionen hacia decisiones basadas en datos.",

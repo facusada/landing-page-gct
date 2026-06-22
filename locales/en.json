@@ -38,7 +38,7 @@
   },
   "hero": {
     "eyebrow": "SAP Security · Operations · Transformation",
-    "title": "Intelligent SAP Transformation, Security & Operations",
+    "title": "Intelligent Transformation, Security & Operations",
     "description": "Helping organizations transform, protect, operate and optimize their SAP ecosystems through governance, automation and AI-driven insights.",
     "primaryCta": "Schedule a Strategic Assessment",
     "secondaryCta": "Explore Our Expertise",
@@ -66,7 +66,7 @@
     "title": "Where Enterprises Rely on Us Most",
     "items": {
       "security": {
-        "tag": "Pillar 02 · Secure",
+        "tag": "Pillar · Secure",
         "title": "SAP Security & Governance",
         "highlight": "Security is not an add-on. It is the foundation of a resilient SAP ecosystem.",
         "description": "We embed identity, access and compliance controls across your SAP landscape — from role design to continuous monitoring.",
@@ -74,7 +74,7 @@
         "cta": "Explore Security Services"
       },
       "operations": {
-        "tag": "Pillar 03 · Operate",
+        "tag": "Pillar · Operate",
         "title": "SAP Managed Services & BASIS NextGen",
         "highlight": "Traditional SAP operations are evolving.",
         "description": "Our BASIS NextGen approach combines automation, observability, governance and intelligent operations to improve reliability while reducing operational effort.",
@@ -82,7 +82,7 @@
         "cta": "Discover BASIS NextGen"
       },
       "transformation": {
-        "tag": "Pillar 01 · Transform",
+        "tag": "Pillar · Transform",
         "title": "SAP S/4HANA Transformation",
         "highlight": "Transform with confidence.",
         "description": "We modernize SAP landscapes through structured transformation programs, migration readiness assessments and governance-driven execution.",
@@ -90,7 +90,7 @@
         "cta": "Start Your Transformation Journey"
       },
       "governance": {
-        "tag": "Pillar 04 · Govern",
+        "tag": "Pillar · Govern",
         "title": "SAP Governance & Clean Core",
         "highlight": "Governance is not bureaucracy. It's the difference between an SAP that lasts and one that accumulates technical debt.",
         "description": "We design governance frameworks that align SAP strategy with business objectives — ensuring traceability, compliance, and the ability to upgrade without friction.",
@@ -98,7 +98,7 @@
         "cta": "Explore the Governance Framework"
       },
       "innovation": {
-        "tag": "Pillar 05 · Innovate",
+        "tag": "Pillar · Innovate",
         "title": "AI, Automation & Intelligent Platforms",
         "highlight": "AI doesn't replace SAP teams. It makes them more effective.",
         "description": "We integrate artificial intelligence, BTP automation, and proprietary platforms like Intelliguard and Operations Intelligence so your SAP operations evolve toward data-driven decisions.",

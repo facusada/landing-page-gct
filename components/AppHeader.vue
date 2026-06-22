@@ -62,7 +62,6 @@ const availableLocales = computed(() =>
                   class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-bold text-core-ink/80 transition hover:bg-core-mist hover:text-core-orange"
                   @click="openDropdown = null"
                 >
-                  <span v-if="child.index" class="font-display text-xs font-extrabold text-core-orange/45">{{ child.index }}</span>
                   {{ t(child.labelKey) }}
                 </NuxtLink>
               </div>

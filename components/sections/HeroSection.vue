@@ -2,6 +2,7 @@
 import AnimatedCounter from '~/components/ui/AnimatedCounter.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
+import logoSapPartner from '~/assets/Logo_SAP_Partner.png'
 import { heroMetrics } from '~/data/landing'
 
 const { t } = useI18n()
@@ -27,9 +28,10 @@ useHead({
 
         <!-- Text content -->
         <div class="drop-shadow-[0_10px_24px_rgba(0,0,0,0.35)]">
-          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 backdrop-blur-sm">
-            <span class="h-2 w-2 rounded-full bg-core-orange" />
-            <span class="text-sm font-bold text-white/90">{{ t('hero.eyebrow') }}</span>
+          <div class="mb-6 inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 backdrop-blur-sm">
+            <span class="h-2 w-2 shrink-0 rounded-full bg-core-orange" />
+            <span class="text-sm font-bold text-white/90">SAP Silver Partner</span>
+            <img :src="logoSapPartner" alt="SAP Silver Partner" class="h-6 w-auto rounded-sm" />
           </div>
 
           <h1 class="font-display text-4xl font-extrabold leading-[1.02] md:text-6xl">
