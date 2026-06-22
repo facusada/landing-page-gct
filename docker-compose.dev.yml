@@ -1,0 +1,38 @@
+# Entorno de desarrollo / test.
+# Levanta MailHog (SMTP falso) + el backend apuntado a él.
+# Los emails NO se envían: quedan capturados y visibles en http://localhost:8025
+#
+#   docker compose -f docker-compose.dev.yml up --build
+#
+services:
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: gct-mailhog
+    ports:
+      - "1025:1025" # SMTP
+      - "8025:8025" # Web UI — http://localhost:8025
+    restart: unless-stopped
+
+  landing-api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: global-core-technologies-landing-api:dev
+    container_name: gct-landing-api-dev
+    ports:
+      - "8000:8000"
+    environment:
+      APP_ENV: development
+      SMTP_HOST: mailhog
+      SMTP_PORT: 1025
+      SMTP_USER: ""
+      SMTP_PASSWORD: ""
+      SMTP_USE_TLS: "false"
+      SMTP_USE_SSL: "false"
+      MAIL_FROM: no-reply@gctechs.com
+      MAIL_FROM_NAME: Global Core Technologies
+      MAIL_TO: info@gctechs.com
+      ALLOWED_ORIGINS: "http://localhost:3000"
+    depends_on:
+      - mailhog
+    restart: unless-stopped

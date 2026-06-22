@@ -16,3 +16,10 @@ npm-debug.log*
 .claude/projects/
 .claude/cache/
 .claude/history.jsonl
+
+# Python backend
+backend/.venv
+backend/venv
+**/__pycache__/
+*.pyc
+.pytest_cache/
