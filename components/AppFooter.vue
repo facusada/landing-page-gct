@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import logoSapPartner from '~/assets/Logo_SAP_Partner.png'
 import { services } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
@@ -24,6 +25,7 @@ const localizedTo = useLocalizedTo()
         <div class="mt-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-bold text-white/80">
           <span class="h-1.5 w-1.5 rounded-full bg-core-orange" />
           {{ t('footer.sapPartner') }}
+          <img :src="logoSapPartner" alt="SAP Silver Partner" class="h-5 w-auto rounded-sm" />
         </div>
       </div>
 

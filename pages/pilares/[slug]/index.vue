@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
+import StickyContextBar from '~/components/ui/StickyContextBar.vue'
 import { findL3ServiceByKey, pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
@@ -43,6 +44,12 @@ const otherPillars = pillars.filter(p => p.id !== slug)
 
 <template>
   <div v-if="pillar">
+    <StickyContextBar
+      :label="t('pillarDetail.eyebrow', { index: pillar.index })"
+      :sublabel="title"
+      :back-to="localizedTo('/')"
+      :back-label="t('breadcrumb.home')"
+    />
     <!-- Hero -->
     <section
       class="relative isolate overflow-hidden py-16 text-white md:py-24"
@@ -55,15 +62,9 @@ const otherPillars = pillars.filter(p => p.id !== slug)
       <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <div v-else class="absolute inset-0 bg-core-ink/80" />
+      <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
       <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
       <div class="section-shell relative">
-        <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-          <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
-          <span class="mx-2">/</span>
-          <span class="text-white/90">{{ t('pillarDetail.breadcrumb') }}</span>
-          <span class="mx-2">/</span>
-          <span class="text-white/90">{{ title }}</span>
-        </nav>
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">
           {{ t('pillarDetail.eyebrow', { index: pillar.index }) }}
         </p>
@@ -74,6 +75,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
           {{ description }}
         </p>
       </div>
+      <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
     </section>
 
     <!-- Services grid -->

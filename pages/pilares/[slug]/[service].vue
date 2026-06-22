@@ -2,6 +2,7 @@
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
 import ServiceIcon from '~/components/ui/ServiceIcon.vue'
+import StickyContextBar from '~/components/ui/StickyContextBar.vue'
 import { findL3Service, findL3ServiceByKey, pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
@@ -120,6 +121,12 @@ useHead({
 
 <template>
   <div v-if="service">
+    <StickyContextBar
+      :label="pillarTitle"
+      :sublabel="t(`pillarDetail.items.${pillarSlug}.${service.key}.title`)"
+      :back-to="localizedTo(`/pilares/${pillarSlug}`)"
+      :back-label="pillarTitle"
+    />
     <!-- 1. Hero -->
     <section
       class="relative isolate overflow-hidden py-16 text-white md:py-24"
@@ -133,14 +140,6 @@ useHead({
       <div v-else class="absolute inset-0 bg-core-ink/85" />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
-        <nav class="mb-8 text-sm text-white/60" aria-label="Breadcrumb">
-          <NuxtLink :to="localizedTo('/')" class="hover:text-white">{{ t('breadcrumb.home') }}</NuxtLink>
-          <span class="mx-2">/</span>
-          <NuxtLink :to="localizedTo(`/pilares/${pillarSlug}`)" class="hover:text-white">{{ pillarTitle }}</NuxtLink>
-          <span class="mx-2">/</span>
-          <span class="text-white/90">{{ t(`pillarDetail.items.${pillarSlug}.${service.key}.title`) }}</span>
-        </nav>
-
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">{{ eyebrow }}</p>
         <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl">
           {{ h1 }}
@@ -154,10 +153,11 @@ useHead({
           <BaseButton href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
         </div>
       </div>
+      <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
     </section>
 
     <!-- 2. Problem -->
-    <section class="bg-core-mist py-16 md:py-24">
+    <section id="s-problem" class="bg-core-mist py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal>
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.problem') }}</p>
@@ -185,7 +185,7 @@ useHead({
     </section>
 
     <!-- 3. How We Help -->
-    <section class="bg-white py-16 md:py-24">
+    <section id="s-how" class="bg-white py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.howWeHelp') }}</p>
@@ -211,7 +211,7 @@ useHead({
     </section>
 
     <!-- 4. Business Benefits -->
-    <section class="bg-core-mist py-16 md:py-24">
+    <section id="s-benefits" class="bg-core-mist py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.benefits') }}</p>
@@ -240,7 +240,7 @@ useHead({
     </section>
 
     <!-- 5. Methodology -->
-    <section class="bg-white py-16 md:py-24">
+    <section id="s-methodology" class="bg-white py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.methodology') }}</p>
@@ -266,6 +266,7 @@ useHead({
     </section>
 
     <!-- 6. Why GCT -->
+
     <section class="bg-core-mist py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
