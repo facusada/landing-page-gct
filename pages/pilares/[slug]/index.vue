@@ -130,7 +130,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
         </div>
 
         <div v-reveal="{ delay: 200 }" class="mt-12">
-          <BaseButton to="/contacto">
+          <BaseButton :to="`/contacto?servicio=${pillar.relatedSlug}`">
             {{ t('pillarDetail.contactCta') }}
           </BaseButton>
         </div>

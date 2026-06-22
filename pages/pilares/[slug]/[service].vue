@@ -149,7 +149,7 @@ useHead({
         </p>
 
         <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-          <BaseButton :to="`/contacto?servicio=${serviceSlug}`">{{ t(`${base}.ctaPrimary`) }}</BaseButton>
+          <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`">{{ t(`${base}.ctaPrimary`) }}</BaseButton>
           <BaseButton href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
         </div>
       </div>
@@ -307,7 +307,7 @@ useHead({
             <p class="mt-4 max-w-2xl text-lg leading-8 text-white/75">{{ t(`${base}.leadMagnet.description`) }}</p>
           </div>
           <div class="lg:justify-self-end">
-            <BaseButton :to="`/contacto?servicio=${serviceSlug}&recurso=guia-s4hana`" class="w-full text-center">
+            <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}&recurso=guia-s4hana`" class="w-full text-center">
               {{ t(`${base}.leadMagnet.cta`) }}
             </BaseButton>
           </div>
@@ -354,7 +354,7 @@ useHead({
           {{ t(`${base}.finalCta.description`) }}
         </p>
         <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-          <BaseButton :to="`/contacto?servicio=${serviceSlug}`">{{ t(`${base}.finalCta.ctaPrimary`) }}</BaseButton>
+          <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`">{{ t(`${base}.finalCta.ctaPrimary`) }}</BaseButton>
           <BaseButton :to="`/pilares/${pillarSlug}`" variant="secondary">{{ t(`${base}.finalCta.ctaSecondary`) }}</BaseButton>
         </div>
       </div>
