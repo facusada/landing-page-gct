@@ -442,8 +442,8 @@ export const technologyPillars: TechnologyPillar[] = [
 
 export const clientLogos: ClientLogo[] = [
   { name: 'Tecnoperfiles Sustentable', src: '/clients/tecnoperfiles.jpg', width: 458, height: 110 },
-  { name: 'Tenaris', src: '/clients/tenaris.png', width: 600, height: 600 },
-  { name: 'Haleon', src: '/clients/haleon.jpg', width: 736, height: 736 },
+  { name: 'Tenaris', src: '/clients/tenaris.png', width: 600, height: 600, prominent: true },
+  { name: 'Haleon', src: '/clients/haleon.jpg', width: 736, height: 736, prominent: true },
   { name: 'Mercado Libre', src: '/clients/mercado-libre.png', width: 3500, height: 860 },
   { name: 'Pan American Energy', src: '/clients/pan-american-energy.png', width: 324, height: 130 },
   { name: 'COFCO', src: '/clients/cofco.png', width: 280, height: 92 },

@@ -25,7 +25,7 @@ const localizedTo = useLocalizedTo()
           v-tilt
           v-reveal="{ delay: Math.min(index * 110, 440), distance: 38, duration: 820 }"
           :style="{ backgroundImage: `url('${pillar.image}')`, backgroundPosition: pillar.bgPosition ?? 'center' }"
-          class="group relative h-[300px] overflow-hidden rounded-xl border border-core-line bg-white bg-contain bg-center bg-no-repeat transition duration-200 hover:-translate-y-1 hover:shadow-lift"
+          class="group relative h-[300px] overflow-hidden rounded-xl border border-core-line bg-core-ink bg-cover bg-center transition duration-200 hover:-translate-y-1 hover:shadow-lift"
         >
           <!-- bottom gradient for description readability -->
           <div class="absolute inset-x-0 bottom-0 h-[45%] bg-gradient-to-t from-core-ink/90 via-core-ink/50 to-transparent" />

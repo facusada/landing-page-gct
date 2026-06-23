@@ -109,14 +109,14 @@ body {
    Soft blobs distributed vertically so there is no visible seam between sections. */
 .landing-mesh {
   background:
-    radial-gradient(34% 14% at 14% 5%, rgba(96, 106, 244, 0.20), transparent 72%),
-    radial-gradient(32% 13% at 86% 13%, rgba(47, 184, 212, 0.18), transparent 72%),
-    radial-gradient(30% 12% at 50% 24%, rgba(241, 125, 48, 0.12), transparent 72%),
-    radial-gradient(34% 14% at 12% 40%, rgba(47, 184, 212, 0.16), transparent 72%),
-    radial-gradient(32% 13% at 88% 50%, rgba(96, 106, 244, 0.18), transparent 72%),
-    radial-gradient(30% 12% at 46% 62%, rgba(241, 125, 48, 0.11), transparent 72%),
-    radial-gradient(34% 14% at 16% 76%, rgba(96, 106, 244, 0.18), transparent 72%),
-    radial-gradient(32% 13% at 84% 86%, rgba(47, 184, 212, 0.16), transparent 72%),
-    radial-gradient(30% 12% at 52% 96%, rgba(241, 125, 48, 0.12), transparent 72%);
+    radial-gradient(40% 18% at 14% 5%, rgba(96, 106, 244, 0.38), transparent 72%),
+    radial-gradient(38% 17% at 86% 13%, rgba(47, 184, 212, 0.34), transparent 72%),
+    radial-gradient(36% 16% at 50% 24%, rgba(241, 125, 48, 0.24), transparent 72%),
+    radial-gradient(40% 18% at 12% 40%, rgba(47, 184, 212, 0.30), transparent 72%),
+    radial-gradient(38% 17% at 88% 50%, rgba(96, 106, 244, 0.34), transparent 72%),
+    radial-gradient(36% 16% at 46% 62%, rgba(241, 125, 48, 0.22), transparent 72%),
+    radial-gradient(40% 18% at 16% 76%, rgba(96, 106, 244, 0.34), transparent 72%),
+    radial-gradient(38% 17% at 84% 86%, rgba(47, 184, 212, 0.30), transparent 72%),
+    radial-gradient(36% 16% at 52% 96%, rgba(241, 125, 48, 0.24), transparent 72%);
 }
 

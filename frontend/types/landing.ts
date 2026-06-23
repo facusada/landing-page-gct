@@ -119,6 +119,7 @@ export interface ClientLogo {
   width?: number
   height?: number
   tone?: 'light' | 'dark'
+  prominent?: boolean
 }
 
 export interface TabItem {

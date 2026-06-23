@@ -26,7 +26,7 @@ const doubled = [...clientLogos, ...clientLogos]
         >
           <img
             v-if="client.src"
-            class="max-h-14 w-full max-w-[9rem] object-contain"
+            :class="['w-full object-contain', client.prominent ? 'max-h-20 max-w-[7rem]' : 'max-h-14 max-w-[9rem]']"
             :src="client.src"
             :alt="t('clients.logoAlt', { name: client.name })"
             :width="client.width"

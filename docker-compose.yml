@@ -14,6 +14,12 @@ services:
       HOST: 0.0.0.0
       PORT: ${PORT:-3000}
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:${PORT:-3000}/ >/dev/null 2>&1 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
     networks:
       - nginx_red_compartida
 

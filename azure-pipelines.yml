@@ -27,6 +27,18 @@ steps:
         exit 1
       fi
 
-      docker compose up --build -d --remove-orphans
+      # --wait: no devuelve hasta que el contenedor pasa el healthcheck.
+      # Mantiene la versión vieja sirviendo hasta que la nueva está lista (sin downtime de deploy).
+      docker compose up --build -d --wait --remove-orphans
+
+      # Opción 1 — estáticos servidos por nginx.
+      # Extraemos .output/public a un directorio del host que nginx sirve por bind-mount.
+      # Así los logos/_nuxt siguen disponibles aunque el contenedor Nuxt se reinicie o crashee.
+      # docker cp hace merge sobre el destino: sobreescribe lo cambiado y conserva los
+      # assets hasheados viejos (clientes con HTML cacheado siguen pudiendo cargar sus chunks).
+      STATIC_DIR=/etc/GlobalCore/landing-static
+      mkdir -p "$STATIC_DIR"
+      docker cp gct-landing:/app/.output/public/. "$STATIC_DIR/"
+
       docker image prune -f
     displayName: 'Deploy landing page + API'
