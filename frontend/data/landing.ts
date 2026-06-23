@@ -448,7 +448,7 @@ export const clientLogos: ClientLogo[] = [
   { name: 'Pan American Energy', src: '/clients/pan-american-energy.png', width: 324, height: 130 },
   { name: 'COFCO', src: '/clients/cofco.png', width: 280, height: 92 },
   { name: 'Molinos', src: '/clients/molinos.png', width: 628, height: 393 },
-  { name: 'Travel Rock', src: '/clients/travel-rock.png', width: 204, height: 192 },
+  { name: 'Travel Rock', src: '/clients/travel-rock.png', width: 204, height: 192, prominent: true },
   { name: 'Exolgan Container Terminal', src: '/clients/exolgan.png', width: 177, height: 145 },
   { name: 'Aeropuertos Argentina', src: '/clients/aeropuertos-argentina.png', width: 428, height: 100 },
   { name: 'Hospital Universitario Austral', src: '/clients/hospital-universitario-austral.png', width: 1242, height: 381 }
