@@ -20,8 +20,7 @@ const doubled = [...clientLogos, ...clientLogos]
         <figure
           v-for="(client, index) in doubled"
           :key="`${client.name}-${index}`"
-          class="grid h-28 w-48 flex-shrink-0 place-items-center rounded-xl border border-core-line px-5 py-5 transition duration-200 hover:border-core-orange/50 hover:shadow-lift"
-          :class="client.tone === 'dark' ? 'bg-core-ink' : 'bg-white'"
+          class="grid h-28 w-48 flex-shrink-0 place-items-center"
           :aria-hidden="index >= clientLogos.length ? 'true' : undefined"
         >
           <img
