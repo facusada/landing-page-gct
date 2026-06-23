@@ -61,9 +61,6 @@ const chipsFor = (id: string): string[] =>
 
           <div :class="item.flip ? 'lg:order-1' : ''">
             <div class="relative mx-auto max-w-[420px] overflow-hidden rounded-xl border border-white/10 bg-core-ink p-4 shadow-premium md:p-6">
-              <div class="absolute inset-0 bg-core-grid bg-[size:42px_42px]" aria-hidden="true" />
-              <div class="absolute inset-0 bg-hero-radial opacity-40" aria-hidden="true" />
-
               <!-- Security: shield + control board -->
               <img v-if="item.id === 'security'" src="~/assets/cards_pilars/files_3/secure.png" class="relative h-auto w-full" :alt="t(`featured.items.${item.id}.title`)" />
 
