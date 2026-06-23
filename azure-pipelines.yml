@@ -38,10 +38,9 @@ steps:
       # assets hasheados viejos (clientes con HTML cacheado siguen pudiendo cargar sus chunks).
       STATIC_DIR=/etc/GlobalCore/landing-static
       mkdir -p "$STATIC_DIR"
+      # Remover directorio de estáticos antiguo para evitar conflictos de permisos
+      rm -rf "$STATIC_DIR/_nuxt" "$STATIC_DIR/logos"
       docker cp gct-landing:/app/.output/public/. "$STATIC_DIR/"
-
-      # Asegurar permisos para que nginx pueda servir los archivos
-      chmod -R 755 "$STATIC_DIR" || true
 
       docker image prune -f
     displayName: 'Deploy landing page + API'
