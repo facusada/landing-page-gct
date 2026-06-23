@@ -40,5 +40,8 @@ steps:
       mkdir -p "$STATIC_DIR"
       docker cp gct-landing:/app/.output/public/. "$STATIC_DIR/"
 
+      # Asegurar permisos para que nginx pueda servir los archivos
+      chmod -R 755 "$STATIC_DIR" || true
+
       docker image prune -f
     displayName: 'Deploy landing page + API'
