@@ -27,6 +27,6 @@ EXPOSE 3000
 # Health check: el contenedor sólo se marca "healthy" cuando Nuxt responde.
 # El deploy usa `--wait` para no cortar la versión vieja hasta que la nueva esté lista.
 HEALTHCHECK --interval=30s --timeout=5s --start-period=40s --retries=3 \
-  CMD wget -qO- "http://localhost:${PORT:-3000}/" >/dev/null 2>&1 || exit 1
+  CMD wget -qO- "http://127.0.0.1:${PORT:-3000}/" >/dev/null 2>&1 || exit 1
 
 CMD ["node", ".output/server/index.mjs"]
