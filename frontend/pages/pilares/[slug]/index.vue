@@ -52,7 +52,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
     />
     <!-- Hero -->
     <section
-      class="relative isolate overflow-hidden py-16 text-white md:py-24"
+      class="relative isolate overflow-hidden py-16 text-white md:py-32"
       :class="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate' ? 'bg-[#060e18]' : 'bg-core-ink'"
       :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
@@ -79,7 +79,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
     </section>
 
     <!-- Services grid -->
-    <section class="bg-white py-16 md:py-24">
+    <section class="bg-section-light py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="mb-12">
           <h2 class="font-display text-3xl font-extrabold text-core-ink">
@@ -96,7 +96,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
               v-if="item.to"
               :to="localizedTo(item.to)"
               v-reveal="{ delay: Math.min(index * 90, 360), distance: 30, duration: 760 }"
-              class="group flex h-full flex-col rounded-xl border border-core-line bg-core-mist p-6 transition duration-200 hover:-translate-y-0.5 hover:border-core-orange/40 hover:shadow-lift"
+              class="group flex h-full flex-col rounded-xl border border-core-line bg-white/30 p-6 transition duration-200 hover:-translate-y-0.5 hover:border-core-orange/40 hover:shadow-lift"
             >
               <div class="mb-1 flex items-center gap-2">
                 <span class="shrink-0 font-display text-xs font-extrabold text-core-orange/60">{{ String(index + 1).padStart(2, '0') }}</span>
@@ -114,7 +114,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
             <div
               v-else
               v-reveal="{ delay: Math.min(index * 90, 360), distance: 30, duration: 760 }"
-              class="rounded-xl border border-core-line bg-core-mist p-6"
+              class="rounded-xl border border-core-line bg-white/30 p-6"
             >
               <div class="mb-1 flex items-center gap-2">
                 <span class="shrink-0 font-display text-xs font-extrabold text-core-orange/60">{{ String(index + 1).padStart(2, '0') }}</span>
@@ -138,7 +138,7 @@ const otherPillars = pillars.filter(p => p.id !== slug)
     </section>
 
     <!-- Other pillars -->
-    <section class="bg-core-mist py-16 md:py-20">
+    <section class="bg-white/30 py-16 md:py-20">
       <div class="section-shell">
         <h2 v-reveal class="text-center font-display text-2xl font-extrabold text-core-ink">
           {{ t('pillars.eyebrow') }}

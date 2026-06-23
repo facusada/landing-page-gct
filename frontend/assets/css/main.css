@@ -120,3 +120,8 @@ body {
     radial-gradient(36% 16% at 52% 96%, rgba(241, 125, 48, 0.24), transparent 72%);
 }
 
+/* Light section background with soft purple to cyan gradient */
+.bg-section-light {
+  background: linear-gradient(135deg, #e8e4ff 0%, #f0f9ff 50%, #dffcf0 100%);
+}
+

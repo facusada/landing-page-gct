@@ -129,7 +129,7 @@ useHead({
     />
     <!-- 1. Hero -->
     <section
-      class="relative isolate overflow-hidden py-16 text-white md:py-24"
+      class="relative isolate overflow-hidden py-16 text-white md:py-32"
       :class="heroBgSrc ? 'bg-[#060e18]' : 'bg-core-ink'"
       :style="!heroBgSrc ? { backgroundImage: `url('${service.image}')`, backgroundSize: 'cover', backgroundPosition: service.bgPosition ?? pillar?.bgPosition ?? 'center' } : undefined"
     >
@@ -157,7 +157,7 @@ useHead({
     </section>
 
     <!-- 2. Problem -->
-    <section id="s-problem" class="bg-core-mist py-16 md:py-24">
+    <section id="s-problem" class="bg-white/30 py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal>
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.problem') }}</p>
@@ -185,7 +185,7 @@ useHead({
     </section>
 
     <!-- 3. How We Help -->
-    <section id="s-how" class="bg-white py-16 md:py-24">
+    <section id="s-how" class="bg-section-light py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.howWeHelp') }}</p>
@@ -200,7 +200,7 @@ useHead({
             v-for="(item, index) in howItems"
             :key="item.title"
             v-reveal="{ delay: Math.min(index * 90, 360), distance: 30 }"
-            class="rounded-xl border border-core-line bg-core-mist p-6 transition duration-200 hover:-translate-y-0.5 hover:border-core-orange/40 hover:shadow-lift"
+            class="rounded-xl border border-core-line bg-white/30 p-6 transition duration-200 hover:-translate-y-0.5 hover:border-core-orange/40 hover:shadow-lift"
           >
             <span class="font-display text-xs font-extrabold text-core-orange/60">{{ String(index + 1).padStart(2, '0') }}</span>
             <h3 class="mt-1 font-display text-lg font-extrabold leading-snug text-core-ink">{{ item.title }}</h3>
@@ -211,7 +211,7 @@ useHead({
     </section>
 
     <!-- 4. Business Benefits -->
-    <section id="s-benefits" class="bg-core-mist py-16 md:py-24">
+    <section id="s-benefits" class="bg-white/30 py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.benefits') }}</p>
@@ -240,7 +240,7 @@ useHead({
     </section>
 
     <!-- 5. Methodology -->
-    <section id="s-methodology" class="bg-white py-16 md:py-24">
+    <section id="s-methodology" class="bg-section-light py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.methodology') }}</p>
@@ -255,7 +255,7 @@ useHead({
             v-for="(phase, index) in methodologyPhases"
             :key="phase.name"
             v-reveal="{ delay: Math.min(index * 90, 400), distance: 24 }"
-            class="relative rounded-xl border border-core-line bg-core-mist p-5"
+            class="relative rounded-xl border border-core-line bg-white/30 p-5"
           >
             <span class="font-display text-2xl font-extrabold text-core-orange">{{ String(index + 1).padStart(2, '0') }}</span>
             <h3 class="mt-2 font-display text-lg font-extrabold text-core-ink">{{ phase.name }}</h3>
@@ -267,7 +267,7 @@ useHead({
 
     <!-- 6. Why GCT -->
 
-    <section class="bg-core-mist py-16 md:py-24">
+    <section class="bg-white/30 py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.whyGct') }}</p>
@@ -316,7 +316,7 @@ useHead({
     </section>
 
     <!-- 8. Related services -->
-    <section class="bg-white py-16 md:py-20">
+    <section class="bg-section-light py-16 md:py-20">
       <div class="section-shell">
         <h2 v-reveal class="font-display text-2xl font-extrabold text-core-ink md:text-3xl">
           {{ t('serviceDetail.labels.related') }}
@@ -327,7 +327,7 @@ useHead({
             :key="item.key"
             :to="localizedTo(item.to)"
             v-reveal="{ delay: Math.min(index * 80, 320), distance: 24 }"
-            class="group flex h-full flex-col rounded-xl border border-core-line bg-core-mist p-5 transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-lift"
+            class="group flex h-full flex-col rounded-xl border border-core-line bg-white/30 p-5 transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-lift"
           >
             <h3 class="font-display text-base font-extrabold text-core-ink">
               {{ t(`pillarDetail.items.${pillarSlug}.${item.key}.title`) }}

@@ -97,7 +97,7 @@ const otherServices = services.filter(s => s.slug !== slug)
       </div>
     </section>
 
-    <section class="bg-white py-16 md:py-24">
+    <section class="bg-section-light py-16 md:py-24">
       <div class="section-shell grid gap-16 lg:grid-cols-[1.2fr_.8fr]">
         <div>
           <div v-reveal>
@@ -121,7 +121,7 @@ const otherServices = services.filter(s => s.slug !== slug)
         </div>
 
         <div>
-          <div v-reveal="{ delay: 200 }" class="sticky top-28 rounded-xl border border-core-line bg-core-mist p-8">
+          <div v-reveal="{ delay: 200 }" class="sticky top-28 rounded-xl border border-core-line bg-white/30 p-8">
             <h3 class="font-display text-xl font-extrabold text-core-ink">{{ t('services.detail.sectionBenefits') }}</h3>
             <ul class="mt-5 grid gap-3">
               <li v-for="benefit in benefits" :key="benefit" class="flex items-start gap-3 text-slate-700">
@@ -139,7 +139,7 @@ const otherServices = services.filter(s => s.slug !== slug)
       </div>
     </section>
 
-    <section class="bg-core-mist py-16 md:py-20">
+    <section class="bg-white/30 py-16 md:py-20">
       <div class="section-shell">
         <h2 v-reveal class="text-center font-display text-3xl font-extrabold text-core-ink">
           {{ t('services.detail.sectionOther') }}
@@ -152,7 +152,7 @@ const otherServices = services.filter(s => s.slug !== slug)
             v-reveal="{ delay: 100, distance: 30 }"
             class="group rounded-xl border border-core-line bg-white p-5 transition duration-200 hover:-translate-y-1 hover:border-core-orange/50 hover:shadow-lift"
           >
-            <div class="mb-3 flex h-10 w-10 items-center justify-center rounded-md bg-core-mist text-core-orange">
+            <div class="mb-3 flex h-10 w-10 items-center justify-center rounded-md bg-white/30 text-core-orange">
               <ServiceIcon :name="other.icon" :size="20" />
             </div>
             <h3 class="font-display text-lg font-extrabold text-core-ink">{{ t(`services.items.${other.slug}.title`) }}</h3>

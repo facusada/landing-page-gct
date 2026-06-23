@@ -110,8 +110,8 @@ useHead({
     </section>
 
     <!-- ¿Qué es? -->
-    <section class="relative overflow-hidden bg-white py-20 md:py-28">
-      <div class="absolute inset-0 bg-dot-grid opacity-60" aria-hidden="true" />
+    <section class="relative overflow-hidden bg-section-light py-20 md:py-28">
+      <div class="absolute inset-0 opacity-60" aria-hidden="true" />
       <div class="section-shell relative grid gap-16 lg:grid-cols-2 lg:items-center">
         <div v-reveal>
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('solutionsPage.whatIs') }}</p>
@@ -200,8 +200,8 @@ useHead({
     </section>
 
     <!-- CTA -->
-    <section class="relative overflow-hidden bg-white py-20 md:py-24">
-      <div class="absolute inset-0 bg-dot-grid opacity-60" aria-hidden="true" />
+    <section class="relative overflow-hidden bg-section-light py-20 md:py-24">
+      <div class="absolute inset-0 opacity-60" aria-hidden="true" />
       <div v-reveal class="section-shell relative max-w-3xl text-center mx-auto">
         <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('solutionsPage.ctaEyebrow') }}</p>
         <h2 class="mt-3 font-display text-4xl font-extrabold leading-tight text-core-ink md:text-5xl">
