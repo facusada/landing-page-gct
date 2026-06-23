@@ -29,11 +29,27 @@ navegador ──> nginx ──┬─> gct-landing:<port>        (sitio)
 1. `git pull origin main`
 2. Verifica que existan los archivos de entorno (`.env` y `backend/.env`).
    Si falta alguno, corta con un error claro (no deja el deploy a medias).
-3. `docker compose up --build -d --remove-orphans`
-4. `docker image prune -f` (limpia imágenes colgadas).
+3. `docker compose up --build -d --wait --remove-orphans`
+   El flag `--wait` espera a que el contenedor pase el healthcheck antes de
+   devolver: la versión vieja sigue sirviendo hasta que la nueva está lista.
+4. `docker cp gct-landing:/app/.output/public/.` → `/etc/GlobalCore/landing-static`
+   Extrae los estáticos al host para que **nginx los sirva directamente**.
+5. `docker image prune -f` (limpia imágenes colgadas).
 
 No hay que correr nada a mano salvo el setup inicial de los archivos de
-entorno (abajo), que viven en el servidor y son gitignored.
+entorno y de nginx (abajo), que viven en el servidor.
+
+## Estáticos servidos por nginx (logos, _nuxt, etc.)
+
+Antes, **todos** los assets (logos de clientes, JS/CSS hasheado de Nuxt) los
+servía el contenedor Node. Si ese contenedor se reiniciaba o crasheaba (deploy,
+OOM), los assets quedaban temporalmente inaccesibles y se veían rotos de forma
+intermitente.
+
+Ahora el deploy copia `.output/public` a `/etc/GlobalCore/landing-static` en el
+host, y **nginx sirve los archivos desde ahí**. Si existe el archivo, lo
+entrega nginx (rápido, y disponible aunque Nuxt esté caído); si no existe (rutas
+SSR), cae al proxy hacia Nuxt. Ver el bloque de config nginx más abajo.
 
 ## Setup inicial en el servidor (una sola vez)
 
@@ -79,20 +95,59 @@ y TLS/SSL según el proveedor; ver la sección "MODO PRODUCCIÓN" en
 `backend/.env.example`). Sin esto, los mensajes quedan atrapados en MailHog
 y no llegan a la casilla real.
 
-### 3. nginx — ruteo de la API
+### 3. nginx — ruteo de la API + estáticos
 
-En el `server` de `landing.gctechs.com`, agregar un location para la API:
+nginx corre como contenedor en la red `nginx_red_compartida`. Necesita dos
+cosas: (a) ver el directorio de estáticos del host por bind-mount, y (b) los
+location blocks que sirven los estáticos y rutean la API.
+
+**(a) Bind-mount del directorio de estáticos en el contenedor nginx.**
+En la definición del contenedor nginx (su propio `docker-compose.yml` o el
+`docker run`, fuera de este repo) agregar el volumen de sólo lectura:
+
+```yaml
+volumes:
+  - /etc/GlobalCore/landing-static:/usr/share/nginx/landing-static:ro
+```
+
+Recrear el contenedor nginx para que tome el volumen (`docker compose up -d`
+en el proyecto de nginx, o `docker run` con el `-v ...:ro` agregado).
+
+**(b) Config del `server` de `landing.gctechs.com`:**
 
 ```nginx
+# API → backend FastAPI (SIN barra final: preserva /api/...)
 location /api/ {
-    proxy_pass http://gct-landing-api:8000;   # SIN barra final: preserva /api/...
+    proxy_pass http://gct-landing-api:8000;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+}
+
+# Assets hasheados de Nuxt → servidos por nginx, cache larga e inmutable
+location /_nuxt/ {
+    root /usr/share/nginx/landing-static;
+    expires 1y;
+    add_header Cache-Control "public, immutable";
+    access_log off;
+}
+
+# Resto: si el archivo existe en disco (logos, favicon, og-image), lo sirve
+# nginx; si no (rutas SSR como /en, /servicios/...), cae al proxy hacia Nuxt.
+location / {
+    root /usr/share/nginx/landing-static;
+    try_files $uri @ssr;
+}
+
+location @ssr {
+    proxy_pass http://gct-landing:3000;
     proxy_set_header Host $host;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header X-Forwarded-Proto $scheme;
 }
 ```
 
-Recargar nginx luego de validar: `nginx -t && nginx -s reload`.
+Validar y recargar: `nginx -t && nginx -s reload`.
 
 ## Verificación post-deploy
 

@@ -131,7 +131,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'sapSecurity',
     slug: 'sap-security',
     icon: 'security',
-    image: '/pillars/02_secure.png',
+    image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics,
     platformLink: '/plataformas/intelliguard'
   },
@@ -140,7 +140,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'rbac',
     slug: 'sap-rbac',
     icon: 'security',
-    image: '/pillars/02_secure.png',
+    image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics
   },
   {
@@ -148,7 +148,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'sod',
     slug: 'sap-segregation-of-duties',
     icon: 'security',
-    image: '/pillars/02_secure.png',
+    image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics
   },
   {
@@ -156,7 +156,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'sapGrc',
     slug: 'sap-grc',
     icon: 'implementation',
-    image: '/pillars/02_secure.png',
+    image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics,
     platformLink: '/plataformas/intelliguard'
   },
@@ -165,7 +165,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'complianceMonitoring',
     slug: 'sap-compliance-monitoring',
     icon: 'performance',
-    image: '/pillars/02_secure.png',
+    image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics
   },
   {
@@ -173,7 +173,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'securityManagedServices',
     slug: 'sap-security-managed-services',
     icon: 'managed',
-    image: '/pillars/02_secure.png',
+    image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics,
     platformLink: '/plataformas/intelliguard'
   },
@@ -183,7 +183,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'governanceAdvisory',
     slug: 'sap-governance-advisory',
     icon: 'implementation',
-    image: '/pillars/03_govern.png',
+    image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -195,7 +195,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'migrationGovernance',
     slug: 'sap-program-governance',
     icon: 'managed',
-    image: '/pillars/03_govern.png',
+    image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -207,7 +207,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'compliance',
     slug: 'sap-compliance',
     icon: 'security',
-    image: '/pillars/03_govern.png',
+    image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -219,7 +219,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'executiveControls',
     slug: 'sap-executive-controls',
     icon: 'performance',
-    image: '/pillars/03_govern.png',
+    image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -231,7 +231,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'cleanCoreGovernance',
     slug: 'sap-clean-core-governance',
     icon: 'implementation',
-    image: '/pillars/03_govern.png',
+    image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -244,7 +244,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'sapAms',
     slug: 'sap-ams',
     icon: 'support',
-    image: '/pillars/04_operate.png',
+    image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -256,7 +256,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'sapBasis',
     slug: 'sap-basis',
     icon: 'managed',
-    image: '/pillars/04_operate.png',
+    image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -268,7 +268,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'cloudAlm',
     slug: 'sap-cloud-alm',
     icon: 'performance',
-    image: '/pillars/04_operate.png',
+    image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -280,7 +280,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'monitoringAutomation',
     slug: 'sap-monitoring-automation',
     icon: 'performance',
-    image: '/pillars/04_operate.png',
+    image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -292,7 +292,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'rootCauseAnalysis',
     slug: 'sap-root-cause-analysis',
     icon: 'solman',
-    image: '/pillars/04_operate.png',
+    image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -304,7 +304,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'technicalGovernance',
     slug: 'sap-technical-governance',
     icon: 'implementation',
-    image: '/pillars/04_operate.png',
+    image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -317,7 +317,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'aiAutomation',
     slug: 'sap-ai-automation',
     icon: 'innovation',
-    image: '/pillars/05_innovate.png',
+    image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -329,7 +329,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'btpAutomation',
     slug: 'sap-btp-automation',
     icon: 'implementation',
-    image: '/pillars/05_innovate.png',
+    image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -341,7 +341,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'intelliguard',
     slug: 'intelliguard-platform',
     icon: 'security',
-    image: '/pillars/05_innovate.png',
+    image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -354,7 +354,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'opsIntelligencePlatform',
     slug: 'operations-intelligence-platform',
     icon: 'performance',
-    image: '/pillars/05_innovate.png',
+    image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
@@ -367,7 +367,7 @@ export const pillarL3Services: PillarL3Service[] = [
     key: 'predictiveMonitoring',
     slug: 'predictive-monitoring',
     icon: 'managed',
-    image: '/pillars/05_innovate.png',
+    image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
