@@ -2,6 +2,10 @@
   "layout": {
     "skipToContent": "Saltar al contenido principal"
   },
+  "common": {
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
   "nav": {
     "ariaLabel": "Navegacion principal",
     "logoAriaLabel": "Global Core Technologies inicio",
@@ -46,6 +50,20 @@
       "years": { "label": "años de experiencia SAP" },
       "operations": { "label": "operación SAP gestionada" },
       "governance": { "label": "entrega basada en gobierno" }
+    },
+    "slides": {
+      "autonomousEnterprise": {
+        "eyebrow": "SAP Business AI",
+        "title": "La Empresa Autónoma con SAP",
+        "description": "Procesos que se anticipan, deciden y se optimizan solos. Llevamos tu ecosistema SAP hacia la automatización inteligente con IA generativa, Joule y agentes autónomos que liberan a tus equipos del trabajo repetitivo.",
+        "cta": "Descubrí la Empresa Autónoma"
+      },
+      "lifeScience": {
+        "eyebrow": "SAP for Life Sciences",
+        "title": "SAP para Ciencias de la Vida",
+        "description": "Cumplimiento, trazabilidad y calidad de extremo a extremo. Acompañamos a laboratorios y farmacéuticas a operar bajo GxP, validar procesos y acelerar el time-to-market con SAP S/4HANA y soluciones específicas para la industria.",
+        "cta": "Conocé nuestras soluciones Life Science"
+      }
     }
   },
   "pillars": {

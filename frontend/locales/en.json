@@ -2,6 +2,10 @@
   "layout": {
     "skipToContent": "Skip to main content"
   },
+  "common": {
+    "prev": "Previous",
+    "next": "Next"
+  },
   "nav": {
     "ariaLabel": "Main navigation",
     "logoAriaLabel": "Global Core Technologies home",
@@ -46,6 +50,20 @@
       "years": { "label": "years of SAP expertise" },
       "operations": { "label": "managed SAP operations" },
       "governance": { "label": "governance-driven delivery" }
+    },
+    "slides": {
+      "autonomousEnterprise": {
+        "eyebrow": "SAP Business AI",
+        "title": "The Autonomous Enterprise with SAP",
+        "description": "Processes that anticipate, decide and optimize themselves. We move your SAP ecosystem toward intelligent automation with generative AI, Joule and autonomous agents that free your teams from repetitive work.",
+        "cta": "Discover the Autonomous Enterprise"
+      },
+      "lifeScience": {
+        "eyebrow": "SAP for Life Sciences",
+        "title": "SAP for Life Sciences",
+        "description": "End-to-end compliance, traceability and quality. We help laboratories and pharma companies operate under GxP, validate processes and accelerate time-to-market with SAP S/4HANA and industry-specific solutions.",
+        "cta": "Explore our Life Sciences solutions"
+      }
     }
   },
   "pillars": {
