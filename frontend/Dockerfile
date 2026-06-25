@@ -1,13 +1,13 @@
 FROM node:24.11-alpine AS deps
 WORKDIR /app
 
-RUN corepack enable
+RUN npm install -g pnpm@11.2.2
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile
 
 FROM node:24.11-alpine AS build
 WORKDIR /app
-RUN corepack enable
+RUN npm install -g pnpm@11.2.2
 
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
