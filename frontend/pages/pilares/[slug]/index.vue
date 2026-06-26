@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BusinessOutcomes from '~/components/sections/BusinessOutcomes.vue'
 import FeaturedInnovation from '~/components/sections/FeaturedInnovation.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
@@ -86,6 +87,19 @@ const featured = computed(() => {
   if (!f) return null
   return { ...f, ctaLabel: 'Learn more', ctaHref: localizedTo(`/contacto?servicio=${pillar.relatedSlug}`) }
 })
+
+// Consolidated business outcomes at pillar (practice) level — Section 6
+const outcomesByPillar: Record<string, { title: string; description: string }[]> = {
+  transform: [
+    { title: 'Reduced Transformation Risk', description: 'Identify and mitigate challenges before they impact project execution.' },
+    { title: 'Accelerated Time-to-Value', description: 'Deliver business benefits faster through structured planning and governance.' },
+    { title: 'Improved Security & Compliance', description: 'Integrate security requirements into transformation initiatives from the beginning.' },
+    { title: 'Sustainable Architecture', description: 'Reduce technical complexity and prepare for future SAP innovation.' },
+    { title: 'Better Executive Visibility', description: 'Enable informed decision-making through governance-driven execution.' }
+  ]
+}
+
+const outcomes = computed(() => outcomesByPillar[slug] ?? [])
 </script>
 
 <template>
@@ -185,6 +199,13 @@ const featured = computed(() => {
         </div>
       </div>
     </section>
+
+    <!-- Business Outcomes (pillar-level) -->
+    <BusinessOutcomes
+      v-if="outcomes.length"
+      title="Outcomes That Matter"
+      :outcomes="outcomes"
+    />
 
     <!-- Other pillars -->
     <section class="bg-white/30 py-16 md:py-20">
