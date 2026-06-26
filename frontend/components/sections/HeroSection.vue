@@ -200,6 +200,13 @@ onBeforeUnmount(stopAutoplay)
               <div class="mt-9">
                 <BaseButton to="/servicios">{{ t(`${slide.key}.cta`) }}</BaseButton>
               </div>
+
+              <!-- SAP partner logo -->
+              <img
+                :src="logoSapPartner"
+                alt="SAP Silver Partner"
+                class="mt-12 h-auto w-[140px] drop-shadow-[0_4px_14px_rgba(0,0,0,0.45)]"
+              />
             </div>
           </div>
         </div>
