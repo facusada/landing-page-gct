@@ -726,7 +726,7 @@
       "howWeHelp": "How we help",
       "benefits": "Business benefits",
       "methodology": "Methodology",
-      "whyGct": "Why GCT",
+      "whyGct": "Why Global Core Technologies",
       "related": "Related services in this pillar",
       "relatedCta": "View service",
       "backToPillar": "Back to pillar",
@@ -736,7 +736,7 @@
     },
     "items": {
       "sap-s4hana-transformation": {
-        "metaTitle": "SAP S/4HANA Transformation | Governed Migration | GCT",
+        "metaTitle": "SAP S/4HANA Transformation | Governed Migration | Global Core Technologies",
         "metaDescription": "Transform your ERP to SAP S/4HANA with a proven methodology, Clean Core, and risk control. +150 projects and +20 years of SAP expertise. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
         "h1": "SAP S/4HANA transformation, delivered with governance and no surprises",
@@ -810,7 +810,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to S/4HANA",
+          "title": "The Global Core Technologies path to S/4HANA",
           "description": "Five phases that connect strategy to operations. The transformation doesn't end at go-live: it hands off to managed operations and continuous innovation.",
           "phases": [
             {
@@ -836,7 +836,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your transformation",
+          "title": "Why choose Global Core Technologies for your transformation",
           "items": [
             {
               "title": "Deep SAP expertise",
@@ -878,7 +878,7 @@
         }
       },
       "rise-with-sap": {
-        "metaTitle": "RISE with SAP | Managed Cloud Migration | GCT",
+        "metaTitle": "RISE with SAP | Managed Cloud Migration | Global Core Technologies",
         "metaDescription": "Adopt RISE with SAP with a partner that integrates contract, technical migration, and governance. Reach S/4HANA Cloud with controlled risk. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
         "h1": "RISE with SAP, adopted with a partner that governs the contract and the migration",
@@ -922,7 +922,7 @@
             },
             {
               "title": "Managed-model governance",
-              "description": "We define roles, responsibilities, and SLAs between SAP, GCT, and your team so no one falls into the gray area."
+              "description": "We define roles, responsibilities, and SLAs between SAP, Global Core Technologies, and your team so no one falls into the gray area."
             },
             {
               "title": "Operations and continuous innovation",
@@ -940,7 +940,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to RISE with SAP",
+          "title": "The Global Core Technologies path to RISE with SAP",
           "description": "Four phases that connect the contractual decision to cloud operations.",
           "phases": [
             { "name": "Assess", "deliverable": "Business case, RISE fit, and sizing" },
@@ -950,7 +950,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your RISE adoption",
+          "title": "Why choose Global Core Technologies for your RISE adoption",
           "items": [
             { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, and Transformation of mission-critical SAP environments." },
             { "title": "Governance-driven approach", "description": "We align every technical and contractual decision with clear business objectives." },
@@ -974,7 +974,7 @@
         }
       },
       "s4hana-readiness-assessment": {
-        "metaTitle": "SAP S/4HANA Readiness Assessment | Evaluation | GCT",
+        "metaTitle": "SAP S/4HANA Readiness Assessment | Evaluation | Global Core Technologies",
         "metaDescription": "Assess your technical, functional, and data readiness to migrate to SAP S/4HANA. Get a clear diagnosis and a prioritized roadmap. Book your assessment.",
         "eyebrow": "Pillar · Transform",
         "h1": "Readiness Assessment: know exactly how ready you are for S/4HANA",
@@ -1046,7 +1046,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your assessment",
+          "title": "Why choose Global Core Technologies for your assessment",
           "items": [
             { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, Security, and SAP Transformation." },
             { "title": "Governance-driven approach", "description": "Every finding translates into decisions aligned with your business objectives." },
@@ -1070,7 +1070,7 @@
         }
       },
       "sap-migration-governance": {
-        "metaTitle": "SAP Migration Governance | Migration Control | GCT",
+        "metaTitle": "SAP Migration Governance | Migration Control | Global Core Technologies",
         "metaDescription": "Govern your SAP S/4HANA migration with control frameworks, risk management, and traceable decisions. Secure the go-live without deviations. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
         "h1": "Migration Governance: the control that keeps your S/4HANA migration on track",
@@ -1142,7 +1142,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT to govern your migration",
+          "title": "Why choose Global Core Technologies to govern your migration",
           "items": [
             { "title": "Deep SAP expertise", "description": "Decades governing mission-critical, high-stakes SAP programs." },
             { "title": "Governance is in our DNA", "description": "Govern is one of our five pillars: control isn't an add-on, it's how we work." },
@@ -1155,7 +1155,7 @@
         "leadMagnet": {
           "eyebrow": "Free review",
           "title": "Governance review: we identify risks before they escalate",
-          "description": "A GCT architect reviews your migration plan and flags the most critical governance, quality control, and vendor coordination gaps.",
+          "description": "A Global Core Technologies architect reviews your migration plan and flags the most critical governance, quality control, and vendor coordination gaps.",
           "cta": "Book your governance review"
         },
         "finalCta": {
@@ -1166,7 +1166,7 @@
         }
       },
       "clean-core-strategy": {
-        "metaTitle": "Clean Core Strategy SAP | Clean, Upgradeable Core | GCT",
+        "metaTitle": "Clean Core Strategy SAP | Clean, Upgradeable Core | Global Core Technologies",
         "metaDescription": "Define your Clean Core strategy for SAP S/4HANA: extensibility on BTP, less custom code, and an always-upgradeable core. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
         "h1": "Clean Core Strategy: an SAP that upgrades painlessly, forever",
@@ -1228,7 +1228,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to a Clean Core",
+          "title": "The Global Core Technologies path to a Clean Core",
           "description": "Four phases that go from diagnosing custom code to the governance that keeps it clean.",
           "phases": [
             { "name": "Discover", "deliverable": "Custom code inventory and impact analysis" },
@@ -1238,7 +1238,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your Clean Core strategy",
+          "title": "Why choose Global Core Technologies for your Clean Core strategy",
           "items": [
             { "title": "Deep SAP expertise", "description": "Decades in Architecture, Basis, and Transformation of mission-critical SAP environments." },
             { "title": "Clean Core mindset", "description": "It's one of our founding principles: we protect upgradeability in every project." },
@@ -1262,7 +1262,7 @@
         }
       },
       "sap-security": {
-        "metaTitle": "SAP Security | Native Security Controls | GCT",
+        "metaTitle": "SAP Security | Native Security Controls | Global Core Technologies",
         "metaDescription": "Design and implement your SAP security architecture: authorization objects, system hardening, and access controls. Protect critical access and data.",
         "eyebrow": "Pillar · Secure",
         "h1": "SAP Security: native controls that protect access without slowing operations",
@@ -1324,7 +1324,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to an SAP security posture",
+          "title": "The Global Core Technologies path to an SAP security posture",
           "description": "Four phases from diagnosis to continuous governance.",
           "phases": [
             { "name": "Assess", "deliverable": "Security assessment: gaps, risks, and current configuration" },
@@ -1334,7 +1334,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SAP security",
+          "title": "Why choose Global Core Technologies for your SAP security",
           "items": [
             { "title": "Security by design", "description": "SAP security is one of our five pillars: it's not a complementary service, it's the core of how we work." },
             { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, and Security of mission-critical SAP environments." },
@@ -1347,7 +1347,7 @@
         "leadMagnet": {
           "eyebrow": "Free review",
           "title": "Security review: we identify the 5 most critical configurations in your SAP",
-          "description": "A GCT architect reviews your system's most critical parameters and delivers a risk scorecard with priority actions to take.",
+          "description": "A Global Core Technologies architect reviews your system's most critical parameters and delivers a risk scorecard with priority actions to take.",
           "cta": "Book your security review"
         },
         "finalCta": {
@@ -1358,7 +1358,7 @@
         }
       },
       "sap-rbac": {
-        "metaTitle": "SAP RBAC | Role and Access Management | GCT",
+        "metaTitle": "SAP RBAC | Role and Access Management | Global Core Technologies",
         "metaDescription": "Design and manage SAP roles based on least privilege. Eliminate superusers, simplify the role landscape, and pass audits with no access findings.",
         "eyebrow": "Pillar · Secure",
         "h1": "RBAC in SAP: roles designed with least privilege, clean landscape, audits that pass",
@@ -1420,7 +1420,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to clean RBAC",
+          "title": "The Global Core Technologies path to clean RBAC",
           "description": "Four phases from landscape analysis to continuous access governance.",
           "phases": [
             { "name": "Analyze", "deliverable": "Role inventory, gaps, and access risk map" },
@@ -1430,7 +1430,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SAP role management",
+          "title": "Why choose Global Core Technologies for your SAP role management",
           "items": [
             { "title": "Security by design", "description": "Good RBAC requires deep knowledge of SAP processes, not just role technology." },
             { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Security, and functional modules of critical SAP environments." },
@@ -1454,7 +1454,7 @@
         }
       },
       "sap-segregation-of-duties": {
-        "metaTitle": "SAP Segregation of Duties | SoD Analysis & Remediation | GCT",
+        "metaTitle": "SAP Segregation of Duties | SoD Analysis & Remediation | Global Core Technologies",
         "metaDescription": "Detect and remediate SoD conflicts in SAP before they become audit findings or fraud risks. Diagnosis, remediation, and continuous governance.",
         "eyebrow": "Pillar · Secure",
         "h1": "SAP Segregation of Duties: eliminate the conflicts that produce audit findings and fraud risk",
@@ -1516,7 +1516,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to risk-free SoD",
+          "title": "The Global Core Technologies path to risk-free SoD",
           "description": "Four phases from analysis to continuous governance.",
           "phases": [
             { "name": "Diagnose", "deliverable": "SoD conflict matrix by module, risk level, and usage frequency" },
@@ -1526,7 +1526,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SoD management",
+          "title": "Why choose Global Core Technologies for your SoD management",
           "items": [
             { "title": "Security by design", "description": "We embed SoD as a design constraint in every role project and SAP transformation." },
             { "title": "Deep functional knowledge", "description": "Understanding business processes is essential to remediating SoD without breaking operations." },
@@ -1550,7 +1550,7 @@
         }
       },
       "sap-grc": {
-        "metaTitle": "SAP GRC | Access Control, Process Control, Risk Management | GCT",
+        "metaTitle": "SAP GRC | Access Control, Process Control, Risk Management | Global Core Technologies",
         "metaDescription": "Implement SAP GRC to automate access control, process monitoring, and risk management. Continuous compliance, without manual overhead.",
         "eyebrow": "Pillar · Secure",
         "h1": "SAP GRC: automated risk governance and compliance in a single suite",
@@ -1612,7 +1612,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to SAP GRC in production",
+          "title": "The Global Core Technologies path to SAP GRC in production",
           "description": "Four phases from design to adopted operations.",
           "phases": [
             { "name": "Define", "deliverable": "Scope, modules, and GRC implementation roadmap" },
@@ -1622,7 +1622,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SAP GRC implementation",
+          "title": "Why choose Global Core Technologies for your SAP GRC implementation",
           "items": [
             { "title": "Security and GRC are our DNA", "description": "Secure is one of our five pillars: we don't implement GRC as an isolated project but as part of the governance strategy." },
             { "title": "Deep SAP expertise", "description": "We know SAP modules in depth — a prerequisite for configuring SoD rules and process controls that work in practice." },
@@ -1646,7 +1646,7 @@
         }
       },
       "sap-compliance-monitoring": {
-        "metaTitle": "SAP Compliance Monitoring | Continuous Compliance | GCT",
+        "metaTitle": "SAP Compliance Monitoring | Continuous Compliance | Global Core Technologies",
         "metaDescription": "Monitor your SAP environment's regulatory compliance in real time: alerts, reports, and deviation control before the auditor finds them.",
         "eyebrow": "Pillar · Secure",
         "h1": "Compliance Monitoring: continuous control that detects deviations before the auditor does",
@@ -1708,7 +1708,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to continuous monitoring",
+          "title": "The Global Core Technologies path to continuous monitoring",
           "description": "Four phases from regulatory mapping to operational monitoring.",
           "phases": [
             { "name": "Map", "deliverable": "Control framework: regulatory obligations → measurable SAP controls" },
@@ -1718,7 +1718,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your compliance monitoring",
+          "title": "Why choose Global Core Technologies for your compliance monitoring",
           "items": [
             { "title": "Security by design", "description": "The compliance monitoring we build is integrated with the security architecture, not added on top." },
             { "title": "Functional and technical knowledge", "description": "Mapping a regulatory obligation to a measurable SAP control requires knowing both the standard and the system deeply." },
@@ -1742,7 +1742,7 @@
         }
       },
       "sap-security-managed-services": {
-        "metaTitle": "SAP Security Managed Services | Managed SAP Security | GCT",
+        "metaTitle": "SAP Security Managed Services | Managed SAP Security | Global Core Technologies",
         "metaDescription": "Delegate continuous SAP security operations: monitoring, incident response, and iterative control improvement. Full-time SAP security experts.",
         "eyebrow": "Pillar · Secure",
         "h1": "Security Managed Services: continuous SAP security operations without building the team from scratch",
@@ -1814,7 +1814,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for managed SAP security operations",
+          "title": "Why choose Global Core Technologies for managed SAP security operations",
           "items": [
             { "title": "SAP security is our core", "description": "We're not a generic MSSP with an SAP practice: we're SAP specialists with a security practice." },
             { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, Security, and functional modules of critical SAP environments." },
@@ -1838,7 +1838,7 @@
         }
       },
       "sap-ams": {
-        "metaTitle": "SAP AMS | Application Management Services | GCT",
+        "metaTitle": "SAP AMS | Application Management Services | Global Core Technologies",
         "metaDescription": "Functional and technical SAP support in production with committed SLAs. Incidents, improvements, and continuous system evolution without building a full internal team.",
         "eyebrow": "Pillar · Operate",
         "h1": "SAP AMS: functional and technical support with SLA so your production never stops",
@@ -1910,7 +1910,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SAP AMS",
+          "title": "Why choose Global Core Technologies for your SAP AMS",
           "items": [
             { "title": "Functional and technical coverage", "description": "We cover module functional and technical Basis in a single integrated team, without silos." },
             { "title": "Deep SAP expertise", "description": "Decades of experience in mission-critical SAP environments across different industries." },
@@ -1934,7 +1934,7 @@
         }
       },
       "sap-basis": {
-        "metaTitle": "SAP Basis | SAP Technical Platform Administration | GCT",
+        "metaTitle": "SAP Basis | SAP Technical Platform Administration | Global Core Technologies",
         "metaDescription": "SAP Basis platform administration and operations: availability, performance, updates, and technical security. Specialized expertise available 24/7.",
         "eyebrow": "Pillar · Operate",
         "h1": "SAP Basis: the technical platform that sustains operations must always be in expert hands",
@@ -2006,7 +2006,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP Basis administration",
+          "title": "Why choose Global Core Technologies for SAP Basis administration",
           "items": [
             { "title": "Basis is our technical core", "description": "Our SAP Basis practice has decades of experience in critical production environments across multiple industries." },
             { "title": "Full stack coverage", "description": "We cover SAP Basis, HANA DB, technical security, and landscape in a single integrated team." },
@@ -2030,7 +2030,7 @@
         }
       },
       "sap-cloud-alm": {
-        "metaTitle": "SAP Cloud ALM | Implementation and Operations | GCT",
+        "metaTitle": "SAP Cloud ALM | Implementation and Operations | Global Core Technologies",
         "metaDescription": "Implement and operate SAP Cloud ALM: project management, operations, and quality in the cloud. Replace Solution Manager with a modern, cloud-native platform.",
         "eyebrow": "Pillar · Operate",
         "h1": "SAP Cloud ALM: the SAP operations hub that replaces Solution Manager in the cloud",
@@ -2092,7 +2092,7 @@
           ]
         },
         "methodology": {
-          "title": "The GCT path to Cloud ALM in production",
+          "title": "The Global Core Technologies path to Cloud ALM in production",
           "description": "Four phases from design to adopted operations.",
           "phases": [
             { "name": "Design", "deliverable": "Module scope, SolMan process mapping, and migration plan" },
@@ -2102,7 +2102,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your Cloud ALM implementation",
+          "title": "Why choose Global Core Technologies for your Cloud ALM implementation",
           "items": [
             { "title": "Basis + ALM in one team", "description": "Technical landscape management and ALM implementation go hand in hand: our team integrates them naturally." },
             { "title": "Solution Manager experience", "description": "We know SolMan in depth, making the migration to Cloud ALM more efficient and less risky." },
@@ -2126,7 +2126,7 @@
         }
       },
       "sap-monitoring-automation": {
-        "metaTitle": "SAP Monitoring & Automation | Proactive Monitoring and Automation | GCT",
+        "metaTitle": "SAP Monitoring & Automation | Proactive Monitoring and Automation | Global Core Technologies",
         "metaDescription": "Proactive monitoring and operational automation for SAP environments: real-time alerts, early problem detection, and elimination of repetitive manual tasks.",
         "eyebrow": "Pillar · Operate",
         "h1": "Monitoring & Automation: stop fighting fires and start preventing them",
@@ -2198,7 +2198,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP monitoring and automation",
+          "title": "Why choose Global Core Technologies for SAP monitoring and automation",
           "items": [
             { "title": "Technical and functional knowledge", "description": "Monitoring SAP effectively requires understanding what matters: critical business processes, not just infrastructure metrics." },
             { "title": "Proprietary platforms", "description": "Operations Intelligence™ and Intelliguard™ provide advanced monitoring, anomaly detection, and intelligent alerting capabilities." },
@@ -2222,7 +2222,7 @@
         }
       },
       "sap-root-cause-analysis": {
-        "metaTitle": "SAP Root Cause Analysis | Root Cause Analysis | GCT",
+        "metaTitle": "SAP Root Cause Analysis | Root Cause Analysis | Global Core Technologies",
         "metaDescription": "Structured SAP incident analysis to identify root causes, implement definitive fixes, and eliminate recurrence. Expert methodology, lasting resolution.",
         "eyebrow": "Pillar · Operate",
         "h1": "Root Cause Analysis: recurring incidents shouldn't repeat — and they won't",
@@ -2294,7 +2294,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP root cause analysis",
+          "title": "Why choose Global Core Technologies for SAP root cause analysis",
           "items": [
             { "title": "Deep technical and functional knowledge", "description": "Resolving root causes in SAP requires understanding both the technology and the business processes the system supports." },
             { "title": "Experience in critical environments", "description": "Decades resolving complex problems in mission-critical SAP production environments." },
@@ -2318,7 +2318,7 @@
         }
       },
       "sap-technical-governance": {
-        "metaTitle": "SAP Technical Governance | SAP Technical Governance | GCT",
+        "metaTitle": "SAP Technical Governance | SAP Technical Governance | Global Core Technologies",
         "metaDescription": "Technical standards, change management, and quality controls for sustainable SAP operations. Protect production and reduce technical debt with formal governance.",
         "eyebrow": "Pillar · Operate",
         "h1": "Technical Governance: the standards that protect production from changes that shouldn't arrive",
@@ -2390,7 +2390,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP technical governance",
+          "title": "Why choose Global Core Technologies for SAP technical governance",
           "items": [
             { "title": "Govern is one of our pillars", "description": "Governance isn't a complementary service: it's part of the DNA of how we work on every SAP project." },
             { "title": "Deep technical expertise", "description": "Decades of experience in Basis, ABAP development, and SAP architecture give credibility to the governance we design." },
@@ -2414,7 +2414,7 @@
         }
       },
       "sap-governance-advisory": {
-        "metaTitle": "SAP Governance Advisory | SAP Governance | GCT",
+        "metaTitle": "SAP Governance Advisory | SAP Governance | Global Core Technologies",
         "metaDescription": "Design and implementation of SAP governance frameworks: roles, decision processes, change management policies, and controls that make your SAP investment predictable and traceable.",
         "eyebrow": "Pillar · Govern",
         "h1": "SAP Governance Advisory: we design the governance model that aligns SAP with business strategy",
@@ -2486,7 +2486,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SAP Governance Advisory",
+          "title": "Why choose Global Core Technologies for your SAP Governance Advisory",
           "items": [
             { "title": "Govern is one of our core pillars", "description": "SAP systems governance isn't a complementary service — it's one of the five pillars on which we build all our practices." },
             { "title": "Experience across multiple industries", "description": "We have designed SAP governance models for organizations in manufacturing, energy, logistics, and consumer goods, each with their own regulatory and operational constraints." },
@@ -2510,7 +2510,7 @@
         }
       },
       "sap-program-governance": {
-        "metaTitle": "SAP Program Governance | SAP Transformation Program Governance | GCT",
+        "metaTitle": "SAP Program Governance | SAP Transformation Program Governance | Global Core Technologies",
         "metaDescription": "Control structures for SAP transformation programs: steering committees, PMO, risk and scope management that make large projects predictable.",
         "eyebrow": "Pillar · Govern",
         "h1": "SAP Program Governance: the discipline that turns large projects into predictable deliveries",
@@ -2582,7 +2582,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for your SAP program governance",
+          "title": "Why choose Global Core Technologies for your SAP program governance",
           "items": [
             { "title": "Govern is one of our core pillars", "description": "SAP program governance is one of our most established practices, with decades of experience in complex transformations." },
             { "title": "Experience with large programs", "description": "We have governed SAP transformation programs with multiple modules, countries, and vendors running in parallel." },
@@ -2595,7 +2595,7 @@
         "leadMagnet": {
           "eyebrow": "Free review",
           "title": "Program governance review: we identify the risks in your SAP program before they escalate",
-          "description": "A GCT architect reviews the governance state of your SAP program — committee structure, risk management, and scope control — and flags the three highest-exposure points.",
+          "description": "A Global Core Technologies architect reviews the governance state of your SAP program — committee structure, risk management, and scope control — and flags the three highest-exposure points.",
           "cta": "Request your program governance review"
         },
         "finalCta": {
@@ -2606,7 +2606,7 @@
         }
       },
       "sap-compliance": {
-        "metaTitle": "SAP Compliance | SAP Regulatory Compliance | GCT",
+        "metaTitle": "SAP Compliance | SAP Regulatory Compliance | Global Core Technologies",
         "metaDescription": "SAP compliance framework: automatic controls, audit evidence, exception management, and continuous monitoring that replaces costly manual processes.",
         "eyebrow": "Pillar · Govern",
         "h1": "SAP Compliance: regulatory compliance built inside the system, not on top of it",
@@ -2678,7 +2678,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP compliance",
+          "title": "Why choose Global Core Technologies for SAP compliance",
           "items": [
             { "title": "Govern is one of our core pillars", "description": "SAP compliance is one of our most established practices, with decades of experience in regulated environments." },
             { "title": "Experience in regulated industries", "description": "We have implemented SAP compliance frameworks for organizations in pharma, energy, manufacturing, and financial services." },
@@ -2702,7 +2702,7 @@
         }
       },
       "sap-executive-controls": {
-        "metaTitle": "SAP Executive Controls | SAP Executive Governance | GCT",
+        "metaTitle": "SAP Executive Controls | SAP Executive Governance | Global Core Technologies",
         "metaDescription": "Executive controls framework for SAP: business KPIs, leadership dashboards, escalation mechanisms, and reporting that connects SAP with strategic objectives.",
         "eyebrow": "Pillar · Govern",
         "h1": "Executive Controls: the visibility and controls leadership needs over their SAP investment",
@@ -2774,7 +2774,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP executive controls",
+          "title": "Why choose Global Core Technologies for SAP executive controls",
           "items": [
             { "title": "Govern is one of our core pillars", "description": "SAP executive controls are an integral part of our governance practice, not an add-on." },
             { "title": "We understand both the business and the system", "description": "Designing relevant executive KPIs requires understanding how SAP creates value for the business — not just the system's technical metrics." },
@@ -2798,7 +2798,7 @@
         }
       },
       "sap-clean-core-governance": {
-        "metaTitle": "Clean Core Governance | SAP Clean Core Governance | GCT",
+        "metaTitle": "Clean Core Governance | SAP Clean Core Governance | Global Core Technologies",
         "metaDescription": "Governance framework to sustain the SAP Clean Core strategy over time: extensibility policies, customization review, and continuous core monitoring.",
         "eyebrow": "Pillar · Govern",
         "h1": "Clean Core Governance: the governance that keeps the SAP core clean project after project",
@@ -2870,7 +2870,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for Clean Core Governance",
+          "title": "Why choose Global Core Technologies for Clean Core Governance",
           "items": [
             { "title": "Clean Core spans Transform and Govern", "description": "We have experience both achieving clean core in migration projects and sustaining it with active governance post-go-live." },
             { "title": "Govern is one of our core pillars", "description": "Clean core governance is a natural application of our governance capabilities to the most strategic technical asset in SAP." },
@@ -2894,7 +2894,7 @@
         }
       },
       "sap-ai-automation": {
-        "metaTitle": "SAP AI & Automation | SAP AI and Automation | GCT",
+        "metaTitle": "SAP AI & Automation | SAP AI and Automation | Global Core Technologies",
         "metaDescription": "AI and intelligent automation in SAP ecosystems: process automation on BTP, embedded AI models, and high-impact use cases in production.",
         "eyebrow": "Pillar · Innovate",
         "h1": "SAP AI & Automation: artificial intelligence integrated into SAP processes where it creates the most value",
@@ -2966,7 +2966,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP AI and automation",
+          "title": "Why choose Global Core Technologies for SAP AI and automation",
           "items": [
             { "title": "Innovate is our leading-edge pillar", "description": "We combine SAP expertise with AI and automation capabilities to deliver use cases that work in production, not in demos." },
             { "title": "Proprietary platforms as proof", "description": "Intelliguard™ and Operations Intelligence™ incorporate AI capabilities we also apply to client projects." },
@@ -2990,7 +2990,7 @@
         }
       },
       "sap-btp-automation": {
-        "metaTitle": "SAP BTP Automation | SAP BTP Automations and Extensions | GCT",
+        "metaTitle": "SAP BTP Automation | SAP BTP Automations and Extensions | Global Core Technologies",
         "metaDescription": "Automations, integrations, and extensions on SAP Business Technology Platform with clean core focus: SAP Build, Integration Suite, and Extension Suite.",
         "eyebrow": "Pillar · Innovate",
         "h1": "SAP BTP Automation: automations and extensions on the SAP platform that scale with the business",
@@ -3046,7 +3046,7 @@
           "title": "What your organization gains",
           "items": [
             { "title": "Extensions that don't compromise upgrades", "description": "Side-by-side extensions on BTP don't touch the SAP core, preserving clean upgradability to new versions." },
-            { "title": "Maintainable integrations", "description": "Design standards and documentation ensure integrations can be maintained by the in-house team or by GCT." },
+            { "title": "Maintainable integrations", "description": "Design standards and documentation ensure integrations can be maintained by the in-house team or by Global Core Technologies." },
             { "title": "Reusable platform", "description": "A well-designed BTP architecture accumulates reusable assets: APIs, connectors, and process templates that accelerate future projects." },
             { "title": "Accelerated time-to-market", "description": "BTP, well-used, reduces new feature development time from months to weeks." }
           ]
@@ -3062,7 +3062,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP BTP Automation",
+          "title": "Why choose Global Core Technologies for SAP BTP Automation",
           "items": [
             { "title": "BTP expertise with clean core focus", "description": "We develop on BTP with clean core discipline: every extension preserves the base system's upgradability." },
             { "title": "Transform and Innovate integrated", "description": "The same team that designs the migration architecture designs the BTP architecture, ensuring coherence." },
@@ -3086,11 +3086,11 @@
         }
       },
       "intelliguard-platform": {
-        "metaTitle": "Intelliguard™ | Intelligent SAP Monitoring Platform | GCT",
-        "metaDescription": "Intelliguard™ is GCT's proprietary platform for intelligent SAP monitoring: anomaly detection, proactive alerts, and unified real-time visibility of the entire ecosystem.",
+        "metaTitle": "Intelliguard™ | Intelligent SAP Monitoring Platform | Global Core Technologies",
+        "metaDescription": "Intelliguard™ is Global Core Technologies' proprietary platform for intelligent SAP monitoring: anomaly detection, proactive alerts, and unified real-time visibility of the entire ecosystem.",
         "eyebrow": "Pillar · Innovate",
         "h1": "Intelliguard™: the intelligent monitoring platform that anticipates risks before they materialize",
-        "heroSubtitle": "Intelliguard™ is GCT's proprietary platform for intelligent monitoring of SAP ecosystems: anomaly detection across security and operations, proactive alerts before impact, and unified real-time visibility of system state.",
+        "heroSubtitle": "Intelliguard™ is Global Core Technologies' proprietary platform for intelligent monitoring of SAP ecosystems: anomaly detection across security and operations, proactive alerts before impact, and unified real-time visibility of system state.",
         "ctaPrimary": "Explore Intelliguard™ in detail",
         "ctaSecondary": "Request an Intelliguard™ demo",
         "metrics": {
@@ -3163,7 +3163,7 @@
             { "title": "Designed for SAP, not adapted", "description": "Intelliguard™ was built to monitor SAP production ecosystems — it's not a generic tool applied to SAP." },
             { "title": "Operations and security in one platform", "description": "Operational monitoring and security anomaly detection coexist on the same platform, eliminating silos." },
             { "title": "Intelligence that learns from the environment", "description": "The system calibrates its thresholds to the actual behavior of the environment, reducing false alarms without losing sensitivity." },
-            { "title": "Built by those who operate SAP", "description": "GCT has operated critical SAP environments for decades. Intelliguard™ is the product of that operational knowledge." },
+            { "title": "Built by those who operate SAP", "description": "Global Core Technologies has operated critical SAP environments for decades. Intelliguard™ is the product of that operational knowledge." },
             { "title": "Integration with AMS and Operate", "description": "Intelliguard™ integrates with the AMS support process so an alert automatically generates the right ticket." },
             { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every Intelliguard™ implementation." }
           ]
@@ -3182,11 +3182,11 @@
         }
       },
       "operations-intelligence-platform": {
-        "metaTitle": "Operations Intelligence™ | SAP Operational Visibility Platform | GCT",
+        "metaTitle": "Operations Intelligence™ | SAP Operational Visibility Platform | Global Core Technologies",
         "metaDescription": "Operations Intelligence™ turns SAP operational data into executive visibility and decisions: real-time dashboards, business KPIs, and trend analysis.",
         "eyebrow": "Pillar · Innovate",
         "h1": "Operations Intelligence™: the operational visibility hub that turns SAP data into decisions",
-        "heroSubtitle": "Operations Intelligence™ is GCT's proprietary platform for operational visibility of SAP ecosystems: real-time business and operational KPIs, trend analysis, and dashboards that connect system state with strategic objectives.",
+        "heroSubtitle": "Operations Intelligence™ is Global Core Technologies' proprietary platform for operational visibility of SAP ecosystems: real-time business and operational KPIs, trend analysis, and dashboards that connect system state with strategic objectives.",
         "ctaPrimary": "Explore Operations Intelligence™ in detail",
         "ctaSecondary": "Request an Operations Intelligence™ demo",
         "metrics": {
@@ -3256,7 +3256,7 @@
         "whyGct": {
           "title": "Why Operations Intelligence™ is different",
           "items": [
-            { "title": "Designed for SAP, not adapted", "description": "Operations Intelligence™ was built on the SAP operational knowledge GCT has accumulated over decades of running critical environments." },
+            { "title": "Designed for SAP, not adapted", "description": "Operations Intelligence™ was built on the SAP operational knowledge Global Core Technologies has accumulated over decades of running critical environments." },
             { "title": "Business KPIs, not just technical metrics", "description": "The platform translates system state into indicators leadership understands and can use to make decisions." },
             { "title": "Real time, not snapshots", "description": "Dashboards update continuously, not as periodic reports that arrive when they've already lost relevance." },
             { "title": "Integration with Intelliguard™", "description": "Operations Intelligence™ and Intelliguard™ work together: proactive monitoring and operational intelligence in a unified view." },
@@ -3278,7 +3278,7 @@
         }
       },
       "predictive-monitoring": {
-        "metaTitle": "Predictive Monitoring SAP | SAP Predictive Monitoring | GCT",
+        "metaTitle": "Predictive Monitoring SAP | SAP Predictive Monitoring | Global Core Technologies",
         "metaDescription": "Predictive monitoring for SAP: early degradation detection, failure prediction models, and alerts before problems impact production.",
         "eyebrow": "Pillar · Innovate",
         "h1": "Predictive Monitoring: from reacting to incidents to preventing them before they impact operations",
@@ -3350,7 +3350,7 @@
           ]
         },
         "whyGct": {
-          "title": "Why choose GCT for SAP predictive monitoring",
+          "title": "Why choose Global Core Technologies for SAP predictive monitoring",
           "items": [
             { "title": "Decades operating mission-critical SAP", "description": "Knowing which signals precede incidents in SAP isn't learned in courses — it's accumulated by operating real environments over years." },
             { "title": "Intelliguard™ as the foundation", "description": "Predictive monitoring is built on Intelliguard™, our intelligent monitoring platform designed for SAP." },

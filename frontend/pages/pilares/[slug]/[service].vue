@@ -265,7 +265,7 @@ useHead({
       </div>
     </section>
 
-    <!-- 6. Why GCT -->
+    <!-- 6. Why Global Core Technologies -->
 
     <section class="bg-white/30 py-16 md:py-24">
       <div class="section-shell">
