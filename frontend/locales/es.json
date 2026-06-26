@@ -599,27 +599,67 @@
     "servicesDescription": "Capacidades especializadas que desplegamos dentro de este pilar para maximizar el valor de tu ecosistema SAP.",
     "relatedServiceCta": "Ver servicio completo",
     "contactCta": "Hablar con un especialista",
+    "servicesTitleByPillar": {
+      "transform": "Explorá nuestras capacidades de transformación"
+    },
+    "hero": {
+      "transform": {
+        "headline": "Transformá tu landscape SAP",
+        "subheadline": "Modernizá, simplificá y preparate para el futuro con tu ecosistema SAP, mediante programas de transformación estructurados, ejecución guiada por gobierno y sostenibilidad operativa a largo plazo.",
+        "primaryCta": "Agendá una evaluación de transformación",
+        "secondaryCta": "Explorá los servicios de transformación"
+      }
+    },
+    "imperative": {
+      "transform": {
+        "title": "Por qué las organizaciones deben transformarse",
+        "intro": "Los landscapes SAP de hoy enfrentan una presión creciente por:",
+        "pressures": {
+          "legacy": "Limitaciones de los ERP legacy",
+          "complexity": "Creciente complejidad operativa",
+          "debt": "Acumulación de deuda técnica",
+          "security": "Mayores requisitos de ciberseguridad",
+          "cloud": "Iniciativas de adopción de la nube",
+          "insights": "Demanda de información de negocio en tiempo real",
+          "ai": "Oportunidades de IA y automatización"
+        },
+        "closing": "Las organizaciones que postergan la transformación suelen enfrentar mayores costos operativos, ciclos de innovación más lentos y mayor riesgo de negocio.",
+        "highlight": "La transformación ya no es opcional. Es una necesidad estratégica del negocio."
+      }
+    },
+    "outcomes": {
+      "transform": {
+        "title": "Resultados que importan",
+        "items": {
+          "risk": { "title": "Menor riesgo de transformación", "description": "Identificá y mitigá los desafíos antes de que impacten la ejecución del proyecto." },
+          "value": { "title": "Time-to-Value acelerado", "description": "Entregá beneficios de negocio más rápido mediante planificación estructurada y gobierno." },
+          "security": { "title": "Mayor seguridad y cumplimiento", "description": "Integrá los requisitos de seguridad en las iniciativas de transformación desde el inicio." },
+          "architecture": { "title": "Arquitectura sostenible", "description": "Reducí la complejidad técnica y preparate para la innovación futura de SAP." },
+          "visibility": { "title": "Mejor visibilidad ejecutiva", "description": "Habilitá decisiones informadas mediante una ejecución guiada por gobierno." }
+        }
+      }
+    },
     "items": {
       "transform": {
         "s4hana": {
           "title": "SAP S/4HANA Transformation",
-          "description": "Diseño y ejecución de programas de transformación hacia SAP S/4HANA con metodología probada y control de riesgos."
+          "description": "Modernizá tu ecosistema ERP y preparate para la empresa inteligente."
         },
         "riseWithSap": {
-          "title": "RISE with SAP",
-          "description": "Adopción del modelo RISE with SAP para migrar a la nube con soporte contractual, técnico y de gobierno integrado."
+          "title": "RISE with SAP Advisory",
+          "description": "Acelerá la transformación a la nube a través del framework de ERP en la nube de SAP."
         },
         "readinessAssessment": {
-          "title": "Readiness Assessment",
-          "description": "Evaluación de madurez técnica, funcional y organizacional para validar el estado de preparación antes de la migración."
+          "title": "SAP Readiness Assessment",
+          "description": "Entendé el grado de preparación de tu organización antes de iniciar programas de transformación."
         },
         "migrationGovernance": {
-          "title": "Migration Governance",
-          "description": "Marcos de control, seguimiento y toma de decisiones que garantizan la ejecución ordenada del proceso de migración."
+          "title": "Migration Governance & PMO",
+          "description": "Reducí el riesgo del proyecto con gobierno estructurado y supervisión ejecutiva."
         },
         "cleanCoreStrategy": {
           "title": "Clean Core Strategy",
-          "description": "Definición de la estrategia de extensibilidad y modernización del núcleo SAP para preservar la capacidad de actualización."
+          "description": "Construí entornos SAP sostenibles diseñados para la innovación futura."
         }
       },
       "secure": {

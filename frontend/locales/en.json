@@ -599,27 +599,67 @@
     "servicesDescription": "Specialized capabilities we deploy within this pillar to maximize the value of your SAP ecosystem.",
     "relatedServiceCta": "View full service",
     "contactCta": "Talk to a specialist",
+    "servicesTitleByPillar": {
+      "transform": "Explore Our Transformation Capabilities"
+    },
+    "hero": {
+      "transform": {
+        "headline": "Transform Your SAP Landscape",
+        "subheadline": "Modernize, simplify and future-proof your SAP ecosystem through structured transformation programs, governance-driven execution and long-term operational sustainability.",
+        "primaryCta": "Schedule a Transformation Assessment",
+        "secondaryCta": "Explore Transformation Services"
+      }
+    },
+    "imperative": {
+      "transform": {
+        "title": "Why Organizations Must Transform",
+        "intro": "Today's SAP landscapes face growing pressure from:",
+        "pressures": {
+          "legacy": "Legacy ERP limitations",
+          "complexity": "Increasing operational complexity",
+          "debt": "Technical debt accumulation",
+          "security": "Rising cybersecurity requirements",
+          "cloud": "Cloud adoption initiatives",
+          "insights": "Demand for real-time business insights",
+          "ai": "AI and automation opportunities"
+        },
+        "closing": "Organizations that delay transformation often experience higher operational costs, slower innovation cycles and increased business risk.",
+        "highlight": "Transformation is no longer optional. It is a strategic business necessity."
+      }
+    },
+    "outcomes": {
+      "transform": {
+        "title": "Outcomes That Matter",
+        "items": {
+          "risk": { "title": "Reduced Transformation Risk", "description": "Identify and mitigate challenges before they impact project execution." },
+          "value": { "title": "Accelerated Time-to-Value", "description": "Deliver business benefits faster through structured planning and governance." },
+          "security": { "title": "Improved Security & Compliance", "description": "Integrate security requirements into transformation initiatives from the beginning." },
+          "architecture": { "title": "Sustainable Architecture", "description": "Reduce technical complexity and prepare for future SAP innovation." },
+          "visibility": { "title": "Better Executive Visibility", "description": "Enable informed decision-making through governance-driven execution." }
+        }
+      }
+    },
     "items": {
       "transform": {
         "s4hana": {
           "title": "SAP S/4HANA Transformation",
-          "description": "Design and execution of transformation programs toward SAP S/4HANA with proven methodology and risk control."
+          "description": "Modernize your ERP landscape and prepare for the intelligent enterprise."
         },
         "riseWithSap": {
-          "title": "RISE with SAP",
-          "description": "Adoption of the RISE with SAP model to migrate to the cloud with integrated contractual, technical, and governance support."
+          "title": "RISE with SAP Advisory",
+          "description": "Accelerate cloud transformation through SAP's cloud ERP framework."
         },
         "readinessAssessment": {
-          "title": "Readiness Assessment",
-          "description": "Technical, functional, and organizational maturity assessment to validate readiness before migration."
+          "title": "SAP Readiness Assessment",
+          "description": "Understand your organization's readiness before initiating transformation programs."
         },
         "migrationGovernance": {
-          "title": "Migration Governance",
-          "description": "Control frameworks, tracking, and decision-making structures that ensure an ordered execution of the migration process."
+          "title": "Migration Governance & PMO",
+          "description": "Reduce project risk through structured governance and executive oversight."
         },
         "cleanCoreStrategy": {
           "title": "Clean Core Strategy",
-          "description": "Definition of the extensibility and modernization strategy for the SAP core to preserve upgrade capability."
+          "description": "Build sustainable SAP environments designed for future innovation."
         }
       },
       "secure": {

@@ -89,45 +89,68 @@ const featured = computed(() => {
   return { ...f, ctaLabel: 'Learn more', ctaHref: localizedTo(`/contacto?servicio=${pillar.relatedSlug}`) }
 })
 
-// Consolidated business outcomes at pillar (practice) level — Section 6
-const outcomesByPillar: Record<string, { title: string; description: string }[]> = {
+// Pillars that have the full Level-2 document treatment (hero copy + services
+// heading override). The copy itself lives in i18n (locales/en|es.json).
+const docPillars = ['transform']
+
+// Optional hero override: doc-specific headline / subheadline / CTAs.
+const heroOverride = computed(() => {
+  if (!docPillars.includes(slug)) return null
+  return {
+    headline: t(`pillarDetail.hero.${slug}.headline`),
+    subheadline: t(`pillarDetail.hero.${slug}.subheadline`),
+    primaryCta: t(`pillarDetail.hero.${slug}.primaryCta`),
+    secondaryCta: t(`pillarDetail.hero.${slug}.secondaryCta`)
+  }
+})
+
+// Services section heading (per-pillar override, falls back to the shared one).
+const servicesHeading = computed(() =>
+  docPillars.includes(slug)
+    ? t(`pillarDetail.servicesTitleByPillar.${slug}`)
+    : t('pillarDetail.servicesTitle')
+)
+
+// Business Outcomes (Section 6) — ordered keys live here, copy lives in i18n.
+const outcomeKeysByPillar: Record<string, string[]> = {
+  transform: ['risk', 'value', 'security', 'architecture', 'visibility']
+}
+const outcomesTitle = computed(() =>
+  outcomeKeysByPillar[slug] ? t(`pillarDetail.outcomes.${slug}.title`) : ''
+)
+const outcomes = computed(() =>
+  (outcomeKeysByPillar[slug] ?? []).map(k => ({
+    title: t(`pillarDetail.outcomes.${slug}.items.${k}.title`),
+    description: t(`pillarDetail.outcomes.${slug}.items.${k}.description`)
+  }))
+)
+
+// Transformation Imperative (Section 2) — pressure keys + icons here, copy in i18n.
+const pressuresByPillar: Record<string, { key: string; icon: string }[]> = {
   transform: [
-    { title: 'Reduced Transformation Risk', description: 'Identify and mitigate challenges before they impact project execution.' },
-    { title: 'Accelerated Time-to-Value', description: 'Deliver business benefits faster through structured planning and governance.' },
-    { title: 'Improved Security & Compliance', description: 'Integrate security requirements into transformation initiatives from the beginning.' },
-    { title: 'Sustainable Architecture', description: 'Reduce technical complexity and prepare for future SAP innovation.' },
-    { title: 'Better Executive Visibility', description: 'Enable informed decision-making through governance-driven execution.' }
+    { key: 'legacy', icon: 'server' },
+    { key: 'complexity', icon: 'layers' },
+    { key: 'debt', icon: 'alert' },
+    { key: 'security', icon: 'shield' },
+    { key: 'cloud', icon: 'cloud' },
+    { key: 'insights', icon: 'chart' },
+    { key: 'ai', icon: 'ai' }
   ]
 }
-
-const outcomes = computed(() => outcomesByPillar[slug] ?? [])
-
-// Transformation Imperative — strategic "why transform now" (Section 2)
-const imperativeByPillar: Record<string, {
-  title: string
-  intro: string
-  pressures: { label: string; icon: string }[]
-  closing: string
-  highlight: string
-}> = {
-  transform: {
-    title: 'Why Organizations Must Transform',
-    intro: "Today's SAP landscapes face growing pressure from:",
-    pressures: [
-      { label: 'Legacy ERP limitations', icon: 'server' },
-      { label: 'Increasing operational complexity', icon: 'layers' },
-      { label: 'Technical debt accumulation', icon: 'alert' },
-      { label: 'Rising cybersecurity requirements', icon: 'shield' },
-      { label: 'Cloud adoption initiatives', icon: 'cloud' },
-      { label: 'Demand for real-time business insights', icon: 'chart' },
-      { label: 'AI and automation opportunities', icon: 'ai' }
-    ],
-    closing: 'Organizations that delay transformation often experience higher operational costs, slower innovation cycles and increased business risk.',
-    highlight: 'Transformation is no longer optional. It is a strategic business necessity.'
+const imperative = computed(() => {
+  const list = pressuresByPillar[slug]
+  if (!list) return null
+  return {
+    title: t(`pillarDetail.imperative.${slug}.title`),
+    intro: t(`pillarDetail.imperative.${slug}.intro`),
+    pressures: list.map(p => ({
+      label: t(`pillarDetail.imperative.${slug}.pressures.${p.key}`),
+      icon: p.icon
+    })),
+    closing: t(`pillarDetail.imperative.${slug}.closing`),
+    highlight: t(`pillarDetail.imperative.${slug}.highlight`)
   }
-}
-
-const imperative = computed(() => imperativeByPillar[slug] ?? null)
+})
 </script>
 
 <template>
@@ -157,11 +180,15 @@ const imperative = computed(() => imperativeByPillar[slug] ?? null)
           {{ t('pillarDetail.eyebrow') }}
         </p>
         <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl">
-          {{ title }}
+          {{ heroOverride ? heroOverride.headline : title }}
         </h1>
         <p class="mt-4 max-w-2xl text-xl leading-8 text-white/80">
-          {{ description }}
+          {{ heroOverride ? heroOverride.subheadline : description }}
         </p>
+        <div v-if="heroOverride" class="mt-9 flex flex-col gap-3 sm:flex-row">
+          <BaseButton :to="`/contacto?servicio=${pillar.relatedSlug}`">{{ heroOverride.primaryCta }}</BaseButton>
+          <BaseButton href="#related-services" variant="secondary">{{ heroOverride.secondaryCta }}</BaseButton>
+        </div>
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
     </section>
@@ -173,11 +200,11 @@ const imperative = computed(() => imperativeByPillar[slug] ?? null)
     <TransformationImperative v-if="imperative" v-bind="imperative" />
 
     <!-- Services grid -->
-    <section class="bg-section-light py-16 md:py-24">
+    <section id="related-services" class="bg-section-light py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="mb-12">
           <h2 class="font-display text-3xl font-extrabold text-core-ink">
-            {{ t('pillarDetail.servicesTitle') }}
+            {{ servicesHeading }}
           </h2>
           <p class="mt-3 max-w-2xl text-lg leading-8 text-slate-600">
             {{ t('pillarDetail.servicesDescription') }}
@@ -234,7 +261,7 @@ const imperative = computed(() => imperativeByPillar[slug] ?? null)
     <!-- Business Outcomes (pillar-level) -->
     <BusinessOutcomes
       v-if="outcomes.length"
-      title="Outcomes That Matter"
+      :title="outcomesTitle"
       :outcomes="outcomes"
     />
 
