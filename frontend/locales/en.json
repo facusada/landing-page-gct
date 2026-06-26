@@ -442,7 +442,7 @@
     }
   },
   "industries": {
-    "eyebrow": "Industries We Support",
+    "eyebrow": "Industries We Drive",
     "title": "SAP Expertise Across Mission-Critical Industries",
     "description": "Our focus is on sectors where SAP, security, auditing, and operational continuity directly impact the business.",
     "items": {
@@ -451,7 +451,7 @@
       "retail": { "name": "Retail & Marketplaces", "description": "Omnichannel commerce & transactional platforms." },
       "energia": { "name": "Energy & Utilities", "description": "Operations, critical assets & field service." },
       "consumo": { "name": "Consumer Goods", "description": "Demand, trade & fulfilment." },
-      "farma": { "name": "Pharmaceuticals", "description": "Compliance, quality & traceability." }
+      "farma": { "name": "Life Science", "description": "Compliance, quality & traceability." }
     }
   },
   "platforms": {

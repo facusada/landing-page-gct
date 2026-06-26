@@ -451,7 +451,7 @@
       "retail": { "name": "Retail y marketplaces", "description": "Comercio omnicanal y plataformas transaccionales." },
       "energia": { "name": "Energía y utilities", "description": "Operación, activos críticos y servicio de campo." },
       "consumo": { "name": "Bienes de consumo", "description": "Demanda, comercio y fulfilment." },
-      "farma": { "name": "Farmacéutica", "description": "Cumplimiento, calidad y trazabilidad." }
+      "farma": { "name": "Ciencias de la Salud", "description": "Cumplimiento, calidad y trazabilidad." }
     }
   },
   "platforms": {
