@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BusinessOutcomes from '~/components/sections/BusinessOutcomes.vue'
 import FeaturedInnovation from '~/components/sections/FeaturedInnovation.vue'
+import TransformationImperative from '~/components/sections/TransformationImperative.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
 import StickyContextBar from '~/components/ui/StickyContextBar.vue'
@@ -100,6 +101,33 @@ const outcomesByPillar: Record<string, { title: string; description: string }[]>
 }
 
 const outcomes = computed(() => outcomesByPillar[slug] ?? [])
+
+// Transformation Imperative — strategic "why transform now" (Section 2)
+const imperativeByPillar: Record<string, {
+  title: string
+  intro: string
+  pressures: { label: string; icon: string }[]
+  closing: string
+  highlight: string
+}> = {
+  transform: {
+    title: 'Why Organizations Must Transform',
+    intro: "Today's SAP landscapes face growing pressure from:",
+    pressures: [
+      { label: 'Legacy ERP limitations', icon: 'server' },
+      { label: 'Increasing operational complexity', icon: 'layers' },
+      { label: 'Technical debt accumulation', icon: 'alert' },
+      { label: 'Rising cybersecurity requirements', icon: 'shield' },
+      { label: 'Cloud adoption initiatives', icon: 'cloud' },
+      { label: 'Demand for real-time business insights', icon: 'chart' },
+      { label: 'AI and automation opportunities', icon: 'ai' }
+    ],
+    closing: 'Organizations that delay transformation often experience higher operational costs, slower innovation cycles and increased business risk.',
+    highlight: 'Transformation is no longer optional. It is a strategic business necessity.'
+  }
+}
+
+const imperative = computed(() => imperativeByPillar[slug] ?? null)
 </script>
 
 <template>
@@ -140,6 +168,9 @@ const outcomes = computed(() => outcomesByPillar[slug] ?? [])
 
     <!-- Featured Innovation -->
     <FeaturedInnovation v-if="featured" v-bind="featured" />
+
+    <!-- Transformation Imperative (strategic "why transform now") -->
+    <TransformationImperative v-if="imperative" v-bind="imperative" />
 
     <!-- Services grid -->
     <section class="bg-section-light py-16 md:py-24">
