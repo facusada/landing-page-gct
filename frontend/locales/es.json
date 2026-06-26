@@ -524,7 +524,7 @@
       "ai": { "title": "Plataformas de innovación", "description": "Inteligencia propia para la seguridad y operación de SAP." },
       "ops": { "title": "Operación gestionada", "description": "Monitorización continua y modelos de soporte flexibles." }
     },
-    "certs": ["SAP Silver Partner", "Consultores Certificados SAP", "Alianzas Estratégicas"]
+    "certs": ["SAP Silver Partner", "Consultores Certificados SAP", "Alianzas Estratégicas", "SAP Cloud ALM"]
   },
   "technology": {
     "eyebrow": "Tecnología",

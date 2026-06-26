@@ -524,7 +524,7 @@
       "ai": { "title": "Innovation Platforms", "description": "Proprietary intelligence for SAP security and operations." },
       "ops": { "title": "Managed Operations", "description": "Continuous monitoring and flexible support models." }
     },
-    "certs": ["SAP Silver Partner", "SAP Certified Consultants", "Strategic Alliances"]
+    "certs": ["SAP Silver Partner", "SAP Certified Consultants", "Strategic Alliances", "SAP Cloud ALM"]
   },
   "technology": {
     "eyebrow": "Technology",
