@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import FeaturedInnovation from '~/components/sections/FeaturedInnovation.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
 import StickyContextBar from '~/components/ui/StickyContextBar.vue'
@@ -40,6 +41,51 @@ useHead({
 })
 
 const otherPillars = pillars.filter(p => p.id !== slug)
+
+// One featured SAP innovation per pillar (data-driven, reusable via props)
+const featuredByPillar: Record<string, { badge: string; title: string; description: string; visualType: string; accent: string }> = {
+  transform: {
+    badge: "What's New",
+    title: 'RISE with SAP',
+    description: 'A single, guided path to S/4HANA Cloud — infrastructure, migration tooling and business transformation services bundled in one subscription.',
+    visualType: 'transform',
+    accent: 'orange'
+  },
+  secure: {
+    badge: "What's New",
+    title: 'SAP Identity Access Governance',
+    description: 'Cloud-native access governance for SAP — automated provisioning, real-time Segregation of Duties analysis and continuous risk monitoring.',
+    visualType: 'identity',
+    accent: 'blue'
+  },
+  govern: {
+    badge: "What's New",
+    title: 'SAP Cloud ALM',
+    description: 'One lifecycle hub to plan, implement and govern every SAP solution across your landscape — with built-in best-practice processes.',
+    visualType: 'governance',
+    accent: 'blue'
+  },
+  operate: {
+    badge: "What's New",
+    title: 'SAP Cloud Operations',
+    description: 'Proactive, AI-assisted operations for SAP — unified observability, automated remediation and SLA-driven service management out of the box.',
+    visualType: 'cloud',
+    accent: 'blue'
+  },
+  innovate: {
+    badge: "What's New",
+    title: 'SAP Joule',
+    description: "SAP's generative-AI copilot — natural-language insights and task automation embedded directly across your SAP applications.",
+    visualType: 'ai',
+    accent: 'orange'
+  }
+}
+
+const featured = computed(() => {
+  const f = featuredByPillar[slug]
+  if (!f) return null
+  return { ...f, ctaLabel: 'Learn more', ctaHref: localizedTo(`/contacto?servicio=${pillar.relatedSlug}`) }
+})
 </script>
 
 <template>
@@ -77,6 +123,9 @@ const otherPillars = pillars.filter(p => p.id !== slug)
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
     </section>
+
+    <!-- Featured Innovation -->
+    <FeaturedInnovation v-if="featured" v-bind="featured" />
 
     <!-- Services grid -->
     <section class="bg-section-light py-16 md:py-24">
