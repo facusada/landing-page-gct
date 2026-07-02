@@ -5,6 +5,7 @@ import ContactCtaSection from '~/components/sections/ContactCtaSection.vue'
 import FeaturedExpertiseSection from '~/components/sections/FeaturedExpertiseSection.vue'
 import HeroSection from '~/components/sections/HeroSection.vue'
 import IndustriesSection from '~/components/sections/IndustriesSection.vue'
+import PartnersSection from '~/components/sections/PartnersSection.vue'
 import PillarsSection from '~/components/sections/PillarsSection.vue'
 import TrustSection from '~/components/sections/TrustSection.vue'
 import WhyGctSection from '~/components/sections/WhyGctSection.vue'
@@ -42,6 +43,7 @@ useSeoMeta({
       <IndustriesSection />
       <TrustSection />
       <ClientsSection />
+      <PartnersSection />
     </div>
   </div>
   <ContactCtaSection />

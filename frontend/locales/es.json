@@ -540,6 +540,11 @@
     "description": "Organizaciones de energía, industria, retail, salud, infraestructura y servicios confían en equipos con experiencia SAP de alta criticidad.",
     "logoAlt": "Logo de {name}"
   },
+  "partners": {
+    "title": "Nuestros Partners",
+    "description": "Trabajamos junto a partners tecnológicos que potencian nuestras soluciones SAP.",
+    "logoAlt": "Logo de {name}"
+  },
   "contactCta": {
     "eyebrow": "Próximo paso",
     "title": "¿Listo para transformar tu ecosistema SAP?",

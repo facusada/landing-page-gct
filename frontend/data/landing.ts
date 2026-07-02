@@ -454,6 +454,11 @@ export const clientLogos: ClientLogo[] = [
   { name: 'Hospital Universitario Austral', src: '/clients/hospital-universitario-austral.png', width: 1242, height: 381 }
 ]
 
+export const partnerLogos: ClientLogo[] = [
+  { name: 'Panaya', src: '/partners/panaya.png', width: 1172, height: 264 },
+  { name: 'Megafy', src: '/partners/megafy.png', width: 680, height: 187 }
+]
+
 export const serviceModules: ServiceModule[] = [
   { slug: 'migracion-transformacion-sap', icon: 'migration', image: '/services/01_transformacion_sap.png' },
   { slug: 'implementacion-sap', icon: 'implementation', image: '/services/02_implementacion_sap.png' },
