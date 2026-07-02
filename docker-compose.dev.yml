@@ -32,7 +32,7 @@ services:
       MAIL_FROM: no-reply@gctechs.com
       MAIL_FROM_NAME: Global Core Technologies
       MAIL_TO: info@gctechs.com
-      ALLOWED_ORIGINS: "http://localhost:3000"
+      ALLOWED_ORIGINS: "http://localhost:3000,http://localhost:3001"
     depends_on:
       - mailhog
     restart: unless-stopped
