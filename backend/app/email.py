@@ -55,7 +55,16 @@ def build_message(payload: ContactRequest, settings: Settings) -> EmailMessage:
 
 async def send_contact_email(payload: ContactRequest, settings: Settings) -> None:
     """Send the contact submission via SMTP. Raises on failure."""
+    import logging
+    logger = logging.getLogger("gct.email")
+
+    logger.info("Building email message for %s", payload.email)
     message = build_message(payload, settings)
+
+    logger.info("Connecting to SMTP: %s:%d (tls=%s, ssl=%s)",
+                settings.smtp_host, settings.smtp_port,
+                settings.smtp_use_tls, settings.smtp_use_ssl)
+
     await aiosmtplib.send(
         message,
         hostname=settings.smtp_host,
@@ -65,3 +74,4 @@ async def send_contact_email(payload: ContactRequest, settings: Settings) -> Non
         start_tls=settings.smtp_use_tls,
         use_tls=settings.smtp_use_ssl,
     )
+    logger.info("Email sent successfully to %s", settings.mail_to)
