@@ -179,7 +179,7 @@ const imperative = computed(() => {
       :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
       <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.png" class="absolute inset-0 -z-20 h-full w-full object-cover object-[center_25%]" aria-hidden="true" />
-      <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.png" class="absolute inset-0 -z-20 h-full w-full object-cover object-[center_25%]" aria-hidden="true" />
       <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
