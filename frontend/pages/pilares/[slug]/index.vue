@@ -91,7 +91,7 @@ const featured = computed(() => {
 
 // Pillars that have the full Level-2 document treatment (hero copy + services
 // heading override). The copy itself lives in i18n (locales/en|es.json).
-const docPillars = ['transform']
+const docPillars = ['transform', 'secure']
 
 // Optional hero override: doc-specific headline / subheadline / CTAs.
 const heroOverride = computed(() => {
@@ -113,7 +113,8 @@ const servicesHeading = computed(() =>
 
 // Business Outcomes (Section 6) — ordered keys live here, copy lives in i18n.
 const outcomeKeysByPillar: Record<string, string[]> = {
-  transform: ['risk', 'value', 'security', 'architecture', 'visibility']
+  transform: ['risk', 'value', 'security', 'architecture', 'visibility'],
+  secure: ['accessRisk', 'compliance', 'auditReady', 'emergencyAccess', 'roleArchitecture', 'operationalExposure', 'visibility']
 }
 const outcomesTitle = computed(() =>
   outcomeKeysByPillar[slug] ? t(`pillarDetail.outcomes.${slug}.title`) : ''
@@ -135,6 +136,16 @@ const pressuresByPillar: Record<string, { key: string; icon: string }[]> = {
     { key: 'cloud', icon: 'cloud' },
     { key: 'insights', icon: 'chart' },
     { key: 'ai', icon: 'ai' }
+  ],
+  secure: [
+    { key: 'authorization', icon: 'layers' },
+    { key: 'excessAccess', icon: 'alert' },
+    { key: 'sod', icon: 'shield' },
+    { key: 'provisioning', icon: 'server' },
+    { key: 'emergencyAccess', icon: 'shield' },
+    { key: 'audit', icon: 'chart' },
+    { key: 'roleComplexity', icon: 'cloud' },
+    { key: 'monitoring', icon: 'chart' }
   ]
 }
 const imperative = computed(() => {

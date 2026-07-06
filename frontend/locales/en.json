@@ -605,7 +605,8 @@
     "relatedServiceCta": "View full service",
     "contactCta": "Talk to a specialist",
     "servicesTitleByPillar": {
-      "transform": "Explore Our Transformation Capabilities"
+      "transform": "Explore Our Transformation Capabilities",
+      "secure": "Explore Our SAP Security Capabilities"
     },
     "hero": {
       "transform": {
@@ -613,6 +614,12 @@
         "subheadline": "Modernize, simplify and future-proof your SAP ecosystem through structured transformation programs, governance-driven execution and long-term operational sustainability.",
         "primaryCta": "Schedule a Transformation Assessment",
         "secondaryCta": "Explore Transformation Services"
+      },
+      "secure": {
+        "headline": "Secure Your SAP Landscape",
+        "subheadline": "Protect your SAP ecosystem with structured security governance, access control, risk prevention and compliance-driven operations.",
+        "primaryCta": "Schedule a SAP Security Assessment",
+        "secondaryCta": "Explore Security Services"
       }
     },
     "imperative": {
@@ -630,6 +637,22 @@
         },
         "closing": "Organizations that delay transformation often experience higher operational costs, slower innovation cycles and increased business risk.",
         "highlight": "Transformation is no longer optional. It is a strategic business necessity."
+      },
+      "secure": {
+        "title": "The SAP Security Challenge",
+        "intro": "Organizations struggle to secure their SAP landscapes because of:",
+        "pressures": {
+          "authorization": "Legacy SAP authorization models",
+          "excessAccess": "Excessive access and critical permissions",
+          "sod": "Segregation of Duties conflicts",
+          "provisioning": "Manual user provisioning processes",
+          "emergencyAccess": "Emergency access without enough traceability",
+          "audit": "Audit findings and compliance pressure",
+          "roleComplexity": "Role complexity across ECC, S/4HANA, Fiori and hybrid landscapes",
+          "monitoring": "Lack of continuous monitoring and governance"
+        },
+        "closing": "Without structured governance, these gaps translate into growing access risk, recurring audit findings and higher operational exposure.",
+        "highlight": "SAP security is not a one-time project. It is a continuous, governance-driven discipline."
       }
     },
     "outcomes": {
@@ -641,6 +664,18 @@
           "security": { "title": "Improved Security & Compliance", "description": "Integrate security requirements into transformation initiatives from the beginning." },
           "architecture": { "title": "Sustainable Architecture", "description": "Reduce technical complexity and prepare for future SAP innovation." },
           "visibility": { "title": "Better Executive Visibility", "description": "Enable informed decision-making through governance-driven execution." }
+        }
+      },
+      "secure": {
+        "title": "Business Outcomes",
+        "items": {
+          "accessRisk": { "title": "Reduced Access Risk", "description": "Eliminate excessive and critical access to shrink your attack and fraud surface." },
+          "compliance": { "title": "Stronger Compliance", "description": "Meet regulatory and internal control requirements with confidence." },
+          "auditReady": { "title": "Audit-Ready Governance", "description": "Keep access controls documented, traceable and always ready for audit." },
+          "emergencyAccess": { "title": "Controlled Emergency Access", "description": "Enable critical support with full accountability and audit evidence." },
+          "roleArchitecture": { "title": "Sustainable Role Architecture", "description": "Operate a scalable, business-aligned and maintainable authorization model." },
+          "operationalExposure": { "title": "Lower Operational Exposure", "description": "Reduce security incidents and the operational cost of remediation." },
+          "visibility": { "title": "Improved Visibility & Traceability", "description": "Gain continuous insight into who has access to what, and why." }
         }
       }
     },
@@ -669,28 +704,32 @@
       },
       "secure": {
         "sapSecurity": {
-          "title": "SAP Security",
-          "description": "Design and implementation of native SAP security controls to protect access, data, and critical processes."
-        },
-        "rbac": {
-          "title": "RBAC",
-          "description": "Role and profile management based on least-privilege principle for granular and auditable access control."
-        },
-        "sod": {
-          "title": "SoD",
-          "description": "Analysis and remediation of segregation of duties conflicts to eliminate fraud and operational error risks."
+          "title": "SAP Security Assessment",
+          "description": "Evaluate the security posture of your SAP environment — users, roles, critical authorizations, technical users and audit gaps — to identify real exposure and prioritize remediation."
         },
         "sapGrc": {
-          "title": "SAP GRC",
-          "description": "Implementation of the SAP GRC Access Control, Process Control, and Risk Management suite for comprehensive risk governance."
+          "title": "SAP GRC Access Control",
+          "description": "Implement, upgrade and optimize SAP GRC Access Control to centralize access governance, risk management and compliance, reducing access risk and improving traceability."
         },
-        "complianceMonitoring": {
-          "title": "Compliance Monitoring",
-          "description": "Continuous monitoring of regulatory compliance and internal controls with real-time alerts, reports, and auditing."
+        "sod": {
+          "title": "Segregation of Duties Risk Analysis & Remediation",
+          "description": "Analyze SoD conflicts, identify critical access combinations and define mitigation controls to reduce fraud exposure, audit findings and operational risk."
+        },
+        "rbac": {
+          "title": "SAP Role Redesign & Authorization Model",
+          "description": "Design or redesign SAP role models for ECC, S/4HANA and Fiori, aligning business responsibilities with a sustainable, scalable and auditable access model."
+        },
+        "emergencyAccess": {
+          "title": "Emergency Access Management",
+          "description": "Design and optimize emergency access processes — Firefighter, approvals, logs, reviews and audit evidence — enabling critical support while maintaining control and accountability."
         },
         "securityManagedServices": {
-          "title": "Security Managed Services",
-          "description": "Managed SAP security service with continuous operations, incident response, and iterative control improvement."
+          "title": "SAP Security Managed Services",
+          "description": "Continuous SAP Security support — access administration, role maintenance, periodic controls, audit support and risk monitoring — to sustain security and reduce internal operational burden."
+        },
+        "s4hanaReadiness": {
+          "title": "SAP S/4HANA Security Readiness",
+          "description": "Assess and prepare your security model for S/4HANA — roles, Fiori catalogs, business roles, authorization impacts and SoD risks — to avoid carrying legacy security issues into the future landscape."
         }
       },
       "operate": {
@@ -1306,11 +1345,11 @@
           "ctaSecondary": "Explore the Transform pillar"
         }
       },
-      "sap-security": {
-        "metaTitle": "SAP Security | Native Security Controls | Global Core Technologies",
+      "sap-security-assessment": {
+        "metaTitle": "SAP Security Assessment | SAP Security Posture Review | Global Core Technologies",
         "metaDescription": "Design and implement your SAP security architecture: authorization objects, system hardening, and access controls. Protect critical access and data.",
         "eyebrow": "Pillar · Secure",
-        "h1": "SAP Security: native controls that protect access without slowing operations",
+        "h1": "SAP Security Assessment: evaluate your posture and strengthen native controls",
         "heroSubtitle": "We design and implement the SAP security architecture from the ground up: authorization objects, system hardening, secure user configuration, and access controls that protect your critical data without creating operational friction.",
         "ctaPrimary": "Assess your SAP security posture",
         "ctaSecondary": "Request your security review",
@@ -1402,11 +1441,11 @@
           "ctaSecondary": "Explore the Secure pillar"
         }
       },
-      "sap-rbac": {
-        "metaTitle": "SAP RBAC | Role and Access Management | Global Core Technologies",
+      "sap-role-redesign": {
+        "metaTitle": "SAP Role Redesign | Authorization Model & Least Privilege | Global Core Technologies",
         "metaDescription": "Design and manage SAP roles based on least privilege. Eliminate superusers, simplify the role landscape, and pass audits with no access findings.",
         "eyebrow": "Pillar · Secure",
-        "h1": "RBAC in SAP: roles designed with least privilege, clean landscape, audits that pass",
+        "h1": "SAP Role Redesign: a least-privilege authorization model, clean landscape, audits that pass",
         "heroSubtitle": "We design and cleanse your SAP role landscape applying the principle of least privilege: we eliminate role proliferation, remediate superusers, and establish the governance process that keeps access control clean and auditable.",
         "ctaPrimary": "Assess your role landscape",
         "ctaSecondary": "Request a role analysis",
@@ -1594,11 +1633,11 @@
           "ctaSecondary": "Explore the Secure pillar"
         }
       },
-      "sap-grc": {
-        "metaTitle": "SAP GRC | Access Control, Process Control, Risk Management | Global Core Technologies",
+      "sap-grc-access-control": {
+        "metaTitle": "SAP GRC Access Control | Access, Process & Risk Governance | Global Core Technologies",
         "metaDescription": "Implement SAP GRC to automate access control, process monitoring, and risk management. Continuous compliance, without manual overhead.",
         "eyebrow": "Pillar · Secure",
-        "h1": "SAP GRC: automated risk governance and compliance in a single suite",
+        "h1": "SAP GRC Access Control: automated risk governance and compliance in a single suite",
         "heroSubtitle": "We implement and operate the SAP GRC suite — Access Control, Process Control, and Risk Management — to replace manual, reactive controls with automated, continuous, and auditable risk governance.",
         "ctaPrimary": "Assess your SAP GRC case",
         "ctaSecondary": "Request your GRC session",

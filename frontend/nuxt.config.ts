@@ -79,6 +79,14 @@ export default defineNuxtConfig({
     '/soluciones/**': { prerender: true },
     '/pilares/**': { prerender: true },
     '/plataformas/**': { prerender: true },
-    '/contacto': { prerender: true }
+    '/contacto': { prerender: true },
+    // 301 redirects for Secure L3 slugs renamed to match SEO keywords (2026-07).
+    // Cover both the default locale (no prefix) and the English `/en` prefix.
+    '/pilares/secure/sap-security': { redirect: { to: '/pilares/secure/sap-security-assessment', statusCode: 301 } },
+    '/en/pilares/secure/sap-security': { redirect: { to: '/en/pilares/secure/sap-security-assessment', statusCode: 301 } },
+    '/pilares/secure/sap-grc': { redirect: { to: '/pilares/secure/sap-grc-access-control', statusCode: 301 } },
+    '/en/pilares/secure/sap-grc': { redirect: { to: '/en/pilares/secure/sap-grc-access-control', statusCode: 301 } },
+    '/pilares/secure/sap-rbac': { redirect: { to: '/pilares/secure/sap-role-redesign', statusCode: 301 } },
+    '/en/pilares/secure/sap-rbac': { redirect: { to: '/en/pilares/secure/sap-role-redesign', statusCode: 301 } }
   }
 })

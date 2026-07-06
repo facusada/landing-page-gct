@@ -58,7 +58,7 @@ export const pillars: PillarItem[] = [
 
 export const pillarServiceKeys: Record<string, string[]> = {
   transform: ['s4hana', 'riseWithSap', 'readinessAssessment', 'migrationGovernance', 'cleanCoreStrategy'],
-  secure: ['sapSecurity', 'rbac', 'sod', 'sapGrc', 'complianceMonitoring', 'securityManagedServices'],
+  secure: ['sapSecurity', 'sapGrc', 'sod', 'rbac', 'emergencyAccess', 'securityManagedServices', 's4hanaReadiness'],
   operate: ['sapAms', 'sapBasis', 'cloudAlm', 'monitoringAutomation', 'rootCauseAnalysis', 'technicalGovernance'],
   govern: ['governanceAdvisory', 'migrationGovernance', 'compliance', 'executiveControls', 'cleanCoreGovernance'],
   innovate: ['aiAutomation', 'btpAutomation', 'intelliguard', 'opsIntelligencePlatform', 'predictiveMonitoring']
@@ -129,7 +129,7 @@ export const pillarL3Services: PillarL3Service[] = [
   {
     pillar: 'secure',
     key: 'sapSecurity',
-    slug: 'sap-security',
+    slug: 'sap-security-assessment',
     icon: 'security',
     image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics,
@@ -138,7 +138,7 @@ export const pillarL3Services: PillarL3Service[] = [
   {
     pillar: 'secure',
     key: 'rbac',
-    slug: 'sap-rbac',
+    slug: 'sap-role-redesign',
     icon: 'security',
     image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics
@@ -154,7 +154,7 @@ export const pillarL3Services: PillarL3Service[] = [
   {
     pillar: 'secure',
     key: 'sapGrc',
-    slug: 'sap-grc',
+    slug: 'sap-grc-access-control',
     icon: 'implementation',
     image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics,
