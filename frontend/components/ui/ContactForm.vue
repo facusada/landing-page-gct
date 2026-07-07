@@ -4,7 +4,12 @@ import { services } from '~/data/landing'
 const { t } = useI18n()
 const route = useRoute()
 const config = useRuntimeConfig()
-const preselectedService = (route.query.servicio as string) ?? ''
+
+// Only preselect the service if the `?servicio=` query matches a real option
+// in the select; otherwise fall back to the "Select service" placeholder.
+const serviceSlugs = new Set(services.map(s => s.slug))
+const requestedService = (route.query.servicio as string) ?? ''
+const preselectedService = serviceSlugs.has(requestedService) ? requestedService : ''
 
 const form = reactive({
   name: '',
