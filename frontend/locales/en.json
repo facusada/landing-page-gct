@@ -637,8 +637,8 @@
         "secondaryCta": "Explore Innovation Services"
       },
       "operate": {
-        "headline": "Operate SAP with Confidence and Control",
-        "subheadline": "Keep your SAP landscape available, performant and secure through proactive operations, managed services and continuous monitoring.",
+        "headline": "Operate Your SAP Landscape with Confidence",
+        "subheadline": "Ensure stability, availability and continuous improvement across your SAP ecosystem through structured operations, expert support and proactive governance.",
         "primaryCta": "Schedule an Operations Assessment",
         "secondaryCta": "Explore Operations Services"
       }
@@ -709,19 +709,19 @@
       },
       "operate": {
         "title": "The SAP Operations Challenge",
-        "intro": "Keeping SAP running reliably is harder than it looks, because of:",
+        "intro": "Organizations struggle to run SAP reliably because of:",
         "pressures": {
-          "availability": "Downtime that hits the business directly",
-          "performance": "Performance issues detected too late",
-          "reactive": "Reactive, firefighting support models",
-          "complexity": "Growing landscape and technical complexity",
-          "monitoring": "Limited visibility and monitoring",
-          "knowledge": "Knowledge concentrated in a few people",
-          "cost": "Rising operational cost and effort",
-          "security": "Operational security and patching gaps"
+          "complexity": "Complex SAP landscapes",
+          "reactive": "Reactive support models",
+          "incidentOverload": "Incident overload",
+          "visibility": "Limited visibility into system health",
+          "performanceRisk": "Performance and availability risks",
+          "fragmentedSupport": "Fragmented Basis, functional and technical support",
+          "governance": "Lack of structured service governance",
+          "measurement": "Difficulty measuring service quality and continuous improvement"
         },
-        "closing": "Without proactive, well-governed operations, small issues become outages, costs creep up and teams spend their time firefighting instead of improving.",
-        "highlight": "SAP operations are not just keeping the lights on. They are how you protect availability, performance and business continuity."
+        "closing": "Without a structured operations model, incidents pile up, system health stays invisible and service quality becomes impossible to measure or improve.",
+        "highlight": "SAP operations are not just keeping systems running. They are how you protect stability, availability and continuous improvement."
       }
     },
     "framework": {
@@ -782,27 +782,27 @@
       "operate": {
         "eyebrow": "Our Operate Framework",
         "title": "A Structured Model for SAP Operations",
-        "intro": "Five connected stages that keep your SAP landscape available, performant and continuously improving.",
+        "intro": "Five connected stages that keep your SAP landscape stable, supported and continuously improving.",
         "stages": {
-          "onboard": {
-            "name": "Onboard",
-            "description": "Understand the landscape, document it, and set up the operating model, tooling and SLAs."
-          },
-          "monitor": {
-            "name": "Monitor",
-            "description": "Continuously monitor availability, performance and health across the SAP landscape."
+          "stabilize": {
+            "name": "Stabilize",
+            "description": "Ensure the SAP landscape is reliable, controlled and operationally ready."
           },
           "support": {
             "name": "Support",
-            "description": "Resolve incidents and service requests with defined SLAs and clear ownership."
+            "description": "Provide structured AMS, Basis and technical support for incidents, requests and recurring operational needs."
+          },
+          "monitor": {
+            "name": "Monitor",
+            "description": "Track system health, performance, availability, jobs, interfaces and operational risks."
           },
           "optimize": {
             "name": "Optimize",
-            "description": "Tune performance, reduce recurring incidents and improve operational efficiency."
+            "description": "Improve system performance, reduce recurring incidents and streamline operational processes."
           },
-          "evolve": {
-            "name": "Evolve",
-            "description": "Continuously improve, automate and prepare operations for change and growth."
+          "improve": {
+            "name": "Improve",
+            "description": "Drive continuous service improvement through reporting, governance, automation and operational insights."
           }
         }
       }
@@ -857,13 +857,13 @@
       "operate": {
         "title": "Business Outcomes",
         "items": {
-          "availability": { "title": "Higher Availability", "description": "Keep critical SAP systems up and running when the business needs them." },
+          "availability": { "title": "Higher System Availability", "description": "Keep critical SAP systems available when the business needs them." },
+          "incidentResolution": { "title": "Faster Incident Resolution", "description": "Resolve incidents quickly through structured support and clear ownership." },
+          "risk": { "title": "Reduced Operational Risk", "description": "Lower the risk of outages, performance issues and unplanned disruption." },
+          "visibility": { "title": "Improved Service Visibility", "description": "Gain clear visibility into system health, service quality and operations." },
           "performance": { "title": "Better Performance", "description": "Sustain fast, stable SAP performance for users and processes." },
-          "proactive": { "title": "Proactive Operations", "description": "Detect and resolve issues before they become outages." },
-          "visibility": { "title": "Operational Visibility", "description": "Gain continuous insight into the health of your SAP landscape." },
-          "cost": { "title": "Lower Operational Cost", "description": "Reduce the effort and cost of running SAP through automation and efficiency." },
-          "continuity": { "title": "Business Continuity", "description": "Protect the business from disruption with resilient, well-governed operations." },
-          "focus": { "title": "Focus on the Business", "description": "Free your teams from firefighting to focus on higher-value work." }
+          "improvement": { "title": "Continuous Improvement", "description": "Turn operational data into ongoing service and process improvement." },
+          "scalable": { "title": "Scalable SAP Support Model", "description": "Consolidate operations under a measurable, scalable service model." }
         }
       }
     },
@@ -921,29 +921,33 @@
         }
       },
       "operate": {
-        "sapAms": {
-          "title": "SAP AMS",
-          "description": "Application Management Services for functional and technical support of SAP modules in production."
+        "amsServices": {
+          "title": "SAP AMS Services",
+          "description": "Functional and technical support for SAP applications — incidents, requests, enhancements and ongoing business continuity — to maintain service quality while reducing operational burden."
         },
-        "sapBasis": {
-          "title": "SAP Basis",
-          "description": "Administration and operation of the SAP BASIS NextGen technical platform with focus on availability and performance."
+        "basisOperations": {
+          "title": "SAP Basis Operations",
+          "description": "Operate and support SAP technical landscapes — administration, transports, jobs, performance, availability and maintenance — keeping systems stable, secure and available."
         },
-        "cloudAlm": {
-          "title": "Cloud ALM",
-          "description": "Implementation and operation of SAP Cloud ALM for lifecycle, project, and cloud operations management."
+        "technicalMonitoring": {
+          "title": "SAP Technical Monitoring",
+          "description": "Monitor SAP systems, interfaces, jobs, databases, integrations and critical technical indicators to detect issues early and reduce business disruption."
         },
-        "monitoringAutomation": {
-          "title": "Monitoring & Automation",
-          "description": "Proactive monitoring platforms and operational task automation to reduce manual work and response times."
+        "incidentProblem": {
+          "title": "SAP Incident & Problem Management",
+          "description": "Structured incident resolution, root-cause analysis and recurring-issue management with service reporting to reduce repeated incidents and improve reliability."
         },
-        "rootCauseAnalysis": {
-          "title": "Root Cause Analysis",
-          "description": "Structured incident analysis to identify root causes, implement corrections, and prevent recurrences."
+        "performanceAvailability": {
+          "title": "SAP Performance & Availability Management",
+          "description": "Analyze and optimize system performance, response times, workload distribution and availability to improve user experience and reduce operational risk."
         },
-        "technicalGovernance": {
-          "title": "Technical Governance",
-          "description": "Technical standards, change management, and quality controls for sustainable system operations."
+        "cloudAlmOperations": {
+          "title": "SAP Cloud ALM Operations",
+          "description": "Implement and operate SAP Cloud ALM for monitoring, alerting, operations visibility and service management — enabling proactive operations."
+        },
+        "operationsHub": {
+          "title": "SAP Operations Hub / Managed Services",
+          "description": "A centralized operational model for SAP support, monitoring, governance and continuous improvement under a scalable, measurable service."
         }
       },
       "govern": {

@@ -186,7 +186,7 @@ const outcomeKeysByPillar: Record<string, string[]> = {
   secure: ['accessRisk', 'compliance', 'auditReady', 'emergencyAccess', 'roleArchitecture', 'operationalExposure', 'visibility'],
   govern: ['visibility', 'control', 'accountability', 'risk', 'reporting', 'consumption', 'decisions'],
   innovate: ['fasterInnovation', 'cleanerArchitecture', 'betterIntegration', 'higherAutomation', 'aiAdoption', 'dataVisibility', 'scalable'],
-  operate: ['availability', 'performance', 'proactive', 'visibility', 'cost', 'continuity', 'focus']
+  operate: ['availability', 'incidentResolution', 'risk', 'visibility', 'performance', 'improvement', 'scalable']
 }
 const outcomesTitle = computed(() =>
   outcomeKeysByPillar[slug] ? t(`pillarDetail.outcomes.${slug}.title`) : ''
@@ -240,14 +240,14 @@ const pressuresByPillar: Record<string, { key: string; icon: string }[]> = {
     { key: 'governance', icon: 'shield' }
   ],
   operate: [
-    { key: 'availability', icon: 'server' },
-    { key: 'performance', icon: 'chart' },
-    { key: 'reactive', icon: 'alert' },
     { key: 'complexity', icon: 'layers' },
-    { key: 'monitoring', icon: 'chart' },
-    { key: 'knowledge', icon: 'star' },
-    { key: 'cost', icon: 'cloud' },
-    { key: 'security', icon: 'shield' }
+    { key: 'reactive', icon: 'alert' },
+    { key: 'incidentOverload', icon: 'alert' },
+    { key: 'visibility', icon: 'chart' },
+    { key: 'performanceRisk', icon: 'server' },
+    { key: 'fragmentedSupport', icon: 'cloud' },
+    { key: 'governance', icon: 'shield' },
+    { key: 'measurement', icon: 'chart' }
   ]
 }
 const imperative = computed(() => {
@@ -269,7 +269,7 @@ const imperative = computed(() => {
 const frameworkStagesByPillar: Record<string, string[]> = {
   govern: ['align', 'structure', 'control', 'report', 'decide'],
   innovate: ['discover', 'design', 'build', 'integrate', 'scale'],
-  operate: ['onboard', 'monitor', 'support', 'optimize', 'evolve']
+  operate: ['stabilize', 'support', 'monitor', 'optimize', 'improve']
 }
 const framework = computed(() => {
   const list = frameworkStagesByPillar[slug]
