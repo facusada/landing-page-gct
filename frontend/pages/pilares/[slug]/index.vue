@@ -92,7 +92,7 @@ const featured = computed(() => {
 
 // Pillars that have the full Level-2 document treatment (hero copy + services
 // heading override). The copy itself lives in i18n (locales/en|es.json).
-const docPillars = ['transform', 'secure', 'govern']
+const docPillars = ['transform', 'secure', 'govern', 'innovate']
 
 // Optional hero override: doc-specific headline / subheadline / CTAs.
 const heroOverride = computed(() => {
@@ -116,7 +116,8 @@ const servicesHeading = computed(() =>
 const outcomeKeysByPillar: Record<string, string[]> = {
   transform: ['risk', 'value', 'security', 'architecture', 'visibility'],
   secure: ['accessRisk', 'compliance', 'auditReady', 'emergencyAccess', 'roleArchitecture', 'operationalExposure', 'visibility'],
-  govern: ['visibility', 'control', 'accountability', 'risk', 'reporting', 'consumption', 'decisions']
+  govern: ['visibility', 'control', 'accountability', 'risk', 'reporting', 'consumption', 'decisions'],
+  innovate: ['fasterInnovation', 'cleanerArchitecture', 'betterIntegration', 'higherAutomation', 'aiAdoption', 'dataVisibility', 'scalable']
 }
 const outcomesTitle = computed(() =>
   outcomeKeysByPillar[slug] ? t(`pillarDetail.outcomes.${slug}.title`) : ''
@@ -158,6 +159,16 @@ const pressuresByPillar: Record<string, { key: string; icon: string }[]> = {
     { key: 'decisionSupport', icon: 'star' },
     { key: 'alignment', icon: 'cloud' },
     { key: 'measurement', icon: 'chart' }
+  ],
+  innovate: [
+    { key: 'legacyArch', icon: 'server' },
+    { key: 'customCode', icon: 'alert' },
+    { key: 'integration', icon: 'layers' },
+    { key: 'btpAdoption', icon: 'cloud' },
+    { key: 'aiUseCases', icon: 'star' },
+    { key: 'cleanCore', icon: 'shield' },
+    { key: 'dataProcesses', icon: 'chart' },
+    { key: 'governance', icon: 'shield' }
   ]
 }
 const imperative = computed(() => {
@@ -177,7 +188,8 @@ const imperative = computed(() => {
 
 // Pillar Framework (Section 3) — ordered stage keys here, copy lives in i18n.
 const frameworkStagesByPillar: Record<string, string[]> = {
-  govern: ['align', 'structure', 'control', 'report', 'decide']
+  govern: ['align', 'structure', 'control', 'report', 'decide'],
+  innovate: ['discover', 'design', 'build', 'integrate', 'scale']
 }
 const framework = computed(() => {
   const list = frameworkStagesByPillar[slug]
@@ -212,7 +224,7 @@ const framework = computed(() => {
       <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <div v-else class="absolute inset-0 bg-core-ink/80" />
       <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
       <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />

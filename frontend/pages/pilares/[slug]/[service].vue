@@ -62,7 +62,7 @@ const pillarHeroBg: Record<string, string> = {
   secure: '/backgrounds/secure-hero.webp',
   operate: '/backgrounds/operate-hero.svg',
   govern: '/backgrounds/govern-hero.webp',
-  innovate: '/backgrounds/innovate-hero.svg',
+  innovate: '/backgrounds/innovate-hero.webp',
 }
 const heroBgSrc = pillarHeroBg[pillarSlug] ?? null
 // WebP heros are panoramic photos that fill the whole band (object-cover);

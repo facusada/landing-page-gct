@@ -607,7 +607,8 @@
     "servicesTitleByPillar": {
       "transform": "Explorá nuestras capacidades de transformación",
       "secure": "Explorá nuestras capacidades de seguridad SAP",
-      "govern": "Explorá nuestras capacidades de gobierno SAP"
+      "govern": "Explorá nuestras capacidades de gobierno SAP",
+      "innovate": "Explorá nuestras capacidades de innovación SAP"
     },
     "hero": {
       "transform": {
@@ -627,6 +628,12 @@
         "subheadline": "Aportá estructura, visibilidad y alineación ejecutiva a los proyectos, servicios y programas de transformación SAP mediante una entrega guiada por el gobierno.",
         "primaryCta": "Agendá una evaluación de gobierno",
         "secondaryCta": "Explorá los servicios de gobierno"
+      },
+      "innovate": {
+        "headline": "Innová en todo tu ecosistema SAP",
+        "subheadline": "Extendé, integrá y automatizá tu landscape SAP con SAP BTP, IA, principios de clean core y servicios de innovación de nivel empresarial.",
+        "primaryCta": "Agendá una evaluación de innovación",
+        "secondaryCta": "Explorá los servicios de innovación"
       }
     },
     "imperative": {
@@ -676,6 +683,22 @@
         },
         "closing": "Sin un modelo de gobierno, los programas SAP se desvían: los costos y riesgos crecen mientras la dirección carece de la visibilidad para decidir con confianza.",
         "highlight": "El gobierno SAP no es una carga administrativa. Es lo que mantiene tus programas alineados, controlados y con responsables claros."
+      },
+      "innovate": {
+        "title": "El desafío de la innovación SAP",
+        "intro": "Las organizaciones tienen dificultades para innovar sobre SAP por:",
+        "pressures": {
+          "legacyArch": "Innovación bloqueada por arquitecturas SAP legacy",
+          "customCode": "Código custom y deuda técnica",
+          "integration": "Necesidades de integración complejas",
+          "btpAdoption": "Dificultad para adoptar SAP BTP",
+          "aiUseCases": "Casos de uso de IA y automatización poco claros",
+          "cleanCore": "Falta de una estrategia de clean core",
+          "dataProcesses": "Datos y procesos desconectados",
+          "governance": "Riesgo de construir extensiones sin gobierno"
+        },
+        "closing": "Sin una estrategia clara, la innovación se estanca o genera nueva deuda técnica: las extensiones se acumulan, las integraciones se vuelven frágiles y el clean core se erosiona.",
+        "highlight": "La verdadera innovación SAP no se trata de hype. Se trata de extender, integrar y automatizar sin comprometer el core."
       }
     },
     "framework": {
@@ -703,6 +726,33 @@
           "decide": {
             "name": "Decidir",
             "description": "Habilitá decisiones más rápidas y mejores con información transparente y escalamiento estructurado."
+          }
+        }
+      },
+      "innovate": {
+        "eyebrow": "Nuestro framework de innovación",
+        "title": "Un camino práctico hacia la innovación SAP",
+        "intro": "Cinco etapas conectadas que convierten las ideas de innovación en capacidades SAP escalables y gobernadas.",
+        "stages": {
+          "discover": {
+            "name": "Descubrir",
+            "description": "Identificá oportunidades de innovación, puntos de dolor del negocio, potencial de automatización y casos de uso de SAP BTP."
+          },
+          "design": {
+            "name": "Diseñar",
+            "description": "Definí arquitectura, principios de clean core, patrones de integración, flujos de datos y gobierno."
+          },
+          "build": {
+            "name": "Construir",
+            "description": "Desarrollá extensiones SAP, automatizaciones, soluciones con IA y servicios digitales."
+          },
+          "integrate": {
+            "name": "Integrar",
+            "description": "Conectá sistemas SAP y no-SAP mediante modelos de integración seguros, escalables y gobernados."
+          },
+          "scale": {
+            "name": "Escalar",
+            "description": "Operacionalizá la innovación con monitorización, gobierno, adopción y mejora continua."
           }
         }
       }
@@ -740,6 +790,18 @@
           "reporting": { "title": "Reportes transparentes", "description": "Reemplazá los estados fragmentados por reportes de gobierno consistentes y basados en datos." },
           "consumption": { "title": "Mejor control del consumo de servicios", "description": "Seguí las órdenes de servicio, las horas y el consumo para controlar el gasto y la entrega." },
           "decisions": { "title": "Decisiones más rápidas", "description": "Habilitá decisiones más rápidas y mejores con información transparente y escalamiento estructurado." }
+        }
+      },
+      "innovate": {
+        "title": "Resultados de negocio",
+        "items": {
+          "fasterInnovation": { "title": "Innovación más rápida", "description": "Pasá de la idea a una capacidad SAP funcional más rápido, sin esperar al core." },
+          "cleanerArchitecture": { "title": "Arquitectura más limpia", "description": "Innová sobre principios de clean core que mantienen SAP actualizable y mantenible." },
+          "betterIntegration": { "title": "Mejor integración", "description": "Conectá sistemas SAP y no-SAP mediante modelos seguros, escalables y gobernados." },
+          "higherAutomation": { "title": "Mayor automatización", "description": "Automatizá el trabajo SAP manual y repetitivo para liberar a los equipos hacia tareas de mayor valor." },
+          "aiAdoption": { "title": "Adopción práctica de IA", "description": "Aplicá IA donde aporta valor real, con casos de uso claros y gobierno." },
+          "dataVisibility": { "title": "Mayor visibilidad de datos", "description": "Convertí los datos SAP en insight con reporting, dashboards y analítica integrados." },
+          "scalable": { "title": "Capacidades digitales escalables", "description": "Construí innovación reutilizable y gobernada que escala en todo el landscape SAP." }
         }
       }
     },
@@ -853,25 +915,33 @@
         }
       },
       "innovate": {
+        "btpAdvisory": {
+          "title": "SAP BTP Advisory",
+          "description": "Ayudamos a definir dónde y cómo usar SAP Business Technology Platform para extender, integrar e innovar sobre los landscapes SAP, convirtiendo BTP en una plataforma de innovación práctica alineada con las prioridades del negocio."
+        },
+        "integrationSuite": {
+          "title": "SAP Integration Suite",
+          "description": "Diseñá, construí y goberná integraciones entre SAP, aplicaciones cloud, sistemas externos y socios de negocio para mejorar la conectividad de procesos y reducir la complejidad de integración."
+        },
         "aiAutomation": {
-          "title": "AI & Automation",
-          "description": "Integración de inteligencia artificial y automatización inteligente en procesos SAP para incrementar productividad y precisión."
+          "title": "SAP AI & Automation",
+          "description": "Identificá, diseñá e implementá flujos con IA, oportunidades de automatización y asistentes inteligentes para procesos SAP, aumentando la eficiencia con casos de uso de IA prácticos."
         },
-        "btpAutomation": {
-          "title": "BTP Automation",
-          "description": "Desarrollo de automatizaciones y extensiones sobre SAP Business Technology Platform con enfoque en escalabilidad y gobernabilidad."
+        "extensionDevelopment": {
+          "title": "SAP Extension Development",
+          "description": "Construí extensiones SAP limpias, escalables y gobernadas con prácticas de desarrollo modernas y cloud-ready, para extender las capacidades SAP sin comprometer el core."
         },
-        "intelliguard": {
-          "title": "Intelliguard",
-          "description": "Plataforma propietaria de monitorización inteligente que detecta anomalías, anticipa riesgos y acelera la respuesta operativa."
+        "cleanCoreInnovation": {
+          "title": "SAP Clean Core Innovation",
+          "description": "Diseñá iniciativas de innovación alineadas con los principios de clean core, reduciendo la customización innecesaria y protegiendo la actualizabilidad y mantenibilidad de SAP a largo plazo."
         },
-        "opsIntelligencePlatform": {
-          "title": "Operations Intelligence Platform",
-          "description": "Solución de análisis operacional que centraliza métricas de rendimiento y disponibilidad para decisiones basadas en datos."
+        "dataAnalytics": {
+          "title": "SAP Data & Analytics Enablement",
+          "description": "Habilitá insights SAP basados en datos mediante integración, reporting, dashboards y fundaciones de analítica para mejorar la visibilidad y la toma de decisiones en los procesos SAP."
         },
-        "predictiveMonitoring": {
-          "title": "Predictive Monitoring",
-          "description": "Modelos predictivos que anticipan incidentes, cuellos de botella y degradaciones antes de que impacten el negocio."
+        "intelligentAgents": {
+          "title": "Intelligent Agents for SAP Operations",
+          "description": "Diseñá agentes de IA y copilotos que asisten en operaciones, soporte, estimaciones, monitorización, documentación y soporte a decisiones SAP, trayendo inteligencia al trabajo diario."
         }
       }
     }
