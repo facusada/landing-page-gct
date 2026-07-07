@@ -180,9 +180,9 @@ export const pillarL3Services: PillarL3Service[] = [
   // Govern pillar
   {
     pillar: 'govern',
-    key: 'governanceAdvisory',
-    slug: 'sap-governance-advisory',
-    icon: 'implementation',
+    key: 'pmoProjectGovernance',
+    slug: 'sap-pmo-project-governance',
+    icon: 'solman',
     image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
@@ -192,8 +192,8 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'govern',
-    key: 'migrationGovernance',
-    slug: 'sap-program-governance',
+    key: 'programManagement',
+    slug: 'sap-program-management',
     icon: 'managed',
     image: '/pillars/03_tile_04_govern.png',
     metrics: [
@@ -204,8 +204,32 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'govern',
-    key: 'compliance',
-    slug: 'sap-compliance',
+    key: 'serviceGovernance',
+    slug: 'sap-service-governance',
+    icon: 'support',
+    image: '/pillars/03_tile_04_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'govern',
+    key: 'deliveryGovernance',
+    slug: 'sap-delivery-governance',
+    icon: 'implementation',
+    image: '/pillars/03_tile_04_govern.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'govern',
+    key: 'complianceControl',
+    slug: 'sap-compliance-control-framework',
     icon: 'security',
     image: '/pillars/03_tile_04_govern.png',
     metrics: [
@@ -216,8 +240,8 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'govern',
-    key: 'executiveControls',
-    slug: 'sap-executive-controls',
+    key: 'kpiReporting',
+    slug: 'sap-kpi-executive-reporting',
     icon: 'performance',
     image: '/pillars/03_tile_04_govern.png',
     metrics: [
@@ -228,9 +252,9 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'govern',
-    key: 'cleanCoreGovernance',
-    slug: 'sap-clean-core-governance',
-    icon: 'implementation',
+    key: 'methodologyAdvisory',
+    slug: 'sap-methodology-advisory',
+    icon: 'innovation',
     image: '/pillars/03_tile_04_govern.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
