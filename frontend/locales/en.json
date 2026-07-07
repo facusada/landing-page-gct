@@ -606,7 +606,8 @@
     "contactCta": "Talk to a specialist",
     "servicesTitleByPillar": {
       "transform": "Explore Our Transformation Capabilities",
-      "secure": "Explore Our SAP Security Capabilities"
+      "secure": "Explore Our SAP Security Capabilities",
+      "govern": "Explore Our SAP Governance Capabilities"
     },
     "hero": {
       "transform": {
@@ -620,6 +621,12 @@
         "subheadline": "Protect your SAP ecosystem with structured security governance, access control, risk prevention and compliance-driven operations.",
         "primaryCta": "Schedule a SAP Security Assessment",
         "secondaryCta": "Explore Security Services"
+      },
+      "govern": {
+        "headline": "Govern SAP Initiatives with Clarity and Control",
+        "subheadline": "Bring structure, visibility and executive alignment to SAP projects, services and transformation programs through governance-driven delivery.",
+        "primaryCta": "Schedule a Governance Assessment",
+        "secondaryCta": "Explore Governance Services"
       }
     },
     "imperative": {
@@ -653,6 +660,51 @@
         },
         "closing": "Without structured governance, these gaps translate into growing access risk, recurring audit findings and higher operational exposure.",
         "highlight": "SAP security is not a one-time project. It is a continuous, governance-driven discipline."
+      },
+      "govern": {
+        "title": "The SAP Governance Challenge",
+        "intro": "Organizations struggle to govern their SAP initiatives because of:",
+        "pressures": {
+          "visibility": "Lack of visibility across SAP projects and services",
+          "reporting": "Fragmented, inconsistent reporting",
+          "ownership": "Unclear ownership and accountability",
+          "control": "Weak control over scope, hours, risks and status",
+          "methodology": "Multiple methodologies without standard governance",
+          "decisionSupport": "Limited executive-level decision support",
+          "alignment": "Poor connection between delivery, operations and business outcomes",
+          "measurement": "Difficulty measuring performance and progress"
+        },
+        "closing": "Without a governance model, SAP programs drift — costs and risks grow while executives lack the visibility to steer decisions with confidence.",
+        "highlight": "SAP governance is not administrative overhead. It is how you keep programs aligned, controlled and accountable."
+      }
+    },
+    "framework": {
+      "govern": {
+        "eyebrow": "Our Govern Framework",
+        "title": "A Structured Model for SAP Governance",
+        "intro": "Five connected disciplines that bring alignment, control and executive visibility to every SAP initiative.",
+        "stages": {
+          "align": {
+            "name": "Align",
+            "description": "Connect SAP initiatives with business priorities, stakeholders and expected outcomes."
+          },
+          "structure": {
+            "name": "Structure",
+            "description": "Define governance models, roles, responsibilities, cadence, methodology and delivery controls."
+          },
+          "control": {
+            "name": "Control",
+            "description": "Track scope, risks, issues, hours, milestones, service consumption and project execution."
+          },
+          "report": {
+            "name": "Report",
+            "description": "Provide clear dashboards, executive status reports, KPIs and governance insights."
+          },
+          "decide": {
+            "name": "Decide",
+            "description": "Enable faster, better decisions through transparent information and structured escalation."
+          }
+        }
       }
     },
     "outcomes": {
@@ -676,6 +728,18 @@
           "roleArchitecture": { "title": "Sustainable Role Architecture", "description": "Operate a scalable, business-aligned and maintainable authorization model." },
           "operationalExposure": { "title": "Lower Operational Exposure", "description": "Reduce security incidents and the operational cost of remediation." },
           "visibility": { "title": "Improved Visibility & Traceability", "description": "Gain continuous insight into who has access to what, and why." }
+        }
+      },
+      "govern": {
+        "title": "Business Outcomes",
+        "items": {
+          "visibility": { "title": "Better Executive Visibility", "description": "Give leadership a clear, real-time view of SAP projects, services and program health." },
+          "control": { "title": "Stronger Delivery Control", "description": "Keep scope, milestones and deliverables under control across projects and services." },
+          "accountability": { "title": "Clearer Accountability", "description": "Make ownership explicit, so every risk, issue and decision has a responsible owner." },
+          "risk": { "title": "Improved Risk Management", "description": "Surface and manage risks early, before they impact cost, timeline or business outcomes." },
+          "reporting": { "title": "Transparent Reporting", "description": "Replace fragmented status updates with consistent, data-driven governance reporting." },
+          "consumption": { "title": "Better Service Consumption Control", "description": "Track service orders, hours and consumption to control spend and delivery." },
+          "decisions": { "title": "Faster Decision-Making", "description": "Enable faster, better decisions through transparent information and structured escalation." }
         }
       }
     },
@@ -759,25 +823,33 @@
         }
       },
       "govern": {
-        "governanceAdvisory": {
-          "title": "Governance Advisory",
-          "description": "Executive advisory to design SAP governance frameworks aligned to business strategy and regulatory requirements."
+        "pmoProjectGovernance": {
+          "title": "SAP PMO & Project Governance",
+          "description": "Design and operate governance models for SAP projects — planning, status, risks, issues, scope and stakeholder alignment — to increase project control and executive visibility."
         },
-        "migrationGovernance": {
-          "title": "Migration Governance",
-          "description": "Control structures for migration projects that ensure visibility, traceability, and management of critical decisions."
+        "programManagement": {
+          "title": "SAP Program Management",
+          "description": "Coordinate complex SAP initiatives across multiple teams, workstreams, vendors and systems to improve alignment, execution discipline and decision-making."
         },
-        "compliance": {
-          "title": "Compliance",
-          "description": "Implementation of regulatory compliance controls embedded in SAP processes to reduce regulatory exposure."
+        "serviceGovernance": {
+          "title": "SAP Service Governance",
+          "description": "Define governance for SAP services — service orders, SLAs, hours, consumption and operational follow-up — to control service delivery and consumption."
         },
-        "executiveControls": {
-          "title": "Executive Controls",
-          "description": "Executive dashboards and control KPIs that give leadership visibility into the state of the SAP ecosystem."
+        "deliveryGovernance": {
+          "title": "SAP Delivery Governance",
+          "description": "Track delivery across projects and services — milestones, deliverables, risks, issues and dependencies — to reduce delivery uncertainty and improve accountability."
         },
-        "cleanCoreGovernance": {
-          "title": "Clean Core Governance",
-          "description": "Governance policies and processes to keep the SAP core clean, upgradable, and aligned to best practices."
+        "complianceControl": {
+          "title": "SAP Compliance & Control Framework",
+          "description": "Establish control mechanisms for SAP operations, security, changes, access and audit readiness to strengthen compliance and close governance gaps."
+        },
+        "kpiReporting": {
+          "title": "SAP KPI & Executive Reporting",
+          "description": "Design dashboards and executive reports covering status, risks, hours, consumption, project health and business impact for transparent, data-driven management."
+        },
+        "methodologyAdvisory": {
+          "title": "SAP Methodology Advisory",
+          "description": "Help select or adapt methodologies — SAP Activate, hybrid governance or standard delivery — applying the right level of methodology without unnecessary complexity."
         }
       },
       "innovate": {

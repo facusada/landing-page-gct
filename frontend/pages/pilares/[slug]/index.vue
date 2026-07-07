@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BusinessOutcomes from '~/components/sections/BusinessOutcomes.vue'
 import FeaturedInnovation from '~/components/sections/FeaturedInnovation.vue'
+import PillarFramework from '~/components/sections/PillarFramework.vue'
 import TransformationImperative from '~/components/sections/TransformationImperative.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 import ParticleField from '~/components/ui/ParticleField.vue'
@@ -91,7 +92,7 @@ const featured = computed(() => {
 
 // Pillars that have the full Level-2 document treatment (hero copy + services
 // heading override). The copy itself lives in i18n (locales/en|es.json).
-const docPillars = ['transform', 'secure']
+const docPillars = ['transform', 'secure', 'govern']
 
 // Optional hero override: doc-specific headline / subheadline / CTAs.
 const heroOverride = computed(() => {
@@ -114,7 +115,8 @@ const servicesHeading = computed(() =>
 // Business Outcomes (Section 6) — ordered keys live here, copy lives in i18n.
 const outcomeKeysByPillar: Record<string, string[]> = {
   transform: ['risk', 'value', 'security', 'architecture', 'visibility'],
-  secure: ['accessRisk', 'compliance', 'auditReady', 'emergencyAccess', 'roleArchitecture', 'operationalExposure', 'visibility']
+  secure: ['accessRisk', 'compliance', 'auditReady', 'emergencyAccess', 'roleArchitecture', 'operationalExposure', 'visibility'],
+  govern: ['visibility', 'control', 'accountability', 'risk', 'reporting', 'consumption', 'decisions']
 }
 const outcomesTitle = computed(() =>
   outcomeKeysByPillar[slug] ? t(`pillarDetail.outcomes.${slug}.title`) : ''
@@ -146,6 +148,16 @@ const pressuresByPillar: Record<string, { key: string; icon: string }[]> = {
     { key: 'audit', icon: 'chart' },
     { key: 'roleComplexity', icon: 'cloud' },
     { key: 'monitoring', icon: 'chart' }
+  ],
+  govern: [
+    { key: 'visibility', icon: 'chart' },
+    { key: 'reporting', icon: 'layers' },
+    { key: 'ownership', icon: 'shield' },
+    { key: 'control', icon: 'alert' },
+    { key: 'methodology', icon: 'server' },
+    { key: 'decisionSupport', icon: 'star' },
+    { key: 'alignment', icon: 'cloud' },
+    { key: 'measurement', icon: 'chart' }
   ]
 }
 const imperative = computed(() => {
@@ -160,6 +172,24 @@ const imperative = computed(() => {
     })),
     closing: t(`pillarDetail.imperative.${slug}.closing`),
     highlight: t(`pillarDetail.imperative.${slug}.highlight`)
+  }
+})
+
+// Pillar Framework (Section 3) — ordered stage keys here, copy lives in i18n.
+const frameworkStagesByPillar: Record<string, string[]> = {
+  govern: ['align', 'structure', 'control', 'report', 'decide']
+}
+const framework = computed(() => {
+  const list = frameworkStagesByPillar[slug]
+  if (!list) return null
+  return {
+    eyebrow: t(`pillarDetail.framework.${slug}.eyebrow`),
+    title: t(`pillarDetail.framework.${slug}.title`),
+    intro: t(`pillarDetail.framework.${slug}.intro`),
+    stages: list.map(k => ({
+      name: t(`pillarDetail.framework.${slug}.stages.${k}.name`),
+      description: t(`pillarDetail.framework.${slug}.stages.${k}.description`)
+    }))
   }
 })
 </script>
@@ -181,7 +211,7 @@ const imperative = computed(() => {
       <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover object-[center_25%]" aria-hidden="true" />
       <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <div v-else class="absolute inset-0 bg-core-ink/80" />
       <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
@@ -209,6 +239,9 @@ const imperative = computed(() => {
 
     <!-- Transformation Imperative (strategic "why transform now") -->
     <TransformationImperative v-if="imperative" v-bind="imperative" />
+
+    <!-- Pillar Framework (Section 3 — staged operating model) -->
+    <PillarFramework v-if="framework" v-bind="framework" />
 
     <!-- Services grid -->
     <section id="related-services" class="bg-section-light py-16 md:py-24">

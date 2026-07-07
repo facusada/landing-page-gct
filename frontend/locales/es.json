@@ -606,7 +606,8 @@
     "contactCta": "Hablar con un especialista",
     "servicesTitleByPillar": {
       "transform": "Explorá nuestras capacidades de transformación",
-      "secure": "Explorá nuestras capacidades de seguridad SAP"
+      "secure": "Explorá nuestras capacidades de seguridad SAP",
+      "govern": "Explorá nuestras capacidades de gobierno SAP"
     },
     "hero": {
       "transform": {
@@ -620,6 +621,12 @@
         "subheadline": "Protegé tu ecosistema SAP con gobierno de seguridad estructurado, control de accesos, prevención de riesgos y operaciones orientadas al cumplimiento.",
         "primaryCta": "Agendá una evaluación de seguridad SAP",
         "secondaryCta": "Explorá los servicios de seguridad"
+      },
+      "govern": {
+        "headline": "Goberná las iniciativas SAP con claridad y control",
+        "subheadline": "Aportá estructura, visibilidad y alineación ejecutiva a los proyectos, servicios y programas de transformación SAP mediante una entrega guiada por el gobierno.",
+        "primaryCta": "Agendá una evaluación de gobierno",
+        "secondaryCta": "Explorá los servicios de gobierno"
       }
     },
     "imperative": {
@@ -653,6 +660,51 @@
         },
         "closing": "Sin un gobierno estructurado, estas brechas se traducen en mayor riesgo de acceso, hallazgos de auditoría recurrentes y mayor exposición operativa.",
         "highlight": "La seguridad SAP no es un proyecto puntual. Es una disciplina continua y guiada por el gobierno."
+      },
+      "govern": {
+        "title": "El desafío del gobierno SAP",
+        "intro": "Las organizaciones tienen dificultades para gobernar sus iniciativas SAP por:",
+        "pressures": {
+          "visibility": "Falta de visibilidad sobre los proyectos y servicios SAP",
+          "reporting": "Reportes fragmentados e inconsistentes",
+          "ownership": "Responsabilidades y accountability poco claros",
+          "control": "Débil control sobre alcance, horas, riesgos y estado",
+          "methodology": "Múltiples metodologías sin un gobierno estándar",
+          "decisionSupport": "Soporte limitado para la toma de decisiones ejecutivas",
+          "alignment": "Poca conexión entre entrega, operaciones y resultados de negocio",
+          "measurement": "Dificultad para medir desempeño y avance"
+        },
+        "closing": "Sin un modelo de gobierno, los programas SAP se desvían: los costos y riesgos crecen mientras la dirección carece de la visibilidad para decidir con confianza.",
+        "highlight": "El gobierno SAP no es una carga administrativa. Es lo que mantiene tus programas alineados, controlados y con responsables claros."
+      }
+    },
+    "framework": {
+      "govern": {
+        "eyebrow": "Nuestro framework de gobierno",
+        "title": "Un modelo estructurado para el gobierno SAP",
+        "intro": "Cinco disciplinas conectadas que aportan alineación, control y visibilidad ejecutiva a cada iniciativa SAP.",
+        "stages": {
+          "align": {
+            "name": "Alinear",
+            "description": "Conectá las iniciativas SAP con las prioridades del negocio, los stakeholders y los resultados esperados."
+          },
+          "structure": {
+            "name": "Estructurar",
+            "description": "Definí modelos de gobierno, roles, responsabilidades, cadencia, metodología y controles de entrega."
+          },
+          "control": {
+            "name": "Controlar",
+            "description": "Seguí el alcance, riesgos, incidencias, horas, hitos, consumo de servicios y ejecución de proyectos."
+          },
+          "report": {
+            "name": "Reportar",
+            "description": "Entregá dashboards claros, reportes de estado ejecutivos, KPIs e insights de gobierno."
+          },
+          "decide": {
+            "name": "Decidir",
+            "description": "Habilitá decisiones más rápidas y mejores con información transparente y escalamiento estructurado."
+          }
+        }
       }
     },
     "outcomes": {
@@ -676,6 +728,18 @@
           "roleArchitecture": { "title": "Arquitectura de roles sostenible", "description": "Operá un modelo de autorización escalable, alineado al negocio y mantenible." },
           "operationalExposure": { "title": "Menor exposición operativa", "description": "Reducí los incidentes de seguridad y el costo operativo de la remediación." },
           "visibility": { "title": "Mayor visibilidad y trazabilidad", "description": "Obtené visibilidad continua sobre quién tiene acceso a qué, y por qué." }
+        }
+      },
+      "govern": {
+        "title": "Resultados de negocio",
+        "items": {
+          "visibility": { "title": "Mejor visibilidad ejecutiva", "description": "Dale a la dirección una vista clara y en tiempo real de los proyectos, servicios y salud de los programas SAP." },
+          "control": { "title": "Mayor control de la entrega", "description": "Mantené el alcance, los hitos y los entregables bajo control en proyectos y servicios." },
+          "accountability": { "title": "Responsabilidades más claras", "description": "Hacé explícita la titularidad, para que cada riesgo, incidencia y decisión tenga un responsable." },
+          "risk": { "title": "Mejor gestión de riesgos", "description": "Detectá y gestioná los riesgos temprano, antes de que impacten en costo, plazo o resultados." },
+          "reporting": { "title": "Reportes transparentes", "description": "Reemplazá los estados fragmentados por reportes de gobierno consistentes y basados en datos." },
+          "consumption": { "title": "Mejor control del consumo de servicios", "description": "Seguí las órdenes de servicio, las horas y el consumo para controlar el gasto y la entrega." },
+          "decisions": { "title": "Decisiones más rápidas", "description": "Habilitá decisiones más rápidas y mejores con información transparente y escalamiento estructurado." }
         }
       }
     },
@@ -759,25 +823,33 @@
         }
       },
       "govern": {
-        "governanceAdvisory": {
-          "title": "Governance Advisory",
-          "description": "Asesoría ejecutiva para diseñar marcos de gobierno SAP alineados a la estrategia del negocio y requisitos regulatorios."
+        "pmoProjectGovernance": {
+          "title": "SAP PMO & Project Governance",
+          "description": "Diseñá y operá modelos de gobierno para proyectos SAP — planificación, estado, riesgos, incidencias, alcance y alineación de stakeholders — para aumentar el control del proyecto y la visibilidad ejecutiva."
         },
-        "migrationGovernance": {
-          "title": "Migration Governance",
-          "description": "Estructuras de control para proyectos de migración que aseguran visibilidad, trazabilidad y gestión de decisiones críticas."
+        "programManagement": {
+          "title": "SAP Program Management",
+          "description": "Coordiná iniciativas SAP complejas con múltiples equipos, workstreams, proveedores y sistemas para mejorar la alineación, la disciplina de ejecución y la toma de decisiones."
         },
-        "compliance": {
-          "title": "Compliance",
-          "description": "Implementación de controles de cumplimiento normativo integrados en los procesos SAP para reducir la exposición regulatoria."
+        "serviceGovernance": {
+          "title": "SAP Service Governance",
+          "description": "Definí el gobierno de los servicios SAP — órdenes de servicio, SLAs, horas, consumo y seguimiento operativo — para controlar la entrega y el consumo del servicio."
         },
-        "executiveControls": {
-          "title": "Executive Controls",
-          "description": "Paneles ejecutivos y KPIs de control que brindan visibilidad al liderazgo sobre el estado del ecosistema SAP."
+        "deliveryGovernance": {
+          "title": "SAP Delivery Governance",
+          "description": "Seguí la entrega en proyectos y servicios — hitos, entregables, riesgos, incidencias y dependencias — para reducir la incertidumbre y mejorar la accountability."
         },
-        "cleanCoreGovernance": {
-          "title": "Clean Core Governance",
-          "description": "Políticas y procesos de gobierno para mantener el núcleo SAP limpio, actualizable y alineado a las mejores prácticas."
+        "complianceControl": {
+          "title": "SAP Compliance & Control Framework",
+          "description": "Establecé mecanismos de control para operaciones, seguridad, cambios, accesos y preparación para auditorías SAP, fortaleciendo el cumplimiento y cerrando brechas de gobierno."
+        },
+        "kpiReporting": {
+          "title": "SAP KPI & Executive Reporting",
+          "description": "Diseñá dashboards y reportes ejecutivos con estado, riesgos, horas, consumo, salud del proyecto e impacto de negocio para una gestión transparente y basada en datos."
+        },
+        "methodologyAdvisory": {
+          "title": "SAP Methodology Advisory",
+          "description": "Ayudamos a elegir o adaptar metodologías — SAP Activate, gobierno híbrido o entrega estándar — aplicando el nivel justo de metodología sin complejidad innecesaria."
         }
       },
       "innovate": {

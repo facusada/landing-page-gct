@@ -60,7 +60,7 @@ export const pillarServiceKeys: Record<string, string[]> = {
   transform: ['s4hana', 'riseWithSap', 'readinessAssessment', 'migrationGovernance', 'cleanCoreStrategy'],
   secure: ['sapSecurity', 'sapGrc', 'sod', 'rbac', 'emergencyAccess', 'securityManagedServices', 's4hanaReadiness'],
   operate: ['sapAms', 'sapBasis', 'cloudAlm', 'monitoringAutomation', 'rootCauseAnalysis', 'technicalGovernance'],
-  govern: ['governanceAdvisory', 'migrationGovernance', 'compliance', 'executiveControls', 'cleanCoreGovernance'],
+  govern: ['pmoProjectGovernance', 'programManagement', 'serviceGovernance', 'deliveryGovernance', 'complianceControl', 'kpiReporting', 'methodologyAdvisory'],
   innovate: ['aiAutomation', 'btpAutomation', 'intelliguard', 'opsIntelligencePlatform', 'predictiveMonitoring']
 }
 

@@ -61,7 +61,7 @@ const pillarHeroBg: Record<string, string> = {
   transform: '/backgrounds/transform-hero.webp',
   secure: '/backgrounds/secure-hero.webp',
   operate: '/backgrounds/operate-hero.svg',
-  govern: '/backgrounds/govern-hero.svg',
+  govern: '/backgrounds/govern-hero.webp',
   innovate: '/backgrounds/innovate-hero.svg',
 }
 const heroBgSrc = pillarHeroBg[pillarSlug] ?? null
