@@ -58,13 +58,16 @@ const methodologyColsClass = computed(() => {
 const pillarTitle = computed(() => t(`pillars.items.${pillarSlug}.title`))
 
 const pillarHeroBg: Record<string, string> = {
-  transform: '/backgrounds/transform-hero.svg',
-  secure: '/backgrounds/secure-hero.svg',
+  transform: '/backgrounds/transform-hero.webp',
+  secure: '/backgrounds/secure-hero.webp',
   operate: '/backgrounds/operate-hero.svg',
   govern: '/backgrounds/govern-hero.svg',
   innovate: '/backgrounds/innovate-hero.svg',
 }
 const heroBgSrc = pillarHeroBg[pillarSlug] ?? null
+// WebP heros are panoramic photos that fill the whole band (object-cover);
+// the SVG heros are tall compositions pinned to the top with a bottom fade.
+const heroBgCover = heroBgSrc?.endsWith('.webp') ?? false
 
 const related = (pillarServiceKeys[pillarSlug] ?? [])
   .filter(key => key !== service.key)
@@ -133,18 +136,19 @@ useHead({
       :class="heroBgSrc ? 'bg-[#060e18]' : 'bg-core-ink'"
       :style="!heroBgSrc ? { backgroundImage: `url('${service.image}')`, backgroundSize: 'cover', backgroundPosition: service.bgPosition ?? pillar?.bgPosition ?? 'center' } : undefined"
     >
-      <div v-if="heroBgSrc" class="absolute inset-x-0 top-0 -z-20">
+      <img v-if="heroBgCover" :src="heroBgSrc!" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <div v-else-if="heroBgSrc" class="absolute inset-x-0 top-0 -z-20">
         <img :src="heroBgSrc" class="w-full" aria-hidden="true" />
         <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#060e18]" />
       </div>
       <div v-else class="absolute inset-0 bg-core-ink/85" />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
-        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange">{{ eyebrow }}</p>
-        <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl">
+        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_1px_8px_rgba(4,14,24,0.7)]">{{ eyebrow }}</p>
+        <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_2px_18px_rgba(4,14,24,0.75),0_1px_3px_rgba(4,14,24,0.6)]">
           {{ h1 }}
         </h1>
-        <p class="mt-5 max-w-3xl text-xl leading-8 text-white/80">
+        <p class="mt-5 max-w-3xl text-xl leading-8 text-white/80 [text-shadow:0_1px_10px_rgba(4,14,24,0.7)]">
           {{ heroSubtitle }}
         </p>
 
