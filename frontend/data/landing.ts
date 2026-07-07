@@ -338,6 +338,30 @@ export const pillarL3Services: PillarL3Service[] = [
   // Innovate pillar
   {
     pillar: 'innovate',
+    key: 'btpAdvisory',
+    slug: 'sap-btp-advisory',
+    icon: 'implementation',
+    image: '/pillars/05_tile_05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'innovate',
+    key: 'integrationSuite',
+    slug: 'sap-integration-suite',
+    icon: 'managed',
+    image: '/pillars/05_tile_05_innovate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'innovate',
     key: 'aiAutomation',
     slug: 'sap-ai-automation',
     icon: 'innovation',
@@ -350,8 +374,8 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'innovate',
-    key: 'btpAutomation',
-    slug: 'sap-btp-automation',
+    key: 'extensionDevelopment',
+    slug: 'sap-extension-development',
     icon: 'implementation',
     image: '/pillars/05_tile_05_innovate.png',
     metrics: [
@@ -362,21 +386,20 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'innovate',
-    key: 'intelliguard',
-    slug: 'intelliguard-platform',
+    key: 'cleanCoreInnovation',
+    slug: 'sap-clean-core-innovation',
     icon: 'security',
     image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
       { id: 'governance', numericValue: 100, suffix: '%' }
-    ],
-    platformLink: '/plataformas/intelliguard'
+    ]
   },
   {
     pillar: 'innovate',
-    key: 'opsIntelligencePlatform',
-    slug: 'operations-intelligence-platform',
+    key: 'dataAnalytics',
+    slug: 'sap-data-analytics',
     icon: 'performance',
     image: '/pillars/05_tile_05_innovate.png',
     metrics: [
@@ -388,15 +411,16 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'innovate',
-    key: 'predictiveMonitoring',
-    slug: 'predictive-monitoring',
+    key: 'intelligentAgents',
+    slug: 'sap-intelligent-agents',
     icon: 'managed',
     image: '/pillars/05_tile_05_innovate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
       { id: 'governance', numericValue: 100, suffix: '%' }
-    ]
+    ],
+    platformLink: '/plataformas/intelliguard'
   }
 ]
 

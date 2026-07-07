@@ -92,7 +92,7 @@ const featured = computed(() => {
 
 // Pillars that have the full Level-2 document treatment (hero copy + services
 // heading override). The copy itself lives in i18n (locales/en|es.json).
-const docPillars = ['transform', 'secure', 'govern', 'innovate']
+const docPillars = ['transform', 'secure', 'govern', 'innovate', 'operate']
 
 // Optional hero override: doc-specific headline / subheadline / CTAs.
 const heroOverride = computed(() => {
@@ -117,7 +117,8 @@ const outcomeKeysByPillar: Record<string, string[]> = {
   transform: ['risk', 'value', 'security', 'architecture', 'visibility'],
   secure: ['accessRisk', 'compliance', 'auditReady', 'emergencyAccess', 'roleArchitecture', 'operationalExposure', 'visibility'],
   govern: ['visibility', 'control', 'accountability', 'risk', 'reporting', 'consumption', 'decisions'],
-  innovate: ['fasterInnovation', 'cleanerArchitecture', 'betterIntegration', 'higherAutomation', 'aiAdoption', 'dataVisibility', 'scalable']
+  innovate: ['fasterInnovation', 'cleanerArchitecture', 'betterIntegration', 'higherAutomation', 'aiAdoption', 'dataVisibility', 'scalable'],
+  operate: ['availability', 'performance', 'proactive', 'visibility', 'cost', 'continuity', 'focus']
 }
 const outcomesTitle = computed(() =>
   outcomeKeysByPillar[slug] ? t(`pillarDetail.outcomes.${slug}.title`) : ''
@@ -169,6 +170,16 @@ const pressuresByPillar: Record<string, { key: string; icon: string }[]> = {
     { key: 'cleanCore', icon: 'shield' },
     { key: 'dataProcesses', icon: 'chart' },
     { key: 'governance', icon: 'shield' }
+  ],
+  operate: [
+    { key: 'availability', icon: 'server' },
+    { key: 'performance', icon: 'chart' },
+    { key: 'reactive', icon: 'alert' },
+    { key: 'complexity', icon: 'layers' },
+    { key: 'monitoring', icon: 'chart' },
+    { key: 'knowledge', icon: 'star' },
+    { key: 'cost', icon: 'cloud' },
+    { key: 'security', icon: 'shield' }
   ]
 }
 const imperative = computed(() => {
@@ -189,7 +200,8 @@ const imperative = computed(() => {
 // Pillar Framework (Section 3) — ordered stage keys here, copy lives in i18n.
 const frameworkStagesByPillar: Record<string, string[]> = {
   govern: ['align', 'structure', 'control', 'report', 'decide'],
-  innovate: ['discover', 'design', 'build', 'integrate', 'scale']
+  innovate: ['discover', 'design', 'build', 'integrate', 'scale'],
+  operate: ['onboard', 'monitor', 'support', 'optimize', 'evolve']
 }
 const framework = computed(() => {
   const list = frameworkStagesByPillar[slug]
@@ -220,9 +232,9 @@ const framework = computed(() => {
       :class="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate' ? 'bg-[#060e18]' : 'bg-core-ink'"
       :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
-      <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover object-[center_25%]" aria-hidden="true" />
+      <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.svg" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <div v-else class="absolute inset-0 bg-core-ink/80" />

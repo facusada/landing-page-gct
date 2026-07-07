@@ -98,6 +98,16 @@ export default defineNuxtConfig({
     '/pilares/govern/sap-governance-advisory': { redirect: { to: '/pilares/govern/sap-pmo-project-governance', statusCode: 301 } },
     '/en/pilares/govern/sap-governance-advisory': { redirect: { to: '/en/pilares/govern/sap-pmo-project-governance', statusCode: 301 } },
     '/pilares/govern/sap-clean-core-governance': { redirect: { to: '/pilares/govern', statusCode: 301 } },
-    '/en/pilares/govern/sap-clean-core-governance': { redirect: { to: '/en/pilares/govern', statusCode: 301 } }
+    '/en/pilares/govern/sap-clean-core-governance': { redirect: { to: '/en/pilares/govern', statusCode: 301 } },
+    // 301 redirects for Innovate L3 slugs replaced by the 7-service set (Block B, 2026-07).
+    // sap-ai-automation is retained in the new set, so it needs no redirect.
+    '/pilares/innovate/sap-btp-automation': { redirect: { to: '/pilares/innovate/sap-btp-advisory', statusCode: 301 } },
+    '/en/pilares/innovate/sap-btp-automation': { redirect: { to: '/en/pilares/innovate/sap-btp-advisory', statusCode: 301 } },
+    '/pilares/innovate/predictive-monitoring': { redirect: { to: '/pilares/innovate/sap-intelligent-agents', statusCode: 301 } },
+    '/en/pilares/innovate/predictive-monitoring': { redirect: { to: '/en/pilares/innovate/sap-intelligent-agents', statusCode: 301 } },
+    '/pilares/innovate/intelliguard-platform': { redirect: { to: '/plataformas/intelliguard', statusCode: 301 } },
+    '/en/pilares/innovate/intelliguard-platform': { redirect: { to: '/en/plataformas/intelliguard', statusCode: 301 } },
+    '/pilares/innovate/operations-intelligence-platform': { redirect: { to: '/plataformas/operations-intelligence', statusCode: 301 } },
+    '/en/pilares/innovate/operations-intelligence-platform': { redirect: { to: '/en/plataformas/operations-intelligence', statusCode: 301 } }
   }
 })

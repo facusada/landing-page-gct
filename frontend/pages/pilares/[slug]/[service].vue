@@ -60,7 +60,7 @@ const pillarTitle = computed(() => t(`pillars.items.${pillarSlug}.title`))
 const pillarHeroBg: Record<string, string> = {
   transform: '/backgrounds/transform-hero.webp',
   secure: '/backgrounds/secure-hero.webp',
-  operate: '/backgrounds/operate-hero.svg',
+  operate: '/backgrounds/operate-hero.webp',
   govern: '/backgrounds/govern-hero.webp',
   innovate: '/backgrounds/innovate-hero.webp',
 }
