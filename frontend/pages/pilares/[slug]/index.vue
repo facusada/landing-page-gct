@@ -39,18 +39,14 @@ useSeoMeta({
   ogType: 'website'
 })
 
-useHead({
-  link: [{ rel: 'canonical', href: `${siteConfig.url}/pilares/${slug}` }]
-})
-
 const otherPillars = pillars.filter(p => p.id !== slug)
 
-// Pillars whose hero uses a full-bleed banner image. On desktop the hero
-// adopts the image's own aspect ratio so nothing gets cropped (titles sit at
-// the very top of these images). Transform/Secure are 3.617:1, the rest 3:1.
+// Pillars whose hero uses a full-bleed banner image. All banners share the
+// same ~3.617:1 aspect ratio, so on desktop the hero uses that ratio and every
+// pillar renders at the same height with the image filling edge to edge.
 const imageHeroPillars = ['transform', 'secure', 'operate', 'govern', 'innovate']
 const isImageHero = imageHeroPillars.includes(slug)
-const heroAspectClass = slug === 'transform' || slug === 'secure' ? 'md:aspect-[3936/1088]' : 'md:aspect-[2172/724]'
+const heroAspectClass = 'md:aspect-[3936/1088]'
 
 // One featured SAP innovation per pillar (data-driven, reusable via props)
 // Three rotating "What's New" SAP innovations per pillar (carousel).
