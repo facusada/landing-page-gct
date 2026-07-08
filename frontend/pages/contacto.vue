@@ -17,7 +17,6 @@ useSeoMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: `${siteConfig.url}/contacto` }],
   script: [
     {
       type: 'application/ld+json',

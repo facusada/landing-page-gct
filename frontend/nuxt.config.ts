@@ -9,6 +9,12 @@ const pillarRoutes = pillars.map(p => `/pilares/${p.id}`)
 const pillarServiceRoutes = pillarL3Services.map(s => `/pilares/${s.pillar}/${s.slug}`)
 const platformRoutes = platforms.map(p => `/plataformas/${p.slug}`)
 
+// Localizable content routes for the default locale (no prefix). i18n serves
+// English under the `/en` prefix, so we mirror the same set to prerender both
+// languages as static HTML (better for crawlers and first paint).
+const contentRoutes = ['/', '/servicios', '/soluciones', '/contacto', ...serviceRoutes, ...solutionRoutes, ...pillarRoutes, ...pillarServiceRoutes, ...platformRoutes]
+const enContentRoutes = contentRoutes.map(r => (r === '/' ? '/en' : `/en${r}`))
+
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
@@ -48,12 +54,19 @@ export default defineNuxtConfig({
       titleTemplate: `%s | ${siteConfig.name}`,
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'theme-color', content: '#07111F' }
+        { name: 'theme-color', content: '#07111F' },
+        // Default social share image (PNG 1200x630). Pages may override og:image
+        // via useSeoMeta; Unhead dedupes by property so no duplicate tags.
+        { property: 'og:image', content: `${siteConfig.url}/og-image.png` },
+        { property: 'og:image:type', content: 'image/png' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: `${siteConfig.url}/og-image.png` }
       ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'canonical', href: siteConfig.url },
         { rel: 'icon', href: '/favicon.png', type: 'image/png', sizes: '512x512' },
         { rel: 'shortcut icon', href: '/favicon.png' },
         { rel: 'apple-touch-icon', href: '/favicon.png' }
@@ -68,7 +81,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/servicios', '/soluciones', '/contacto', '/sitemap.xml', '/robots.txt', ...serviceRoutes, ...solutionRoutes, ...pillarRoutes, ...pillarServiceRoutes, ...platformRoutes]
+      routes: [...contentRoutes, ...enContentRoutes, '/sitemap.xml', '/robots.txt']
     }
   },
   routeRules: {
@@ -108,6 +121,19 @@ export default defineNuxtConfig({
     '/pilares/innovate/intelliguard-platform': { redirect: { to: '/plataformas/intelliguard', statusCode: 301 } },
     '/en/pilares/innovate/intelliguard-platform': { redirect: { to: '/en/plataformas/intelliguard', statusCode: 301 } },
     '/pilares/innovate/operations-intelligence-platform': { redirect: { to: '/plataformas/operations-intelligence', statusCode: 301 } },
-    '/en/pilares/innovate/operations-intelligence-platform': { redirect: { to: '/en/plataformas/operations-intelligence', statusCode: 301 } }
+    '/en/pilares/innovate/operations-intelligence-platform': { redirect: { to: '/en/plataformas/operations-intelligence', statusCode: 301 } },
+    // 301 redirects for Operate L3 slugs replaced by the 7-service set (Block B, 2026-07).
+    '/pilares/operate/sap-ams': { redirect: { to: '/pilares/operate/sap-ams-services', statusCode: 301 } },
+    '/en/pilares/operate/sap-ams': { redirect: { to: '/en/pilares/operate/sap-ams-services', statusCode: 301 } },
+    '/pilares/operate/sap-basis': { redirect: { to: '/pilares/operate/sap-basis-operations', statusCode: 301 } },
+    '/en/pilares/operate/sap-basis': { redirect: { to: '/en/pilares/operate/sap-basis-operations', statusCode: 301 } },
+    '/pilares/operate/sap-cloud-alm': { redirect: { to: '/pilares/operate/sap-cloud-alm-operations', statusCode: 301 } },
+    '/en/pilares/operate/sap-cloud-alm': { redirect: { to: '/en/pilares/operate/sap-cloud-alm-operations', statusCode: 301 } },
+    '/pilares/operate/sap-monitoring-automation': { redirect: { to: '/pilares/operate/sap-technical-monitoring', statusCode: 301 } },
+    '/en/pilares/operate/sap-monitoring-automation': { redirect: { to: '/en/pilares/operate/sap-technical-monitoring', statusCode: 301 } },
+    '/pilares/operate/sap-root-cause-analysis': { redirect: { to: '/pilares/operate/sap-incident-problem-management', statusCode: 301 } },
+    '/en/pilares/operate/sap-root-cause-analysis': { redirect: { to: '/en/pilares/operate/sap-incident-problem-management', statusCode: 301 } },
+    '/pilares/operate/sap-technical-governance': { redirect: { to: '/pilares/operate/sap-operations-managed-services', statusCode: 301 } },
+    '/en/pilares/operate/sap-technical-governance': { redirect: { to: '/en/pilares/operate/sap-operations-managed-services', statusCode: 301 } }
   }
 })

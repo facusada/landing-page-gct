@@ -23,11 +23,11 @@ useSeoMeta({
   ogDescription: pageDescription,
   ogType: 'website',
   ogUrl: siteConfig.url,
-  ogImage: `${siteConfig.url}/og-image.svg`,
+  ogImage: `${siteConfig.url}/og-image.png`,
   twitterCard: 'summary_large_image',
   twitterTitle: computed(() => `${pageTitle.value} | ${siteConfig.name}`),
   twitterDescription: pageDescription,
-  twitterImage: `${siteConfig.url}/og-image.svg`
+  twitterImage: `${siteConfig.url}/og-image.png`
 })
 </script>
 

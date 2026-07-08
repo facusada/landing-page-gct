@@ -91,7 +91,6 @@ useSeoMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: canonical }],
   script: [
     {
       type: 'application/ld+json',

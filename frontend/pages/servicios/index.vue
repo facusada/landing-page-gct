@@ -22,7 +22,6 @@ useSeoMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: `${siteConfig.url}/servicios` }],
   script: [
     {
       type: 'application/ld+json',

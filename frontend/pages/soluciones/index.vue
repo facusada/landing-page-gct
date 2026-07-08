@@ -21,7 +21,6 @@ useSeoMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: `${siteConfig.url}/soluciones` }],
   script: [
     {
       type: 'application/ld+json',

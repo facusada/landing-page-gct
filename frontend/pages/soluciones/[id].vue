@@ -40,7 +40,6 @@ useSeoMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: `${siteConfig.url}/soluciones/${id}` }],
   script: [
     {
       type: 'application/ld+json',

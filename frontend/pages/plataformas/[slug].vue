@@ -47,10 +47,6 @@ useSeoMeta({
   ogDescription: description,
   ogType: 'website'
 })
-
-useHead({
-  link: [{ rel: 'canonical', href: `${siteConfig.url}/plataformas/${slug}` }]
-})
 </script>
 
 <template>
