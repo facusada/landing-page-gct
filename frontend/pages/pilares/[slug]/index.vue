@@ -45,6 +45,13 @@ useHead({
 
 const otherPillars = pillars.filter(p => p.id !== slug)
 
+// Pillars whose hero uses a full-bleed banner image. On desktop the hero
+// adopts the image's own aspect ratio so nothing gets cropped (titles sit at
+// the very top of these images). Transform/Secure are 3.617:1, the rest 3:1.
+const imageHeroPillars = ['transform', 'secure', 'operate', 'govern', 'innovate']
+const isImageHero = imageHeroPillars.includes(slug)
+const heroAspectClass = slug === 'transform' || slug === 'secure' ? 'md:aspect-[3936/1088]' : 'md:aspect-[2172/724]'
+
 // One featured SAP innovation per pillar (data-driven, reusable via props)
 // Three rotating "What's New" SAP innovations per pillar (carousel).
 type FeaturedItem = { badge: string; title: string; description: string; accent: string }
@@ -297,7 +304,7 @@ const framework = computed(() => {
     <!-- Hero -->
     <section
       class="relative isolate overflow-hidden py-16 text-white"
-      :class="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate' ? 'bg-[#060e18] md:py-20' : 'bg-core-ink md:py-32'"
+      :class="isImageHero ? `bg-[#060e18] md:flex md:flex-col md:justify-center md:py-0 ${heroAspectClass}` : 'bg-core-ink md:py-32'"
       :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
       <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
