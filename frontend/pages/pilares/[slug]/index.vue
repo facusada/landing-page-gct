@@ -296,8 +296,8 @@ const framework = computed(() => {
     />
     <!-- Hero -->
     <section
-      class="relative isolate overflow-hidden py-16 text-white md:py-32"
-      :class="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate' ? 'bg-[#060e18]' : 'bg-core-ink'"
+      class="relative isolate overflow-hidden py-16 text-white"
+      :class="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate' ? 'bg-[#060e18] md:py-20' : 'bg-core-ink md:py-32'"
       :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
       <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
