@@ -324,7 +324,7 @@ useHead({
             <p class="mt-4 max-w-2xl text-lg leading-8 text-white/75">{{ t(`${base}.leadMagnet.description`) }}</p>
           </div>
           <div class="lg:justify-self-end">
-            <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}&recurso=guia-s4hana`" class="w-full text-center">
+            <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}&recurso=${serviceSlug}`" class="w-full text-center">
               {{ t(`${base}.leadMagnet.cta`) }}
             </BaseButton>
           </div>
