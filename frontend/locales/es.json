@@ -1018,6 +1018,7 @@
       "howWeHelp": "Cómo lo resolvemos",
       "benefits": "Beneficios para el negocio",
       "methodology": "Metodología",
+      "engagementScenarios": "Escenarios de aplicación",
       "whyGct": "Por qué Global Core Technologies",
       "related": "Servicios relacionados de este pilar",
       "relatedCta": "Ver servicio",
@@ -1125,6 +1126,16 @@
               "name": "Evolve",
               "deliverable": "Hypercare, soporte AMS e innovación continua"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo la Transformación a S/4HANA Es el Camino Correcto",
+          "items": [
+            { "title": "Fin de mantenimiento de ECC cerca", "description": "El soporte de SAP ECC se acerca a su límite de 2027 (o 2030 extendido) y todavía no existe una hoja de ruta de migración." },
+            { "title": "Reimplementación greenfield", "description": "La organización quiere un S/4HANA limpio con procesos estandarizados, en vez de arrastrar la personalización heredada." },
+            { "title": "Conversión técnica brownfield", "description": "Los procesos y personalizaciones actuales deben preservarse mientras se convierte el sistema ECC existente a S/4HANA." },
+            { "title": "Transición selectiva de datos", "description": "Solo es necesario migrar sociedades, procesos o datos históricos puntuales, sin una reimplementación completa del sistema." },
+            { "title": "Decisión de despliegue ya tomada", "description": "El modelo de despliegue objetivo (on-premise, cloud privada o RISE with SAP) ya está definido y la migración necesita ejecutarse con gobierno." }
           ]
         },
         "whyGct": {
@@ -1248,6 +1259,16 @@
             { "name": "Movilizar", "deliverable": "Roadmap, gobierno, workstreams, backlog de readiness priorizado" }
           ]
         },
+        "engagementScenarios": {
+          "title": "Dónde el Advisory de RISE Genera Más Valor",
+          "items": [
+            { "title": "Exploración temprana", "description": "La organización está evaluando RISE with SAP y necesita una mirada independiente sobre su ajuste, implicancias y alternativas." },
+            { "title": "Validación pre-contrato", "description": "Las conversaciones comerciales están en marcha, pero el alcance, las responsabilidades, la arquitectura o los supuestos de readiness requieren validación." },
+            { "title": "Reset de la transformación", "description": "Un programa planificado o en curso carece de alineación, secuenciación realista o un modelo de gobierno coherente." },
+            { "title": "Landscapes SAP complejos", "description": "Múltiples sistemas, regiones, integraciones, desarrollos a medida o requisitos regulatorios aumentan la complejidad de la transición." },
+            { "title": "Business case ejecutivo", "description": "El liderazgo necesita una hoja de ruta consciente de los riesgos y un relato de decisión que conecte la inversión tecnológica con los resultados de negocio." }
+          ]
+        },
         "whyGct": {
           "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
@@ -1352,6 +1373,16 @@
             { "name": "Analizar", "deliverable": "Análisis de riesgos, drivers de esfuerzo, scores de madurez" },
             { "name": "Priorizar", "deliverable": "Backlog de remediación, quick wins, decision log" },
             { "name": "Roadmap", "deliverable": "Informe ejecutivo, heatmap, roadmap, recomendaciones de próximos pasos" }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Opciones de Assessment Según tu Etapa de Transformación",
+          "items": [
+            { "title": "Assessment inicial de S/4HANA", "description": "Establecer una primera línea base basada en hechos para una transformación de ECC a S/4HANA." },
+            { "title": "Readiness para conversión brownfield", "description": "Foco en los bloqueadores técnicos de conversión, ítems de simplificación, custom code, volumen de datos y riesgos de cutover." },
+            { "title": "Readiness para RISE with SAP", "description": "Evaluar las implicancias adicionales de arquitectura, responsabilidad, seguridad, operaciones y organización al pasar al modelo gestionado en la nube." },
+            { "title": "Readiness para transición selectiva", "description": "Evaluar el alcance de datos, los cambios organizacionales, la retención histórica y los requisitos de herramientas de transformación." },
+            { "title": "Reevaluación de salud del programa", "description": "Actualizar el readiness después de demoras, cambios de alcance, adquisiciones, cambios de landscape o un reset de la transformación." }
           ]
         },
         "whyGct": {
@@ -1460,6 +1491,16 @@
             { "name": "Transicionar", "deliverable": "Paquete de go/no-go, modelo de command center, aceptación operativa" }
           ]
         },
+        "engagementScenarios": {
+          "title": "Modelos de Gobierno que Ofrecemos",
+          "items": [
+            { "title": "Governance Office completo", "description": "Gobierno independiente de punta a punta para un programa complejo de S/4HANA o RISE with SAP." },
+            { "title": "Refuerzo de PMO del cliente", "description": "Fortalecer un PMO existente con expertise específico de SAP en riesgo, arquitectura, seguridad, datos y cutover." },
+            { "title": "Aseguramiento independiente del programa", "description": "Chequeos periódicos de salud y aseguramiento de hitos para sponsors ejecutivos o directorios." },
+            { "title": "Gobierno de recuperación", "description": "Estabilizar un programa demorado o en crisis mediante re-baseline, intervención sobre riesgos y aceleración de decisiones." },
+            { "title": "Gobierno de cutover y go-live", "description": "Brindar gobierno focalizado durante los ensayos de migración, el cutover final, el go-live y la hipercare." }
+          ]
+        },
         "whyGct": {
           "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
@@ -1562,6 +1603,16 @@
             { "name": "Gobernar", "deliverable": "Comités de revisión, quality gates, scorecards, gobierno de ciclo de vida" }
           ]
         },
+        "engagementScenarios": {
+          "title": "Modalidades de Clean Core Según tu Punto de Partida",
+          "items": [
+            { "title": "Previo a la transformación a S/4HANA", "description": "Usar Clean Core para definir alcance, arquitectura objetivo, remediación y decisiones de migración antes de que arranque la implementación." },
+            { "title": "Modernización brownfield", "description": "Reducir la complejidad heredada y establecer un camino controlado desde la conversión técnica hacia la modernización continua." },
+            { "title": "Preparación para RISE with SAP", "description": "Alinear extensiones, integraciones, datos y operaciones con el modelo objetivo en la nube y las expectativas de clean core." },
+            { "title": "Estabilización post go-live", "description": "Evitar que el nuevo entorno recree la complejidad heredada después de la implementación." },
+            { "title": "Programa continuo de Clean Core", "description": "Operar un modelo continuo de gobierno y mejora a través de releases, desarrollo, integración y operaciones." }
+          ]
+        },
         "whyGct": {
           "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
@@ -1655,6 +1706,16 @@
             { "name": "Diseñar", "deliverable": "Arquitectura de acceso, roles y política de seguridad" },
             { "name": "Implementar", "deliverable": "Hardening, remediación de brechas y validación" },
             { "name": "Gobernar", "deliverable": "Monitoreo continuo, gobierno de accesos y mejora iterativa" }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo un Security Assessment Es el Punto de Partida Correcto",
+          "items": [
+            { "title": "Primera línea base de seguridad", "description": "La organización nunca tuvo una revisión independiente de su postura de autorizaciones y configuración en SAP." },
+            { "title": "Preparación previa a una auditoría", "description": "Se acerca una auditoría interna o externa y la postura de seguridad actual todavía no fue validada." },
+            { "title": "Revisión posterior a un incidente", "description": "Un incidente de seguridad o un cuasi-incidente generó dudas sobre los controles y accesos existentes." },
+            { "title": "Previo a un proyecto mayor", "description": "Una migración a S/4HANA, la adopción de RISE o una consolidación de sistemas requieren una línea base de seguridad limpia antes de arrancar." },
+            { "title": "Cambio de responsables", "description": "Un nuevo liderazgo de seguridad o IT necesita una mirada objetiva del entorno que recibió." }
           ]
         },
         "whyGct": {
@@ -1753,6 +1814,16 @@
             { "name": "Gobernar", "deliverable": "Proceso de ciclo de vida de accesos y recertificación periódica" }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo Es Momento de Rediseñar el Modelo de Roles",
+          "items": [
+            { "title": "Años de crecimiento descontrolado de roles", "description": "Los roles se copiaron, modificaron y apilaron durante años sin un modelo limpio ni una convención de nombres." },
+            { "title": "Exceso de accesos de superusuario", "description": "Demasiados usuarios tienen accesos amplios tipo SAP_ALL porque nunca se construyeron roles más acotados." },
+            { "title": "Observaciones de auditoría sin resolver", "description": "Auditorías recientes marcaron accesos que el diseño de roles actual no puede explicar ni justificar." },
+            { "title": "Fusión o reorganización", "description": "Las unidades de negocio, sociedades o la estructura organizacional cambiaron y el modelo de roles ya no refleja la realidad." },
+            { "title": "Reconstrucción de roles previa a S/4HANA", "description": "Una migración a S/4HANA es un punto natural para reconstruir las autorizaciones sobre un modelo limpio de mínimo privilegio." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para tu gestión de roles SAP",
           "items": [
@@ -1847,6 +1918,16 @@
             { "name": "Priorizar", "deliverable": "Ranking de conflictos críticos y plan de remediación" },
             { "name": "Remediar", "deliverable": "Rediseño de roles, restricciones y controles compensatorios documentados" },
             { "name": "Monitorear", "deliverable": "Proceso continuo de detección y resolución de nuevos conflictos" }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo el Riesgo de SoD Necesita Gestión Activa",
+          "items": [
+            { "title": "Conflictos de SoD nunca analizados", "description": "Los conflictos de SoD nunca se analizaron formalmente o solo se siguen en planillas de cálculo." },
+            { "title": "Observaciones de auditoría externa", "description": "Los auditores marcaron violaciones de SoD que requieren remediación y evidencia de resolución." },
+            { "title": "Sospecha o investigación de fraude", "description": "Una sospecha o incidente puntual generó dudas sobre si se explotó un acceso en conflicto." },
+            { "title": "Nuevo alcance regulatorio", "description": "Nuevos requisitos de cumplimiento (SOX, regulación de la industria) exigen controles formales de SoD que todavía no existen." },
+            { "title": "Falta de monitoreo continuo", "description": "Los conflictos de SoD se identifican una vez pero nunca se monitorean de forma continua a medida que evolucionan roles y accesos." }
           ]
         },
         "whyGct": {
@@ -1945,6 +2026,16 @@
             { "name": "Operar", "deliverable": "Go-live, adopción del equipo y mejora continua de controles" }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo los Controles Manuales Llegaron a su Límite",
+          "items": [
+            { "title": "Escalado de solicitudes de acceso", "description": "El volumen de solicitudes y aprobaciones de acceso superó lo que el email y las planillas pueden gestionar." },
+            { "title": "Remediación recurrente en auditorías", "description": "Las mismas observaciones de acceso y SoD reaparecen en cada ciclo de auditoría porque los controles no están automatizados." },
+            { "title": "Exposición por accesos de emergencia", "description": "Los accesos de emergencia (firefighter) se usan sin registro estructurado, aprobación ni revisión." },
+            { "title": "Visibilidad de riesgo multi-sistema", "description": "Es necesario evaluar y reportar el riesgo entre sistemas SAP y no SAP desde una única suite." },
+            { "title": "Madurez del programa de compliance", "description": "La organización está lista para pasar de un compliance reactivo a un modelo de gobierno de riesgo continuo y automatizado." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para tu implementación de SAP GRC",
           "items": [
@@ -2041,6 +2132,16 @@
             { "name": "Mejorar", "deliverable": "Revisión periódica del marco, cobertura y efectividad de controles" }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo el Monitoreo Continuo Se Vuelve Necesario",
+          "items": [
+            { "title": "Sorpresas en la auditoría", "description": "Las desviaciones de control solo se descubren cuando el auditor las encuentra, no antes." },
+            { "title": "Requisitos de industrias de alto riesgo", "description": "Los requisitos regulatorios o de la industria exigen evidencia en tiempo real de la efectividad de los controles." },
+            { "title": "Aseguramiento post-remediación", "description": "Los controles se remediaron recientemente y el liderazgo necesita evidencia de que siguen siendo efectivos." },
+            { "title": "Landscape distribuido", "description": "Múltiples sistemas, sociedades o regiones hacen inviables las revisiones manuales y periódicas." },
+            { "title": "Visibilidad ejecutiva del riesgo", "description": "El liderazgo necesita una vista continua de la postura de compliance, no un reporte puntual." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para tu compliance monitoring",
           "items": [
@@ -2135,6 +2236,16 @@
             { "name": "Estabilizar", "deliverable": "Remediación de brechas críticas y ajuste del modelo operativo" },
             { "name": "Operar", "deliverable": "Monitoreo, gestión de accesos y respuesta a incidentes en régimen" },
             { "name": "Mejorar", "deliverable": "Revisiones periódicas de madurez y evolución de la cobertura" }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo Conviene Tercerizar la Operación de Seguridad en Vez de Construirla",
+          "items": [
+            { "title": "Sin equipo de seguridad dedicado", "description": "La organización necesita cobertura continua de seguridad SAP pero no puede justificar armar un equipo interno." },
+            { "title": "Cobertura limitada fuera de horario", "description": "Hoy el monitoreo de seguridad y la respuesta a incidentes solo ocurren en horario laboral." },
+            { "title": "Riesgo de rotación del equipo", "description": "El expertise en seguridad SAP está concentrado en una o dos personas, lo que genera riesgo de continuidad." },
+            { "title": "Traspaso post-implementación", "description": "Una arquitectura de seguridad o implementación de GRC acaba de salir en vivo y necesita operación continua." },
+            { "title": "Necesidad de costos predecibles", "description": "El liderazgo quiere convertir el costo impredecible de staffing de seguridad en un servicio fijo y escalable." }
           ]
         },
         "whyGct": {
@@ -2255,6 +2366,16 @@
               "name": "Mejorar",
               "deliverable": "Reporting de servicio, análisis de tendencias y mejora continua"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo Necesitás Soporte de Aplicaciones Estructurado",
+          "items": [
+            { "title": "Traspaso post go-live", "description": "Un proyecto acaba de salir en vivo y necesita un modelo de soporte estable más allá de la hipercare." },
+            { "title": "Equipo interno desbordado", "description": "El volumen de tickets y solicitudes del negocio superó la capacidad del equipo interno." },
+            { "title": "Calidad de soporte inconsistente", "description": "Hoy el soporte es ad hoc, no está documentado o depende de un puñado de personas." },
+            { "title": "Consolidación de soporte multi-sistema", "description": "El soporte de varios módulos o sistemas SAP necesita consolidarse bajo un único modelo de servicio." },
+            { "title": "Falta de SLAs y reporting", "description": "No hay visibilidad clara de tiempos de respuesta, tasas de resolución ni calidad del servicio." }
           ]
         },
         "whyGct": {
@@ -2395,6 +2516,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo la Base Técnica Necesita un Responsable Dedicado",
+          "items": [
+            { "title": "Sin especialista Basis", "description": "La administración del sistema la manejan generalistas de forma reactiva, sin expertise dedicado de Basis." },
+            { "title": "Complejidad creciente del landscape", "description": "Más sistemas, interfaces y entornos superaron lo que las prácticas operativas informales pueden sostener." },
+            { "title": "Problemas de performance recurrentes", "description": "Los problemas de jobs, transportes o performance del sistema se repiten sin un responsable estructurado." },
+            { "title": "Estabilización previa a un upgrade", "description": "Un upgrade o migración próximo requiere primero una base técnica estable y bien documentada." },
+            { "title": "Mayor exigencia de disponibilidad", "description": "El negocio ahora depende de una disponibilidad de SAP que las prácticas operativas actuales no pueden garantizar." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para las operaciones SAP Basis",
           "items": [
@@ -2531,6 +2662,16 @@
               "name": "Operar",
               "deliverable": "Monitorización proactiva con respuesta y refinamiento continuo"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo el Monitoreo Necesita Detectar los Problemas Primero",
+          "items": [
+            { "title": "Los usuarios detectan los problemas primero", "description": "Los problemas los descubren sistemáticamente los usuarios finales antes de que dispare cualquier alerta interna." },
+            { "title": "Puntos ciegos en integraciones", "description": "Hoy las interfaces, jobs o procesos batch corren sin ningún monitoreo estructurado." },
+            { "title": "Fatiga por exceso de alertas", "description": "El monitoreo actual genera tanto ruido que los equipos empezaron a ignorarlo." },
+            { "title": "Landscape en crecimiento", "description": "Se agregaron sistemas o integraciones nuevas más rápido de lo que la cobertura de monitoreo pudo acompañar." },
+            { "title": "Preparación previa al go-live", "description": "Un sistema o módulo nuevo sale en vivo y necesita cobertura de monitoreo desde el primer día." }
           ]
         },
         "whyGct": {
@@ -2671,6 +2812,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo los Incidentes Siguen Repitiéndose",
+          "items": [
+            { "title": "Incidentes recurrentes", "description": "Los mismos problemas reaparecen una y otra vez porque la causa raíz nunca se aborda formalmente." },
+            { "title": "Sin proceso estructurado", "description": "La gestión de incidentes depende de esfuerzos individuales en vez de un proceso repetible." },
+            { "title": "Falta de disciplina en el análisis de causa raíz", "description": "Los tickets se cierran resolviendo el síntoma, sin un análisis de causa raíz." },
+            { "title": "Puntos ciegos en el reporting", "description": "El liderazgo no puede ver tendencias de incidentes, problemas recurrentes ni el desempeño de resolución." },
+            { "title": "Transición de modelo de soporte", "description": "Un nuevo equipo de soporte o proveedor de AMS toma la posta y necesita un framework estructurado de incidentes." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para incidentes y problemas SAP",
           "items": [
@@ -2807,6 +2958,16 @@
               "name": "Mejorar",
               "deliverable": "Monitoreo de tendencias, planificación de capacidad y mejora continua"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo la Performance y la Disponibilidad Necesitan Gestión Activa",
+          "items": [
+            { "title": "Lentitud recurrente", "description": "Los usuarios experimentan habitualmente tiempos de respuesta lentos en picos de uso o ventanas de batch." },
+            { "title": "Caídas no planificadas", "description": "Las caídas no planificadas afectan al negocio y las causas raíz no se entienden bien." },
+            { "title": "Preparación previa a un pico de demanda", "description": "Un período de alta demanda (cierre, pico de ventas, fin de año) requiere validar la capacidad de forma proactiva." },
+            { "title": "Ajuste post-migración", "description": "Una migración o upgrade reciente introdujo regresiones de performance que necesitan ajuste." },
+            { "title": "Riesgo de capacidad por crecimiento", "description": "El crecimiento del negocio supera la capacidad actual de infraestructura y carga de trabajo." }
           ]
         },
         "whyGct": {
@@ -2947,6 +3108,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo Cloud ALM Debería Reemplazar Herramientas Fragmentadas",
+          "items": [
+            { "title": "Dispersión de herramientas", "description": "El monitoreo, las alertas y el seguimiento operativo están dispersos en herramientas desconectadas." },
+            { "title": "Transición desde SolMan", "description": "Solution Manager se está retirando o desactivando por etapas y se necesita un hub de ALM nativo de la nube." },
+            { "title": "Landscape cloud o híbrido", "description": "El landscape incluye SAP Cloud ERP o componentes híbridos que necesitan una vista unificada de operaciones." },
+            { "title": "Licencia subutilizada", "description": "Cloud ALM ya está incluido en el contrato de SAP pero no está implementado ni adoptado." },
+            { "title": "Falta de visibilidad operativa", "description": "Los equipos necesitan un único hub transparente para monitoreo, alertas y gestión de servicio." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para SAP Cloud ALM Operations",
           "items": [
@@ -3083,6 +3254,16 @@
               "name": "Mejorar",
               "deliverable": "Reporting unificado y mejora continua del servicio"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo las Operaciones Necesitan Consolidarse",
+          "items": [
+            { "title": "Responsabilidad fragmentada", "description": "El soporte, el monitoreo y el gobierno están repartidos entre distintos equipos o proveedores, sin un único responsable." },
+            { "title": "Dificultad para demostrar valor", "description": "Las operaciones no pueden generar métricas o reportes consistentes para demostrar su impacto." },
+            { "title": "Presión por escalar", "description": "El modelo operativo informal actual no puede escalar para cubrir un landscape en crecimiento." },
+            { "title": "Múltiples soluciones puntuales", "description": "La organización paga por AMS, monitoreo y gobierno por separado, sin integración entre ellos." },
+            { "title": "Reset del modelo operativo", "description": "El liderazgo quiere consolidar las operaciones de SAP en un único servicio medible y con responsables claros." }
           ]
         },
         "whyGct": {
@@ -3223,6 +3404,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo los Proyectos SAP Necesitan una Estructura Real",
+          "items": [
+            { "title": "Sin gobierno estandarizado", "description": "Cada proyecto SAP corre con su propia estructura ad hoc, sin un modelo de gobierno compartido." },
+            { "title": "Reportes de estado poco confiables", "description": "Los reportes de estado de proyecto no reflejan lo que realmente está pasando en el terreno." },
+            { "title": "Responsabilidad de riesgos poco clara", "description": "Los riesgos e issues se registran pero nadie tiene la responsabilidad clara de resolverlos." },
+            { "title": "Arranque de un nuevo programa", "description": "Una nueva iniciativa SAP está arrancando y necesita una estructura de gobierno desde el primer día." },
+            { "title": "Múltiples proyectos en simultáneo", "description": "Varios proyectos SAP corren en paralelo sin una forma consistente de seguirlos y compararlos." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para el gobierno de proyectos SAP",
           "items": [
@@ -3359,6 +3550,16 @@
               "name": "Entregar",
               "deliverable": "Entrega de hitos, reporte y aseguramiento a nivel de programa"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo el Programa Necesita una Sola Mano al Timón",
+          "items": [
+            { "title": "Múltiples frentes sin alineación", "description": "Los frentes funcional, técnico, de seguridad y de datos avanzan cada uno por su lado." },
+            { "title": "Falta de coordinación entre proveedores", "description": "Participan múltiples partners y proveedores sin un único punto de coordinación." },
+            { "title": "Dependencias que aparecen tarde", "description": "Las dependencias entre frentes se descubren tarde, cerca de los hitos críticos." },
+            { "title": "Falta de visibilidad ejecutiva", "description": "El liderazgo no logra tener una vista única y confiable de cómo avanza el programa en su conjunto." },
+            { "title": "Recuperación del programa", "description": "Una iniciativa grande se desvió del plan y necesita coordinación central para volver a encauzarse." }
           ]
         },
         "whyGct": {
@@ -3499,6 +3700,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo el Consumo de Servicios Necesita Control",
+          "items": [
+            { "title": "Alcance de servicio poco claro", "description": "No está claro qué incluyen exactamente los acuerdos de servicio SAP actuales y qué no." },
+            { "title": "SLAs sin seguimiento real", "description": "Los SLA existen en el papel pero no se siguen ni se exigen en la práctica." },
+            { "title": "Sorpresas en el consumo", "description": "Los servicios por horas o por consumo se exceden del presupuesto sin ninguna alerta temprana." },
+            { "title": "Múltiples proveedores", "description": "Varios proveedores de servicios SAP necesitan gobernarse bajo un mismo modelo consistente." },
+            { "title": "Renovación o renegociación", "description": "Se acerca una renovación de contrato y antes es necesario entender el consumo actual." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para el gobierno de servicios SAP",
           "items": [
@@ -3635,6 +3846,16 @@
               "name": "Mejorar",
               "deliverable": "Métricas de entrega, retrospectivas y mejora continua"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo la Certeza en la Entrega Está en Riesgo",
+          "items": [
+            { "title": "Hitos que se atrasan en silencio", "description": "Las demoras se acumulan de a poco hasta que se incumple un hito, sin ninguna alerta temprana." },
+            { "title": "Responsabilidad poco clara", "description": "Cuando algo se atrasa, no queda claro quién era el responsable del entregable o de la decisión." },
+            { "title": "Dependencias sin seguimiento", "description": "Los entregables dependen de otros equipos o proveedores de formas que no se siguen." },
+            { "title": "Múltiples entregas en simultáneo", "description": "Varios proyectos y servicios entregan al mismo tiempo sin un modelo de seguimiento compartido." },
+            { "title": "Recuperación tras una demora", "description": "Una entrega ya se atrasó y necesita seguimiento estructurado para volver a estar bajo control." }
           ]
         },
         "whyGct": {
@@ -3775,6 +3996,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo los Controles Necesitan Reflejar Cómo Funciona SAP Realmente",
+          "items": [
+            { "title": "Compliance pensado solo para la auditoría", "description": "Los controles existen principalmente para pasar la auditoría anual, no para operar día a día." },
+            { "title": "Brechas en cambios y accesos", "description": "La gestión de cambios y los controles de acceso no se aplican de forma consistente en todo el landscape." },
+            { "title": "Observaciones de auditoría recurrentes", "description": "Las mismas brechas de control se marcan auditoría tras auditoría sin cerrarse." },
+            { "title": "Nuevo alcance regulatorio", "description": "Nuevos requisitos de cumplimiento exigen un framework de controles que todavía no existe." },
+            { "title": "Preparación previa a una certificación", "description": "Una certificación o atestación próxima requiere controles demostrables y en funcionamiento." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para tu marco de control SAP",
           "items": [
@@ -3911,6 +4142,16 @@
               "name": "Operar",
               "deliverable": "Cadencia de reporting, adopción y refinamiento continuo"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo el Liderazgo Necesita una Sola Vista Confiable",
+          "items": [
+            { "title": "Sobrecarga de reportes", "description": "El liderazgo recibe demasiados reportes desconectados entre sí y no logra ver el panorama real." },
+            { "title": "Métricas inconsistentes", "description": "Distintos equipos reportan lo mismo de manera diferente, lo que hace imposible comparar." },
+            { "title": "Exigencias del directorio o steering committee", "description": "Los sponsors ejecutivos necesitan una vista concisa y basada en datos para las reuniones de gobierno." },
+            { "title": "Datos dispersos en herramientas", "description": "Los datos de estado, riesgo, horas y consumo viven en sistemas y planillas desconectados entre sí." },
+            { "title": "Crecimiento del portfolio de programas", "description": "La cantidad de iniciativas SAP creció más allá de lo que el reporting informal puede seguir." }
           ]
         },
         "whyGct": {
@@ -4051,6 +4292,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo el Método de Entrega Necesita Ajustarse a la Organización",
+          "items": [
+            { "title": "Sin metodología consistente", "description": "Distintos equipos y proyectos siguen enfoques de entrega diferentes e informales." },
+            { "title": "Proceso demasiado rígido", "description": "Una metodología existente está frenando la entrega sin sumar control real." },
+            { "title": "Adopción de SAP Activate", "description": "La organización quiere adoptar SAP Activate pero necesita adaptarlo a su propia realidad." },
+            { "title": "Necesidad de entrega híbrida", "description": "El gobierno ágil y el tradicional necesitan convivir en distintas partes del programa." },
+            { "title": "Incorporación de nuevos equipos", "description": "Nuevos equipos de entrega o partners necesitan una metodología consistente sobre la cual alinearse." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para el advisory de metodología SAP",
           "items": [
@@ -4187,6 +4438,16 @@
               "name": "Roadmap",
               "deliverable": "Plan de adopción por fases con incrementos de valor"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo BTP Necesita una Estrategia Real",
+          "items": [
+            { "title": "Licenciado pero sin uso", "description": "SAP BTP ya forma parte del contrato pero no tiene un caso de uso ni una hoja de ruta definidos." },
+            { "title": "Extensiones ad hoc por equipo", "description": "Distintos equipos construyen extensiones sobre BTP sin arquitectura ni gobierno compartidos." },
+            { "title": "Falta de roadmap de innovación", "description": "El liderazgo quiere un roadmap de innovación claro y priorizado, basado en valor de negocio." },
+            { "title": "Planificación previa a S/4HANA", "description": "La estrategia de BTP necesita definirse como parte de una transformación más amplia a S/4HANA o RISE." },
+            { "title": "Riesgo de dispersión de la plataforma", "description": "Se están adoptando múltiples servicios de BTP sin un modelo de gobierno coherente." }
           ]
         },
         "whyGct": {
@@ -4327,6 +4588,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo la Integración Necesita Gobierno, No Solo Conexiones",
+          "items": [
+            { "title": "Dispersión de integraciones punto a punto", "description": "Cada integración nueva se construye como algo aislado, aumentando la fragilidad con el tiempo." },
+            { "title": "Conectividad con partners y la nube", "description": "Nuevas aplicaciones en la nube o socios de negocio necesitan conectarse a SAP de forma confiable." },
+            { "title": "Problemas de confiabilidad en integraciones", "description": "Las interfaces existentes fallan seguido o carecen de monitoreo y manejo de errores." },
+            { "title": "Migración de plataforma", "description": "Una plataforma de integración existente se está reemplazando o consolidando sobre Integration Suite." },
+            { "title": "Falta de gobierno", "description": "Las integraciones se construyen sin estándares, patrones ni responsables compartidos." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para la integración SAP",
           "items": [
@@ -4463,6 +4734,16 @@
               "name": "Gobernar",
               "deliverable": "Monitoreo, controles de precisión y mejora continua"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo la IA y la Automatización Necesitan un Business Case Real",
+          "items": [
+            { "title": "Entusiasmo por IA sin casos de uso", "description": "El liderazgo quiere adoptar IA pero todavía no se identificaron casos de uso concretos." },
+            { "title": "Trabajo manual repetitivo", "description": "Los equipos dedican tiempo considerable a pasos manuales y repetitivos de procesos SAP." },
+            { "title": "IA embebida subutilizada", "description": "Las capacidades de IA nativas de SAP están licenciadas pero no activadas ni adoptadas." },
+            { "title": "Brecha entre piloto y escala", "description": "Un piloto de automatización funcionó pero no hay un plan para escalarlo de forma responsable." },
+            { "title": "Gobierno antes de escalar", "description": "La adopción de IA necesita guardrails y gobierno antes de seguir expandiéndose." }
           ]
         },
         "whyGct": {
@@ -4603,6 +4884,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo las Extensiones Necesitan Construirse Bien",
+          "items": [
+            { "title": "Presión por personalización heredada", "description": "Los requisitos de negocio no se cubren con el estándar de SAP y necesitan una extensión limpia." },
+            { "title": "Deuda técnica de desarrollos previos", "description": "El custom code del pasado acumuló deuda técnica que el nuevo desarrollo no debería repetir." },
+            { "title": "Estándares de desarrollo modernos", "description": "La organización quiere adoptar prácticas de extensión side-by-side, listas para la nube." },
+            { "title": "Planificación de extensiones previa a S/4HANA", "description": "La estrategia de extensiones necesita definirse antes o durante una transformación a S/4HANA." },
+            { "title": "Traspaso y mantenibilidad", "description": "Una extensión necesita construirse con documentación clara y un responsable de su ciclo de vida." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para el desarrollo de extensiones SAP",
           "items": [
@@ -4739,6 +5030,16 @@
               "name": "Incorporar",
               "deliverable": "Clean core en el gobierno, con habilitación de equipos"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo la Innovación No Debería Costarte el Clean Core",
+          "items": [
+            { "title": "Tensión entre innovación y clean core", "description": "Los equipos ven el clean core y la velocidad de innovación como cosas en conflicto." },
+            { "title": "Riesgo por un upgrade próximo", "description": "Se están planificando personalizaciones nuevas justo cuando se acerca un upgrade o conversión." },
+            { "title": "Backlog de custom code", "description": "Hay un backlog de custom code que necesita evaluarse antes de sumar nueva innovación encima." },
+            { "title": "Falta de gobierno sobre la innovación", "description": "No hay un guardrail claro sobre qué innovación puede tocar el core." },
+            { "title": "Habilitación post clean core", "description": "Se acaba de establecer una línea base de clean core y los equipos necesitan guía para innovar dentro de ella." }
           ]
         },
         "whyGct": {
@@ -4879,6 +5180,16 @@
             }
           ]
         },
+        "engagementScenarios": {
+          "title": "Cuándo los Datos de SAP Necesitan Convertirse en Insight",
+          "items": [
+            { "title": "Datos atrapados en SAP", "description": "Existen datos valiosos en SAP que nunca llegan a las personas que los necesitan para decidir." },
+            { "title": "Carga de reporting manual", "description": "Los reportes se arman manualmente y una y otra vez, en vez de sobre una base reutilizable." },
+            { "title": "Fuentes de datos fragmentadas", "description": "Los datos de SAP y de fuera de SAP necesitan combinarse para tener una vista completa del negocio." },
+            { "title": "Preparación de datos previa a la transformación", "description": "Una migración próxima es un buen momento para rediseñar la base de datos y analytics." },
+            { "title": "Soporte a la decisión ejecutiva", "description": "El liderazgo necesita datos confiables y en tiempo real para tomar decisiones más rápido." }
+          ]
+        },
         "whyGct": {
           "title": "Por qué elegir a Global Core Technologies para datos y analítica SAP",
           "items": [
@@ -5015,6 +5326,16 @@
               "name": "Gobernar",
               "deliverable": "Precisión, accountability y mejora continua"
             }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Cuándo los Equipos de SAP Necesitan un Copiloto de IA",
+          "items": [
+            { "title": "Alto volumen de solicitudes repetitivas", "description": "Los equipos de soporte u operaciones manejan grandes volúmenes de solicitudes similares y de baja complejidad." },
+            { "title": "Conocimiento concentrado en pocas personas", "description": "El conocimiento sobre cómo funcionan los sistemas vive en la cabeza de un puñado de personas." },
+            { "title": "Carga de documentación y estimaciones", "description": "Los equipos dedican un tiempo desproporcionado a documentación, estimaciones o actualizaciones de estado." },
+            { "title": "Sobrecarga de monitoreo", "description": "Los equipos están saturados de señales de monitoreo que necesitan triage antes de poder actuar." },
+            { "title": "Roadmap de habilitación de IA", "description": "La organización quiere un punto de partida práctico para agentes de IA en las operaciones de SAP." }
           ]
         },
         "whyGct": {

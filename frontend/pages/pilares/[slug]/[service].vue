@@ -50,6 +50,9 @@ const methodologyPhases = computed(() =>
 const whyItems = computed(() =>
   objectList('whyGct.items').map(o => ({ title: resolve(o.title), description: resolve(o.description) }))
 )
+const engagementScenarioItems = computed(() =>
+  objectList('engagementScenarios.items').map(o => ({ title: resolve(o.title), description: resolve(o.description) }))
+)
 const methodologyColsClass = computed(() => {
   const n = methodologyPhases.value.length
   return n >= 5 ? 'md:grid-cols-5' : n === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'
@@ -282,9 +285,33 @@ useHead({
       </div>
     </section>
 
-    <!-- 6. Why Global Core Technologies -->
-
+    <!-- 6. Engagement Scenarios -->
     <section class="bg-white/30 py-16 md:py-24">
+      <div class="section-shell">
+        <div v-reveal class="max-w-3xl">
+          <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.engagementScenarios') }}</p>
+          <h2 class="mt-3 font-display text-3xl font-extrabold leading-tight text-core-ink md:text-4xl">
+            {{ t(`${base}.engagementScenarios.title`) }}
+          </h2>
+        </div>
+
+        <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div
+            v-for="(item, index) in engagementScenarioItems"
+            :key="item.title"
+            v-reveal="{ delay: Math.min(index * 80, 360), distance: 28 }"
+            class="rounded-xl border border-core-line bg-white p-6"
+          >
+            <h3 class="font-display text-base font-extrabold text-core-ink">{{ item.title }}</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Why Global Core Technologies -->
+
+    <section class="bg-section-light py-16 md:py-24">
       <div class="section-shell">
         <div v-reveal class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-[0.18em] text-core-orange">{{ t('serviceDetail.labels.whyGct') }}</p>
@@ -311,7 +338,7 @@ useHead({
       </div>
     </section>
 
-    <!-- 7. Lead Magnet -->
+    <!-- 8. Lead Magnet -->
     <section id="recurso" class="relative overflow-hidden bg-core-midnight py-16 text-white md:py-20">
       <div class="absolute inset-0 -z-10 bg-core-grid opacity-30" aria-hidden="true" />
       <div class="section-shell">
@@ -332,7 +359,7 @@ useHead({
       </div>
     </section>
 
-    <!-- 8. Related services -->
+    <!-- 9. Related services -->
     <section class="bg-section-light py-16 md:py-20">
       <div class="section-shell">
         <h2 v-reveal class="font-display text-2xl font-extrabold text-core-ink md:text-3xl">
@@ -360,7 +387,7 @@ useHead({
       </div>
     </section>
 
-    <!-- 9. Final CTA -->
+    <!-- 10. Final CTA -->
     <section class="relative overflow-hidden bg-core-ink py-20 text-white md:py-24">
       <div class="absolute inset-0 -z-10 bg-gradient-to-b from-core-ink to-core-midnight" aria-hidden="true" />
       <div v-reveal class="section-shell max-w-3xl text-center">
