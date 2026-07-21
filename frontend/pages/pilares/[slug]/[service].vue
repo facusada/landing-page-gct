@@ -80,6 +80,20 @@ const related = (pillarServiceKeys[pillarSlug] ?? [])
     }
   })
 
+// These slugs' finalCta.ctaSecondary copy reads as "speak with an expert" rather
+// than "explore the pillar", so it must route to contact, not back to the pillar.
+const contactSecondaryCtaSlugs = new Set([
+  'rise-with-sap',
+  's4hana-readiness-assessment',
+  'sap-migration-governance',
+  'clean-core-strategy'
+])
+const finalCtaSecondaryTo = computed(() =>
+  contactSecondaryCtaSlugs.has(serviceSlug)
+    ? `/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`
+    : `/pilares/${pillarSlug}`
+)
+
 const canonical = `${siteConfig.url}/pilares/${pillarSlug}/${serviceSlug}`
 
 useSeoMeta({
@@ -358,7 +372,7 @@ useHead({
         </p>
         <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
           <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`">{{ t(`${base}.finalCta.ctaPrimary`) }}</BaseButton>
-          <BaseButton :to="`/pilares/${pillarSlug}`" variant="secondary">{{ t(`${base}.finalCta.ctaSecondary`) }}</BaseButton>
+          <BaseButton :to="finalCtaSecondaryTo" variant="secondary">{{ t(`${base}.finalCta.ctaSecondary`) }}</BaseButton>
         </div>
       </div>
     </section>
