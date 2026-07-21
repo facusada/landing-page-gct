@@ -1170,399 +1170,419 @@
         }
       },
       "rise-with-sap": {
-        "metaTitle": "RISE with SAP | Migración a la Nube Gestionada | Global Core Technologies",
-        "metaDescription": "Adoptá RISE with SAP con un partner que integra contrato, migración técnica y gobierno. Llegá a S/4HANA Cloud con riesgo controlado. Hablá con un experto.",
+        "metaTitle": "RISE with SAP Advisory | Estrategia de Transformación a la Nube | Global Core Technologies",
+        "metaDescription": "Advisory independiente de RISE with SAP: readiness assessment, arquitectura objetivo, business case y gobierno para una transición controlada a SAP Cloud ERP Private. Hablá con un experto.",
         "eyebrow": "Pilar · Transform",
-        "h1": "RISE with SAP, adoptado con un partner que gobierna el contrato y la migración",
-        "heroSubtitle": "Te acompañamos en la adopción de RISE with SAP: definimos el dimensionamiento, ordenamos el alcance, ejecutamos la migración técnica y montamos el gobierno para que el modelo de nube gestionada entregue valor real, no solo un cambio de licenciamiento.",
-        "ctaPrimary": "Evaluá tu caso RISE with SAP",
-        "ctaSecondary": "Pedí tu análisis RISE gratuito",
+        "h1": "Construí el Camino Correcto hacia RISE with SAP",
+        "heroSubtitle": "Global Core Technologies te ayuda a evaluar, preparar y estructurar tu camino a RISE with SAP — desde el diagnóstico del estado actual y el business case hasta la arquitectura objetivo, el plan de migración y el gobierno — alineando prioridades de negocio, realidades técnicas, seguridad y decisiones comerciales antes de asumir compromisos mayores.",
+        "ctaPrimary": "Agendá una Sesión de Estrategia RISE with SAP",
+        "ctaSecondary": "Descargá el Marco de Decisión RISE",
         "metrics": {
           "projects": "proyectos finalizados",
           "years": "años en SAP crítico",
           "governance": "enfoque en gobierno"
         },
         "problem": {
-          "title": "RISE with SAP no es solo una licencia. Es un cambio de modelo operativo.",
+          "title": "RISE with SAP Es un Modelo de Transformación, No Solo una Decisión de Hosting",
           "items": [
             {
-              "title": "Un contrato que no entendés del todo",
-              "description": "RISE empaqueta infraestructura, S/4HANA Cloud y servicios en un único acuerdo. Sin un análisis independiente, es fácil sobredimensionar o quedarte corto en lo que realmente necesitás."
+              "title": "Resultados poco claros y deuda técnica",
+              "description": "Los resultados de negocio y las prioridades de transformación no están claros, y hay visibilidad limitada de la deuda técnica actual, el custom code y el esfuerzo de simplificación."
             },
             {
-              "title": "La nube no migra sola",
-              "description": "Pasar a RISE implica una conversión técnica real a S/4HANA. Sin metodología, el proyecto hereda los riesgos de cualquier migración mal gobernada."
+              "title": "Responsabilidades y arquitectura difusas",
+              "description": "La confusión sobre responsabilidades entre SAP, hyperscalers, partners y equipos internos — sumada a la incertidumbre sobre arquitectura objetivo, sizing y patrones de integración — nubla la decisión."
             },
             {
-              "title": "¿Quién opera qué?",
-              "description": "El modelo gestionado redefine las responsabilidades entre SAP, el partner y tu equipo. Sin un gobierno claro, las zonas grises se vuelven incidentes."
+              "title": "Brechas de seguridad y business case",
+              "description": "Los requisitos de seguridad, cumplimiento, residencia de datos y auditoría suelen abordarse demasiado tarde, mientras que los supuestos del business case no reflejan la realidad de la migración y la operación."
             }
           ],
-          "closing": "RISE with SAP puede ser el camino más rápido a la nube — o un contrato caro mal aprovechado. La diferencia está en cómo se adopta."
+          "closing": "Sin una capa de advisory independiente, las organizaciones corren el riesgo de elegir un modelo objetivo antes de entender el esfuerzo, las dependencias, las responsabilidades y las implicancias de largo plazo de la transformación."
         },
         "howWeHelp": {
-          "title": "Adopción de RISE de punta a punta",
-          "description": "Desde el análisis del caso de negocio hasta la operación en la nube, con un único responsable del resultado.",
+          "title": "Advisory Independiente en Todo el Ciclo de Decisión y Preparación de RISE",
+          "description": "Brindamos un servicio de advisory ejecutivo y técnico que convierte la intención estratégica en un plan de transformación listo para decidir.",
           "items": [
             {
-              "title": "Análisis y dimensionamiento",
-              "description": "Evaluamos si RISE es el modelo correcto para tu organización y dimensionamos el alcance, los recursos y el costo total de propiedad sin sorpresas."
+              "title": "Alineación Estratégica",
+              "description": "Alineamos los objetivos de negocio y los drivers de valor, definimos la visión y los principios rectores de la transformación, aseguramos el alineamiento de los stakeholders ejecutivos y establecemos los criterios de éxito y los decision gates."
             },
             {
-              "title": "Conversión a S/4HANA Cloud",
-              "description": "Ejecutamos la migración técnica con metodología probada, estrategia Clean Core y control de datos en cada ola."
+              "title": "Diagnóstico del Estado Actual",
+              "description": "Revisamos el landscape SAP y su ciclo de vida, relevamos infraestructura y operaciones, mapeamos el custom code y las extensiones existentes, y evaluamos integración, seguridad, cumplimiento y resiliencia."
             },
             {
-              "title": "Gobierno del modelo gestionado",
-              "description": "Definimos roles, responsabilidades y SLAs entre SAP, Global Core Technologies y tu equipo para que nadie quede en la zona gris."
+              "title": "Definición del Modelo Objetivo",
+              "description": "Definimos las opciones de despliegue y arquitectura objetivo, el alcance y modelo de responsabilidades de RISE, los principios de Clean Core y extensibilidad, y la secuencia de transición de alto nivel."
             },
             {
-              "title": "Operación e innovación continua",
-              "description": "Tras el go-live, operamos y evolucionamos el entorno con soporte AMS y aprovechamos las capacidades cloud incluidas en RISE."
+              "title": "Business Case y Soporte a la Decisión",
+              "description": "Construimos una comparación de escenarios ajustada por riesgo de costos y beneficios, revisamos los supuestos y restricciones comerciales, y entregamos una recomendación ejecutiva con su decision pack."
+            },
+            {
+              "title": "Preparación de la Transformación",
+              "description": "Traducimos la decisión en un roadmap integrado, un modelo de gobierno de programa, un plan de movilización de workstreams, un backlog de readiness y la coordinación con partners y stakeholders."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Tomá la Decisión de RISE con Claridad y Control",
           "items": [
-            {
-              "title": "Costo total bajo control",
-              "description": "Dimensionamiento independiente que evita sobrepagar por capacidad o servicios que no usás."
-            },
-            {
-              "title": "Migración sin sorpresas",
-              "description": "La conversión técnica se ejecuta con la misma rigurosidad y gobierno que cualquier programa S/4HANA."
-            },
-            {
-              "title": "Responsabilidades claras",
-              "description": "Un modelo de gobierno explícito elimina las zonas grises del servicio gestionado."
-            },
-            {
-              "title": "Nube lista para innovar",
-              "description": "Aprovechás las capacidades de S/4HANA Cloud y BTP incluidas en RISE desde el primer día."
-            }
+            { "title": "Una Decisión de Transformación Defendible", "description": "Comparás opciones según valor de negocio, riesgo, arquitectura, impacto operativo y esfuerzo total de transformación." },
+            { "title": "Mayor Claridad Comercial y de Alcance", "description": "Entendés los límites, supuestos y responsabilidades que hay que validar antes de contratar y movilizar." },
+            { "title": "Menor Riesgo de Migración", "description": "Identificás restricciones técnicas, organizacionales, de seguridad e integración antes de que se conviertan en bloqueos del programa." },
+            { "title": "Un Roadmap de Transformación Realista", "description": "Secuenciás preparación, migración, remediación e innovación según dependencias y capacidad reales." },
+            { "title": "Mayor Alineación Ejecutiva", "description": "Creás una base de hechos común para negocio, IT, seguridad, compras y finanzas." },
+            { "title": "Una Base Lista para Innovar", "description": "Incorporás Clean Core, extensibilidad, datos y principios operativos en el modelo objetivo desde el principio." }
           ]
         },
         "methodology": {
-          "title": "El camino Global Core Technologies a RISE with SAP",
-          "description": "Cuatro fases que conectan la decisión contractual con la operación en la nube.",
+          "title": "Un Marco de Advisory de la Decisión a la Transformación",
+          "description": "Nuestro marco combina estrategia de negocio, evaluación técnica, gobierno y planificación operativa.",
           "phases": [
-            { "name": "Assess", "deliverable": "Caso de negocio, fit de RISE y dimensionamiento" },
-            { "name": "Plan", "deliverable": "Alcance contractual, arquitectura objetivo y roadmap" },
-            { "name": "Migrate", "deliverable": "Conversión a S/4HANA Cloud por olas con control de datos" },
-            { "name": "Operate", "deliverable": "Gobierno del modelo gestionado, hypercare y mejora continua" }
+            { "name": "Alinear", "deliverable": "Charter de transformación, medidas de éxito, marco de decisión" },
+            { "name": "Evaluar", "deliverable": "Diagnóstico del estado actual, riesgos, dependencias, brechas de readiness" },
+            { "name": "Diseñar", "deliverable": "Arquitectura objetivo, modelo de responsabilidades, principios de Clean Core" },
+            { "name": "Validar", "deliverable": "Comparación de escenarios, insumos del business case, decisiones ejecutivas" },
+            { "name": "Movilizar", "deliverable": "Roadmap, gobierno, workstreams, backlog de readiness priorizado" }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para tu adopción de RISE",
+          "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
-            { "title": "Profunda experiencia SAP", "description": "Décadas de experiencia en Basis, Arquitectura y Transformación de entornos SAP de alta criticidad." },
-            { "title": "Enfoque basado en gobierno", "description": "Alineamos cada decisión técnica y contractual con objetivos de negocio claros." },
-            { "title": "Mirada independiente", "description": "Te asesoramos sobre RISE desde tu interés, no desde la venta de licencias." },
-            { "title": "Mentalidad Clean Core", "description": "Protegemos la actualizabilidad de tu núcleo SAP también en la nube." },
-            { "title": "Plataformas propias", "description": "Operations Intelligence™ centraliza el monitoreo y la performance de tu entorno en la nube." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada programa." }
+            { "title": "Mirada de Negocio y Técnica", "description": "Conectamos las prioridades ejecutivas con la arquitectura SAP, Basis, seguridad, integración y realidades operativas." },
+            { "title": "Advisory Independiente Basado en Gobierno", "description": "Nuestro rol es clarificar decisiones, exponer supuestos y proteger los resultados de la transformación — no imponer un camino predeterminado." },
+            { "title": "Profunda Experiencia en Transformación SAP", "description": "Nuestros equipos entienden las dependencias que definen los programas complejos de modernización SAP." },
+            { "title": "Seguridad y Operaciones Incorporadas", "description": "Seguridad, resiliencia, soporte, observabilidad y gestión del servicio forman parte del modelo objetivo desde el primer día." },
+            { "title": "Continuidad Más Allá del Advisory", "description": "GCT puede seguir acompañando el assessment, el gobierno, la migración, la seguridad y la operación gestionada a medida que avanza el camino." }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Análisis RISE: ¿este contrato realmente te conviene?",
-          "description": "Evaluamos tu caso de dimensionamiento, alcance contractual y modelo de gobierno antes de que firmes. Sin costo, sin compromiso.",
-          "cta": "Agendá tu análisis RISE"
+          "eyebrow": "Marco gratuito",
+          "title": "¿Estás Listo para Tomar la Decisión de RISE?",
+          "description": "Descargá el Marco de Decisión RISE with SAP para estructurar tu evaluación interna en resultados de negocio, readiness del landscape, arquitectura objetivo, modelo de responsabilidades, seguridad y cumplimiento, supuestos comerciales, gobierno de la transformación y preparación del modelo operativo.",
+          "cta": "Descargá el Marco de Decisión RISE"
         },
         "finalCta": {
-          "title": "¿RISE with SAP es el camino correcto para vos?",
-          "description": "Agendá una sesión con nuestros arquitectos y obtené un análisis independiente de fit, alcance y costo total.",
-          "ctaPrimary": "Evaluá tu caso RISE",
-          "ctaSecondary": "Conocé el pilar Transform"
+          "title": "Convertí RISE with SAP en una Transformación de Negocio Gobernada",
+          "description": "Ya sea que estés explorando RISE, validando una propuesta o preparándote para movilizar, GCT puede ayudarte a definir un camino realista y sostenible.",
+          "ctaPrimary": "Agendá una Sesión de Estrategia RISE with SAP",
+          "ctaSecondary": "Hablá con un Advisor de RISE with SAP"
         }
       },
       "s4hana-readiness-assessment": {
-        "metaTitle": "SAP S/4HANA Readiness Assessment | Evaluación | Global Core Technologies",
-        "metaDescription": "Evaluá tu preparación técnica, funcional y de datos para migrar a SAP S/4HANA. Recibí un diagnóstico claro y un roadmap priorizado. Agendá tu assessment.",
+        "metaTitle": "SAP S/4HANA Readiness Assessment | Análisis de SAP Readiness Check | Global Core Technologies",
+        "metaDescription": "Un readiness assessment de SAP S/4HANA basado en hechos, cubriendo arquitectura, custom code, datos, seguridad y preparación del programa, traducido en un roadmap priorizado. Hablá con un experto.",
         "eyebrow": "Pilar · Transform",
-        "h1": "Readiness Assessment: sabé exactamente qué tan listo estás para S/4HANA",
-        "heroSubtitle": "Antes de invertir en una migración, evaluamos la madurez técnica, funcional, de datos y organizacional de tu entorno SAP. Salís con un diagnóstico objetivo, los riesgos identificados y un roadmap priorizado para llegar a S/4HANA con confianza.",
-        "ctaPrimary": "Agendá tu readiness assessment",
-        "ctaSecondary": "Pedí una demo del assessment",
+        "h1": "Conocé tu Readiness para SAP S/4HANA Antes de Comprometerte",
+        "heroSubtitle": "Global Core Technologies combina los resultados del SAP Readiness Check con análisis experto en arquitectura, custom code, datos, integraciones, seguridad, operaciones y gobierno para entregarte una vista ejecutiva de qué hay que resolver, en qué orden y por qué.",
+        "ctaPrimary": "Agendá un Readiness Assessment",
+        "ctaSecondary": "Descargá el Scorecard de Readiness S/4HANA",
         "metrics": {
           "projects": "proyectos finalizados",
           "years": "años en SAP crítico",
           "governance": "enfoque en gobierno"
         },
         "problem": {
-          "title": "Migrar sin un diagnóstico es navegar a ciegas.",
+          "title": "El Resultado de una Herramienta Solo No Define la Preparación para la Transformación",
           "items": [
             {
-              "title": "Sorpresas a mitad de proyecto",
-              "description": "Sin una evaluación previa, los problemas de custom code, datos o integraciones aparecen cuando ya es caro resolverlos."
+              "title": "Hallazgos sin contexto de negocio",
+              "description": "Los hallazgos de readiness no se traducen en impacto o prioridades de negocio, y los ítems de simplificación suelen carecer de dueño, decisión o fecha límite."
             },
             {
-              "title": "Decisiones sin datos",
-              "description": "El comité necesita saber el esfuerzo, el riesgo y el costo reales antes de aprobar la inversión — no después."
+              "title": "Un panorama técnico incompleto",
+              "description": "Se conoce el volumen de custom code pero no su complejidad de remediación, las interfaces y sistemas dependientes están incompletamente documentados, y los riesgos de calidad de datos aparecen demasiado tarde."
             },
             {
-              "title": "Greenfield o brownfield: ¿cómo lo decidís?",
-              "description": "Elegir el escenario de migración sin un análisis riguroso de tu base instalada compromete todo el programa."
+              "title": "Seguridad y operaciones como algo secundario",
+              "description": "Los impactos de seguridad y autorizaciones se tratan como actividades posteriores, mientras que infraestructura, operaciones, testing y readiness de cutover se evalúan de forma aislada."
             }
           ],
-          "closing": "Un readiness assessment convierte la incertidumbre en un plan: sabés dónde estás parado antes de dar el primer paso."
+          "closing": "Un readiness assessment debe conectar la evidencia técnica con decisiones, acciones de remediación, gobierno, presupuesto y secuenciación de la transformación."
         },
         "howWeHelp": {
-          "title": "Un diagnóstico 360° de tu preparación",
-          "description": "Analizamos cada dimensión que impacta la migración y traducimos los hallazgos en decisiones accionables.",
+          "title": "Una Evaluación 360° de tu Punto de Partida hacia la Transformación",
+          "description": "Evaluamos el landscape técnico y la capacidad de la organización para ejecutar y sostener la transformación.",
           "items": [
             {
-              "title": "Análisis técnico",
-              "description": "Custom code, add-ons, integraciones y compatibilidad con S/4HANA, con el Readiness Check de SAP y nuestro análisis experto."
+              "title": "Readiness de Sistema y Arquitectura",
+              "description": "Revisamos la versión y el baseline de mantenimiento del sistema, la compatibilidad de add-ons, el sizing y las consideraciones de infraestructura, la topología del landscape y los requisitos de disponibilidad, backup y recuperación."
             },
             {
-              "title": "Calidad y volumen de datos",
-              "description": "Evaluamos el estado de los datos maestros y transaccionales para anticipar el esfuerzo de limpieza y migración."
+              "title": "Impacto Funcional y de Simplificación",
+              "description": "Evaluamos los ítems de simplificación relevantes, las áreas de impacto en procesos de negocio, las decisiones funcionales obligatorias, las implicancias de Fiori y experiencia de usuario, y las oportunidades de rediseño de procesos."
             },
             {
-              "title": "Madurez funcional y de procesos",
-              "description": "Identificamos las brechas entre tus procesos actuales y los procesos estándar de S/4HANA."
+              "title": "Custom Code y Clean Core",
+              "description": "Inventariamos objetos custom y su uso, revisamos los hallazgos de ATC y compatibilidad, identificamos candidatos a remediación o retiro, y clasificamos las extensiones contra un baseline de riesgo Clean Core."
             },
             {
-              "title": "Preparación organizacional",
-              "description": "Evaluamos las capacidades del equipo, la gestión del cambio y el gobierno necesarios para sostener la transformación."
+              "title": "Readiness de Datos e Integraciones",
+              "description": "Evaluamos volumen y crecimiento de datos, calidad de datos y necesidades de archivado, el inventario de interfaces y middleware, las dependencias externas, y los riesgos de objetos de migración y reconciliación."
+            },
+            {
+              "title": "Readiness de Seguridad y Operaciones",
+              "description": "Evaluamos el impacto en roles y autorizaciones, la arquitectura de seguridad y brechas de cumplimiento, la preparación de operaciones técnicas, las necesidades de monitoreo, y los riesgos de testing, cutover y continuidad."
+            },
+            {
+              "title": "Readiness de Programa y Organización",
+              "description": "Evaluamos la madurez de gobierno, la disponibilidad de recursos y capacidades, el modelo de toma de decisiones, las consideraciones de cambio y adopción, y el mapa de dependencias de la transformación."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Reemplazá los Supuestos por un Baseline de Transformación Priorizado",
           "items": [
-            { "title": "Decisiones con fundamento", "description": "Tu comité aprueba la inversión con datos de esfuerzo, riesgo y costo sobre la mesa." },
-            { "title": "Riesgos anticipados", "description": "Identificás los problemas críticos cuando todavía son baratos de resolver." },
-            { "title": "Escenario óptimo definido", "description": "Sabés si greenfield, brownfield o selective transition es el camino correcto para vos." },
-            { "title": "Roadmap accionable", "description": "Salís con un plan priorizado, no con un informe que junta polvo." }
+            { "title": "Visibilidad Temprana de Riesgos", "description": "Exponé riesgos técnicos y organizacionales antes de que el alcance, el presupuesto y los tiempos queden cerrados." },
+            { "title": "Planificación Más Precisa", "description": "Estimá el esfuerzo con hallazgos reales de custom code, datos, integraciones, seguridad y operaciones." },
+            { "title": "Remediación Priorizada", "description": "Separá los prerrequisitos críticos de las optimizaciones que se pueden secuenciar más adelante." },
+            { "title": "Business Case Más Sólido", "description": "Conectá las brechas de readiness con las necesidades de inversión, la reducción de riesgo y el valor de negocio esperado." },
+            { "title": "Dueños Claros", "description": "Asigná los hallazgos a workstreams responsables con decisiones, acciones y fechas objetivo." },
+            { "title": "Movilización Más Rápida", "description": "Iniciá la transformación con un backlog acordado, un mapa de dependencias y una estructura de gobierno." }
           ]
         },
         "methodology": {
-          "title": "Cómo ejecutamos el assessment",
-          "description": "Cuatro fases que van del relevamiento al roadmap, normalmente en pocas semanas.",
+          "title": "De la Evidencia Técnica a la Acción Ejecutiva",
+          "description": "Nuestro proceso de assessment combina análisis automatizado, workshops con expertos y recomendaciones priorizadas.",
           "phases": [
-            { "name": "Relevar", "deliverable": "Recolección de datos del entorno y Readiness Check de SAP" },
-            { "name": "Analizar", "deliverable": "Análisis técnico, de datos, funcional y organizacional" },
-            { "name": "Priorizar", "deliverable": "Mapa de riesgos, esfuerzo estimado y escenario recomendado" },
-            { "name": "Recomendar", "deliverable": "Roadmap priorizado y business case inicial" }
+            { "name": "Preparar", "deliverable": "Plan de assessment, checklist de accesos, mapa de stakeholders" },
+            { "name": "Relevar", "deliverable": "Inventario del landscape, repositorio de hallazgos, mapa de dependencias" },
+            { "name": "Analizar", "deliverable": "Análisis de riesgos, drivers de esfuerzo, scores de madurez" },
+            { "name": "Priorizar", "deliverable": "Backlog de remediación, quick wins, decision log" },
+            { "name": "Roadmap", "deliverable": "Informe ejecutivo, heatmap, roadmap, recomendaciones de próximos pasos" }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para tu evaluación",
+          "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
-            { "title": "Profunda experiencia SAP", "description": "Décadas de experiencia en Basis, Arquitectura, Seguridad y Transformación SAP." },
-            { "title": "Enfoque basado en gobierno", "description": "Cada hallazgo se traduce en decisiones alineadas a tus objetivos de negocio." },
-            { "title": "Diagnóstico objetivo", "description": "Evaluamos tu entorno sin agenda comercial: el resultado refleja tu realidad." },
-            { "title": "Mentalidad Clean Core", "description": "Identificamos desde el assessment qué customizaciones amenazan tu actualizabilidad." },
-            { "title": "Método probado", "description": "Combinamos las herramientas oficiales de SAP con criterio experto afinado en +150 proyectos." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada evaluación." }
+            { "title": "Más Allá de los Reportes Automatizados", "description": "Interpretamos los resultados de las herramientas SAP en el contexto de tus sistemas, tu organización y el camino de transformación que buscás." },
+            { "title": "Experiencia SAP Multidominio", "description": "Consolidamos en una sola evaluación las miradas de Basis, arquitectura, seguridad, desarrollo, integración, datos y gobierno." },
+            { "title": "Entregables Accionables", "description": "Cada hallazgo relevante queda vinculado a impacto, prioridad, dueño, dependencia y acción recomendada." },
+            { "title": "Vistas Ejecutivas y Técnicas", "description": "La dirección recibe una vista de decisión concisa, mientras los equipos de delivery reciben el detalle necesario para actuar." },
+            { "title": "Camino del Assessment a la Ejecución", "description": "GCT puede acompañar la remediación, el desarrollo del roadmap, el gobierno del programa, la migración y la operación continua." }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Diagnóstico gratuito",
-          "title": "Diagnóstico express: tu nivel de readiness en 48 horas",
-          "description": "Compartís los datos básicos de tu entorno SAP y te devolvemos un semáforo de readiness con los 3 bloqueantes prioritarios a resolver antes de iniciar la migración.",
-          "cta": "Pedí tu diagnóstico express"
+          "eyebrow": "Scorecard gratuito",
+          "title": "¿Qué Tan Listo Está tu Landscape SAP?",
+          "description": "Descargá el Scorecard de Readiness SAP S/4HANA y evaluá tu posición actual en sistema y arquitectura, impactos de simplificación, custom code, datos, integraciones, seguridad, operaciones y gobierno de programa.",
+          "cta": "Descargá el Scorecard de Readiness"
         },
         "finalCta": {
-          "title": "¿Querés saber qué tan listo estás para S/4HANA?",
-          "description": "Agendá tu readiness assessment y salí con un diagnóstico claro y un roadmap priorizado.",
-          "ctaPrimary": "Agendá tu assessment",
-          "ctaSecondary": "Conocé el pilar Transform"
+          "title": "Empezá tu Transformación con Hechos, No con Supuestos",
+          "description": "Un readiness assessment estructurado le da a tu organización la claridad para definir el alcance, reducir la incertidumbre y construir un roadmap de transformación realista.",
+          "ctaPrimary": "Agendá un Readiness Assessment",
+          "ctaSecondary": "Hablá con un Experto en Readiness SAP"
         }
       },
       "sap-migration-governance": {
-        "metaTitle": "SAP Migration Governance | Control de Migración | Global Core Technologies",
-        "metaDescription": "Goberná tu migración a SAP S/4HANA con marcos de control, gestión de riesgos y decisiones trazables. Asegurá el go-live sin desvíos. Hablá con un experto.",
+        "metaTitle": "SAP Migration Governance | Aseguramiento de Programa y PMO | Global Core Technologies",
+        "metaDescription": "Gobierno independiente de migraciones SAP: control integrado de programa, aseguramiento de calidad, gobierno de cutover y go-live para programas complejos de S/4HANA y RISE. Hablá con un experto.",
         "eyebrow": "Pilar · Transform",
-        "h1": "Migration Governance: el control que mantiene tu migración a S/4HANA en curso",
-        "heroSubtitle": "Aportamos los marcos de control, seguimiento y toma de decisiones que mantienen tu programa de migración dentro de alcance, tiempo y presupuesto — con visibilidad ejecutiva y trazabilidad en cada decisión crítica.",
-        "ctaPrimary": "Asegurá tu migración",
-        "ctaSecondary": "Pedí una revisión de tu plan de gobierno",
+        "h1": "Mantené tu Migración SAP Bajo Control",
+        "heroSubtitle": "Global Core Technologies aporta una capa de gobierno independiente a los programas de migración SAP — conectando los objetivos ejecutivos con la realidad del delivery, coordinando workstreams multifuncionales y exponiendo riesgos y dependencias tempranamente, desde la movilización hasta el cutover y la estabilización.",
+        "ctaPrimary": "Agendá una Revisión de Migration Governance",
+        "ctaSecondary": "Descargá el Checklist de Migration Governance de SAP",
         "metrics": {
           "projects": "proyectos finalizados",
           "years": "años en SAP crítico",
           "governance": "enfoque en gobierno"
         },
         "problem": {
-          "title": "La mayoría de las migraciones no fallan por la tecnología. Fallan por la gestión.",
+          "title": "Las Migraciones SAP Complejas Fallan en las Intersecciones Entre Workstreams",
           "items": [
             {
-              "title": "Alcance que se dispara",
-              "description": "Sin control de cambios, cada 'pequeña' adición erosiona el cronograma y el presupuesto hasta volverlos irreconocibles."
+              "title": "Avance inconsistente y riesgo sin resolver",
+              "description": "Los distintos workstreams reportan el avance con definiciones inconsistentes, y los riesgos se registran pero no se llevan activamente hacia su resolución."
             },
             {
-              "title": "Decisiones sin trazabilidad",
-              "description": "Cuando nadie sabe quién decidió qué ni por qué, los retrabajos y los conflictos se multiplican."
+              "title": "Decisiones y dependencias sin dueño",
+              "description": "Las decisiones críticas carecen de dueño, plazo o análisis de impacto, mientras que las dependencias de datos, integración, seguridad e infraestructura se gestionan de forma aislada."
             },
             {
-              "title": "El liderazgo a ciegas",
-              "description": "Sin reportes claros, la dirección se entera de los problemas cuando ya impactaron el negocio."
+              "title": "Readiness supuesto, no comprobado",
+              "description": "La preparación de testing y cutover se basa en actividades completadas y no en evidencia, y el soporte y la estabilización post-go-live se planifican demasiado tarde."
             }
           ],
-          "closing": "La tecnología de S/4HANA está probada. Lo que separa un go-live exitoso de un desastre presupuestario es el gobierno del programa."
+          "closing": "Sin un modelo de gobierno sólido, los programas pueden parecer en curso hasta que las dependencias sin resolver convergen cerca del testing, el cutover o el go-live."
         },
         "howWeHelp": {
-          "title": "Un marco de gobierno que el programa entero respeta",
-          "description": "Aportamos estructura, ritmo y visibilidad para que la migración avance con decisiones firmes y trazables.",
+          "title": "Una Oficina de Gobierno Diseñada para la Transformación SAP",
+          "description": "Complementamos al equipo de implementación con control de programa independiente, aseguramiento integrado y visibilidad ejecutiva.",
           "items": [
             {
-              "title": "Control de alcance y cambios",
-              "description": "Procesos formales para evaluar, aprobar y trazar cada cambio antes de que impacte el plan."
+              "title": "Diseño de Gobierno y Movilización",
+              "description": "Diseñamos la estructura de gobierno del programa, definimos roles, responsabilidades y derechos de decisión, y montamos el modelo de workstreams, foros, planificación y escalamiento."
             },
             {
-              "title": "Gestión de riesgos y dependencias",
-              "description": "Identificación temprana, mitigación activa y seguimiento de los riesgos y dependencias críticas."
+              "title": "Control Integrado del Programa",
+              "description": "Aseguramos el plan maestro y los hitos, gestionamos las dependencias entre workstreams y el RAID, hacemos seguimiento de decisiones y acciones, y controlamos el alcance y los cambios."
             },
             {
-              "title": "Gobierno de decisiones",
-              "description": "Comités, roles y criterios claros para que cada decisión crítica se tome a tiempo y quede documentada."
+              "title": "Aseguramiento de Calidad y Delivery",
+              "description": "Ejecutamos quality gates de entregables, revisiones de hitos basadas en evidencia, gobierno de arquitectura y diseño, y checkpoints de seguridad, cumplimiento y readiness de testing."
             },
             {
-              "title": "Visibilidad ejecutiva",
-              "description": "Reportes y KPIs que dan a la dirección una imagen real del avance, el riesgo y el presupuesto."
+              "title": "Gobierno de Datos, Cutover y Go-Live",
+              "description": "Gobernamos el ciclo de migración, los controles de reconciliación y sign-off, la integración del plan de cutover, los criterios de go/no-go, y el diseño del command center y escalamiento."
+            },
+            {
+              "title": "Reporte Ejecutivo e Intervención",
+              "description": "Brindamos dashboards ejecutivos, visibilidad del camino crítico y forecast, evaluaciones de salud independientes, planificación de recuperación, y soporte a la decisión del steering committee."
+            },
+            {
+              "title": "Estabilización y Transición a Operaciones",
+              "description": "Gobernamos el hypercare, la priorización de incidentes y defectos, los controles de handover operativo, el aseguramiento de la transferencia de conocimiento, y la transición de beneficios y backlog."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Generá Previsibilidad en una Transformación de Alto Riesgo",
           "items": [
-            { "title": "Presupuesto protegido", "description": "El control de alcance evita los sobrecostos que hunden a la mayoría de las migraciones." },
-            { "title": "Cronograma sostenible", "description": "Las decisiones se toman a tiempo y los bloqueos se resuelven antes de escalar." },
-            { "title": "Trazabilidad total", "description": "Cada decisión queda documentada — clave para auditoría y para resolver conflictos." },
-            { "title": "Confianza del liderazgo", "description": "La dirección decide con datos reales y sin sorpresas de último momento." }
+            { "title": "Detección Temprana de Problemas", "description": "Identificá problemas de cronograma, alcance, calidad y dependencias antes de que amenacen los hitos críticos." },
+            { "title": "Decisiones Más Rápidas", "description": "Dales a los líderes opciones claras, impactos, dueños y plazos para las decisiones pendientes." },
+            { "title": "Alineación Entre Workstreams", "description": "Coordiná negocio, funcional, técnico, datos, integración, seguridad, testing y operaciones bajo un mismo plan." },
+            { "title": "Readiness Basado en Evidencia", "description": "Usá criterios de entrada y salida medibles en lugar de un reporte de estado subjetivo." },
+            { "title": "Continuidad de Negocio Protegida", "description": "Integrá el cutover, el fallback, la resiliencia y la preparación de soporte en el gobierno del programa." },
+            { "title": "Mayor Confianza de los Stakeholders", "description": "Brindá un reporte transparente y consistente a ejecutivos, auditores, líderes de negocio y partners de delivery." }
           ]
         },
         "methodology": {
-          "title": "Cómo instalamos el gobierno",
-          "description": "Cuatro fases que montan la estructura de control y la sostienen durante todo el programa.",
+          "title": "Un Marco de Control de la Movilización a la Estabilización",
+          "description": "Nuestro marco de gobierno escala según la complejidad y la etapa del programa.",
           "phases": [
-            { "name": "Estructurar", "deliverable": "Modelo de gobierno, comités, roles y RACI" },
-            { "name": "Instrumentar", "deliverable": "Procesos de cambio, riesgos y KPIs de seguimiento" },
-            { "name": "Operar", "deliverable": "Comités en ritmo, decisiones trazadas y mitigación activa" },
-            { "name": "Asegurar", "deliverable": "Control del cutover y cierre gobernado del programa" }
+            { "name": "Movilizar", "deliverable": "Charter de gobierno, RACI, foros, modelo de control integrado" },
+            { "name": "Establecer Baseline", "deliverable": "Baseline integrado, camino crítico, perfil de riesgo" },
+            { "name": "Controlar", "deliverable": "Dashboards, RAID, decision log, resultados de quality gates" },
+            { "name": "Asegurar", "deliverable": "Evidencia de readiness, excepciones, acciones de remediación" },
+            { "name": "Transicionar", "deliverable": "Paquete de go/no-go, modelo de command center, aceptación operativa" }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para gobernar tu migración",
+          "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
-            { "title": "Profunda experiencia SAP", "description": "Décadas gobernando programas SAP de alta criticidad y misión crítica." },
-            { "title": "El gobierno es nuestro ADN", "description": "Govern es uno de nuestros cinco pilares: el control no es un agregado, es como trabajamos." },
-            { "title": "Mirada independiente", "description": "Como capa de gobierno, protegemos los intereses del programa por encima de cualquier proveedor." },
-            { "title": "Mentalidad Clean Core", "description": "Gobernamos las decisiones de extensibilidad para no comprometer la actualizabilidad." },
-            { "title": "Seguridad por diseño", "description": "Integramos los controles de seguridad y SoD en el gobierno del programa." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada programa." }
+            { "title": "Mirada Independiente", "description": "Brindamos una vista objetiva entre los equipos del cliente, SAP, integradores de sistemas, hyperscalers y proveedores especializados." },
+            { "title": "Gobierno Específico de SAP", "description": "Nuestros controles reflejan las realidades de la arquitectura SAP, Basis, seguridad, custom code, integraciones, datos, testing y cutover." },
+            { "title": "Comunicación a Nivel Ejecutivo", "description": "Convertimos la complejidad del delivery en decisiones, riesgos y acciones concisas para la dirección." },
+            { "title": "Foco en Seguridad y Continuidad de Negocio", "description": "Seguridad, cumplimiento, resiliencia y preparación operativa se tratan como resultados centrales del programa." },
+            { "title": "Capacidad de Intervención Práctica", "description": "GCT puede ir más allá del reporte y acompañar la remediación, el aseguramiento técnico, la ejecución de la migración y la estabilización." }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Revisión gratuita",
-          "title": "Revisión de gobierno: identificamos los riesgos antes de que escalen",
-          "description": "Un arquitecto Global Core Technologies revisa tu plan de migración y señala los huecos de gobierno, control de calidad y coordinación de proveedores más críticos.",
-          "cta": "Agendá tu revisión de gobierno"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Tu Gobierno de Migración Cubre los Riesgos Críticos?",
+          "description": "Descargá el Checklist de Migration Governance de SAP y evaluá tus controles en derechos de decisión, planificación integrada, dependencias, riesgos e issues, quality gates, migración de datos, testing, cutover, readiness operativo y reporte ejecutivo.",
+          "cta": "Descargá el Checklist de Migration Governance"
         },
         "finalCta": {
-          "title": "¿Tu migración necesita más control?",
-          "description": "Agendá una sesión y diseñemos el marco de gobierno que mantiene tu programa en alcance, tiempo y presupuesto.",
-          "ctaPrimary": "Asegurá tu migración",
-          "ctaSecondary": "Conocé el pilar Transform"
+          "title": "Generá la Visibilidad y el Control que tu Migración SAP Necesita",
+          "description": "Ya sea que tu programa esté comenzando, se acerque a un hito crítico o necesite recuperación, GCT puede establecer el gobierno necesario para proteger los resultados.",
+          "ctaPrimary": "Agendá una Revisión de Migration Governance",
+          "ctaSecondary": "Hablá con un Experto en Gobierno SAP"
         }
       },
       "clean-core-strategy": {
-        "metaTitle": "Clean Core Strategy SAP | Núcleo Limpio y Actualizable | Global Core Technologies",
-        "metaDescription": "Definí tu estrategia Clean Core para SAP S/4HANA: extensibilidad en BTP, menos custom code y un núcleo siempre actualizable. Hablá con un experto.",
+        "metaTitle": "SAP Clean Core Strategy | Extensibilidad y Reducción de Deuda Técnica | Global Core Technologies",
+        "metaDescription": "Una estrategia práctica de Clean Core en SAP que abarca procesos de negocio, extensibilidad, datos, integraciones y operaciones, con el gobierno que la mantiene limpia. Hablá con un experto.",
         "eyebrow": "Pilar · Transform",
-        "h1": "Clean Core Strategy: un SAP que se actualiza sin dolor, para siempre",
-        "heroSubtitle": "Definimos y ejecutamos tu estrategia Clean Core: clasificamos las customizaciones, movemos las extensiones a SAP BTP y establecemos las políticas que mantienen tu núcleo S/4HANA limpio, actualizable y listo para innovar.",
-        "ctaPrimary": "Definí tu estrategia Clean Core",
-        "ctaSecondary": "Pedí tu evaluación Clean Core",
+        "h1": "Convertí Clean Core en una Estrategia SAP Ejecutable",
+        "heroSubtitle": "Global Core Technologies te ayuda a definir e implementar una estrategia Clean Core en procesos de negocio, extensiones, datos, integraciones y operaciones — evaluando la huella actual, estableciendo principios de arquitectura y gobierno, y priorizando un roadmap que equilibra la estandarización con las capacidades que tu negocio necesita.",
+        "ctaPrimary": "Agendá una Evaluación Clean Core",
+        "ctaSecondary": "Descargá el Modelo de Madurez Clean Core",
         "metrics": {
           "projects": "proyectos finalizados",
           "years": "años en SAP crítico",
           "governance": "enfoque en gobierno"
         },
         "problem": {
-          "title": "Tu custom code fue una solución. Hoy puede ser tu mayor pasivo.",
+          "title": "Clean Core No Es la Eliminación de Toda Personalización",
           "items": [
             {
-              "title": "Cada upgrade duele",
-              "description": "Años de modificaciones al estándar convierten cada actualización en un proyecto caro y riesgoso."
+              "title": "Sin definición compartida ni evidencia clara",
+              "description": "No existe una definición compartida de qué significa Clean Core para la organización, y los desarrollos custom carecen de evidencia de uso, dueño o valor de negocio."
             },
             {
-              "title": "Innovación bloqueada",
-              "description": "Un núcleo modificado no puede adoptar nuevas capacidades de SAP ni IA sin retrabajo constante."
+              "title": "Extensiones sin gobierno y sistemas acoplados",
+              "description": "Las extensiones se construyen sin lineamientos de arquitectura claros, las interfaces están fuertemente acopladas y son difíciles de monitorear o cambiar, y la duplicación de datos aumenta la complejidad."
             },
             {
-              "title": "Deuda técnica que crece",
-              "description": "Sin una política clara, el custom code se acumula y el costo de mantenerlo solo sube."
+              "title": "Costo de upgrade creciente y gobierno estancado",
+              "description": "Los ciclos de upgrade y release requieren un esfuerzo de regresión excesivo, y las excepciones se acumulan sin gobierno de ciclo de vida."
             }
           ],
-          "closing": "S/4HANA promete un núcleo actualizable y listo para la nube. Esa promesa solo se cumple con una estrategia Clean Core deliberada."
+          "closing": "Una estrategia Clean Core exitosa requiere decisiones explícitas: qué estandarizar, qué extender, dónde extenderlo, qué retirar y cómo gobernar el cambio futuro."
         },
         "howWeHelp": {
-          "title": "Del núcleo modificado al núcleo limpio",
-          "description": "Definimos la estrategia, ejecutamos la migración de extensiones y establecemos el gobierno que la sostiene.",
+          "title": "Una Estrategia Clean Core Construida Sobre Valor de Negocio y Disciplina de Arquitectura",
+          "description": "Convertimos los principios de Clean Core en un modelo objetivo, un backlog priorizado y un sistema de gobierno sostenible.",
           "items": [
             {
-              "title": "Inventario y clasificación",
-              "description": "Analizamos tu custom code y lo clasificamos: eliminar, reemplazar por estándar o reconstruir como extensión."
+              "title": "Baseline de Clean Core",
+              "description": "Inventariamos el custom code y las modificaciones, analizamos el uso y la criticidad de negocio, evaluamos las desviaciones de proceso, y establecemos el baseline de madurez de integración, datos y operaciones."
             },
             {
-              "title": "Estrategia de extensibilidad",
-              "description": "Definimos el modelo de extensiones — in-app y side-by-side en SAP BTP — alineado a las mejores prácticas de SAP."
+              "title": "Principios y Arquitectura Objetivo",
+              "description": "Definimos los principios de estandarización, un marco de decisión de extensibilidad, los lineamientos de extensión side-by-side y on-stack, y los principios de arquitectura de APIs, datos y analytics."
             },
             {
-              "title": "Migración de extensiones",
-              "description": "Reconstruimos las personalizaciones críticas sobre BTP, desacopladas del núcleo y a prueba de upgrades."
+              "title": "Roadmap de Remediación y Modernización",
+              "description": "Tomamos decisiones de retirar, mantener, remediar, reemplazar o rediseñar, priorizamos la reducción de custom code y la estandarización de procesos, y planificamos el desacople de integraciones y el trabajo de upgrade-readiness."
             },
             {
-              "title": "Gobierno Clean Core",
-              "description": "Establecemos las políticas y controles que evitan que el núcleo vuelva a ensuciarse con el tiempo."
+              "title": "Gobierno y Controles",
+              "description": "Establecemos el proceso de revisión de arquitectura, el gobierno de excepciones y waivers, los quality gates de desarrollo y release, y los KPIs y el modelo de ownership de Clean Core."
+            },
+            {
+              "title": "Habilitación y Adopción",
+              "description": "Realizamos workshops de alineación entre negocio e IT, brindamos guía a desarrolladores y arquitectos con patrones de referencia, y acompañamos la comunicación del cambio y la mejora continua."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Construí un Núcleo ERP que Puede Cambiar Sin Perder el Control",
           "items": [
-            { "title": "Upgrades sin dolor", "description": "Un núcleo estándar se actualiza más rápido, más barato y con menos riesgo." },
-            { "title": "Innovación habilitada", "description": "Adoptás nuevas capacidades de SAP, BTP e IA sin pelear contra tu propio sistema." },
-            { "title": "Costo de mantenimiento bajo", "description": "Menos custom code significa menos esfuerzo y menos errores a lo largo del tiempo." },
-            { "title": "Núcleo a prueba de futuro", "description": "Tu inversión en S/4HANA conserva su valor release tras release." }
+            { "title": "Upgrades Más Rápidos y Seguros", "description": "Reducí conflictos, esfuerzo de regresión e incertidumbre al adoptar nuevos releases y capacidades de SAP." },
+            { "title": "Menor Deuda Técnica", "description": "Retirá objetos sin uso, reducí la duplicación y evitá que se acumule nueva complejidad sin gestionar." },
+            { "title": "Mayor Velocidad de Innovación", "description": "Usá patrones de extensión gobernados y SAP BTP para incorporar capacidades sin desestabilizar el core digital." },
+            { "title": "Mayor Confiabilidad", "description": "Simplificá dependencias y prácticas operativas para aumentar la estabilidad y la capacidad de soporte." },
+            { "title": "Mejores Decisiones de Arquitectura", "description": "Dales a los equipos lineamientos claros de estandarización, extensión, integración, datos y operaciones." },
+            { "title": "Transformación Sostenible", "description": "Establecé métricas y gobierno que preserven Clean Core después de la migración o el go-live." }
           ]
         },
         "methodology": {
-          "title": "El camino Global Core Technologies a un Clean Core",
-          "description": "Cuatro fases que van del diagnóstico del custom code al gobierno que lo mantiene limpio.",
+          "title": "Un Marco Práctico de Transformación Clean Core",
+          "description": "Nuestro enfoque equilibra evidencia técnica, valor de negocio y capacidad de ejecución realista.",
           "phases": [
-            { "name": "Descubrir", "deliverable": "Inventario y análisis de impacto del custom code" },
-            { "name": "Definir", "deliverable": "Estrategia de extensibilidad y modelo BTP" },
-            { "name": "Migrar", "deliverable": "Reconstrucción de extensiones desacopladas del núcleo" },
-            { "name": "Gobernar", "deliverable": "Políticas, controles y métricas de núcleo limpio" }
+            { "name": "Definir", "deliverable": "Charter de Clean Core, alcance, alineación de negocio" },
+            { "name": "Establecer Baseline", "deliverable": "Evaluación de madurez, heatmap, inventario, perfil de riesgo" },
+            { "name": "Decidir", "deliverable": "Decisiones de disposición, patrones de arquitectura, criterios de excepción" },
+            { "name": "Roadmap", "deliverable": "Plan de olas, backlog, temas de inversión, KPIs" },
+            { "name": "Gobernar", "deliverable": "Comités de revisión, quality gates, scorecards, gobierno de ciclo de vida" }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para tu estrategia Clean Core",
+          "title": "Por Qué las Organizaciones Eligen a GCT",
           "items": [
-            { "title": "Profunda experiencia SAP", "description": "Décadas en Arquitectura, Basis y Transformación de entornos SAP de alta criticidad." },
-            { "title": "Mentalidad Clean Core", "description": "Es uno de nuestros principios fundacionales: protegemos la actualizabilidad en cada proyecto." },
-            { "title": "Dominio de SAP BTP", "description": "Diseñamos extensiones escalables y gobernadas sobre Business Technology Platform." },
-            { "title": "Enfoque basado en gobierno", "description": "Las políticas que definimos mantienen el núcleo limpio mucho después del proyecto." },
-            { "title": "Plataformas propias", "description": "Intelliguard™ ayuda a monitorear la salud y la seguridad de tu entorno S/4HANA." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada programa." }
+            { "title": "Pragmáticos, No Dogmáticos", "description": "Protegemos la diferenciación de negocio mientras cuestionamos la complejidad que ya no genera valor." },
+            { "title": "Experiencia Multidominio", "description": "Nuestro enfoque abarca ABAP y extensiones, Basis, seguridad, arquitectura, integración, datos y operaciones." },
+            { "title": "Priorización Impulsada por el Negocio", "description": "Los hallazgos técnicos se evalúan según uso, criticidad, riesgo, costo y valor de transformación." },
+            { "title": "Gobierno que Sostiene la Estrategia", "description": "Establecemos derechos de decisión, estándares, quality gates, métricas y gestión de excepciones." },
+            { "title": "Soporte de Ejecución", "description": "GCT puede acompañar la remediación de custom code, la arquitectura, la seguridad, la modernización de integraciones, la migración y la operación gestionada." }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Evaluación gratuita",
-          "title": "Evaluación Clean Core: qué porcentaje de tu código es modificación vs. extensión",
-          "description": "Analizamos tu landscape de personalizaciones y te entregamos un mapa de deuda técnica con el impacto en upgrades futuros y las opciones de remediación.",
-          "cta": "Agendá tu evaluación Clean Core"
+          "eyebrow": "Modelo de madurez gratuito",
+          "title": "¿Qué Tan Limpio Está tu Núcleo SAP?",
+          "description": "Descargá el Modelo de Madurez Clean Core de SAP y evaluá tu organización en las cinco dimensiones centrales: procesos de negocio, extensibilidad, datos, integraciones y operaciones.",
+          "cta": "Descargá el Modelo de Madurez Clean Core"
         },
         "finalCta": {
-          "title": "¿Listo para un núcleo SAP limpio y a prueba de futuro?",
-          "description": "Agendá una sesión con nuestros arquitectos y definamos la estrategia Clean Core para tu S/4HANA.",
-          "ctaPrimary": "Definí tu Clean Core",
-          "ctaSecondary": "Conocé el pilar Transform"
+          "title": "Creá un Clean Core que Se Mantenga Limpio",
+          "description": "Ya sea que te estés preparando para S/4HANA, migrando a RISE with SAP o modernizando un entorno existente, GCT puede ayudarte a convertir los principios de Clean Core en acción medible.",
+          "ctaPrimary": "Agendá una Evaluación Clean Core",
+          "ctaSecondary": "Hablá con un Experto en Clean Core"
         }
       },
       "sap-security-assessment": {
@@ -2141,579 +2161,969 @@
           "ctaSecondary": "Conocé el pilar Secure"
         }
       },
-      "sap-ams": {
-        "metaTitle": "SAP AMS | Application Management Services | Global Core Technologies",
-        "metaDescription": "Soporte funcional y técnico SAP en producción con SLAs comprometidos. Incidentes, mejoras y evolución continua del sistema sin armar un equipo interno completo.",
+      "sap-ams-services": {
+        "metaTitle": "SAP AMS Services | Application Management y Soporte | Global Core Technologies",
+        "metaDescription": "Soporte funcional y técnico para aplicaciones SAP — incidentes, pedidos, mejoras y continuidad del negocio — manteniendo la calidad del servicio mientras reducís la carga operativa.",
         "eyebrow": "Pilar · Operate",
-        "h1": "SAP AMS: soporte funcional y técnico con SLA para que tu producción nunca se detenga",
-        "heroSubtitle": "Operamos el soporte de tu plataforma SAP en producción: resolvemos incidentes funcionales y técnicos, gestionamos las mejoras continuas y aseguramos que el sistema evolucione alineado al negocio — con SLAs medibles y un equipo que conoce tu entorno.",
-        "ctaPrimary": "Evaluá tu modelo de soporte SAP",
-        "ctaSecondary": "Pedí una evaluación de AMS",
+        "h1": "SAP AMS Services: soporte funcional y técnico que mantiene SAP funcionando",
+        "heroSubtitle": "Brindamos soporte funcional y técnico para tus aplicaciones SAP — incidentes, pedidos, mejoras y continuidad del negocio — para que la calidad del servicio se mantenga alta mientras tus equipos se enfocan en el negocio.",
+        "ctaPrimary": "Evaluá tus necesidades de AMS",
+        "ctaSecondary": "Solicitá una sesión de AMS",
         "metrics": {
-          "projects": "entornos en operación",
+          "projects": "landscapes SAP soportados",
           "years": "años en SAP crítico",
-          "governance": "gobierno primero"
+          "governance": "servicio guiado por SLA"
         },
         "problem": {
-          "title": "La producción no espera — y el soporte SAP tampoco puede hacerlo.",
+          "title": "El soporte SAP interno se queda sin capacidad mucho antes de que dejen de entrar tickets.",
           "items": [
             {
-              "title": "Incidentes sin resolución experta",
-              "description": "Los errores en producción SAP requieren expertise funcional y técnico combinado. Un equipo interno generalista raramente puede resolverlos con la velocidad que el negocio exige."
+              "title": "Apagar incendios en lugar de mejorar",
+              "description": "El equipo pasa los días cerrando incidentes, sin tiempo para prevenirlos ni mejorar el landscape."
             },
             {
-              "title": "El backlog que nunca baja",
-              "description": "Las mejoras continuas, los pedidos de usuarios y los cambios de negocio se acumulan sin un proceso disciplinado de gestión. El resultado: deuda funcional que crece y usuarios frustrados."
+              "title": "Conocimiento en pocas cabezas",
+              "description": "El know-how SAP crítico está en una o dos personas, y cada ausencia se vuelve un riesgo operativo."
             },
             {
-              "title": "Expertise que se va con las personas",
-              "description": "El conocimiento del sistema queda en personas clave. Cuando se van, la organización pierde capacidad de soporte y queda expuesta hasta encontrar y formar el reemplazo."
+              "title": "Sin baseline de calidad de servicio",
+              "description": "Sin SLAs ni reporting, la calidad del soporte es cuestión de opinión, no de datos."
             }
           ],
-          "closing": "El AMS no es solo soporte: es la función que mantiene tu inversión SAP produciendo valor cada día."
+          "closing": "AMS no es tercerizar tus problemas: es un servicio estructurado que mantiene SAP estable devolviéndote capacidad y previsibilidad."
         },
         "howWeHelp": {
-          "title": "Soporte SAP en producción de punta a punta",
-          "description": "Un modelo de AMS que combina expertise funcional, técnico y de Basis para cubrir todas las capas del sistema.",
+          "title": "AMS estructurado para tus aplicaciones SAP",
+          "description": "Soporte funcional y técnico construido alrededor de SLAs, continuidad del negocio y mejora continua.",
           "items": [
             {
-              "title": "Soporte funcional por módulo",
-              "description": "Especialistas en FI, CO, MM, SD, PP, HCM y más resuelven incidentes y pedidos funcionales con conocimiento profundo de los procesos de negocio."
+              "title": "Gestión de incidentes y pedidos",
+              "description": "Gestionamos incidentes, pedidos de servicio y pequeñas mejoras con SLAs definidos y responsables claros."
             },
             {
-              "title": "Soporte técnico SAP Basis",
-              "description": "Cobertura técnica de la plataforma: transports, performance, actualizaciones de notas SAP y gestión del landscape."
+              "title": "Cobertura funcional y técnica",
+              "description": "Cubrimos tanto módulos funcionales como capas técnicas, para que los problemas no caigan entre equipos."
             },
             {
-              "title": "Gestión de incidentes y cambios (ITIL)",
-              "description": "Proceso formal de gestión de incidentes, problemas y cambios con trazabilidad completa, prioridades acordadas y SLAs medibles."
+              "title": "Continuidad del negocio",
+              "description": "Mantenemos SAP disponible y soportado para que la operación diaria nunca se frene."
             },
             {
-              "title": "Backlog de mejoras y evolución",
-              "description": "Gestión del backlog de mejoras con priorización basada en valor de negocio, planificación por sprints y entrega medible."
+              "title": "Reporting de servicio",
+              "description": "Reportamos volúmenes, SLAs y tendencias, convirtiendo los datos de soporte en mejora."
             }
           ]
         },
         "benefits": {
           "title": "Lo que gana tu negocio",
           "items": [
-            { "title": "Continuidad operativa garantizada", "description": "Los incidentes se resuelven dentro del SLA acordado, sin depender de la disponibilidad de recursos internos." },
-            { "title": "Backlog controlado", "description": "Las mejoras y pedidos de usuarios se gestionan con un proceso disciplinado que prioriza el mayor valor de negocio." },
-            { "title": "Conocimiento documentado y transferible", "description": "Toda la operación queda documentada: el conocimiento del sistema no depende de una sola persona." },
-            { "title": "Costo predecible", "description": "Un modelo de servicio reemplaza el costo variable del equipo in-house por un costo fijo, planificable y escalable." }
+            {
+              "title": "Calidad de servicio sostenida",
+              "description": "Las aplicaciones SAP se mantienen soportadas según los niveles de servicio acordados, de forma consistente."
+            },
+            {
+              "title": "Menor carga operativa",
+              "description": "Tu equipo se libera del soporte de rutina para enfocarse en trabajo de mayor valor."
+            },
+            {
+              "title": "Soporte predecible",
+              "description": "Los SLAs y el reporting hacen la calidad del soporte medible y predecible."
+            },
+            {
+              "title": "Menor riesgo de personas clave",
+              "description": "Un servicio estructurado elimina la dependencia de pocas personas."
+            }
           ]
         },
         "methodology": {
-          "title": "Cómo operamos tu soporte SAP",
-          "description": "Cuatro fases que van del onboarding a la operación gestionada continua.",
+          "title": "El camino de Global Core Technologies hacia un servicio AMS que funciona",
+          "description": "Cuatro fases de la transición al soporte en mejora continua.",
           "phases": [
-            { "name": "Onboarding", "deliverable": "Relevamiento del sistema, acuerdos de servicio y configuración del proceso de soporte" },
-            { "name": "Estabilizar", "deliverable": "Resolución de incidentes abiertos y documentación del entorno" },
-            { "name": "Operar", "deliverable": "Soporte en régimen: incidentes, cambios y backlog de mejoras" },
-            { "name": "Evolucionar", "deliverable": "Revisiones periódicas de servicio y mejora continua del modelo" }
+            {
+              "name": "Onboarding",
+              "deliverable": "Assessment del landscape, alcance del servicio, SLAs y transferencia de conocimiento"
+            },
+            {
+              "name": "Estabilizar",
+              "deliverable": "Soporte en régimen con procesos definidos y titularidad"
+            },
+            {
+              "name": "Operar",
+              "deliverable": "Gestión de incidentes, pedidos y mejoras según SLA"
+            },
+            {
+              "name": "Mejorar",
+              "deliverable": "Reporting de servicio, análisis de tendencias y mejora continua"
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para tu AMS SAP",
-          "items": [
-            { "title": "Cobertura funcional y técnica", "description": "Cubrimos funcional por módulo y Basis técnico en un único equipo integrado, sin silos." },
-            { "title": "Profunda experiencia SAP", "description": "Décadas de experiencia en entornos SAP de alta criticidad en distintas industrias." },
-            { "title": "Modelo de servicio flexible", "description": "El modelo de AMS se adapta a tu volumen, criticidad y presupuesto: no es una talla única." },
-            { "title": "Seguridad incorporada", "description": "El equipo de soporte opera con conciencia de seguridad: ningún cambio pasa por alto los controles de acceso." },
-            { "title": "Plataformas propias", "description": "Intelliguard™ y Operations Intelligence™ potencian el monitoreo y la detección proactiva de problemas." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada operación de soporte." }
-          ]
-        },
-        "leadMagnet": {
-          "eyebrow": "Evaluación gratuita",
-          "title": "Evaluación de AMS: analizamos la madurez de tu modelo de soporte SAP actual",
-          "description": "Revisamos cómo gestionás hoy los incidentes, el backlog y los cambios en SAP y te decimos dónde están los principales gaps de servicio.",
-          "cta": "Pedí tu evaluación de AMS"
-        },
-        "finalCta": {
-          "title": "¿Tu soporte SAP en producción cumple con lo que el negocio necesita?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el modelo de AMS que asegura continuidad y evolución controlada.",
-          "ctaPrimary": "Evaluá tu modelo de soporte",
-          "ctaSecondary": "Conocé el pilar Operate"
-        }
-      },
-      "sap-basis": {
-        "metaTitle": "SAP Basis | Administración de Plataforma Técnica SAP | Global Core Technologies",
-        "metaDescription": "Administración y operación de la plataforma técnica SAP Basis: disponibilidad, rendimiento, actualizaciones y seguridad técnica. Expertise especializado 24/7.",
-        "eyebrow": "Pilar · Operate",
-        "h1": "SAP Basis: la plataforma técnica que sostiene la operación debe estar siempre en manos expertas",
-        "heroSubtitle": "Administramos la capa técnica de tu entorno SAP: gestión del landscape, transports, performance de base de datos, actualizaciones y monitoreo proactivo — para que la plataforma nunca sea el cuello de botella de tu operación.",
-        "ctaPrimary": "Evaluá tu plataforma SAP Basis",
-        "ctaSecondary": "Pedí un diagnóstico técnico",
-        "metrics": {
-          "projects": "sistemas administrados",
-          "years": "años en SAP crítico",
-          "governance": "gobierno primero"
-        },
-        "problem": {
-          "title": "SAP Basis es el cimiento de todo — y es el más difícil de cubrir internamente.",
+          "title": "Por qué elegir a Global Core Technologies para SAP AMS",
           "items": [
             {
-              "title": "Expertise escaso y costoso",
-              "description": "Un administrador SAP Basis senior con experiencia real en entornos productivos críticos es uno de los perfiles más difíciles de contratar y retener en el mercado SAP."
+              "title": "Expertise en SAP Basis y AMS",
+              "description": "Combinamos profundo conocimiento funcional y técnico SAP en un solo servicio."
             },
             {
-              "title": "La plataforma degrada sin mantenimiento activo",
-              "description": "Sin actualizaciones regulares de notas SAP, optimización de performance y revisión del landscape, los sistemas acumulan deuda técnica que eventualmente afecta la disponibilidad."
+              "title": "Experiencia operativa práctica",
+              "description": "Operamos SAP crítico todos los días, no desde un manual."
             },
             {
-              "title": "Cambios sin gobierno técnico",
-              "description": "En entornos donde el proceso de transports no está gobernado, los cambios en desarrollo llegan a producción sin la validación adecuada, con consecuencias impredecibles."
+              "title": "Gobierno de servicio estructurado",
+              "description": "SLAs, reporting y titularidad clara vienen incorporados al servicio."
+            },
+            {
+              "title": "Soporte combinado",
+              "description": "Unimos soporte funcional, técnico y de seguridad, para que nada se pierda entre las grietas."
+            },
+            {
+              "title": "Mejora continua",
+              "description": "Usamos los datos de soporte para prevenir incidentes, no solo para cerrarlos."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Operamos como una extensión estable y de largo plazo de tu equipo."
             }
-          ],
-          "closing": "La capa técnica SAP es invisible cuando funciona bien — y devastadora cuando falla. Mantenerla requiere expertise que no debe depender de una sola persona interna."
-        },
-        "howWeHelp": {
-          "title": "Administración técnica SAP Basis de extremo a extremo",
-          "description": "Cubrimos todas las dimensiones de la plataforma técnica SAP con un equipo especializado y procesos documentados.",
-          "items": [
-            {
-              "title": "Administración del landscape y transports",
-              "description": "Gestión del system landscape (DEV/QAS/PRD), proceso formal de transports y control de cambios para proteger la producción."
-            },
-            {
-              "title": "Administración de base de datos",
-              "description": "Administración de SAP HANA, Oracle o SQL Server: backups, performance tuning, espacio en disco y actualizaciones de parches."
-            },
-            {
-              "title": "Monitoreo y disponibilidad",
-              "description": "Monitoreo proactivo del sistema: alertas de performance, uso de recursos, trabajos batch y disponibilidad de instancias."
-            },
-            {
-              "title": "Actualizaciones y seguridad técnica",
-              "description": "Aplicación de notas SAP, support packages, kernel upgrades y parches de seguridad con procedimientos de rollback documentados."
-            }
-          ]
-        },
-        "benefits": {
-          "title": "Lo que gana tu negocio",
-          "items": [
-            { "title": "Disponibilidad sostenida", "description": "La plataforma se mantiene estable y actualizada con monitoreo proactivo que actúa antes de los incidentes." },
-            { "title": "Seguridad técnica asegurada", "description": "Las notas SAP de seguridad se aplican regularmente: la plataforma no queda expuesta a vulnerabilidades conocidas." },
-            { "title": "Transports bajo control", "description": "El proceso de cambios protege la producción de modificaciones no validadas que generan incidentes." },
-            { "title": "Expertise sin dependencia personal", "description": "El conocimiento de la plataforma está documentado y distribuido en el equipo, no concentrado en una sola persona." }
-          ]
-        },
-        "methodology": {
-          "title": "Cómo administramos tu plataforma SAP Basis",
-          "description": "Cuatro fases que van del diagnóstico inicial a la operación técnica continua.",
-          "phases": [
-            { "name": "Diagnosticar", "deliverable": "Assessment técnico del landscape, gaps y baseline de performance" },
-            { "name": "Estabilizar", "deliverable": "Resolución de issues críticos, documentación del entorno y procesos formales" },
-            { "name": "Operar", "deliverable": "Administración técnica en régimen: monitoring, transports, DB, actualizaciones" },
-            { "name": "Optimizar", "deliverable": "Tuning de performance, planificación de capacidad y evolución técnica" }
-          ]
-        },
-        "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para la administración SAP Basis",
-          "items": [
-            { "title": "Basis es nuestro core técnico", "description": "Nuestra práctica SAP Basis tiene décadas de experiencia en entornos productivos críticos de distintas industrias." },
-            { "title": "Cobertura completa del stack", "description": "Cubrimos SAP Basis, HANA DB, seguridad técnica y landscape en un único equipo integrado." },
-            { "title": "Procesos documentados", "description": "Cada operación tiene un procedimiento documentado: el conocimiento no se va con las personas." },
-            { "title": "Integración con el negocio", "description": "Entendemos el impacto de la plataforma técnica en la operación del negocio y priorizamos en consecuencia." },
-            { "title": "Plataformas propias", "description": "Operations Intelligence™ extiende el monitoreo técnico con visibilidad avanzada y alertas proactivas." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada operación técnica." }
-          ]
-        },
-        "leadMagnet": {
-          "eyebrow": "Diagnóstico gratuito",
-          "title": "Diagnóstico técnico: evaluamos el estado de tu plataforma SAP Basis",
-          "description": "Revisamos los indicadores clave de tu plataforma técnica SAP y te decimos qué puntos de riesgo tiene hoy tu landscape.",
-          "cta": "Pedí tu diagnóstico técnico"
-        },
-        "finalCta": {
-          "title": "¿Tu plataforma técnica SAP está en manos del expertise que necesita?",
-          "description": "Agendá una sesión con nuestros especialistas Basis y salí con un diagnóstico honesto del estado de tu infraestructura técnica SAP.",
-          "ctaPrimary": "Evaluá tu plataforma SAP Basis",
-          "ctaSecondary": "Conocé el pilar Operate"
-        }
-      },
-      "sap-cloud-alm": {
-        "metaTitle": "SAP Cloud ALM | Implementación y Operación | Global Core Technologies",
-        "metaDescription": "Implementá y operá SAP Cloud ALM: gestión de proyectos, operaciones y calidad en la nube. Reemplazá Solution Manager con una plataforma moderna y nativa cloud.",
-        "eyebrow": "Pilar · Operate",
-        "h1": "SAP Cloud ALM: el centro de operaciones SAP que reemplaza a Solution Manager en la nube",
-        "heroSubtitle": "Implementamos y operamos SAP Cloud ALM como el hub central de gestión de tu landscape SAP: proyectos de implementación, operaciones continuas, monitoreo de integraciones y gestión de la calidad — todo en la nube, sin la complejidad de Solution Manager.",
-        "ctaPrimary": "Evaluá tu caso de Cloud ALM",
-        "ctaSecondary": "Pedí tu sesión de roadmap",
-        "metrics": {
-          "projects": "implementaciones ALM",
-          "years": "años en SAP crítico",
-          "governance": "gobierno primero"
-        },
-        "problem": {
-          "title": "Solution Manager llega a su fin de soporte — y Cloud ALM no se implementa solo.",
-          "items": [
-            {
-              "title": "La transición desde SolMan es compleja",
-              "description": "Migrar procesos de ChaRM, monitoring y documentación desde Solution Manager a Cloud ALM requiere diseño, configuración y gestión del cambio en el equipo."
-            },
-            {
-              "title": "Cloud ALM subutilizado por falta de adopción",
-              "description": "Muchas organizaciones tienen acceso a Cloud ALM incluido en su contrato SAP pero no lo usan efectivamente por falta de implementación y capacitación."
-            },
-            {
-              "title": "Procesos ALM fragmentados",
-              "description": "Sin una plataforma ALM unificada, la gestión de proyectos, cambios, testing y operaciones queda en herramientas desconectadas que multiplican el overhead."
-            }
-          ],
-          "closing": "SAP Cloud ALM no es una herramienta más — es la plataforma que unifica el ciclo de vida de tu landscape SAP desde la implementación hasta la operación continua."
-        },
-        "howWeHelp": {
-          "title": "Implementación y operación de SAP Cloud ALM de punta a punta",
-          "description": "Desde la configuración inicial hasta el uso productivo, con foco en adopción real y valor operativo medible.",
-          "items": [
-            {
-              "title": "Implementación de Cloud ALM",
-              "description": "Configuramos Cloud ALM Project & Portfolio Management, Change & Deploy Management y Operations Monitoring según tus procesos reales."
-            },
-            {
-              "title": "Migración desde Solution Manager",
-              "description": "Relevamos los procesos activos en SolMan y diseñamos la migración de ChaRM, monitoring y documentación a Cloud ALM con mínima interrupción."
-            },
-            {
-              "title": "Gestión de calidad y testing",
-              "description": "Configuramos el módulo de Quality Gates y Test Management para integrar la calidad en el proceso de delivery de cambios."
-            },
-            {
-              "title": "Adopción y operación continua",
-              "description": "Capacitamos a los equipos de Basis, proyectos y calidad, y operamos Cloud ALM como parte del servicio continuo de operaciones SAP."
-            }
-          ]
-        },
-        "benefits": {
-          "title": "Lo que gana tu negocio",
-          "items": [
-            { "title": "Landscape bajo control unificado", "description": "Proyectos, cambios, testing y operaciones gestionados desde un único centro de control nativo cloud." },
-            { "title": "Transición de SolMan sin fricciones", "description": "La migración se gestiona con metodología: los procesos operativos no se interrumpen durante la transición." },
-            { "title": "Calidad integrada en el delivery", "description": "Los quality gates y el testing management integrados reducen los incidentes post-go-live por cambios no validados." },
-            { "title": "Valor del contrato SAP aprovechado", "description": "Cloud ALM está incluido en la mayoría de los contratos SAP — una implementación efectiva maximiza una inversión ya realizada." }
-          ]
-        },
-        "methodology": {
-          "title": "El camino Global Core Technologies a Cloud ALM en producción",
-          "description": "Cuatro fases que van del diseño a la operación adoptada.",
-          "phases": [
-            { "name": "Diseñar", "deliverable": "Alcance de módulos, mapeo de procesos desde SolMan y plan de migración" },
-            { "name": "Configurar", "deliverable": "Setup de Cloud ALM, integraciones y proceso de change management" },
-            { "name": "Validar", "deliverable": "Testing de procesos, capacitación de equipos y go-live" },
-            { "name": "Operar", "deliverable": "Cloud ALM en régimen como hub del landscape SAP" }
-          ]
-        },
-        "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para tu implementación de Cloud ALM",
-          "items": [
-            { "title": "Basis + ALM en un solo equipo", "description": "La gestión técnica del landscape y la implementación de ALM van de la mano: nuestro equipo las integra naturalmente." },
-            { "title": "Experiencia en Solution Manager", "description": "Conocemos SolMan en profundidad, lo que hace la migración a Cloud ALM más eficiente y menos riesgosa." },
-            { "title": "Foco en adopción real", "description": "Una herramienta ALM que nadie usa es un proyecto fallido. Aseguramos que los equipos operen desde Cloud ALM desde el día uno." },
-            { "title": "Gobierno técnico integrado", "description": "Cloud ALM se implementa con los controles de gobierno técnico que protegen la producción de cambios no validados." },
-            { "title": "Plataformas propias", "description": "Operations Intelligence™ se complementa con Cloud ALM para visibilidad operativa extendida." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada implementación ALM." }
           ]
         },
         "leadMagnet": {
           "eyebrow": "Sesión gratuita",
-          "title": "Sesión de roadmap: diseñamos tu transición de Solution Manager a Cloud ALM",
-          "description": "En 45 minutos evaluamos tu uso actual de SolMan y te presentamos un roadmap de migración a Cloud ALM con prioridades y esfuerzo estimado.",
-          "cta": "Agendá tu sesión de roadmap"
+          "title": "Sesión de operaciones: evaluamos si tu modelo de soporte SAP es sostenible",
+          "description": "En 45 minutos revisamos tu soporte SAP actual — volúmenes, cobertura, SLAs y riesgo de personas clave — y te mostramos dónde un modelo AMS aportaría más valor.",
+          "cta": "Reservá tu sesión de operaciones"
         },
         "finalCta": {
-          "title": "¿Tu landscape SAP ya tiene un centro de operaciones en la nube?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el roadmap de implementación de Cloud ALM para tu organización.",
-          "ctaPrimary": "Evaluá tu caso de Cloud ALM",
+          "title": "¿Listo para darle a tus aplicaciones SAP un soporte confiable?",
+          "description": "Agendá una sesión con nuestros especialistas y diseñemos el modelo AMS que mantiene SAP estable y libera a tu equipo.",
+          "ctaPrimary": "Evaluá tus necesidades de AMS",
           "ctaSecondary": "Conocé el pilar Operate"
         }
       },
-      "sap-monitoring-automation": {
-        "metaTitle": "SAP Monitoring & Automation | Monitoreo Proactivo y Automatización | Global Core Technologies",
-        "metaDescription": "Monitoreo proactivo y automatización operativa para entornos SAP: alertas en tiempo real, detección temprana de problemas y eliminación de tareas manuales repetitivas.",
+      "sap-basis-operations": {
+        "metaTitle": "SAP Basis Operations | Administración y Soporte Técnico | Global Core Technologies",
+        "metaDescription": "Operá y soportá los landscapes técnicos SAP — administración, transportes, jobs, rendimiento, disponibilidad y mantenimiento — manteniendo los sistemas estables, seguros y disponibles.",
         "eyebrow": "Pilar · Operate",
-        "h1": "Monitoring & Automation: dejá de apagar incendios y empezá a prevenirlos",
-        "heroSubtitle": "Implementamos plataformas de monitoreo proactivo y automatización operativa para tu entorno SAP: alertas antes de que los problemas impacten al usuario, dashboards de visibilidad en tiempo real y automatización de las tareas repetitivas que consumen tiempo experto.",
-        "ctaPrimary": "Evaluá tu cobertura de monitoreo",
-        "ctaSecondary": "Pedí una demo del monitoreo",
+        "h1": "SAP Basis Operations: una base técnica estable, segura y disponible",
+        "heroSubtitle": "Operamos y soportamos tu landscape técnico SAP — administración de sistemas, transportes, jobs, rendimiento, disponibilidad y mantenimiento — para que la base sobre la que corre todo lo demás se mantenga estable y segura.",
+        "ctaPrimary": "Evaluá tus operaciones Basis",
+        "ctaSecondary": "Solicitá una sesión de Basis",
         "metrics": {
-          "projects": "entornos monitoreados",
+          "projects": "sistemas SAP operados",
           "years": "años en SAP crítico",
-          "governance": "gobierno primero"
+          "governance": "enfocado en disponibilidad"
         },
         "problem": {
-          "title": "Los problemas SAP no avisan — pero las herramientas correctas sí pueden.",
+          "title": "Cuando se descuida Basis, todo lo que está encima se vuelve frágil.",
           "items": [
             {
-              "title": "Monitoreo reactivo: siempre tarde",
-              "description": "Cuando el usuario reporta un problema, ya impactó la operación. El monitoreo reactivo solo registra lo que pasó — no previene lo que va a pasar."
+              "title": "Mantenimiento que se atrasa",
+              "description": "Parches, upgrades y housekeeping se atrasan, aumentando el riesgo en silencio con cada ventana salteada."
             },
             {
-              "title": "Tiempo experto desperdiciado en tareas manuales",
-              "description": "Verificar sistemas, ejecutar jobs, limpiar logs, reiniciar procesos: las tareas operativas repetitivas consumen horas de expertise que debería ir a trabajo de mayor valor."
+              "title": "Transportes y jobs sin gestionar",
+              "description": "Transportes descontrolados y jobs que fallan causan incidentes evitables y problemas de datos."
             },
             {
-              "title": "Sin visibilidad ejecutiva del estado operativo",
-              "description": "La dirección toma decisiones sobre una plataforma cuyo estado real desconoce. Los reportes manuales de disponibilidad son snapshots que ya están desactualizados cuando se publican."
+              "title": "Disponibilidad librada al azar",
+              "description": "Sin administración proactiva, la disponibilidad depende de la suerte en vez de un proceso gestionado."
             }
           ],
-          "closing": "El monitoreo proactivo y la automatización no son lujos — son la diferencia entre operar reactivamente y operar con control."
+          "closing": "Las operaciones Basis son la base técnica de SAP: si están bien, todo lo que está encima es más estable, seguro y predecible."
         },
         "howWeHelp": {
-          "title": "Visibilidad en tiempo real y operación automatizada",
-          "description": "Construimos e implementamos la capa de monitoreo y automatización que convierte la operación SAP en un proceso predecible y eficiente.",
+          "title": "Operaciones SAP Basis de punta a punta",
+          "description": "Administración y soporte técnico enfocados en disponibilidad, rendimiento y seguridad.",
           "items": [
             {
-              "title": "Monitoreo proactivo end-to-end",
-              "description": "Configuramos el monitoreo de sistemas SAP, interfaces, jobs batch, performance de base de datos y disponibilidad de servicios — con alertas antes del impacto."
+              "title": "Administración de sistemas",
+              "description": "Administramos tus sistemas SAP — mandantes, usuarios a nivel técnico, configuración y housekeeping."
             },
             {
-              "title": "Dashboards de visibilidad operativa",
-              "description": "Construimos dashboards en tiempo real que dan al equipo técnico y a la dirección una imagen clara del estado de la plataforma."
+              "title": "Gestión de transportes y jobs",
+              "description": "Controlamos transportes y programamos, monitoreamos y recuperamos jobs de fondo."
             },
             {
-              "title": "Automatización de tareas operativas",
-              "description": "Identificamos y automatizamos las tareas repetitivas: arranque/parada de sistemas, limpieza de logs, verificaciones de estado, generación de reportes operativos."
+              "title": "Parcheo y mantenimiento",
+              "description": "Planificamos y ejecutamos parches, upgrades y ventanas de mantenimiento con mínima interrupción."
             },
             {
-              "title": "Gestión de alertas e incidentes",
-              "description": "Implementamos el proceso de gestión de alertas: qué se notifica, a quién, con qué prioridad y qué acción estándar se ejecuta."
+              "title": "Disponibilidad y rendimiento",
+              "description": "Mantenemos los sistemas disponibles y afinados, atendiendo el rendimiento técnico de forma proactiva."
             }
           ]
         },
         "benefits": {
           "title": "Lo que gana tu negocio",
           "items": [
-            { "title": "Problemas detectados antes del impacto", "description": "Las alertas proactivas permiten actuar antes de que el usuario reporte un problema, reduciendo el tiempo de impacto." },
-            { "title": "Equipo más eficiente", "description": "La automatización de tareas operativas libera tiempo experto para trabajo de mayor valor e innovación." },
-            { "title": "Visibilidad ejecutiva real", "description": "Los dashboards en tiempo real dan una imagen honesta del estado de la plataforma, disponible para cualquier stakeholder." },
-            { "title": "MTTR reducido", "description": "La detección temprana y el proceso de alertas estructurado reducen el tiempo de resolución de incidentes." }
+            {
+              "title": "Sistemas estables",
+              "description": "Una base técnica bien administrada mantiene SAP confiable."
+            },
+            {
+              "title": "Landscape seguro y actualizado",
+              "description": "El parcheo y el mantenimiento mantienen los sistemas seguros y soportados."
+            },
+            {
+              "title": "Mayor disponibilidad",
+              "description": "La administración Basis proactiva protege el uptime."
+            },
+            {
+              "title": "Menos incidentes técnicos",
+              "description": "Transportes y jobs controlados reducen las interrupciones evitables."
+            }
           ]
         },
         "methodology": {
-          "title": "Cómo implementamos el monitoreo y la automatización",
-          "description": "Cuatro fases que van del diseño al monitoreo operativo continuo.",
+          "title": "El camino de Global Core Technologies hacia operaciones SAP Basis gobernadas",
+          "description": "Cuatro fases del assessment técnico a la operación en régimen.",
           "phases": [
-            { "name": "Diseñar", "deliverable": "Mapa de cobertura: qué monitorear, umbrales y acciones de respuesta" },
-            { "name": "Instrumentar", "deliverable": "Configuración de herramientas, alertas, dashboards y automatizaciones" },
-            { "name": "Validar", "deliverable": "Prueba de alertas, ajuste de umbrales y capacitación del equipo operativo" },
-            { "name": "Operar", "deliverable": "Monitoreo en producción, gestión de alertas y mejora continua de la cobertura" }
+            {
+              "name": "Evaluar",
+              "deliverable": "Revisión del landscape técnico, riesgos y backlog de mantenimiento"
+            },
+            {
+              "name": "Estabilizar",
+              "deliverable": "Parcheo, housekeeping y control de transportes/jobs en marcha"
+            },
+            {
+              "name": "Operar",
+              "deliverable": "Administración, mantenimiento y gestión de disponibilidad continuos"
+            },
+            {
+              "name": "Optimizar",
+              "deliverable": "Tuning de rendimiento técnico y mejora continua"
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el monitoreo y la automatización SAP",
+          "title": "Por qué elegir a Global Core Technologies para las operaciones SAP Basis",
           "items": [
-            { "title": "Conocimiento técnico y funcional", "description": "Monitorear SAP efectivamente requiere entender qué importa: procesos de negocio críticos, no solo métricas de infraestructura." },
-            { "title": "Plataformas propias", "description": "Operations Intelligence™ e Intelliguard™ aportan capacidades avanzadas de monitoreo, detección de anomalías y alertas inteligentes." },
-            { "title": "Integración con AMS y Basis", "description": "El monitoreo está integrado con el proceso de soporte: una alerta activa automáticamente el flujo de gestión de incidentes." },
-            { "title": "Cobertura end-to-end", "description": "Cubrimos toda la pila: aplicación SAP, base de datos, interfaces, jobs y capa de infraestructura." },
-            { "title": "Enfoque basado en gobierno", "description": "Las alertas y automatizaciones se gobiernan con criterios claros, no ad hoc." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada proyecto de monitoreo." }
+            {
+              "title": "Profundo expertise en SAP Basis",
+              "description": "Las operaciones técnicas SAP son parte central de lo que hacemos, en ECC, S/4HANA e híbrido."
+            },
+            {
+              "title": "Experiencia operativa práctica",
+              "description": "Operamos landscapes técnicos SAP críticos a diario."
+            },
+            {
+              "title": "Mentalidad de mantenimiento proactivo",
+              "description": "Nos adelantamos al parcheo y al housekeeping en vez de reaccionar a las fallas."
+            },
+            {
+              "title": "Operaciones conscientes de la seguridad",
+              "description": "Combinamos Basis con seguridad para mantener el landscape endurecido."
+            },
+            {
+              "title": "Gobierno estructurado",
+              "description": "Transportes, jobs y cambios corren bajo procesos controlados y documentados."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Operamos como una extensión confiable y de largo plazo de tu equipo de IT."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Demo gratuita",
-          "title": "Demo: así monitoreamos un entorno SAP de alta criticidad",
-          "description": "Te mostramos en 30 minutos cómo vemos el estado de un entorno SAP en tiempo real, qué alertas generamos y cómo respondemos antes del impacto.",
-          "cta": "Pedí tu demo de monitoreo"
+          "eyebrow": "Sesión gratuita",
+          "title": "Sesión de salud Basis: evaluamos el riesgo técnico de tu landscape SAP",
+          "description": "En 45 minutos revisamos tus operaciones técnicas — parcheo, transportes, jobs y disponibilidad — y destacamos los riesgos que conviene atender primero.",
+          "cta": "Reservá tu sesión de Basis"
         },
         "finalCta": {
-          "title": "¿Tu equipo SAP opera de forma proactiva o reactiva?",
-          "description": "Agendá una sesión con nuestros especialistas y evaluemos cómo llevar tu operación SAP de reactiva a preventiva.",
-          "ctaPrimary": "Evaluá tu cobertura de monitoreo",
+          "title": "¿Listo para una base técnica SAP estable y segura?",
+          "description": "Agendá una sesión con nuestros especialistas y diseñemos el modelo de operaciones Basis que mantiene tus sistemas SAP disponibles y seguros.",
+          "ctaPrimary": "Evaluá tus operaciones Basis",
           "ctaSecondary": "Conocé el pilar Operate"
         }
       },
-      "sap-root-cause-analysis": {
-        "metaTitle": "SAP Root Cause Analysis | Análisis de Causa Raíz | Global Core Technologies",
-        "metaDescription": "Análisis estructurado de incidentes SAP para identificar causas raíz, implementar correcciones definitivas y eliminar la recurrencia. Metodología experta, resolución duradera.",
+      "sap-technical-monitoring": {
+        "metaTitle": "SAP Technical Monitoring | Sistemas, Interfaces y Jobs | Global Core Technologies",
+        "metaDescription": "Monitoreá sistemas SAP, interfaces, jobs, bases de datos, integraciones e indicadores técnicos críticos para detectar problemas temprano y reducir la interrupción del negocio.",
         "eyebrow": "Pilar · Operate",
-        "h1": "Root Cause Analysis: los incidentes recurrentes no deberían repetirse — y no lo harán",
-        "heroSubtitle": "Aplicamos metodología estructurada de análisis de causa raíz para resolver los incidentes SAP que siguen volviendo: trazas ABAP, análisis de HANA, revisión de configuraciones y correcciones definitivas que eliminan el problema en lugar de parcharlo.",
-        "ctaPrimary": "Analizá un incidente recurrente",
-        "ctaSecondary": "Pedí tu diagnóstico de incidente",
+        "h1": "SAP Technical Monitoring: detectá los problemas antes que el negocio",
+        "heroSubtitle": "Monitoreamos tus sistemas SAP, interfaces, jobs, bases de datos, integraciones e indicadores técnicos críticos — para que los problemas se detecten y atiendan temprano, antes de convertirse en interrupción del negocio.",
+        "ctaPrimary": "Evaluá tu monitorización",
+        "ctaSecondary": "Solicitá una revisión de monitorización",
         "metrics": {
-          "projects": "incidentes resueltos definitivamente",
+          "projects": "landscapes SAP monitoreados",
           "years": "años en SAP crítico",
-          "governance": "gobierno primero"
+          "governance": "detección proactiva"
         },
         "problem": {
-          "title": "Resolver el síntoma no es resolver el problema.",
+          "title": "La mayoría de los problemas SAP los encuentran los usuarios, o sea, demasiado tarde.",
           "items": [
             {
-              "title": "El mismo incidente, otra vez",
-              "description": "Los workarounds rápidos resuelven el síntoma visible pero dejan la causa raíz intacta. El incidente vuelve — a veces con mayor impacto que la vez anterior."
+              "title": "Puntos ciegos por todos lados",
+              "description": "Interfaces, jobs y bases de datos corren sin monitorización, así que las fallas aparecen recién cuando algo se rompe."
             },
             {
-              "title": "MTTR alto por diagnóstico superficial",
-              "description": "Sin una metodología estructurada de análisis, el tiempo de resolución se extiende porque se ataca lo primero visible en lugar de lo que realmente causa el problema."
+              "title": "Ruido de alertas, sin señal",
+              "description": "Donde hay monitorización, avalanchas de alertas indiferenciadas se ignoran hasta que es tarde."
             },
             {
-              "title": "Deuda operativa que crece",
-              "description": "Cada incidente parchado en lugar de resuelto agrega deuda operativa. Con el tiempo, el sistema acumula workarounds que se vuelven más frágiles y difíciles de mantener."
+              "title": "Reactivo por defecto",
+              "description": "Sin detección temprana, las operaciones están permanentemente un paso detrás del problema."
             }
           ],
-          "closing": "Un incidente resuelto de verdad no vuelve. La diferencia entre parcharlo y resolverlo está en la profundidad del análisis."
+          "closing": "La monitorización técnica convierte las operaciones SAP de reactivas en proactivas, atrapando los problemas mientras todavía son chicos."
         },
         "howWeHelp": {
-          "title": "Análisis estructurado que llega a la causa, no al síntoma",
-          "description": "Combinamos metodología de análisis con conocimiento profundo de SAP para resolver los problemas que otros no pueden.",
+          "title": "Monitorización proactiva en todo el landscape SAP",
+          "description": "Cobertura de las capas técnicas que realmente causan interrupción, con señal por encima del ruido.",
           "items": [
             {
-              "title": "Análisis de trazas y dumps ABAP",
-              "description": "Análisis profundo de ST22, SM21, SLG1 y trazas de programa para identificar el punto exacto de fallo en el código o la configuración."
+              "title": "Sistemas y bases de datos",
+              "description": "Monitoreamos la salud del sistema, los recursos y los indicadores de base de datos en todo el landscape."
             },
             {
-              "title": "Diagnóstico de performance SAP HANA",
-              "description": "Análisis de queries lentas, bloqueos, consumo de memoria y estadísticas de base de datos para identificar la causa de la degradación."
+              "title": "Interfaces e integraciones",
+              "description": "Vigilamos interfaces e integraciones para atrapar temprano los flujos de datos rotos."
             },
             {
-              "title": "Análisis de configuración y customizing",
-              "description": "Revisión sistemática de la configuración del sistema para identificar settings incorrectos o inconsistentes que generan comportamientos inesperados."
+              "title": "Jobs y procesamiento de fondo",
+              "description": "Monitoreamos jobs y programaciones críticas, alertando ante fallas y demoras."
             },
             {
-              "title": "Corrección definitiva y documentación",
-              "description": "Implementamos la corrección definitiva con procedimiento documentado y validación en QAS antes de producción, para evitar regresiones."
+              "title": "Alertas con sentido",
+              "description": "Afinamos las alertas al riesgo real, para que los equipos actúen sobre la señal, no el ruido."
             }
           ]
         },
         "benefits": {
           "title": "Lo que gana tu negocio",
           "items": [
-            { "title": "Incidentes que no vuelven", "description": "La corrección definitiva de la causa raíz elimina la recurrencia y reduce el volumen de incidentes con el tiempo." },
-            { "title": "MTTR reducido", "description": "Una metodología estructurada reduce el tiempo de diagnóstico porque se sabe dónde buscar y cómo interpretar los datos." },
-            { "title": "Deuda operativa que baja", "description": "Resolver causas raíz en lugar de parchearlas reduce gradualmente la complejidad operativa del sistema." },
-            { "title": "Conocimiento transferido", "description": "Cada análisis produce un informe que documenta el problema, el análisis y la solución — conocimiento que queda en la organización." }
+            {
+              "title": "Detección temprana",
+              "description": "Los problemas se atrapan antes de impactar a los usuarios y al negocio."
+            },
+            {
+              "title": "Menos interrupción",
+              "description": "Menos sorpresas y caídas más cortas en todo el landscape SAP."
+            },
+            {
+              "title": "Visibilidad operativa",
+              "description": "Una vista clara y continua de la salud técnica."
+            },
+            {
+              "title": "Respuesta enfocada",
+              "description": "Las alertas con sentido permiten actuar rápido sobre lo que importa."
+            }
           ]
         },
         "methodology": {
-          "title": "Cómo analizamos y resolvemos incidentes SAP",
-          "description": "Cuatro fases que van del relevamiento a la resolución definitiva documentada.",
+          "title": "El camino de Global Core Technologies hacia una monitorización SAP proactiva",
+          "description": "Cuatro fases del diseño de cobertura a la monitorización proactiva y afinada.",
           "phases": [
-            { "name": "Relevar", "deliverable": "Contexto del incidente, logs, trazas y datos del sistema en el momento del fallo" },
-            { "name": "Analizar", "deliverable": "Identificación de la causa raíz con evidencia técnica documentada" },
-            { "name": "Corregir", "deliverable": "Implementación de la corrección definitiva validada en QAS" },
-            { "name": "Prevenir", "deliverable": "Acciones preventivas, monitoreo específico y documentación del caso" }
+            {
+              "name": "Evaluar",
+              "deliverable": "Brechas de monitorización, objetos críticos y mapa de riesgo"
+            },
+            {
+              "name": "Instrumentar",
+              "deliverable": "Monitorización de sistemas, interfaces, jobs y bases de datos"
+            },
+            {
+              "name": "Afinar",
+              "deliverable": "Umbrales de alerta afinados al riesgo real, ruido reducido"
+            },
+            {
+              "name": "Operar",
+              "deliverable": "Monitorización proactiva con respuesta y refinamiento continuo"
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el análisis de causa raíz SAP",
+          "title": "Por qué elegir a Global Core Technologies para la monitorización SAP",
           "items": [
-            { "title": "Conocimiento técnico y funcional profundo", "description": "Resolver causas raíz en SAP requiere entender tanto la tecnología como los procesos de negocio que el sistema soporta." },
-            { "title": "Experiencia en entornos críticos", "description": "Décadas resolviendo problemas complejos en entornos SAP de alta criticidad en producción real." },
-            { "title": "Metodología estructurada", "description": "No improvisamos: aplicamos metodología de análisis que garantiza que se llega a la causa, no al síntoma." },
-            { "title": "Documentación siempre", "description": "Cada análisis produce evidencia y documentación: el conocimiento no se pierde cuando termina el incidente." },
-            { "title": "Integración con monitoreo", "description": "Los patrones identificados en el análisis se convierten en reglas de monitoreo proactivo para evitar recurrencias." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada análisis." }
+            {
+              "title": "Mentalidad de monitorización proactiva",
+              "description": "Diseñamos la monitorización para prevenir la interrupción, no solo para registrarla."
+            },
+            {
+              "title": "Profundo expertise SAP",
+              "description": "Sabemos qué indicadores técnicos realmente predicen los problemas."
+            },
+            {
+              "title": "Experiencia operativa práctica",
+              "description": "Monitoreamos landscapes SAP críticos en producción."
+            },
+            {
+              "title": "Señal por encima del ruido",
+              "description": "Afinamos las alertas para que los equipos confíen y actúen."
+            },
+            {
+              "title": "Plataformas propietarias",
+              "description": "Intelliguard™ agrega monitorización inteligente y detección de anomalías."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Hacemos evolucionar la monitorización a medida que tu landscape cambia."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Diagnóstico gratuito",
-          "title": "Diagnóstico de incidente: analizamos un problema recurrente de tu entorno SAP",
-          "description": "Compartís los datos de un incidente que sigue volviendo y uno de nuestros especialistas te devuelve una hipótesis de causa raíz y los pasos de verificación.",
-          "cta": "Pedí tu diagnóstico de incidente"
+          "eyebrow": "Sesión gratuita",
+          "title": "Revisión de monitorización: encontramos los puntos ciegos de tu landscape SAP",
+          "description": "En 45 minutos revisamos tu cobertura de monitorización actual y destacamos las interfaces, jobs y sistemas más expuestos a fallas no detectadas.",
+          "cta": "Reservá tu revisión de monitorización"
         },
         "finalCta": {
-          "title": "¿Tenés incidentes SAP que siguen volviendo sin resolución definitiva?",
-          "description": "Agendá una sesión con nuestros especialistas y empezá a resolver los problemas recurrentes de tu entorno SAP de raíz.",
-          "ctaPrimary": "Analizá un incidente recurrente",
+          "title": "¿Listo para atrapar los problemas SAP antes de que golpeen al negocio?",
+          "description": "Agendá una sesión con nuestros especialistas y diseñemos la monitorización que vuelve proactivas tus operaciones SAP.",
+          "ctaPrimary": "Evaluá tu monitorización",
           "ctaSecondary": "Conocé el pilar Operate"
         }
       },
-      "sap-technical-governance": {
-        "metaTitle": "SAP Technical Governance | Gobierno Técnico SAP | Global Core Technologies",
-        "metaDescription": "Estándares técnicos, gestión de cambios y controles de calidad para la operación SAP sostenible. Protegé la producción y reducí la deuda técnica con gobierno formal.",
+      "sap-incident-problem-management": {
+        "metaTitle": "SAP Incident & Problem Management | Causa Raíz y Confiabilidad | Global Core Technologies",
+        "metaDescription": "Resolución de incidentes estructurada, análisis de causa raíz y gestión de problemas recurrentes con reporting de servicio, reduciendo incidentes repetidos y mejorando la confiabilidad operativa.",
         "eyebrow": "Pilar · Operate",
-        "h1": "Technical Governance: los estándares que protegen la producción de los cambios que no deberían llegar",
-        "heroSubtitle": "Diseñamos e implementamos el marco de gobierno técnico que regula cómo se hacen los cambios, se mantiene la calidad y se toman las decisiones técnicas en tu entorno SAP — para que la producción sea estable, predecible y libre de incidentes por cambios no gobernados.",
-        "ctaPrimary": "Evaluá tu madurez de gobierno técnico",
-        "ctaSecondary": "Pedí una revisión de gobierno",
+        "h1": "SAP Incident & Problem Management: dejá de arreglar el mismo problema dos veces",
+        "heroSubtitle": "Estructuramos la resolución de incidentes, el análisis de causa raíz y la gestión de problemas recurrentes con reporting de servicio claro — para que los incidentes se resuelvan rápido y, sobre todo, dejen de volver.",
+        "ctaPrimary": "Evaluá tu modelo de incidentes",
+        "ctaSecondary": "Solicitá una revisión de incidentes",
         "metrics": {
-          "projects": "modelos de gobierno implementados",
+          "projects": "operaciones SAP mejoradas",
           "years": "años en SAP crítico",
-          "governance": "gobierno primero"
+          "governance": "guiado por causa raíz"
         },
         "problem": {
-          "title": "Sin gobierno técnico, la producción SAP siempre está a un cambio de un incidente.",
+          "title": "Cerrar incidentes rápido se siente productivo, hasta que los mismos vuelven una y otra vez.",
           "items": [
             {
-              "title": "Cambios que llegan sin validación",
-              "description": "Cuando el proceso de change management no tiene dientes, los cambios de desarrollo llegan a producción sin testing adecuado. Los incidentes que siguen son predecibles — y evitables."
+              "title": "Síntomas, no causas",
+              "description": "Los incidentes se cierran tratando síntomas, así que el problema de fondo resurge una y otra vez."
             },
             {
-              "title": "Estándares que nadie cumple",
-              "description": "Sin una política técnica documentada y exigible, cada desarrollador y administrador opera con sus propias reglas. El resultado: inconsistencia técnica que genera deuda y fragilidad."
+              "title": "Sin gestión de problemas",
+              "description": "No hay un proceso estructurado para convertir los incidentes recurrentes en soluciones permanentes."
             },
             {
-              "title": "Decisiones técnicas sin trazabilidad",
-              "description": "Sin registro de por qué se tomaron las decisiones técnicas, el equipo que viene después no puede entender el sistema que mantiene — y comete los mismos errores."
+              "title": "Sin reporting, sin aprendizaje",
+              "description": "Sin reporting de tendencias, nadie ve los patrones que prevendrían la próxima caída."
             }
           ],
-          "closing": "El gobierno técnico no es burocracia — es la estructura que hace la operación SAP predecible, sostenible y libre de incidentes evitables."
+          "closing": "La gestión de incidentes y problemas no es solo tickets más rápidos: es romper el ciclo de los problemas recurrentes de forma definitiva."
         },
         "howWeHelp": {
-          "title": "Marco de gobierno técnico que el equipo realmente puede seguir",
-          "description": "Diseñamos e implementamos el gobierno técnico que se adapta a tu organización, no el ideal que nadie aplica.",
+          "title": "Gestión estructurada de incidentes y problemas",
+          "description": "Resolvé rápido, encontrá la causa raíz y eliminá los problemas recurrentes con reporting que impulsa la mejora.",
           "items": [
             {
-              "title": "Proceso de gestión de cambios",
-              "description": "Diseñamos e implementamos el proceso formal de change management: desde la solicitud hasta el go-live en producción, con quality gates y trazabilidad completa."
+              "title": "Resolución de incidentes",
+              "description": "Resolvemos incidentes con severidad definida, SLAs y titularidad clara."
             },
             {
-              "title": "Estándares técnicos y políticas",
-              "description": "Definimos los estándares de desarrollo ABAP, naming conventions, guías de configuración y políticas de seguridad técnica que gobiernan el trabajo del equipo."
+              "title": "Análisis de causa raíz",
+              "description": "Investigamos las causas de fondo para que las soluciones sean permanentes, no temporales."
             },
             {
-              "title": "Control de calidad técnica",
-              "description": "Implementamos los quality gates: revisión de código, pruebas de transports en QAS y criterios de aprobación antes de producción."
+              "title": "Gestión de problemas recurrentes",
+              "description": "Seguimos y eliminamos los incidentes recurrentes mediante gestión de problemas estructurada."
             },
             {
-              "title": "Documentación y trazabilidad",
-              "description": "Establecemos el proceso de documentación técnica: decisiones de diseño, configuraciones críticas y procedimientos operativos que el equipo puede consultar."
+              "title": "Reporting de servicio",
+              "description": "Reportamos tendencias y patrones de incidentes para impulsar la mejora continua."
             }
           ]
         },
         "benefits": {
           "title": "Lo que gana tu negocio",
           "items": [
-            { "title": "Producción protegida", "description": "El change management formal impide que cambios no validados lleguen a producción y generen incidentes evitables." },
-            { "title": "Deuda técnica bajo control", "description": "Los estándares técnicos evitan la acumulación de inconsistencias que hacen el sistema más frágil con el tiempo." },
-            { "title": "Equipo independiente del experto clave", "description": "La documentación y los estándares distribuyen el conocimiento: el sistema no depende de una sola persona." },
-            { "title": "Cumplimiento y auditoría simplificados", "description": "Un proceso de cambios con trazabilidad completa simplifica drásticamente las auditorías de controles de TI." }
+            {
+              "title": "Menos incidentes recurrentes",
+              "description": "Las soluciones de causa raíz rompen el ciclo de los problemas repetidos."
+            },
+            {
+              "title": "Mayor confiabilidad",
+              "description": "Un landscape más estable con menos interrupciones."
+            },
+            {
+              "title": "Resolución más rápida",
+              "description": "Procesos estructurados y titularidad acortan los tiempos de resolución."
+            },
+            {
+              "title": "Insight desde los incidentes",
+              "description": "El reporting de tendencias convierte los incidentes en prevención."
+            }
           ]
         },
         "methodology": {
-          "title": "Cómo instalamos el gobierno técnico SAP",
-          "description": "Cuatro fases que van del diagnóstico de madurez al gobierno operativo.",
+          "title": "El camino de Global Core Technologies hacia operaciones SAP confiables",
+          "description": "Cuatro fases de la estructura de incidentes a los problemas recurrentes eliminados.",
           "phases": [
-            { "name": "Diagnosticar", "deliverable": "Evaluación de madurez técnica: procesos, estándares y gaps de gobierno actuales" },
-            { "name": "Diseñar", "deliverable": "Marco de gobierno técnico: procesos, estándares, quality gates y roles" },
-            { "name": "Implementar", "deliverable": "Despliegue de procesos, documentación y capacitación del equipo técnico" },
-            { "name": "Sostener", "deliverable": "Métricas de gobierno, revisiones periódicas y mejora continua" }
+            {
+              "name": "Estructurar",
+              "deliverable": "Proceso de incidentes, severidades, SLAs y titularidad"
+            },
+            {
+              "name": "Resolver",
+              "deliverable": "Resolución de incidentes rápida y estructurada"
+            },
+            {
+              "name": "Analizar",
+              "deliverable": "Análisis de causa raíz y soluciones permanentes"
+            },
+            {
+              "name": "Mejorar",
+              "deliverable": "Reporting de tendencias y eliminación de problemas recurrentes"
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el gobierno técnico SAP",
+          "title": "Por qué elegir a Global Core Technologies para incidentes y problemas SAP",
           "items": [
-            { "title": "Govern es uno de nuestros pilares", "description": "El gobierno no es un servicio complementario: es parte del ADN de cómo trabajamos en cada proyecto SAP." },
-            { "title": "Profunda experiencia técnica", "description": "Décadas de experiencia en Basis, desarrollo ABAP y arquitectura SAP dan credibilidad al gobierno que diseñamos." },
-            { "title": "Pragmatismo en el diseño", "description": "Diseñamos el gobierno que tu equipo puede sostener, no el ideal que colapsa ante la primera presión operativa." },
-            { "title": "Integración con cloud ALM", "description": "El gobierno técnico que implementamos se apoya en SAP Cloud ALM como herramienta de gestión del ciclo de vida." },
-            { "title": "Seguridad integrada", "description": "Los estándares técnicos que definimos incluyen controles de seguridad: el gobierno técnico y el de accesos van de la mano." },
-            { "title": "SAP Silver Partner", "description": "Consultores certificados SAP y alianzas estratégicas que respaldan cada proyecto de gobierno técnico." }
+            {
+              "title": "Disciplina de causa raíz",
+              "description": "Arreglamos causas, no solo síntomas, para que los problemas no vuelvan."
+            },
+            {
+              "title": "Profundo expertise SAP",
+              "description": "Entendemos SAP lo suficiente como para encontrar causas raíz reales."
+            },
+            {
+              "title": "Experiencia operativa práctica",
+              "description": "Gestionamos incidentes en entornos SAP críticos."
+            },
+            {
+              "title": "Gobierno estructurado",
+              "description": "Severidades, SLAs y reporting ponen orden en el manejo de incidentes."
+            },
+            {
+              "title": "Mejora continua",
+              "description": "Usamos los datos de incidentes para prevenir la próxima interrupción."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Seguimos mejorando la confiabilidad a lo largo de la relación."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Evaluación gratuita",
-          "title": "Evaluación de madurez: ¿qué tan gobernado está tu entorno técnico SAP?",
-          "description": "Revisamos tu proceso de change management, estándares técnicos y quality gates actuales y te decimos en qué nivel de madurez está tu gobierno técnico.",
-          "cta": "Pedí tu evaluación de madurez técnica"
+          "eyebrow": "Sesión gratuita",
+          "title": "Revisión de incidentes: encontramos los problemas recurrentes que más te cuestan en silencio",
+          "description": "En 45 minutos revisamos tus patrones de incidentes y te mostramos qué problemas recurrentes darían la mayor ganancia de confiabilidad al eliminarse.",
+          "cta": "Reservá tu revisión de incidentes"
         },
         "finalCta": {
-          "title": "¿Tu producción SAP está protegida de los cambios que no deberían llegar?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el marco de gobierno técnico que hace tu operación SAP predecible y sostenible.",
-          "ctaPrimary": "Evaluá tu madurez de gobierno técnico",
+          "title": "¿Listo para dejar de arreglar los mismos problemas SAP una y otra vez?",
+          "description": "Agendá una sesión con nuestros especialistas y diseñemos la gestión de incidentes y problemas que vuelve confiables tus operaciones SAP.",
+          "ctaPrimary": "Evaluá tu modelo de incidentes",
+          "ctaSecondary": "Conocé el pilar Operate"
+        }
+      },
+      "sap-performance-availability": {
+        "metaTitle": "SAP Performance & Availability Management | Velocidad y Uptime | Global Core Technologies",
+        "metaDescription": "Analizá y optimizá el rendimiento del sistema SAP, los tiempos de respuesta, la distribución de carga y la disponibilidad, mejorando la experiencia de usuario y reduciendo el riesgo operativo.",
+        "eyebrow": "Pilar · Operate",
+        "h1": "SAP Performance & Availability Management: sistemas rápidos que se mantienen arriba",
+        "heroSubtitle": "Analizamos y optimizamos el rendimiento del sistema, los tiempos de respuesta, la distribución de carga y la disponibilidad en tu landscape SAP — mejorando la experiencia de los usuarios y reduciendo el riesgo operativo.",
+        "ctaPrimary": "Evaluá tu rendimiento",
+        "ctaSecondary": "Solicitá una revisión de rendimiento",
+        "metrics": {
+          "projects": "sistemas SAP optimizados",
+          "years": "años en SAP crítico",
+          "governance": "enfocado en disponibilidad"
+        },
+        "problem": {
+          "title": "Los sistemas lentos y las caídas no planificadas cuestan más de lo que nadie mide.",
+          "items": [
+            {
+              "title": "El rendimiento se degrada sin verse",
+              "description": "Los tiempos de respuesta suben de a poco hasta que los usuarios se quejan, sin baseline para probarlo o arreglarlo."
+            },
+            {
+              "title": "Disponibilidad sin plan",
+              "description": "El uptime se asume en vez de gestionarse, así que las caídas golpean sin aviso ni responsable."
+            },
+            {
+              "title": "Carga desbalanceada",
+              "description": "Una distribución de carga pobre crea cuellos de botella que frenan todo el landscape."
+            }
+          ],
+          "closing": "El rendimiento y la disponibilidad no son suerte: son el resultado de medir, afinar y un proceso operativo gestionado."
+        },
+        "howWeHelp": {
+          "title": "Rendimiento y disponibilidad bajo gestión activa",
+          "description": "Medí, afiná y gestioná los factores que determinan la velocidad y el uptime de SAP.",
+          "items": [
+            {
+              "title": "Análisis de rendimiento",
+              "description": "Establecemos baseline y analizamos tiempos de respuesta, uso de recursos y cuellos de botella."
+            },
+            {
+              "title": "Tuning de sistemas",
+              "description": "Afinamos sistemas, distribución de carga y configuración para un rendimiento sostenido."
+            },
+            {
+              "title": "Gestión de disponibilidad",
+              "description": "Gestionamos la disponibilidad de forma proactiva con indicadores y objetivos claros."
+            },
+            {
+              "title": "Conciencia de capacidad",
+              "description": "Vigilamos las tendencias para que la capacidad acompañe la demanda antes de que apriete."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Lo que gana tu negocio",
+          "items": [
+            {
+              "title": "Mejor experiencia de usuario",
+              "description": "Sistemas SAP rápidos y responsivos para quienes los usan."
+            },
+            {
+              "title": "Mayor disponibilidad",
+              "description": "Uptime gestionado con menos interrupciones no planificadas."
+            },
+            {
+              "title": "Menor riesgo operativo",
+              "description": "Los riesgos de rendimiento y disponibilidad se gestionan, no se descubren."
+            },
+            {
+              "title": "Capacidad a medida",
+              "description": "La capacidad acompaña la demanda, evitando cuellos de botella."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "El camino de Global Core Technologies hacia el rendimiento y la disponibilidad SAP",
+          "description": "Cuatro fases del baseline al rendimiento sostenido.",
+          "phases": [
+            {
+              "name": "Baseline",
+              "deliverable": "Baseline de rendimiento y disponibilidad y mapa de cuellos de botella"
+            },
+            {
+              "name": "Optimizar",
+              "deliverable": "Tuning de sistemas, carga y configuración"
+            },
+            {
+              "name": "Gestionar",
+              "deliverable": "Gestión activa de disponibilidad con indicadores y objetivos"
+            },
+            {
+              "name": "Mejorar",
+              "deliverable": "Monitoreo de tendencias, planificación de capacidad y mejora continua"
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Por qué elegir a Global Core Technologies para rendimiento y disponibilidad SAP",
+          "items": [
+            {
+              "title": "Profundo expertise SAP y Basis",
+              "description": "Entendemos qué determina realmente el rendimiento y el uptime de SAP."
+            },
+            {
+              "title": "Experiencia operativa práctica",
+              "description": "Afinamos y gestionamos sistemas SAP críticos en producción."
+            },
+            {
+              "title": "Mentalidad de monitorización proactiva",
+              "description": "Gestionamos rendimiento y disponibilidad de forma continua, no solo durante incidentes."
+            },
+            {
+              "title": "Guiado por la medición",
+              "description": "Trabajamos desde baselines e indicadores, no por adivinanza."
+            },
+            {
+              "title": "Plataformas propietarias",
+              "description": "Nuestra plataforma Operations Intelligence expone insight de rendimiento y disponibilidad."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Mantenemos el rendimiento y la disponibilidad sanos a medida que crece la demanda."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Sesión gratuita",
+          "title": "Revisión de rendimiento: encontramos qué está frenando tus sistemas SAP",
+          "description": "En 45 minutos revisamos tu rendimiento y disponibilidad y destacamos los cuellos de botella y riesgos que más conviene atender primero.",
+          "cta": "Reservá tu revisión de rendimiento"
+        },
+        "finalCta": {
+          "title": "¿Listo para sistemas SAP rápidos que se mantienen arriba?",
+          "description": "Agendá una sesión con nuestros especialistas y diseñemos la gestión de rendimiento y disponibilidad que tu landscape necesita.",
+          "ctaPrimary": "Evaluá tu rendimiento",
+          "ctaSecondary": "Conocé el pilar Operate"
+        }
+      },
+      "sap-cloud-alm-operations": {
+        "metaTitle": "SAP Cloud ALM Operations | Monitorización, Alertas y Gestión de Servicio | Global Core Technologies",
+        "metaDescription": "Implementá y operá SAP Cloud ALM para monitorización, alertas, visibilidad de operaciones y gestión de servicio, habilitando operaciones SAP transparentes y proactivas.",
+        "eyebrow": "Pilar · Operate",
+        "h1": "SAP Cloud ALM Operations: un hub para operaciones SAP proactivas",
+        "heroSubtitle": "Implementamos y operamos SAP Cloud ALM para monitorización, alertas, visibilidad de operaciones y gestión de servicio — dándote un hub transparente para operar SAP de forma proactiva en landscapes cloud e híbridos.",
+        "ctaPrimary": "Evaluá el fit de Cloud ALM",
+        "ctaSecondary": "Solicitá una sesión de Cloud ALM",
+        "metrics": {
+          "projects": "setups de Cloud ALM Operations",
+          "years": "años en SAP crítico",
+          "governance": "herramienta estándar SAP"
+        },
+        "problem": {
+          "title": "La visibilidad de operaciones dispersa en varias herramientas no es visibilidad.",
+          "items": [
+            {
+              "title": "Herramientas fragmentadas",
+              "description": "Los datos de monitorización y operaciones viven en herramientas desconectadas, así que nadie tiene la foto completa."
+            },
+            {
+              "title": "Plataforma estándar subutilizada",
+              "description": "SAP Cloud ALM está disponible pero no configurada para entregar valor operativo real."
+            },
+            {
+              "title": "Operaciones reactivas",
+              "description": "Sin alertas y visibilidad unificadas, las operaciones se mantienen reactivas."
+            }
+          ],
+          "closing": "SAP Cloud ALM es el hub de operaciones estándar de SAP: bien configurado y operado, vuelve las operaciones SAP transparentes y proactivas."
+        },
+        "howWeHelp": {
+          "title": "SAP Cloud ALM, implementado y operado",
+          "description": "Del setup a la operación diaria, usando la plataforma estándar de SAP para operar de forma proactiva.",
+          "items": [
+            {
+              "title": "Implementación de Cloud ALM",
+              "description": "Configuramos SAP Cloud ALM para casos de uso de monitorización, alertas y operaciones."
+            },
+            {
+              "title": "Monitorización de operaciones",
+              "description": "Configuramos la monitorización de salud, integraciones y jobs en todo el landscape."
+            },
+            {
+              "title": "Alertas y gestión de servicio",
+              "description": "Conectamos alertas y gestión de servicio para que los problemas lleguen a los responsables correctos."
+            },
+            {
+              "title": "Visibilidad de operaciones",
+              "description": "Le damos a los equipos y a la dirección una vista transparente de las operaciones."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Lo que gana tu negocio",
+          "items": [
+            {
+              "title": "Vista unificada de operaciones",
+              "description": "Un hub reemplaza las herramientas dispersas y desconectadas."
+            },
+            {
+              "title": "Operaciones proactivas",
+              "description": "La monitorización y las alertas unificadas habilitan una gestión proactiva."
+            },
+            {
+              "title": "Plataforma estándar SAP",
+              "description": "Operás sobre la propia plataforma de SAP, alineada al roadmap."
+            },
+            {
+              "title": "Mayor transparencia",
+              "description": "Visibilidad clara de operaciones para equipos y dirección."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "El camino de Global Core Technologies hacia las operaciones con Cloud ALM",
+          "description": "Cuatro fases del setup a la monitorización operada y proactiva.",
+          "phases": [
+            {
+              "name": "Diseñar",
+              "deliverable": "Alcance de Cloud ALM Operations y modelo de monitorización"
+            },
+            {
+              "name": "Configurar",
+              "deliverable": "Monitorización, alertas y gestión de servicio configuradas"
+            },
+            {
+              "name": "Operar",
+              "deliverable": "Operación diaria a través de Cloud ALM"
+            },
+            {
+              "name": "Mejorar",
+              "deliverable": "Tuning, adopción y mejora continua"
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Por qué elegir a Global Core Technologies para SAP Cloud ALM Operations",
+          "items": [
+            {
+              "title": "Expertise en el estándar SAP",
+              "description": "Implementamos y operamos SAP Cloud ALM como SAP lo concibe."
+            },
+            {
+              "title": "Experiencia operativa práctica",
+              "description": "Usamos Cloud ALM para operar SAP real, no solo para configurarlo."
+            },
+            {
+              "title": "Mentalidad de monitorización proactiva",
+              "description": "Configuramos Cloud ALM para habilitar operaciones proactivas, no reactivas."
+            },
+            {
+              "title": "Gobierno estructurado",
+              "description": "Las alertas y la gestión de servicio siguen titularidad y procesos claros."
+            },
+            {
+              "title": "Mejora continua",
+              "description": "Seguimos afinando la monitorización y la adopción en el tiempo."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Operamos y hacemos evolucionar Cloud ALM junto a tu landscape."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Sesión gratuita",
+          "title": "Sesión de Cloud ALM: mapeamos cómo afinaría tus operaciones SAP",
+          "description": "En 45 minutos revisamos tus herramientas de operaciones y te mostramos dónde SAP Cloud ALM te daría visibilidad unificada y control proactivo.",
+          "cta": "Reservá tu sesión de Cloud ALM"
+        },
+        "finalCta": {
+          "title": "¿Listo para operar SAP desde un hub transparente?",
+          "description": "Agendá una sesión con nuestros especialistas e implementemos el setup de SAP Cloud ALM Operations que vuelve proactivas tus operaciones.",
+          "ctaPrimary": "Evaluá el fit de Cloud ALM",
+          "ctaSecondary": "Conocé el pilar Operate"
+        }
+      },
+      "sap-operations-managed-services": {
+        "metaTitle": "SAP Operations Hub / Managed Services | Operaciones SAP Centralizadas | Global Core Technologies",
+        "metaDescription": "Un modelo operativo centralizado para soporte, monitorización, gobierno y mejora continua de SAP, consolidando las operaciones bajo un servicio escalable y medible.",
+        "eyebrow": "Pilar · Operate",
+        "h1": "SAP Operations Hub: tus operaciones SAP, consolidadas y medibles",
+        "heroSubtitle": "Ofrecemos un modelo operativo centralizado para soporte, monitorización, gobierno y mejora continua de SAP — consolidando operaciones fragmentadas en un único servicio gestionado, escalable y medible.",
+        "ctaPrimary": "Evaluá tu modelo de operaciones",
+        "ctaSecondary": "Solicitá una sesión de operaciones",
+        "metrics": {
+          "projects": "modelos de operaciones SAP en marcha",
+          "years": "años en SAP crítico",
+          "governance": "modelo de servicio medible"
+        },
+        "problem": {
+          "title": "Las operaciones SAP fragmentadas no pueden escalar, ni probar su valor.",
+          "items": [
+            {
+              "title": "Soporte disperso entre equipos",
+              "description": "AMS, Basis, monitorización y gobierno están en silos, así que nadie es dueño del resultado operativo."
+            },
+            {
+              "title": "Sin un único modelo de servicio",
+              "description": "Sin un modelo consolidado, las operaciones no pueden escalar ni medirse de forma consistente."
+            },
+            {
+              "title": "Valor difícil de probar",
+              "description": "Sin reporting unificado, el valor de las operaciones SAP es imposible de demostrar."
+            }
+          ],
+          "closing": "Un operations hub consolida el soporte, la monitorización y el gobierno de SAP en un único servicio medible y escalable, con un solo dueño y una sola vista."
+        },
+        "howWeHelp": {
+          "title": "Un servicio de operaciones SAP centralizado",
+          "description": "Un único modelo gestionado que une soporte, monitorización, gobierno y mejora.",
+          "items": [
+            {
+              "title": "Operaciones consolidadas",
+              "description": "Unimos AMS, Basis, monitorización y gobierno bajo un solo modelo de servicio."
+            },
+            {
+              "title": "Gobierno de servicio",
+              "description": "Operamos con SLAs, roles, cadencia y titularidad clara."
+            },
+            {
+              "title": "Reporting unificado",
+              "description": "Reportamos calidad de servicio, volúmenes y mejora en una sola vista."
+            },
+            {
+              "title": "Mejora continua",
+              "description": "Impulsamos la mejora continua en todo el servicio de operaciones."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Lo que gana tu negocio",
+          "items": [
+            {
+              "title": "Operaciones escalables",
+              "description": "Un modelo consolidado escala con tu landscape y tu negocio."
+            },
+            {
+              "title": "Accountability única",
+              "description": "Un solo dueño del resultado operativo de punta a punta."
+            },
+            {
+              "title": "Servicio medible",
+              "description": "El reporting unificado hace visible el valor de las operaciones."
+            },
+            {
+              "title": "Mejora continua",
+              "description": "Las operaciones siguen mejorando, no solo se mantienen vivas."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "El camino de Global Core Technologies hacia un operations hub centralizado",
+          "description": "Cuatro fases de la consolidación a un servicio en mejora continua.",
+          "phases": [
+            {
+              "name": "Evaluar",
+              "deliverable": "Modelo de operaciones actual, silos y brechas de servicio"
+            },
+            {
+              "name": "Consolidar",
+              "deliverable": "Modelo de operaciones unificado, SLAs y gobierno"
+            },
+            {
+              "name": "Operar",
+              "deliverable": "Soporte, monitorización y gobierno centralizados en run"
+            },
+            {
+              "name": "Mejorar",
+              "deliverable": "Reporting unificado y mejora continua del servicio"
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Por qué elegir a Global Core Technologies para tu operations hub SAP",
+          "items": [
+            {
+              "title": "Operaciones SAP de punta a punta",
+              "description": "Entendemos las operaciones SAP desde la estabilidad técnica hasta la calidad del servicio."
+            },
+            {
+              "title": "Gobierno de servicio estructurado",
+              "description": "SLAs, roles y reporting vienen incorporados al modelo."
+            },
+            {
+              "title": "Soporte combinado",
+              "description": "Unimos soporte funcional, técnico y de seguridad en un solo servicio."
+            },
+            {
+              "title": "Enfoque de mejora continua",
+              "description": "Operamos como un servicio que mejora, no como un costo fijo."
+            },
+            {
+              "title": "Plataformas propietarias",
+              "description": "Nuestra plataforma Operations Intelligence sostiene la visibilidad y el reporting."
+            },
+            {
+              "title": "Partnership de largo plazo",
+              "description": "Operamos como un partner de operaciones escalable y de largo plazo."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Sesión gratuita",
+          "title": "Sesión de modelo operativo: evaluamos cómo consolidar y escalar tus operaciones SAP",
+          "description": "En 45 minutos revisamos cómo están organizadas hoy tus operaciones SAP y te mostramos cómo un hub centralizado las volvería escalables y medibles.",
+          "cta": "Reservá tu sesión de operaciones"
+        },
+        "finalCta": {
+          "title": "¿Listo para consolidar las operaciones SAP en un único servicio medible?",
+          "description": "Agendá una sesión con nuestros especialistas y diseñemos el operations hub que vuelve tu soporte SAP escalable, gobernado y en mejora.",
+          "ctaPrimary": "Evaluá tu modelo de operaciones",
           "ctaSecondary": "Conocé el pilar Operate"
         }
       },

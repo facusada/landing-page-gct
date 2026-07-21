@@ -265,8 +265,8 @@ export const pillarL3Services: PillarL3Service[] = [
   // Operate pillar
   {
     pillar: 'operate',
-    key: 'sapAms',
-    slug: 'sap-ams',
+    key: 'amsServices',
+    slug: 'sap-ams-services',
     icon: 'support',
     image: '/pillars/04_tile_03_operate.png',
     metrics: [
@@ -277,8 +277,8 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'operate',
-    key: 'sapBasis',
-    slug: 'sap-basis',
+    key: 'basisOperations',
+    slug: 'sap-basis-operations',
     icon: 'managed',
     image: '/pillars/04_tile_03_operate.png',
     metrics: [
@@ -289,32 +289,21 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'operate',
-    key: 'cloudAlm',
-    slug: 'sap-cloud-alm',
+    key: 'technicalMonitoring',
+    slug: 'sap-technical-monitoring',
     icon: 'performance',
     image: '/pillars/04_tile_03_operate.png',
     metrics: [
       { id: 'projects', numericValue: 150, prefix: '+' },
       { id: 'years', numericValue: 20, prefix: '+' },
       { id: 'governance', numericValue: 100, suffix: '%' }
-    ]
+    ],
+    platformLink: '/plataformas/intelliguard'
   },
   {
     pillar: 'operate',
-    key: 'monitoringAutomation',
-    slug: 'sap-monitoring-automation',
-    icon: 'performance',
-    image: '/pillars/04_tile_03_operate.png',
-    metrics: [
-      { id: 'projects', numericValue: 150, prefix: '+' },
-      { id: 'years', numericValue: 20, prefix: '+' },
-      { id: 'governance', numericValue: 100, suffix: '%' }
-    ]
-  },
-  {
-    pillar: 'operate',
-    key: 'rootCauseAnalysis',
-    slug: 'sap-root-cause-analysis',
+    key: 'incidentProblem',
+    slug: 'sap-incident-problem-management',
     icon: 'solman',
     image: '/pillars/04_tile_03_operate.png',
     metrics: [
@@ -325,8 +314,20 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'operate',
-    key: 'technicalGovernance',
-    slug: 'sap-technical-governance',
+    key: 'performanceAvailability',
+    slug: 'sap-performance-availability',
+    icon: 'performance',
+    image: '/pillars/04_tile_03_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ]
+  },
+  {
+    pillar: 'operate',
+    key: 'cloudAlmOperations',
+    slug: 'sap-cloud-alm-operations',
     icon: 'implementation',
     image: '/pillars/04_tile_03_operate.png',
     metrics: [
@@ -334,6 +335,19 @@ export const pillarL3Services: PillarL3Service[] = [
       { id: 'years', numericValue: 20, prefix: '+' },
       { id: 'governance', numericValue: 100, suffix: '%' }
     ]
+  },
+  {
+    pillar: 'operate',
+    key: 'operationsHub',
+    slug: 'sap-operations-managed-services',
+    icon: 'managed',
+    image: '/pillars/04_tile_03_operate.png',
+    metrics: [
+      { id: 'projects', numericValue: 150, prefix: '+' },
+      { id: 'years', numericValue: 20, prefix: '+' },
+      { id: 'governance', numericValue: 100, suffix: '%' }
+    ],
+    platformLink: '/plataformas/operations-intelligence'
   },
   // Innovate pillar
   {
