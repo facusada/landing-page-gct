@@ -875,19 +875,19 @@
         },
         "riseWithSap": {
           "title": "RISE with SAP Advisory",
-          "description": "Acelerá la transformación a la nube a través del framework de ERP en la nube de SAP."
+          "description": "Evaluá y estructurá tu camino a RISE with SAP con advisory independiente y orientado al negocio."
         },
         "readinessAssessment": {
           "title": "SAP Readiness Assessment",
-          "description": "Entendé el grado de preparación de tu organización antes de iniciar programas de transformación."
+          "description": "Convertí los hallazgos técnicos de readiness en una hoja de ruta de transformación priorizada."
         },
         "migrationGovernance": {
           "title": "Migration Governance & PMO",
-          "description": "Reducí el riesgo del proyecto con gobierno estructurado y supervisión ejecutiva."
+          "description": "Protegé tu migración SAP con gobierno independiente y control ejecutivo."
         },
         "cleanCoreStrategy": {
           "title": "Clean Core Strategy",
-          "description": "Construí entornos SAP sostenibles diseñados para la innovación futura."
+          "description": "Reducí la complejidad de tu ERP con una estrategia Clean Core que preserva tu diferenciación."
         }
       },
       "secure": {
