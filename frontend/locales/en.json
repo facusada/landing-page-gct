@@ -1271,13 +1271,13 @@
           ]
         },
         "whyGct": {
-          "title": "Why Organizations Choose GCT",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             { "title": "Business and Technical Perspective", "description": "We connect executive priorities with SAP architecture, Basis, security, integration, and operational realities." },
             { "title": "Independent, Governance-Led Advice", "description": "Our role is to clarify decisions, expose assumptions, and protect transformation outcomes — not to force a predetermined path." },
             { "title": "Deep SAP Transformation Experience", "description": "Our teams understand the dependencies that shape complex SAP modernization programs." },
             { "title": "Security and Operations Built In", "description": "Security, resilience, support, observability, and service management are included in the target model from day one." },
-            { "title": "Continuity Beyond Advisory", "description": "GCT can continue supporting assessment, governance, migration, security, and managed operations as the journey progresses." }
+            { "title": "Continuity Beyond Advisory", "description": "Global Core Technologies can continue supporting assessment, governance, migration, security, and managed operations as the journey progresses." }
           ]
         },
         "leadMagnet": {
@@ -1288,7 +1288,7 @@
         },
         "finalCta": {
           "title": "Turn RISE with SAP into a Governed Business Transformation",
-          "description": "Whether you are exploring RISE, validating a proposal, or preparing to mobilize, GCT can help you define a realistic and sustainable path forward.",
+          "description": "Whether you are exploring RISE, validating a proposal, or preparing to mobilize, Global Core Technologies can help you define a realistic and sustainable path forward.",
           "ctaPrimary": "Schedule a RISE with SAP Strategy Session",
           "ctaSecondary": "Speak with a RISE with SAP Advisor"
         }
@@ -1387,13 +1387,13 @@
           ]
         },
         "whyGct": {
-          "title": "Why Organizations Choose GCT",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             { "title": "Beyond Automated Reports", "description": "We interpret SAP tool outputs in the context of your systems, organization, and intended transformation path." },
             { "title": "Cross-Domain SAP Expertise", "description": "Basis, architecture, security, development, integration, data, and governance perspectives are consolidated into one assessment." },
             { "title": "Actionable Deliverables", "description": "Every material finding is tied to impact, priority, owner, dependency, and recommended action." },
             { "title": "Executive and Technical Views", "description": "Leadership receives a concise decision view while delivery teams receive the detail needed to act." },
-            { "title": "Path from Assessment to Execution", "description": "GCT can support remediation, roadmap development, program governance, migration, and ongoing operations." }
+            { "title": "Path from Assessment to Execution", "description": "Global Core Technologies can support remediation, roadmap development, program governance, migration, and ongoing operations." }
           ]
         },
         "leadMagnet": {
@@ -1503,13 +1503,13 @@
           ]
         },
         "whyGct": {
-          "title": "Why Organizations Choose GCT",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             { "title": "Independent Line of Sight", "description": "We provide an objective view across client teams, SAP, system integrators, hyperscalers, and specialist vendors." },
             { "title": "SAP-Specific Governance", "description": "Our controls reflect the realities of SAP architecture, Basis, security, custom code, integrations, data, testing, and cutover." },
             { "title": "Executive-Level Communication", "description": "We convert delivery complexity into concise decisions, risks, and actions for leadership." },
             { "title": "Security and Business Continuity Focus", "description": "Security, compliance, resilience, and operational readiness are treated as core program outcomes." },
-            { "title": "Practical Intervention Capability", "description": "GCT can move beyond reporting to support remediation, technical assurance, migration execution, and stabilization." }
+            { "title": "Practical Intervention Capability", "description": "Global Core Technologies can move beyond reporting to support remediation, technical assurance, migration execution, and stabilization." }
           ]
         },
         "leadMagnet": {
@@ -1520,7 +1520,7 @@
         },
         "finalCta": {
           "title": "Create the Visibility and Control Your SAP Migration Requires",
-          "description": "Whether your program is beginning, approaching a critical milestone, or needs recovery, GCT can establish the governance needed to protect outcomes.",
+          "description": "Whether your program is beginning, approaching a critical milestone, or needs recovery, Global Core Technologies can establish the governance needed to protect outcomes.",
           "ctaPrimary": "Schedule a Migration Governance Review",
           "ctaSecondary": "Speak with an SAP Governance Expert"
         }
@@ -1615,13 +1615,13 @@
           ]
         },
         "whyGct": {
-          "title": "Why Organizations Choose GCT",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             { "title": "Pragmatic, Not Dogmatic", "description": "We protect business differentiation while challenging complexity that no longer creates value." },
             { "title": "Cross-Domain Expertise", "description": "Our approach spans ABAP and extensions, Basis, security, architecture, integration, data, and operations." },
             { "title": "Business-Driven Prioritization", "description": "Technical findings are evaluated against usage, criticality, risk, cost, and transformation value." },
             { "title": "Governance That Sustains the Strategy", "description": "We establish decision rights, standards, quality gates, metrics, and exception management." },
-            { "title": "Execution Support", "description": "GCT can support custom code remediation, architecture, security, integration modernization, migration, and managed operations." }
+            { "title": "Execution Support", "description": "Global Core Technologies can support custom code remediation, architecture, security, integration modernization, migration, and managed operations." }
           ]
         },
         "leadMagnet": {
@@ -1632,645 +1632,1286 @@
         },
         "finalCta": {
           "title": "Create a Clean Core That Stays Clean",
-          "description": "Whether you are preparing for S/4HANA, moving to RISE with SAP, or modernizing an existing environment, GCT can help turn Clean Core principles into measurable action.",
+          "description": "Whether you are preparing for S/4HANA, moving to RISE with SAP, or modernizing an existing environment, Global Core Technologies can help turn Clean Core principles into measurable action.",
           "ctaPrimary": "Schedule a Clean Core Assessment",
           "ctaSecondary": "Speak with a Clean Core Expert"
         }
       },
       "sap-security-assessment": {
-        "metaTitle": "SAP Security Assessment | SAP Security Posture Review | Global Core Technologies",
-        "metaDescription": "Design and implement your SAP security architecture: authorization objects, system hardening, and access controls. Protect critical access and data.",
+        "metaTitle": "SAP Security Assessment | SAP Security Audit & Risk Analysis | Global Core Technologies",
+        "metaDescription": "SAP Security Assessment services: access review, roles, Segregation of Duties, technical security, and compliance with a prioritized remediation roadmap. Talk to an SAP security expert.",
         "eyebrow": "Pillar · Secure",
-        "h1": "SAP Security Assessment: evaluate your posture and strengthen native controls",
-        "heroSubtitle": "We design and implement the SAP security architecture from the ground up: authorization objects, system hardening, secure user configuration, and access controls that protect your critical data without creating operational friction.",
-        "ctaPrimary": "Assess your SAP security posture",
-        "ctaSecondary": "Request your security review",
+        "h1": "Understand Your SAP Security Risk Before It Becomes a Business Issue",
+        "heroSubtitle": "Gain a clear and prioritized view of security risks across your SAP environment with a structured assessment focused on access, configuration, compliance, and operational resilience — identifying security gaps, evaluating their business impact, and defining a practical remediation roadmap aligned with SAP best practices and regulatory requirements.",
+        "ctaPrimary": "Schedule an SAP Security Assessment",
+        "ctaSecondary": "Download the SAP Security Assessment Checklist",
         "metrics": {
-          "projects": "security assessments",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "A misconfigured SAP is your biggest internal risk.",
+          "title": "SAP Security Risks Are Often Hidden Across the Landscape",
           "items": [
             {
-              "title": "Authorizations without control",
-              "description": "SAP systems accumulate years of authorizations granted without a clear policy. The result: users with access to what they shouldn't have, and audits that discover it too late."
+              "title": "Excessive access and SoD conflicts",
+              "description": "Excessive or inappropriate user access, Segregation of Duties conflicts, privileged and emergency access, and obsolete or poorly designed roles accumulate silently over time."
             },
             {
-              "title": "Superusers without justification",
-              "description": "SAP_ALL, emergency profiles, and active development users in production are risk vectors that manual controls rarely detect in time."
+              "title": "Insecure configurations and connections",
+              "description": "Insecure system configurations, weak authentication controls, unmonitored technical users, and vulnerable RFC and interface connections expose the platform beyond user administration."
             },
             {
-              "title": "Reactive security",
-              "description": "Configuring security after go-live or in response to an audit finding is expensive and generates rework that a preventive design would have avoided."
+              "title": "Limited visibility and audit evidence",
+              "description": "Limited security logging, incomplete audit evidence, and security gaps introduced during projects or migrations leave the organization blind to its real exposure."
             }
           ],
-          "closing": "SAP security isn't a layer you add at the end — it's an architecture you design from the start or pay for dearly later."
+          "closing": "Without a structured security assessment, organizations may have limited visibility into where their most critical exposures exist and which actions should be prioritized."
         },
         "howWeHelp": {
-          "title": "End-to-end SAP security architecture",
-          "description": "From the assessment to continuous operations, we build a security posture that protects without interfering with the business.",
+          "title": "Comprehensive SAP Security Assessment Services",
+          "description": "Global Core Technologies evaluates your SAP security environment across people, processes, roles, configurations, and technical controls.",
           "items": [
             {
-              "title": "Security assessment",
-              "description": "We evaluate the current configuration: authorization objects, user profiles, system parameters, and entry points."
+              "title": "Identity and Access Review",
+              "description": "We analyze user access, identify inactive and obsolete users, review privileged accounts, assess technical and communication users, and evaluate authentication policies and user lifecycle controls."
             },
             {
-              "title": "Access architecture design",
-              "description": "We define the role, profile, and segregation-of-duties structure aligned to business processes and the principle of least privilege."
+              "title": "Role and Authorization Review",
+              "description": "We assess the role architecture, analyze excessive authorizations, review critical transactions and sensitive objects, identify wildcard authorizations, and evaluate role assignments."
             },
             {
-              "title": "System hardening",
-              "description": "We configure system security parameters, session management, password controls, and network access restrictions."
+              "title": "Segregation of Duties Analysis",
+              "description": "We identify SoD conflicts and critical access risks, map them to business processes, review compensating controls, validate risk owners, and prioritize remediation."
             },
             {
-              "title": "Remediation and continuous governance",
-              "description": "We implement controls, remediate identified gaps, and establish the governance to maintain the posture over time."
+              "title": "Technical Security Review",
+              "description": "We assess SAP security parameters, RFC destinations, secure communications, logging and trace configuration, transport security, and interface and integration risks."
+            },
+            {
+              "title": "Governance and Compliance Review",
+              "description": "We evaluate access request processes, approval workflows, periodic access reviews, emergency access processes, audit evidence availability, and security policy alignment."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Improve Security Visibility and Reduce Exposure",
           "items": [
-            { "title": "Audits without surprises", "description": "A designed security architecture turns critical audit findings into minor ones — or zero findings." },
-            { "title": "Reduced internal risk", "description": "Native access controls eliminate the error and fraud vectors that cause the greatest operational damage." },
-            { "title": "Operational continuity", "description": "Well-designed security doesn't slow down users who need access — it gives them exactly what they need and nothing more." },
-            { "title": "Foundation for regulatory compliance", "description": "A solid security architecture is the foundation of any compliance, GRC, or external audit initiative." }
+            {
+              "title": "Clear Risk Visibility",
+              "description": "Understand where your most critical SAP security gaps exist and how they may affect business operations."
+            },
+            {
+              "title": "Prioritized Remediation",
+              "description": "Focus resources on the highest-impact security issues instead of addressing findings without a clear risk-based order."
+            },
+            {
+              "title": "Stronger Compliance",
+              "description": "Improve alignment with internal controls, audit requirements, and regulatory frameworks."
+            },
+            {
+              "title": "Reduced Fraud Risk",
+              "description": "Identify excessive access and conflicting responsibilities that could enable unauthorized transactions."
+            },
+            {
+              "title": "Better Transformation Readiness",
+              "description": "Address security weaknesses before SAP S/4HANA migrations, cloud initiatives, or major system changes."
+            }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to an SAP security posture",
-          "description": "Four phases from diagnosis to continuous governance.",
+          "title": "A Risk-Based SAP Security Assessment Framework",
+          "description": "Our assessment methodology combines technical analysis, business context, and security governance.",
           "phases": [
-            { "name": "Assess", "deliverable": "Security assessment: gaps, risks, and current configuration" },
-            { "name": "Design", "deliverable": "Access architecture, roles, and security policy" },
-            { "name": "Implement", "deliverable": "Hardening, gap remediation, and validation" },
-            { "name": "Govern", "deliverable": "Continuous monitoring, access governance, and iterative improvement" }
+            {
+              "name": "Discover",
+              "deliverable": "Understand the SAP landscape, business processes, security model, and compliance requirements."
+            },
+            {
+              "name": "Analyze",
+              "deliverable": "Evaluate users, roles, authorizations, configurations, integrations, and security operations."
+            },
+            {
+              "name": "Prioritize",
+              "deliverable": "Classify findings according to business impact, likelihood, complexity, and urgency."
+            },
+            {
+              "name": "Recommend",
+              "deliverable": "Define practical remediation actions and governance improvements."
+            },
+            {
+              "name": "Roadmap",
+              "deliverable": "Create a phased security improvement plan aligned with business priorities and available resources."
+            }
           ]
         },
         "engagementScenarios": {
-          "title": "When a Security Assessment Is the Right Starting Point",
+          "title": "SAP Security Areas We Evaluate",
           "items": [
-            { "title": "First-Time Security Baseline", "description": "The organization has never had an independent review of its SAP authorization and configuration posture." },
-            { "title": "Pre-Audit Preparation", "description": "An internal or external audit is approaching and the current security posture hasn't been validated." },
-            { "title": "Post-Incident Review", "description": "A security incident or near-miss has raised questions about existing controls and access." },
-            { "title": "Ahead of a Major Project", "description": "An S/4HANA migration, RISE adoption, or system consolidation requires a clean security baseline before it begins." },
-            { "title": "Ownership Transition", "description": "New security or IT leadership needs an objective view of the environment they've inherited." }
+            {
+              "title": "Access Governance",
+              "description": "Review how access is requested, approved, provisioned, modified, and removed."
+            },
+            {
+              "title": "Role Design",
+              "description": "Evaluate whether roles are structured, maintainable, business-aligned, and compliant."
+            },
+            {
+              "title": "Segregation of Duties",
+              "description": "Identify conflicts between incompatible business activities."
+            },
+            {
+              "title": "Privileged Access",
+              "description": "Assess administrator, emergency, technical, and high-risk access."
+            },
+            {
+              "title": "Technical Security",
+              "description": "Review system parameters, communications, logging, interfaces, and platform-level controls."
+            },
+            {
+              "title": "Security Operations",
+              "description": "Evaluate monitoring, incident handling, periodic reviews, and ongoing security management."
+            },
+            {
+              "title": "S/4HANA Readiness",
+              "description": "Identify security risks that may affect migration planning or the future authorization model."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for your SAP security",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
-            { "title": "Security by design", "description": "SAP security is one of our five pillars: it's not a complementary service, it's the core of how we work." },
-            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, and Security of mission-critical SAP environments." },
-            { "title": "Clean Core mindset", "description": "We design controls that don't compromise system upgradeability." },
-            { "title": "Proprietary platforms", "description": "Intelliguard™ accelerates intelligent security monitoring and anomaly detection in your SAP environment." },
-            { "title": "Governance-driven approach", "description": "Every security control we implement is aligned to business objectives and regulatory compliance." },
-            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every security project." }
+            {
+              "title": "Deep SAP Security Expertise",
+              "description": "Our specialists understand SAP authorization concepts, security architecture, technical controls, and business risks."
+            },
+            {
+              "title": "Business-Oriented Analysis",
+              "description": "We translate technical findings into business impact, helping executives and risk owners make informed decisions."
+            },
+            {
+              "title": "Practical Recommendations",
+              "description": "Our remediation plans consider operational complexity, business continuity, and implementation effort."
+            },
+            {
+              "title": "Governance-Centric Approach",
+              "description": "We help strengthen not only technical controls but also the processes required to sustain security over time."
+            },
+            {
+              "title": "End-to-End Support",
+              "description": "Global Core Technologies can support the organization beyond the assessment through remediation, role redesign, SAP GRC, managed services, and continuous improvement."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free review",
-          "title": "Security review: we identify the 5 most critical configurations in your SAP",
-          "description": "A Global Core Technologies architect reviews your system's most critical parameters and delivers a risk scorecard with priority actions to take.",
-          "cta": "Book your security review"
+          "eyebrow": "Free checklist",
+          "title": "How Secure Is Your SAP Environment?",
+          "description": "Download the SAP Security Assessment Checklist and evaluate your organization across user access, privileged accounts, role design, Segregation of Duties, technical security, emergency access, monitoring, governance, and audit readiness.",
+          "cta": "Download the SAP Security Assessment Checklist"
         },
         "finalCta": {
-          "title": "Is your SAP truly protected?",
-          "description": "Book a session with our specialists and get an honest diagnosis of your SAP security posture.",
-          "ctaPrimary": "Assess your security posture",
-          "ctaSecondary": "Explore the Secure pillar"
+          "title": "Identify and Reduce SAP Security Risk",
+          "description": "Whether you are preparing for an audit, reviewing access controls, planning an SAP S/4HANA migration, or strengthening your security program, our experts can help you define the right path forward.",
+          "ctaPrimary": "Schedule an SAP Security Assessment",
+          "ctaSecondary": "Speak with an SAP Security Expert"
         }
       },
-      "sap-role-redesign": {
-        "metaTitle": "SAP Role Redesign | Authorization Model & Least Privilege | Global Core Technologies",
-        "metaDescription": "Design and manage SAP roles based on least privilege. Eliminate superusers, simplify the role landscape, and pass audits with no access findings.",
+      "sap-grc-access-control": {
+        "metaTitle": "SAP GRC Access Control | Implementation, Optimization & Support | Global Core Technologies",
+        "metaDescription": "SAP GRC Access Control consulting: implementation, SoD rule sets, access request automation, emergency access management, and managed GRC operations. Talk to an SAP GRC expert.",
         "eyebrow": "Pillar · Secure",
-        "h1": "SAP Role Redesign: a least-privilege authorization model, clean landscape, audits that pass",
-        "heroSubtitle": "We design and cleanse your SAP role landscape applying the principle of least privilege: we eliminate role proliferation, remediate superusers, and establish the governance process that keeps access control clean and auditable.",
-        "ctaPrimary": "Assess your role landscape",
-        "ctaSecondary": "Request a role analysis",
+        "h1": "Strengthen SAP Access Governance with SAP GRC",
+        "heroSubtitle": "Automate, control, and monitor access across your SAP environment with a governance framework designed to reduce risk, improve compliance, and simplify audit processes — from SAP GRC Access Control implementation and optimization to automated approval workflows, Segregation of Duties risk management, and control over privileged access.",
+        "ctaPrimary": "Schedule an SAP GRC Assessment",
+        "ctaSecondary": "Download the SAP GRC Maturity Checklist",
         "metrics": {
-          "projects": "SAP role projects",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "The SAP role landscape gets dirty over time — and with it, the risk.",
+          "title": "Manual Access Management Creates Risk and Complexity",
           "items": [
             {
-              "title": "Role proliferation",
-              "description": "Years of go-lives, upgrades, and ad hoc access requests generate hundreds of overlapping, orphaned, undocumented roles — impossible to audit manually."
+              "title": "Manual, inconsistent processes",
+              "description": "Manual access request processes, inconsistent approvals, delayed user provisioning, and complex role assignment decisions slow the business down and produce unpredictable outcomes."
             },
             {
-              "title": "The superuser legacy",
-              "description": "SAP_ALL granted in past projects, or users with accumulated profiles over time, create gaps that standard controls rarely detect."
+              "title": "Unmanaged access risk",
+              "description": "Limited visibility into SoD risks, excessive or outdated access, uncontrolled emergency access, and limited ownership of access risks leave real exposure unaddressed."
             },
             {
-              "title": "No governance process",
-              "description": "Without a formal process for requesting, approving, and reviewing access, the landscape degrades as fast as it's cleaned up."
+              "title": "Audit effort and underused GRC",
+              "description": "Incomplete audit trails, high effort during audits, and underutilized SAP GRC capabilities turn every compliance cycle into a fire drill."
             }
           ],
-          "closing": "A clean role landscape isn't a one-time project: it's the result of correct design plus continuous governance."
+          "closing": "Without an integrated governance platform, access decisions may be slow, inconsistent, difficult to audit, and disconnected from business risk."
         },
         "howWeHelp": {
-          "title": "From role chaos to granular, auditable control",
-          "description": "We analyze, redesign, and govern your SAP role landscape with methodology and expert judgment.",
+          "title": "End-to-End SAP GRC Access Control Services",
+          "description": "Global Core Technologies supports the full SAP GRC lifecycle, from strategy and implementation to optimization and managed services.",
           "items": [
             {
-              "title": "Current landscape analysis",
-              "description": "We inventory all roles, profiles, and assignments, identifying duplicates, orphaned roles, and over-privileged assignments."
+              "title": "Access Risk Analysis",
+              "description": "We design SoD rule sets, define critical access, enable real-time risk analysis and user and role risk simulation, assign risk owners, and manage mitigating controls."
             },
             {
-              "title": "Role model design",
-              "description": "We design the role structure based on business functions and least privilege, aligned to the system's actual processes."
+              "title": "Access Request Management",
+              "description": "We design access request workflows, automate approval processes, integrate business roles, embed risk analysis into requests, and connect provisioning with full status and audit tracking."
             },
             {
-              "title": "Implementation and migration",
-              "description": "We deploy the new roles, migrate assignments, and deactivate obsolete ones with a plan that doesn't disrupt operations."
+              "title": "Emergency Access Management",
+              "description": "We design Firefighter IDs, emergency access workflows, and reason code structures, with activity logging, controller reviews, and compliance reporting."
             },
             {
-              "title": "Access governance",
-              "description": "We establish the access lifecycle management process: request, approval, periodic review, and access recertification."
+              "title": "Business Role Management",
+              "description": "We establish role lifecycle governance, ownership, and approval workflows, integrate role methodology, and support role certification and documentation standards."
+            },
+            {
+              "title": "User Access Review",
+              "description": "We enable periodic access certification with manager and role owner reviews, risk-based campaigns, reviewer guidance, escalation workflows, and audit evidence generation."
+            },
+            {
+              "title": "GRC Optimization",
+              "description": "We review existing configurations, simplify workflows, tune rule sets, improve performance and reporting, and support upgrades and migrations."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Build a More Controlled and Efficient Access Model",
           "items": [
-            { "title": "Access audits with no findings", "description": "A clean, documented landscape passes access reviews without critical observations." },
-            { "title": "Reduced fraud risk", "description": "Least privilege eliminates unnecessary access — the main vector of internal fraud." },
-            { "title": "Agile operations", "description": "A well-designed access process reduces onboarding time and response times to requests." },
-            { "title": "Foundation for SoD and GRC", "description": "A clean role landscape is the prerequisite for implementing effective SoD controls and SAP GRC." }
+            {
+              "title": "Reduced Access Risk",
+              "description": "Identify and prevent SoD conflicts and critical access before permissions are assigned."
+            },
+            {
+              "title": "Faster Provisioning",
+              "description": "Automate access requests and approvals to reduce manual effort and user waiting times."
+            },
+            {
+              "title": "Improved Auditability",
+              "description": "Maintain structured evidence of requests, approvals, risks, mitigating controls, and reviews."
+            },
+            {
+              "title": "Stronger Accountability",
+              "description": "Assign clear ownership to business approvers, risk owners, role owners, and emergency access controllers."
+            },
+            {
+              "title": "Lower Operational Costs",
+              "description": "Reduce spreadsheet-based processes, manual analysis, and repetitive administrative tasks."
+            }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to clean RBAC",
-          "description": "Four phases from landscape analysis to continuous access governance.",
+          "title": "A Governance-Driven SAP GRC Framework",
+          "description": "Our framework embeds governance, ownership, and compliance objectives into every phase of the SAP GRC lifecycle.",
           "phases": [
-            { "name": "Analyze", "deliverable": "Role inventory, gaps, and access risk map" },
-            { "name": "Design", "deliverable": "Role model by business function and least privilege policy" },
-            { "name": "Implement", "deliverable": "Role deployment, assignment migration, and validation" },
-            { "name": "Govern", "deliverable": "Access lifecycle process and periodic recertification" }
+            {
+              "name": "Assess",
+              "deliverable": "Review current access processes, risk rules, organizational requirements, and SAP GRC maturity."
+            },
+            {
+              "name": "Design",
+              "deliverable": "Define governance roles, workflows, risk ownership, approval levels, and integration requirements."
+            },
+            {
+              "name": "Implement",
+              "deliverable": "Configure SAP GRC capabilities according to business and compliance objectives."
+            },
+            {
+              "name": "Integrate",
+              "deliverable": "Connect SAP GRC with target systems, identity platforms, and provisioning processes."
+            },
+            {
+              "name": "Adopt",
+              "deliverable": "Train users, approvers, controllers, risk owners, and administrators."
+            },
+            {
+              "name": "Optimize",
+              "deliverable": "Continuously tune rules, workflows, reports, and governance processes."
+            }
           ]
         },
         "engagementScenarios": {
-          "title": "When It's Time to Redesign the Role Landscape",
+          "title": "SAP GRC Scenarios We Support",
           "items": [
-            { "title": "Years of Role Sprawl", "description": "Roles have been copied, modified, and layered for years without a clean model or naming convention." },
-            { "title": "Excessive Superuser Access", "description": "Too many users hold broad or SAP_ALL-type access because narrower roles were never built." },
-            { "title": "Failed Audit Findings", "description": "Recent audits flagged access that can't be explained or justified by current role design." },
-            { "title": "Merger or Reorganization", "description": "Business units, companies, or org structures changed and the role model no longer reflects reality." },
-            { "title": "Pre-S/4HANA Role Rebuild", "description": "A migration to S/4HANA is a natural checkpoint to rebuild authorizations on a clean, least-privilege model." }
+            {
+              "title": "New SAP GRC Implementation",
+              "description": "Deploy SAP GRC Access Control as a centralized platform for access governance."
+            },
+            {
+              "title": "Existing GRC Optimization",
+              "description": "Improve underused, overly complex, or poorly aligned SAP GRC environments."
+            },
+            {
+              "title": "SoD Rule Set Redesign",
+              "description": "Adapt risk rules to actual business processes, organizational structure, and compliance requirements."
+            },
+            {
+              "title": "GRC for SAP S/4HANA",
+              "description": "Prepare access governance, connectors, rules, roles, and workflows for the S/4HANA environment."
+            },
+            {
+              "title": "GRC Integration",
+              "description": "Integrate SAP GRC with identity management, HR systems, service management platforms, and SAP landscapes."
+            },
+            {
+              "title": "Managed GRC Operations",
+              "description": "Provide ongoing administration, support, risk analysis, workflow maintenance, and continuous optimization."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for your SAP role management",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
-            { "title": "Security by design", "description": "Good RBAC requires deep knowledge of SAP processes, not just role technology." },
-            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Security, and functional modules of critical SAP environments." },
-            { "title": "SoD and GRC integration", "description": "We design roles with SoD conflicts already built in as a design constraint." },
-            { "title": "Proprietary platforms", "description": "Intelliguard™ complements access governance with visibility and anomaly alerts." },
-            { "title": "Governance-driven approach", "description": "The governance process we design ensures the landscape stays clean after the project." },
-            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every access project." }
+            {
+              "title": "SAP Security and GRC Expertise",
+              "description": "Our teams combine authorization knowledge, business process understanding, and SAP GRC technical capabilities."
+            },
+            {
+              "title": "Business-Aligned Rule Sets",
+              "description": "We help organizations create risk rules that reflect real business activities rather than generic control libraries."
+            },
+            {
+              "title": "Governance by Design",
+              "description": "Ownership, accountability, approvals, evidence, and exception management are embedded in the solution."
+            },
+            {
+              "title": "Integration Experience",
+              "description": "We support connections between SAP GRC, SAP systems, identity platforms, HR applications, and service management solutions."
+            },
+            {
+              "title": "Long-Term Support",
+              "description": "Our services continue after go-live through managed support, rule tuning, process optimization, and platform administration."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free analysis",
-          "title": "Role analysis: we tell you how many critical accesses your SAP has today",
-          "description": "We review a sample of your role landscape and return an exposure indicator with the 3 most frequent risk patterns.",
-          "cta": "Request your role analysis"
+          "eyebrow": "Free checklist",
+          "title": "Is Your SAP GRC Environment Delivering Its Full Value?",
+          "description": "Download the SAP GRC Access Control Maturity Checklist and assess access request automation, SoD risk analysis, emergency access, role governance, user access reviews, workflow efficiency, risk ownership, reporting, and audit readiness.",
+          "cta": "Download the SAP GRC Maturity Checklist"
         },
         "finalCta": {
-          "title": "Is your SAP role landscape under control?",
-          "description": "Book a session with our specialists and walk away with a clear exposure diagnosis and a prioritized remediation plan.",
-          "ctaPrimary": "Assess your role landscape",
-          "ctaSecondary": "Explore the Secure pillar"
+          "title": "Build a Sustainable SAP Access Governance Model",
+          "description": "Whether you are implementing SAP GRC for the first time, preparing for SAP S/4HANA, or improving an existing environment, Global Core Technologies can help you establish a more controlled and efficient access model.",
+          "ctaPrimary": "Schedule an SAP GRC Assessment",
+          "ctaSecondary": "Speak with an SAP GRC Expert"
         }
       },
       "sap-segregation-of-duties": {
         "metaTitle": "SAP Segregation of Duties | SoD Analysis & Remediation | Global Core Technologies",
-        "metaDescription": "Detect and remediate SoD conflicts in SAP before they become audit findings or fraud risks. Diagnosis, remediation, and continuous governance.",
+        "metaDescription": "SAP SoD services: risk assessment, business-aligned rule sets, conflict remediation, mitigating controls, and ongoing governance to reduce fraud and compliance risk.",
         "eyebrow": "Pillar · Secure",
-        "h1": "SAP Segregation of Duties: eliminate the conflicts that produce audit findings and fraud risk",
-        "heroSubtitle": "We analyze your SAP environment to identify segregation-of-duties conflicts, assess the real risk of each one, and execute the remediation that eliminates exposure without paralyzing operations — with the continuous governance that prevents them from reappearing.",
-        "ctaPrimary": "Analyze your SoD conflicts",
-        "ctaSecondary": "Request an SoD diagnostic",
+        "h1": "Reduce Fraud and Compliance Risk with Effective SAP Segregation of Duties",
+        "heroSubtitle": "Identify, manage, and prevent conflicting access across critical SAP business processes with a risk-based Segregation of Duties framework — from conflict identification and business impact analysis to access redesign, mitigating controls, and sustainable monitoring processes across the SAP landscape.",
+        "ctaPrimary": "Schedule an SAP SoD Assessment",
+        "ctaSecondary": "Download the SAP SoD Checklist",
         "metrics": {
-          "projects": "SoD analyses completed",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Undetected SoD conflicts are fraud in waiting.",
+          "title": "SoD Conflicts Can Remain Hidden Until an Audit or Incident",
           "items": [
             {
-              "title": "Recurring audit findings",
-              "description": "SoD conflicts are the most frequent finding in SAP system audits. Without systematic analysis, they appear every audit cycle and generate observations that escalate to the board."
+              "title": "Access that accumulates over time",
+              "description": "Users accumulate access as they change positions, responsibilities conflict across departments, and complex cross-system conflicts escape any single system's view."
             },
             {
-              "title": "Unquantified fraud risk",
-              "description": "A user who can create a vendor and approve their payment has the technical ability to execute fraud. Without visibility into these combinations, the risk exists without control."
+              "title": "Rule sets that don't reflect the business",
+              "description": "Generic or outdated SoD rule sets generate excessive false positives, while limited business ownership and inconsistent risk acceptance undermine the analysis."
             },
             {
-              "title": "Remediation that creates more problems",
-              "description": "Remediating an SoD conflict without understanding the underlying business processes breaks operations. Removing access without analysis creates production blockages."
+              "title": "Weak controls and disruptive remediation",
+              "description": "Weak mitigating controls, inadequate periodic reviews, poor documentation, and remediation initiatives that disrupt operations keep risk unresolved."
             }
           ],
-          "closing": "Segregation of duties isn't an audit requirement — it's the control that protects your business from the risks hardest to detect from the outside."
+          "closing": "Without a business-aligned SoD framework, organizations may either underestimate genuine risk or generate excessive findings that cannot be effectively managed."
         },
         "howWeHelp": {
-          "title": "SoD analysis, remediation, and governance without disrupting operations",
-          "description": "A complete cycle from diagnosis to risk elimination, with the business intelligence needed to not break what works.",
+          "title": "Comprehensive SAP SoD Risk Management",
+          "description": "We help organizations identify SoD conflicts, understand their business impact, redesign access, implement mitigating controls, and establish sustainable monitoring across the SAP landscape.",
           "items": [
             {
-              "title": "SoD conflict analysis",
-              "description": "We run a complete access conflict analysis across your SAP environment, classified by risk level (critical, high, medium) and actual usage frequency."
+              "title": "SoD Risk Assessment",
+              "description": "We analyze conflicts at the user, role, and cross-system level, review critical access, map risks to business processes, and classify findings by severity."
             },
             {
-              "title": "Real risk assessment",
-              "description": "Beyond the existence of the conflict, we analyze whether it is actually exercised — to prioritize remediation where the risk is effective, not just theoretical."
+              "title": "Rule Set Design",
+              "description": "We define business activities, map functions and actions to transactions and authorization objects, design risk combinations, consider organizational levels, and reduce false positives."
             },
             {
-              "title": "Remediation and compensating controls",
-              "description": "For each critical conflict we define the optimal remediation path: role redesign, access restriction, or a documented compensating control."
+              "title": "Conflict Remediation",
+              "description": "We analyze user assignments, recommend role adjustments and access removal scenarios, support role redesign, validate changes with the business, and track remediation."
             },
             {
-              "title": "Governance and continuous monitoring",
-              "description": "We implement the process and tools so that SoD conflicts are detected and resolved before the next audit cycle."
+              "title": "Mitigating Controls",
+              "description": "We define controls, assign control owners, establish execution frequency and evidence requirements, assess effectiveness, and manage expiration and renewal."
+            },
+            {
+              "title": "Ongoing SoD Governance",
+              "description": "We establish the risk ownership model, integrate SoD checks into access requests, and set up periodic reviews, monitoring procedures, dashboards, and audit evidence management."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Improve Control Without Disrupting Business Operations",
           "items": [
-            { "title": "Zero SoD findings in audit", "description": "A complete analysis and remediation converts audit observations into closed findings." },
-            { "title": "Fraud risk quantified and controlled", "description": "You know exactly which access combinations exist, their real risk, and how they are mitigated." },
-            { "title": "Operations without disruption", "description": "Remediation is designed with business processes in mind: no one loses access they need to operate." },
-            { "title": "Strengthened regulatory compliance", "description": "Well-managed SoD is a requirement of SOX, GDPR, ISO 27001, and any internal controls audit." }
+            {
+              "title": "Reduced Fraud Exposure",
+              "description": "Prevent users from controlling incompatible steps within critical business processes."
+            },
+            {
+              "title": "Better Compliance",
+              "description": "Strengthen internal controls and improve alignment with audit and regulatory expectations."
+            },
+            {
+              "title": "More Accurate Risk Analysis",
+              "description": "Reduce false positives by aligning the SoD rule set with actual business processes and system usage."
+            },
+            {
+              "title": "Clear Risk Ownership",
+              "description": "Ensure business leaders understand, approve, mitigate, and periodically review access risks."
+            },
+            {
+              "title": "Sustainable Governance",
+              "description": "Move from one-time conflict cleanups to a repeatable SoD management process."
+            }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to risk-free SoD",
-          "description": "Four phases from analysis to continuous governance.",
+          "title": "A Business-Centered SoD Framework",
+          "description": "Our methodology connects business processes, access data, and governance to manage SoD risk end to end.",
           "phases": [
-            { "name": "Diagnose", "deliverable": "SoD conflict matrix by module, risk level, and usage frequency" },
-            { "name": "Prioritize", "deliverable": "Critical conflict ranking and remediation plan" },
-            { "name": "Remediate", "deliverable": "Role redesign, restrictions, and documented compensating controls" },
-            { "name": "Monitor", "deliverable": "Continuous process for detecting and resolving new conflicts" }
+            {
+              "name": "Understand",
+              "deliverable": "Map critical business processes, responsibilities, applications, and regulatory requirements."
+            },
+            {
+              "name": "Define",
+              "deliverable": "Establish incompatible activities, critical actions, risk levels, and control expectations."
+            },
+            {
+              "name": "Analyze",
+              "deliverable": "Identify actual user, role, and cross-system conflicts."
+            },
+            {
+              "name": "Remediate",
+              "deliverable": "Remove inappropriate access, redesign roles, or apply validated mitigating controls."
+            },
+            {
+              "name": "Govern",
+              "deliverable": "Embed SoD checks into access requests, role changes, certifications, and monitoring."
+            },
+            {
+              "name": "Sustain",
+              "deliverable": "Continuously review risks, controls, rule sets, and organizational changes."
+            }
           ]
         },
         "engagementScenarios": {
-          "title": "When SoD Risk Needs Active Management",
+          "title": "Business Processes We Cover",
           "items": [
-            { "title": "Unreviewed SoD Conflicts", "description": "SoD conflicts have never been formally analyzed or are only tracked in spreadsheets." },
-            { "title": "External Audit Findings", "description": "Auditors have flagged SoD violations that require remediation and evidence of resolution." },
-            { "title": "Fraud Concern or Investigation", "description": "A specific concern or incident has raised questions about conflicting access being exploited." },
-            { "title": "New Regulatory Scope", "description": "New compliance requirements (SOX, industry regulation) demand formal SoD controls that don't yet exist." },
-            { "title": "Ongoing Monitoring Gap", "description": "SoD conflicts are identified once but never continuously monitored as roles and access evolve." }
+            {
+              "title": "Procure-to-Pay",
+              "description": "Conflicts involving vendor creation, purchase orders, goods receipts, invoice processing, and payments."
+            },
+            {
+              "title": "Order-to-Cash",
+              "description": "Conflicts involving customer management, sales orders, deliveries, billing, credit, and collections."
+            },
+            {
+              "title": "Record-to-Report",
+              "description": "Conflicts involving journal entries, account maintenance, financial closing, and reporting."
+            },
+            {
+              "title": "Hire-to-Retire",
+              "description": "Conflicts involving employee records, payroll data, compensation, and payment processing."
+            },
+            {
+              "title": "Inventory and Warehouse Management",
+              "description": "Conflicts involving inventory adjustments, movements, counts, and material management."
+            },
+            {
+              "title": "Basis and Technical Administration",
+              "description": "Critical access involving user administration, role maintenance, transports, system configuration, and technical operations."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for your SoD management",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
-            { "title": "Security by design", "description": "We embed SoD as a design constraint in every role project and SAP transformation." },
-            { "title": "Deep functional knowledge", "description": "Understanding business processes is essential to remediating SoD without breaking operations." },
-            { "title": "Audit experience", "description": "We have supported clients through SOX, ISO 27001, and internal controls reviews." },
-            { "title": "SAP GRC integration", "description": "If you have or plan to implement SAP GRC, we align the SoD analysis with the suite." },
-            { "title": "Proprietary platforms", "description": "Intelliguard™ complements continuous SoD conflict monitoring with real-time alerts." },
-            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every analysis and remediation." }
+            {
+              "title": "Business and Technical Expertise",
+              "description": "We combine SAP authorization knowledge with an understanding of end-to-end business processes."
+            },
+            {
+              "title": "Risk-Based Analysis",
+              "description": "We focus on meaningful business risk instead of producing large volumes of generic findings."
+            },
+            {
+              "title": "Practical Remediation",
+              "description": "Our recommendations consider operational continuity and avoid unnecessary disruption."
+            },
+            {
+              "title": "Strong Governance",
+              "description": "We help establish risk owners, mitigating controls, review cycles, and escalation mechanisms."
+            },
+            {
+              "title": "SAP GRC Integration",
+              "description": "We can implement or optimize automated SoD analysis using SAP GRC Access Control."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free diagnostic",
-          "title": "SoD diagnostic: how many critical conflicts does your SAP have today",
-          "description": "We run a sample analysis on your system and return the count of active critical conflicts and the 3 most exposed business processes.",
-          "cta": "Request your SoD diagnostic"
+          "eyebrow": "Free checklist",
+          "title": "Are SoD Conflicts Creating Hidden Risk?",
+          "description": "Download the SAP Segregation of Duties Checklist and evaluate rule set quality, user-level and role-level conflicts, cross-system risks, critical access, risk ownership, mitigating controls, periodic reviews, and audit evidence.",
+          "cta": "Download the SAP SoD Checklist"
         },
         "finalCta": {
-          "title": "Do you know how many SoD conflicts your SAP has today?",
-          "description": "Book a session with our specialists and walk away with an honest exposure diagnosis and a prioritized remediation plan.",
-          "ctaPrimary": "Analyze your SoD conflicts",
-          "ctaSecondary": "Explore the Secure pillar"
+          "title": "Strengthen Control Across Critical SAP Processes",
+          "description": "Whether you need an initial SoD assessment, a new rule set, conflict remediation, or an ongoing governance model, our specialists can help reduce risk while maintaining business continuity.",
+          "ctaPrimary": "Schedule an SAP SoD Assessment",
+          "ctaSecondary": "Speak with an SAP Security Expert"
         }
       },
-      "sap-grc-access-control": {
-        "metaTitle": "SAP GRC Access Control | Access, Process & Risk Governance | Global Core Technologies",
-        "metaDescription": "Implement SAP GRC to automate access control, process monitoring, and risk management. Continuous compliance, without manual overhead.",
+      "sap-role-redesign": {
+        "metaTitle": "SAP Role Redesign | Authorization Model & Role Cleanup | Global Core Technologies",
+        "metaDescription": "SAP role redesign services: business-aligned role architecture, legacy role cleanup, S/4HANA and Fiori authorization design, SoD-driven redesign, and controlled deployment.",
         "eyebrow": "Pillar · Secure",
-        "h1": "SAP GRC Access Control: automated risk governance and compliance in a single suite",
-        "heroSubtitle": "We implement and operate the SAP GRC suite — Access Control, Process Control, and Risk Management — to replace manual, reactive controls with automated, continuous, and auditable risk governance.",
-        "ctaPrimary": "Assess your SAP GRC case",
-        "ctaSecondary": "Request your GRC session",
+        "h1": "Simplify and Modernize Your SAP Role Model",
+        "heroSubtitle": "Redesign SAP roles to reduce excessive access, improve user experience, strengthen compliance, and create a scalable authorization model — using a structured, business-aligned approach that reduces risk, improves governance, and supports future transformation initiatives.",
+        "ctaPrimary": "Schedule a Role Redesign Assessment",
+        "ctaSecondary": "Download the SAP Role Design Checklist",
         "metrics": {
-          "projects": "GRC implementations",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Manual compliance doesn't scale — and auditors already know it.",
+          "title": "Legacy SAP Roles Create Security and Operational Complexity",
           "items": [
             {
-              "title": "Access reviews in spreadsheets",
-              "description": "Manual access recertification and SoD analysis processes consume weeks of work and still produce incomplete, inconsistent results."
+              "title": "Complex, duplicated role landscapes",
+              "description": "Thousands of duplicated roles, roles designed around individual users, inconsistent naming conventions, and uncontrolled derived roles make the model impossible to reason about."
             },
             {
-              "title": "Reactive risk management",
-              "description": "Without a centralized platform, risks are identified late, mitigations are undocumented, and the control history doesn't exist when the audit arrives."
+              "title": "Excessive access and SoD conflicts",
+              "description": "Excessive access, obsolete transactions, high SoD conflict volumes, and poor role ownership turn every audit into a costly exercise."
             },
             {
-              "title": "Multiple systems, one responsibility",
-              "description": "IT Security, Internal Audit, and Compliance often work with disconnected tools. The result: gaps nobody sees until they become a problem."
+              "title": "High maintenance effort and poor readiness",
+              "description": "Manual role maintenance, difficult access requests, limited documentation, and role models that do not support SAP S/4HANA slow the business and block transformation."
             }
           ],
-          "closing": "SAP GRC isn't an IT project — it's the governance infrastructure that connects security, compliance, and risk management in a single source of truth."
+          "closing": "A poorly structured role model increases security risk, administrative effort, provisioning time, and audit complexity."
         },
         "howWeHelp": {
-          "title": "End-to-end SAP GRC implementation and operations",
-          "description": "From scope definition to production operations, with a focus on real adoption and measurable value.",
+          "title": "End-to-End SAP Role Redesign Services",
+          "description": "Global Core Technologies helps organizations redesign their SAP authorization model with a structured approach that covers analysis, design, build, and transition.",
           "items": [
             {
-              "title": "SAP GRC Access Control",
-              "description": "We implement the access control module: request management, periodic reviews, SoD analysis, and emergency access management (Firefighter)."
+              "title": "Current-State Assessment",
+              "description": "We analyze the role inventory and usage, review user assignments and transaction usage, examine authorization objects, and evaluate SoD and critical access."
             },
             {
-              "title": "SAP GRC Process Control",
-              "description": "We automate process control monitoring: control definition, automated testing, and audit evidence generation."
+              "title": "Role Architecture Design",
+              "description": "We define the business and technical role models, the single and composite role strategy, master and derived role design, organizational level strategy, and naming conventions."
             },
             {
-              "title": "SAP GRC Risk Management",
-              "description": "We centralize the risk register, mitigation plans, and control tracking in a unified, auditable repository."
+              "title": "Business Process Alignment",
+              "description": "We map job functions, define business activities, validate with process owners, classify access levels, define organizational scope, and assign role ownership."
             },
             {
-              "title": "Operations and adoption",
-              "description": "We support the go-live, train Security, Audit, and Compliance teams, and ensure the platform is used as designed."
+              "title": "Role Build and Testing",
+              "description": "We create roles, maintain authorizations, and run unit, integration, and user acceptance testing along with SoD simulation."
+            },
+            {
+              "title": "Deployment and Transition",
+              "description": "We map users, migrate role assignments, plan cutover, retire legacy roles, provide hypercare support, and deliver documentation and training."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Build a Cleaner and More Sustainable Authorization Model",
           "items": [
-            { "title": "Continuous compliance", "description": "Automated controls replace point-in-time review with permanent monitoring that detects deviations in real time." },
-            { "title": "More efficient audits", "description": "Control evidence is centralized and available: audits take days, not weeks." },
-            { "title": "Controlled emergency access", "description": "Firefighter and emergency access are logged, approved, and reviewed — with no traceability gaps." },
-            { "title": "A common language between IT and business", "description": "GRC connects technical risks with business objectives and translates them into terms the board understands." }
+            {
+              "title": "Reduced Excessive Access",
+              "description": "Ensure users receive access aligned with their actual business responsibilities."
+            },
+            {
+              "title": "Fewer SoD Conflicts",
+              "description": "Design roles with risk considerations embedded from the beginning."
+            },
+            {
+              "title": "Simplified Administration",
+              "description": "Reduce duplication, manual maintenance, and inconsistent role structures."
+            },
+            {
+              "title": "Faster Access Provisioning",
+              "description": "Enable clearer access requests and more predictable approvals."
+            },
+            {
+              "title": "Improved User Experience",
+              "description": "Provide users with the access they need without unnecessary menus, transactions, or applications."
+            },
+            {
+              "title": "Stronger S/4HANA Readiness",
+              "description": "Prepare the authorization model for Fiori, new business processes, and SAP S/4HANA."
+            }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to SAP GRC in production",
-          "description": "Four phases from design to adopted operations.",
+          "title": "A Structured SAP Role Redesign Methodology",
+          "description": "Our methodology moves from analysis to governance so the new role model stays clean after go-live.",
           "phases": [
-            { "name": "Define", "deliverable": "Scope, modules, and GRC implementation roadmap" },
-            { "name": "Configure", "deliverable": "SoD rules, process controls, and risk register" },
-            { "name": "Validate", "deliverable": "Integrated testing with real roles, processes, and data" },
-            { "name": "Operate", "deliverable": "Go-live, team adoption, and continuous control improvement" }
+            {
+              "name": "Assess",
+              "deliverable": "Analyze the existing role landscape, assignments, usage, risks, and maintenance processes."
+            },
+            {
+              "name": "Design",
+              "deliverable": "Define the target role model, standards, ownership, organizational structure, and governance."
+            },
+            {
+              "name": "Build",
+              "deliverable": "Create roles according to approved business requirements and technical design principles."
+            },
+            {
+              "name": "Validate",
+              "deliverable": "Test functional access, organizational restrictions, SoD risks, and user experience."
+            },
+            {
+              "name": "Transition",
+              "deliverable": "Map users, deploy new roles, retire legacy access, and support cutover."
+            },
+            {
+              "name": "Govern",
+              "deliverable": "Establish lifecycle processes for role requests, changes, reviews, and retirement."
+            }
           ]
         },
         "engagementScenarios": {
-          "title": "When Manual Controls Have Reached Their Limit",
+          "title": "Role Redesign Scenarios",
           "items": [
-            { "title": "Scaling Access Requests", "description": "Access request and approval volume has outgrown what email and spreadsheets can manage." },
-            { "title": "Recurring Audit Remediation", "description": "The same access and SoD findings resurface every audit cycle because controls aren't automated." },
-            { "title": "Emergency Access Exposure", "description": "Firefighter or emergency access is used without structured logging, approval, or review." },
-            { "title": "Multi-System Risk Visibility", "description": "Risk needs to be assessed and reported across SAP and non-SAP systems from a single suite." },
-            { "title": "Compliance Program Maturity", "description": "The organization is ready to move from reactive compliance to a continuous, automated risk governance model." }
+            {
+              "title": "Legacy Role Cleanup",
+              "description": "Consolidate duplicated, obsolete, unused, or excessively broad roles."
+            },
+            {
+              "title": "SAP S/4HANA Role Redesign",
+              "description": "Adapt roles for new transactions, applications, authorization objects, and business processes."
+            },
+            {
+              "title": "SAP Fiori Authorization Design",
+              "description": "Design catalogs, spaces, pages, groups, business roles, and backend authorizations."
+            },
+            {
+              "title": "SoD-Driven Role Redesign",
+              "description": "Reduce conflicts by restructuring access around compatible business activities."
+            },
+            {
+              "title": "Organizational Redesign",
+              "description": "Adapt role structures to changes in companies, plants, sales organizations, purchasing organizations, or other business units."
+            },
+            {
+              "title": "Merger and Acquisition Integration",
+              "description": "Harmonize role models following organizational consolidation or system integration."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for your SAP GRC implementation",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
-            { "title": "Security and GRC are our DNA", "description": "Secure is one of our five pillars: we don't implement GRC as an isolated project but as part of the governance strategy." },
-            { "title": "Deep SAP expertise", "description": "We know SAP modules in depth — a prerequisite for configuring SoD rules and process controls that work in practice." },
-            { "title": "Full integration", "description": "We integrate GRC with the role landscape, functional modules, and existing ITSM tools." },
-            { "title": "Proprietary platforms", "description": "Intelliguard™ complements SAP GRC for broader security and compliance coverage." },
-            { "title": "Focus on adoption", "description": "A GRC implementation without adoption is a failed project. We ensure teams actually use it." },
-            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every GRC project." }
+            {
+              "title": "Authorization Expertise",
+              "description": "Our specialists understand SAP roles, authorization objects, organizational restrictions, Fiori, and technical security."
+            },
+            {
+              "title": "Business Process Alignment",
+              "description": "Roles are designed around real job responsibilities and business activities."
+            },
+            {
+              "title": "Security by Design",
+              "description": "Least privilege, SoD, critical access, and governance are integrated into the role model."
+            },
+            {
+              "title": "Controlled Transition",
+              "description": "We minimize disruption through structured testing, user mapping, cutover planning, and hypercare."
+            },
+            {
+              "title": "Sustainable Governance",
+              "description": "We establish standards and ownership to prevent the role environment from becoming complex again."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "GRC session: we map the modules that would give you the most value in your context",
-          "description": "In 45 minutes we assess your current governance maturity and tell you which SAP GRC modules would address your most critical gaps first.",
-          "cta": "Book your GRC session"
+          "eyebrow": "Free checklist",
+          "title": "Is Your SAP Role Model Still Fit for Purpose?",
+          "description": "Download the SAP Role Design Checklist and evaluate role duplication, excessive access, naming standards, role ownership, organizational levels, SoD integration, Fiori readiness, role lifecycle, and documentation.",
+          "cta": "Download the SAP Role Design Checklist"
         },
         "finalCta": {
-          "title": "Ready to automate your SAP risk governance?",
-          "description": "Book a session with our specialists and let's define the GRC implementation roadmap that closes your most urgent compliance gaps.",
-          "ctaPrimary": "Assess your SAP GRC case",
-          "ctaSecondary": "Explore the Secure pillar"
+          "title": "Create a Scalable SAP Authorization Model",
+          "description": "Whether you need to clean up legacy roles, prepare for SAP S/4HANA, enable SAP Fiori, or reduce access risk, our experts can help design a role model that supports your business today and in the future.",
+          "ctaPrimary": "Schedule a Role Redesign Assessment",
+          "ctaSecondary": "Speak with an SAP Authorization Expert"
         }
       },
-      "sap-compliance-monitoring": {
-        "metaTitle": "SAP Compliance Monitoring | Continuous Compliance | Global Core Technologies",
-        "metaDescription": "Monitor your SAP environment's regulatory compliance in real time: alerts, reports, and deviation control before the auditor finds them.",
+      "sap-emergency-access-management": {
+        "metaTitle": "SAP Emergency Access Management | SAP GRC EAM & Firefighter | Global Core Technologies",
+        "metaDescription": "SAP Emergency Access Management: Firefighter ID design, SAP GRC EAM implementation, activity monitoring, and governance for secure, auditable privileged access.",
         "eyebrow": "Pillar · Secure",
-        "h1": "Compliance Monitoring: continuous control that detects deviations before the auditor does",
-        "heroSubtitle": "We implement and operate continuous compliance monitoring for your SAP environment: real-time alerts on control deviations, automated audit reports, and permanent visibility into the status of your regulatory obligations.",
-        "ctaPrimary": "Assess your monitoring coverage",
-        "ctaSecondary": "Request a monitoring demo",
+        "h1": "Enable Emergency SAP Access Without Losing Control",
+        "heroSubtitle": "Provide secure, temporary, and fully auditable privileged access for critical incidents, support activities, and operational emergencies — with structured Emergency Access Management processes that deliver rapid access while maintaining approval, traceability, monitoring, and accountability.",
+        "ctaPrimary": "Schedule an Emergency Access Assessment",
+        "ctaSecondary": "Download the Emergency Access Checklist",
         "metrics": {
-          "projects": "monitored environments",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "If you only check compliance when the audit arrives, it's already too late.",
+          "title": "Emergency Access Must Balance Speed and Control",
           "items": [
             {
-              "title": "Point-in-time audits vs. continuous risk",
-              "description": "An annual or semi-annual review captures a snapshot. Compliance risks materialize throughout the year: access granted, controls disabled, configurations modified."
+              "title": "Permanent and shared privilege",
+              "description": "Shared privileged accounts, permanent administrator access, and uncontrolled use of SAP_ALL or SAP_NEW expose the environment far beyond real emergencies."
             },
             {
-              "title": "Manual reports that don't scale",
-              "description": "Preparing evidence for an audit means weeks of data extraction, consolidation, and review. A process that should take hours consumes the team's entire month."
+              "title": "Informal processes and weak logging",
+              "description": "Informal emergency access approvals, missing activity logs, weak reason code usage, and delayed controller reviews break the chain of accountability."
             },
             {
-              "title": "Deviations nobody sees until they escalate",
-              "description": "Without automatic alerts, deviations from critical controls — a security parameter change, an unjustified emergency access — go unnoticed until they cause a finding."
+              "title": "Insufficient evidence and follow-up",
+              "description": "Inadequate audit evidence, emergency IDs that are not regularly reviewed, and access that remains active beyond the incident turn every emergency into lasting risk."
             }
           ],
-          "closing": "Compliance isn't a state — it's a continuous process. The only way to manage it effectively is to monitor it permanently."
+          "closing": "An effective emergency access process must allow rapid intervention without compromising security or compliance."
         },
         "howWeHelp": {
-          "title": "Continuous, automated, auditable compliance monitoring",
-          "description": "We build and operate the monitoring layer that gives you permanent visibility into the status of your controls and regulatory obligations.",
+          "title": "Comprehensive Emergency Access Management Services",
+          "description": "Global Core Technologies helps organizations design, implement, and govern emergency access processes that combine speed with full traceability.",
           "items": [
             {
-              "title": "Control framework definition",
-              "description": "We map your regulatory obligations (SOX, GDPR, ISO 27001, etc.) to specific SAP controls, with clear, measurable compliance criteria."
+              "title": "Current-State Review",
+              "description": "We inventory privileged users, assess emergency IDs and permanent elevated access, analyze processes and workflows, review logging configuration, and examine audit findings."
             },
             {
-              "title": "Automated monitoring",
-              "description": "We configure continuous monitoring of technical and process controls, with real-time alerts on deviations and risk thresholds."
+              "title": "Emergency Access Design",
+              "description": "We define the Firefighter ID model, owner and controller responsibilities, approval workflows, access duration rules, reason code structures, and escalation processes."
             },
             {
-              "title": "Automated audit reports",
-              "description": "We generate control evidence automatically: audit reports are ready when auditors ask for them, not weeks later."
+              "title": "SAP GRC EAM Implementation",
+              "description": "We configure Firefighter IDs and roles, activate workflows, set up log collection and controller reviews, and enable reporting and notifications."
             },
             {
-              "title": "Finding management",
-              "description": "When a deviation is detected, we support the investigation, remediation, and finding closure with full traceability."
+              "title": "Activity Monitoring",
+              "description": "We review transaction execution and change logs, monitor sensitive activities, analyze failed logons and usage patterns, and identify exceptions."
+            },
+            {
+              "title": "Governance and Compliance",
+              "description": "We establish periodic certification, owner reviews, controller performance monitoring, evidence retention, policy development, and audit support."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Respond Quickly While Maintaining Accountability",
           "items": [
-            { "title": "Audits without emergency preparation", "description": "Control evidence is always available: audits are answered in days, not weeks of frantic preparation." },
-            { "title": "Deviations detected before they escalate", "description": "Real-time alerts allow action on a deviation before it becomes a finding or an incident." },
-            { "title": "Quantified compliance", "description": "Instead of a yes/no compliance status, you have continuous metrics showing the real state of each control." },
-            { "title": "Team focused on value", "description": "Eliminating manual evidence preparation frees the security and audit team for higher-value work." }
+            {
+              "title": "Faster Incident Response",
+              "description": "Provide approved elevated access without waiting for manual administrator intervention."
+            },
+            {
+              "title": "Reduced Privileged Access Risk",
+              "description": "Replace permanent high-level access with temporary and controlled access."
+            },
+            {
+              "title": "Complete Traceability",
+              "description": "Record who used emergency access, why it was used, and which activities were performed."
+            },
+            {
+              "title": "Improved Compliance",
+              "description": "Demonstrate structured approvals, monitoring, reviews, and evidence retention."
+            },
+            {
+              "title": "Stronger Accountability",
+              "description": "Assign clear responsibilities to users, owners, controllers, and security teams."
+            }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to continuous monitoring",
-          "description": "Four phases from regulatory mapping to operational monitoring.",
+          "title": "A Controlled Emergency Access Framework",
+          "description": "Our framework covers the full lifecycle of an emergency session — from definition and approval to monitoring, review, and continuous improvement.",
           "phases": [
-            { "name": "Map", "deliverable": "Control framework: regulatory obligations → measurable SAP controls" },
-            { "name": "Instrument", "deliverable": "Monitoring configuration, alerts, and automated reports" },
-            { "name": "Operate", "deliverable": "Production monitoring, alert management, and audit reports" },
-            { "name": "Improve", "deliverable": "Periodic review of framework, coverage, and control effectiveness" }
+            {
+              "name": "Define",
+              "deliverable": "Identify emergency scenarios, privileged activities, responsible roles, and compliance requirements."
+            },
+            {
+              "name": "Approve",
+              "deliverable": "Establish who can request, authorize, own, and review emergency access."
+            },
+            {
+              "name": "Grant",
+              "deliverable": "Provide temporary access with appropriate duration, reason, and scope."
+            },
+            {
+              "name": "Monitor",
+              "deliverable": "Capture activities performed during the emergency session."
+            },
+            {
+              "name": "Review",
+              "deliverable": "Require controllers to validate the actions and document exceptions."
+            },
+            {
+              "name": "Improve",
+              "deliverable": "Analyze usage patterns, recurring emergencies, and opportunities to reduce privileged access."
+            }
           ]
         },
         "engagementScenarios": {
-          "title": "When Continuous Monitoring Becomes Necessary",
+          "title": "Emergency Access Scenarios",
           "items": [
-            { "title": "Audit Surprises", "description": "Control deviations are only discovered when the auditor finds them, not before." },
-            { "title": "High-Risk Industry Requirements", "description": "Regulatory or industry requirements demand real-time evidence of control effectiveness." },
-            { "title": "Post-Remediation Assurance", "description": "Controls were recently remediated and leadership needs proof they're staying effective." },
-            { "title": "Distributed Landscape", "description": "Multiple systems, companies, or regions make manual, periodic checks impractical." },
-            { "title": "Executive Risk Visibility", "description": "Leadership needs an ongoing view of compliance posture, not a point-in-time report." }
+            {
+              "title": "Production Incident Resolution",
+              "description": "Temporary privileged access for technical or functional teams resolving critical system issues."
+            },
+            {
+              "title": "Urgent Business Processing",
+              "description": "Controlled access to complete time-sensitive transactions when standard roles are insufficient."
+            },
+            {
+              "title": "Cutover and Go-Live Support",
+              "description": "Elevated access during migrations, deployments, and production transitions."
+            },
+            {
+              "title": "Audit and Investigation Support",
+              "description": "Temporary access for authorized reviews, investigations, or evidence collection."
+            },
+            {
+              "title": "Third-Party Support",
+              "description": "Restricted and monitored access for external consultants or software vendors."
+            },
+            {
+              "title": "Business Continuity",
+              "description": "Emergency access procedures supporting disaster recovery and operational continuity."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for your compliance monitoring",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
-            { "title": "Security by design", "description": "The compliance monitoring we build is integrated with the security architecture, not added on top." },
-            { "title": "Functional and technical knowledge", "description": "Mapping a regulatory obligation to a measurable SAP control requires knowing both the standard and the system deeply." },
-            { "title": "Proprietary platforms", "description": "Intelliguard™ extends monitoring coverage with anomaly detection and intelligent alerting capabilities." },
-            { "title": "SAP GRC integration", "description": "If you already have SAP GRC, we extend and complement its monitoring coverage." },
-            { "title": "Managed operations", "description": "If you prefer to delegate monitoring operations, our managed service takes it end to end." },
-            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing every compliance project." }
+            {
+              "title": "SAP GRC EAM Expertise",
+              "description": "We support the design, implementation, optimization, and operation of SAP GRC Emergency Access Management."
+            },
+            {
+              "title": "Security and Operations Experience",
+              "description": "Our approach balances control requirements with the practical needs of SAP support and operations teams."
+            },
+            {
+              "title": "Clear Governance",
+              "description": "We define responsibilities, workflows, evidence requirements, and review expectations."
+            },
+            {
+              "title": "Reduced Permanent Privilege",
+              "description": "We help organizations replace broad permanent access with temporary controlled mechanisms."
+            },
+            {
+              "title": "Managed Operations",
+              "description": "Global Core Technologies can provide ongoing administration, monitoring, controller support, and reporting."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free evaluation",
-          "title": "Coverage evaluation: what percentage of your SAP controls are being monitored today",
-          "description": "We map your key regulatory obligations against active SAP controls and tell you what monitoring gaps you have.",
-          "cta": "Request your coverage evaluation"
+          "eyebrow": "Free checklist",
+          "title": "Is Emergency Access Properly Controlled?",
+          "description": "Download the Emergency Access Management Checklist and evaluate privileged accounts, Firefighter IDs, approval workflows, access duration, reason codes, activity logging, controller reviews, evidence retention, and periodic certification.",
+          "cta": "Download the Emergency Access Checklist"
         },
         "finalCta": {
-          "title": "Do you know in real time whether your SAP controls are active?",
-          "description": "Book a session with our specialists and walk away with a monitoring coverage map and the priority gaps to close.",
-          "ctaPrimary": "Assess your monitoring coverage",
-          "ctaSecondary": "Explore the Secure pillar"
+          "title": "Control Privileged Access During Critical Situations",
+          "description": "Whether you need to implement SAP GRC EAM, reduce permanent administrator access, or improve emergency access governance, our experts can help you create a secure and auditable process.",
+          "ctaPrimary": "Schedule an Emergency Access Assessment",
+          "ctaSecondary": "Speak with an SAP Security Expert"
         }
       },
       "sap-security-managed-services": {
-        "metaTitle": "SAP Security Managed Services | Managed SAP Security | Global Core Technologies",
-        "metaDescription": "Delegate continuous SAP security operations: monitoring, incident response, and iterative control improvement. Full-time SAP security experts.",
+        "metaTitle": "SAP Security Managed Services | Continuous SAP Security Operations | Global Core Technologies",
+        "metaDescription": "SAP Security Managed Services: access administration, role management, SoD monitoring, SAP GRC operations, and audit support delivered as a continuous service.",
         "eyebrow": "Pillar · Secure",
-        "h1": "Security Managed Services: continuous SAP security operations without building the team from scratch",
-        "heroSubtitle": "We operate your SAP environment's security on an ongoing basis: proactive monitoring, access management, incident response, and iterative control improvement — all with a specialized SAP security team acting as an extension of your area.",
-        "ctaPrimary": "Assess the managed service model",
-        "ctaSecondary": "Request a service proposal",
+        "h1": "Protect Your SAP Environment with Continuous Security Operations",
+        "heroSubtitle": "Strengthen SAP security through continuous monitoring, access governance, risk management, and specialist support delivered as an ongoing managed service — maintaining a secure, compliant, and sustainable SAP environment without relying exclusively on limited internal resources.",
+        "ctaPrimary": "Schedule a Security Managed Services Consultation",
+        "ctaSecondary": "Download the Managed Services Readiness Checklist",
         "metrics": {
-          "projects": "managed environments",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "SAP security needs specialized expertise — which is expensive and scarce.",
+          "title": "SAP Security Cannot Be Managed as a One-Time Project",
           "items": [
             {
-              "title": "The security team isn't SAP",
-              "description": "Corporate security teams rarely have deep expertise in SAP authorizations, Basis, or GRC. The gap between available knowledge and what's required creates real vulnerabilities."
+              "title": "Limited capacity, growing demand",
+              "description": "Limited internal SAP security resources face growing access request volumes, large role environments, and security backlogs following projects or migrations."
             },
             {
-              "title": "Security operations never end",
-              "description": "Managing access, reviewing alerts, responding to incidents, auditing controls — SAP security is a permanent function, not a project."
+              "title": "Recurring risk and weak monitoring",
+              "description": "Recurring SoD conflicts, delayed user reviews, unmonitored privileged access, and security incidents or urgent requests keep reintroducing exposure."
             },
             {
-              "title": "The cost of building the team in-house",
-              "description": "Hiring, training, and retaining SAP security specialists is expensive and slow. While building the team, the operational risk remains active."
+              "title": "Operational and audit overhead",
+              "description": "Inconsistent security operations, SAP GRC administration complexity, audit preparation effort, and limited executive visibility consume the team's capacity."
             }
           ],
-          "closing": "A managed security model gives you the expertise and coverage you need from day one — at a fraction of the cost of building it."
+          "closing": "Without continuous security operations, previously resolved risks may quickly reappear."
         },
         "howWeHelp": {
-          "title": "End-to-end SAP security operations",
-          "description": "We take responsibility for operating your SAP environment's security: monitoring, management, response, and improvement.",
+          "title": "End-to-End SAP Security Managed Services",
+          "description": "Global Core Technologies operates your recurring SAP security, access governance, and GRC activities as a structured, measurable service.",
           "items": [
             {
-              "title": "Proactive security monitoring",
-              "description": "Continuous monitoring of the SAP environment: user activity, critical access, configuration changes, and security alerts."
+              "title": "User and Access Administration",
+              "description": "We handle user creation, modification, and deactivation, role assignment, access troubleshooting, technical user administration, and access request support."
             },
             {
-              "title": "Access lifecycle management",
-              "description": "We process access requests, periodic recertifications, emergency access management, and role landscape maintenance."
+              "title": "Role Management",
+              "description": "We create and maintain roles, update authorizations and organizational values, and cover role testing, documentation, and retirement."
             },
             {
-              "title": "Security incident response",
-              "description": "When an anomaly or incident is detected, we investigate, contain, and document with full traceability and defined SLAs."
+              "title": "Access Risk Management",
+              "description": "We run SoD analysis, monitor critical access, support risk remediation, administer mitigating controls, coordinate risk owners, and deliver periodic reporting."
             },
             {
-              "title": "Continuous control improvement",
-              "description": "We periodically review the coverage and effectiveness of security controls and propose improvements based on the system's real operation."
+              "title": "SAP GRC Operations",
+              "description": "We administer workflows, monitor requests and connectors, maintain rule sets, manage Firefighter administration, and support user access reviews."
+            },
+            {
+              "title": "Security Monitoring",
+              "description": "We review privileged access and security logs, analyze inactive users, monitor sensitive transactions, identify exceptions, and support security incidents."
+            },
+            {
+              "title": "Compliance and Audit Support",
+              "description": "We prepare evidence and access reports, support audit responses, execute controls, run periodic certifications, and track remediation."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Maintain Security and Compliance Continuously",
           "items": [
-            { "title": "Expertise from day one", "description": "You access a specialized SAP security team without the time and cost of building it internally." },
-            { "title": "Continuous coverage", "description": "Your SAP environment's security is monitored and managed permanently, without depending on internal availability." },
-            { "title": "Predictable cost", "description": "A managed service model converts the variable cost of the team into a fixed, plannable, scalable cost." },
-            { "title": "Internal team focused on value", "description": "Your internal team is freed from repetitive security operations and can focus on higher-value strategic initiatives." }
+            {
+              "title": "Access to Specialized Expertise",
+              "description": "Extend your team with SAP security and SAP GRC specialists."
+            },
+            {
+              "title": "Reduced Operational Backlog",
+              "description": "Improve response times for access requests, role changes, risks, and audit requirements."
+            },
+            {
+              "title": "Predictable Service Delivery",
+              "description": "Operate through defined service levels, procedures, responsibilities, and reporting."
+            },
+            {
+              "title": "Continuous Risk Reduction",
+              "description": "Identify and resolve access and security issues before they become critical findings."
+            },
+            {
+              "title": "Improved Audit Readiness",
+              "description": "Maintain evidence, reviews, controls, and reports throughout the year."
+            },
+            {
+              "title": "Greater Internal Focus",
+              "description": "Allow internal teams to focus on strategic initiatives instead of repetitive operational activities."
+            }
           ]
         },
         "methodology": {
-          "title": "How we operate your SAP security",
-          "description": "Four phases from onboarding to continuous managed operations.",
+          "title": "A Structured SAP Security Operating Model",
+          "description": "Our operating model takes the service from transition and stabilization to continuous, measurable improvement.",
           "phases": [
-            { "name": "Onboard", "deliverable": "Initial assessment, security baseline, and operations plan" },
-            { "name": "Stabilize", "deliverable": "Critical gap remediation and operating model adjustment" },
-            { "name": "Operate", "deliverable": "Steady-state monitoring, access management, and incident response" },
-            { "name": "Improve", "deliverable": "Periodic maturity reviews and coverage evolution" }
+            {
+              "name": "Transition",
+              "deliverable": "Document the landscape, processes, responsibilities, tools, controls, and current backlog."
+            },
+            {
+              "name": "Stabilize",
+              "deliverable": "Resolve critical issues, establish operating procedures, and improve service visibility."
+            },
+            {
+              "name": "Operate",
+              "deliverable": "Execute recurring SAP security, access governance, role management, and GRC activities."
+            },
+            {
+              "name": "Monitor",
+              "deliverable": "Track risks, service levels, privileged access, workflow performance, and control execution."
+            },
+            {
+              "name": "Report",
+              "deliverable": "Provide operational, compliance, risk, and executive-level reporting."
+            },
+            {
+              "name": "Improve",
+              "deliverable": "Continuously optimize roles, workflows, controls, automation, and governance."
+            }
           ]
         },
         "engagementScenarios": {
-          "title": "When Security Operations Should Be Managed, Not Built",
+          "title": "Managed Service Models",
           "items": [
-            { "title": "No Dedicated Security Team", "description": "The organization needs continuous SAP security coverage but can't justify building an internal team." },
-            { "title": "Coverage Gaps Off-Hours", "description": "Security monitoring and incident response only happen during business hours today." },
-            { "title": "Team Attrition Risk", "description": "SAP security expertise is concentrated in one or two people, creating continuity risk." },
-            { "title": "Post-Implementation Handover", "description": "A security architecture or GRC implementation just went live and needs ongoing operation." },
-            { "title": "Cost Predictability Need", "description": "Leadership wants to convert unpredictable security staffing costs into a fixed, scalable service." }
+            {
+              "title": "SAP Security Operations",
+              "description": "Ongoing user administration, role maintenance, access support, and technical security activities."
+            },
+            {
+              "title": "SAP GRC Operations",
+              "description": "Administration and support for Access Risk Analysis, Access Request Management, Emergency Access Management, and User Access Review."
+            },
+            {
+              "title": "SoD Managed Service",
+              "description": "Continuous risk analysis, remediation coordination, mitigating control management, and reporting."
+            },
+            {
+              "title": "Privileged Access Monitoring",
+              "description": "Periodic or continuous monitoring of administrator, technical, and emergency access."
+            },
+            {
+              "title": "Audit and Compliance Support",
+              "description": "Recurring control execution, evidence preparation, access reviews, and audit response."
+            },
+            {
+              "title": "Security Improvement Service",
+              "description": "A managed backlog focused on role cleanup, process automation, rule tuning, and security maturity."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for managed SAP security operations",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
-            { "title": "SAP security is our core", "description": "We're not a generic MSSP with an SAP practice: we're SAP specialists with a security practice." },
-            { "title": "Deep SAP expertise", "description": "Decades of experience in Basis, Architecture, Security, and functional modules of critical SAP environments." },
-            { "title": "Proprietary platforms", "description": "Intelliguard™ powers monitoring with anomaly detection, intelligent alerts, and extended visibility." },
-            { "title": "Business integration", "description": "We act as an extension of your area, not an external vendor. Your context is part of how we operate." },
-            { "title": "Defined and measured SLAs", "description": "Every component of the service has a clear SLA, measurable and reported periodically." },
-            { "title": "SAP Silver Partner", "description": "SAP-certified consultants and strategic alliances backing managed operations." }
+            {
+              "title": "Specialized SAP Security Team",
+              "description": "Our service combines SAP authorizations, SAP GRC, technical security, Basis, and governance capabilities."
+            },
+            {
+              "title": "Flexible Delivery Models",
+              "description": "Services can be adapted to specific systems, processes, service hours, volumes, and responsibilities."
+            },
+            {
+              "title": "Governance and Transparency",
+              "description": "We provide defined procedures, service levels, metrics, risks, and executive reporting."
+            },
+            {
+              "title": "Continuous Improvement",
+              "description": "Our objective is not only to operate the environment but also to reduce complexity and improve security maturity."
+            },
+            {
+              "title": "End-to-End SAP Capabilities",
+              "description": "Global Core Technologies can coordinate security activities with SAP Basis, architecture, cloud, integration, and transformation teams."
+            }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "Scoping session: we design the service model that fits your environment",
-          "description": "In 45 minutes we assess your SAP environment, your internal team, and your coverage needs to design the most efficient managed service model.",
-          "cta": "Book your scoping session"
+          "eyebrow": "Free checklist",
+          "title": "Is Your SAP Security Operating Model Sustainable?",
+          "description": "Download the SAP Security Managed Services Readiness Checklist and evaluate resource capacity, access administration, role maintenance, SAP GRC operations, SoD monitoring, privileged access, audit support, service levels, reporting, and continuous improvement.",
+          "cta": "Download the Managed Services Readiness Checklist"
         },
         "finalCta": {
-          "title": "Does your SAP security need more coverage than you can build in-house?",
-          "description": "Book a session with our specialists and let's design the managed service model that covers your security needs from day one.",
-          "ctaPrimary": "Assess the managed service model",
-          "ctaSecondary": "Explore the Secure pillar"
+          "title": "Strengthen SAP Security Without Increasing Internal Complexity",
+          "description": "Whether you need operational support, SAP GRC administration, continuous SoD monitoring, or a complete SAP security managed service, Global Core Technologies can provide the expertise and governance required to protect your environment.",
+          "ctaPrimary": "Schedule a Security Managed Services Consultation",
+          "ctaSecondary": "Speak with an SAP Security Expert"
+        }
+      },
+      "sap-s4hana-security-readiness": {
+        "metaTitle": "SAP S/4HANA Security Readiness | Authorization & Fiori Security | Global Core Technologies",
+        "metaDescription": "SAP S/4HANA security readiness: role impact analysis, Fiori authorization design, SAP GRC readiness, and a security roadmap defined before your migration begins.",
+        "eyebrow": "Pillar · Secure",
+        "h1": "Prepare Your SAP Security Model for S/4HANA",
+        "heroSubtitle": "Identify authorization, governance, compliance, and technical security requirements before migration to reduce risk, rework, and project delays — because migrating legacy security models without proper analysis can reproduce existing risks, create new access issues, delay testing, and increase project complexity.",
+        "ctaPrimary": "Schedule an S/4HANA Security Readiness Assessment",
+        "ctaSecondary": "Download the S/4HANA Security Readiness Checklist",
+        "metrics": {
+          "projects": "projects delivered",
+          "years": "years in mission-critical SAP",
+          "governance": "governance-first focus"
+        },
+        "problem": {
+          "title": "Security Is Frequently Addressed Too Late in S/4HANA Programs",
+          "items": [
+            {
+              "title": "Legacy roles carried forward",
+              "description": "Legacy roles copied without redesign, obsolete transactions, excessive custom roles, and new S/4HANA authorization objects reproduce old risks in the new environment."
+            },
+            {
+              "title": "New complexity across Fiori and processes",
+              "description": "SAP Fiori authorization complexity, changed business processes, new SoD risks, and incomplete SAP GRC integration create access issues that legacy models never anticipated."
+            },
+            {
+              "title": "Late testing and unclear ownership",
+              "description": "Unclear security ownership, delayed role testing, overlooked technical users and interfaces, security defects discovered during UAT, and insufficient preparation for cloud operating models put the go-live at risk."
+            }
+          ],
+          "closing": "When security is treated as a late technical activity, it can affect testing, cutover, compliance, and user adoption."
+        },
+        "howWeHelp": {
+          "title": "Comprehensive S/4HANA Security Readiness Services",
+          "description": "Global Core Technologies helps organizations assess and prepare their security model before the transition to SAP S/4HANA.",
+          "items": [
+            {
+              "title": "Current Security Assessment",
+              "description": "We review the existing role model, analyze user assignments and role usage, evaluate SoD conflicts and critical access, and assess security processes."
+            },
+            {
+              "title": "Role Impact Analysis",
+              "description": "We identify obsolete transactions, assess simplification item impact, analyze new authorization objects, evaluate changed business processes, and review custom roles and organizational levels."
+            },
+            {
+              "title": "SAP Fiori Security Readiness",
+              "description": "We define the business role strategy, design catalogs and spaces, map pages and applications, and cover frontend and backend authorization requirements, OData service access, and launchpad governance."
+            },
+            {
+              "title": "SAP GRC Readiness",
+              "description": "We assess connector requirements, rule set impact, S/4HANA function mapping, workflow changes, emergency access requirements, and user access review considerations."
+            },
+            {
+              "title": "Technical Security Readiness",
+              "description": "We evaluate the authentication architecture, Single Sign-On readiness, RFC and interface security, technical users, logging requirements, and cloud connectivity considerations."
+            },
+            {
+              "title": "Security Roadmap",
+              "description": "We define the target security architecture, role redesign strategy, testing approach, remediation priorities, resource plan, and project timeline integration."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Reduce Security Risk and Project Rework",
+          "items": [
+            {
+              "title": "Earlier Risk Identification",
+              "description": "Discover authorization, SoD, Fiori, GRC, and technical security issues before build and testing phases."
+            },
+            {
+              "title": "Lower Project Risk",
+              "description": "Integrate security activities into the transformation roadmap instead of addressing them near go-live."
+            },
+            {
+              "title": "Reduced Rework",
+              "description": "Avoid copying obsolete or inappropriate roles into the new environment."
+            },
+            {
+              "title": "Improved User Adoption",
+              "description": "Provide users with business-aligned access to SAP GUI and SAP Fiori applications."
+            },
+            {
+              "title": "Stronger Compliance",
+              "description": "Ensure access governance and security controls remain effective after the migration."
+            },
+            {
+              "title": "Sustainable Security Model",
+              "description": "Use the transformation as an opportunity to simplify roles and improve long-term governance."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "A Security-Embedded S/4HANA Readiness Framework",
+          "description": "Our framework integrates security analysis, design, and planning into the transformation program from the start.",
+          "phases": [
+            {
+              "name": "Discover",
+              "deliverable": "Understand the transformation scope, target architecture, business processes, and deployment model."
+            },
+            {
+              "name": "Assess",
+              "deliverable": "Evaluate the existing security model, access risks, GRC environment, and technical controls."
+            },
+            {
+              "name": "Map",
+              "deliverable": "Identify how S/4HANA, Fiori, integrations, and process changes affect security requirements."
+            },
+            {
+              "name": "Design",
+              "deliverable": "Define the target role model, governance processes, security architecture, and control framework."
+            },
+            {
+              "name": "Plan",
+              "deliverable": "Integrate security activities, dependencies, testing, and resources into the program roadmap."
+            },
+            {
+              "name": "Prepare",
+              "deliverable": "Resolve high-priority issues and establish the foundations required for implementation."
+            }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Transformation Scenarios We Support",
+          "items": [
+            {
+              "title": "Brownfield Conversion",
+              "description": "Assess existing roles, obsolete transactions, authorization impacts, and new S/4HANA requirements."
+            },
+            {
+              "title": "Greenfield Implementation",
+              "description": "Design a new business-aligned security and role model from the beginning."
+            },
+            {
+              "title": "Selective Data Transition",
+              "description": "Adapt security to a hybrid scenario involving redesigned processes and retained historical structures."
+            },
+            {
+              "title": "RISE with SAP",
+              "description": "Prepare access governance, identity, privileged access, responsibilities, and controls for the cloud operating model."
+            },
+            {
+              "title": "SAP Fiori Adoption",
+              "description": "Design secure access for applications, catalogs, spaces, pages, services, and backend functions."
+            },
+            {
+              "title": "SAP GRC Integration",
+              "description": "Update connectors, workflows, rule sets, functions, actions, and access governance processes."
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Why Organizations Choose Global Core Technologies",
+          "items": [
+            {
+              "title": "SAP Transformation and Security Expertise",
+              "description": "Our teams understand both SAP S/4HANA transformation requirements and SAP security implications."
+            },
+            {
+              "title": "Security by Design",
+              "description": "Security is integrated into architecture, process design, role development, testing, cutover, and operations."
+            },
+            {
+              "title": "Fiori and Authorization Capabilities",
+              "description": "We support both frontend and backend authorization requirements."
+            },
+            {
+              "title": "Governance-Centric Approach",
+              "description": "We define ownership, access processes, risk management, reviews, and controls for the target environment."
+            },
+            {
+              "title": "End-to-End Support",
+              "description": "Global Core Technologies can continue from readiness assessment through role redesign, implementation, testing, cutover, and managed services."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Free checklist",
+          "title": "Is Your Security Model Ready for SAP S/4HANA?",
+          "description": "Download the SAP S/4HANA Security Readiness Checklist and evaluate legacy roles, obsolete transactions, new authorization objects, SAP Fiori security, Segregation of Duties, SAP GRC readiness, identity and authentication, technical users, interfaces, and testing and cutover planning.",
+          "cta": "Download the S/4HANA Security Readiness Checklist"
+        },
+        "finalCta": {
+          "title": "Embed Security into Your SAP S/4HANA Journey",
+          "description": "Whether you are planning a Brownfield conversion, Greenfield implementation, RISE with SAP adoption, or SAP Fiori rollout, our experts can help ensure your security model is ready before the transformation begins.",
+          "ctaPrimary": "Schedule an S/4HANA Security Readiness Assessment",
+          "ctaSecondary": "Speak with an SAP Security Expert"
         }
       },
       "sap-ams-services": {

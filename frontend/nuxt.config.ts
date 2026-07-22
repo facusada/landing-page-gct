@@ -101,6 +101,10 @@ export default defineNuxtConfig({
     '/en/pilares/secure/sap-grc': { redirect: { to: '/en/pilares/secure/sap-grc-access-control', statusCode: 301 } },
     '/pilares/secure/sap-rbac': { redirect: { to: '/pilares/secure/sap-role-redesign', statusCode: 301 } },
     '/en/pilares/secure/sap-rbac': { redirect: { to: '/en/pilares/secure/sap-role-redesign', statusCode: 301 } },
+    // sap-compliance-monitoring was dropped from the Secure 7-service set (doc v1.0, 2026-07);
+    // its continuous-compliance scope now lives under Security Managed Services.
+    '/pilares/secure/sap-compliance-monitoring': { redirect: { to: '/pilares/secure/sap-security-managed-services', statusCode: 301 } },
+    '/en/pilares/secure/sap-compliance-monitoring': { redirect: { to: '/en/pilares/secure/sap-security-managed-services', statusCode: 301 } },
     // 301 redirects for Govern L3 slugs replaced by the 7-service set (Block B, 2026-07).
     '/pilares/govern/sap-program-governance': { redirect: { to: '/pilares/govern/sap-program-management', statusCode: 301 } },
     '/en/pilares/govern/sap-program-governance': { redirect: { to: '/en/pilares/govern/sap-program-management', statusCode: 301 } },

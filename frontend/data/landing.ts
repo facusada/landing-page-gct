@@ -162,11 +162,12 @@ export const pillarL3Services: PillarL3Service[] = [
   },
   {
     pillar: 'secure',
-    key: 'complianceMonitoring',
-    slug: 'sap-compliance-monitoring',
-    icon: 'performance',
+    key: 'emergencyAccess',
+    slug: 'sap-emergency-access-management',
+    icon: 'security',
     image: '/pillars/02_tile_02_secure.png',
-    metrics: secureMetrics
+    metrics: secureMetrics,
+    platformLink: '/plataformas/intelliguard'
   },
   {
     pillar: 'secure',
@@ -176,6 +177,14 @@ export const pillarL3Services: PillarL3Service[] = [
     image: '/pillars/02_tile_02_secure.png',
     metrics: secureMetrics,
     platformLink: '/plataformas/intelliguard'
+  },
+  {
+    pillar: 'secure',
+    key: 's4hanaReadiness',
+    slug: 'sap-s4hana-security-readiness',
+    icon: 'migration',
+    image: '/pillars/02_tile_02_secure.png',
+    metrics: secureMetrics
   },
   // Govern pillar
   {

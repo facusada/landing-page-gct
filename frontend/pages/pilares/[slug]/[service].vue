@@ -55,7 +55,8 @@ const engagementScenarioItems = computed(() =>
 )
 const methodologyColsClass = computed(() => {
   const n = methodologyPhases.value.length
-  return n >= 5 ? 'md:grid-cols-5' : n === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'
+  // 6 phases render as a balanced 3x2 grid instead of an orphaned 5+1 row.
+  return n === 6 ? 'md:grid-cols-3' : n === 5 ? 'md:grid-cols-5' : n === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'
 })
 
 const pillarTitle = computed(() => t(`pillars.items.${pillarSlug}.title`))
@@ -89,7 +90,14 @@ const contactSecondaryCtaSlugs = new Set([
   'rise-with-sap',
   's4hana-readiness-assessment',
   'sap-migration-governance',
-  'clean-core-strategy'
+  'clean-core-strategy',
+  'sap-security-assessment',
+  'sap-grc-access-control',
+  'sap-segregation-of-duties',
+  'sap-role-redesign',
+  'sap-emergency-access-management',
+  'sap-security-managed-services',
+  'sap-s4hana-security-readiness'
 ])
 const finalCtaSecondaryTo = computed(() =>
   contactSecondaryCtaSlugs.has(serviceSlug)
