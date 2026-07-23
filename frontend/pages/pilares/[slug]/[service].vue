@@ -177,11 +177,6 @@ useHead({
         <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#060e18]" />
       </div>
       <div v-else class="absolute inset-0 bg-core-ink/85" />
-      <div
-        v-if="heroBgSrc"
-        class="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(7,17,31,0.92)_0%,rgba(7,17,31,0.62)_45%,rgba(7,17,31,0.2)_75%,rgba(7,17,31,0)_100%)]"
-        aria-hidden="true"
-      />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_1px_8px_rgba(4,14,24,0.7)]">{{ eyebrow }}</p>
