@@ -179,11 +179,11 @@ useHead({
       <div v-else class="absolute inset-0 bg-core-ink/85" />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
-        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_1px_8px_rgba(4,14,24,0.7)]">{{ eyebrow }}</p>
-        <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_2px_18px_rgba(4,14,24,0.75),0_1px_3px_rgba(4,14,24,0.6)]">
+        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_9px_rgba(6,14,24,0.95),0_0_20px_rgba(6,14,24,0.85)]">{{ eyebrow }}</p>
+        <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_0_4px_rgba(6,14,24,1),0_0_14px_rgba(6,14,24,0.95),0_0_30px_rgba(6,14,24,0.9),0_0_48px_rgba(6,14,24,0.75)]">
           {{ h1 }}
         </h1>
-        <p class="mt-5 max-w-3xl text-xl leading-8 text-white/80 [text-shadow:0_1px_10px_rgba(4,14,24,0.7)]">
+        <p class="mt-5 max-w-3xl text-xl leading-8 text-white/90 [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_11px_rgba(6,14,24,0.95),0_0_24px_rgba(6,14,24,0.85)]">
           {{ heroSubtitle }}
         </p>
 
