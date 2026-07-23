@@ -1,9 +1,24 @@
 <script setup lang="ts">
 import ContactForm from '~/components/ui/ContactForm.vue'
+import StickyContextBar from '~/components/ui/StickyContextBar.vue'
+import { pillars } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
 const { t } = useI18n()
 const localizedTo = useLocalizedTo()
+const route = useRoute()
+
+// When arriving from a pillar/service page (?servicio=<relatedSlug>), the
+// go-back capsule returns to that pillar; otherwise it falls back to Home.
+const originPillar = computed(() =>
+  pillars.find(p => p.relatedSlug === route.query.servicio) ?? null
+)
+const backTo = computed(() =>
+  originPillar.value ? `/pilares/${originPillar.value.id}` : '/'
+)
+const backLabel = computed(() =>
+  originPillar.value ? t(`pillars.items.${originPillar.value.id}.title`) : t('breadcrumb.home')
+)
 
 const pageTitle = computed(() => t('contactPage.seoTitle'))
 const pageDescription = computed(() => t('contactPage.seoDescription'))
@@ -50,6 +65,13 @@ useHead({
       </p>
     </div>
   </section>
+
+  <StickyContextBar
+    :label="t('contactPage.breadcrumb')"
+    :sublabel="originPillar ? t(`pillars.items.${originPillar.id}.title`) : undefined"
+    :back-to="localizedTo(backTo)"
+    :back-label="backLabel"
+  />
 
   <section class="bg-core-mist py-16 md:py-24">
     <div class="section-shell">
