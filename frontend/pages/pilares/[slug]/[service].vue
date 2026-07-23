@@ -92,9 +92,11 @@ const related = (pillarServiceKeys[pillarSlug] ?? [])
     }
   })
 
-// These slugs' finalCta.ctaSecondary copy reads as "speak with an expert" rather
-// than "explore the pillar", so it must route to contact, not back to the pillar.
-const contactSecondaryCtaSlugs = new Set([
+// These slugs have no downloadable PDF resource, which affects two things:
+// their finalCta.ctaSecondary copy reads as "speak with an expert" rather than
+// "explore the pillar" (so it must route to contact, not back to the pillar),
+// and their Hero must not show a "Download ..." CTA that leads nowhere.
+const noResourceSlugs = new Set([
   'rise-with-sap',
   's4hana-readiness-assessment',
   'sap-migration-governance',
@@ -108,10 +110,11 @@ const contactSecondaryCtaSlugs = new Set([
   'sap-s4hana-security-readiness'
 ])
 const finalCtaSecondaryTo = computed(() =>
-  contactSecondaryCtaSlugs.has(serviceSlug)
+  noResourceSlugs.has(serviceSlug)
     ? `/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`
     : `/pilares/${pillarSlug}`
 )
+const showHeroResourceCta = computed(() => !noResourceSlugs.has(serviceSlug))
 
 const canonical = `${siteConfig.url}/pilares/${pillarSlug}/${serviceSlug}`
 
@@ -174,6 +177,11 @@ useHead({
         <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#060e18]" />
       </div>
       <div v-else class="absolute inset-0 bg-core-ink/85" />
+      <div
+        v-if="heroBgSrc"
+        class="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(7,17,31,0.92)_0%,rgba(7,17,31,0.62)_45%,rgba(7,17,31,0.2)_75%,rgba(7,17,31,0)_100%)]"
+        aria-hidden="true"
+      />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
         <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_1px_8px_rgba(4,14,24,0.7)]">{{ eyebrow }}</p>
@@ -186,7 +194,7 @@ useHead({
 
         <div class="mt-8 flex flex-col gap-3 sm:flex-row">
           <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`">{{ t(`${base}.ctaPrimary`) }}</BaseButton>
-          <BaseButton href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
+          <BaseButton v-if="showHeroResourceCta" href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
         </div>
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
