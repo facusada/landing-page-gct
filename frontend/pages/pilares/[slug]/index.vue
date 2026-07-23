@@ -368,8 +368,11 @@ const framework = computed(() => {
               <p class="mt-3 text-sm leading-6 text-slate-600">
                 {{ t(`pillarDetail.items.${slug}.${item.key}.description`) }}
               </p>
-              <p class="mt-auto pt-4 text-xs font-bold text-core-orange transition-transform duration-200 group-hover:translate-x-1">
-                {{ t('pillarDetail.relatedServiceCta') }} →
+              <p class="mt-auto pt-5">
+                <span class="inline-flex items-center gap-1.5 rounded-full border border-core-orange/40 bg-core-orange/5 px-4 py-2 text-xs font-bold text-core-orange transition duration-200 group-hover:border-core-orange group-hover:bg-core-orange group-hover:text-white">
+                  {{ t('pillarDetail.relatedServiceCta') }}
+                  <span aria-hidden="true" class="transition-transform duration-200 group-hover:translate-x-0.5">→</span>
+                </span>
               </p>
             </NuxtLink>
             <div
