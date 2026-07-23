@@ -312,13 +312,13 @@ const framework = computed(() => {
       <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
       <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
       <div class="section-shell relative">
-        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_1px_8px_rgba(4,14,24,0.7)]">
+        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_9px_rgba(6,14,24,0.95),0_0_20px_rgba(6,14,24,0.85)]">
           {{ t('pillarDetail.eyebrow') }}
         </p>
-        <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_2px_18px_rgba(4,14,24,0.75),0_1px_3px_rgba(4,14,24,0.6)]">
+        <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_0_4px_rgba(6,14,24,1),0_0_14px_rgba(6,14,24,0.95),0_0_30px_rgba(6,14,24,0.9),0_0_48px_rgba(6,14,24,0.75)]">
           {{ heroOverride ? heroOverride.headline : title }}
         </h1>
-        <p class="mt-4 max-w-2xl text-xl leading-8 text-white/80 [text-shadow:0_1px_10px_rgba(4,14,24,0.7)]">
+        <p class="mt-4 max-w-2xl text-xl leading-8 text-white/90 [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_11px_rgba(6,14,24,0.95),0_0_24px_rgba(6,14,24,0.85)]">
           {{ heroOverride ? heroOverride.subheadline : description }}
         </p>
         <div v-if="heroOverride" class="mt-9 flex flex-col gap-3 sm:flex-row">
