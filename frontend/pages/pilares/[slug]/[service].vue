@@ -159,12 +159,6 @@ useHead({
 
 <template>
   <div v-if="service">
-    <StickyContextBar
-      :label="pillarTitle"
-      :sublabel="t(`pillarDetail.items.${pillarSlug}.${service.key}.title`)"
-      :back-to="localizedTo(`/pilares/${pillarSlug}`)"
-      :back-label="pillarTitle"
-    />
     <!-- 1. Hero -->
     <section
       class="relative isolate overflow-hidden py-16 text-white md:py-32"
@@ -194,6 +188,13 @@ useHead({
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
     </section>
+
+    <StickyContextBar
+      :label="pillarTitle"
+      :sublabel="t(`pillarDetail.items.${pillarSlug}.${service.key}.title`)"
+      :back-to="localizedTo(`/pilares/${pillarSlug}`)"
+      :back-label="pillarTitle"
+    />
 
     <!-- 2. Problem -->
     <section id="s-problem" class="bg-white/30 py-16 md:py-24">

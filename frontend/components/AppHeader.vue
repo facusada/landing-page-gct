@@ -1,16 +1,39 @@
 <script setup lang="ts">
 import { navigationItems } from '~/data/navigation'
+import { findL3ServiceByKey, pillarServiceKeys } from '~/data/landing'
 
 const { t, locale, locales, setLocale } = useI18n()
 const localizedTo = useLocalizedTo()
 const isOpen = ref(false)
 const openDropdown = ref<string | null>(null)
+const openSubmenu = ref<string | null>(null)
 const route = useRoute()
 
 watch(() => route.path, () => {
   isOpen.value = false
   openDropdown.value = null
+  openSubmenu.value = null
 })
+
+// Services flyout per pillar: shown to the left of the Pillars dropdown on hover.
+const pillarServices = Object.fromEntries(
+  Object.entries(pillarServiceKeys).map(([pillar, keys]) => [
+    pillar,
+    keys.map((key) => {
+      const landing = findL3ServiceByKey(pillar, key)
+      return {
+        key,
+        to: landing ? `/pilares/${pillar}/${landing.slug}` : `/pilares/${pillar}`,
+        labelKey: `pillarDetail.items.${pillar}.${key}.title`
+      }
+    })
+  ])
+)
+
+function closeDropdown() {
+  openDropdown.value = null
+  openSubmenu.value = null
+}
 
 const availableLocales = computed(() =>
   locales.value.filter(l => l.code !== locale.value)
@@ -38,7 +61,7 @@ const availableLocales = computed(() =>
             v-if="item.children"
             class="relative"
             @mouseenter="openDropdown = item.key"
-            @mouseleave="openDropdown = null"
+            @mouseleave="closeDropdown"
           >
             <button
               type="button"
@@ -46,7 +69,7 @@ const availableLocales = computed(() =>
               :class="openDropdown === item.key ? 'text-core-ink' : ''"
               :aria-expanded="openDropdown === item.key"
               @click="openDropdown = openDropdown === item.key ? null : item.key"
-              @keydown.escape="openDropdown = null"
+              @keydown.escape="closeDropdown"
             >
               {{ t(`nav.items.${item.key}`) }}
               <svg class="h-3.5 w-3.5 transition-transform duration-200" :class="openDropdown === item.key ? 'rotate-180' : ''" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -55,15 +78,46 @@ const availableLocales = computed(() =>
             </button>
             <div v-show="openDropdown === item.key" class="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3">
               <div class="min-w-[260px] rounded-xl border border-core-line bg-white p-2 shadow-premium">
-                <NuxtLink
+                <div
                   v-for="child in item.children"
                   :key="child.to"
-                  :to="localizedTo(child.to)"
-                  class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-bold text-core-ink/80 transition hover:bg-core-mist hover:text-core-orange"
-                  @click="openDropdown = null"
+                  class="relative"
+                  @mouseenter="openSubmenu = pillarServices[child.key] ? child.key : null"
                 >
-                  {{ t(child.labelKey) }}
-                </NuxtLink>
+                  <NuxtLink
+                    :to="localizedTo(child.to)"
+                    class="flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-bold text-core-ink/80 transition hover:bg-core-mist hover:text-core-orange"
+                    :class="openSubmenu === child.key ? 'bg-core-mist text-core-orange' : ''"
+                    @click="closeDropdown"
+                  >
+                    <svg v-if="pillarServices[child.key]" class="h-3.5 w-3.5 shrink-0 text-core-ink/35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M15 6l-6 6 6 6" />
+                    </svg>
+                    <span class="flex-1">{{ t(child.labelKey) }}</span>
+                  </NuxtLink>
+
+                  <!-- Services flyout: opens to the left of the pillar row -->
+                  <div
+                    v-if="pillarServices[child.key]"
+                    v-show="openSubmenu === child.key"
+                    class="absolute right-full top-0 z-50 pr-2"
+                  >
+                    <div class="min-w-[300px] rounded-xl border border-core-line bg-white p-2 shadow-premium">
+                      <p class="px-3 pb-1.5 pt-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-core-orange">
+                        {{ t(child.labelKey) }}
+                      </p>
+                      <NuxtLink
+                        v-for="service in pillarServices[child.key]"
+                        :key="service.key"
+                        :to="localizedTo(service.to)"
+                        class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-semibold text-core-ink/75 transition hover:bg-core-mist hover:text-core-orange"
+                        @click="closeDropdown"
+                      >
+                        {{ t(service.labelKey) }}
+                      </NuxtLink>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

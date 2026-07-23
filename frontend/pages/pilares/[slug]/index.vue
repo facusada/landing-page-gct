@@ -291,12 +291,6 @@ const framework = computed(() => {
 
 <template>
   <div v-if="pillar">
-    <StickyContextBar
-      :label="t('pillarDetail.eyebrow')"
-      :sublabel="title"
-      :back-to="localizedTo('/')"
-      :back-label="t('breadcrumb.home')"
-    />
     <!-- Hero -->
     <section
       class="relative isolate overflow-hidden py-16 text-white"
@@ -328,6 +322,13 @@ const framework = computed(() => {
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
     </section>
+
+    <StickyContextBar
+      :label="t('pillarDetail.eyebrow')"
+      :sublabel="title"
+      :back-to="localizedTo('/')"
+      :back-label="t('breadcrumb.home')"
+    />
 
     <!-- Featured Innovation -->
     <FeaturedInnovation v-if="featured" :items="featured" />
