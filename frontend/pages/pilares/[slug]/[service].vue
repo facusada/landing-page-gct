@@ -68,7 +68,15 @@ const pillarHeroBg: Record<string, string> = {
   govern: '/backgrounds/govern-hero.webp',
   innovate: '/backgrounds/innovate-hero.webp',
 }
-const heroBgSrc = pillarHeroBg[pillarSlug] ?? null
+// Per-service hero photos override the pillar default once a dedicated image exists for that service.
+const serviceHeroBg: Record<string, string> = {
+  'rise-with-sap': '/backgrounds/transform-rise-with-sap-hero.webp',
+  's4hana-readiness-assessment': '/backgrounds/transform-readiness-assessment-hero.webp',
+  'sap-s4hana-transformation': '/backgrounds/transform-s4hana-transformation-hero.webp',
+  'sap-migration-governance': '/backgrounds/transform-migration-governance-hero.webp',
+  'clean-core-strategy': '/backgrounds/transform-clean-core-strategy-hero.webp',
+}
+const heroBgSrc = serviceHeroBg[serviceSlug] ?? pillarHeroBg[pillarSlug] ?? null
 // WebP heros are panoramic photos that fill the whole band (object-cover);
 // the SVG heros are tall compositions pinned to the top with a bottom fade.
 const heroBgCover = heroBgSrc?.endsWith('.webp') ?? false
