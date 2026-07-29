@@ -137,7 +137,11 @@ export default defineNuxtConfig({
     '/en/pilares/operate/sap-monitoring-automation': { redirect: { to: '/en/pilares/operate/sap-technical-monitoring', statusCode: 301 } },
     '/pilares/operate/sap-root-cause-analysis': { redirect: { to: '/pilares/operate/sap-incident-problem-management', statusCode: 301 } },
     '/en/pilares/operate/sap-root-cause-analysis': { redirect: { to: '/en/pilares/operate/sap-incident-problem-management', statusCode: 301 } },
-    '/pilares/operate/sap-technical-governance': { redirect: { to: '/pilares/operate/sap-operations-managed-services', statusCode: 301 } },
-    '/en/pilares/operate/sap-technical-governance': { redirect: { to: '/en/pilares/operate/sap-operations-managed-services', statusCode: 301 } }
+    '/pilares/operate/sap-technical-governance': { redirect: { to: '/pilares/operate/sap-operations-hub', statusCode: 301 } },
+    '/en/pilares/operate/sap-technical-governance': { redirect: { to: '/en/pilares/operate/sap-operations-hub', statusCode: 301 } },
+    // sap-operations-managed-services was renamed to match the official service name
+    // "SAP Operations Hub" (Operate doc v1.0, 2026-07) and its primary SEO keyword.
+    '/pilares/operate/sap-operations-managed-services': { redirect: { to: '/pilares/operate/sap-operations-hub', statusCode: 301 } },
+    '/en/pilares/operate/sap-operations-managed-services': { redirect: { to: '/en/pilares/operate/sap-operations-hub', statusCode: 301 } }
   }
 })

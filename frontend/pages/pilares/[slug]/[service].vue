@@ -92,10 +92,11 @@ const related = (pillarServiceKeys[pillarSlug] ?? [])
     }
   })
 
-// These slugs have no downloadable PDF resource, which affects two things:
+// These slugs have no downloadable PDF resource, which affects three things:
 // their finalCta.ctaSecondary copy reads as "speak with an expert" rather than
 // "explore the pillar" (so it must route to contact, not back to the pillar),
-// and their Hero must not show a "Download ..." CTA that leads nowhere.
+// their Hero must not show a "Download ..." CTA that leads nowhere, and the
+// Lead Magnet section (a download pitch) is hidden entirely until a real PDF exists.
 const noResourceSlugs = new Set([
   'rise-with-sap',
   's4hana-readiness-assessment',
@@ -107,7 +108,14 @@ const noResourceSlugs = new Set([
   'sap-role-redesign',
   'sap-emergency-access-management',
   'sap-security-managed-services',
-  'sap-s4hana-security-readiness'
+  'sap-s4hana-security-readiness',
+  'sap-ams-services',
+  'sap-basis-operations',
+  'sap-technical-monitoring',
+  'sap-incident-problem-management',
+  'sap-performance-availability',
+  'sap-cloud-alm-operations',
+  'sap-operations-hub'
 ])
 const finalCtaSecondaryTo = computed(() =>
   noResourceSlugs.has(serviceSlug)
@@ -115,6 +123,9 @@ const finalCtaSecondaryTo = computed(() =>
     : `/pilares/${pillarSlug}`
 )
 const showHeroResourceCta = computed(() => !noResourceSlugs.has(serviceSlug))
+// The Lead Magnet section is a "download this resource" pitch; hide it whenever
+// there is no real downloadable PDF behind it.
+const showLeadMagnet = computed(() => !noResourceSlugs.has(serviceSlug))
 
 const canonical = `${siteConfig.url}/pilares/${pillarSlug}/${serviceSlug}`
 
@@ -359,7 +370,7 @@ useHead({
     </section>
 
     <!-- 8. Lead Magnet -->
-    <section id="recurso" class="relative overflow-hidden bg-core-midnight py-16 text-white md:py-20">
+    <section v-if="showLeadMagnet" id="recurso" class="relative overflow-hidden bg-core-midnight py-16 text-white md:py-20">
       <div class="absolute inset-0 -z-10 bg-core-grid opacity-30" aria-hidden="true" />
       <div class="section-shell">
         <div v-reveal class="grid gap-8 lg:grid-cols-[1.4fr_.6fr] lg:items-center">

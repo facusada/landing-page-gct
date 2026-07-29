@@ -348,7 +348,7 @@ export const pillarL3Services: PillarL3Service[] = [
   {
     pillar: 'operate',
     key: 'operationsHub',
-    slug: 'sap-operations-managed-services',
+    slug: 'sap-operations-hub',
     icon: 'managed',
     image: '/pillars/04_tile_03_operate.png',
     metrics: [
