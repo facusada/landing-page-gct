@@ -953,31 +953,31 @@
       "govern": {
         "pmoProjectGovernance": {
           "title": "SAP PMO & Project Governance",
-          "description": "Diseñá y operá modelos de gobierno para proyectos SAP — planificación, estado, riesgos, incidencias, alcance y alineación de stakeholders — para aumentar el control del proyecto y la visibilidad ejecutiva."
+          "description": "Una oficina de gobierno construida para SAP — modelo operativo, planificación integrada, control de riesgos RAID, control de alcance y cambios, quality gates y reporting ejecutivo para una entrega predecible."
         },
         "programManagement": {
           "title": "SAP Program Management",
-          "description": "Coordiná iniciativas SAP complejas con múltiples equipos, workstreams, proveedores y sistemas para mejorar la alineación, la disciplina de ejecución y la toma de decisiones."
+          "description": "Liderazgo integrado entre workstreams, releases y partners — estrategia de programa, secuenciamiento, coordinación de recursos y control de beneficios para que las transformaciones SAP complejas corran como un solo programa."
         },
         "serviceGovernance": {
           "title": "SAP Service Governance",
-          "description": "Definí el gobierno de los servicios SAP — órdenes de servicio, SLAs, horas, consumo y seguimiento operativo — para controlar la entrega y el consumo del servicio."
+          "description": "Un único modelo responsable en todos los proveedores — modelo operativo de servicio, marco de SLAs y KPIs, gobierno del desempeño y coordinación multi-proveedor para el servicio SAP de punta a punta."
         },
         "deliveryGovernance": {
           "title": "SAP Delivery Governance",
-          "description": "Seguí la entrega en proyectos y servicios — hitos, entregables, riesgos, incidencias y dependencias — para reducir la incertidumbre y mejorar la accountability."
+          "description": "Controles independientes de calidad, alcance y readiness — estándares de entrega, gobierno de stage-gates, supervisión de diseño y testing, assurance de cutover y readiness operativo."
         },
         "complianceControl": {
           "title": "SAP Compliance & Control Framework",
-          "description": "Establecé mecanismos de control para operaciones, seguridad, cambios, accesos y preparación para auditorías SAP, fortaleciendo el cumplimiento y cerrando brechas de gobierno."
+          "description": "Convertí las políticas en controles operativos — diseño del framework, mapeo de procesos y controles, diseño de controles SAP, evidencia y testing, y monitoreo continuo de controles."
         },
         "kpiReporting": {
           "title": "SAP KPI & Executive Reporting",
-          "description": "Diseñá dashboards y reportes ejecutivos con estado, riesgos, horas, consumo, salud del proyecto e impacto de negocio para una gestión transparente y basada en datos."
+          "description": "Reporting listo para decidir, enfocado en desempeño, riesgo y valor — un marco de KPIs consistente, calidad de datos, dashboards ejecutivos, narrativa y automatización del reporting."
         },
         "methodologyAdvisory": {
           "title": "SAP Methodology Advisory",
-          "description": "Ayudamos a elegir o adaptar metodologías — SAP Activate, gobierno híbrido o entrega estándar — aplicando el nivel justo de metodología sin complejidad innecesaria."
+          "description": "Diseñá, adaptá e institucionalizá un método de entrega SAP — arquitectura de metodología, alineación con SAP Activate, disciplinas embebidas, gobierno y adopción que los equipos usan de verdad."
         }
       },
       "innovate": {
@@ -4159,1039 +4159,1256 @@
         }
       },
       "sap-pmo-project-governance": {
-        "metaTitle": "SAP PMO & Project Governance | Control de Proyectos y Visibilidad Ejecutiva | Global Core Technologies",
-        "metaDescription": "Diseñá y operá el gobierno de tus proyectos SAP: planificación, estado, riesgos, incidencias, alcance y alineación de stakeholders, para un control real y visibilidad ejecutiva.",
+        "metaTitle": "SAP PMO & Project Governance | Controles de Proyecto SAP | Global Core Technologies",
+        "metaDescription": "Servicios de SAP PMO: modelo de gobierno, planificación integrada, control de riesgos RAID, control de alcance y cambios, quality gates y reporting ejecutivo para una entrega SAP predecible.",
         "eyebrow": "Pilar · Govern",
-        "h1": "SAP PMO & Project Governance: estructura, control y visibilidad para cada proyecto SAP",
-        "heroSubtitle": "Diseñamos y operamos el modelo de gobierno de tus proyectos SAP — planificación, reportes de estado, riesgos, incidencias, alcance y alineación de stakeholders — para que la dirección siempre sepa dónde está realmente cada proyecto.",
-        "ctaPrimary": "Evaluá tu gobierno de proyectos",
-        "ctaSecondary": "Solicitá una sesión de gobierno",
+        "h1": "Controlá Cada Proyecto SAP",
+        "heroSubtitle": "Gobierno claro para una entrega, decisiones y resultados predecibles. Global Core Technologies establece el gobierno, los controles y la visibilidad ejecutiva necesarios para mantener los proyectos SAP alineados con el alcance, el cronograma, el presupuesto, la calidad y las prioridades del negocio — creando una única fuente de verdad para decisiones, riesgos, dependencias y desempeño de la entrega.",
+        "ctaPrimary": "Evaluá tu Gobierno de Proyectos",
+        "ctaSecondary": "Hablá con un Experto en Gobierno",
         "metrics": {
-          "projects": "proyectos SAP gobernados",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "La mayoría de los proyectos SAP no fallan por la tecnología, fallan por el control.",
+          "title": "Los Proyectos SAP Pierden Control Entre Workstreams",
           "items": [
             {
-              "title": "Estado sin sustancia",
-              "description": "Reportes semanales llenos de semáforos en verde que ocultan un alcance que se desvía, riesgos sin gestionar y decisiones sin dueño."
+              "title": "Roles y caminos de decisión difusos",
+              "description": "Roles, derechos de decisión y caminos de escalamiento poco claros, planes desconectados entre workstreams funcionales y técnicos, y comités de dirección enfocados en updates en lugar de decisiones."
             },
             {
-              "title": "Sin una única fuente de verdad",
-              "description": "Alcance, plan, riesgos e incidencias viven en planillas dispersas, así que nadie tiene una visión confiable y actual del proyecto."
+              "title": "Estado poco confiable y riesgo disperso",
+              "description": "Reporting de estado inconsistente e indicadores de avance poco confiables, con riesgos, issues y dependencias gestionados en herramientas separadas."
             },
             {
-              "title": "Los escalamientos llegan tarde",
-              "description": "Cuando un problema llega a la dirección ya es una crisis, porque no había un camino de escalamiento estructurado."
+              "title": "Alcance sin control y readiness débil",
+              "description": "Cambios de alcance aprobados sin visibilidad completa de costo o plazo, evidencia limitada para los quality gates y el go-live, y una transición débil de la entrega del proyecto a la operación."
             }
           ],
-          "closing": "Una PMO no es sobrecarga de reportes: es el sistema operativo que mantiene un proyecto SAP alineado, controlado y listo para decidir."
+          "closing": "Cuando el gobierno está fragmentado, el liderazgo recibe información tardía o inconsistente y los equipos de entrega operan con prioridades distintas."
         },
         "howWeHelp": {
-          "title": "Una PMO que funciona para tus proyectos SAP, no solo una plantilla",
-          "description": "Del diseño del gobierno a la operación diaria, con foco en un control que la dirección realmente usa.",
+          "title": "Una Oficina de Gobierno Construida para SAP",
+          "description": "Establecemos el modelo operativo del PMO, los controles y la visibilidad ejecutiva que mantienen predecible la entrega SAP.",
           "items": [
             {
-              "title": "Modelo de gobierno y cadencia",
-              "description": "Definimos roles, responsabilidades, cadencia de reuniones, derechos de decisión y el modelo de reporte del proyecto."
+              "title": "Modelo de Gobierno",
+              "description": "Mandato y modelo operativo del PMO, foros de gobierno y cadencia, definición de roles y RACI, derechos de decisión y caminos de escalamiento, y stage gates con criterios de aprobación."
             },
             {
-              "title": "Control de alcance, plan e hitos",
-              "description": "Seguimos alcance, plan, hitos y dependencias, y marcamos las desviaciones antes de que se agraven."
+              "title": "Planificación Integrada",
+              "description": "Master plan y marco de hitos, gestión de dependencias entre workstreams, visibilidad del camino crítico, coordinación de recursos y capacidad, y alineación de releases y cutover."
             },
             {
-              "title": "Gestión de riesgos e incidencias",
-              "description": "Operamos un registro vivo de riesgos e incidencias con dueños, mitigaciones y escalamiento estructurado."
+              "title": "Control de Riesgos e Issues",
+              "description": "Un marco RAID con ownership y mitigación de riesgos, seguimiento de escalamiento y resolución de issues, gestión de supuestos y dependencias, y reporting ejecutivo de excepciones."
             },
             {
-              "title": "Reporte de estado ejecutivo",
-              "description": "Producimos reportes de estado y dashboards claros y honestos que muestran la salud real del proyecto, no solo semáforos en verde."
+              "title": "Control de Alcance y Cambios",
+              "description": "Línea base de alcance, workflow de change requests, evaluación de impacto, aprobación y trazabilidad, e integración con presupuesto y cronograma."
+            },
+            {
+              "title": "Calidad y Readiness",
+              "description": "Estándares de entregables, revisiones de calidad, evidencia de stage-gate, readiness de testing y cutover, y criterios de handover operativo."
+            },
+            {
+              "title": "Reporting Ejecutivo",
+              "description": "Un modelo de estado consistente, reporting de hitos y tendencias, log de decisiones, packs de comité de dirección y dashboards de management."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Entrega Predecible. Mejores Decisiones.",
           "items": [
             {
-              "title": "Control real del proyecto",
-              "description": "El alcance, el plan y los riesgos se gestionan de forma activa, no se documentan después de los hechos."
+              "title": "Mayor Responsabilidad",
+              "description": "El ownership claro y los derechos de decisión reducen la ambigüedad entre equipos y proveedores."
             },
             {
-              "title": "Visibilidad ejecutiva",
-              "description": "La dirección obtiene una visión veraz y actual de cada proyecto y de las decisiones que debe tomar."
+              "title": "Visibilidad Temprana de Riesgos",
+              "description": "La gestión integrada de riesgos y dependencias revela las amenazas antes de que afecten hitos clave."
             },
             {
-              "title": "Decisiones más rápidas y mejores",
-              "description": "El escalamiento estructurado pone la decisión correcta frente a la persona correcta en el momento correcto."
+              "title": "Reporting Más Confiable",
+              "description": "Un único modelo de reporting le da a los ejecutivos una vista consistente del avance, la exposición y la acción requerida."
             },
             {
-              "title": "Menos sorpresas",
-              "description": "Los problemas aparecen temprano, cuando todavía son baratos de resolver."
+              "title": "Alcance Controlado",
+              "description": "El análisis formal de impacto evita que el cambio no gestionado erosione el presupuesto y el cronograma."
+            },
+            {
+              "title": "Decisiones Más Rápidas",
+              "description": "Los foros de gobierno listos para decidir reducen las demoras y destraban la entrega."
+            },
+            {
+              "title": "Go-Live Más Suave",
+              "description": "Los quality gates y los criterios de readiness mejoran la confianza en el cutover y la continuidad operativa."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia un proyecto SAP gobernado",
-          "description": "Cuatro fases del diseño del gobierno a la operación en régimen.",
+          "title": "Estructurá el Gobierno Alrededor de las Decisiones",
+          "description": "Cinco fases desde el assessment hasta un handover controlado a la operación.",
           "phases": [
             {
               "name": "Evaluar",
-              "deliverable": "Madurez actual del gobierno de proyectos, brechas y mapa de stakeholders"
+              "deliverable": "Revisamos el contexto de entrega, stakeholders, planes, controles, herramientas y brechas de gobierno."
             },
             {
               "name": "Diseñar",
-              "deliverable": "Modelo de gobierno, cadencia, reporte y marco de escalamiento"
+              "deliverable": "Definimos el modelo operativo del PMO, foros, estándares, roles, KPIs y caminos de decisión."
             },
             {
-              "name": "Operar",
-              "deliverable": "PMO activa: estado, riesgos, incidencias, alcance y decisiones"
+              "name": "Movilizar",
+              "deliverable": "Establecemos planes integrados, registros, templates, reporting y cadencia de trabajo."
             },
             {
-              "name": "Mejorar",
-              "deliverable": "Métricas de gobierno, lecciones aprendidas y refinamiento continuo"
+              "name": "Controlar",
+              "deliverable": "Coordinamos desempeño, riesgos, alcance, dependencias, calidad y decisiones ejecutivas."
+            },
+            {
+              "name": "Transicionar",
+              "deliverable": "Cerramos brechas de gobierno, capturamos lecciones y transferimos la responsabilidad a la operación."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo los Proyectos SAP Necesitan una Estructura Real",
+          "title": "Gobierno para Cada Etapa del Proyecto",
           "items": [
-            { "title": "Sin gobierno estandarizado", "description": "Cada proyecto SAP corre con su propia estructura ad hoc, sin un modelo de gobierno compartido." },
-            { "title": "Reportes de estado poco confiables", "description": "Los reportes de estado de proyecto no reflejan lo que realmente está pasando en el terreno." },
-            { "title": "Responsabilidad de riesgos poco clara", "description": "Los riesgos e issues se registran pero nadie tiene la responsabilidad clara de resolverlos." },
-            { "title": "Arranque de un nuevo programa", "description": "Una nueva iniciativa SAP está arrancando y necesita una estructura de gobierno desde el primer día." },
-            { "title": "Múltiples proyectos en simultáneo", "description": "Varios proyectos SAP corren en paralelo sin una forma consistente de seguirlos y compararlos." }
+            {
+              "title": "Movilización de Proyecto Nuevo",
+              "description": "Establecemos gobierno, planes y controles antes de que empiece la entrega."
+            },
+            {
+              "title": "Recuperación de Proyecto",
+              "description": "Estabilizamos una iniciativa con hitos incumplidos, reporting débil o riesgo no gestionado."
+            },
+            {
+              "title": "PMO Independiente",
+              "description": "Aportamos supervisión objetiva sobre un equipo interno y uno o más partners de implementación."
+            },
+            {
+              "title": "PMO de Transformación S/4HANA",
+              "description": "Coordinamos los workstreams de negocio, datos, seguridad, técnico y change a través de un modelo unificado."
+            },
+            {
+              "title": "Oficina de Go-Live Readiness",
+              "description": "Creamos visibilidad de calidad para decidir sobre testing, cutover, readiness del negocio e hypercare."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el gobierno de proyectos SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Experiencia en entrega SAP",
-              "description": "Gobernamos proyectos SAP como los ejecutamos: con experiencia real de entrega, no con teoría de PMO genérica."
+              "title": "Contexto de Entrega SAP",
+              "description": "Nuestro modelo de gobierno refleja las dependencias y los quality gates propios de los programas SAP."
             },
             {
-              "title": "Mentalidad de gobierno práctica",
-              "description": "Aplicamos el nivel justo de control para tu proyecto, sin burocracia que frene la entrega."
+              "title": "Profundidad Ejecutiva y Técnica",
+              "description": "Traducimos la evidencia detallada de la entrega en decisiones de management concisas."
             },
             {
-              "title": "Estrategia y ejecución",
-              "description": "Conectamos las prioridades del negocio con la ejecución y la operación diaria del proyecto."
+              "title": "Supervisión Independiente",
+              "description": "Global Core Technologies puede gobernar equipos internos y múltiples proveedores sin sesgo de entrega."
             },
             {
-              "title": "SAP Activate y modelos híbridos",
-              "description": "Trabajamos con SAP Activate y modelos de entrega híbridos, adaptando el gobierno a cómo realmente trabajás."
+              "title": "Integración con Seguridad y Operación",
+              "description": "El readiness incluye seguridad, controles, soporte y sostenibilidad operativa."
             },
             {
-              "title": "Comunicación ejecutiva",
-              "description": "Traducimos el detalle del proyecto al lenguaje que la dirección necesita para decidir."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Seguimos comprometidos más allá de un solo proyecto, construyendo un gobierno que perdura."
+              "title": "Gobierno Práctico",
+              "description": "Creamos la estructura mínima necesaria para el control sin agregar burocracia innecesaria."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Sesión de gobierno: evaluamos cuánto control tienen realmente tus proyectos SAP",
-          "description": "En 45 minutos revisamos tu gobierno de proyectos actual y te mostramos dónde se está perdiendo visibilidad, control y accountability, y cómo resolverlo primero.",
-          "cta": "Reservá tu sesión de gobierno"
+          "eyebrow": "Health check gratuito",
+          "title": "¿Qué Tan Sólido Es tu Gobierno de Proyectos SAP?",
+          "description": "Usá el SAP Project Governance Health Check para evaluar derechos de decisión, planificación, control de riesgos, reporting, quality gates y readiness operativo.",
+          "cta": "Descargá el Project Governance Health Check"
         },
         "finalCta": {
-          "title": "¿Listo para llevar control real a tus proyectos SAP?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos la PMO y el modelo de gobierno que mantienen tus proyectos SAP alineados y listos para decidir.",
-          "ctaPrimary": "Evaluá tu gobierno de proyectos",
-          "ctaSecondary": "Conocé el pilar Govern"
+          "title": "Llevá el Control a la Entrega",
+          "description": "Creá la estructura de gobierno y la visibilidad ejecutiva que tu proyecto SAP necesita para entregar con confianza.",
+          "ctaPrimary": "Evaluá tu Gobierno de Proyectos",
+          "ctaSecondary": "Hablá con un Experto en Gobierno"
         }
       },
       "sap-program-management": {
-        "metaTitle": "SAP Program Management | Coordinación de Iniciativas SAP Complejas | Global Core Technologies",
-        "metaDescription": "Coordiná iniciativas SAP complejas con múltiples equipos, workstreams, proveedores y sistemas, mejorando la alineación, la disciplina de ejecución y la toma de decisiones.",
+        "metaTitle": "SAP Program Management | Programas de Transformación SAP | Global Core Technologies",
+        "metaDescription": "Gestión de programas SAP: estrategia de programa, gobierno integrado, roadmap y secuenciamiento, coordinación de recursos y partners, control financiero y de beneficios en transformaciones SAP complejas.",
         "eyebrow": "Pilar · Govern",
-        "h1": "SAP Program Management: una sola conducción para iniciativas SAP complejas y multi-workstream",
-        "heroSubtitle": "Coordinamos grandes iniciativas SAP que abarcan múltiples equipos, workstreams, proveedores y sistemas, alineándolas alrededor de objetivos, dependencias y decisiones compartidas para que todo el programa avance como uno.",
-        "ctaPrimary": "Evaluá tu programa SAP",
-        "ctaSecondary": "Solicitá una revisión de programa",
+        "h1": "Liderá Programas SAP Complejos",
+        "heroSubtitle": "Liderazgo integrado entre workstreams, releases y prioridades del negocio. Global Core Technologies coordina programas SAP complejos como una única transformación conectada — alineando estrategia, secuenciamiento, recursos, partners y resultados de negocio entre proyectos para que los ejecutivos gestionen el programa completo, no un conjunto de workstreams desconectados.",
+        "ctaPrimary": "Revisá tu Programa SAP",
+        "ctaSecondary": "Hablá con un Líder de Programa",
         "metrics": {
-          "projects": "programas SAP liderados",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Cuando cada workstream optimiza para sí mismo, el programa se desvía.",
+          "title": "Múltiples Proyectos Crean un Único Resultado de Negocio",
           "items": [
             {
-              "title": "Workstreams sin coordinar",
-              "description": "Los equipos funcional, técnico, de datos y de cambio corren sobre planes distintos, y las dependencias cruzadas se pierden."
+              "title": "Proyectos optimizados de forma aislada",
+              "description": "Proyectos optimizados de forma independiente en lugar de para los resultados del programa, con planes de release que compiten por entornos, especialistas o disponibilidad del negocio."
             },
             {
-              "title": "Proveedores tirando en distintas direcciones",
-              "description": "Múltiples socios y equipos internos optimizan su propio alcance, sin nadie responsable del resultado de punta a punta."
+              "title": "Dependencias tardías y modelos mixtos",
+              "description": "Dependencias entre proyectos descubiertas demasiado tarde y distintos partners usando modelos de entrega incompatibles."
             },
             {
-              "title": "Decisiones sin foro",
-              "description": "Las decisiones transversales se traban porque no hay una estructura a nivel de programa para plantearlas, ponderarlas y resolverlas."
+              "title": "Valor y decisiones desconectados",
+              "description": "Beneficios no conectados a hitos ni adopción, decisiones ejecutivas demoradas por reporting fragmentado, y trade-offs de presupuesto tomados sin impacto a nivel programa."
             }
           ],
-          "closing": "El program management es lo que convierte un conjunto de proyectos SAP en una única iniciativa alineada, con una dirección y un responsable."
+          "closing": "Los proyectos individuales pueden reportar avance mientras el programa global sigue expuesto a conflictos de secuenciamiento, restricciones de recursos compartidos y decisiones entre proyectos sin resolver."
         },
         "howWeHelp": {
-          "title": "Coordinación de punta a punta de tu programa SAP",
-          "description": "Aportamos la estructura a nivel de programa que mantiene cada workstream alineado y avanzando en conjunto.",
+          "title": "Un Único Modelo de Gestión para el Programa",
+          "description": "Coordinamos estrategia, secuenciamiento, recursos, finanzas y beneficios como una única transformación conectada.",
           "items": [
             {
-              "title": "Estructura y gobierno del programa",
-              "description": "Definimos workstreams, roles, cadencia, foros de decisión y el modelo de gobierno del programa."
+              "title": "Estrategia de Programa",
+              "description": "Charter y resultados del programa, roadmap de transformación, arquitectura de proyectos y releases, prioridades estratégicas, y medidas de éxito y beneficios."
             },
             {
-              "title": "Dependencias entre workstreams",
-              "description": "Mapeamos y gestionamos activamente las dependencias entre los frentes funcional, técnico, de datos y de cambio."
+              "title": "Gobierno Integrado",
+              "description": "Board y foros del programa, autoridad de decisión, escalamiento entre proyectos, estándares del programa, y assurance con stage gates."
             },
             {
-              "title": "Alineación de proveedores y stakeholders",
-              "description": "Coordinamos múltiples socios y equipos internos alrededor de objetivos y responsabilidades compartidas."
+              "title": "Roadmap y Secuenciamiento",
+              "description": "Master roadmap integrado, planificación de releases y waves, mapeo de dependencias, alineación de entornos y cutover, y gestión del camino crítico."
             },
             {
-              "title": "Planificación y reporte integrados",
-              "description": "Consolidamos planes, riesgos y estado en una única visión de programa para la dirección."
+              "title": "Coordinación de Recursos y Partners",
+              "description": "Visibilidad de capacidad, planificación de roles críticos, coordinación de proveedores, arbitraje de recursos compartidos, y seguimiento de dependencias comerciales."
+            },
+            {
+              "title": "Control Financiero y de Beneficios",
+              "description": "Estructura del presupuesto del programa, gestión de forecast y desvíos, trade-offs de inversión, ownership de beneficios, y seguimiento de la realización de valor."
+            },
+            {
+              "title": "Program Intelligence",
+              "description": "Un modelo de KPIs integrado, confianza en los hitos, concentración de riesgo, análisis de escenarios, y packs de decisión ejecutiva."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Un Programa. Una Dirección.",
           "items": [
             {
-              "title": "Ejecución alineada",
-              "description": "Cada workstream apunta a los mismos objetivos y a la misma línea de tiempo."
+              "title": "Alineación Estratégica",
+              "description": "Cada proyecto y release se mantiene conectado a los objetivos del programa y las prioridades del negocio."
             },
             {
-              "title": "Dependencias gestionadas",
-              "description": "Las dependencias entre equipos son visibles y controladas, no se descubren tarde."
+              "title": "Mejor Secuenciamiento",
+              "description": "Las dependencias, los entornos y la capacidad organizacional alimentan un roadmap de entrega realista."
             },
             {
-              "title": "Accountability clara",
-              "description": "Una estructura es dueña del resultado de punta a punta, entre proveedores y equipos."
+              "title": "Trade-Offs Más Rápidos",
+              "description": "Los líderes pueden comparar impactos y tomar decisiones a nivel programa con evidencia confiable."
             },
             {
-              "title": "Decisiones con confianza",
-              "description": "Los foros a nivel de programa resuelven las decisiones transversales rápido y con transparencia."
+              "title": "Menos Conflicto de Entrega",
+              "description": "El gobierno integrado evita que los proyectos compitan en silencio por los mismos recursos."
+            },
+            {
+              "title": "Valor de Negocio Visible",
+              "description": "Los beneficios se asignan, se miden y se conectan con los hitos de entrega y adopción."
+            },
+            {
+              "title": "Mayor Confianza en la Transformación",
+              "description": "Los ejecutivos obtienen una vista coherente del avance, la exposición y las decisiones futuras."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia un programa SAP gobernado",
-          "description": "Cuatro fases del armado del programa a la entrega coordinada.",
+          "title": "Gestioná el Sistema, No las Partes",
+          "description": "Cinco fases que dirigen toda la transformación hacia resultados realizados.",
           "phases": [
             {
-              "name": "Estructurar",
-              "deliverable": "Modelo del programa, workstreams, roles y foros de decisión"
+              "name": "Encuadrar",
+              "deliverable": "Confirmamos resultados estratégicos, límites del programa, stakeholders y autoridad de decisión."
             },
             {
-              "name": "Alinear",
-              "deliverable": "Plan integrado, dependencias y alineación de proveedores"
+              "name": "Arquitecturar",
+              "deliverable": "Estructuramos proyectos, releases, dependencias, recursos, beneficios y gobierno como un solo modelo."
             },
             {
-              "name": "Conducir",
-              "deliverable": "Coordinación activa, control de riesgos y gestión de decisiones"
+              "name": "Movilizar",
+              "deliverable": "Alineamos planes, partners, reporting, controles y rutinas de gestión del programa."
             },
             {
-              "name": "Entregar",
-              "deliverable": "Entrega de hitos, reporte y aseguramiento a nivel de programa"
+              "name": "Orquestar",
+              "deliverable": "Dirigimos la ejecución, resolvemos conflictos entre proyectos y gestionamos el cambio a nivel programa."
+            },
+            {
+              "name": "Realizar",
+              "deliverable": "Seguimos la adopción, los beneficios, los resultados operativos y el próximo horizonte de transformación."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo el Programa Necesita una Sola Mano al Timón",
+          "title": "Liderazgo para el Cambio Multi-Proyecto",
           "items": [
-            { "title": "Múltiples frentes sin alineación", "description": "Los frentes funcional, técnico, de seguridad y de datos avanzan cada uno por su lado." },
-            { "title": "Falta de coordinación entre proveedores", "description": "Participan múltiples partners y proveedores sin un único punto de coordinación." },
-            { "title": "Dependencias que aparecen tarde", "description": "Las dependencias entre frentes se descubren tarde, cerca de los hitos críticos." },
-            { "title": "Falta de visibilidad ejecutiva", "description": "El liderazgo no logra tener una vista única y confiable de cómo avanza el programa en su conjunto." },
-            { "title": "Recuperación del programa", "description": "Una iniciativa grande se desvió del plan y necesita coordinación central para volver a encauzarse." }
+            {
+              "title": "Programa S/4HANA Enterprise",
+              "description": "Coordinamos la transformación de negocio, la tecnología, los datos y el cambio organizacional."
+            },
+            {
+              "title": "Rollout Multi-País",
+              "description": "Gobernamos templates, localización, waves y capacidades compartidas entre geografías."
+            },
+            {
+              "title": "Portfolio de Transformación Cloud",
+              "description": "Secuenciamos iniciativas de RISE, BTP, integración, seguridad y modelo operativo."
+            },
+            {
+              "title": "Recuperación de Programa",
+              "description": "Reconstruimos control, prioridades y alineación ejecutiva en una transformación en dificultades."
+            },
+            {
+              "title": "Integración SAP Post-Fusión",
+              "description": "Coordinamos la consolidación, la armonización y la transición entre múltiples landscapes."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para gestionar tu programa SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Experiencia en entrega SAP",
-              "description": "Hemos coordinado iniciativas SAP complejas y multi-proveedor de punta a punta."
+              "title": "Perspectiva de Transformación",
+              "description": "Conectamos la gestión de la entrega con la arquitectura, la seguridad, la operación y el readiness del negocio."
             },
             {
-              "title": "Mentalidad de gobierno práctica",
-              "description": "Agregamos estructura donde genera valor, sin frenar el programa."
+              "title": "Liderazgo Entre Workstreams",
+              "description": "Nuestros equipos entienden cómo las decisiones de un programa SAP se propagan entre los dominios técnicos y funcionales."
             },
             {
-              "title": "Estrategia y ejecución",
-              "description": "Mantenemos el programa atado a los resultados de negocio, no solo a completar tareas."
+              "title": "Soporte a la Decisión Ejecutiva",
+              "description": "Enmarcamos las opciones en torno a impacto, riesgo, valor y timing."
             },
             {
-              "title": "SAP Activate y modelos híbridos",
-              "description": "Adaptamos el gobierno del programa a las realidades de SAP Activate y la entrega híbrida."
+              "title": "Coordinación de Proveedores",
+              "description": "Global Core Technologies puede orquestar múltiples partners de entrega a través de estándares y evidencia comunes."
             },
             {
-              "title": "Comunicación ejecutiva",
-              "description": "Le damos a la dirección una visión única y honesta de un programa complejo."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Te acompañamos a lo largo del ciclo del programa, no solo en el kickoff."
+              "title": "Orientación al Valor",
+              "description": "El éxito del programa se mide por la adopción y los resultados, no solo por los hitos técnicos."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de programa: mapeamos los riesgos y dependencias que ponen en riesgo tu iniciativa SAP",
-          "description": "En 45 minutos revisamos la estructura de tu programa y detectamos las brechas de alineación, dependencias y decisiones con más probabilidad de descarrilar la entrega.",
-          "cta": "Reservá tu revisión de programa"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Tu Programa Está Realmente Integrado?",
+          "description": "Usá el SAP Program Integration Checklist para identificar brechas en secuenciamiento, dependencias, gobierno, planificación de recursos y realización de beneficios.",
+          "cta": "Descargá el Program Integration Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para conducir tu programa SAP como una sola iniciativa?",
-          "description": "Agendá una sesión con nuestros especialistas y definamos la estructura de programa que alinea tus workstreams, proveedores y decisiones.",
-          "ctaPrimary": "Evaluá tu programa SAP",
-          "ctaSecondary": "Conocé el pilar Govern"
+          "title": "Liderá Toda la Transformación",
+          "description": "Alineá cada proyecto, partner y decisión en torno a un único roadmap de programa SAP alcanzable.",
+          "ctaPrimary": "Revisá tu Programa SAP",
+          "ctaSecondary": "Hablá con un Líder de Programa"
         }
       },
       "sap-service-governance": {
-        "metaTitle": "SAP Service Governance | Órdenes de Servicio, SLAs y Control de Consumo | Global Core Technologies",
-        "metaDescription": "Definí el gobierno de tus servicios SAP: órdenes de servicio, SLAs, horas, consumo, reporte y seguimiento operativo, para un control real de la entrega y el gasto.",
+        "metaTitle": "SAP Service Governance | Gobierno de Proveedores y SLAs SAP | Global Core Technologies",
+        "metaDescription": "Gobierno de servicios SAP: modelo operativo de servicio, marco de SLAs y KPIs, gobierno del desempeño, coordinación multi-proveedor y mejora continua en todos los proveedores de servicios SAP.",
         "eyebrow": "Pilar · Govern",
-        "h1": "SAP Service Governance: control sobre cómo se entregan y consumen los servicios SAP",
-        "heroSubtitle": "Definimos y operamos el modelo de gobierno de tus servicios SAP — órdenes de servicio, SLAs, horas, consumo, reporte y seguimiento operativo — para que sepas exactamente qué estás recibiendo y qué estás gastando.",
-        "ctaPrimary": "Evaluá tu gobierno de servicios",
-        "ctaSecondary": "Solicitá una revisión de servicios",
+        "h1": "Gobierná los Servicios SAP",
+        "heroSubtitle": "Responsabilidad, desempeño y mejora consistentes en todos los proveedores. Global Core Technologies diseña y opera modelos de gobierno que conectan equipos internos, especialistas SAP, proveedores cloud y partners de servicio — convirtiendo contratos, SLAs y datos operativos en responsabilidad clara, mejores decisiones y mejora continua del servicio.",
+        "ctaPrimary": "Evaluá tu Gobierno de Servicios",
+        "ctaSecondary": "Hablá con un Experto en Servicios",
         "metrics": {
-          "projects": "modelos de servicio SAP gobernados",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Los servicios SAP suelen correr sin que nadie controle de verdad la entrega o el gasto.",
+          "title": "Muchos Proveedores. Ninguna Vista Única del Servicio.",
           "items": [
             {
-              "title": "Las horas desaparecen sin visibilidad",
-              "description": "El consumo de horas de servicio es difícil de seguir, así que el presupuesto se gasta antes de que alguien note la tendencia."
+              "title": "SLAs medidos por proveedor",
+              "description": "SLAs medidos por proveedor en lugar de por servicio de negocio, con responsabilidades superpuestas y brechas entre equipos."
             },
             {
-              "title": "SLAs que nadie mide",
-              "description": "Los niveles de servicio se acuerdan en papel pero nunca se reportan, así que la discusión sobre calidad queda en opiniones."
+              "title": "Handoffs lentos y reglas mixtas",
+              "description": "Incidentes demorados por handoffs y disputas de ownership, y prioridades, definiciones de severidad y reglas de escalamiento inconsistentes."
             },
             {
-              "title": "Sin vínculo entre servicio y valor",
-              "description": "No queda claro si el consumo del servicio está entregando realmente los resultados que el negocio está pagando."
+              "title": "Resultados y mejora perdidos",
+              "description": "Revisiones de servicio dominadas por la actividad en vez de los resultados, problemas crónicos sin dueños responsables, e iniciativas de mejora sin priorización ni valor medible."
             }
           ],
-          "closing": "El gobierno de servicios convierte una relación de servicio abierta en una controlada, medible y con responsables."
+          "closing": "Aun cuando cada proveedor cumple una métrica individual, el servicio de negocio de punta a punta puede seguir sufriendo ownership poco claro, handoffs lentos y problemas recurrentes."
         },
         "howWeHelp": {
-          "title": "Un modelo de gobierno para tus servicios SAP",
-          "description": "Ponemos estructura alrededor de las órdenes de servicio, el consumo y el reporte para que los servicios se mantengan bajo control.",
+          "title": "Gobierná el Servicio SAP de Punta a Punta",
+          "description": "Conectamos proveedores, SLAs y datos operativos en un único modelo de gobierno de servicio responsable.",
           "items": [
             {
-              "title": "Modelo de servicio y órdenes",
-              "description": "Definimos el alcance del servicio, la estructura de órdenes, los catálogos y el gobierno alrededor de ellos."
+              "title": "Modelo Operativo de Servicio",
+              "description": "Alcance y catálogo de servicios, ownership del servicio, interfaces con proveedores, RACI y responsabilidad, y foros de gobierno."
             },
             {
-              "title": "Definición y seguimiento de SLAs",
-              "description": "Establecemos SLAs medibles y reportamos contra ellos para que la calidad del servicio sea objetiva."
+              "title": "Marco de SLAs y KPIs",
+              "description": "Medidas alineadas al negocio, operational-level agreements, reglas de medición, targets y umbrales, e indicadores de experiencia y resultados."
             },
             {
-              "title": "Control de horas y consumo",
-              "description": "Seguimos horas y consumo contra presupuesto, con tendencias y alertas tempranas."
+              "title": "Gobierno del Desempeño",
+              "description": "Controles diarios y semanales, revisiones mensuales de servicio, análisis de tendencias y excepciones, seguimiento de acciones correctivas, y reporting ejecutivo."
             },
             {
-              "title": "Seguimiento operativo",
-              "description": "Operamos la cadencia y el reporte que mantienen la entrega del servicio visible y con responsables."
+              "title": "Coordinación Multi-Proveedor",
+              "description": "Estándares de handoff, un modelo de escalamiento compartido, gobierno de incidentes entre proveedores, gestión de dependencias, y responsabilidad comercial."
+            },
+            {
+              "title": "Riesgo y Compliance",
+              "description": "Un registro de riesgos del servicio, evidencia de controles, soporte a auditorías, alineación de políticas, y revisiones de continuidad y resiliencia."
+            },
+            {
+              "title": "Mejora Continua",
+              "description": "Temas de problemas, un backlog de mejoras, candidatos a automatización, seguimiento de beneficios, y un roadmap de madurez del servicio."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Responsabilidad en Toda la Cadena de Servicio",
           "items": [
             {
-              "title": "Gasto bajo control",
-              "description": "Las horas y el consumo se siguen contra presupuesto, sin sorpresas a fin de período."
+              "title": "Ownership Claro",
+              "description": "Cada servicio, decisión, escalamiento y acción de mejora tiene un dueño responsable."
             },
             {
-              "title": "Calidad de servicio objetiva",
-              "description": "Los SLAs se miden y reportan, así que la calidad es un hecho, no una discusión."
+              "title": "Resolución Más Rápida",
+              "description": "Las prioridades compartidas y las reglas de handoff reducen las demoras entre equipos y proveedores."
             },
             {
-              "title": "Accountability clara",
-              "description": "Todos saben qué cubre el servicio, quién es dueño y cómo está funcionando."
+              "title": "Desempeño Significativo",
+              "description": "Las medidas reflejan la salud del servicio de negocio en lugar de la actividad contractual aislada."
             },
             {
-              "title": "Servicios orientados al valor",
-              "description": "El consumo se ata a resultados, no solo a actividad."
+              "title": "Mayor Control de Proveedores",
+              "description": "La evidencia operativa respalda conversaciones de desempeño y comerciales objetivas."
+            },
+            {
+              "title": "Menor Riesgo Recurrente",
+              "description": "Las tendencias de problemas y las acciones correctivas se vuelven visibles y gobernadas."
+            },
+            {
+              "title": "Mejora Continua",
+              "description": "Un roadmap priorizado convierte los datos del servicio en cambio operativo medible."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia servicios SAP gobernados",
-          "description": "Cuatro fases del diseño del modelo de servicio a la operación controlada.",
+          "title": "De los Contratos a los Resultados de Servicio",
+          "description": "Cinco fases que convierten contratos y proveedores en resultados de servicio gobernados.",
           "phases": [
+            {
+              "name": "Mapear",
+              "deliverable": "Documentamos servicios, proveedores, contratos, responsabilidades, dependencias y dolores."
+            },
             {
               "name": "Definir",
-              "deliverable": "Modelo de servicio, catálogo, estructura de órdenes y SLAs"
-            },
-            {
-              "name": "Instrumentar",
-              "deliverable": "Seguimiento de consumo, medición de SLAs y reporte"
-            },
-            {
-              "name": "Operar",
-              "deliverable": "Seguimiento activo, alertas y cadencia de gobierno del servicio"
-            },
-            {
-              "name": "Optimizar",
-              "deliverable": "Tendencias de consumo, insights de SLAs y mejora continua"
-            }
-          ]
-        },
-        "engagementScenarios": {
-          "title": "Cuándo el Consumo de Servicios Necesita Control",
-          "items": [
-            { "title": "Alcance de servicio poco claro", "description": "No está claro qué incluyen exactamente los acuerdos de servicio SAP actuales y qué no." },
-            { "title": "SLAs sin seguimiento real", "description": "Los SLA existen en el papel pero no se siguen ni se exigen en la práctica." },
-            { "title": "Sorpresas en el consumo", "description": "Los servicios por horas o por consumo se exceden del presupuesto sin ninguna alerta temprana." },
-            { "title": "Múltiples proveedores", "description": "Varios proveedores de servicios SAP necesitan gobernarse bajo un mismo modelo consistente." },
-            { "title": "Renovación o renegociación", "description": "Se acerca una renovación de contrato y antes es necesario entender el consumo actual." }
-          ]
-        },
-        "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el gobierno de servicios SAP",
-          "items": [
-            {
-              "title": "Experiencia en entrega de servicios SAP",
-              "description": "Operamos servicios SAP nosotros mismos, así que sabemos cómo gobernarlos en la práctica."
-            },
-            {
-              "title": "Mentalidad de gobierno práctica",
-              "description": "Agregamos los controles que importan para el costo y la calidad, sin trámites."
-            },
-            {
-              "title": "Control de horas y consumo",
-              "description": "Gestionar horas, órdenes y consumo de servicio es parte central de cómo trabajamos."
-            },
-            {
-              "title": "Estrategia y operaciones",
-              "description": "Conectamos la entrega de servicios con los resultados y prioridades del negocio."
-            },
-            {
-              "title": "Comunicación ejecutiva",
-              "description": "Reportamos el desempeño del servicio en términos sobre los que la dirección puede actuar."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Construimos un gobierno de servicios diseñado para perdurar a lo largo de la relación."
-            }
-          ]
-        },
-        "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de servicios: evaluamos qué tan controlados están tus servicios SAP",
-          "description": "En 45 minutos revisamos tu modelo de servicio, SLAs y consumo y te mostramos dónde se están fugando el control y el valor.",
-          "cta": "Reservá tu revisión de servicios"
-        },
-        "finalCta": {
-          "title": "¿Listo para controlar cómo se entregan y consumen tus servicios SAP?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el modelo de gobierno de servicios que mantiene la calidad alta y el gasto bajo control.",
-          "ctaPrimary": "Evaluá tu gobierno de servicios",
-          "ctaSecondary": "Conocé el pilar Govern"
-        }
-      },
-      "sap-delivery-governance": {
-        "metaTitle": "SAP Delivery Governance | Hitos, Entregables y Accountability | Global Core Technologies",
-        "metaDescription": "Seguí la entrega en proyectos y servicios SAP: hitos, entregables, riesgos, incidencias y dependencias, reduciendo la incertidumbre y mejorando la accountability.",
-        "eyebrow": "Pilar · Govern",
-        "h1": "SAP Delivery Governance: certeza y accountability en proyectos y servicios",
-        "heroSubtitle": "Seguimos la entrega en tus proyectos y servicios SAP — hitos, entregables, riesgos, incidencias y dependencias — para que los compromisos se cumplan y la accountability nunca esté en duda.",
-        "ctaPrimary": "Evaluá tu gobierno de entrega",
-        "ctaSecondary": "Solicitá una revisión de entrega",
-        "metrics": {
-          "projects": "entregas SAP gobernadas",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
-        },
-        "problem": {
-          "title": "La entrega se desvía en silencio, hasta que un hito perdido se vuelve problema de todos.",
-          "items": [
-            {
-              "title": "Hitos sin fuerza",
-              "description": "Las fechas se fijan pero no se siguen de forma activa, así que la desviación solo se ve cuando ya ocurrió."
-            },
-            {
-              "title": "Entregables de calidad incierta",
-              "description": "Los entregables se dan por terminados sin una definición de terminado compartida, y el retrabajo aparece después."
-            },
-            {
-              "title": "Dependencias sin dueño",
-              "description": "Las dependencias entre equipos y proveedores se asumen, no se gestionan, hasta que bloquean la entrega."
-            }
-          ],
-          "closing": "El gobierno de entrega reemplaza el reporte optimista por una visión honesta y seguida de lo que realmente se entrega, y por quién."
-        },
-        "howWeHelp": {
-          "title": "Gobierno activo sobre la entrega SAP",
-          "description": "Seguimos lo que realmente define si la entrega llega: hitos, entregables, riesgos y dependencias.",
-          "items": [
-            {
-              "title": "Seguimiento de hitos y entregables",
-              "description": "Seguimos hitos y entregables contra una definición de terminado clara."
-            },
-            {
-              "title": "Gobierno de riesgos e incidencias",
-              "description": "Gestionamos los riesgos e incidencias de entrega con dueños, mitigaciones y escalamiento."
-            },
-            {
-              "title": "Gestión de dependencias",
-              "description": "Mapeamos y gestionamos activamente las dependencias entre equipos y proveedores."
-            },
-            {
-              "title": "Reporte de entrega",
-              "description": "Damos una visión honesta y actual de la salud de la entrega para la dirección y los equipos."
-            }
-          ]
-        },
-        "benefits": {
-          "title": "Lo que gana tu negocio",
-          "items": [
-            {
-              "title": "Certeza de entrega",
-              "description": "Los compromisos se siguen y gestionan, así que lo prometido es lo que se entrega."
-            },
-            {
-              "title": "Accountability clara",
-              "description": "Cada entregable, riesgo y dependencia tiene un dueño con nombre."
-            },
-            {
-              "title": "Alerta temprana",
-              "description": "La desviación aparece temprano, cuando todavía hay tiempo de actuar."
-            },
-            {
-              "title": "Mayor calidad",
-              "description": "Una definición de terminado compartida reduce el retrabajo y las sorpresas tardías."
-            }
-          ]
-        },
-        "methodology": {
-          "title": "El camino de Global Core Technologies hacia una entrega SAP gobernada",
-          "description": "Cuatro fases de la línea base de entrega a los resultados asegurados.",
-          "phases": [
-            {
-              "name": "Línea base",
-              "deliverable": "Hitos, entregables, definición de terminado y dependencias"
-            },
-            {
-              "name": "Seguir",
-              "deliverable": "Seguimiento activo de avance, riesgos e incidencias"
-            },
-            {
-              "name": "Asegurar",
-              "deliverable": "Controles de calidad, escalamiento y reporte de entrega"
-            },
-            {
-              "name": "Mejorar",
-              "deliverable": "Métricas de entrega, retrospectivas y mejora continua"
-            }
-          ]
-        },
-        "engagementScenarios": {
-          "title": "Cuándo la Certeza en la Entrega Está en Riesgo",
-          "items": [
-            { "title": "Hitos que se atrasan en silencio", "description": "Las demoras se acumulan de a poco hasta que se incumple un hito, sin ninguna alerta temprana." },
-            { "title": "Responsabilidad poco clara", "description": "Cuando algo se atrasa, no queda claro quién era el responsable del entregable o de la decisión." },
-            { "title": "Dependencias sin seguimiento", "description": "Los entregables dependen de otros equipos o proveedores de formas que no se siguen." },
-            { "title": "Múltiples entregas en simultáneo", "description": "Varios proyectos y servicios entregan al mismo tiempo sin un modelo de seguimiento compartido." },
-            { "title": "Recuperación tras una demora", "description": "Una entrega ya se atrasó y necesita seguimiento estructurado para volver a estar bajo control." }
-          ]
-        },
-        "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el gobierno de entrega SAP",
-          "items": [
-            {
-              "title": "Experiencia en entrega SAP",
-              "description": "Hemos entregado proyectos y servicios SAP, así que gobernamos la entrega desde la experiencia."
-            },
-            {
-              "title": "Mentalidad de gobierno práctica",
-              "description": "Seguimos lo que importa para la entrega, sin ahogar a los equipos en procesos."
-            },
-            {
-              "title": "Control de riesgos y estado",
-              "description": "Un control fuerte de riesgos, incidencias y estado es parte de cómo entregamos."
-            },
-            {
-              "title": "Estrategia y ejecución",
-              "description": "Mantenemos la entrega atada a los resultados que el negocio espera."
-            },
-            {
-              "title": "Comunicación ejecutiva",
-              "description": "Le damos a la dirección una visión veraz de la salud de la entrega."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Construimos un gobierno de entrega que se sostiene entre proyectos y servicios."
-            }
-          ]
-        },
-        "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de entrega: detectamos los riesgos con más probabilidad de correr tus hitos SAP",
-          "description": "En 45 minutos revisamos tu enfoque de entrega y destacamos los hitos, entregables y dependencias más en riesgo.",
-          "cta": "Reservá tu revisión de entrega"
-        },
-        "finalCta": {
-          "title": "¿Listo para que la entrega SAP sea predecible y con responsables?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el gobierno de entrega que saca la incertidumbre de tus proyectos y servicios SAP.",
-          "ctaPrimary": "Evaluá tu gobierno de entrega",
-          "ctaSecondary": "Conocé el pilar Govern"
-        }
-      },
-      "sap-compliance-control-framework": {
-        "metaTitle": "SAP Compliance & Control Framework | Controles y Preparación para Auditorías | Global Core Technologies",
-        "metaDescription": "Establecé mecanismos de control para operaciones, seguridad, cambios, accesos y ejecución de servicios SAP, fortaleciendo el cumplimiento y la preparación para auditorías y cerrando brechas de gobierno.",
-        "eyebrow": "Pilar · Govern",
-        "h1": "SAP Compliance & Control Framework: controles que mantienen SAP audit-ready por diseño",
-        "heroSubtitle": "Establecemos los mecanismos de control en operaciones, seguridad, cambios, accesos y ejecución de servicios SAP que fortalecen el cumplimiento, cierran brechas de gobierno y te mantienen listo para auditorías todo el año.",
-        "ctaPrimary": "Evaluá tu marco de control",
-        "ctaSecondary": "Solicitá una revisión de compliance",
-        "metrics": {
-          "projects": "marcos de control SAP",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
-        },
-        "problem": {
-          "title": "Compliance armado para la auditoría, no para cómo SAP realmente opera.",
-          "items": [
-            {
-              "title": "Controles que solo existen en papel",
-              "description": "Las políticas están documentadas pero no se hacen cumplir en cómo ocurren realmente los cambios, los accesos y las operaciones."
-            },
-            {
-              "title": "Evidencia reunida a las apuradas",
-              "description": "La evidencia de auditoría se reconstruye de forma reactiva en cada ciclo, consume semanas y aún deja brechas."
-            },
-            {
-              "title": "Titularidad fragmentada",
-              "description": "Seguridad, operaciones, cambio y compliance trabajan en silos, así que las brechas de control caen entre medio."
-            }
-          ],
-          "closing": "Un marco de control no es un ejercicio de auditoría: es la estructura que mantiene las operaciones SAP en cumplimiento y audit-ready por diseño."
-        },
-        "howWeHelp": {
-          "title": "Un marco de control práctico para SAP",
-          "description": "Definimos e integramos controles a lo largo del ciclo de vida SAP para que el cumplimiento sea continuo, no periódico.",
-          "items": [
-            {
-              "title": "Diseño de controles",
-              "description": "Definimos controles en operaciones, seguridad, cambio y accesos alineados a tus requisitos de cumplimiento."
-            },
-            {
-              "title": "Controles de cambio y acceso",
-              "description": "Integramos controles en la gestión de cambios y los procesos de acceso, donde realmente vive el riesgo."
-            },
-            {
-              "title": "Preparación para auditorías",
-              "description": "Estructuramos la evidencia para que se genere de forma continua y esté disponible cuando se pida."
-            },
-            {
-              "title": "Monitoreo de controles",
-              "description": "Monitoreamos la efectividad de los controles y remediamos brechas antes de que se vuelvan hallazgos."
-            }
-          ]
-        },
-        "benefits": {
-          "title": "Lo que gana tu negocio",
-          "items": [
-            {
-              "title": "Cumplimiento continuo",
-              "description": "Los controles corren con la operación, así que el cumplimiento se mantiene, no se rehace en cada auditoría."
-            },
-            {
-              "title": "Auditorías más rápidas",
-              "description": "La evidencia está centralizada y actualizada: las auditorías toman días, no semanas."
-            },
-            {
-              "title": "Menos brechas de gobierno",
-              "description": "Los controles abarcan operaciones, seguridad, cambio y accesos, cerrando los silos donde se esconde el riesgo."
-            },
-            {
-              "title": "Menor exposición al riesgo",
-              "description": "Las desviaciones se detectan y remedian temprano, antes de escalar."
-            }
-          ]
-        },
-        "methodology": {
-          "title": "El camino de Global Core Technologies hacia un marco de control SAP que funciona",
-          "description": "Cuatro fases del diseño de controles al aseguramiento continuo.",
-          "phases": [
-            {
-              "name": "Evaluar",
-              "deliverable": "Requisitos de cumplimiento, brechas de control y mapa de riesgo"
-            },
-            {
-              "name": "Diseñar",
-              "deliverable": "Marco de control en operaciones, seguridad, cambio y accesos"
+              "deliverable": "Establecemos ownership, gobierno, SLAs, KPIs, foros y caminos de escalamiento."
             },
             {
               "name": "Integrar",
-              "deliverable": "Controles operacionalizados en los procesos SAP del día a día"
+              "deliverable": "Conectamos procesos de proveedores, reporting, riesgos y rutinas de gestión de servicio."
             },
             {
-              "name": "Monitorear",
-              "deliverable": "Monitoreo de controles, evidencia y remediación continua"
+              "name": "Gobernar",
+              "deliverable": "Revisamos el desempeño, resolvemos excepciones y mantenemos la responsabilidad ejecutiva."
+            },
+            {
+              "name": "Mejorar",
+              "deliverable": "Priorizamos correcciones estructurales, automatización e iniciativas de madurez con evidencia operativa."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo los Controles Necesitan Reflejar Cómo Funciona SAP Realmente",
+          "title": "Gobierno para Modelos de Servicio Híbridos",
           "items": [
-            { "title": "Compliance pensado solo para la auditoría", "description": "Los controles existen principalmente para pasar la auditoría anual, no para operar día a día." },
-            { "title": "Brechas en cambios y accesos", "description": "La gestión de cambios y los controles de acceso no se aplican de forma consistente en todo el landscape." },
-            { "title": "Observaciones de auditoría recurrentes", "description": "Las mismas brechas de control se marcan auditoría tras auditoría sin cerrarse." },
-            { "title": "Nuevo alcance regulatorio", "description": "Nuevos requisitos de cumplimiento exigen un framework de controles que todavía no existe." },
-            { "title": "Preparación previa a una certificación", "description": "Una certificación o atestación próxima requiere controles demostrables y en funcionamiento." }
+            {
+              "title": "Soporte SAP Multi-Vendor",
+              "description": "Creamos una única capa de gobierno entre proveedores de AMS, Basis, cloud y especialistas."
+            },
+            {
+              "title": "Servicios Co-Gestionados",
+              "description": "Alineamos equipos internos y Global Core Technologies a través de responsabilidades y medidas compartidas."
+            },
+            {
+              "title": "Transición de Servicio",
+              "description": "Definimos el gobierno operativo antes de que un nuevo proveedor o plataforma asuma la responsabilidad."
+            },
+            {
+              "title": "Integración de Servicios RISE",
+              "description": "Coordinamos las responsabilidades del cloud gestionado por SAP con la operación de aplicaciones e interna."
+            },
+            {
+              "title": "Recuperación de Desempeño de Servicio",
+              "description": "Estabilizamos fallas de SLA recurrentes, handoffs débiles o responsabilidad poco clara."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para tu marco de control SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "ADN de gobierno y seguridad",
-              "description": "Govern y Secure son pilares centrales: diseñamos controles que conectan ambos."
+              "title": "Expertise en Servicios SAP",
+              "description": "Entendemos las dependencias técnicas y funcionales detrás de los servicios SAP de punta a punta."
             },
             {
-              "title": "Profundo expertise SAP",
-              "description": "Sabemos dónde vive realmente el riesgo SAP, así que los controles son prácticos, no teóricos."
+              "title": "Modelo Neutral de Proveedores",
+              "description": "Gobernamos el entorno de forma objetiva sin requerir el reemplazo total de proveedores."
             },
             {
-              "title": "Audit-ready por diseño",
-              "description": "Integramos la generación de evidencia en la operación, no en la temporada de auditoría."
+              "title": "Integración con la Operación",
+              "description": "El gobierno se conecta con procesos reales de incidentes, problemas, cambios y disponibilidad."
             },
             {
-              "title": "Plataformas propietarias",
-              "description": "Intelliguard™ extiende el monitoreo de controles a seguridad y compliance."
+              "title": "Claridad Ejecutiva",
+              "description": "Nuestro reporting separa el ruido operativo de las decisiones, los riesgos y el impacto de negocio."
             },
             {
-              "title": "Comunicación ejecutiva",
-              "description": "Reportamos la postura de cumplimiento en términos que la dirección y los auditores confían."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Mantenemos el marco de control efectivo a medida que SAP y las regulaciones evolucionan."
+              "title": "Disciplina de Mejora",
+              "description": "Las acciones se priorizan, se asignan y se siguen a través de resultados medibles."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de compliance: mapeamos las brechas de control con más chances de volverse hallazgos de auditoría",
-          "description": "En 45 minutos revisamos tus controles SAP actuales y destacamos las brechas en cambio, accesos y operaciones que más riesgo cargan.",
-          "cta": "Reservá tu revisión de compliance"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Podés Gobernar a Cada Proveedor?",
+          "description": "Usá el SAP Service Governance Maturity Checklist para evaluar ownership, medidas de desempeño, integración de proveedores, riesgo y prácticas de mejora.",
+          "cta": "Descargá el Service Governance Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para mantener SAP en cumplimiento y audit-ready por diseño?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el marco de control que cierra tus brechas de gobierno y te mantiene listo para auditorías.",
-          "ctaPrimary": "Evaluá tu marco de control",
-          "ctaSecondary": "Conocé el pilar Govern"
+          "title": "Creá una Única Vista del Servicio",
+          "description": "Reuní equipos, proveedores y desempeño bajo un modelo claro de gobierno de servicios SAP.",
+          "ctaPrimary": "Evaluá tu Gobierno de Servicios",
+          "ctaSecondary": "Hablá con un Experto en Servicios"
+        }
+      },
+      "sap-delivery-governance": {
+        "metaTitle": "SAP Delivery Governance | Delivery Assurance y Quality Gates SAP | Global Core Technologies",
+        "metaDescription": "Gobierno de la entrega SAP: estándares de entrega, gobierno de stage-gates, control de diseño y arquitectura, supervisión de calidad y testing, assurance de cutover y readiness operativo.",
+        "eyebrow": "Pilar · Govern",
+        "h1": "Entregá SAP con Disciplina",
+        "heroSubtitle": "Controles independientes que protegen la calidad, el alcance y el readiness del negocio. Global Core Technologies provee gobierno de la entrega en implementaciones, migraciones, releases y upgrades SAP — estableciendo controles objetivos de alcance, calidad, riesgo, arquitectura y readiness para que puedas responsabilizar a los equipos de entrega sin perder impulso.",
+        "ctaPrimary": "Revisá los Controles de Entrega",
+        "ctaSecondary": "Hablá con un Experto en Entrega",
+        "metrics": {
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
+        },
+        "problem": {
+          "title": "El Avance No Siempre Significa Readiness",
+          "items": [
+            {
+              "title": "Aceptación sin criterios comunes",
+              "description": "Entregables aceptados sin criterios de calidad consistentes, y decisiones de alcance y diseño sin trazabilidad."
+            },
+            {
+              "title": "Revisiones tardías y evidencia escasa",
+              "description": "Arquitectura, seguridad y controles revisados demasiado tarde, y avance de testing reportado sin contexto de defectos ni cobertura."
+            },
+            {
+              "title": "Readiness optimista y lecciones perdidas",
+              "description": "Readiness de cutover basado en optimismo en vez de evidencia, partners midiendo su propio éxito, soporte operativo involucrado cerca del go-live, y acciones correctivas que no se trasladan a releases posteriores."
+            }
+          ],
+          "closing": "El liderazgo necesita evidencia independiente de que la solución está completa, segura, soportable y lista para el uso del negocio — sin quality gates comunes, las sorpresas tardías aparecen durante el testing, el cutover o el hypercare."
+        },
+        "howWeHelp": {
+          "title": "Delivery Assurance Basado en Evidencia",
+          "description": "Instalamos controles objetivos y quality gates en todo el ciclo de vida de la entrega SAP.",
+          "items": [
+            {
+              "title": "Estándares de Entrega",
+              "description": "Entregables requeridos, una definición de done, criterios de aceptación, estándares de documentación, y expectativas de trazabilidad."
+            },
+            {
+              "title": "Gobierno de Stage-Gates",
+              "description": "Un modelo de gates con dueños, criterios de entrada y salida, requisitos de evidencia, excepciones y waivers, y registros de decisión."
+            },
+            {
+              "title": "Control de Diseño y Arquitectura",
+              "description": "Una design authority, alineación con Clean Core, principios de integración, decisiones de deuda técnica, y requisitos no funcionales."
+            },
+            {
+              "title": "Supervisión de Calidad y Testing",
+              "description": "Assurance de la estrategia de test, indicadores de cobertura y defectos, readiness de datos e interfaces, security testing, y recomendaciones de salida."
+            },
+            {
+              "title": "Assurance de Cutover y Go-Live",
+              "description": "Calidad del plan de cutover, dashboards de readiness, criterios de negocio y técnicos, planificación de contingencia, y soporte al go/no-go."
+            },
+            {
+              "title": "Readiness Operativo",
+              "description": "Modelo de soporte, transferencia de conocimiento, monitoreo y runbooks, accesos y controles, y gobierno del hypercare."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Calidad que Podés Demostrar",
+          "items": [
+            {
+              "title": "Assurance Objetivo",
+              "description": "La evidencia independiente le da a los ejecutivos confianza más allá de los reportes de estado del equipo de entrega."
+            },
+            {
+              "title": "Prevención Temprana de Defectos",
+              "description": "Los quality gates identifican brechas de diseño, control y readiness antes de que se vuelvan caras."
+            },
+            {
+              "title": "Alcance Protegido",
+              "description": "Los requisitos trazables y los criterios de aceptación reducen la ambigüedad y el retrabajo."
+            },
+            {
+              "title": "Mejores Decisiones de Go-Live",
+              "description": "Los líderes pueden evaluar readiness, excepciones y riesgo residual con un marco consistente."
+            },
+            {
+              "title": "Continuidad Operativa",
+              "description": "Soporte, monitoreo, seguridad y conocimiento se validan antes de la transición."
+            },
+            {
+              "title": "Entrega Repetible",
+              "description": "Los estándares y las lecciones mejoran la calidad entre releases, rollouts y partners."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "Gobierná a Través de Quality Gates",
+          "description": "Cinco fases que hacen que cada decisión de entrega se base en evidencia.",
+          "phases": [
+            {
+              "name": "Línea Base",
+              "deliverable": "Confirmamos alcance de entrega, estándares, responsabilidades y evidencia esperada."
+            },
+            {
+              "name": "Diseñar",
+              "deliverable": "Definimos gates, criterios de calidad, revisiones de assurance y autoridades de decisión."
+            },
+            {
+              "name": "Asegurar",
+              "deliverable": "Revisamos entregables, riesgos, arquitectura, controles, tests y readiness durante toda la ejecución."
+            },
+            {
+              "name": "Decidir",
+              "deliverable": "Aportamos recomendaciones claras, excepciones y visibilidad del riesgo residual en cada gate."
+            },
+            {
+              "name": "Aprender",
+              "deliverable": "Capturamos hallazgos y fortalecemos los estándares para futuros releases y programas."
+            }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Assurance Independiente Donde Importa",
+          "items": [
+            {
+              "title": "Supervisión del Partner de Implementación",
+              "description": "Validamos calidad y readiness de forma independiente del systems integrator principal."
+            },
+            {
+              "title": "Assurance de Migración S/4HANA",
+              "description": "Gobernamos la preparación de la conversión, el testing, el cutover y la estabilización."
+            },
+            {
+              "title": "Gobierno de Releases",
+              "description": "Aplicamos controles repetibles a releases trimestrales, regionales o funcionales."
+            },
+            {
+              "title": "Revisión de Go-Live Readiness",
+              "description": "Aportamos una evaluación objetiva antes de la decisión final de go/no-go."
+            },
+            {
+              "title": "Recuperación de Entrega",
+              "description": "Reconstruimos estándares y evidencia cuando la calidad, el alcance o el readiness son inciertos."
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
+          "items": [
+            {
+              "title": "Perspectiva Independiente",
+              "description": "Aportamos assurance objetivo sobre equipos internos y partners de entrega externos."
+            },
+            {
+              "title": "Expertise Multidominio",
+              "description": "Nuestras revisiones conectan aplicaciones, Basis, arquitectura, seguridad y operación."
+            },
+            {
+              "title": "Mentalidad Clean Core",
+              "description": "El gobierno protege el diseño sostenible y controla la deuda técnica evitable."
+            },
+            {
+              "title": "Evidencia Práctica",
+              "description": "Nos enfocamos en pruebas de calidad para decidir, no en documentación por sí misma."
+            },
+            {
+              "title": "Continuidad de Ciclo de Vida",
+              "description": "El delivery assurance se extiende a la transición, el hypercare y el ownership operativo."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Tu Release Pasaría el Gate?",
+          "description": "Usá el SAP Delivery Assurance Checklist para revisar alcance, diseño, calidad, testing, cutover y readiness operativo.",
+          "cta": "Descargá el Delivery Assurance Checklist"
+        },
+        "finalCta": {
+          "title": "Protegé la Calidad de la Entrega",
+          "description": "Establecé controles y evidencia independientes para cada decisión crítica de entrega SAP.",
+          "ctaPrimary": "Revisá los Controles de Entrega",
+          "ctaSecondary": "Hablá con un Experto en Entrega"
+        }
+      },
+      "sap-compliance-control-framework": {
+        "metaTitle": "SAP Compliance & Control Framework | Controles Internos SAP | Global Core Technologies",
+        "metaDescription": "Marco de controles SAP: diseño del framework, mapeo de procesos y controles, diseño de controles SAP, evidencia y testing, monitoreo continuo de controles y gobierno de compliance.",
+        "eyebrow": "Pilar · Govern",
+        "h1": "Incorporá el Control a SAP",
+        "heroSubtitle": "Un marco sostenible para compliance, evidencia y responsabilidad. Global Core Technologies ayuda a las organizaciones a traducir políticas, regulaciones y requisitos de riesgo en un marco de controles SAP práctico — alineando objetivos de control, configuración del sistema, ownership, evidencia y monitoreo para que el compliance sea parte de la operación diaria, no un ejercicio de auditoría periódico.",
+        "ctaPrimary": "Evaluá tu Marco de Controles",
+        "ctaSecondary": "Hablá con un Experto en Compliance",
+        "metrics": {
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
+        },
+        "problem": {
+          "title": "Las Políticas Solas No Crean Control",
+          "items": [
+            {
+              "title": "Controles no mapeados a SAP",
+              "description": "Objetivos de control no mapeados a los procesos y riesgos SAP, y controles duplicados, superpuestos u obsoletos."
+            },
+            {
+              "title": "Evidencia manual y dueños difusos",
+              "description": "Fuerte dependencia de planillas y evidencia manual, dueños de control poco claros sobre sus responsabilidades, e interpretaciones de control distintas entre unidades de negocio."
+            },
+            {
+              "title": "Compliance fragmentado y reactivo",
+              "description": "Controles de acceso, configuración y transaccionales gestionados por separado, excepciones remediadas sin gobierno de causa raíz, y monitoreo continuo y visibilidad de management limitados."
+            }
+          ],
+          "closing": "Las organizaciones pueden tener políticas corporativas sólidas pero implementación inconsistente entre procesos, roles, configuraciones y evidencia SAP — lo que aumenta el esfuerzo de auditoría y permite que las excepciones persistan."
+        },
+        "howWeHelp": {
+          "title": "Un Modelo de Control Conectado a SAP",
+          "description": "Traducimos políticas y requisitos de riesgo en controles SAP sostenibles y testeables.",
+          "items": [
+            {
+              "title": "Diseño del Framework",
+              "description": "Principios de gobierno, una taxonomía de controles, mapeo de riesgos y objetivos, un modelo de ownership, y alineación de políticas y estándares."
+            },
+            {
+              "title": "Mapeo de Procesos y Controles",
+              "description": "Alcance de procesos de negocio, matrices riesgo-control, controles clave y no clave, controles preventivos y detectivos, y racionalización de controles."
+            },
+            {
+              "title": "Diseño de Controles SAP",
+              "description": "Controles de roles y accesos, segregación de funciones, controles de configuración, aprobaciones por workflow, y controles de datos maestros y transacciones."
+            },
+            {
+              "title": "Evidencia y Testing",
+              "description": "Estándares de evidencia, procedimientos de testing, muestreo y frecuencia, clasificación de deficiencias, y seguimiento de remediación."
+            },
+            {
+              "title": "Monitoreo Continuo de Controles",
+              "description": "Indicadores automatizados, detección de excepciones, dashboards de controles, análisis de tendencias y recurrencia, y attestations de management."
+            },
+            {
+              "title": "Gobierno de Compliance",
+              "description": "Foros de dueños de control, evaluación de impacto de cambios, coordinación de auditorías, gobierno de excepciones y waivers, y un roadmap de mejora."
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Control Sostenible. Menor Esfuerzo de Auditoría.",
+          "items": [
+            {
+              "title": "Responsabilidad Clara",
+              "description": "Los dueños de control entienden qué debe ejecutarse, evidenciarse y remediarse."
+            },
+            {
+              "title": "Menor Complejidad",
+              "description": "Los controles racionalizados eliminan la duplicación y enfocan el esfuerzo en el riesgo material."
+            },
+            {
+              "title": "Mayor Audit Readiness",
+              "description": "La evidencia consistente y la trazabilidad mejoran la eficiencia de las revisiones internas y externas."
+            },
+            {
+              "title": "Detección Temprana de Excepciones",
+              "description": "El monitoreo identifica la falla de control antes del ciclo de auditoría."
+            },
+            {
+              "title": "Compliance Consistente",
+              "description": "Un marco común reduce las diferencias de interpretación entre entidades y procesos."
+            },
+            {
+              "title": "Mejores Decisiones de Riesgo",
+              "description": "El management obtiene visibilidad de las deficiencias, la recurrencia y la exposición residual."
+            }
+          ]
+        },
+        "methodology": {
+          "title": "Convertí los Requisitos en Controles Operativos",
+          "description": "Cinco fases desde la interpretación de la política hasta un marco de controles autosostenible.",
+          "phases": [
+            {
+              "name": "Interpretar",
+              "deliverable": "Entendemos políticas, regulaciones, hallazgos de auditoría y expectativas de riesgo."
+            },
+            {
+              "name": "Mapear",
+              "deliverable": "Conectamos riesgos y objetivos con los procesos, roles, configuraciones y transacciones SAP."
+            },
+            {
+              "name": "Diseñar",
+              "deliverable": "Definimos controles sostenibles, ownership, evidencia y procedimientos de testing."
+            },
+            {
+              "name": "Implementar",
+              "deliverable": "Alineamos workflows, accesos, configuración, documentación y monitoreo."
+            },
+            {
+              "name": "Sostener",
+              "deliverable": "Gobernamos excepciones, testeamos efectividad y evolucionamos el marco a medida que SAP cambia."
+            }
+          ]
+        },
+        "engagementScenarios": {
+          "title": "Marcos de Control para Landscapes Cambiantes",
+          "items": [
+            {
+              "title": "Rediseño de Controles S/4HANA",
+              "description": "Reconstruimos controles para nuevos procesos, roles, workflows y arquitectura de sistema."
+            },
+            {
+              "title": "Remediación de Auditoría",
+              "description": "Abordamos hallazgos recurrentes a través de causa raíz y diseño de control sostenible."
+            },
+            {
+              "title": "Racionalización de Controles",
+              "description": "Reducimos duplicación y esfuerzo manual en programas de compliance maduros."
+            },
+            {
+              "title": "Estandarización Multi-Entidad",
+              "description": "Creamos controles consistentes preservando los requisitos locales legítimos."
+            },
+            {
+              "title": "Monitoreo Continuo de Controles",
+              "description": "Migramos controles seleccionados del testing periódico hacia evidencia automatizada y detección de excepciones."
+            }
+          ]
+        },
+        "whyGct": {
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
+          "items": [
+            {
+              "title": "Expertise en SAP y Gobierno",
+              "description": "Conectamos los objetivos de compliance con procesos SAP reales y controles técnicos."
+            },
+            {
+              "title": "Diseño Basado en Riesgo",
+              "description": "Los controles son proporcionales al riesgo material y a la practicidad operativa."
+            },
+            {
+              "title": "Integración con Seguridad",
+              "description": "El acceso, la SoD y la actividad privilegiada se incorporan al modelo de control más amplio."
+            },
+            {
+              "title": "Perspectiva de Automatización",
+              "description": "Identificamos dónde el monitoreo y la evidencia pueden reducir el esfuerzo manual de compliance."
+            },
+            {
+              "title": "Ownership Sostenible",
+              "description": "El marco está diseñado para operar después del proyecto, con responsabilidad y mantenimiento claros."
+            }
+          ]
+        },
+        "leadMagnet": {
+          "eyebrow": "Assessment gratuito",
+          "title": "¿Qué Tan Sostenibles Son tus Controles SAP?",
+          "description": "Usá el SAP Control Framework Maturity Assessment para evaluar diseño, ownership, evidencia, testing, monitoreo y remediación.",
+          "cta": "Descargá el Control Maturity Assessment"
+        },
+        "finalCta": {
+          "title": "Hacé Operativo el Compliance",
+          "description": "Construí un marco de controles SAP que sea claro, testeable y sostenible frente al cambio.",
+          "ctaPrimary": "Evaluá tu Marco de Controles",
+          "ctaSecondary": "Hablá con un Experto en Compliance"
         }
       },
       "sap-kpi-executive-reporting": {
-        "metaTitle": "SAP KPI & Executive Reporting | Dashboards e Insights de Gobierno | Global Core Technologies",
-        "metaDescription": "Diseñá dashboards y reportes ejecutivos para iniciativas SAP: estado, riesgos, horas, consumo de servicios, salud de proyectos e impacto de negocio, para una gestión transparente y basada en datos.",
+        "metaTitle": "SAP KPI & Executive Reporting | Dashboards de Management SAP | Global Core Technologies",
+        "metaDescription": "Reporting ejecutivo SAP: marco de KPIs, datos y calidad, dashboards y narrativa listos para decidir, gobierno del reporting y automatización que convierten los datos SAP en decisiones de management.",
         "eyebrow": "Pilar · Govern",
-        "h1": "SAP KPI & Executive Reporting: la vista única que la dirección necesita para conducir SAP",
-        "heroSubtitle": "Diseñamos los dashboards y reportes ejecutivos que convierten datos SAP dispersos — estado, riesgos, horas, consumo, salud de proyectos e impacto de negocio — en una única visión transparente y basada en datos para decidir.",
-        "ctaPrimary": "Evaluá tu reporting",
-        "ctaSecondary": "Solicitá una revisión de reporting",
+        "h1": "Mostrá Lo que los Líderes Necesitan",
+        "heroSubtitle": "Reporting SAP listo para decidir, enfocado en desempeño, riesgo y valor. Global Core Technologies crea marcos de reporting ejecutivo que convierten los datos de proyecto, servicio y riesgo de SAP en insight de management claro — definiendo KPIs, umbrales, ownership y narrativas consistentes para que los líderes entiendan qué cambió, por qué importa y qué decisión se requiere.",
+        "ctaPrimary": "Revisá tu Reporting Ejecutivo",
+        "ctaSecondary": "Hablá con un Experto en Reporting",
         "metrics": {
-          "projects": "modelos de reporting ejecutivo",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "La dirección se ahoga en estado SAP y aún así no ve la verdad.",
+          "title": "Más Datos No Generan Claridad",
           "items": [
             {
-              "title": "Reportes que no cuadran",
-              "description": "Cada equipo reporta distinto, así que los números se contradicen y nadie confía en la foto consolidada."
+              "title": "Demasiadas métricas inconsistentes",
+              "description": "Demasiadas métricas sin un propósito de management claro, y definiciones distintas para el mismo KPI entre equipos."
             },
             {
-              "title": "Actividad, no resultados",
-              "description": "Los dashboards muestran tareas y horas, pero no si las iniciativas SAP están entregando valor de negocio."
+              "title": "Estado por opinión y hacia atrás",
+              "description": "Indicadores de estado basados en opinión en lugar de umbrales, y reportes que describen la actividad pero ocultan el impacto de negocio."
             },
             {
-              "title": "El insight llega tarde",
-              "description": "El reporting es manual y rezagado, así que las decisiones se toman sobre la realidad del mes pasado."
+              "title": "Datos tardíos, sin vínculo a la decisión",
+              "description": "Datos tardíos y consolidación manual, ninguna conexión entre tendencias, riesgos y decisiones requeridas, y dashboards diseñados para especialistas en vez de ejecutivos."
             }
           ],
-          "closing": "El reporting ejecutivo no es sobre más gráficos: es sobre una única visión confiable y actual sobre la que la dirección realmente puede decidir."
+          "closing": "Los reportes ejecutivos suelen quedar recargados, orientados al pasado e inconsistentes, dejando a los líderes reconciliando números contradictorios en lugar de tomar decisiones."
         },
         "howWeHelp": {
-          "title": "Reporting ejecutivo en el que la dirección confía",
-          "description": "Diseñamos KPIs, dashboards y reportes que dan una única visión honesta de las iniciativas SAP.",
+          "title": "Reporting Diseñado Alrededor de las Decisiones",
+          "description": "Construimos marcos de KPIs, dashboards y gobierno que convierten los datos SAP en decisiones ejecutivas.",
           "items": [
             {
-              "title": "Definición de KPIs",
-              "description": "Definimos los KPIs que realmente reflejan estado, riesgo, consumo e impacto de negocio."
+              "title": "Necesidades de Información",
+              "description": "Personas ejecutivas, un inventario de decisiones, preguntas de management, cadencia de reporting, y disparadores de escalamiento."
             },
             {
-              "title": "Dashboards ejecutivos",
-              "description": "Construimos dashboards claros que consolidan la salud de proyectos, servicios y programa."
+              "title": "Marco de KPIs",
+              "description": "KPIs estratégicos y operativos, definiciones y fórmulas, targets y umbrales, dueños y fuentes de datos, e indicadores leading y lagging."
             },
             {
-              "title": "Reporte de estado y gobierno",
-              "description": "Producimos reportes de estado ejecutivos e insights de gobierno con una cadencia confiable."
+              "title": "Datos y Calidad",
+              "description": "Mapeo de fuentes, linaje de datos, reglas de validación, frecuencia de refresh, y reconciliación y controles."
             },
             {
-              "title": "Fundaciones de datos",
-              "description": "Conectamos las fuentes para que el reporting sea consistente, actual y de bajo esfuerzo de mantener."
+              "title": "Dashboard y Narrativa",
+              "description": "Una jerarquía de información ejecutiva, vistas de tendencias y excepciones, contexto de riesgo y decisión, comentario conciso, y formatos mobile y de presentación."
+            },
+            {
+              "title": "Gobierno y Adopción",
+              "description": "Ownership de KPIs, control de cambios, rutinas de revisión, guía para usuarios, y retiro y mejora de métricas."
+            },
+            {
+              "title": "Automatización del Reporting",
+              "description": "Consolidación de datos, refresh programado, alertas de excepción, generación de packs, y workflow de distribución."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "De los Updates de Estado a las Decisiones",
           "items": [
             {
-              "title": "Una vista confiable",
-              "description": "Reporting consolidado y reconciliado en el que todos pueden confiar."
+              "title": "Comprensión Más Rápida",
+              "description": "Una jerarquía de información clara ayuda a los líderes a identificar qué cambió y por qué importa."
             },
             {
-              "title": "Decisiones basadas en datos",
-              "description": "La dirección conduce SAP con hechos, no con anécdotas."
+              "title": "Vista de Desempeño Consistente",
+              "description": "Las definiciones comunes eliminan los debates sobre los números entre equipos y proveedores."
             },
             {
-              "title": "Visibilidad de resultados",
-              "description": "El reporting muestra impacto de negocio, no solo actividad."
+              "title": "Intervención Más Temprana",
+              "description": "Los umbrales y los indicadores leading revelan el riesgo emergente antes de que los resultados se deterioren."
             },
             {
-              "title": "Menos esfuerzo de reporting",
-              "description": "Fundaciones de datos automatizadas reemplazan el armado manual de reportes."
+              "title": "Menos Reporting Manual",
+              "description": "La consolidación automatizada reduce el esfuerzo y mejora la oportunidad."
+            },
+            {
+              "title": "Mayor Responsabilidad",
+              "description": "Cada KPI tiene un dueño, un target y una respuesta de management definida."
+            },
+            {
+              "title": "Mejores Conversaciones Ejecutivas",
+              "description": "Los reportes enfocan los foros de gobierno en decisiones, excepciones y acción futura."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia el reporting ejecutivo SAP",
-          "description": "Cuatro fases de la definición de KPIs a los dashboards vivos.",
+          "title": "Empezá por la Decisión",
+          "description": "Cinco fases que arrancan con las preguntas de management y terminan con un reporting gobernado.",
           "phases": [
             {
+              "name": "Descubrir",
+              "deliverable": "Identificamos preguntas ejecutivas, audiencias, decisiones, reportes actuales y dolores."
+            },
+            {
               "name": "Definir",
-              "deliverable": "Modelo de KPIs atado a estado, riesgo, consumo e impacto"
+              "deliverable": "Creamos el catálogo de KPIs, cálculos, umbrales, ownership y cadencia de reporting."
             },
             {
-              "name": "Conectar",
-              "deliverable": "Fuentes de datos integradas en una fundación de reporting consistente"
+              "name": "Diseñar",
+              "deliverable": "Construimos una jerarquía de información, conceptos de dashboard y narrativa de management."
             },
             {
-              "name": "Construir",
-              "deliverable": "Dashboards ejecutivos y packs de reportes de gobierno"
+              "name": "Implementar",
+              "deliverable": "Conectamos fuentes, validamos datos, automatizamos el refresh y establecemos la distribución."
             },
             {
-              "name": "Operar",
-              "deliverable": "Cadencia de reporting, adopción y refinamiento continuo"
+              "name": "Evolucionar",
+              "deliverable": "Revisamos la utilidad, retiramos métricas de bajo valor y adaptamos el reporting a prioridades cambiantes."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo el Liderazgo Necesita una Sola Vista Confiable",
+          "title": "Insight Ejecutivo en Todo SAP",
           "items": [
-            { "title": "Sobrecarga de reportes", "description": "El liderazgo recibe demasiados reportes desconectados entre sí y no logra ver el panorama real." },
-            { "title": "Métricas inconsistentes", "description": "Distintos equipos reportan lo mismo de manera diferente, lo que hace imposible comparar." },
-            { "title": "Exigencias del directorio o steering committee", "description": "Los sponsors ejecutivos necesitan una vista concisa y basada en datos para las reuniones de gobierno." },
-            { "title": "Datos dispersos en herramientas", "description": "Los datos de estado, riesgo, horas y consumo viven en sistemas y planillas desconectados entre sí." },
-            { "title": "Crecimiento del portfolio de programas", "description": "La cantidad de iniciativas SAP creció más allá de lo que el reporting informal puede seguir." }
+            {
+              "title": "Dashboard de Transformación",
+              "description": "Integramos hitos, riesgos, presupuesto, calidad, readiness y beneficios."
+            },
+            {
+              "title": "Reporting de Managed Services",
+              "description": "Combinamos salud del servicio, desempeño de SLAs, riesgo, capacidad y mejora."
+            },
+            {
+              "title": "Dashboard de Seguridad y Compliance",
+              "description": "Presentamos accesos, SoD, controles, hallazgos y exposición de remediación."
+            },
+            {
+              "title": "Reporting de Readiness S/4HANA",
+              "description": "Seguimos preparación, decisiones, dependencias y evidencia de readiness."
+            },
+            {
+              "title": "Vista Ejecutiva Multi-Proveedor",
+              "description": "Creamos un único modelo de desempeño entre equipos internos y partners externos."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el reporting ejecutivo SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Experiencia en entrega SAP",
-              "description": "Sabemos qué métricas SAP importan porque entregamos trabajo SAP nosotros mismos."
+              "title": "Diseño Centrado en la Decisión",
+              "description": "Empezamos por las preguntas de management, no por los datos disponibles o las funciones del dashboard."
             },
             {
-              "title": "Mentalidad de gobierno práctica",
-              "description": "Reportamos lo que impulsa decisiones, no métricas de vanidad."
+              "title": "Contexto SAP",
+              "description": "Entendemos las medidas y las dependencias detrás de la transformación y la operación SAP."
             },
             {
-              "title": "Estrategia y datos",
-              "description": "Atamos los KPIs a resultados de negocio, no solo a la actividad de entrega."
+              "title": "Integración con el Gobierno",
+              "description": "Los KPIs están atados a umbrales, ownership y acciones de management definidas."
             },
             {
-              "title": "Plataformas propietarias",
-              "description": "Nuestras plataformas de analítica aceleran el reporting y el insight SAP."
+              "title": "Traducción Ejecutiva",
+              "description": "Simplificamos la evidencia técnica sin ocultar el riesgo material."
             },
             {
-              "title": "Comunicación ejecutiva",
-              "description": "Diseñamos el reporting para cómo la dirección realmente consume información."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Mantenemos el reporting relevante a medida que tu landscape SAP evoluciona."
+              "title": "Capacidad de Automatización",
+              "description": "El reporting puede evolucionar de packs manuales a flujos de datos gobernados y repetibles."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de reporting: evaluamos si tu reporting SAP está listo para decidir",
-          "description": "En 45 minutos revisamos tus dashboards y reportes SAP actuales y te mostramos dónde faltan confianza, oportunidad e insight de negocio.",
-          "cta": "Reservá tu revisión de reporting"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Tus KPIs Impulsan Decisiones?",
+          "description": "Usá el Executive SAP Reporting Checklist para evaluar la relevancia de las métricas, la consistencia, la calidad de datos, los umbrales, la narrativa y el gobierno.",
+          "cta": "Descargá el Executive Reporting Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para darle a la dirección una vista única y confiable de SAP?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el modelo de KPIs y el reporting ejecutivo que hacen la gestión SAP transparente y basada en datos.",
-          "ctaPrimary": "Evaluá tu reporting",
-          "ctaSecondary": "Conocé el pilar Govern"
+          "title": "Convertí los Datos SAP en Dirección",
+          "description": "Dale a los líderes una vista concisa y confiable del desempeño, el riesgo y la acción requerida.",
+          "ctaPrimary": "Revisá tu Reporting Ejecutivo",
+          "ctaSecondary": "Hablá con un Experto en Reporting"
         }
       },
       "sap-methodology-advisory": {
-        "metaTitle": "SAP Methodology Advisory | SAP Activate y Entrega Híbrida | Global Core Technologies",
-        "metaDescription": "Seleccioná o adaptá la metodología de entrega SAP adecuada — SAP Activate, gobierno de proyectos híbrido o modelos estándar — aplicando el nivel justo de rigor sin complejidad innecesaria.",
+        "metaTitle": "SAP Methodology Advisory | Metodología SAP Activate y de Entrega | Global Core Technologies",
+        "metaDescription": "Advisory de metodología SAP: arquitectura de metodología, alineación con SAP Activate, entregables y estándares, disciplinas embebidas, roles y gobierno, y adopción y habilitación.",
         "eyebrow": "Pilar · Govern",
-        "h1": "SAP Methodology Advisory: el nivel justo de método para cómo realmente entregás",
-        "heroSubtitle": "Te ayudamos a seleccionar o adaptar la metodología de entrega que encaja con tu organización — SAP Activate, gobierno de proyectos híbrido o modelos estándar — aplicando el nivel justo de rigor sin complejidad innecesaria.",
-        "ctaPrimary": "Evaluá tu metodología",
-        "ctaSecondary": "Solicitá una revisión de metodología",
+        "h1": "Construí un Mejor Método SAP",
+        "heroSubtitle": "Estándares prácticos para una entrega SAP consistente, escalable y gobernada. Global Core Technologies ayuda a las organizaciones a diseñar, adaptar e institucionalizar metodologías de entrega SAP que encajan con su realidad operativa — combinando los principios de SAP Activate, gobierno, controles de calidad, Clean Core, seguridad y readiness operativo en una forma de trabajar repetible.",
+        "ctaPrimary": "Evaluá tu Metodología SAP",
+        "ctaSecondary": "Hablá con un Experto en Metodología",
         "metrics": {
-          "projects": "engagements de metodología",
-          "years": "años en SAP crítico",
-          "governance": "entrega guiada por gobierno"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Muy poco método invita al caos; demasiado método ahoga la entrega.",
+          "title": "Un Template No Es una Metodología",
           "items": [
             {
-              "title": "Metodología en el estante",
-              "description": "Existe una metodología formal pero los equipos no la siguen, así que suma documentos sin sumar control."
+              "title": "Sin sistema de entrega compartido",
+              "description": "Metodologías copiadas sin adaptación a la realidad organizacional, enfoques de entrega distintos entre proyectos y partners, y templates usados como documentos en vez de controles de trabajo."
             },
             {
-              "title": "Un molde que no sirve para nada",
-              "description": "Se fuerza un único modelo rígido sobre proyectos y servicios de tamaño y riesgo muy distintos."
+              "title": "Fases difusas y disciplinas tardías",
+              "description": "Entregables, dueños y criterios de aceptación poco claros por fase, ejecución ágil desconectada del gobierno y la arquitectura, y seguridad, controles y operación tratados como workstreams tardíos."
             },
             {
-              "title": "Proceso por encima de resultados",
-              "description": "El método se vuelve burocracia: los equipos pasan más tiempo alimentando el proceso que entregando valor."
+              "title": "Lecciones perdidas, proceso evadido",
+              "description": "Lecciones aprendidas que no se incorporan a estándares reutilizables, y proceso excesivo que los equipos evaden bajo presión de entrega."
             }
           ],
-          "closing": "La metodología correcta no es la más completa: es la que tus equipos realmente van a usar para entregar con control."
+          "closing": "Los equipos interpretan las fases de forma distinta, la calidad depende de la experiencia individual y disciplinas críticas como seguridad, datos, testing y operación se introducen de forma inconsistente."
         },
         "howWeHelp": {
-          "title": "La metodología correcta, adaptada a tu realidad",
-          "description": "Te ayudamos a elegir y ajustar un enfoque de entrega que encaje con tus proyectos, servicios y equipos.",
+          "title": "Un Método que los Equipos Pueden Usar de Verdad",
+          "description": "Diseñamos, piloteamos e institucionalizamos un método de entrega SAP que encaja con cómo trabajan tus equipos.",
           "items": [
             {
-              "title": "Evaluación de metodología",
-              "description": "Revisamos cómo entregás hoy y dónde falta o sobra método."
+              "title": "Arquitectura de Metodología",
+              "description": "Principios de entrega, ciclo de vida y fases, workstreams, capas de gobierno, y un modelo de tailoring."
             },
             {
-              "title": "Adopción de SAP Activate",
-              "description": "Ayudamos a adoptar y adaptar SAP Activate a tu contexto y realidad de entrega."
+              "title": "Alineación con SAP Activate",
+              "description": "De Discover a Run, prácticas fit-to-standard, integración de backlog y sprints, quality gates, y un modelo de release y despliegue."
             },
             {
-              "title": "Modelos híbridos y estándar",
-              "description": "Diseñamos gobierno de entrega híbrido o estándar donde encaja mejor que un único framework."
+              "title": "Entregables y Estándares",
+              "description": "Outputs requeridos, definiciones de done, templates y ejemplos, criterios de revisión y aprobación, y trazabilidad."
             },
             {
-              "title": "Habilitación y adopción",
-              "description": "Acompañamos a los equipos para que la metodología se entienda, use y sostenga."
+              "title": "Disciplinas Embebidas",
+              "description": "Arquitectura y Clean Core, seguridad y controles, datos e integración, testing y calidad, y readiness de operación y soporte."
+            },
+            {
+              "title": "Roles y Gobierno",
+              "description": "Derechos de decisión, RACI, foros y cadencia, roles de assurance, y un proceso de excepciones y waivers."
+            },
+            {
+              "title": "Adopción y Habilitación",
+              "description": "Playbooks, capacitación y coaching, aplicación piloto, un repositorio con control de versiones, y mejora continua."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Consistencia Sin Burocracia",
           "items": [
             {
-              "title": "Rigor a medida",
-              "description": "El nivel justo de método para cada proyecto y servicio, ni más ni menos."
+              "title": "Entrega Repetible",
+              "description": "Los equipos y partners trabajan con un ciclo de vida, un lenguaje y un conjunto de expectativas comunes."
             },
             {
-              "title": "Entrega más rápida",
-              "description": "Menos burocracia significa que los equipos dedican su tiempo a entregar, no a alimentar procesos."
+              "title": "Movilización Más Rápida",
+              "description": "Los roles, artefactos y gates reutilizables reducen el esfuerzo para lanzar nuevas iniciativas."
             },
             {
-              "title": "Gobierno consistente",
-              "description": "Un método compartido y adoptado hace que el control sea consistente entre iniciativas."
+              "title": "Mayor Calidad",
+              "description": "Los criterios de aceptación claros y las disciplinas embebidas previenen brechas predecibles."
             },
             {
-              "title": "Adopción real",
-              "description": "Una metodología que los equipos realmente usan, no una que queda en el estante."
+              "title": "Mejor Alineación con Partners",
+              "description": "Los equipos externos pueden adaptarse a los estándares de la organización desde el inicio."
+            },
+            {
+              "title": "Gobierno Escalable",
+              "description": "Las reglas de tailoring aplican el nivel de control correcto a cada tipo de iniciativa."
+            },
+            {
+              "title": "Aprendizaje Institucional",
+              "description": "Las lecciones y las prácticas probadas se vuelven capacidad organizacional en lugar de memoria individual."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia la metodología SAP correcta",
-          "description": "Cuatro fases de la evaluación a la práctica adoptada.",
+          "title": "Diseñar, Pilotear, Institucionalizar",
+          "description": "Cinco fases desde el diagnóstico hasta un método embebido y en mejora continua.",
           "phases": [
             {
-              "name": "Evaluar",
-              "deliverable": "Prácticas de entrega actuales, brechas y fit de metodología"
+              "name": "Diagnosticar",
+              "deliverable": "Revisamos los métodos actuales, la evidencia de proyectos, los dolores, las herramientas y la cultura de entrega."
             },
             {
-              "name": "Seleccionar",
-              "deliverable": "Modelo de metodología recomendado y nivel de gobierno"
+              "name": "Arquitecturar",
+              "deliverable": "Definimos principios, ciclo de vida, workstreams, roles, gates y reglas de tailoring."
             },
             {
-              "name": "Adaptar",
-              "deliverable": "Framework SAP Activate, híbrido o estándar a medida"
+              "name": "Construir",
+              "deliverable": "Creamos playbooks, entregables, templates, criterios y activos de gobierno."
             },
             {
-              "name": "Habilitar",
-              "deliverable": "Habilitación de equipos, adopción y refinamiento continuo"
+              "name": "Pilotear",
+              "deliverable": "Aplicamos el método a una iniciativa en vivo y lo refinamos con feedback práctico."
+            },
+            {
+              "name": "Embeber",
+              "deliverable": "Capacitamos equipos, gobernamos versiones, medimos la adopción y mejoramos el método de forma continua."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo el Método de Entrega Necesita Ajustarse a la Organización",
+          "title": "Metodología para tu Realidad SAP",
           "items": [
-            { "title": "Sin metodología consistente", "description": "Distintos equipos y proyectos siguen enfoques de entrega diferentes e informales." },
-            { "title": "Proceso demasiado rígido", "description": "Una metodología existente está frenando la entrega sin sumar control real." },
-            { "title": "Adopción de SAP Activate", "description": "La organización quiere adoptar SAP Activate pero necesita adaptarlo a su propia realidad." },
-            { "title": "Necesidad de entrega híbrida", "description": "El gobierno ágil y el tradicional necesitan convivir en distintas partes del programa." },
-            { "title": "Incorporación de nuevos equipos", "description": "Nuevos equipos de entrega o partners necesitan una metodología consistente sobre la cual alinearse." }
+            {
+              "title": "Método de Entrega SAP Enterprise",
+              "description": "Creamos un único estándar entre implementaciones, mejoras y rollouts."
+            },
+            {
+              "title": "Adaptación de SAP Activate",
+              "description": "Adaptamos SAP Activate a los requisitos internos de gobierno, arquitectura y compliance."
+            },
+            {
+              "title": "Modelo de Gobierno Ágil",
+              "description": "Conectamos la entrega por producto y sprints con el control ejecutivo y los quality gates."
+            },
+            {
+              "title": "Playbook de Transformación S/4HANA",
+              "description": "Definimos estándares repetibles para programas, waves y escenarios de despliegue."
+            },
+            {
+              "title": "Framework de Entrega para Partners",
+              "description": "Fijamos expectativas y criterios de aceptación claros para múltiples proveedores de implementación."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el advisory de metodología SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Experiencia en entrega SAP",
-              "description": "Asesoramos sobre método desde la entrega real, no desde un manual."
+              "title": "Experiencia SAP Práctica",
+              "description": "Nuestros métodos reflejan cómo funcionan en la práctica los programas, releases y la operación SAP."
             },
             {
-              "title": "Mentalidad de gobierno práctica",
-              "description": "Aplicamos el nivel justo de método sin complejidad innecesaria."
+              "title": "Gobierno por Diseño",
+              "description": "Los derechos de decisión, la evidencia y el assurance están integrados al ciclo de vida de la entrega."
             },
             {
-              "title": "Expertise en SAP Activate e híbrido",
-              "description": "Nos movemos con fluidez entre SAP Activate, modelos híbridos y estándar."
+              "title": "Cobertura Multidominio",
+              "description": "Arquitectura, seguridad, datos, testing y operación están integrados en vez de agregados al final."
             },
             {
-              "title": "Estrategia y ejecución",
-              "description": "Conectamos la metodología con los resultados, no solo con cumplir un framework."
+              "title": "Simplicidad a Medida",
+              "description": "Mantenemos el método usable y proporcional al riesgo y la complejidad del proyecto."
             },
             {
-              "title": "Foco en la adopción",
-              "description": "Una metodología solo funciona si los equipos la usan: la adopción es nuestra prioridad."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Ayudamos a que la metodología evolucione a medida que tu entrega madura."
+              "title": "Foco en la Adopción",
+              "description": "El coaching, el uso piloto y el ownership se tratan como entregables centrales."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de metodología: evaluamos si tu enfoque de entrega encaja con tu realidad",
-          "description": "En 45 minutos revisamos cómo entregás trabajo SAP y recomendamos dónde agregar, quitar o adaptar método para un mejor control.",
-          "cta": "Reservá tu revisión de metodología"
+          "eyebrow": "Assessment gratuito",
+          "title": "¿Tu Método SAP Escala?",
+          "description": "Usá el SAP Delivery Methodology Maturity Assessment para evaluar consistencia, gobierno, calidad, tailoring, adopción y mejora continua.",
+          "cta": "Descargá el Methodology Maturity Assessment"
         },
         "finalCta": {
-          "title": "¿Listo para aplicar el nivel justo de método a la entrega SAP?",
-          "description": "Agendá una sesión con nuestros especialistas y definamos la metodología que le da control a tus equipos sin frenarlos.",
-          "ctaPrimary": "Evaluá tu metodología",
-          "ctaSecondary": "Conocé el pilar Govern"
+          "title": "Creá un Sistema de Entrega Repetible",
+          "description": "Convertí las prácticas SAP probadas en una metodología que tus equipos y partners puedan usar de forma consistente.",
+          "ctaPrimary": "Evaluá tu Metodología SAP",
+          "ctaSecondary": "Hablá con un Experto en Metodología"
         }
       },
       "sap-btp-advisory": {
