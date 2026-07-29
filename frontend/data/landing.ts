@@ -362,7 +362,7 @@ export const pillarL3Services: PillarL3Service[] = [
   {
     pillar: 'innovate',
     key: 'btpAdvisory',
-    slug: 'sap-btp-advisory',
+    slug: 'sap-business-ai-platform-advisory',
     icon: 'implementation',
     image: '/pillars/05_tile_05_innovate.png',
     metrics: [

@@ -982,32 +982,32 @@
       },
       "innovate": {
         "btpAdvisory": {
-          "title": "SAP BTP Advisory",
-          "description": "Ayudamos a definir dónde y cómo usar SAP Business Technology Platform para extender, integrar e innovar sobre los landscapes SAP, convirtiendo BTP en una plataforma de innovación práctica alineada con las prioridades del negocio."
+          "title": "SAP Business AI Platform Advisory",
+          "description": "Adoptá SAP Business AI Platform como una base empresarial gobernada — conectando SAP BTP, Business Data Cloud, AI Foundation y Joule Studio con una arquitectura target que lleva los casos de uso de IA a producción controlada."
         },
         "integrationSuite": {
           "title": "SAP Integration Suite",
-          "description": "Diseñá, construí y goberná integraciones entre SAP, aplicaciones cloud, sistemas externos y socios de negocio para mejorar la conectividad de procesos y reducir la complejidad de integración."
+          "description": "Diseñá, implementá y goberná SAP Integration Suite — integración cloud e híbrida, gestión de APIs y eventos y conectividad B2B — con patrones reutilizables y una operación pensada para el cambio."
         },
         "aiAutomation": {
           "title": "SAP AI & Automation",
-          "description": "Identificá, diseñá e implementá flujos con IA, oportunidades de automatización y asistentes inteligentes para procesos SAP, aumentando la eficiencia con casos de uso de IA prácticos."
+          "description": "Identificá, diseñá y entregá casos de uso de IA y automatización centrados en SAP — automatización de procesos, habilitación de Business AI e integración gobernada — de la idea prometedora a producción controlada."
         },
         "extensionDevelopment": {
           "title": "SAP Extension Development",
-          "description": "Construí extensiones SAP limpias, escalables y gobernadas con prácticas de desarrollo modernas y cloud-ready, para extender las capacidades SAP sin comprometer el core."
+          "description": "Construí aplicaciones de negocio diferenciadas en la capa correcta — apps side-by-side, ABAP Cloud, SAP Build y Fiori — con la calidad, seguridad y ciclo de vida que mantienen el core limpio y listo para upgrades."
         },
         "cleanCoreInnovation": {
           "title": "SAP Clean Core Innovation",
-          "description": "Diseñá iniciativas de innovación alineadas con los principios de clean core, reduciendo la customización innecesaria y protegiendo la actualizabilidad y mantenibilidad de SAP a largo plazo."
+          "description": "Reducí la dependencia de código custom y establecé un modelo clean-core — línea base de código custom, estrategia de remediación, un framework de decisión de extensiones y gobierno que protege el core en cada release."
         },
         "dataAnalytics": {
           "title": "SAP Data & Analytics Enablement",
-          "description": "Habilitá insights SAP basados en datos mediante integración, reporting, dashboards y fundaciones de analítica para mejorar la visibilidad y la toma de decisiones en los procesos SAP."
+          "description": "Conectá la data SAP, la semántica de negocio y la analítica en un entorno de decisión gobernado — data products, SAP Datasphere, SAP Analytics Cloud y planning que hacen la data SAP confiable y accionable."
         },
         "intelligentAgents": {
           "title": "Intelligent Agents for SAP Operations",
-          "description": "Diseñá agentes de IA y copilotos que asisten en operaciones, soporte, estimaciones, monitorización, documentación y soporte a decisiones SAP, trayendo inteligencia al trabajo diario."
+          "description": "Adoptá agentes inteligentes a través de casos de uso controlados y supervisados por personas — detección, triage, conocimiento y coordinación — con la seguridad, auditabilidad y accountability que la operación requiere."
         }
       }
     }
@@ -5411,1040 +5411,1229 @@
           "ctaSecondary": "Hablá con un Experto en Metodología"
         }
       },
-      "sap-btp-advisory": {
-        "metaTitle": "SAP BTP Advisory | Estrategia de SAP Business Technology Platform | Global Core Technologies",
-        "metaDescription": "Definí dónde y cómo usar SAP BTP para extender, integrar e innovar sobre SAP, convirtiendo la plataforma en un motor de innovación práctico alineado con las prioridades del negocio.",
+      "sap-business-ai-platform-advisory": {
+        "metaTitle": "SAP Business AI Platform Advisory | Consultoría de SAP BAIP | Global Core Technologies",
+        "metaDescription": "Advisory de SAP Business AI Platform: estrategia, arquitectura target sobre SAP BTP, Business Data Cloud, AI Foundation y Joule Studio, habilitación de agentes y gobierno de IA desde la oportunidad hasta producción.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "SAP BTP Advisory: convertí Business Technology Platform en un motor de innovación práctico",
-        "heroSubtitle": "Te ayudamos a definir dónde y cómo usar SAP BTP para extender, integrar e innovar sobre tu landscape SAP, con una arquitectura y un roadmap basados en las prioridades del negocio, no en el hype de la plataforma.",
-        "ctaPrimary": "Evaluá tu estrategia BTP",
-        "ctaSecondary": "Solicitá una sesión BTP",
+        "h1": "Construí IA Empresarial con Control",
+        "heroSubtitle": "Una base gobernada que conecta datos confiables, procesos, agentes y aplicaciones. Global Core Technologies ayuda a las organizaciones a adoptar SAP Business AI Platform como una base empresarial unificada para IA, datos, aplicaciones, integración y gobierno — conectando las capacidades de SAP BTP, SAP Business Data Cloud, AI Foundation y Joule Studio a través de una arquitectura target y un roadmap que llevan los casos de uso valiosos a producción controlada.",
+        "ctaPrimary": "Planificá tu Roadmap de BAIP",
+        "ctaSecondary": "Hablá con un Asesor de Plataforma",
         "metrics": {
-          "projects": "iniciativas BTP asesoradas",
-          "years": "años en SAP crítico",
-          "governance": "alineado a clean core"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "BTP está licenciado, pero rara vez se convierte en innovación real.",
+          "title": "El Acceso a la IA No Crea Valor Empresarial",
           "items": [
             {
-              "title": "Una plataforma sin plan",
-              "description": "BTP está disponible pero no hay una visión clara de qué casos de uso justifican realmente construir sobre ella."
+              "title": "Sin vista común de valor ni readiness",
+              "description": "Ninguna vista compartida de dónde la Business AI debería crear valor medible, y casos de uso de agentes e IA elegidos sin readiness de proceso ni de datos."
             },
             {
-              "title": "Pilotos que nunca escalan",
-              "description": "Experimentos aislados prueban un punto pero nunca se vuelven capacidades gobernadas y productivas."
+              "title": "Roles difusos y pilotos desconectados",
+              "description": "Roles poco claros para SAP BTP, Business Data Cloud, AI Foundation y las plataformas existentes, con pilotos, data products, integraciones e iniciativas de aplicaciones desconectados."
             },
             {
-              "title": "Tensión entre innovación y clean core",
-              "description": "Los equipos temen que extender SAP comprometa la actualizabilidad, así que sobre-customizan o no hacen nada."
+              "title": "Gobierno tardío, sin camino a producción",
+              "description": "Seguridad, identidad, IA responsable y compliance abordados demasiado tarde, visibilidad limitada del consumo y el riesgo de IA, y ningún camino repetible del prototipo en Joule Studio a producción gobernada."
             }
           ],
-          "closing": "El advisory de BTP convierte una plataforma sin uso en un roadmap de innovación priorizado y gobernado que protege el core."
+          "closing": "Un recorrido BAIP exitoso requiere un único modelo de portfolio, arquitectura y gobierno que conecte contexto de negocio, datos confiables, ingeniería de IA y ejecución responsable."
         },
         "howWeHelp": {
-          "title": "Una estrategia y roadmap claros para SAP BTP",
-          "description": "Del descubrimiento de casos de uso a una arquitectura y roadmap que tus equipos pueden ejecutar.",
+          "title": "Creá una Base de IA Gobernada",
+          "description": "Conectamos las prioridades empresariales, la arquitectura de plataforma, el contexto de negocio y el gobierno de IA en un único roadmap práctico.",
           "items": [
             {
-              "title": "Descubrimiento de casos de uso",
-              "description": "Identificamos y priorizamos los casos de extensión, integración, automatización y datos que justifican BTP."
+              "title": "Estrategia y Descubrimiento de Oportunidades",
+              "description": "Workshops con ejecutivos y stakeholders, mapeo de capacidades y dolores del negocio, descubrimiento de casos de uso de agentes, aplicaciones e IA, evaluación de valor, readiness y riesgo, y un portfolio de Business AI priorizado."
             },
             {
-              "title": "Arquitectura BTP",
-              "description": "Definimos una arquitectura objetivo entre los servicios de BTP alineada con los principios de clean core."
+              "title": "Arquitectura de Plataforma Unificada",
+              "description": "El rol de BAIP en la arquitectura empresarial, ubicación de las capacidades de SAP BTP, una base de datos confiables sobre Business Data Cloud, arquitectura de AI Foundation y model-services, y conectividad SAP y no-SAP."
             },
             {
-              "title": "Gobierno y guardrails",
-              "description": "Establecemos el gobierno, los estándares y los guardrails que mantienen el desarrollo en BTP seguro y escalable."
+              "title": "Build y Habilitación de Agentes",
+              "description": "Adopción y patrones de entrega con Joule Studio, arquitectura de agentes, aplicaciones y workflows, herramientas, APIs y límites de integración, supervisión humana y controles de acción, y estándares de prototipo a producción."
             },
             {
-              "title": "Roadmap de adopción",
-              "description": "Construimos un roadmap por fases que convierte las prioridades en incrementos entregables y con valor."
+              "title": "Contextualizar y Razonar",
+              "description": "Contexto de proceso de negocio y semántico, alineación de data products y fuentes de conocimiento, patrones de grounding y retrieval, selección de modelos y reasoning-services, y un marco de calidad y evaluación."
+            },
+            {
+              "title": "Gobierno y Operación",
+              "description": "Controles de identidad, seguridad e IA responsable, gobierno del ciclo de vida de agentes y modelos, observabilidad, auditabilidad y accountability humana, gestión de consumo y costos, y un modelo operativo y de ownership del servicio."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Business AI Diseñada para Escalar",
           "items": [
             {
-              "title": "BTP con propósito",
-              "description": "La inversión se enfoca en casos de uso con valor real de negocio, no en experimentos."
+              "title": "Prioridades de IA Claras",
+              "description": "Enfocá la inversión en casos de uso con fuerte contexto de proceso, readiness de datos y valor medible."
             },
             {
-              "title": "Core protegido",
-              "description": "Las extensiones siguen principios de clean core, manteniendo SAP actualizable."
+              "title": "Adopción Más Rápida en Producción",
+              "description": "Los patrones reutilizables reducen la brecha entre los prototipos en Joule Studio y los servicios soportados."
             },
             {
-              "title": "Innovación escalable",
-              "description": "Una plataforma gobernada permite que la innovación escale más allá de pilotos aislados."
+              "title": "Contexto de Negocio Confiable",
+              "description": "Los agentes y las aplicaciones usan datos, semántica y conocimiento de proceso gobernados."
             },
             {
-              "title": "Time-to-value más rápido",
-              "description": "Un roadmap priorizado entrega valor en incrementos, no en apuestas big-bang."
+              "title": "Gobierno de IA Más Fuerte",
+              "description": "Seguridad, calidad, ciclo de vida, costo y accountability se diseñan desde el principio."
+            },
+            {
+              "title": "Menor Fragmentación de Plataforma",
+              "description": "Una arquitectura unificada conecta las capacidades SAP con el ecosistema empresarial existente."
+            },
+            {
+              "title": "Entrega Repetible de Agentes",
+              "description": "Los equipos obtienen estándares para construir, evaluar, desplegar y operar soluciones con IA de forma segura."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia un roadmap de innovación en BTP",
-          "description": "Cuatro fases del descubrimiento a un roadmap gobernado.",
+          "title": "De la Oportunidad de IA a la Capacidad Empresarial",
+          "description": "Cinco fases desde el descubrimiento hasta una activación gobernada y basada en evidencia.",
           "phases": [
             {
               "name": "Descubrir",
-              "deliverable": "Casos de uso BTP priorizados y mapa de valor de negocio"
+              "deliverable": "Entendemos estrategia, oportunidades de proceso, contexto de datos, arquitectura, skills e iniciativas de IA activas."
             },
             {
-              "name": "Diseñar",
-              "deliverable": "Arquitectura BTP objetivo alineada con clean core"
+              "name": "Priorizar",
+              "deliverable": "Puntuamos agentes, aplicaciones y workflows por valor, readiness, riesgo y alineación estratégica."
+            },
+            {
+              "name": "Arquitecturar",
+              "deliverable": "Conectamos las capacidades de BTP, Business Data Cloud, AI Foundation y Joule Studio en un modelo target."
             },
             {
               "name": "Gobernar",
-              "deliverable": "Estándares, guardrails y gobierno de entrega"
+              "deliverable": "Establecemos controles de seguridad, IA responsable, calidad, ciclo de vida, consumo y accountability."
             },
             {
-              "name": "Roadmap",
-              "deliverable": "Plan de adopción por fases con incrementos de valor"
+              "name": "Activar",
+              "deliverable": "Lanzamos casos de uso acotados y escalamos solo con desempeño medible y evidencia de negocio."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo BTP Necesita una Estrategia Real",
+          "title": "Advisory para Cada Etapa de BAIP",
           "items": [
-            { "title": "Licenciado pero sin uso", "description": "SAP BTP ya forma parte del contrato pero no tiene un caso de uso ni una hoja de ruta definidos." },
-            { "title": "Extensiones ad hoc por equipo", "description": "Distintos equipos construyen extensiones sobre BTP sin arquitectura ni gobierno compartidos." },
-            { "title": "Falta de roadmap de innovación", "description": "El liderazgo quiere un roadmap de innovación claro y priorizado, basado en valor de negocio." },
-            { "title": "Planificación previa a S/4HANA", "description": "La estrategia de BTP necesita definirse como parte de una transformación más amplia a S/4HANA o RISE." },
-            { "title": "Riesgo de dispersión de la plataforma", "description": "Se están adoptando múltiples servicios de BTP sin un modelo de gobierno coherente." }
+            {
+              "title": "Estrategia de Business AI Platform",
+              "description": "Definimos por qué, dónde y cómo BAIP va a apoyar las prioridades empresariales."
+            },
+            {
+              "title": "Arquitectura Target de BAIP",
+              "description": "Conectamos BTP, BDC, AI Foundation, Joule Studio y las plataformas empresariales."
+            },
+            {
+              "title": "Assessment de Portfolio de Agentes e IA",
+              "description": "Evaluamos y rankeamos casos de uso por contexto, valor, readiness y riesgo."
+            },
+            {
+              "title": "Recuperación de Adopción de BAIP",
+              "description": "Llevamos control a pilotos, datos, integraciones, entornos y consumo fragmentados."
+            },
+            {
+              "title": "Centro de Excelencia de Business AI",
+              "description": "Diseñamos roles, estándares, evaluación, gobierno y habilitación para una adopción sostenible."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el advisory de SAP BTP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Expertise en BTP e integración",
-              "description": "Conocemos el portfolio de servicios de BTP y cómo aplicarlo a landscapes SAP reales."
+              "title": "Perspectiva SAP Unificada",
+              "description": "Conectamos las capacidades de BTP, Business Data Cloud, AI Foundation y Joule Studio como una única arquitectura."
             },
             {
-              "title": "Enfoque clean core",
-              "description": "Innovamos sin crear deuda técnica futura ni romper la actualizabilidad."
+              "title": "Advisory Orientado a Resultados",
+              "description": "Las decisiones de plataforma empiezan por los procesos de negocio y el valor medible."
             },
             {
-              "title": "Innovación atada al negocio",
-              "description": "Priorizamos casos de uso por valor de negocio, no por novedad tecnológica."
+              "title": "Perspectiva de Entrega de Agentes",
+              "description": "Las recomendaciones reflejan las realidades de evaluar, desplegar y operar agentes empresariales."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Entendemos cómo corre SAP, así que lo que diseñamos es operable en producción."
+              "title": "Capacidades Integradas",
+              "description": "IA, datos, desarrollo, integración, seguridad y operación trabajan como un único equipo de advisory."
             },
             {
-              "title": "Práctico, no guiado por hype",
-              "description": "Recomendamos BTP donde se gana su lugar, y lo decimos cuando no."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Te acompañamos mientras el roadmap evoluciona hacia capacidades entregadas."
+              "title": "Gobierno Práctico",
+              "description": "Los controles protegen la empresa mientras habilitan la experimentación responsable y la escala."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Sesión BTP: mapeamos los casos de uso de innovación que vale la pena construir en SAP BTP",
-          "description": "En 45 minutos revisamos tu landscape SAP e identificamos los casos de extensión, integración y automatización donde BTP entregaría más valor primero.",
-          "cta": "Reservá tu sesión BTP"
+          "eyebrow": "Assessment gratuito",
+          "title": "¿Por Dónde Debería Empezar la Business AI?",
+          "description": "Usá el SAP Business AI Platform Opportunity Assessment para evaluar alineación estratégica, readiness de proceso y contexto, base de datos confiables, fit de arquitectura, gobierno de IA, capacidad de entrega de agentes y valor medible.",
+          "cta": "Descargá el BAIP Opportunity Assessment"
         },
         "finalCta": {
-          "title": "¿Listo para convertir SAP BTP en innovación real?",
-          "description": "Agendá una sesión con nuestros especialistas y definamos los casos de uso, la arquitectura y el roadmap de BTP que encajan con tu negocio.",
-          "ctaPrimary": "Evaluá tu estrategia BTP",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Creá una Plataforma de IA Gobernada",
+          "description": "Construí un roadmap de BAIP que conecte contexto confiable, gobierno empresarial y un camino repetible desde las ideas de IA hasta los resultados de negocio.",
+          "ctaPrimary": "Iniciá tu Roadmap de BAIP",
+          "ctaSecondary": "Hablá con un Asesor de Plataforma"
         }
       },
       "sap-integration-suite": {
-        "metaTitle": "SAP Integration Suite | Gobierno de Integración SAP y no-SAP | Global Core Technologies",
-        "metaDescription": "Diseñá, construí y goberná integraciones entre SAP, apps cloud, sistemas externos y socios, mejorando la conectividad de procesos y reduciendo la complejidad de integración.",
+        "metaTitle": "SAP Integration Suite | Cloud Integration y API Management SAP | Global Core Technologies",
+        "metaDescription": "Servicios de SAP Integration Suite: estrategia de integración, integración cloud e híbrida, gestión de APIs y eventos, integración B2B y operación gestionada para un landscape gobernado y escalable.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "SAP Integration Suite: procesos conectados entre SAP, cloud y socios",
-        "heroSubtitle": "Diseñamos, construimos y gobernamos integraciones entre SAP, aplicaciones cloud, sistemas externos y socios de negocio, mejorando la conectividad de procesos mientras reducimos la complejidad y fragilidad de tu landscape de integración.",
-        "ctaPrimary": "Evaluá tus integraciones",
-        "ctaSecondary": "Solicitá una revisión de integración",
+        "h1": "Conectá SAP Sin Complejidad",
+        "heroSubtitle": "Integración diseñada para visibilidad, resiliencia y cambio empresarial escalable. Global Core Technologies diseña, implementa y gobierna las capacidades de SAP Integration Suite para conectar aplicaciones, datos, procesos, eventos y partners entre entornos SAP y no-SAP — modernizando los landscapes de integración con patrones reutilizables, APIs seguras y una operación pensada para el cambio.",
+        "ctaPrimary": "Evaluá tu Landscape de Integración",
+        "ctaSecondary": "Hablá con un Experto en Integración",
         "metrics": {
-          "projects": "iniciativas de integración",
-          "years": "años en SAP crítico",
-          "governance": "modelos de integración gobernados"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Cada nueva conexión hace que el landscape de integración sea más difícil de confiar.",
+          "title": "Cada Nueva Conexión Puede Sumar Fragilidad",
           "items": [
             {
-              "title": "Proliferación punto a punto",
-              "description": "Años de interfaces tácticas crearon una red frágil que nadie entiende del todo ni es dueño."
+              "title": "Point-to-point y middleware legacy",
+              "description": "Interfaces point-to-point con reuso limitado y middleware legacy que restringe la transformación cloud."
             },
             {
-              "title": "Sin gobierno de integración",
-              "description": "Sin estándares ni patrones, cada integración se construye distinto y se rompe distinto."
+              "title": "Control y visibilidad de APIs débiles",
+              "description": "Seguridad y gestión de ciclo de vida de APIs inconsistentes, fallas de interfaces descubiertas por los usuarios de negocio, y monitoreo y trazabilidad de mensajes de punta a punta limitados."
             },
             {
-              "title": "Cambio lento y riesgoso",
-              "description": "Cambiar un proceso implica tocar integraciones que nadie quiere arriesgar, así que el cambio se frena."
+              "title": "Integración cara y sin gobierno",
+              "description": "Mapeos custom y conexiones con partners caras de mantener, herramientas superpuestas con ownership poco claro, y ningún patrón estándar para eventos, APIs, datos e integración de procesos."
             }
           ],
-          "closing": "Integration Suite reemplaza la frágil proliferación punto a punto por una integración segura, gobernada y reutilizable en la que tu negocio puede confiar."
+          "closing": "La integración moderna requiere arquitectura, gobierno y operación — no solo la migración de interfaces a un nuevo runtime."
         },
         "howWeHelp": {
-          "title": "Integración gobernada en todo tu landscape",
-          "description": "De la estrategia de integración a interfaces construidas y gobernadas sobre SAP Integration Suite.",
+          "title": "Una Capacidad de Integración Gobernada",
+          "description": "Construimos un modelo de integración que soporta la operación actual y crea una base escalable para nuevas aplicaciones, datos e IA.",
           "items": [
             {
-              "title": "Estrategia y patrones de integración",
-              "description": "Definimos patrones, estándares y un modelo objetivo de integración para sistemas SAP y no-SAP."
+              "title": "Estrategia de Integración",
+              "description": "Assessment de landscape e interfaces, mapeo de dominios de integración, racionalización de herramientas y capacidades, arquitectura target y principios, y un roadmap de modernización y migración."
             },
             {
-              "title": "Construcción en Integration Suite",
-              "description": "Diseñamos y construimos integraciones sobre SAP Integration Suite: APIs, eventos y flujos de datos."
+              "title": "Integración Cloud e Híbrida",
+              "description": "Integración de aplicaciones SAP y de terceros, diseño e implementación de Cloud Integration, modelos canónicos y mapeos, patrones síncronos y asíncronos, y conectividad on-premise segura."
             },
             {
-              "title": "Conectividad cloud y de socios",
-              "description": "Conectamos aplicaciones cloud, sistemas externos y socios de negocio de forma segura."
+              "title": "Gestión de APIs y Eventos",
+              "description": "Diseño de productos y ciclo de vida de APIs, controles de autenticación, autorización y políticas, un modelo de consumo para developers, patrones de arquitectura event-driven, y gobierno de versionado, reuso y deprecación."
             },
             {
-              "title": "Gobierno de integración",
-              "description": "Ponemos monitoreo, reutilización y gobierno del ciclo de vida alrededor del landscape de integración."
+              "title": "Integración B2B y con Partners",
+              "description": "Onboarding de trading-partners, alineación de EDI y estándares de mensaje, mapeos y validación de partners, manejo de excepciones y acknowledgements, y ownership operativo con niveles de servicio."
+            },
+            {
+              "title": "Operación de Integración",
+              "description": "Diseño de monitoreo y alertas, trazabilidad de mensajes y procedimientos de soporte, gestión de certificados y dependencias, revisión de performance y capacidad, y reporting del servicio con mejora continua."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Integración Lista para el Cambio",
           "items": [
             {
-              "title": "Procesos conectados",
-              "description": "Los sistemas SAP y no-SAP funcionan como un proceso conectado, no como islas aisladas."
+              "title": "Conectividad Más Rápida",
+              "description": "El contenido, las APIs y los patrones reutilizables reducen el esfuerzo para conectar nuevos servicios."
             },
             {
-              "title": "Menor complejidad",
-              "description": "Patrones reutilizables reemplazan las interfaces a medida, reduciendo la huella de integración."
+              "title": "Mayor Resiliencia",
+              "description": "El manejo de errores estándar, el monitoreo y el ownership operativo reducen la disrupción del negocio."
             },
             {
-              "title": "Cambio más seguro",
-              "description": "Integraciones gobernadas y monitoreadas hacen el cambio más rápido y de menor riesgo."
+              "title": "Mejor Visibilidad",
+              "description": "Los equipos obtienen trazabilidad entre mensajes, interfaces y dependencias técnicas."
             },
             {
-              "title": "Mejor flujo de datos",
-              "description": "Una integración confiable mantiene los datos consistentes en todo el landscape."
+              "title": "Seguridad Más Fuerte",
+              "description": "Las APIs gobernadas y los controles de conectividad protegen los datos y servicios empresariales."
+            },
+            {
+              "title": "Menor Deuda de Integración",
+              "description": "Los patrones racionalizados reemplazan la lógica duplicada y las difíciles conexiones point-to-point."
+            },
+            {
+              "title": "Soporte a la Innovación",
+              "description": "Una capa de integración moderna habilita extensiones, automatización, analítica y workflows con agentes."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia una integración SAP gobernada",
-          "description": "Cuatro fases de la estrategia de integración a la operación gobernada.",
+          "title": "Modernizá Sin Perder el Control",
+          "description": "Cinco fases desde el mapeo del landscape hasta una operación basada en evidencia.",
           "phases": [
             {
               "name": "Mapear",
-              "deliverable": "Landscape de integración actual, puntos de dolor y modelo objetivo"
+              "deliverable": "Inventariamos interfaces, tecnologías, dependencias, criticidad de negocio y dolores operativos."
             },
             {
               "name": "Diseñar",
-              "deliverable": "Patrones de integración, estándares y arquitectura"
+              "deliverable": "Definimos dominios target, patrones, seguridad, gobierno y responsabilidades de plataforma."
             },
             {
-              "name": "Construir",
-              "deliverable": "Integraciones entregadas sobre SAP Integration Suite"
+              "name": "Priorizar",
+              "deliverable": "Secuenciamos migraciones y nuevas integraciones según riesgo, valor e hitos de transformación."
             },
             {
-              "name": "Gobernar",
-              "deliverable": "Monitoreo, reutilización y gobierno del ciclo de vida"
+              "name": "Entregar",
+              "deliverable": "Construimos, testeamos y transicionamos integraciones con estándares reutilizables y controles automatizados."
+            },
+            {
+              "name": "Operar",
+              "deliverable": "Monitoreamos el performance, gestionamos el ciclo de vida y mejoramos la calidad de la integración con evidencia."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo la Integración Necesita Gobierno, No Solo Conexiones",
+          "title": "Integración para Empresas Híbridas",
           "items": [
-            { "title": "Dispersión de integraciones punto a punto", "description": "Cada integración nueva se construye como algo aislado, aumentando la fragilidad con el tiempo." },
-            { "title": "Conectividad con partners y la nube", "description": "Nuevas aplicaciones en la nube o socios de negocio necesitan conectarse a SAP de forma confiable." },
-            { "title": "Problemas de confiabilidad en integraciones", "description": "Las interfaces existentes fallan seguido o carecen de monitoreo y manejo de errores." },
-            { "title": "Migración de plataforma", "description": "Una plataforma de integración existente se está reemplazando o consolidando sobre Integration Suite." },
-            { "title": "Falta de gobierno", "description": "Las integraciones se construyen sin estándares, patrones ni responsables compartidos." }
+            {
+              "title": "Implementación de Integration Suite",
+              "description": "Establecemos la base de plataforma, los patrones, el gobierno y el portfolio inicial de integraciones."
+            },
+            {
+              "title": "Modernización de SAP PI/PO",
+              "description": "Evaluamos, racionalizamos y migramos interfaces legacy hacia un modelo de integración cloud."
+            },
+            {
+              "title": "Readiness de Integración S/4HANA",
+              "description": "Preparamos la arquitectura de interfaces, las prioridades de remediación y el testing para la transformación."
+            },
+            {
+              "title": "Programa de API Management",
+              "description": "Exponemos y gobernamos servicios de negocio reutilizables para aplicaciones, partners y agentes."
+            },
+            {
+              "title": "Operación Gestionada de Integración",
+              "description": "Aportamos monitoreo, coordinación de incidentes, controles de ciclo de vida y mejora continua."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para la integración SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Expertise en BTP e integración",
-              "description": "SAP Integration Suite y la arquitectura de integración son parte central de lo que hacemos."
+              "title": "Perspectiva de Punta a Punta",
+              "description": "Conectamos la arquitectura de integración con los procesos de negocio, la seguridad y la operación."
             },
             {
-              "title": "Enfoque clean core",
-              "description": "Integramos de formas que mantienen SAP limpio, estándar y actualizable."
+              "title": "Experiencia SAP y No-SAP",
+              "description": "Las soluciones se diseñan para el landscape híbrido real, no para un límite SAP aislado."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Construimos integraciones estables y operables en producción."
+              "title": "Disciplina de Migración",
+              "description": "El assessment y el secuenciamiento reducen el riesgo durante las transiciones de PI/PO y S/4HANA."
             },
             {
-              "title": "Innovación atada al negocio",
-              "description": "Conectamos los procesos que realmente mueven los resultados de negocio."
+              "title": "Diseño Operativo",
+              "description": "El monitoreo, el ownership y los runbooks están integrados al servicio desde el inicio."
             },
             {
-              "title": "Mentalidad de gobierno",
-              "description": "Agregamos el gobierno que mantiene la integración mantenible a escala."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Mantenemos el landscape de integración sano a medida que crece."
+              "title": "Arquitectura Reutilizable",
+              "description": "Los estándares y aceleradores hacen que las conexiones futuras sean más rápidas y consistentes."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de integración: mapeamos las conexiones que ponen en riesgo tus procesos",
-          "description": "En 45 minutos revisamos tu landscape de integración y destacamos las interfaces frágiles y sin gobierno que más conviene reemplazar primero.",
-          "cta": "Reservá tu revisión de integración"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Qué Tan Moderno Es tu Landscape de Integración?",
+          "description": "Usá el SAP Integration Modernization Checklist para evaluar inventario de interfaces, dependencia de legacy, madurez de APIs, cobertura de monitoreo, controles de seguridad, patrones reutilizables y readiness de migración.",
+          "cta": "Descargá el Integration Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para conectar SAP sin la complejidad?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos la estrategia de integración y el gobierno que simplifican tu landscape.",
-          "ctaPrimary": "Evaluá tus integraciones",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Construí Conexiones que Escalan",
+          "description": "Modernizá la arquitectura de integración, mejorá la resiliencia y creá la base de conectividad para la transformación SAP y la IA.",
+          "ctaPrimary": "Revisá tu Landscape de Integración",
+          "ctaSecondary": "Hablá con un Experto en Integración"
         }
       },
       "sap-ai-automation": {
-        "metaTitle": "SAP AI & Automation | IA y Automatización Práctica para SAP | Global Core Technologies",
-        "metaDescription": "Identificá, diseñá e implementá flujos con IA, automatización y asistentes inteligentes para procesos SAP, aumentando la eficiencia con casos de uso de IA prácticos y gobernados.",
+        "metaTitle": "SAP AI & Automation | Business AI y Automatización de Procesos SAP | Global Core Technologies",
+        "metaDescription": "Servicios de IA y automatización SAP: descubrimiento de oportunidades, automatización de procesos, habilitación de Business AI, arquitectura e integración, y operación responsable de la idea a producción gobernada.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "SAP AI & Automation: inteligencia y automatización prácticas para procesos SAP",
-        "heroSubtitle": "Identificamos, diseñamos e implementamos flujos con IA, oportunidades de automatización y asistentes inteligentes para tus procesos y operaciones SAP, con foco en ganancias reales de eficiencia, no en el hype de la IA.",
-        "ctaPrimary": "Evaluá tus casos de uso de IA",
-        "ctaSecondary": "Solicitá una sesión de automatización",
+        "h1": "Convertí el Trabajo en Inteligencia",
+        "heroSubtitle": "IA y automatización que mejoran las decisiones, la velocidad y el control. Global Core Technologies identifica, diseña y entrega casos de uso de IA y automatización centrados en SAP que eliminan el trabajo repetitivo, mejoran la calidad de las decisiones y aceleran los procesos de negocio — combinando entendimiento de procesos, SAP Business AI, SAP Build e integración gobernada para pasar de ideas prometedoras a resultados de producción controlados.",
+        "ctaPrimary": "Identificá tus Oportunidades de IA",
+        "ctaSecondary": "Hablá con un Asesor de IA",
         "metrics": {
-          "projects": "casos de uso de IA y automatización",
-          "years": "años en SAP crítico",
-          "governance": "adopción de IA gobernada"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Todos quieren IA en SAP; pocos saben dónde realmente rinde.",
+          "title": "Los Experimentos de IA Rara Vez se Vuelven Capacidades de Negocio",
           "items": [
             {
-              "title": "Casos de uso que nadie validó",
-              "description": "Circulan ideas de IA, pero nadie evaluó cuáles son factibles, valiosas y seguras en un contexto SAP."
+              "title": "Ideas sin priorizar, a nivel tarea",
+              "description": "Listas largas de ideas sin priorización de valor o factibilidad, y automatización enfocada en tareas individuales en vez de resultados de punta a punta."
             },
             {
-              "title": "Trabajo manual por todos lados",
-              "description": "Tareas repetitivas en los procesos SAP consumen capacidad que podría ir a trabajo de mayor valor."
+              "title": "Contexto débil y límites difusos",
+              "description": "Datos poco confiables y contexto de negocio SAP insuficiente, y límites poco claros entre la automatización determinística y la IA generativa."
             },
             {
-              "title": "IA sin gobierno",
-              "description": "La IA y la automatización sin gobierno introducen riesgo sobre datos, precisión y accountability."
+              "title": "Controles tardíos, sin medición",
+              "description": "Controles de seguridad, privacidad e IA responsable abordados tarde, aprobaciones humanas y caminos de excepción no diseñados, pilotos desconectados de producción, y ninguna medición de adopción, calidad o beneficio realizado."
             }
           ],
-          "closing": "La IA y la automatización prácticas empiezan por los casos de uso correctos — factibles, valiosos y gobernados — no por la tendencia más ruidosa."
+          "closing": "La IA empresarial tiene que ser útil, segura, explicable y estar conectada a los procesos donde ocurren las decisiones y las acciones."
         },
         "howWeHelp": {
-          "title": "IA y automatización prácticas para SAP",
-          "description": "De la identificación de casos de uso a IA y automatización gobernadas y listas para producción.",
+          "title": "Inteligencia Embebida en los Procesos de Negocio",
+          "description": "Combinamos descubrimiento de oportunidades, rediseño de workflows, selección de tecnología y gobierno para crear resultados listos para producción.",
           "items": [
             {
-              "title": "Identificación de casos de uso",
-              "description": "Evaluamos dónde la IA y la automatización entregan valor real en tus procesos SAP."
+              "title": "Descubrimiento de IA y Automatización",
+              "description": "Workshops de procesos y dolores, un inventario de tareas y decisiones, scoring de valor, riesgo y factibilidad, un assessment de build-versus-adopt, y un roadmap de oportunidades priorizado."
             },
             {
-              "title": "Automatización de procesos",
-              "description": "Automatizamos workflows SAP repetitivos usando BTP y herramientas de automatización modernas."
+              "title": "Automatización de Procesos",
+              "description": "Automatización de workflows y aprobaciones, formularios y reglas de negocio, automatización de tareas repetitivas, procesamiento de documentos e información, y ruteo y escalamiento de excepciones."
             },
             {
-              "title": "IA embebida y generativa",
-              "description": "Diseñamos flujos con IA y asistentes inteligentes para tareas SAP."
+              "title": "Habilitación de Business AI",
+              "description": "Casos de uso de decisión e insight asistidos por IA, integración del contexto de negocio SAP, diseño de prompts, grounding y respuestas, controles human-in-the-loop, y evaluación de calidad y resultados."
             },
             {
-              "title": "Gobierno de IA",
-              "description": "Ponemos guardrails de datos, precisión y accountability alrededor de cada caso de uso de IA."
+              "title": "Arquitectura e Integración",
+              "description": "Acceso a datos SAP y no-SAP, integración de APIs y eventos, alineación de identidad y autorización, logging y evidencia de auditoría, y arquitectura de producción escalable."
+            },
+            {
+              "title": "Operación Responsable",
+              "description": "Clasificación de riesgo e impacto, controles de seguridad y privacidad, ciclo de vida de modelos y dependencias, monitoreo de uso, calidad y costo, y seguimiento de adopción y valor."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Automatización con Impacto de Negocio",
           "items": [
             {
-              "title": "Mayor eficiencia",
-              "description": "La automatización elimina el trabajo repetitivo y acelera los procesos SAP."
+              "title": "Equipos Más Productivos",
+              "description": "Reducí la coordinación repetitiva, el manejo de datos y el follow-up manual."
             },
             {
-              "title": "Adopción práctica de IA",
-              "description": "La IA se aplica donde entrega valor, con casos de uso claros y gobernados."
+              "title": "Decisiones Más Rápidas",
+              "description": "Entregá contexto relevante, recomendaciones y excepciones en el punto de trabajo."
             },
             {
-              "title": "Capacidad liberada",
-              "description": "Los equipos dedican menos tiempo a tareas manuales y más a trabajo de alto valor."
+              "title": "Ejecución Consistente",
+              "description": "Las reglas, los workflows y las acciones guiadas reducen la variabilidad del proceso."
             },
             {
-              "title": "Riesgo controlado",
-              "description": "El gobierno mantiene la IA y la automatización precisas, auditables y seguras."
+              "title": "Mejor Experiencia de Usuario",
+              "description": "Las interacciones simplificadas ayudan a los usuarios a completar el trabajo entre sistemas complejos."
+            },
+            {
+              "title": "Adopción de IA Controlada",
+              "description": "El gobierno y la supervisión humana protegen los datos, las decisiones y la accountability del negocio."
+            },
+            {
+              "title": "Valor Medible",
+              "description": "Los KPIs por caso de uso conectan la adopción y la calidad con los resultados de tiempo, costo y servicio."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia la IA y automatización en SAP",
-          "description": "Cuatro fases de la selección de casos de uso a la operación gobernada.",
+          "title": "Empezá Chico. Diseñá para Escalar.",
+          "description": "Cinco fases desde el descubrimiento hasta una entrega gobernada a escala de portfolio.",
           "phases": [
             {
-              "name": "Identificar",
-              "deliverable": "Casos de uso de IA y automatización priorizados con valor de negocio"
+              "name": "Descubrir",
+              "deliverable": "Identificamos el trabajo de alta fricción, las decisiones, las brechas de información y los candidatos a automatización."
             },
             {
-              "name": "Diseñar",
-              "deliverable": "Diseño de solución con datos, gobierno y clean core en mente"
+              "name": "Calificar",
+              "deliverable": "Evaluamos valor de negocio, readiness de datos, fit tecnológico, riesgo e impacto del cambio."
             },
             {
-              "name": "Construir",
-              "deliverable": "Automatizaciones y flujos con IA en producción"
+              "name": "Prototipar",
+              "deliverable": "Validamos la experiencia de usuario, la lógica del proceso, la calidad de la IA y el camino de integración."
             },
             {
-              "name": "Gobernar",
-              "deliverable": "Monitoreo, controles de precisión y mejora continua"
+              "name": "Industrializar",
+              "deliverable": "Agregamos seguridad empresarial, testing, monitoreo, manejo de excepciones y readiness de soporte."
+            },
+            {
+              "name": "Escalar",
+              "deliverable": "Medimos resultados, reutilizamos patrones y expandimos el portfolio con entrega gobernada."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo la IA y la Automatización Necesitan un Business Case Real",
+          "title": "IA y Automatización Donde Ocurre el Trabajo",
           "items": [
-            { "title": "Entusiasmo por IA sin casos de uso", "description": "El liderazgo quiere adoptar IA pero todavía no se identificaron casos de uso concretos." },
-            { "title": "Trabajo manual repetitivo", "description": "Los equipos dedican tiempo considerable a pasos manuales y repetitivos de procesos SAP." },
-            { "title": "IA embebida subutilizada", "description": "Las capacidades de IA nativas de SAP están licenciadas pero no activadas ni adoptadas." },
-            { "title": "Brecha entre piloto y escala", "description": "Un piloto de automatización funcionó pero no hay un plan para escalarlo de forma responsable." },
-            { "title": "Gobierno antes de escalar", "description": "La adopción de IA necesita guardrails y gobierno antes de seguir expandiéndose." }
+            {
+              "title": "Automatización de Procesos de Finanzas",
+              "description": "Aceleramos conciliaciones, manejo de documentos, revisión de excepciones y aprobaciones."
+            },
+            {
+              "title": "Workflows de Compras y Proveedores",
+              "description": "Mejoramos la recepción de pedidos, la validación, el ruteo y el follow-up entre stakeholders."
+            },
+            {
+              "title": "Inteligencia de Servicio y Soporte",
+              "description": "Resumimos casos, recomendamos conocimiento y coordinamos las actividades de resolución."
+            },
+            {
+              "title": "Procesos Basados en Documentos",
+              "description": "Extraemos, validamos y ruteamos información de documentos de negocio hacia workflows gobernados."
+            },
+            {
+              "title": "Programa de Oportunidades de IA",
+              "description": "Creamos un portfolio priorizado, un modelo de gobierno y un camino repetible de piloto a producción."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para IA y automatización SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Mentalidad de IA práctica",
-              "description": "Nos enfocamos en casos de uso factibles y valiosos, no en IA por la IA misma."
+              "title": "Foco en el Proceso de Negocio",
+              "description": "Rediseñamos el trabajo en torno a los resultados en vez de automatizar clics aislados."
             },
             {
-              "title": "Expertise en BTP y automatización",
-              "description": "Construimos automatización e IA sobre BTP y herramientas modernas, integradas con SAP."
+              "title": "Contexto SAP",
+              "description": "Los casos de uso reflejan los datos, autorizaciones, transacciones y dependencias de proceso de SAP."
             },
             {
-              "title": "Enfoque clean core",
-              "description": "Agregamos inteligencia sin comprometer el estándar y la actualizabilidad de SAP."
+              "title": "Controles Centrados en la Persona",
+              "description": "Las aprobaciones, las excepciones y la accountability se mantienen explícitas."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Conocemos los procesos SAP, así que la automatización apunta al trabajo que importa."
+              "title": "Ingeniería Empresarial",
+              "description": "La seguridad, la integración, el testing y la operación son parte del diseño de producción."
             },
             {
-              "title": "Mentalidad de gobierno",
-              "description": "Gobernamos datos, precisión y accountability desde el día uno."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Hacemos crecer la adopción de IA de forma responsable a medida que se prueba el valor."
+              "title": "Innovación Pragmática",
+              "description": "Elegimos la tecnología más simple que pueda entregar el valor requerido de forma segura."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Sesión de IA y automatización: encontramos los casos de uso SAP que conviene automatizar primero",
-          "description": "En 45 minutos revisamos tus procesos SAP e identificamos los casos de uso de IA y automatización de mayor valor y menor riesgo para empezar.",
-          "cta": "Reservá tu sesión de IA y automatización"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Dónde Puede la IA Crear Valor Ahora?",
+          "description": "Usá el SAP AI & Automation Opportunity Checklist para evaluar fricción de procesos, esfuerzo manual, latencia de decisión, readiness de datos, requisitos de control, complejidad de adopción y valor medible.",
+          "cta": "Descargá el AI Opportunity Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para llevar IA y automatización prácticas a SAP?",
-          "description": "Agendá una sesión con nuestros especialistas e identifiquemos los casos de uso de IA y automatización que entregan valor sin agregar riesgo.",
-          "ctaPrimary": "Evaluá tus casos de uso de IA",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Pasá de las Ideas a los Resultados",
+          "description": "Identificá oportunidades prácticas y construí capacidades de IA y automatización gobernadas alrededor del trabajo que importa.",
+          "ctaPrimary": "Evaluá tus Oportunidades de IA",
+          "ctaSecondary": "Hablá con un Asesor de IA"
         }
       },
       "sap-extension-development": {
-        "metaTitle": "SAP Extension Development | Extensiones SAP Limpias y Gobernadas | Global Core Technologies",
-        "metaDescription": "Construí extensiones SAP limpias, escalables y gobernadas con prácticas de desarrollo modernas y cloud-ready, extendiendo las capacidades SAP sin comprometer el core.",
+        "metaTitle": "SAP Extension Development | Extensiones Side-by-Side Clean Core | Global Core Technologies",
+        "metaDescription": "Desarrollo de extensiones SAP: descubrimiento y diseño de extensiones, aplicaciones side-by-side, desarrollo alineado a SAP en ABAP Cloud, SAP Build y Fiori, calidad y seguridad, y ciclo de vida de aplicaciones.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "SAP Extension Development: extendé SAP sin comprometer el core",
-        "heroSubtitle": "Construimos extensiones SAP limpias, escalables y gobernadas con prácticas de desarrollo modernas y cloud-ready, para que extiendas las capacidades SAP sin volver a cargar deuda técnica sobre el core.",
-        "ctaPrimary": "Evaluá tus necesidades de extensión",
-        "ctaSecondary": "Solicitá una sesión de desarrollo",
+        "h1": "Extendé SAP. Protegé el Core.",
+        "heroSubtitle": "Aplicaciones de negocio construidas para la agilidad sin sumar complejidad al core. Global Core Technologies diseña y construye extensiones SAP que entregan capacidades de negocio diferenciadas preservando un core limpio y listo para upgrades — usando patrones de aplicación, workflow e integración alineados a SAP en SAP Business AI Platform, SAP Build, ABAP Cloud y experiencias de usuario modernas.",
+        "ctaPrimary": "Conversá tu Extensión",
+        "ctaSecondary": "Hablá con un Arquitecto de Soluciones",
         "metrics": {
-          "projects": "extensiones SAP entregadas",
-          "years": "años en SAP crítico",
-          "governance": "alineado a clean core"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "El desarrollo a medida es cómo la mayoría de los landscapes SAP acumulan su deuda.",
+          "title": "La Diferenciación de Negocio Puede Volverse Deuda del Core",
           "items": [
             {
-              "title": "Modificaciones al core por todos lados",
-              "description": "Las extensiones construidas dentro del core hacen cada upgrade más lento, riesgoso y caro."
+              "title": "Código custom en la capa equivocada",
+              "description": "Requisitos custom implementados sin clasificación de extensión, y modificaciones legacy fuertemente acopladas a los releases de SAP."
             },
             {
-              "title": "Desarrollo inconsistente",
-              "description": "Sin estándares, las extensiones varían en calidad, seguridad y mantenibilidad de un equipo a otro."
+              "title": "UX fragmentada y lógica duplicada",
+              "description": "Experiencias de usuario fragmentadas entre transacciones y herramientas, pasos manuales fuera de aplicaciones gobernadas, y lógica de negocio duplicada entre soluciones custom."
             },
             {
-              "title": "Código sin documentar ni dueño",
-              "description": "El código a medida se acumula sin titularidad, así que nadie se anima a cambiarlo o eliminarlo."
+              "title": "Seguridad y ciclo de vida inconsistentes",
+              "description": "Modelos de seguridad y autorización diseñados de forma inconsistente, testing automatizado y controles de ciclo de vida insuficientes, y aplicaciones entregadas sin readiness de soporte en producción."
             }
           ],
-          "closing": "El desarrollo de extensiones bien hecho mantiene la capacidad a medida fuera del core: limpia, gobernada y segura de evolucionar."
+          "closing": "La extensión sostenible requiere la ubicación, el modelo de programación, el patrón de integración y el ciclo de vida correctos para cada requisito."
         },
         "howWeHelp": {
-          "title": "Extensiones SAP limpias y gobernadas",
-          "description": "Del diseño de la extensión al código entregado y mantenible sobre arquitecturas SAP modernas.",
+          "title": "Construí la Diferenciación en la Capa Correcta",
+          "description": "Traducimos los requisitos de negocio en aplicaciones y extensiones mantenibles alineadas con los principios de arquitectura SAP.",
           "items": [
             {
-              "title": "Diseño de extensibilidad",
-              "description": "Elegimos el modelo de extensibilidad correcto — side-by-side o in-app — según principios de clean core."
+              "title": "Descubrimiento y Diseño de Extensiones",
+              "description": "Definición de requisitos de negocio, análisis fit-to-standard y de gaps, clasificación de extensión, diseño de user journey y experiencia, y arquitectura de solución con backlog."
             },
             {
-              "title": "Desarrollo moderno",
-              "description": "Construimos con prácticas de desarrollo cloud-ready y alineadas al estándar sobre BTP y herramientas SAP."
+              "title": "Aplicaciones Side-by-Side",
+              "description": "Arquitectura de aplicaciones en SAP Business AI Platform, soluciones con Cloud Application Programming Model, diseño de servicios y dominios, integración SAP y de terceros, y patrones de despliegue escalables."
             },
             {
-              "title": "Estándares de desarrollo",
-              "description": "Aplicamos estándares consistentes de calidad, seguridad y mantenibilidad."
+              "title": "Desarrollo Alineado a SAP",
+              "description": "Patrones de ABAP Cloud y APIs liberadas, experiencias de aplicaciones SAP Fiori, entrega low-code y pro-code con SAP Build, extensiones de eventos y workflows, y componentes y servicios reutilizables."
             },
             {
-              "title": "Ciclo de vida y handover",
-              "description": "Documentamos, testeamos y transferimos las extensiones para que sigan con dueño y mantenibles."
+              "title": "Calidad y Seguridad",
+              "description": "Diseño de identidad y autorización, prácticas de desarrollo seguro, una estrategia de testing automatizado, revisiones de calidad de código y arquitectura, y protección de datos y auditabilidad."
+            },
+            {
+              "title": "Ciclo de Vida de Aplicaciones",
+              "description": "Estrategia de CI/CD y transportes, gestión de entornos y configuración, readiness de monitoreo y soporte, documentación y transferencia de conocimiento, y roadmap de producto con mejora continua."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Aplicaciones Construidas para el Cambio Sostenible",
           "items": [
             {
-              "title": "Core protegido",
-              "description": "La capacidad se agrega fuera del core, manteniendo SAP estándar y actualizable."
+              "title": "Innovación de Negocio Más Rápida",
+              "description": "Entregá capacidades puntuales sin esperar a los grandes releases del core."
             },
             {
-              "title": "Código mantenible",
-              "description": "Estándares consistentes hacen que las extensiones sigan entendibles y seguras de cambiar."
+              "title": "Menor Impacto en Upgrades",
+              "description": "Las extensiones desacopladas reducen los conflictos durante las actualizaciones y la transformación SAP."
             },
             {
-              "title": "Capacidad escalable",
-              "description": "Las extensiones cloud-ready escalan con el negocio, no en su contra."
+              "title": "Mejor Adopción de Usuarios",
+              "description": "Las aplicaciones basadas en roles simplifican el trabajo y reúnen la información en una sola experiencia."
             },
             {
-              "title": "Menor costo a largo plazo",
-              "description": "Las extensiones limpias evitan el costo recurrente del código a medida que bloquea upgrades."
+              "title": "Servicios de Negocio Reutilizables",
+              "description": "La lógica y las APIs compartidas reducen la duplicación entre soluciones futuras."
+            },
+            {
+              "title": "Mayor Calidad de Ingeniería",
+              "description": "Las prácticas de seguridad, testing y ciclo de vida mejoran la confiabilidad."
+            },
+            {
+              "title": "Flexibilidad a Largo Plazo",
+              "description": "Los modelos de programación modernos preservan las opciones a medida que evoluciona la arquitectura SAP."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia extensiones SAP limpias",
-          "description": "Cuatro fases del diseño de extensibilidad a la entrega mantenible y con dueño.",
+          "title": "De la Necesidad de Negocio al Producto",
+          "description": "Cinco fases desde el descubrimiento hasta un producto de negocio gestionado.",
           "phases": [
             {
-              "name": "Diseñar",
-              "deliverable": "Modelo de extensibilidad y arquitectura alineados con clean core"
+              "name": "Descubrir",
+              "deliverable": "Definimos usuarios, resultados, gaps de proceso, restricciones y medidas de éxito."
             },
             {
-              "name": "Estandarizar",
-              "deliverable": "Estándares de desarrollo de calidad, seguridad y mantenibilidad"
+              "name": "Clasificar",
+              "deliverable": "Determinamos si configurar, embeber, extender side-by-side o rediseñar el requisito."
+            },
+            {
+              "name": "Diseñar",
+              "deliverable": "Creamos la arquitectura, la experiencia de usuario, el modelo de seguridad, la integración y el backlog de entrega."
             },
             {
               "name": "Construir",
-              "deliverable": "Extensiones entregadas sobre arquitecturas SAP modernas"
+              "deliverable": "Desarrollamos de forma iterativa con testing, controles de calidad y feedback de stakeholders."
             },
             {
-              "name": "Handover",
-              "deliverable": "Documentación, tests y titularidad para el largo plazo"
+              "name": "Operar",
+              "deliverable": "Liberamos, monitoreamos, soportamos y evolucionamos la extensión como un producto de negocio gestionado."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo las Extensiones Necesitan Construirse Bien",
+          "title": "Extensiones para Procesos Diferenciados",
           "items": [
-            { "title": "Presión por personalización heredada", "description": "Los requisitos de negocio no se cubren con el estándar de SAP y necesitan una extensión limpia." },
-            { "title": "Deuda técnica de desarrollos previos", "description": "El custom code del pasado acumuló deuda técnica que el nuevo desarrollo no debería repetir." },
-            { "title": "Estándares de desarrollo modernos", "description": "La organización quiere adoptar prácticas de extensión side-by-side, listas para la nube." },
-            { "title": "Planificación de extensiones previa a S/4HANA", "description": "La estrategia de extensiones necesita definirse antes o durante una transformación a S/4HANA." },
-            { "title": "Traspaso y mantenibilidad", "description": "Una extensión necesita construirse con documentación clara y un responsable de su ciclo de vida." }
+            {
+              "title": "Aplicación de Negocio Custom",
+              "description": "Creamos una aplicación basada en roles para requisitos no cubiertos por el SAP estándar."
+            },
+            {
+              "title": "Extensión de Workflow y Aprobaciones",
+              "description": "Coordinamos decisiones y tareas entre SAP y stakeholders externos."
+            },
+            {
+              "title": "Reemplazo de Código Custom Legacy",
+              "description": "Movemos capacidades valiosas fuera de las modificaciones y los frameworks obsoletos."
+            },
+            {
+              "title": "Experiencia de Usuario Unificada",
+              "description": "Combinamos información y acciones de múltiples sistemas en una aplicación enfocada."
+            },
+            {
+              "title": "Extension Factory",
+              "description": "Establecemos arquitectura reutilizable, estándares de ingeniería y gobierno de entrega."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para el desarrollo de extensiones SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Enfoque clean core",
-              "description": "Cada extensión se diseña para proteger la actualizabilidad y la sostenibilidad de la arquitectura."
+              "title": "Clean-Core por Diseño",
+              "description": "Cada solución empieza con decisiones explícitas de ubicación y desacople."
             },
             {
-              "title": "Expertise en BTP y desarrollo",
-              "description": "Construimos extensiones side-by-side e in-app con prácticas modernas y cloud-ready."
+              "title": "Capacidad SAP Full-Stack",
+              "description": "Combinamos expertise de proceso, UX, desarrollo, integración, seguridad y operación."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Construimos extensiones estables y operables, no solo funcionales."
+              "title": "Mentalidad de Producto",
+              "description": "Las extensiones se diseñan para la adopción, el ciclo de vida y el valor de negocio medible."
             },
             {
-              "title": "Mentalidad de gobierno",
-              "description": "Los estándares, la documentación y la titularidad vienen incorporados, no agregados después."
+              "title": "Disciplina de Ingeniería",
+              "description": "Las revisiones de arquitectura, el testing y la automatización de entrega protegen la calidad."
             },
             {
-              "title": "Innovación atada al negocio",
-              "description": "Construimos la capacidad que el negocio necesita, no código sobredimensionado."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Mantenemos las extensiones sanas a lo largo de los releases SAP y el cambio del negocio."
+              "title": "Entrega Flexible",
+              "description": "Podemos construir de forma independiente o trabajar con equipos de desarrollo internos y de partners."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Revisión de extensiones: evaluamos si tus customizaciones SAP ayudan o perjudican",
-          "description": "En 45 minutos revisamos tu desarrollo a medida y te mostramos dónde las extensiones están agregando riesgo a los upgrades, y cómo construir limpio desde acá.",
-          "cta": "Reservá tu revisión de extensiones"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Tu Extensión Está en la Capa Correcta?",
+          "description": "Usá el SAP Extension Architecture Checklist para evaluar diferenciación de negocio, fit-to-standard, ubicación de la extensión, disponibilidad de APIs, modelo de seguridad, readiness de ciclo de vida e impacto en upgrades.",
+          "cta": "Descargá el Extension Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para extender SAP sin comprometer el core?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos el enfoque de extensión que suma capacidad protegiendo la actualizabilidad.",
-          "ctaPrimary": "Evaluá tus necesidades de extensión",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Construí Más Allá del SAP Estándar",
+          "description": "Creá aplicaciones y workflows modernos que entreguen diferenciación manteniendo el core SAP listo para el cambio.",
+          "ctaPrimary": "Planificá tu Extensión SAP",
+          "ctaSecondary": "Hablá con un Arquitecto de Soluciones"
         }
       },
       "sap-clean-core-innovation": {
-        "metaTitle": "SAP Clean Core Innovation | Innovar Protegiendo el Core | Global Core Technologies",
-        "metaDescription": "Diseñá iniciativas de innovación alineadas con los principios de clean core, reduciendo la customización innecesaria y protegiendo la actualizabilidad y mantenibilidad de SAP.",
+        "metaTitle": "SAP Clean Core Innovation | Remediación de Código Custom y Gobierno de Extensiones | Global Core Technologies",
+        "metaDescription": "Servicios de clean core SAP: línea base de código custom, estrategia de remediación, framework de decisión de extensiones, gobierno de clean core y un roadmap de innovación sostenible que mantiene SAP listo para upgrades.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "SAP Clean Core Innovation: innová más rápido protegiendo la actualizabilidad",
-        "heroSubtitle": "Diseñamos iniciativas de innovación alineadas con los principios de clean core, reduciendo la customización innecesaria y manteniendo SAP estándar, actualizable y mantenible mientras innovás.",
-        "ctaPrimary": "Evaluá tu clean core",
-        "ctaSecondary": "Solicitá una sesión de clean core",
+        "h1": "Innová Más Allá del Core",
+        "heroSubtitle": "Llevá la diferenciación a extensiones sostenibles manteniendo SAP listo para upgrades. Global Core Technologies ayuda a las organizaciones a reducir la dependencia de código custom y establecer un modelo de innovación clean-core — evaluando las customizaciones existentes, clasificando los requisitos futuros, definiendo patrones de extensión y creando el gobierno necesario para proteger el core SAP en cada release y transformación.",
+        "ctaPrimary": "Evaluá tu Clean Core",
+        "ctaSecondary": "Hablá con un Arquitecto SAP",
         "metrics": {
-          "projects": "iniciativas de clean core",
-          "years": "años en SAP crítico",
-          "governance": "alineado a clean core"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "La innovación y un core limpio suelen tratarse como un trade-off. No debería ser así.",
+          "title": "La Customización de Ayer Frena el Cambio de Mañana",
           "items": [
             {
-              "title": "Customización por defecto",
-              "description": "Los nuevos requisitos se resuelven con modificaciones al core porque no hay una estrategia de clean core que los guíe."
+              "title": "Sin inventario, código obsoleto retenido",
+              "description": "Ningún inventario confiable de objetos custom y su ownership de negocio, y código obsoleto que se retiene porque el impacto es incierto."
             },
             {
-              "title": "Upgrades que duelen",
-              "description": "La customización acumulada convierte cada upgrade SAP en un proyecto caro y de alto riesgo."
+              "title": "Modificaciones y patrones insostenibles",
+              "description": "Modificaciones que bloquean upgrades y la transición cloud, y nuevos requisitos implementados con patrones familiares pero insostenibles."
             },
             {
-              "title": "Sin principios compartidos",
-              "description": "Los equipos no tienen principios de clean core acordados, así que innovación y mantenibilidad siguen chocando."
+              "title": "Decisiones inconsistentes, sin gobierno",
+              "description": "Elección poco clara entre configuración, extensión in-app y side-by-side, APIs liberadas no evaluadas de forma consistente, deuda técnica medida sin criticidad de negocio, y principios de clean-core no embebidos en el gobierno de la entrega."
             }
           ],
-          "closing": "La innovación con clean core te da ambas cosas: la libertad de innovar y un core SAP que se mantiene estándar y actualizable."
+          "closing": "El clean core no es un ejercicio de remediación de una sola vez; es una disciplina de arquitectura y gobierno que tiene que guiar los requisitos, los releases y la innovación."
         },
         "howWeHelp": {
-          "title": "Innovación que respeta el clean core",
-          "description": "De la estrategia de clean core a iniciativas de innovación que mantienen SAP estándar.",
+          "title": "Hacé del Clean Core un Principio Operativo",
+          "description": "Conectamos la inteligencia de código custom, las decisiones de negocio, la arquitectura de extensiones y los controles de entrega.",
           "items": [
             {
-              "title": "Estrategia de clean core",
-              "description": "Definimos los principios de clean core y las reglas que guían las decisiones de extensión y customización."
+              "title": "Línea Base de Código Custom",
+              "description": "Inventario y clasificación de objetos, análisis de uso y dependencias, mapeo de dueños de negocio, evaluación de criticidad y riesgo, y una línea base de deuda técnica."
             },
             {
-              "title": "Evaluación de código a medida",
-              "description": "Evaluamos la customización existente y planificamos cómo reducirla o externalizarla."
+              "title": "Estrategia de Remediación",
+              "description": "Decisiones de retener, retirar, reemplazar y rediseñar, eliminación de modificaciones, revisión de capacidades estándar y configuración, evaluación de APIs liberadas y extensibilidad, y waves de remediación priorizadas."
             },
             {
-              "title": "Guardrails de innovación",
-              "description": "Establecemos guardrails para que las nuevas iniciativas extiendan, en lugar de modificar, el core."
+              "title": "Framework de Decisión de Extensiones",
+              "description": "Principios fit-to-standard, criterios on-stack y side-by-side, guía de low-code, pro-code y ABAP Cloud, patrones de integración y eventos, y un proceso de excepciones y aprobaciones."
             },
             {
-              "title": "Gobierno y habilitación",
-              "description": "Integramos el clean core en el gobierno y habilitamos a los equipos para aplicarlo en la práctica."
+              "title": "Gobierno de Clean-Core",
+              "description": "Estándares y guardrails de arquitectura, una design authority y review gates, controles de calidad de código custom, evidencia de release y upgrade, y KPIs y reporting de clean-core."
+            },
+            {
+              "title": "Roadmap de Innovación Sostenible",
+              "description": "Prioridades de habilitación de Business AI Platform, secuenciamiento del portfolio de extensiones, modelo de skills y entrega, requisitos de automatización y testing, y reducción continua de deuda."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Un Core Listo para la Innovación Continua",
           "items": [
             {
-              "title": "Arquitectura más limpia",
-              "description": "SAP se mantiene estándar, actualizable y más fácil de mantener en el tiempo."
+              "title": "Menor Esfuerzo de Upgrade",
+              "description": "Reducí los conflictos, los ciclos de remediación y la incertidumbre durante los releases."
             },
             {
-              "title": "Innovación más rápida",
-              "description": "Principios claros permiten innovar sin volver a discutir el impacto en el core cada vez."
+              "title": "Adopción Más Rápida de la Innovación",
+              "description": "Un core protegido hace que las nuevas capacidades SAP sean más fáciles de evaluar y consumir."
             },
             {
-              "title": "Menor costo de upgrade",
-              "description": "Menos customización significa upgrades SAP más rápidos, baratos y de menor riesgo."
+              "title": "Menos Deuda Técnica",
+              "description": "Las decisiones de retiro y rediseño eliminan la complejidad que ya no crea valor."
             },
             {
-              "title": "Landscape sostenible",
-              "description": "La innovación y la mantenibilidad dejan de pelearse."
+              "title": "Elecciones de Extensión Consistentes",
+              "description": "Los equipos usan criterios compartidos en vez de repetir patrones insostenibles."
+            },
+            {
+              "title": "Mayor Visibilidad de Arquitectura",
+              "description": "El ownership de negocio y la dependencia técnica se vuelven explícitos."
+            },
+            {
+              "title": "Valor de Transformación Sostenido",
+              "description": "El gobierno evita que el landscape vuelva a su nivel previo de customización."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia la innovación con clean core",
-          "description": "Cuatro fases de la estrategia de clean core a la práctica incorporada.",
+          "title": "Reducí la Deuda. Prevení su Retorno.",
+          "description": "Cinco fases desde la línea base hasta un clean core gobernado y autosostenible.",
           "phases": [
             {
-              "name": "Evaluar",
-              "deliverable": "Huella de código a medida y madurez de clean core"
+              "name": "Línea Base",
+              "deliverable": "Inventariamos customizaciones, uso, dependencias, valor de negocio y riesgo de transformación."
             },
             {
-              "name": "Definir",
-              "deliverable": "Principios de clean core y reglas de decisión"
+              "name": "Decidir",
+              "deliverable": "Clasificamos objetos y requisitos con criterios de retener, retirar, reemplazar y rediseñar."
             },
             {
-              "name": "Guardrails",
-              "deliverable": "Guardrails de innovación y estándares de extensibilidad"
+              "name": "Arquitecturar",
+              "deliverable": "Definimos patrones de extensión sostenibles, interfaces y responsabilidades de plataforma."
             },
             {
-              "name": "Incorporar",
-              "deliverable": "Clean core en el gobierno, con habilitación de equipos"
+              "name": "Remediar",
+              "deliverable": "Ejecutamos cambios priorizados con testing, control de releases y validación del negocio."
+            },
+            {
+              "name": "Gobernar",
+              "deliverable": "Embebemos controles y KPIs de clean-core en los procesos de arquitectura y entrega."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo la Innovación No Debería Costarte el Clean Core",
+          "title": "Clean Core en Todo el Ciclo de Vida SAP",
           "items": [
-            { "title": "Tensión entre innovación y clean core", "description": "Los equipos ven el clean core y la velocidad de innovación como cosas en conflicto." },
-            { "title": "Riesgo por un upgrade próximo", "description": "Se están planificando personalizaciones nuevas justo cuando se acerca un upgrade o conversión." },
-            { "title": "Backlog de custom code", "description": "Hay un backlog de custom code que necesita evaluarse antes de sumar nueva innovación encima." },
-            { "title": "Falta de gobierno sobre la innovación", "description": "No hay un guardrail claro sobre qué innovación puede tocar el core." },
-            { "title": "Habilitación post clean core", "description": "Se acaba de establecer una línea base de clean core y los equipos necesitan guía para innovar dentro de ella." }
+            {
+              "title": "Assessment de Clean-Core S/4HANA",
+              "description": "Establecemos la línea base de customización y el roadmap de remediación antes de la transformación."
+            },
+            {
+              "title": "Control de Customización Post-Go-Live",
+              "description": "Prevenimos extensiones descontroladas a medida que se acelera la demanda del negocio."
+            },
+            {
+              "title": "Programa de Reducción de Código Custom",
+              "description": "Retiramos o rediseñamos objetos de alto costo a través de waves de entrega priorizadas."
+            },
+            {
+              "title": "Diseño de Gobierno de Extensiones",
+              "description": "Creamos estándares, review gates y derechos de decisión entre equipos internos y de partners."
+            },
+            {
+              "title": "Servicio Continuo de Clean-Core",
+              "description": "Seguimos la deuda, revisamos los nuevos requisitos y mantenemos el readiness de upgrade en el tiempo."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para la innovación con clean core",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Enfoque clean core",
-              "description": "El clean core es central en cómo diseñamos cada innovación SAP."
+              "title": "Evidencia de Negocio y Técnica",
+              "description": "Combinamos uso, dependencia, riesgo y valor de negocio en las decisiones de remediación."
             },
             {
-              "title": "Expertise en BTP y extensibilidad",
-              "description": "Sabemos cómo mover capacidad fuera del core y hacia el modelo correcto."
+              "title": "Experiencia de Transformación",
+              "description": "Las decisiones de clean-core se alinean con las realidades de S/4HANA, cloud y ciclo de vida."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Entendemos el costo real de la customización sobre upgrades y operaciones."
+              "title": "Capacidad de Extensión",
+              "description": "Podemos mover requisitos hacia patrones prácticos de BAIP, Build y ABAP Cloud."
             },
             {
-              "title": "Mentalidad de gobierno",
-              "description": "Convertimos el clean core de un eslogan a una práctica gobernada y aplicada."
+              "title": "Disciplina de Gobierno",
+              "description": "Los controles de arquitectura hacen que el clean core sea sostenible más allá del proyecto inicial."
             },
             {
-              "title": "Innovación atada al negocio",
-              "description": "Mantenemos la innovación fluyendo mientras protegemos la sostenibilidad de la arquitectura."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Ayudamos a mantener el core limpio a medida que el landscape sigue evolucionando."
+              "title": "Mejora Medida",
+              "description": "Las líneas base y los KPIs muestran si la complejidad y la exposición a upgrades están disminuyendo."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Sesión de clean core: evaluamos cuánta customización está frenando a SAP",
-          "description": "En 45 minutos revisamos tu huella de customización y madurez de clean core y te mostramos dónde reducir deuda e innovar de forma segura.",
-          "cta": "Reservá tu sesión de clean core"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Qué Tan Limpio Está tu Core SAP?",
+          "description": "Usá el SAP Clean Core Readiness Checklist para evaluar inventario de código custom, visibilidad de uso, exposición de modificaciones, estándares de extensión, adopción de APIs liberadas, gobierno de arquitectura y readiness de upgrade.",
+          "cta": "Descargá el Clean Core Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para innovar sin comprometer la actualizabilidad?",
-          "description": "Agendá una sesión con nuestros especialistas y definamos la estrategia de clean core que te permite innovar y seguir actualizable.",
-          "ctaPrimary": "Evaluá tu clean core",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Protegé el Core. Seguí Innovando.",
+          "description": "Reducí la deuda de customización y establecé un modelo de extensión que soporte un cambio SAP más rápido y seguro.",
+          "ctaPrimary": "Evaluá tu Clean Core",
+          "ctaSecondary": "Hablá con un Arquitecto SAP"
         }
       },
       "sap-data-analytics": {
-        "metaTitle": "SAP Data & Analytics Enablement | Insights SAP Basados en Datos | Global Core Technologies",
-        "metaDescription": "Habilitá insights SAP basados en datos mediante integración, reporting, dashboards y fundaciones de analítica, mejorando la visibilidad y la toma de decisiones en los procesos SAP.",
+        "metaTitle": "SAP Data & Analytics Enablement | SAP Datasphere y Analytics Cloud | Global Core Technologies",
+        "metaDescription": "Servicios de datos y analítica SAP: estrategia de datos y analítica, base de datos sobre SAP Datasphere y Business Data Cloud, analítica y planning con SAP Analytics Cloud, gobierno y modernización.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "SAP Data & Analytics Enablement: convertí los datos SAP en decisiones",
-        "heroSubtitle": "Habilitamos insights SAP basados en datos mediante integración, reporting, dashboards y fundaciones de analítica, mejorando la visibilidad y la toma de decisiones en tus procesos SAP.",
-        "ctaPrimary": "Evaluá tus datos y analítica",
-        "ctaSecondary": "Solicitá una sesión de analítica",
+        "h1": "Hacé Accionable la Data de SAP",
+        "heroSubtitle": "Datos confiables y analítica para decisiones de negocio más rápidas y mejores. Global Core Technologies ayuda a las organizaciones a conectar la data SAP, la semántica de negocio y la analítica en un entorno de decisión gobernado — diseñando data products, modelos, dashboards y capacidades de planning sobre SAP Business Data Cloud, SAP Datasphere, SAP Analytics Cloud y landscapes de datos empresariales híbridos.",
+        "ctaPrimary": "Evaluá tu Base de Datos",
+        "ctaSecondary": "Hablá con un Asesor de Datos",
         "metrics": {
-          "projects": "iniciativas de analítica",
-          "years": "años en SAP crítico",
-          "governance": "fundaciones de datos gobernadas"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Los datos están en SAP; el insight rara vez llega a quien lo necesita.",
+          "title": "Más Datos No Significa Mejores Decisiones",
           "items": [
             {
-              "title": "Reportes que no responden preguntas",
-              "description": "Existen reportes estándar, pero la dirección aún no obtiene la vista transversal que realmente necesita."
+              "title": "KPIs inconsistentes y reportes manuales",
+              "description": "Definiciones distintas para el mismo KPI de negocio, y reportes críticos que dependen de extracción manual y planillas."
             },
             {
-              "title": "Datos atrapados en silos",
-              "description": "Los datos SAP y no-SAP viven separados, así que armar una foto completa y confiable es imposible."
+              "title": "Semántica perdida y modelos duplicados",
+              "description": "Semántica de negocio SAP que se pierde cuando la data se mueve entre plataformas, modelos de datos duplicados y lógica de transformación inconsistente, y acceso lento al insight cross-funcional y near-real-time."
             },
             {
-              "title": "Decisiones por intuición",
-              "description": "Sin analítica confiable, las decisiones clave de procesos SAP se toman por intuición, no por datos."
+              "title": "Gobierno y adopción débiles",
+              "description": "Modernización de BW y reporting legacy sin un camino target claro, ownership de datos, controles de calidad y linaje débiles, y analítica entregada sin adopción ni integración a la decisión."
             }
           ],
-          "closing": "La habilitación de datos y analítica convierte datos SAP dispersos en insight confiable sobre el que el negocio puede decidir."
+          "closing": "Una base de datos moderna tiene que preservar el significado de negocio, establecer confianza y llevar el insight a las decisiones donde se toma la acción."
         },
         "howWeHelp": {
-          "title": "Insight basado en datos en todo SAP",
-          "description": "De las fundaciones de datos a dashboards que responden preguntas reales de negocio.",
+          "title": "Conectá Datos, Significado y Decisiones",
+          "description": "Creamos una capacidad de datos y analítica gobernada que combina el contexto SAP con la información de toda la empresa.",
           "items": [
             {
-              "title": "Fundaciones de datos",
-              "description": "Integramos datos SAP y no-SAP en fundaciones consistentes y confiables para analítica."
+              "title": "Estrategia de Datos y Analítica",
+              "description": "Assessment de necesidades de decisión e información, análisis del landscape actual y sus dolores, un roadmap de adopción de Business Data Cloud, ubicación de plataformas y workloads, y prioridades de valor y modernización."
             },
             {
-              "title": "Reporting y dashboards",
-              "description": "Construimos reporting y dashboards que responden las preguntas que la dirección realmente hace."
+              "title": "Base de Datos",
+              "description": "Integración de fuentes SAP y no-SAP, arquitectura de SAP Datasphere, data products y organización por dominios, modelado semántico y analítico, y patrones híbridos y multi-cloud."
             },
             {
-              "title": "Habilitación de analítica",
-              "description": "Habilitamos analítica sobre datos SAP, del reporting operativo al insight avanzado."
+              "title": "Analítica y Planning",
+              "description": "Dashboards de SAP Analytics Cloud, reporting ejecutivo y operativo, habilitación de analítica self-service, escenarios de planning empresarial, y analítica embebida y contextual."
             },
             {
-              "title": "Gobierno de datos",
-              "description": "Agregamos el gobierno que mantiene los datos consistentes, confiables y bien definidos."
+              "title": "Gobierno y Confianza",
+              "description": "Definiciones de negocio y un catálogo de KPIs, ownership y stewardship de datos, reglas de calidad y reconciliación, linaje y control de cambios, y gobierno de seguridad y accesos."
+            },
+            {
+              "title": "Modernización y Adopción",
+              "description": "Assessment de workloads de BW, racionalización de reportes, un roadmap de migración y coexistencia, habilitación y adopción de usuarios, y mejora de performance y ciclo de vida."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Insight Confiable a la Velocidad del Negocio",
           "items": [
             {
-              "title": "Mayor visibilidad de datos",
-              "description": "Una vista transversal y confiable de los datos SAP para quienes deciden."
+              "title": "Un Único Significado de Negocio",
+              "description": "Las definiciones compartidas y los modelos semánticos reducen los desacuerdos entre funciones."
             },
             {
-              "title": "Mejores decisiones",
-              "description": "Las decisiones en los procesos SAP se apoyan en datos confiables."
+              "title": "Insight Más Rápido",
+              "description": "La data conectada y los modelos reutilizables acortan el camino de la pregunta a la respuesta."
             },
             {
-              "title": "Datos conectados",
-              "description": "Los datos SAP y no-SAP se unen en una foto completa."
+              "title": "Menos Reporting Manual",
+              "description": "Los flujos de datos automatizados y los dashboards reducen la dependencia de planillas."
             },
             {
-              "title": "Datos gobernados y confiables",
-              "description": "Definiciones consistentes y gobierno hacen la analítica confiable."
+              "title": "Mejores Decisiones",
+              "description": "La analítica y el planning llevan contexto, tendencias y escenarios a las rutinas de management."
+            },
+            {
+              "title": "Arquitectura Modernizada",
+              "description": "Un modelo target deliberado reduce las plataformas duplicadas y los activos de reporting envejecidos."
+            },
+            {
+              "title": "Datos Listos para IA",
+              "description": "La data gobernada y contextualizada provee una base más sólida para aplicaciones y agentes inteligentes."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia el insight SAP basado en datos",
-          "description": "Cuatro fases de las fundaciones de datos a la analítica gobernada.",
+          "title": "Empezá por la Decisión",
+          "description": "Cinco fases desde las necesidades de decisión hasta una adopción embebida y de alto valor.",
           "phases": [
             {
-              "name": "Evaluar",
-              "deliverable": "Fuentes de datos, brechas y preguntas de analítica prioritarias"
+              "name": "Descubrir",
+              "deliverable": "Identificamos necesidades de decisión, dominios de datos, usuarios, dolores y arquitectura actual."
             },
             {
-              "name": "Integrar",
-              "deliverable": "Fundaciones de datos SAP y no-SAP consistentes"
+              "name": "Definir",
+              "deliverable": "Establecemos términos de negocio, data products, ownership y expectativas de calidad."
             },
             {
-              "name": "Construir",
-              "deliverable": "Reporting, dashboards y modelos de analítica"
+              "name": "Arquitecturar",
+              "deliverable": "Diseñamos conectividad de fuentes, modelado, seguridad, ciclo de vida y ubicación de plataformas."
             },
             {
-              "name": "Gobernar",
-              "deliverable": "Definiciones de datos, gobierno y mejora continua"
+              "name": "Entregar",
+              "deliverable": "Construimos modelos, analítica y casos de uso de planning priorizados con validación de usuarios."
+            },
+            {
+              "name": "Adoptar",
+              "deliverable": "Embebemos el insight en las rutinas de decisión y mejoramos el portfolio con evidencia de uso y valor."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo los Datos de SAP Necesitan Convertirse en Insight",
+          "title": "Data Enablement para las Prioridades SAP",
           "items": [
-            { "title": "Datos atrapados en SAP", "description": "Existen datos valiosos en SAP que nunca llegan a las personas que los necesitan para decidir." },
-            { "title": "Carga de reporting manual", "description": "Los reportes se arman manualmente y una y otra vez, en vez de sobre una base reutilizable." },
-            { "title": "Fuentes de datos fragmentadas", "description": "Los datos de SAP y de fuera de SAP necesitan combinarse para tener una vista completa del negocio." },
-            { "title": "Preparación de datos previa a la transformación", "description": "Una migración próxima es un buen momento para rediseñar la base de datos y analytics." },
-            { "title": "Soporte a la decisión ejecutiva", "description": "El liderazgo necesita datos confiables y en tiempo real para tomar decisiones más rápido." }
+            {
+              "title": "Analítica Ejecutiva",
+              "description": "Creamos vistas gobernadas entre finanzas, supply chain, operaciones y transformación."
+            },
+            {
+              "title": "Base de SAP Datasphere",
+              "description": "Establecemos dominios, conectividad, modelos semánticos y gobierno operativo."
+            },
+            {
+              "title": "Adopción de SAP Analytics Cloud",
+              "description": "Diseñamos dashboards, modelos de planning y experiencias de usuario enfocadas en la decisión."
+            },
+            {
+              "title": "Assessment de Modernización de BW",
+              "description": "Clasificamos workloads y definimos caminos de migración, coexistencia y retiro."
+            },
+            {
+              "title": "Data Products Listos para IA",
+              "description": "Preparamos data confiable y contextual para aplicaciones inteligentes y workflows con agentes."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para datos y analítica SAP",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Expertise en BTP e integración",
-              "description": "Integramos datos SAP y no-SAP en fundaciones en las que la analítica puede confiar."
+              "title": "Contexto de Negocio SAP",
+              "description": "Preservamos el proceso, la jerarquía y el significado semántico en todo el landscape de datos."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Conocemos las estructuras de datos SAP, así que el insight refleja cómo funciona realmente el negocio."
+              "title": "Diseño Guiado por la Decisión",
+              "description": "La analítica empieza por las preguntas y acciones de management — no por las visualizaciones disponibles."
             },
             {
-              "title": "Innovación atada al negocio",
-              "description": "Construimos analítica alrededor de las decisiones que importan, no dashboards de vanidad."
+              "title": "Arquitectura y Gobierno",
+              "description": "Las decisiones de plataforma, calidad, seguridad y ownership se diseñan juntas."
             },
             {
-              "title": "Mentalidad de gobierno",
-              "description": "Mantenemos los datos consistentes, definidos y confiables en todo el landscape."
+              "title": "Experiencia en Landscapes Híbridos",
+              "description": "Conectamos la data SAP con el ecosistema empresarial más amplio."
             },
             {
-              "title": "Plataformas propietarias",
-              "description": "Nuestra plataforma Operations Intelligence acelera la analítica y la visibilidad SAP."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Hacemos evolucionar tu analítica a medida que crecen las preguntas y los datos."
+              "title": "Foco en la Adopción",
+              "description": "Las soluciones se miden por el uso y el valor de decisión, no solo por la finalización técnica."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Sesión de analítica: encontramos los insights SAP que le faltan a tu negocio",
-          "description": "En 45 minutos revisamos tu reporting y fundaciones de datos SAP e identificamos los insights de mayor valor que podrías desbloquear primero.",
-          "cta": "Reservá tu sesión de analítica"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Pueden los Líderes Confiar en tu Data SAP?",
+          "description": "Usá el SAP Data & Analytics Maturity Checklist para evaluar consistencia de KPIs, ownership de datos, preservación semántica, controles de calidad, readiness de arquitectura, adopción de analítica y readiness de datos para IA.",
+          "cta": "Descargá el Data Maturity Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para convertir los datos SAP en mejores decisiones?",
-          "description": "Agendá una sesión con nuestros especialistas y diseñemos las fundaciones de datos y la analítica que le dan a tu negocio visibilidad real.",
-          "ctaPrimary": "Evaluá tus datos y analítica",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Convertí los Datos Confiables en Acción",
+          "description": "Creá una base de datos y analítica gobernada que acelere el insight, el planning y las decisiones habilitadas por IA.",
+          "ctaPrimary": "Revisá tu Base de Datos",
+          "ctaSecondary": "Hablá con un Asesor de Datos"
         }
       },
       "sap-intelligent-agents": {
-        "metaTitle": "Intelligent Agents for SAP Operations | Copilotos de IA para SAP | Global Core Technologies",
-        "metaDescription": "Diseñá agentes de IA y copilotos que asisten operaciones, soporte, estimaciones, monitorización, documentación y soporte a decisiones SAP, trayendo inteligencia al trabajo diario.",
+        "metaTitle": "Intelligent Agents para SAP Operations | Agentic AI para SAP | Global Core Technologies",
+        "metaDescription": "Agentes inteligentes para operaciones SAP: descubrimiento de oportunidades de agentes, contexto y conocimiento, diseño de agentes y herramientas, gobierno y seguridad, e integración operativa bajo supervisión humana.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "Intelligent Agents for SAP Operations: copilotos de IA para el trabajo diario en SAP",
-        "heroSubtitle": "Diseñamos agentes de IA y copilotos que asisten operaciones, equipos de soporte, estimaciones, monitorización, documentación y soporte a decisiones SAP, trayendo inteligencia práctica al trabajo diario de operar SAP.",
-        "ctaPrimary": "Evaluá tus casos de uso de agentes",
-        "ctaSecondary": "Solicitá una sesión de agentes",
+        "h1": "Llevá las Operaciones Hacia la Autonomía",
+        "heroSubtitle": "Agentes inteligentes que detectan, analizan y coordinan el trabajo operativo de SAP. Global Core Technologies ayuda a los equipos de operaciones SAP a adoptar agentes inteligentes a través de casos de uso controlados y supervisados por personas — conectando señales operativas, conocimiento, workflows y herramientas empresariales para que los agentes asistan en detección, análisis, priorización y coordinación preservando la seguridad, la auditabilidad y la toma de decisiones responsable.",
+        "ctaPrimary": "Explorá Casos de Uso de Agentes Operativos",
+        "ctaSecondary": "Hablá con un Experto en IA de Operaciones",
         "metrics": {
-          "projects": "casos de uso de agentes diseñados",
-          "years": "años en SAP crítico",
-          "governance": "adopción de IA gobernada"
+          "projects": "proyectos entregados",
+          "years": "años en SAP misión crítica",
+          "governance": "enfoque governance-first"
         },
         "problem": {
-          "title": "Los equipos SAP gastan su expertise en trabajo repetitivo y de bajo valor.",
+          "title": "Los Equipos de Operaciones Tienen Datos pero Atención Limitada",
           "items": [
             {
-              "title": "Conocimiento encerrado en las personas",
-              "description": "Soporte y operaciones dependen de unos pocos expertos, y su conocimiento no se captura ni escala."
+              "title": "Contexto sin automatización",
+              "description": "Alertas que llegan sin contexto de negocio ni de dependencias, y recolección manual de logs, health checks y cambios recientes."
             },
             {
-              "title": "Rutina lenta y manual",
-              "description": "El triage, la documentación, las estimaciones y la monitorización consumen horas que podrían ir a trabajo de mayor valor."
+              "title": "Conocimiento disperso y dependiente de la experiencia",
+              "description": "Calidad de triage dependiente de la experiencia individual del especialista, conocimiento distribuido entre tickets, documentos y memoria del equipo, y coordinación lenta entre los equipos de Basis, aplicaciones, integración e infraestructura."
             },
             {
-              "title": "Copilotos sin guardrails",
-              "description": "Los asistentes de IA genéricos sin contexto SAP ni gobierno crean más riesgo que valor."
+              "title": "IA sin gobierno y presión por autonomía",
+              "description": "Tareas recurrentes que todavía requieren ejecución humana repetitiva, herramientas de IA desconectadas de las autorizaciones y los controles operativos, y presión por autonomía sin suficiente evaluación ni supervisión humana."
             }
           ],
-          "closing": "Los agentes inteligentes traen IA gobernada al trabajo diario en SAP: asisten a las personas, no reemplazan la accountability."
+          "closing": "Los agentes operativos crean valor cuando aumentan a los especialistas dentro de un modelo de servicio gobernado — no cuando la autonomía se vuelve un fin en sí mismo."
         },
         "howWeHelp": {
-          "title": "Agentes de IA y copilotos hechos para operaciones SAP",
-          "description": "Del diseño de casos de uso de agentes a copilotos gobernados embebidos en el trabajo SAP.",
+          "title": "Agentes Construidos Alrededor del Control Operativo",
+          "description": "Diseñamos casos de uso de agentes con contexto, herramientas, permisos, evidencia y puntos de decisión humana explícitos.",
           "items": [
             {
-              "title": "Diseño de casos de uso de agentes",
-              "description": "Identificamos dónde los agentes y copilotos agregan valor en operaciones, soporte y entrega."
+              "title": "Descubrimiento de Oportunidades de Agentes",
+              "description": "Mapeo de carga operativa y dolores, descomposición de tareas y decisiones, clasificación entre agente, workflow o automatización, scoring de valor y riesgo, y un roadmap de casos de uso priorizado."
             },
             {
-              "title": "Copilotos con contexto SAP",
-              "description": "Diseñamos asistentes fundados en tu contexto SAP: procesos, datos y documentación."
+              "title": "Contexto y Conocimiento",
+              "description": "Contexto de monitoreo y eventos, información del landscape SAP y sus dependencias, retrieval de runbooks y conocimiento, historial de tickets y cambios, y criticidad del servicio de negocio."
             },
             {
-              "title": "Agentes de operaciones y soporte",
-              "description": "Construimos agentes para triage, monitorización, estimaciones y soporte a la documentación."
+              "title": "Diseño de Agentes y Herramientas",
+              "description": "Definición de propósito y alcance, permisos de herramientas y APIs, diseño de prompt, plan y respuesta, coordinación de workflows multi-paso, y puntos de aprobación y escalamiento humano."
             },
             {
-              "title": "Gobierno de agentes",
-              "description": "Gobernamos el acceso a datos, la precisión y la accountability para que los agentes sean seguros de confiar."
+              "title": "Gobierno y Seguridad",
+              "description": "Acceso basado en roles y least privilege, límites de acción y controles de políticas, evidencia, logging y auditabilidad, evaluación de calidad y fallas, y revisión de IA responsable y seguridad."
+            },
+            {
+              "title": "Integración Operativa",
+              "description": "Workflows de monitoreo y alertas, coordinación con ITSM y tickets, canales de notificación y colaboración, ejecución supervisada por personas, y monitoreo de performance, calidad y valor."
             }
           ]
         },
         "benefits": {
-          "title": "Lo que gana tu negocio",
+          "title": "Más Capacidad para Operaciones de Mayor Valor",
           "items": [
             {
-              "title": "Mayor productividad",
-              "description": "Los agentes toman el trabajo rutinario, liberando a los expertos para tareas de mayor valor."
+              "title": "Triage Más Rápido",
+              "description": "Los agentes reúnen señales, cambios y conocimiento relevantes antes del análisis del especialista."
             },
             {
-              "title": "Inteligencia en el trabajo diario",
-              "description": "Los equipos SAP obtienen asistencia con contexto donde el trabajo realmente ocurre."
+              "title": "Investigación Consistente",
+              "description": "La recolección estructurada de evidencia reduce la variabilidad entre turnos y equipos."
             },
             {
-              "title": "Conocimiento escalado",
-              "description": "El conocimiento experto se captura en agentes en lugar de quedar encerrado en individuos."
+              "title": "Mejor Reuso del Conocimiento",
+              "description": "El historial operativo y los runbooks quedan disponibles en el punto de necesidad."
             },
             {
-              "title": "IA gobernada",
-              "description": "Los guardrails mantienen a los agentes precisos, con responsables y seguros."
+              "title": "Menor Esfuerzo de Coordinación",
+              "description": "Los agentes pueden rutear, resumir y seguir el trabajo operativo entre equipos."
+            },
+            {
+              "title": "Automatización Controlada",
+              "description": "Los permisos y las aprobaciones explícitas limitan las acciones según el riesgo operativo."
+            },
+            {
+              "title": "Camino a Operaciones Autónomas",
+              "description": "Los casos de uso medidos crean la evidencia y los controles necesarios para una mayor autonomía en el tiempo."
             }
           ]
         },
         "methodology": {
-          "title": "El camino de Global Core Technologies hacia agentes SAP inteligentes",
-          "description": "Cuatro fases del diseño de casos de uso a la operación gobernada.",
+          "title": "Primero Asistir. Automatizar con Evidencia.",
+          "description": "Cinco fases que amplían la autonomía solo donde el desempeño y el gobierno lo respaldan.",
           "phases": [
             {
-              "name": "Identificar",
-              "deliverable": "Casos de uso de agentes y copilotos priorizados"
+              "name": "Observar",
+              "deliverable": "Mapeamos el trabajo operativo, las decisiones, los sistemas, las fuentes de conocimiento y los requisitos de control."
             },
             {
-              "name": "Diseñar",
-              "deliverable": "Diseño de agente con contexto SAP, datos y gobierno"
+              "name": "Seleccionar",
+              "deliverable": "Elegimos casos de uso acotados con contexto suficiente, valor medible y riesgo aceptable."
             },
             {
-              "name": "Construir",
-              "deliverable": "Agentes y copilotos embebidos en operaciones SAP"
+              "name": "Prototipar",
+              "deliverable": "Validamos el comportamiento del agente, la calidad de la evidencia, la experiencia de usuario y los modos de falla."
             },
             {
-              "name": "Gobernar",
-              "deliverable": "Precisión, accountability y mejora continua"
+              "name": "Controlar",
+              "deliverable": "Implementamos permisos, checkpoints humanos, logging, monitoreo y escalamiento."
+            },
+            {
+              "name": "Expandir",
+              "deliverable": "Medimos resultados y aumentamos el alcance solo donde el desempeño y el gobierno lo respaldan."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "Cuándo los Equipos de SAP Necesitan un Copiloto de IA",
+          "title": "Agentes para Operaciones SAP Prácticas",
           "items": [
-            { "title": "Alto volumen de solicitudes repetitivas", "description": "Los equipos de soporte u operaciones manejan grandes volúmenes de solicitudes similares y de baja complejidad." },
-            { "title": "Conocimiento concentrado en pocas personas", "description": "El conocimiento sobre cómo funcionan los sistemas vive en la cabeza de un puñado de personas." },
-            { "title": "Carga de documentación y estimaciones", "description": "Los equipos dedican un tiempo desproporcionado a documentación, estimaciones o actualizaciones de estado." },
-            { "title": "Sobrecarga de monitoreo", "description": "Los equipos están saturados de señales de monitoreo que necesitan triage antes de poder actuar." },
-            { "title": "Roadmap de habilitación de IA", "description": "La organización quiere un punto de partida práctico para agentes de IA en las operaciones de SAP." }
+            {
+              "title": "Agente de Enriquecimiento de Alertas",
+              "description": "Recolecta contexto del sistema, cambios recientes, dependencias y runbooks relevantes."
+            },
+            {
+              "title": "Agente de Triage de Incidentes",
+              "description": "Resume la evidencia, clasifica el impacto y recomienda el camino de resolución apropiado."
+            },
+            {
+              "title": "Asistente de Conocimiento",
+              "description": "Recupera y contextualiza procedimientos, resoluciones pasadas y guía específica del entorno."
+            },
+            {
+              "title": "Agente de Coordinación Operativa",
+              "description": "Sigue acciones, handoffs, updates y la comunicación con stakeholders durante los eventos."
+            },
+            {
+              "title": "Agente de Readiness de Mantenimiento",
+              "description": "Revisa prerequisitos, dependencias, evidencia y aprobaciones antes del trabajo planificado."
+            }
           ]
         },
         "whyGct": {
-          "title": "Por qué elegir a Global Core Technologies para agentes SAP inteligentes",
+          "title": "Por Qué las Organizaciones Eligen Global Core Technologies",
           "items": [
             {
-              "title": "Mentalidad de IA práctica",
-              "description": "Diseñamos agentes alrededor del trabajo SAP real, no alrededor del ciclo de hype."
+              "title": "Expertise en Operaciones SAP",
+              "description": "Los casos de uso reflejan workflows reales de Basis, aplicaciones, integración y gestión de servicios."
             },
             {
-              "title": "Conocimiento de operaciones SAP",
-              "description": "Operamos SAP, así que sabemos exactamente dónde los agentes ayudan más."
+              "title": "Seguridad por Diseño",
+              "description": "Los permisos, el acceso a datos, los límites de acción y la evidencia de auditoría son explícitos."
             },
             {
-              "title": "Expertise en BTP e IA",
-              "description": "Construimos agentes sobre IA moderna y BTP, integrados con SAP."
+              "title": "Adopción Supervisada por Personas",
+              "description": "Los especialistas se mantienen responsables mientras maduran las capacidades de los agentes."
             },
             {
-              "title": "Mentalidad de gobierno",
-              "description": "Gobernamos el acceso a datos, la precisión y la accountability desde el día uno."
+              "title": "Ingeniería Integrada",
+              "description": "IA, APIs, conocimiento, monitoreo e ITSM se diseñan como una única capacidad operativa."
             },
             {
-              "title": "Plataformas propietarias",
-              "description": "Intelliguard™ trae monitorización inteligente y agentes a las operaciones SAP."
-            },
-            {
-              "title": "Partnership de largo plazo",
-              "description": "Escalamos la adopción de agentes de forma responsable a medida que se prueba el valor."
+              "title": "Autonomía Medida",
+              "description": "La expansión se basa en la calidad, el riesgo y la evidencia de negocio — no en la novedad."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Sesión gratuita",
-          "title": "Sesión de agentes: encontramos dónde los copilotos de IA ayudarían más a tu equipo SAP",
-          "description": "En 45 minutos revisamos tu trabajo de operaciones y soporte SAP e identificamos los casos de uso de agentes de mayor valor y menor riesgo para empezar.",
-          "cta": "Reservá tu sesión de agentes"
+          "eyebrow": "Checklist gratuito",
+          "title": "¿Tus Operaciones Están Listas para Agentes?",
+          "description": "Usá el SAP Operations Agent Readiness Checklist para evaluar claridad del caso de uso, acceso a datos y herramientas, calidad del conocimiento, límites de permisos, supervisión humana, modelo de evaluación y ownership operativo.",
+          "cta": "Descargá el Agent Readiness Checklist"
         },
         "finalCta": {
-          "title": "¿Listo para traer agentes inteligentes a las operaciones SAP?",
-          "description": "Agendá una sesión con nuestros especialistas e identifiquemos los agentes de IA y copilotos que hacen a tu equipo SAP más productivo.",
-          "ctaPrimary": "Evaluá tus casos de uso de agentes",
-          "ctaSecondary": "Conocé el pilar Innovate"
+          "title": "Construí el Camino a la Autonomía",
+          "description": "Empezá con agentes operativos controlados que aumenten la capacidad de los especialistas y creen evidencia medible para la autonomía futura.",
+          "ctaPrimary": "Evaluá Oportunidades de Agentes",
+          "ctaSecondary": "Hablá con un Experto en IA de Operaciones"
         }
       }
     }

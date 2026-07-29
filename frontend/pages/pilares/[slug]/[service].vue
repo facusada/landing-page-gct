@@ -122,7 +122,14 @@ const noResourceSlugs = new Set([
   'sap-delivery-governance',
   'sap-compliance-control-framework',
   'sap-kpi-executive-reporting',
-  'sap-methodology-advisory'
+  'sap-methodology-advisory',
+  'sap-business-ai-platform-advisory',
+  'sap-integration-suite',
+  'sap-ai-automation',
+  'sap-extension-development',
+  'sap-clean-core-innovation',
+  'sap-data-analytics',
+  'sap-intelligent-agents'
 ])
 const finalCtaSecondaryTo = computed(() =>
   noResourceSlugs.has(serviceSlug)

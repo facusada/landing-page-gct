@@ -982,32 +982,32 @@
       },
       "innovate": {
         "btpAdvisory": {
-          "title": "SAP BTP Advisory",
-          "description": "Help organizations define where and how to use SAP Business Technology Platform to extend, integrate and innovate around SAP landscapes — turning BTP into a practical innovation platform aligned with business priorities."
+          "title": "SAP Business AI Platform Advisory",
+          "description": "Adopt SAP Business AI Platform as a governed enterprise foundation — connecting SAP BTP, Business Data Cloud, AI Foundation and Joule Studio through a target architecture that moves AI use cases into controlled production."
         },
         "integrationSuite": {
           "title": "SAP Integration Suite",
-          "description": "Design, build and govern integrations between SAP, cloud applications, external systems and business partners to improve process connectivity and reduce integration complexity."
+          "description": "Design, implement and govern SAP Integration Suite — cloud and hybrid integration, API and event management and B2B connectivity — with reusable patterns and operations built for change."
         },
         "aiAutomation": {
           "title": "SAP AI & Automation",
-          "description": "Identify, design and implement AI-enabled workflows, automation opportunities and intelligent assistants for SAP processes — increasing efficiency through practical AI use cases."
+          "description": "Identify, design and deliver SAP-centered AI and automation use cases — process automation, Business AI enablement and governed integration — from promising idea to controlled production."
         },
         "extensionDevelopment": {
           "title": "SAP Extension Development",
-          "description": "Build clean, scalable and governed SAP extensions using modern, cloud-ready development practices to extend SAP capabilities without compromising the core."
+          "description": "Build differentiated business applications in the right layer — side-by-side apps, ABAP Cloud, SAP Build and Fiori — with the quality, security and lifecycle that keep the core clean and upgrade-ready."
         },
         "cleanCoreInnovation": {
           "title": "SAP Clean Core Innovation",
-          "description": "Design innovation initiatives aligned with clean core principles, reducing unnecessary customization while protecting SAP upgradeability and long-term maintainability."
+          "description": "Reduce custom-code dependency and establish a clean-core model — custom-code baseline, remediation strategy, an extension decision framework and governance that protects the core through every release."
         },
         "dataAnalytics": {
           "title": "SAP Data & Analytics Enablement",
-          "description": "Enable data-driven SAP insights through integration, reporting, dashboards and analytics foundations to improve visibility and decision-making across SAP processes."
+          "description": "Connect SAP data, business semantics and analytics in a governed decision environment — data products, SAP Datasphere, SAP Analytics Cloud and planning that make SAP data trusted and actionable."
         },
         "intelligentAgents": {
           "title": "Intelligent Agents for SAP Operations",
-          "description": "Design AI agents and copilots that assist SAP operations, support, estimations, monitoring, documentation and decision support — bringing intelligence into daily SAP work."
+          "description": "Adopt intelligent agents through controlled, human-supervised use cases — detection, triage, knowledge and coordination — with the security, auditability and accountability operations require."
         }
       }
     }
@@ -5412,1040 +5412,1229 @@
           "ctaSecondary": "Speak with a Methodology Expert"
         }
       },
-      "sap-btp-advisory": {
-        "metaTitle": "SAP BTP Advisory | SAP Business Technology Platform Strategy | Global Core Technologies",
-        "metaDescription": "Define where and how to use SAP BTP to extend, integrate and innovate around SAP — turning the platform into a practical innovation engine aligned with business priorities.",
+      "sap-business-ai-platform-advisory": {
+        "metaTitle": "SAP Business AI Platform Advisory | SAP BAIP Consulting | Global Core Technologies",
+        "metaDescription": "SAP Business AI Platform advisory: strategy, target architecture across SAP BTP, Business Data Cloud, AI Foundation and Joule Studio, agent enablement and AI governance from opportunity to production.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "SAP BTP Advisory: turn Business Technology Platform into a practical innovation engine",
-        "heroSubtitle": "We help you define where and how to use SAP BTP to extend, integrate and innovate around your SAP landscape — with an architecture and roadmap grounded in business priorities, not platform hype.",
-        "ctaPrimary": "Assess your BTP strategy",
-        "ctaSecondary": "Request a BTP session",
+        "h1": "Build Enterprise AI with Control",
+        "heroSubtitle": "A governed foundation connecting trusted data, processes, agents and applications. Global Core Technologies helps organizations adopt SAP Business AI Platform as a unified enterprise foundation for AI, data, applications, integration and governance — connecting SAP BTP capabilities, SAP Business Data Cloud, AI Foundation and Joule Studio through a target architecture and roadmap that moves valuable use cases into controlled production.",
+        "ctaPrimary": "Plan Your BAIP Roadmap",
+        "ctaSecondary": "Speak with a Platform Advisor",
         "metrics": {
-          "projects": "BTP initiatives advised",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "clean-core aligned"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "BTP is licensed — but rarely turned into real innovation.",
+          "title": "AI Access Does Not Create Enterprise Value",
           "items": [
             {
-              "title": "A platform without a plan",
-              "description": "BTP is available but there's no clear view of which use cases actually justify building on it."
+              "title": "No shared value or readiness view",
+              "description": "No shared view of where Business AI should create measurable value, and agent and AI use cases selected without process or data readiness."
             },
             {
-              "title": "Pilots that never scale",
-              "description": "Isolated experiments prove a point but never become governed, production-grade capabilities."
+              "title": "Unclear roles and disconnected pilots",
+              "description": "Unclear roles for SAP BTP, Business Data Cloud, AI Foundation and existing platforms, with disconnected pilots, data products, integrations and application initiatives."
             },
             {
-              "title": "Innovation vs. clean core tension",
-              "description": "Teams fear that extending SAP will compromise upgradeability, so they either over-customize or do nothing."
+              "title": "Late governance, no path to production",
+              "description": "Security, identity, responsible AI and compliance addressed too late, limited visibility into AI consumption and risk, and no repeatable path from Joule Studio prototype to governed production."
             }
           ],
-          "closing": "BTP advisory turns an unused platform into a prioritized, governed roadmap of innovation that protects the core."
+          "closing": "A successful BAIP journey requires one portfolio, architecture and governance model connecting business context, trusted data, AI engineering and accountable execution."
         },
         "howWeHelp": {
-          "title": "A clear strategy and roadmap for SAP BTP",
-          "description": "From use-case discovery to an architecture and roadmap your teams can execute.",
+          "title": "Create a Governed AI Foundation",
+          "description": "We connect enterprise priorities, platform architecture, business context and AI governance in one practical roadmap.",
           "items": [
             {
-              "title": "Use-case discovery",
-              "description": "We identify and prioritize the extension, integration, automation and data use cases that justify BTP."
+              "title": "Strategy and Opportunity Discovery",
+              "description": "Executive and stakeholder workshops, business capability and pain-point mapping, agent, application and AI use-case discovery, value, readiness and risk assessment, and a prioritized Business AI portfolio."
             },
             {
-              "title": "BTP architecture",
-              "description": "We define a target architecture across BTP services aligned with clean core principles."
+              "title": "Unified Platform Architecture",
+              "description": "The BAIP role in the enterprise architecture, SAP BTP capability placement, a Business Data Cloud trusted-data foundation, AI Foundation and model-service architecture, and SAP and non-SAP connectivity."
             },
             {
-              "title": "Governance & guardrails",
-              "description": "We set the governance, standards and guardrails that keep BTP development safe and scalable."
+              "title": "Build and Agent Enablement",
+              "description": "Joule Studio adoption and delivery patterns, agent, application and workflow architecture, tools, APIs and integration boundaries, human oversight and action controls, and prototype-to-production standards."
             },
             {
-              "title": "Adoption roadmap",
-              "description": "We build a phased roadmap that turns priorities into deliverable, value-driven increments."
+              "title": "Contextualize and Reason",
+              "description": "Business process and semantic context, data-product and knowledge-source alignment, grounding and retrieval patterns, model and reasoning-service selection, and a quality and evaluation framework."
+            },
+            {
+              "title": "Governance and Operations",
+              "description": "Identity, security and responsible-AI controls, agent and model lifecycle governance, observability, auditability and human accountability, consumption and cost management, and a service ownership and operating model."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Business AI Designed to Scale",
           "items": [
             {
-              "title": "BTP with a purpose",
-              "description": "Investment focuses on use cases with real business value, not experiments."
+              "title": "Clear AI Priorities",
+              "description": "Focus investment on use cases with strong process context, data readiness and measurable value."
             },
             {
-              "title": "Protected core",
-              "description": "Extensions follow clean core principles, keeping SAP upgradeable."
+              "title": "Faster Production Adoption",
+              "description": "Reusable patterns reduce the gap between Joule Studio prototypes and supported services."
             },
             {
-              "title": "Scalable innovation",
-              "description": "A governed platform lets innovation scale beyond one-off pilots."
+              "title": "Trusted Business Context",
+              "description": "Agents and applications use governed data, semantics and process knowledge."
             },
             {
-              "title": "Faster time to value",
-              "description": "A prioritized roadmap delivers value in increments, not big-bang bets."
+              "title": "Stronger AI Governance",
+              "description": "Security, quality, lifecycle, cost and accountability are designed from the beginning."
+            },
+            {
+              "title": "Lower Platform Fragmentation",
+              "description": "A unified architecture connects SAP capabilities with the existing enterprise ecosystem."
+            },
+            {
+              "title": "Repeatable Agent Delivery",
+              "description": "Teams gain standards to build, evaluate, deploy and operate AI-enabled solutions safely."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to a BTP innovation roadmap",
-          "description": "Four phases from discovery to a governed roadmap.",
+          "title": "From AI Opportunity to Enterprise Capability",
+          "description": "Five phases from discovery to governed, evidence-based activation.",
           "phases": [
             {
               "name": "Discover",
-              "deliverable": "Prioritized BTP use cases and business value map"
+              "deliverable": "Understand strategy, process opportunities, data context, architecture, skills and active AI initiatives."
             },
             {
-              "name": "Design",
-              "deliverable": "Target BTP architecture aligned with clean core"
+              "name": "Prioritize",
+              "deliverable": "Score agents, applications and workflows by value, readiness, risk and strategic alignment."
+            },
+            {
+              "name": "Architect",
+              "deliverable": "Connect BTP capabilities, Business Data Cloud, AI Foundation and Joule Studio in a target model."
             },
             {
               "name": "Govern",
-              "deliverable": "Standards, guardrails and delivery governance"
+              "deliverable": "Establish security, responsible AI, quality, lifecycle, consumption and accountability controls."
             },
             {
-              "name": "Roadmap",
-              "deliverable": "Phased adoption plan with value-driven increments"
+              "name": "Activate",
+              "deliverable": "Launch bounded use cases and scale only through measurable performance and business evidence."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When BTP Needs a Real Strategy",
+          "title": "Advisory for Every BAIP Stage",
           "items": [
-            { "title": "Licensed but Unused", "description": "SAP BTP is already part of the contract but has no defined use case or roadmap." },
-            { "title": "Ad Hoc Extension Requests", "description": "Individual teams are building BTP extensions without shared architecture or governance." },
-            { "title": "Innovation Roadmap Gap", "description": "Leadership wants a clear, prioritized innovation roadmap grounded in business value." },
-            { "title": "Pre-S/4HANA Planning", "description": "BTP strategy needs to be defined as part of a broader S/4HANA or RISE transformation." },
-            { "title": "Platform Sprawl Risk", "description": "Multiple BTP services are being adopted without a coherent governance model." }
+            {
+              "title": "Business AI Platform Strategy",
+              "description": "Define why, where and how BAIP will support enterprise priorities."
+            },
+            {
+              "title": "BAIP Target Architecture",
+              "description": "Connect BTP, BDC, AI Foundation, Joule Studio and enterprise platforms."
+            },
+            {
+              "title": "Agent and AI Portfolio Assessment",
+              "description": "Evaluate and rank use cases by context, value, readiness and risk."
+            },
+            {
+              "title": "BAIP Adoption Recovery",
+              "description": "Bring control to fragmented pilots, data, integrations, environments and consumption."
+            },
+            {
+              "title": "Business AI Center of Excellence",
+              "description": "Design roles, standards, evaluation, governance and enablement for sustainable adoption."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for SAP BTP advisory",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "BTP and integration expertise",
-              "description": "We know the BTP service portfolio and how to apply it to real SAP landscapes."
+              "title": "Unified SAP Perspective",
+              "description": "We connect BTP capabilities, Business Data Cloud, AI Foundation and Joule Studio as one architecture."
             },
             {
-              "title": "Clean core approach",
-              "description": "We innovate without creating future technical debt or breaking upgradeability."
+              "title": "Outcome-Led Advisory",
+              "description": "Platform decisions begin with business processes and measurable value."
             },
             {
-              "title": "Innovation tied to business needs",
-              "description": "We prioritize use cases by business value, not by technology novelty."
+              "title": "Agent Delivery Perspective",
+              "description": "Recommendations reflect the realities of evaluating, deploying and operating enterprise agents."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We understand how SAP runs, so what we design is operable in production."
+              "title": "Integrated Capabilities",
+              "description": "AI, data, development, integration, security and operations work as one advisory team."
             },
             {
-              "title": "Practical, not hype-driven",
-              "description": "We recommend BTP where it earns its place, and say so when it doesn't."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We stay engaged as the roadmap evolves into delivered capabilities."
+              "title": "Practical Governance",
+              "description": "Controls protect the enterprise while enabling responsible experimentation and scale."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "BTP session: we map the innovation use cases worth building on SAP BTP",
-          "description": "In 45 minutes we review your SAP landscape and identify the extension, integration and automation use cases where BTP would deliver the most value first.",
-          "cta": "Book your BTP session"
+          "eyebrow": "Free assessment",
+          "title": "Where Should Business AI Start?",
+          "description": "Use our SAP Business AI Platform Opportunity Assessment to evaluate strategic alignment, process and context readiness, trusted-data foundation, architecture fit, AI governance, agent delivery capability and measurable value.",
+          "cta": "Download the BAIP Opportunity Assessment"
         },
         "finalCta": {
-          "title": "Ready to turn SAP BTP into real innovation?",
-          "description": "Book a session with our specialists and let's define the BTP use cases, architecture and roadmap that fit your business.",
-          "ctaPrimary": "Assess your BTP strategy",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Create a Governed AI Platform",
+          "description": "Build a BAIP roadmap that connects trusted context, enterprise governance and a repeatable path from AI ideas to business outcomes.",
+          "ctaPrimary": "Start Your BAIP Roadmap",
+          "ctaSecondary": "Speak with a Platform Advisor"
         }
       },
       "sap-integration-suite": {
-        "metaTitle": "SAP Integration Suite | SAP & Non-SAP Integration Governance | Global Core Technologies",
-        "metaDescription": "Design, build and govern integrations between SAP, cloud apps, external systems and partners — improving process connectivity and reducing integration complexity.",
+        "metaTitle": "SAP Integration Suite Consulting | SAP Cloud Integration & API Management | Global Core Technologies",
+        "metaDescription": "SAP Integration Suite services: integration strategy, cloud and hybrid integration, API and event management, B2B integration and managed integration operations for a governed, scalable landscape.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "SAP Integration Suite: connected processes across SAP, cloud and partners",
-        "heroSubtitle": "We design, build and govern integrations between SAP, cloud applications, external systems and business partners — improving process connectivity while reducing the complexity and fragility of your integration landscape.",
-        "ctaPrimary": "Assess your integrations",
-        "ctaSecondary": "Request an integration review",
+        "h1": "Connect SAP Without Complexity",
+        "heroSubtitle": "Integration designed for visibility, resilience and scalable enterprise change. Global Core Technologies designs, implements and governs SAP Integration Suite capabilities to connect applications, data, processes, events and partners across SAP and non-SAP environments — modernizing integration landscapes through reusable patterns, secure APIs and operations built for change.",
+        "ctaPrimary": "Assess Your Integration Landscape",
+        "ctaSecondary": "Speak with an Integration Expert",
         "metrics": {
-          "projects": "integration initiatives",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "governed integration models"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Every new connection makes the integration landscape harder to trust.",
+          "title": "Every New Connection Can Add Fragility",
           "items": [
             {
-              "title": "Point-to-point sprawl",
-              "description": "Years of tactical interfaces have created a fragile web no one fully understands or owns."
+              "title": "Point-to-point and legacy middleware",
+              "description": "Point-to-point interfaces with limited reuse and legacy middleware that constrains cloud transformation."
             },
             {
-              "title": "No integration governance",
-              "description": "Without standards and patterns, every integration is built differently and breaks differently."
+              "title": "Weak API control and visibility",
+              "description": "Inconsistent API security and lifecycle management, interface failures discovered by business users, and limited end-to-end monitoring and message traceability."
             },
             {
-              "title": "Slow, risky change",
-              "description": "Changing one process means touching integrations nobody wants to risk, so change slows to a crawl."
+              "title": "Costly, ungoverned integration",
+              "description": "Custom mappings and partner connections that are costly to maintain, overlapping tools with unclear ownership, and no standard patterns for events, APIs, data and process integration."
             }
           ],
-          "closing": "Integration Suite replaces brittle point-to-point sprawl with secure, governed and reusable integration your business can trust."
+          "closing": "Modern integration requires architecture, governance and operations — not only the migration of interfaces to a new runtime."
         },
         "howWeHelp": {
-          "title": "Governed integration across your landscape",
-          "description": "From integration strategy to built, governed interfaces on SAP Integration Suite.",
+          "title": "A Governed Integration Capability",
+          "description": "We build an integration model that supports current operations while creating a scalable foundation for new applications, data and AI.",
           "items": [
             {
-              "title": "Integration strategy & patterns",
-              "description": "We define integration patterns, standards and a target model for SAP and non-SAP systems."
+              "title": "Integration Strategy",
+              "description": "Landscape and interface assessment, integration-domain mapping, tool and capability rationalization, target architecture and principles, and a modernization and migration roadmap."
             },
             {
-              "title": "Build on Integration Suite",
-              "description": "We design and build integrations on SAP Integration Suite — APIs, events and data flows."
+              "title": "Cloud and Hybrid Integration",
+              "description": "SAP and third-party application integration, Cloud Integration design and implementation, canonical models and mappings, synchronous and asynchronous patterns, and secure on-premise connectivity."
             },
             {
-              "title": "Partner & cloud connectivity",
-              "description": "We connect cloud applications, external systems and business partners securely."
+              "title": "API and Event Management",
+              "description": "API product and lifecycle design, authentication, authorization and policy controls, a developer-consumption model, event-driven architecture patterns, and versioning, reuse and deprecation governance."
             },
             {
-              "title": "Integration governance",
-              "description": "We put monitoring, reuse and lifecycle governance around the integration landscape."
+              "title": "B2B and Partner Integration",
+              "description": "Trading-partner onboarding, EDI and message-standard alignment, partner mappings and validation, exception and acknowledgement handling, and operational ownership and service levels."
+            },
+            {
+              "title": "Integration Operations",
+              "description": "Monitoring and alerting design, message traceability and support procedures, certificate and dependency management, performance and capacity review, and service reporting and continuous improvement."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Integration Ready for Change",
           "items": [
             {
-              "title": "Connected processes",
-              "description": "SAP and non-SAP systems work as one connected process, not isolated islands."
+              "title": "Faster Connectivity",
+              "description": "Reusable content, APIs and patterns reduce the effort required to connect new services."
             },
             {
-              "title": "Lower complexity",
-              "description": "Reusable patterns replace one-off interfaces, shrinking the integration footprint."
+              "title": "Greater Resilience",
+              "description": "Standard error handling, monitoring and operational ownership reduce business disruption."
             },
             {
-              "title": "Safer change",
-              "description": "Governed, monitored integrations make change faster and lower-risk."
+              "title": "Improved Visibility",
+              "description": "Teams gain traceability across messages, interfaces and technical dependencies."
             },
             {
-              "title": "Better data flow",
-              "description": "Reliable integration keeps data consistent across the landscape."
+              "title": "Stronger Security",
+              "description": "Governed APIs and connectivity controls protect enterprise data and services."
+            },
+            {
+              "title": "Lower Integration Debt",
+              "description": "Rationalized patterns replace duplicated logic and difficult point-to-point connections."
+            },
+            {
+              "title": "Support for Innovation",
+              "description": "A modern integration layer enables extensions, automation, analytics and agent-based workflows."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to governed SAP integration",
-          "description": "Four phases from integration strategy to governed operations.",
+          "title": "Modernize Without Losing Control",
+          "description": "Five phases from landscape mapping to evidence-based operations.",
           "phases": [
             {
               "name": "Map",
-              "deliverable": "Current integration landscape, pain points and target model"
+              "deliverable": "Inventory interfaces, technologies, dependencies, business criticality and operational pain points."
             },
             {
               "name": "Design",
-              "deliverable": "Integration patterns, standards and architecture"
+              "deliverable": "Define target domains, patterns, security, governance and platform responsibilities."
             },
             {
-              "name": "Build",
-              "deliverable": "Integrations delivered on SAP Integration Suite"
+              "name": "Prioritize",
+              "deliverable": "Sequence migrations and new integrations according to risk, value and transformation milestones."
             },
             {
-              "name": "Govern",
-              "deliverable": "Monitoring, reuse and integration lifecycle governance"
+              "name": "Deliver",
+              "deliverable": "Build, test and transition integrations using reusable standards and automated controls."
+            },
+            {
+              "name": "Operate",
+              "deliverable": "Monitor performance, manage lifecycle and improve integration quality with evidence."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When Integration Needs Governance, Not Just Connections",
+          "title": "Integration for Hybrid Enterprises",
           "items": [
-            { "title": "Point-to-Point Sprawl", "description": "Every new integration is built as a one-off, increasing fragility over time." },
-            { "title": "Partner and Cloud Connectivity", "description": "New cloud applications or business partners need to connect to SAP reliably." },
-            { "title": "Integration Reliability Issues", "description": "Existing interfaces fail often or lack monitoring and error handling." },
-            { "title": "Platform Migration", "description": "An existing integration platform is being replaced or consolidated onto Integration Suite." },
-            { "title": "Governance Gap", "description": "Integrations are built without shared standards, patterns, or ownership." }
+            {
+              "title": "Integration Suite Implementation",
+              "description": "Establish the platform foundation, patterns, governance and initial integration portfolio."
+            },
+            {
+              "title": "SAP PI/PO Modernization",
+              "description": "Assess, rationalize and migrate legacy interfaces toward a cloud integration model."
+            },
+            {
+              "title": "S/4HANA Integration Readiness",
+              "description": "Prepare interface architecture, remediation priorities and testing for transformation."
+            },
+            {
+              "title": "API Management Program",
+              "description": "Expose and govern reusable business services for applications, partners and agents."
+            },
+            {
+              "title": "Managed Integration Operations",
+              "description": "Provide monitoring, incident coordination, lifecycle controls and continuous improvement."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for SAP integration",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "BTP and integration expertise",
-              "description": "SAP Integration Suite and integration architecture are core to what we do."
+              "title": "End-to-End Perspective",
+              "description": "We connect integration architecture with business processes, security and operations."
             },
             {
-              "title": "Clean core approach",
-              "description": "We integrate in ways that keep SAP clean, standard and upgradeable."
+              "title": "SAP and Non-SAP Experience",
+              "description": "Solutions are designed for the real hybrid landscape, not an isolated SAP boundary."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We build integrations that are stable and operable in production."
+              "title": "Migration Discipline",
+              "description": "Assessment and sequencing reduce risk during PI/PO and S/4HANA transitions."
             },
             {
-              "title": "Innovation tied to business needs",
-              "description": "We connect the processes that actually move business outcomes."
+              "title": "Operational Design",
+              "description": "Monitoring, ownership and runbooks are built into the service from the start."
             },
             {
-              "title": "Governance mindset",
-              "description": "We add the governance that keeps integration maintainable at scale."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We keep the integration landscape healthy as it grows."
+              "title": "Reusable Architecture",
+              "description": "Standards and accelerators make future connections faster and more consistent."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "Integration review: we map the connections putting your processes at risk",
-          "description": "In 45 minutes we review your integration landscape and highlight the fragile, ungoverned interfaces most worth replacing first.",
-          "cta": "Book your integration review"
+          "eyebrow": "Free checklist",
+          "title": "How Modern Is Your Integration Landscape?",
+          "description": "Use our SAP Integration Modernization Checklist to assess interface inventory, legacy dependency, API maturity, monitoring coverage, security controls, reusable patterns and migration readiness.",
+          "cta": "Download the Integration Checklist"
         },
         "finalCta": {
-          "title": "Ready to connect SAP without the complexity?",
-          "description": "Book a session with our specialists and let's design the integration strategy and governance that simplify your landscape.",
-          "ctaPrimary": "Assess your integrations",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Build Connections That Scale",
+          "description": "Modernize integration architecture, improve resilience and create the connectivity foundation for SAP transformation and AI.",
+          "ctaPrimary": "Review Your Integration Landscape",
+          "ctaSecondary": "Speak with an Integration Expert"
         }
       },
       "sap-ai-automation": {
-        "metaTitle": "SAP AI & Automation | Practical AI and Automation for SAP | Global Core Technologies",
-        "metaDescription": "Identify, design and implement AI-enabled workflows, automation and intelligent assistants for SAP processes — increasing efficiency through practical, governed AI use cases.",
+        "metaTitle": "SAP AI & Automation | SAP Business AI & Process Automation | Global Core Technologies",
+        "metaDescription": "SAP AI and automation services: opportunity discovery, process automation, Business AI enablement, architecture and integration, and responsible operations from idea to governed production.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "SAP AI & Automation: practical intelligence and automation for SAP processes",
-        "heroSubtitle": "We identify, design and implement AI-enabled workflows, automation opportunities and intelligent assistants for your SAP processes and operations — focused on real efficiency gains, not AI hype.",
-        "ctaPrimary": "Assess your AI use cases",
-        "ctaSecondary": "Request an automation session",
+        "h1": "Turn Work into Intelligence",
+        "heroSubtitle": "AI and automation that improve decisions, speed and control. Global Core Technologies identifies, designs and delivers SAP-centered AI and automation use cases that remove repetitive work, improve decision quality and accelerate business processes — combining process understanding, SAP Business AI, SAP Build and governed integration to move from promising ideas to controlled production outcomes.",
+        "ctaPrimary": "Identify Your AI Opportunities",
+        "ctaSecondary": "Speak with an AI Advisor",
         "metrics": {
-          "projects": "AI & automation use cases",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "governed AI adoption"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Everyone wants AI in SAP — few know where it actually pays off.",
+          "title": "AI Experiments Rarely Become Business Capabilities",
           "items": [
             {
-              "title": "Use cases nobody validated",
-              "description": "AI ideas circulate, but no one has assessed which are feasible, valuable and safe in an SAP context."
+              "title": "Unprioritized, task-level ideas",
+              "description": "Long lists of ideas without value or feasibility prioritization, and automation focused on individual tasks instead of end-to-end outcomes."
             },
             {
-              "title": "Manual work everywhere",
-              "description": "Repetitive tasks across SAP processes consume capacity that could go to higher-value work."
+              "title": "Weak context and unclear boundaries",
+              "description": "Untrusted data and insufficient SAP business context, and unclear boundaries between deterministic automation and generative AI."
             },
             {
-              "title": "AI without governance",
-              "description": "Ungoverned AI and automation introduce risk around data, accuracy and accountability."
+              "title": "Late controls, no measurement",
+              "description": "Security, privacy and responsible-AI controls addressed late, human approvals and exception paths not designed, pilots disconnected from production, and no measurement of adoption, quality or realized benefit."
             }
           ],
-          "closing": "Practical AI and automation start with the right use cases — feasible, valuable and governed — not with the loudest trend."
+          "closing": "Enterprise AI must be useful, secure, explainable and connected to the processes where decisions and actions occur."
         },
         "howWeHelp": {
-          "title": "Practical AI and automation for SAP",
-          "description": "From use-case identification to governed, production-ready AI and automation.",
+          "title": "Intelligence Embedded in Business Processes",
+          "description": "We combine opportunity discovery, workflow redesign, technology selection and governance to create production-ready outcomes.",
           "items": [
             {
-              "title": "Use-case identification",
-              "description": "We assess where AI and automation deliver real value across your SAP processes."
+              "title": "AI and Automation Discovery",
+              "description": "Process and pain-point workshops, a task and decision inventory, value, risk and feasibility scoring, a build-versus-adopt assessment, and a prioritized opportunity roadmap."
             },
             {
-              "title": "Process automation",
-              "description": "We automate repetitive SAP workflows using BTP and modern automation tooling."
+              "title": "Process Automation",
+              "description": "Workflow and approval automation, forms and business rules, repetitive task automation, document and information processing, and exception routing and escalation."
             },
             {
-              "title": "Embedded & generative AI",
-              "description": "We design AI-enabled workflows and intelligent assistants for SAP tasks."
+              "title": "Business AI Enablement",
+              "description": "AI-assisted decision and insight use cases, SAP business-context integration, prompt, grounding and response design, human-in-the-loop controls, and quality and outcome evaluation."
             },
             {
-              "title": "AI governance",
-              "description": "We put data, accuracy and accountability guardrails around every AI use case."
+              "title": "Architecture and Integration",
+              "description": "SAP and non-SAP data access, API and event integration, identity and authorization alignment, logging and audit evidence, and scalable production architecture."
+            },
+            {
+              "title": "Responsible Operations",
+              "description": "Risk and impact classification, security and privacy controls, model and dependency lifecycle, usage, quality and cost monitoring, and adoption and value tracking."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Automation with Business Impact",
           "items": [
             {
-              "title": "Higher efficiency",
-              "description": "Automation removes repetitive work and speeds up SAP processes."
+              "title": "More Productive Teams",
+              "description": "Reduce repetitive coordination, data handling and manual follow-up."
             },
             {
-              "title": "Practical AI adoption",
-              "description": "AI is applied where it delivers value, with clear, governed use cases."
+              "title": "Faster Decisions",
+              "description": "Deliver relevant context, recommendations and exceptions at the point of work."
             },
             {
-              "title": "Freed-up capacity",
-              "description": "Teams spend less time on manual tasks and more on high-value work."
+              "title": "Consistent Execution",
+              "description": "Rules, workflows and guided actions reduce process variability."
             },
             {
-              "title": "Controlled risk",
-              "description": "Governance keeps AI and automation accurate, auditable and safe."
+              "title": "Better User Experience",
+              "description": "Simplified interactions help users complete work across complex systems."
+            },
+            {
+              "title": "Controlled AI Adoption",
+              "description": "Governance and human oversight protect data, decisions and business accountability."
+            },
+            {
+              "title": "Measurable Value",
+              "description": "Use-case KPIs connect adoption and quality with time, cost and service outcomes."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to AI and automation in SAP",
-          "description": "Four phases from use-case selection to governed operation.",
+          "title": "Start Small. Design to Scale.",
+          "description": "Five phases from discovery to governed, portfolio-scale delivery.",
           "phases": [
             {
-              "name": "Identify",
-              "deliverable": "Prioritized AI and automation use cases with business value"
+              "name": "Discover",
+              "deliverable": "Identify high-friction work, decisions, information gaps and automation candidates."
             },
             {
-              "name": "Design",
-              "deliverable": "Solution design with data, governance and clean core in mind"
+              "name": "Qualify",
+              "deliverable": "Evaluate business value, data readiness, technology fit, risk and change impact."
             },
             {
-              "name": "Build",
-              "deliverable": "Automations and AI-enabled workflows in production"
+              "name": "Prototype",
+              "deliverable": "Validate the user experience, process logic, AI quality and integration path."
             },
             {
-              "name": "Govern",
-              "deliverable": "Monitoring, accuracy controls and continuous improvement"
+              "name": "Industrialize",
+              "deliverable": "Add enterprise security, testing, monitoring, exception handling and support readiness."
+            },
+            {
+              "name": "Scale",
+              "deliverable": "Measure results, reuse patterns and expand the portfolio through governed delivery."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When AI and Automation Need a Real Business Case",
+          "title": "AI and Automation Where Work Happens",
           "items": [
-            { "title": "AI Hype Without Use Cases", "description": "Leadership wants AI adoption but no concrete use cases have been identified yet." },
-            { "title": "Repetitive Manual Work", "description": "Teams spend significant time on manual, repetitive SAP process steps." },
-            { "title": "Embedded AI Underused", "description": "SAP's built-in AI capabilities are licensed but not activated or adopted." },
-            { "title": "Pilot-to-Scale Gap", "description": "A pilot automation succeeded but there's no plan to scale it responsibly." },
-            { "title": "Governance Before Scale", "description": "AI adoption needs guardrails and governance before it expands further." }
+            {
+              "title": "Finance Process Automation",
+              "description": "Accelerate reconciliations, document handling, exception review and approvals."
+            },
+            {
+              "title": "Procurement and Supplier Workflows",
+              "description": "Improve request intake, validation, routing and follow-up across stakeholders."
+            },
+            {
+              "title": "Service and Support Intelligence",
+              "description": "Summarize cases, recommend knowledge and coordinate resolution activities."
+            },
+            {
+              "title": "Document-Driven Processes",
+              "description": "Extract, validate and route information from business documents into governed workflows."
+            },
+            {
+              "title": "AI Opportunity Program",
+              "description": "Create a prioritized portfolio, governance model and repeatable pilot-to-production path."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for SAP AI & automation",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "Practical AI mindset",
-              "description": "We focus on feasible, valuable use cases — not AI for its own sake."
+              "title": "Business-Process Focus",
+              "description": "We redesign work around outcomes instead of automating isolated clicks."
             },
             {
-              "title": "BTP and automation expertise",
-              "description": "We build automation and AI on BTP and modern tooling, integrated with SAP."
+              "title": "SAP Context",
+              "description": "Use cases reflect SAP data, authorizations, transactions and process dependencies."
             },
             {
-              "title": "Clean core approach",
-              "description": "We add intelligence without compromising SAP standard and upgradeability."
+              "title": "Human-Centered Controls",
+              "description": "Approvals, exceptions and accountability remain explicit."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We know SAP processes, so automation targets the work that matters."
+              "title": "Enterprise Engineering",
+              "description": "Security, integration, testing and operations are part of production design."
             },
             {
-              "title": "Governance mindset",
-              "description": "We govern data, accuracy and accountability from day one."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We grow AI adoption responsibly as value is proven."
+              "title": "Pragmatic Innovation",
+              "description": "We select the simplest technology that can deliver the required value safely."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "AI & automation session: we find the SAP use cases worth automating first",
-          "description": "In 45 minutes we review your SAP processes and identify the highest-value, lowest-risk AI and automation use cases to start with.",
-          "cta": "Book your AI & automation session"
+          "eyebrow": "Free checklist",
+          "title": "Where Can AI Create Value Now?",
+          "description": "Use our SAP AI & Automation Opportunity Checklist to assess process friction, manual effort, decision latency, data readiness, control requirements, adoption complexity and measurable value.",
+          "cta": "Download the AI Opportunity Checklist"
         },
         "finalCta": {
-          "title": "Ready to bring practical AI and automation into SAP?",
-          "description": "Book a session with our specialists and let's identify the AI and automation use cases that deliver value without adding risk.",
-          "ctaPrimary": "Assess your AI use cases",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Move from Ideas to Outcomes",
+          "description": "Identify practical opportunities and build governed AI and automation capabilities around the work that matters.",
+          "ctaPrimary": "Assess Your AI Opportunities",
+          "ctaSecondary": "Speak with an AI Advisor"
         }
       },
       "sap-extension-development": {
-        "metaTitle": "SAP Extension Development | Clean, Governed SAP Extensions | Global Core Technologies",
-        "metaDescription": "Build clean, scalable and governed SAP extensions using modern, cloud-ready development practices — extending SAP capabilities without compromising the core.",
+        "metaTitle": "SAP Extension Development | Clean Core Side-by-Side Extensions | Global Core Technologies",
+        "metaDescription": "SAP extension development: extension discovery and design, side-by-side applications, SAP-aligned development on ABAP Cloud, SAP Build and Fiori, quality and security, and application lifecycle.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "SAP Extension Development: extend SAP without compromising the core",
-        "heroSubtitle": "We build clean, scalable and governed SAP extensions using modern, cloud-ready development practices — so you can extend SAP capabilities without piling technical debt back onto the core.",
-        "ctaPrimary": "Assess your extension needs",
-        "ctaSecondary": "Request a development session",
+        "h1": "Extend SAP. Protect the Core.",
+        "heroSubtitle": "Business applications built for agility without adding core complexity. Global Core Technologies designs and builds SAP extensions that deliver differentiated business capabilities while preserving a clean, upgrade-ready core — using SAP-aligned application, workflow and integration patterns across SAP Business AI Platform, SAP Build, ABAP Cloud and modern user experiences.",
+        "ctaPrimary": "Discuss Your Extension",
+        "ctaSecondary": "Speak with a Solution Architect",
         "metrics": {
-          "projects": "SAP extensions delivered",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "clean-core aligned"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Custom development is how most SAP landscapes accumulate their debt.",
+          "title": "Business Differentiation Can Become Core Debt",
           "items": [
             {
-              "title": "Core modifications everywhere",
-              "description": "Extensions built inside the core make every upgrade slower, riskier and more expensive."
+              "title": "Custom code in the wrong layer",
+              "description": "Custom requirements implemented without extension classification, and legacy modifications tightly coupled to SAP releases."
             },
             {
-              "title": "Inconsistent development",
-              "description": "Without standards, extensions vary in quality, security and maintainability from one team to the next."
+              "title": "Fragmented UX and duplicated logic",
+              "description": "User experiences fragmented across transactions and tools, manual steps outside governed applications, and duplicated business logic across custom solutions."
             },
             {
-              "title": "Undocumented, unowned code",
-              "description": "Custom code accumulates with no ownership, so no one dares to change or remove it."
+              "title": "Inconsistent security and lifecycle",
+              "description": "Security and authorization models designed inconsistently, insufficient automated testing and lifecycle controls, and applications delivered without production support readiness."
             }
           ],
-          "closing": "Extension development done right keeps custom capability outside the core — clean, governed and safe to evolve."
+          "closing": "Sustainable extension requires the right placement, programming model, integration pattern and lifecycle for every requirement."
         },
         "howWeHelp": {
-          "title": "Clean, governed SAP extensions",
-          "description": "From extension design to delivered, maintainable code on modern SAP architectures.",
+          "title": "Build Differentiation in the Right Layer",
+          "description": "We translate business requirements into maintainable applications and extensions aligned with SAP architecture principles.",
           "items": [
             {
-              "title": "Extensibility design",
-              "description": "We choose the right extensibility model — side-by-side or in-app — per clean core principles."
+              "title": "Extension Discovery and Design",
+              "description": "Business requirement definition, fit-to-standard and gap analysis, extension classification, user journey and experience design, and solution architecture and backlog."
             },
             {
-              "title": "Modern development",
-              "description": "We build with cloud-ready, standard-aligned development practices on BTP and SAP tooling."
+              "title": "Side-by-Side Applications",
+              "description": "SAP Business AI Platform application architecture, Cloud Application Programming Model solutions, service and domain design, SAP and third-party integration, and scalable deployment patterns."
             },
             {
-              "title": "Development standards",
-              "description": "We apply consistent standards for quality, security and maintainability."
+              "title": "SAP-Aligned Development",
+              "description": "ABAP Cloud and released API patterns, SAP Fiori application experiences, SAP Build low-code and pro-code delivery, event and workflow extensions, and reusable components and services."
             },
             {
-              "title": "Lifecycle & handover",
-              "description": "We document, test and hand over extensions so they stay owned and maintainable."
+              "title": "Quality and Security",
+              "description": "Identity and authorization design, secure development practices, an automated testing strategy, code quality and architecture reviews, and data protection and auditability."
+            },
+            {
+              "title": "Application Lifecycle",
+              "description": "CI/CD and transport strategy, environment and configuration management, monitoring and support readiness, documentation and knowledge transfer, and product roadmap and continuous enhancement."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Applications Built for Sustainable Change",
           "items": [
             {
-              "title": "Protected core",
-              "description": "Capability is added outside the core, keeping SAP standard and upgradeable."
+              "title": "Faster Business Innovation",
+              "description": "Deliver targeted capabilities without waiting for major core releases."
             },
             {
-              "title": "Maintainable code",
-              "description": "Consistent standards mean extensions stay understandable and safe to change."
+              "title": "Lower Upgrade Impact",
+              "description": "Decoupled extensions reduce conflicts during SAP updates and transformation."
             },
             {
-              "title": "Scalable capability",
-              "description": "Cloud-ready extensions scale with the business, not against it."
+              "title": "Better User Adoption",
+              "description": "Role-based applications simplify work and bring information into one experience."
             },
             {
-              "title": "Lower long-term cost",
-              "description": "Clean extensions avoid the recurring cost of upgrade-blocking custom code."
+              "title": "Reusable Business Services",
+              "description": "Shared logic and APIs reduce duplication across future solutions."
+            },
+            {
+              "title": "Stronger Engineering Quality",
+              "description": "Security, testing and lifecycle practices improve reliability."
+            },
+            {
+              "title": "Long-Term Flexibility",
+              "description": "Modern programming models preserve choices as SAP architecture evolves."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to clean SAP extensions",
-          "description": "Four phases from extensibility design to owned, maintainable delivery.",
+          "title": "From Business Need to Product",
+          "description": "Five phases from discovery to a managed business product.",
           "phases": [
             {
-              "name": "Design",
-              "deliverable": "Extensibility model and architecture aligned with clean core"
+              "name": "Discover",
+              "deliverable": "Define users, outcomes, process gaps, constraints and success measures."
             },
             {
-              "name": "Standardize",
-              "deliverable": "Development standards for quality, security and maintainability"
+              "name": "Classify",
+              "deliverable": "Determine whether to configure, embed, extend side-by-side or redesign the requirement."
+            },
+            {
+              "name": "Design",
+              "deliverable": "Create the architecture, user experience, security model, integration and delivery backlog."
             },
             {
               "name": "Build",
-              "deliverable": "Extensions delivered on modern SAP architectures"
+              "deliverable": "Develop iteratively with testing, quality controls and stakeholder feedback."
             },
             {
-              "name": "Handover",
-              "deliverable": "Documentation, tests and ownership for the long term"
+              "name": "Operate",
+              "deliverable": "Release, monitor, support and evolve the extension as a managed business product."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When Extensions Need to Be Built the Right Way",
+          "title": "Extensions for Differentiated Processes",
           "items": [
-            { "title": "Legacy Customization Pressure", "description": "Business requirements can't be met by standard SAP and need a clean extension." },
-            { "title": "Technical Debt from Past Development", "description": "Past custom code has accumulated debt that new development shouldn't repeat." },
-            { "title": "Modern Development Standards", "description": "The organization wants to adopt cloud-ready, side-by-side extension practices." },
-            { "title": "Pre-S/4HANA Extension Planning", "description": "Extension strategy needs to be defined before or during an S/4HANA transformation." },
-            { "title": "Handover and Maintainability", "description": "An extension needs to be built with clear documentation and lifecycle ownership." }
+            {
+              "title": "Custom Business Application",
+              "description": "Create a role-based application for requirements not covered by standard SAP."
+            },
+            {
+              "title": "Workflow and Approval Extension",
+              "description": "Coordinate decisions and tasks across SAP and external stakeholders."
+            },
+            {
+              "title": "Legacy Custom-Code Replacement",
+              "description": "Move valuable capabilities away from modifications and obsolete frameworks."
+            },
+            {
+              "title": "Unified User Experience",
+              "description": "Combine information and actions from multiple systems in a focused application."
+            },
+            {
+              "title": "Extension Factory",
+              "description": "Establish reusable architecture, engineering standards and delivery governance."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for SAP extension development",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "Clean core approach",
-              "description": "Every extension is designed to protect upgradeability and architecture sustainability."
+              "title": "Clean-Core by Design",
+              "description": "Every solution begins with explicit placement and decoupling decisions."
             },
             {
-              "title": "BTP and development expertise",
-              "description": "We build side-by-side and in-app extensions with modern, cloud-ready practices."
+              "title": "Full-Stack SAP Capability",
+              "description": "We combine process, UX, development, integration, security and operations expertise."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We build extensions that are stable and operable, not just functional."
+              "title": "Product Mindset",
+              "description": "Extensions are designed for adoption, lifecycle and measurable business value."
             },
             {
-              "title": "Governance mindset",
-              "description": "Standards, documentation and ownership are built in, not bolted on."
+              "title": "Engineering Discipline",
+              "description": "Architecture reviews, testing and delivery automation protect quality."
             },
             {
-              "title": "Innovation tied to business needs",
-              "description": "We build the capability the business needs, not gold-plated code."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We keep extensions healthy across SAP releases and business change."
+              "title": "Flexible Delivery",
+              "description": "We can build independently or work with internal and partner development teams."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "Extension review: we assess whether your SAP customizations are helping or hurting",
-          "description": "In 45 minutes we review your custom development and show you where extensions are adding risk to upgrades — and how to build clean from here.",
-          "cta": "Book your extension review"
+          "eyebrow": "Free checklist",
+          "title": "Is Your Extension in the Right Layer?",
+          "description": "Use our SAP Extension Architecture Checklist to assess business differentiation, fit-to-standard, extension placement, API availability, security model, lifecycle readiness and upgrade impact.",
+          "cta": "Download the Extension Checklist"
         },
         "finalCta": {
-          "title": "Ready to extend SAP without compromising the core?",
-          "description": "Book a session with our specialists and let's design the extension approach that adds capability while protecting upgradeability.",
-          "ctaPrimary": "Assess your extension needs",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Build Beyond Standard SAP",
+          "description": "Create modern applications and workflows that deliver differentiation while keeping the SAP core ready for change.",
+          "ctaPrimary": "Plan Your SAP Extension",
+          "ctaSecondary": "Speak with a Solution Architect"
         }
       },
       "sap-clean-core-innovation": {
-        "metaTitle": "SAP Clean Core Innovation | Innovate While Protecting the Core | Global Core Technologies",
-        "metaDescription": "Design innovation initiatives aligned with clean core principles — reducing unnecessary customization while protecting SAP upgradeability and long-term maintainability.",
+        "metaTitle": "SAP Clean Core Innovation | Custom Code Remediation & Extension Governance | Global Core Technologies",
+        "metaDescription": "SAP clean core services: custom-code baseline, remediation strategy, extension decision framework, clean-core governance and a sustainable innovation roadmap that keeps SAP upgrade-ready.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "SAP Clean Core Innovation: innovate faster while protecting upgradeability",
-        "heroSubtitle": "We design innovation initiatives aligned with clean core principles — reducing unnecessary customization and keeping SAP standard, upgradeable and maintainable while you innovate.",
-        "ctaPrimary": "Assess your clean core",
-        "ctaSecondary": "Request a clean core session",
+        "h1": "Innovate Beyond the Core",
+        "heroSubtitle": "Move differentiation to sustainable extensions while keeping SAP upgrade-ready. Global Core Technologies helps organizations reduce custom-code dependency and establish a clean-core innovation model — assessing existing customizations, classifying future requirements, defining extension patterns and creating the governance needed to protect the SAP core through every release and transformation.",
+        "ctaPrimary": "Assess Your Clean Core",
+        "ctaSecondary": "Speak with an SAP Architect",
         "metrics": {
-          "projects": "clean core initiatives",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "clean-core aligned"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Innovation and a clean core are usually treated as a trade-off. They shouldn't be.",
+          "title": "Yesterday's Customization Slows Tomorrow's Change",
           "items": [
             {
-              "title": "Customization by default",
-              "description": "New requirements are met with core modifications because there's no clean core strategy to guide them."
+              "title": "No inventory, obsolete code retained",
+              "description": "No reliable inventory of custom objects and business ownership, and obsolete code retained because impact is uncertain."
             },
             {
-              "title": "Upgrades that hurt",
-              "description": "Accumulated customization turns every SAP upgrade into a costly, high-risk project."
+              "title": "Modifications and unsustainable patterns",
+              "description": "Modifications that block upgrades and cloud transition, and new requirements implemented through familiar but unsustainable patterns."
             },
             {
-              "title": "No shared principles",
-              "description": "Teams lack agreed clean core principles, so innovation and maintainability keep colliding."
+              "title": "Inconsistent decisions, no governance",
+              "description": "Unclear choice between configuration, in-app and side-by-side extension, released APIs not assessed consistently, technical debt measured without business criticality, and clean-core principles not embedded in delivery governance."
             }
           ],
-          "closing": "Clean core innovation gives you both: the freedom to innovate and an SAP core that stays standard and upgradeable."
+          "closing": "Clean core is not a one-time remediation exercise; it is an architectural and governance discipline that must guide requirements, releases and innovation."
         },
         "howWeHelp": {
-          "title": "Innovation that respects the clean core",
-          "description": "From clean core strategy to innovation initiatives that keep SAP standard.",
+          "title": "Make Clean Core an Operating Principle",
+          "description": "We connect custom-code intelligence, business decisions, extension architecture and delivery controls.",
           "items": [
             {
-              "title": "Clean core strategy",
-              "description": "We define clean core principles and the rules that guide extension and customization decisions."
+              "title": "Custom-Code Baseline",
+              "description": "Object inventory and classification, usage and dependency analysis, business owner mapping, criticality and risk assessment, and a technical-debt baseline."
             },
             {
-              "title": "Custom code assessment",
-              "description": "We assess existing customization and plan how to reduce or externalize it."
+              "title": "Remediation Strategy",
+              "description": "Retain, retire, replace and redesign decisions, modification elimination, standard capability and configuration review, released API and extensibility assessment, and prioritized remediation waves."
             },
             {
-              "title": "Innovation guardrails",
-              "description": "We set guardrails so new initiatives extend, rather than modify, the core."
+              "title": "Extension Decision Framework",
+              "description": "Fit-to-standard principles, on-stack and side-by-side criteria, low-code, pro-code and ABAP Cloud guidance, integration and event patterns, and an exception and approval process."
             },
             {
-              "title": "Governance & enablement",
-              "description": "We embed clean core into governance and enable teams to apply it in practice."
+              "title": "Clean-Core Governance",
+              "description": "Architecture standards and guardrails, a design authority and review gates, custom-code quality controls, release and upgrade evidence, and clean-core KPIs and reporting."
+            },
+            {
+              "title": "Sustainable Innovation Roadmap",
+              "description": "Business AI Platform enablement priorities, extension portfolio sequencing, skills and delivery model, automation and testing requirements, and continuous debt reduction."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "A Core Ready for Continuous Innovation",
           "items": [
             {
-              "title": "Cleaner architecture",
-              "description": "SAP stays standard, upgradeable and easier to maintain over time."
+              "title": "Lower Upgrade Effort",
+              "description": "Reduce conflicts, remediation cycles and uncertainty during releases."
             },
             {
-              "title": "Faster innovation",
-              "description": "Clear principles let teams innovate without re-litigating core impact each time."
+              "title": "Faster Adoption of Innovation",
+              "description": "A protected core makes new SAP capabilities easier to evaluate and consume."
             },
             {
-              "title": "Lower upgrade cost",
-              "description": "Less customization means faster, cheaper, lower-risk SAP upgrades."
+              "title": "Less Technical Debt",
+              "description": "Retirement and redesign decisions remove complexity that no longer creates value."
             },
             {
-              "title": "Sustainable landscape",
-              "description": "Innovation and maintainability stop fighting each other."
+              "title": "Consistent Extension Choices",
+              "description": "Teams use shared criteria instead of repeating unsustainable patterns."
+            },
+            {
+              "title": "Greater Architecture Visibility",
+              "description": "Business ownership and technical dependency become explicit."
+            },
+            {
+              "title": "Sustained Transformation Value",
+              "description": "Governance keeps the landscape from returning to its previous level of customization."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to clean core innovation",
-          "description": "Four phases from clean core strategy to embedded practice.",
+          "title": "Reduce Debt. Prevent Its Return.",
+          "description": "Five phases from baseline to governed, self-sustaining clean core.",
           "phases": [
             {
-              "name": "Assess",
-              "deliverable": "Custom code footprint and clean core maturity"
+              "name": "Baseline",
+              "deliverable": "Inventory customizations, usage, dependencies, business value and transformation risk."
             },
             {
-              "name": "Define",
-              "deliverable": "Clean core principles and decision rules"
+              "name": "Decide",
+              "deliverable": "Classify objects and requirements using retain, retire, replace and redesign criteria."
             },
             {
-              "name": "Guardrail",
-              "deliverable": "Innovation guardrails and extensibility standards"
+              "name": "Architect",
+              "deliverable": "Define sustainable extension patterns, interfaces and platform responsibilities."
             },
             {
-              "name": "Embed",
-              "deliverable": "Clean core in governance, with team enablement"
+              "name": "Remediate",
+              "deliverable": "Execute prioritized changes with testing, release control and business validation."
+            },
+            {
+              "name": "Govern",
+              "deliverable": "Embed clean-core controls and KPIs into architecture and delivery processes."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When Innovation Shouldn't Cost You Clean Core",
+          "title": "Clean Core Across the SAP Lifecycle",
           "items": [
-            { "title": "Innovation vs. Clean Core Tension", "description": "Teams see clean core and innovation speed as being in conflict." },
-            { "title": "Upcoming Upgrade Risk", "description": "New customizations are being planned right as an upgrade or conversion approaches." },
-            { "title": "Custom Code Backlog", "description": "A backlog of custom code needs to be assessed before new innovation is added on top." },
-            { "title": "Innovation Governance Gap", "description": "There's no clear guardrail for what innovation is allowed to touch the core." },
-            { "title": "Post-Clean-Core Enablement", "description": "A clean core baseline was just established and teams need guidance to innovate within it." }
+            {
+              "title": "S/4HANA Clean-Core Assessment",
+              "description": "Establish the customization baseline and remediation roadmap before transformation."
+            },
+            {
+              "title": "Post-Go-Live Customization Control",
+              "description": "Prevent uncontrolled extensions as business demand accelerates."
+            },
+            {
+              "title": "Custom-Code Reduction Program",
+              "description": "Retire or redesign high-cost objects through prioritized delivery waves."
+            },
+            {
+              "title": "Extension Governance Design",
+              "description": "Create standards, review gates and decision rights across internal and partner teams."
+            },
+            {
+              "title": "Continuous Clean-Core Service",
+              "description": "Track debt, review new requirements and maintain upgrade readiness over time."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for clean core innovation",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "Clean core approach",
-              "description": "Clean core is central to how we design every SAP innovation."
+              "title": "Business and Technical Evidence",
+              "description": "We combine usage, dependency, risk and business value in remediation decisions."
             },
             {
-              "title": "BTP and extensibility expertise",
-              "description": "We know how to move capability out of the core and onto the right model."
+              "title": "Transformation Experience",
+              "description": "Clean-core choices are aligned with S/4HANA, cloud and lifecycle realities."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We understand the real cost of customization on upgrades and operations."
+              "title": "Extension Capability",
+              "description": "We can move requirements into practical BAIP, Build and ABAP Cloud patterns."
             },
             {
-              "title": "Governance mindset",
-              "description": "We turn clean core from a slogan into governed, enforced practice."
+              "title": "Governance Discipline",
+              "description": "Architecture controls make clean core sustainable beyond the initial project."
             },
             {
-              "title": "Innovation tied to business needs",
-              "description": "We keep innovation flowing while protecting architecture sustainability."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We help keep the core clean as the landscape keeps evolving."
+              "title": "Measured Improvement",
+              "description": "Baselines and KPIs show whether complexity and upgrade exposure are decreasing."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "Clean core session: we assess how much customization is holding SAP back",
-          "description": "In 45 minutes we review your customization footprint and clean core maturity and show you where to reduce debt and innovate safely.",
-          "cta": "Book your clean core session"
+          "eyebrow": "Free checklist",
+          "title": "How Clean Is Your SAP Core?",
+          "description": "Use our SAP Clean Core Readiness Checklist to assess custom-code inventory, usage visibility, modification exposure, extension standards, released API adoption, architecture governance and upgrade readiness.",
+          "cta": "Download the Clean Core Checklist"
         },
         "finalCta": {
-          "title": "Ready to innovate without compromising upgradeability?",
-          "description": "Book a session with our specialists and let's define the clean core strategy that lets you innovate and stay upgradeable.",
-          "ctaPrimary": "Assess your clean core",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Protect the Core. Keep Innovating.",
+          "description": "Reduce customization debt and establish an extension model that supports faster, safer SAP change.",
+          "ctaPrimary": "Assess Your Clean Core",
+          "ctaSecondary": "Speak with an SAP Architect"
         }
       },
       "sap-data-analytics": {
-        "metaTitle": "SAP Data & Analytics Enablement | Data-Driven SAP Insights | Global Core Technologies",
-        "metaDescription": "Enable data-driven SAP insights through integration, reporting, dashboards and analytics foundations — improving visibility and decision-making across SAP processes.",
+        "metaTitle": "SAP Data & Analytics Enablement | SAP Datasphere & Analytics Cloud | Global Core Technologies",
+        "metaDescription": "SAP data and analytics services: data and analytics strategy, data foundation on SAP Datasphere and Business Data Cloud, analytics and planning with SAP Analytics Cloud, governance and modernization.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "SAP Data & Analytics Enablement: turn SAP data into decisions",
-        "heroSubtitle": "We enable data-driven SAP insights through integration, reporting, dashboards and analytics foundations — improving visibility and decision-making across your SAP processes.",
-        "ctaPrimary": "Assess your data & analytics",
-        "ctaSecondary": "Request an analytics session",
+        "h1": "Make SAP Data Actionable",
+        "heroSubtitle": "Trusted data and analytics for faster, better business decisions. Global Core Technologies helps organizations connect SAP data, business semantics and analytics in a governed decision environment — designing data products, models, dashboards and planning capabilities across SAP Business Data Cloud, SAP Datasphere, SAP Analytics Cloud and hybrid enterprise data landscapes.",
+        "ctaPrimary": "Assess Your Data Foundation",
+        "ctaSecondary": "Speak with a Data Advisor",
         "metrics": {
-          "projects": "analytics initiatives",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "governed data foundations"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "The data is in SAP — the insight rarely reaches the people who need it.",
+          "title": "More Data Does Not Mean Better Decisions",
           "items": [
             {
-              "title": "Reports that don't answer questions",
-              "description": "Standard reports exist, but leadership still can't get the cross-process view they actually need."
+              "title": "Inconsistent KPIs and manual reports",
+              "description": "Different definitions for the same business KPI, and critical reports dependent on manual extraction and spreadsheets."
             },
             {
-              "title": "Data trapped in silos",
-              "description": "SAP and non-SAP data live apart, so a complete, trusted picture is impossible to assemble."
+              "title": "Lost semantics and duplicated models",
+              "description": "SAP business semantics lost when data moves between platforms, duplicated data models and inconsistent transformation logic, and slow access to cross-functional and near-real-time insight."
             },
             {
-              "title": "Decisions on gut feel",
-              "description": "Without reliable analytics, key SAP process decisions are made on intuition, not data."
+              "title": "Weak governance and adoption",
+              "description": "BW and legacy reporting modernization without a clear target path, weak data ownership, quality controls and lineage, and analytics delivered without adoption or decision integration."
             }
           ],
-          "closing": "Data and analytics enablement turns scattered SAP data into trusted insight the business can decide on."
+          "closing": "A modern data foundation must preserve business meaning, establish trust and bring insight into the decisions where action is taken."
         },
         "howWeHelp": {
-          "title": "Data-driven insight across SAP",
-          "description": "From data foundations to dashboards that answer real business questions.",
+          "title": "Connect Data, Meaning and Decisions",
+          "description": "We create a governed data and analytics capability that combines SAP context with enterprise-wide information.",
           "items": [
             {
-              "title": "Data foundations",
-              "description": "We integrate SAP and non-SAP data into consistent, trusted foundations for analytics."
+              "title": "Data and Analytics Strategy",
+              "description": "Decision and information-needs assessment, current landscape and pain-point analysis, a Business Data Cloud adoption roadmap, platform and workload placement, and value and modernization priorities."
             },
             {
-              "title": "Reporting & dashboards",
-              "description": "We build reporting and dashboards that answer the questions leadership actually asks."
+              "title": "Data Foundation",
+              "description": "SAP and non-SAP source integration, SAP Datasphere architecture, data products and domain organization, semantic and analytical modeling, and hybrid and multi-cloud patterns."
             },
             {
-              "title": "Analytics enablement",
-              "description": "We enable analytics on SAP data, from operational reporting to advanced insight."
+              "title": "Analytics and Planning",
+              "description": "SAP Analytics Cloud dashboards, executive and operational reporting, self-service analytics enablement, enterprise planning scenarios, and embedded and contextual analytics."
             },
             {
-              "title": "Data governance",
-              "description": "We add the governance that keeps data consistent, trusted and well-defined."
+              "title": "Governance and Trust",
+              "description": "Business definitions and a KPI catalog, data ownership and stewardship, quality rules and reconciliation, lineage and change control, and security and access governance."
+            },
+            {
+              "title": "Modernization and Adoption",
+              "description": "BW workload assessment, report rationalization, a migration and coexistence roadmap, user enablement and adoption, and performance and lifecycle improvement."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "Trusted Insight at Business Speed",
           "items": [
             {
-              "title": "Improved data visibility",
-              "description": "A trusted, cross-process view of SAP data for the people who decide."
+              "title": "One Business Meaning",
+              "description": "Shared definitions and semantic models reduce disagreement across functions."
             },
             {
-              "title": "Better decisions",
-              "description": "Decisions across SAP processes are grounded in reliable data."
+              "title": "Faster Insight",
+              "description": "Connected data and reusable models shorten the path from question to answer."
             },
             {
-              "title": "Connected data",
-              "description": "SAP and non-SAP data come together into a complete picture."
+              "title": "Less Manual Reporting",
+              "description": "Automated data flows and dashboards reduce spreadsheet dependency."
             },
             {
-              "title": "Governed, trusted data",
-              "description": "Consistent definitions and governance make analytics dependable."
+              "title": "Better Decisions",
+              "description": "Analytics and planning bring context, trends and scenarios into management routines."
+            },
+            {
+              "title": "Modernized Architecture",
+              "description": "A deliberate target model reduces duplicated platforms and aging reporting assets."
+            },
+            {
+              "title": "AI-Ready Data",
+              "description": "Governed, contextualized data provides a stronger foundation for intelligent applications and agents."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to SAP data-driven insight",
-          "description": "Four phases from data foundations to governed analytics.",
+          "title": "Begin with the Decision",
+          "description": "Five phases from decision needs to embedded, high-value adoption.",
           "phases": [
             {
-              "name": "Assess",
-              "deliverable": "Data sources, gaps and priority analytics questions"
+              "name": "Discover",
+              "deliverable": "Identify decision needs, data domains, users, pain points and current architecture."
             },
             {
-              "name": "Integrate",
-              "deliverable": "Consistent SAP and non-SAP data foundations"
+              "name": "Define",
+              "deliverable": "Establish business terms, data products, ownership and quality expectations."
             },
             {
-              "name": "Build",
-              "deliverable": "Reporting, dashboards and analytics models"
+              "name": "Architect",
+              "deliverable": "Design source connectivity, modeling, security, lifecycle and platform placement."
             },
             {
-              "name": "Govern",
-              "deliverable": "Data definitions, governance and continuous improvement"
+              "name": "Deliver",
+              "deliverable": "Build prioritized models, analytics and planning use cases with user validation."
+            },
+            {
+              "name": "Adopt",
+              "deliverable": "Embed insight into decision routines and improve the portfolio using usage and value evidence."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When SAP Data Needs to Become Insight",
+          "title": "Data Enablement for SAP Priorities",
           "items": [
-            { "title": "Data Trapped in SAP", "description": "Valuable data exists in SAP but never reaches the people who need it for decisions." },
-            { "title": "Manual Reporting Burden", "description": "Reports are built manually and repeatedly instead of through a reusable foundation." },
-            { "title": "Fragmented Data Sources", "description": "SAP and non-SAP data need to be combined for a complete business view." },
-            { "title": "Pre-Transformation Data Readiness", "description": "An upcoming migration is a natural point to redesign the data and analytics foundation." },
-            { "title": "Executive Decision Support", "description": "Leadership needs reliable, real-time data to support faster decisions." }
+            {
+              "title": "Executive Analytics",
+              "description": "Create governed views across finance, supply chain, operations and transformation."
+            },
+            {
+              "title": "SAP Datasphere Foundation",
+              "description": "Establish domains, connectivity, semantic models and operating governance."
+            },
+            {
+              "title": "SAP Analytics Cloud Adoption",
+              "description": "Design dashboards, planning models and decision-focused user experiences."
+            },
+            {
+              "title": "BW Modernization Assessment",
+              "description": "Classify workloads and define migration, coexistence and retirement paths."
+            },
+            {
+              "title": "AI-Ready Data Products",
+              "description": "Prepare trusted, contextual data for intelligent applications and agent workflows."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for SAP data & analytics",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "BTP and integration expertise",
-              "description": "We integrate SAP and non-SAP data into foundations analytics can trust."
+              "title": "SAP Business Context",
+              "description": "We preserve process, hierarchy and semantic meaning across the data landscape."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We know SAP data structures, so insight reflects how the business really runs."
+              "title": "Decision-Led Design",
+              "description": "Analytics begins with management questions and actions — not available visualizations."
             },
             {
-              "title": "Innovation tied to business needs",
-              "description": "We build analytics around the decisions that matter, not vanity dashboards."
+              "title": "Architecture and Governance",
+              "description": "Platform, quality, security and ownership decisions are designed together."
             },
             {
-              "title": "Governance mindset",
-              "description": "We keep data consistent, defined and trusted across the landscape."
+              "title": "Hybrid Landscape Experience",
+              "description": "We connect SAP data with the broader enterprise ecosystem."
             },
             {
-              "title": "Proprietary platforms",
-              "description": "Our Operations Intelligence platform accelerates SAP analytics and visibility."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We evolve your analytics as questions and data grow."
+              "title": "Adoption Focus",
+              "description": "Solutions are measured by use and decision value, not only technical completion."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "Analytics session: we find the SAP insights your business is missing",
-          "description": "In 45 minutes we review your SAP reporting and data foundations and identify the highest-value insights you could unlock first.",
-          "cta": "Book your analytics session"
+          "eyebrow": "Free checklist",
+          "title": "Can Leaders Trust Your SAP Data?",
+          "description": "Use our SAP Data & Analytics Maturity Checklist to assess KPI consistency, data ownership, semantic preservation, quality controls, architecture readiness, analytics adoption and AI data readiness.",
+          "cta": "Download the Data Maturity Checklist"
         },
         "finalCta": {
-          "title": "Ready to turn SAP data into better decisions?",
-          "description": "Book a session with our specialists and let's design the data foundations and analytics that give your business real visibility.",
-          "ctaPrimary": "Assess your data & analytics",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Turn Trusted Data into Action",
+          "description": "Create a governed data and analytics foundation that accelerates insight, planning and AI-enabled decisions.",
+          "ctaPrimary": "Review Your Data Foundation",
+          "ctaSecondary": "Speak with a Data Advisor"
         }
       },
       "sap-intelligent-agents": {
-        "metaTitle": "Intelligent Agents for SAP Operations | AI Copilots for SAP | Global Core Technologies",
-        "metaDescription": "Design AI agents and copilots that assist SAP operations, support, estimations, monitoring, documentation and decision support — bringing intelligence into daily SAP work.",
+        "metaTitle": "Intelligent Agents for SAP Operations | SAP Agentic AI | Global Core Technologies",
+        "metaDescription": "Intelligent agents for SAP operations: agent opportunity discovery, context and knowledge, agent and tool design, governance and safety, and operational integration under human supervision.",
         "eyebrow": "Pillar · Innovate",
-        "h1": "Intelligent Agents for SAP Operations: AI copilots for daily SAP work",
-        "heroSubtitle": "We design AI agents and copilots that assist SAP operations, support teams, estimations, monitoring, documentation and decision support — bringing practical intelligence into the daily work of running SAP.",
-        "ctaPrimary": "Assess your agent use cases",
-        "ctaSecondary": "Request an agents session",
+        "h1": "Move Operations Toward Autonomy",
+        "heroSubtitle": "Intelligent agents that detect, analyze and coordinate SAP operational work. Global Core Technologies helps SAP operations teams adopt intelligent agents through controlled, human-supervised use cases — connecting operational signals, knowledge, workflows and enterprise tools so agents can assist with detection, analysis, prioritization and coordination while preserving security, auditability and accountable decision-making.",
+        "ctaPrimary": "Explore Operational Agent Use Cases",
+        "ctaSecondary": "Speak with an Operations AI Expert",
         "metrics": {
-          "projects": "agent use cases designed",
+          "projects": "projects delivered",
           "years": "years in mission-critical SAP",
-          "governance": "governed AI adoption"
+          "governance": "governance-first focus"
         },
         "problem": {
-          "title": "SAP teams spend their expertise on repetitive, low-value work.",
+          "title": "Operations Teams Have Data but Limited Attention",
           "items": [
             {
-              "title": "Knowledge locked in people",
-              "description": "Support and operations depend on a few experts, and their knowledge isn't captured or scaled."
+              "title": "Context without automation",
+              "description": "Alerts that arrive without business or dependency context, and manual collection of logs, health checks and recent changes."
             },
             {
-              "title": "Slow, manual routine",
-              "description": "Triage, documentation, estimations and monitoring eat hours that could go to higher-value work."
+              "title": "Experience-dependent, scattered knowledge",
+              "description": "Triage quality dependent on individual specialist experience, knowledge distributed across tickets, documents and team memory, and slow coordination across Basis, application, integration and infrastructure teams."
             },
             {
-              "title": "Copilots with no guardrails",
-              "description": "Generic AI assistants without SAP context and governance create more risk than value."
+              "title": "Ungoverned AI and autonomy pressure",
+              "description": "Recurring tasks that still require repetitive human execution, AI tools disconnected from authorizations and operating controls, and pressure for autonomy without sufficient evaluation or human oversight."
             }
           ],
-          "closing": "Intelligent agents bring governed AI into daily SAP work — assisting people, not replacing accountability."
+          "closing": "Operational agents create value when they augment specialists inside a governed service model — not when autonomy becomes the goal by itself."
         },
         "howWeHelp": {
-          "title": "AI agents and copilots built for SAP operations",
-          "description": "From agent use-case design to governed copilots embedded in SAP work.",
+          "title": "Agents Built Around Operational Control",
+          "description": "We design agent use cases with explicit context, tools, permissions, evidence and human decision points.",
           "items": [
             {
-              "title": "Agent use-case design",
-              "description": "We identify where agents and copilots add value across operations, support and delivery."
+              "title": "Agent Opportunity Discovery",
+              "description": "Operational workload and pain-point mapping, task and decision decomposition, agent, workflow or automation classification, value and risk scoring, and a prioritized use-case roadmap."
             },
             {
-              "title": "SAP-aware copilots",
-              "description": "We design assistants grounded in your SAP context — processes, data and documentation."
+              "title": "Context and Knowledge",
+              "description": "Monitoring and event context, SAP landscape and dependency information, runbooks and knowledge retrieval, ticket and change history, and business-service criticality."
             },
             {
-              "title": "Operations & support agents",
-              "description": "We build agents for triage, monitoring, estimations and documentation support."
+              "title": "Agent and Tool Design",
+              "description": "Purpose and scope definition, tool and API permissions, prompt, plan and response design, multi-step workflow coordination, and human approval and escalation points."
             },
             {
-              "title": "Agent governance",
-              "description": "We govern data access, accuracy and accountability so agents are safe to trust."
+              "title": "Governance and Safety",
+              "description": "Role-based access and least privilege, action boundaries and policy controls, evidence, logging and auditability, quality and failure evaluation, and responsible-AI and security review."
+            },
+            {
+              "title": "Operational Integration",
+              "description": "Monitoring and alert workflows, ITSM and ticket coordination, notification and collaboration channels, human-supervised execution, and performance, quality and value monitoring."
             }
           ]
         },
         "benefits": {
-          "title": "What your business gains",
+          "title": "More Capacity for Higher-Value Operations",
           "items": [
             {
-              "title": "Higher productivity",
-              "description": "Agents take on routine work, freeing experts for higher-value tasks."
+              "title": "Faster Triage",
+              "description": "Agents assemble relevant signals, changes and knowledge before specialist analysis."
             },
             {
-              "title": "Intelligence in daily work",
-              "description": "SAP teams get context-aware assistance where the work actually happens."
+              "title": "Consistent Investigation",
+              "description": "Structured evidence collection reduces variability across shifts and teams."
             },
             {
-              "title": "Scaled knowledge",
-              "description": "Expert knowledge is captured into agents instead of locked in individuals."
+              "title": "Better Knowledge Reuse",
+              "description": "Operational history and runbooks become available at the point of need."
             },
             {
-              "title": "Governed AI",
-              "description": "Guardrails keep agents accurate, accountable and safe."
+              "title": "Reduced Coordination Effort",
+              "description": "Agents can route, summarize and track multi-team operational work."
+            },
+            {
+              "title": "Controlled Automation",
+              "description": "Explicit permissions and approvals limit actions according to operational risk."
+            },
+            {
+              "title": "Path to Autonomous Operations",
+              "description": "Measured use cases create the evidence and controls required for greater autonomy over time."
             }
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to intelligent SAP agents",
-          "description": "Four phases from use-case design to governed operation.",
+          "title": "Assist First. Automate with Evidence.",
+          "description": "Five phases that grow autonomy only where performance and governance support it.",
           "phases": [
             {
-              "name": "Identify",
-              "deliverable": "Prioritized agent and copilot use cases"
+              "name": "Observe",
+              "deliverable": "Map operational work, decisions, systems, knowledge sources and control requirements."
             },
             {
-              "name": "Design",
-              "deliverable": "SAP-aware agent design with data and governance"
+              "name": "Select",
+              "deliverable": "Choose bounded use cases with sufficient context, measurable value and acceptable risk."
             },
             {
-              "name": "Build",
-              "deliverable": "Agents and copilots embedded in SAP operations"
+              "name": "Prototype",
+              "deliverable": "Validate agent behavior, evidence quality, user experience and failure modes."
             },
             {
-              "name": "Govern",
-              "deliverable": "Accuracy, accountability and continuous improvement"
+              "name": "Control",
+              "deliverable": "Implement permissions, human checkpoints, logging, monitoring and escalation."
+            },
+            {
+              "name": "Expand",
+              "deliverable": "Measure results and increase scope only where performance and governance support it."
             }
           ]
         },
         "engagementScenarios": {
-          "title": "When SAP Teams Need an AI Copilot",
+          "title": "Agents for Practical SAP Operations",
           "items": [
-            { "title": "High-Volume Repetitive Requests", "description": "Support or operations teams handle high volumes of similar, low-complexity requests." },
-            { "title": "Knowledge Concentrated in Few People", "description": "Expertise about how systems work lives in a small number of people's heads." },
-            { "title": "Documentation and Estimation Load", "description": "Teams spend disproportionate time on documentation, estimation, or status updates." },
-            { "title": "Monitoring Overload", "description": "Teams are overwhelmed by monitoring signals that need triage before action." },
-            { "title": "AI Enablement Roadmap", "description": "The organization wants a practical starting point for AI agents in SAP operations." }
+            {
+              "title": "Alert Enrichment Agent",
+              "description": "Collect system context, recent changes, dependencies and relevant runbooks."
+            },
+            {
+              "title": "Incident Triage Agent",
+              "description": "Summarize evidence, classify impact and recommend the appropriate resolver path."
+            },
+            {
+              "title": "Knowledge Assistant",
+              "description": "Retrieve and contextualize procedures, past resolutions and environment-specific guidance."
+            },
+            {
+              "title": "Operational Coordination Agent",
+              "description": "Track actions, handoffs, updates and stakeholder communication during events."
+            },
+            {
+              "title": "Maintenance Readiness Agent",
+              "description": "Review prerequisites, dependencies, evidence and approvals before planned work."
+            }
           ]
         },
         "whyGct": {
-          "title": "Why choose Global Core Technologies for intelligent SAP agents",
+          "title": "Why Organizations Choose Global Core Technologies",
           "items": [
             {
-              "title": "Practical AI mindset",
-              "description": "We design agents around real SAP work, not around the hype cycle."
+              "title": "SAP Operations Expertise",
+              "description": "Use cases reflect real Basis, application, integration and service-management workflows."
             },
             {
-              "title": "SAP operations knowledge",
-              "description": "We run SAP operations, so we know exactly where agents help most."
+              "title": "Security by Design",
+              "description": "Permissions, data access, action boundaries and audit evidence are explicit."
             },
             {
-              "title": "BTP and AI expertise",
-              "description": "We build agents on modern AI and BTP, integrated with SAP."
+              "title": "Human-Supervised Adoption",
+              "description": "Specialists remain accountable while agent capabilities mature."
             },
             {
-              "title": "Governance mindset",
-              "description": "We govern data access, accuracy and accountability from day one."
+              "title": "Integrated Engineering",
+              "description": "AI, APIs, knowledge, monitoring and ITSM are designed as one operating capability."
             },
             {
-              "title": "Proprietary platforms",
-              "description": "Intelliguard™ brings intelligent monitoring and agents into SAP operations."
-            },
-            {
-              "title": "Long-term partnership",
-              "description": "We scale agent adoption responsibly as value is proven."
+              "title": "Measured Autonomy",
+              "description": "Expansion is based on quality, risk and business evidence — not novelty."
             }
           ]
         },
         "leadMagnet": {
-          "eyebrow": "Free session",
-          "title": "Agents session: we find where AI copilots would help your SAP team most",
-          "description": "In 45 minutes we review your SAP operations and support work and identify the highest-value, lowest-risk agent use cases to start with.",
-          "cta": "Book your agents session"
+          "eyebrow": "Free checklist",
+          "title": "Are Your Operations Ready for Agents?",
+          "description": "Use our SAP Operations Agent Readiness Checklist to assess use-case clarity, data and tool access, knowledge quality, permission boundaries, human oversight, evaluation model and operational ownership.",
+          "cta": "Download the Agent Readiness Checklist"
         },
         "finalCta": {
-          "title": "Ready to bring intelligent agents into SAP operations?",
-          "description": "Book a session with our specialists and let's identify the AI agents and copilots that make your SAP team more productive.",
-          "ctaPrimary": "Assess your agent use cases",
-          "ctaSecondary": "Explore the Innovate pillar"
+          "title": "Build the Path to Autonomy",
+          "description": "Start with controlled operational agents that increase specialist capacity and create measurable evidence for future autonomy.",
+          "ctaPrimary": "Assess Agent Opportunities",
+          "ctaSecondary": "Speak with an Operations AI Expert"
         }
       }
     }
