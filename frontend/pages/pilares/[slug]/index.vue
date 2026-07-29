@@ -303,6 +303,10 @@ const framework = computed(() => {
       <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <div v-else class="absolute inset-0 bg-core-ink/80" />
+      <!-- Dark overlay for hero text legibility over photographic backgrounds:
+           confined to the left where the copy and buttons sit, fading fully to
+           transparent before the right so the imagery stays untouched. -->
+      <div v-if="isImageHero" class="absolute inset-0 -z-10 bg-gradient-to-r from-core-ink/90 from-0% via-core-ink/60 via-35% to-transparent to-70%" aria-hidden="true" />
       <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
       <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
       <div class="section-shell relative">
