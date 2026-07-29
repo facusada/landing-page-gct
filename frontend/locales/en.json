@@ -614,31 +614,31 @@
     "hero": {
       "transform": {
         "headline": "Transform Your SAP Landscape",
-        "subheadline": "Modernize, simplify and future-proof your SAP ecosystem through structured transformation programs, governance-driven execution and long-term operational sustainability.",
+        "subheadline": "Modernize SAP through a structured transformation built for security and long-term value.",
         "primaryCta": "Schedule a Transformation Assessment",
         "secondaryCta": "Explore Transformation Services"
       },
       "secure": {
         "headline": "Secure Your SAP Landscape",
-        "subheadline": "Protect your SAP ecosystem with structured security governance, access control, risk prevention and compliance-driven operations.",
+        "subheadline": "Reduce access risk and strengthen governance across your SAP ecosystem.",
         "primaryCta": "Schedule a SAP Security Assessment",
         "secondaryCta": "Explore Security Services"
       },
       "govern": {
-        "headline": "Govern SAP Initiatives with Clarity and Control",
-        "subheadline": "Bring structure, visibility and executive alignment to SAP projects, services and transformation programs through governance-driven delivery.",
+        "headline": "Govern SAP with Clarity",
+        "subheadline": "Gain visibility, control and alignment across SAP projects and services.",
         "primaryCta": "Schedule a Governance Assessment",
         "secondaryCta": "Explore Governance Services"
       },
       "innovate": {
-        "headline": "Innovate Across Your SAP Ecosystem",
-        "subheadline": "Extend, integrate and automate your SAP landscape with SAP BTP, AI, clean core principles and enterprise-grade innovation services.",
+        "headline": "Innovate Beyond the SAP Core",
+        "subheadline": "Extend, integrate and automate SAP with AI—without compromising the core.",
         "primaryCta": "Schedule an Innovation Assessment",
         "secondaryCta": "Explore Innovation Services"
       },
       "operate": {
-        "headline": "Operate Your SAP Landscape with Confidence",
-        "subheadline": "Ensure stability, availability and continuous improvement across your SAP ecosystem through structured operations, expert support and proactive governance.",
+        "headline": "Operate SAP with Confidence",
+        "subheadline": "Keep your SAP landscape stable, resilient and continuously optimized.",
         "primaryCta": "Schedule an Operations Assessment",
         "secondaryCta": "Explore Operations Services"
       }
@@ -1033,8 +1033,8 @@
         "metaTitle": "SAP S/4HANA Transformation | Governed Migration | Global Core Technologies",
         "metaDescription": "Transform your ERP to SAP S/4HANA with a proven methodology, Clean Core, and risk control. +150 projects and +20 years of SAP expertise. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "SAP S/4HANA transformation, delivered with governance and no surprises",
-        "heroSubtitle": "We design and execute your migration to SAP S/4HANA with a proven methodology, a Clean Core strategy from day one, and risk control at every phase — so you reach the cloud without disrupting operations.",
+        "h1": "Move to SAP S/4HANA with Confidence",
+        "heroSubtitle": "Reduce risk with a structured transformation built for continuity and long-term value.",
         "ctaPrimary": "Book an S/4HANA assessment",
         "ctaSecondary": "Talk to an S/4HANA architect",
         "metrics": {

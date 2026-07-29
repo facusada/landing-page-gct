@@ -614,31 +614,31 @@
     "hero": {
       "transform": {
         "headline": "Transformá tu landscape SAP",
-        "subheadline": "Modernizá, simplificá y preparate para el futuro con tu ecosistema SAP, mediante programas de transformación estructurados, ejecución guiada por gobierno y sostenibilidad operativa a largo plazo.",
+        "subheadline": "Modernizá SAP con una transformación estructurada, pensada para la seguridad y el valor a largo plazo.",
         "primaryCta": "Agendá una evaluación de transformación",
         "secondaryCta": "Explorá los servicios de transformación"
       },
       "secure": {
         "headline": "Asegurá tu landscape SAP",
-        "subheadline": "Protegé tu ecosistema SAP con gobierno de seguridad estructurado, control de accesos, prevención de riesgos y operaciones orientadas al cumplimiento.",
+        "subheadline": "Reducí el riesgo de acceso y fortalecé el gobierno en todo tu ecosistema SAP.",
         "primaryCta": "Agendá una evaluación de seguridad SAP",
         "secondaryCta": "Explorá los servicios de seguridad"
       },
       "govern": {
-        "headline": "Goberná las iniciativas SAP con claridad y control",
-        "subheadline": "Aportá estructura, visibilidad y alineación ejecutiva a los proyectos, servicios y programas de transformación SAP mediante una entrega guiada por el gobierno.",
+        "headline": "Goberná SAP con claridad",
+        "subheadline": "Ganá visibilidad, control y alineación en los proyectos y servicios SAP.",
         "primaryCta": "Agendá una evaluación de gobierno",
         "secondaryCta": "Explorá los servicios de gobierno"
       },
       "innovate": {
-        "headline": "Innová en todo tu ecosistema SAP",
-        "subheadline": "Extendé, integrá y automatizá tu landscape SAP con SAP BTP, IA, principios de clean core y servicios de innovación de nivel empresarial.",
+        "headline": "Innová más allá del core SAP",
+        "subheadline": "Extendé, integrá y automatizá SAP con IA, sin comprometer el core.",
         "primaryCta": "Agendá una evaluación de innovación",
         "secondaryCta": "Explorá los servicios de innovación"
       },
       "operate": {
-        "headline": "Operá tu landscape SAP con confianza",
-        "subheadline": "Asegurá estabilidad, disponibilidad y mejora continua en todo tu ecosistema SAP mediante operaciones estructuradas, soporte experto y gobierno proactivo.",
+        "headline": "Operá SAP con confianza",
+        "subheadline": "Mantené tu landscape SAP estable, resiliente y en optimización continua.",
         "primaryCta": "Agendá una evaluación de operaciones",
         "secondaryCta": "Explorá los servicios de operaciones"
       }
@@ -1032,8 +1032,8 @@
         "metaTitle": "SAP S/4HANA Transformation | Migración con Gobierno | Global Core Technologies",
         "metaDescription": "Transformá tu ERP hacia SAP S/4HANA con una metodología probada, Clean Core y control de riesgos. +150 proyectos y +20 años de expertise SAP. Hablá con un experto.",
         "eyebrow": "Pilar · Transform",
-        "h1": "Transformación a SAP S/4HANA, ejecutada con gobierno y sin sorpresas",
-        "heroSubtitle": "Diseñamos y ejecutamos tu programa de migración a SAP S/4HANA con una metodología probada, una estrategia Clean Core desde el día uno y control de riesgos en cada fase — para que llegues a la nube sin frenar la operación.",
+        "h1": "Migrá a SAP S/4HANA con confianza",
+        "heroSubtitle": "Reducí el riesgo con una transformación estructurada, pensada para la continuidad y el valor a largo plazo.",
         "ctaPrimary": "Agendá un assessment de S/4HANA",
         "ctaSecondary": "Hablá con un arquitecto S/4HANA",
         "metrics": {
