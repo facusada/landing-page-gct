@@ -1185,8 +1185,8 @@
         "metaTitle": "RISE with SAP Advisory | Cloud ERP Transformation Strategy | Global Core Technologies",
         "metaDescription": "Independent RISE with SAP advisory: readiness assessment, target architecture, business case, and governance for a controlled transition to SAP Cloud ERP Private. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "Build the Right Path to RISE with SAP",
-        "heroSubtitle": "Global Core Technologies helps you evaluate, prepare, and structure your RISE with SAP journey — from current-state assessment and business case to target architecture, migration planning, and governance — aligning business priorities, technical realities, security, and commercial decisions before major commitments are made.",
+        "h1": "Plan Your RISE with SAP Journey",
+        "heroSubtitle": "Define a clear, governed roadmap aligned with business value and operational readiness.",
         "ctaPrimary": "Schedule a RISE with SAP Strategy Session",
         "ctaSecondary": "Download the RISE Decision Framework",
         "metrics": {
@@ -1297,8 +1297,8 @@
         "metaTitle": "SAP S/4HANA Readiness Assessment | SAP Readiness Check Analysis | Global Core Technologies",
         "metaDescription": "A fact-based SAP S/4HANA readiness assessment across architecture, custom code, data, security, and program readiness — turned into a prioritized transformation roadmap. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "Know Your SAP S/4HANA Readiness Before You Commit",
-        "heroSubtitle": "Global Core Technologies combines SAP Readiness Check outputs with expert analysis across architecture, custom code, data, integrations, security, operations, and governance to deliver an executive-ready view of what must be addressed, in what order, and why.",
+        "h1": "Know Your S/4HANA Readiness",
+        "heroSubtitle": "Identify risks, dependencies and priorities before committing to your transformation.",
         "ctaPrimary": "Schedule a Readiness Assessment",
         "ctaSecondary": "Download the S/4HANA Readiness Scorecard",
         "metrics": {
@@ -1413,8 +1413,8 @@
         "metaTitle": "SAP Migration Governance | Program Assurance & PMO | Global Core Technologies",
         "metaDescription": "Independent SAP migration governance: integrated program control, quality assurance, cutover and go-live governance for complex S/4HANA and RISE programs. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "Keep Your SAP Migration Under Control",
-        "heroSubtitle": "Global Core Technologies provides an independent governance layer across SAP migration programs — connecting executive objectives with delivery reality, coordinating cross-functional workstreams, and exposing risks and dependencies early, from mobilization through cutover and stabilization.",
+        "h1": "Keep Your SAP Migration on Track",
+        "heroSubtitle": "Gain visibility, control and faster decisions across every transformation workstream.",
         "ctaPrimary": "Schedule a Migration Governance Review",
         "ctaSecondary": "Download the SAP Migration Governance Checklist",
         "metrics": {
@@ -1529,8 +1529,8 @@
         "metaTitle": "SAP Clean Core Strategy | Extensibility & Technical Debt Reduction | Global Core Technologies",
         "metaDescription": "A practical SAP Clean Core strategy across business processes, extensibility, data, integrations, and operations — with governance that keeps it clean. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "Turn Clean Core into an Executable SAP Strategy",
-        "heroSubtitle": "Global Core Technologies helps you define and implement a Clean Core strategy across business processes, extensions, data, integrations, and operations — assessing the existing footprint, setting architecture and governance principles, and prioritizing a roadmap that balances standardization with the capabilities your business needs.",
+        "h1": "Make Clean Core Actionable",
+        "heroSubtitle": "Reduce complexity and enable sustainable innovation without compromising business differentiation.",
         "ctaPrimary": "Schedule a Clean Core Assessment",
         "ctaSecondary": "Download the Clean Core Maturity Model",
         "metrics": {
