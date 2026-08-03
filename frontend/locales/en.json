@@ -2918,8 +2918,8 @@
         "metaTitle": "SAP AMS Services | SAP Application Management Services | Global Core Technologies",
         "metaDescription": "SAP Application Management Services: Level 2/3 functional and technical support, root-cause analysis, minor enhancements and SLA-driven service governance. Talk to an AMS expert.",
         "eyebrow": "Pillar · Operate",
-        "h1": "Keep SAP Running Better",
-        "heroSubtitle": "Reliable application support that resolves issues and drives continuous improvement. Global Core Technologies delivers SAP Application Management Services that help organizations maintain stable business operations, improve service quality and evolve their SAP applications over time — combining responsive functional and technical support with disciplined service governance, root-cause analysis and a continuous-improvement mindset.",
+        "h1": "Run SAP Better",
+        "heroSubtitle": "Reliable support that resolves issues and continuously improves SAP.",
         "ctaPrimary": "Assess Your AMS Model",
         "ctaSecondary": "Speak with an AMS Expert",
         "metrics": {
@@ -3094,7 +3094,7 @@
         "metaDescription": "SAP Basis managed services: daily administration, transport management, lifecycle governance, backup and recovery coordination and technical documentation for stable, secure SAP landscapes.",
         "eyebrow": "Pillar · Operate",
         "h1": "A Stronger SAP Foundation",
-        "heroSubtitle": "Expert Basis operations for stable, secure and resilient SAP environments. Global Core Technologies manages the technical foundation that keeps SAP systems available, secure and ready for business — combining daily administration, lifecycle management, technical governance and proactive improvement across on-premise, cloud and hybrid landscapes.",
+        "heroSubtitle": "Expert Basis operations for stable, secure and resilient SAP systems.",
         "ctaPrimary": "Review Your Basis Operations",
         "ctaSecondary": "Speak with a Basis Expert",
         "metrics": {
@@ -3273,7 +3273,7 @@
         "metaDescription": "SAP technical monitoring services: system, database, infrastructure and interface monitoring with alert management and continuous tuning. Detect issues before business impact.",
         "eyebrow": "Pillar · Operate",
         "h1": "See Issues Before Impact",
-        "heroSubtitle": "Proactive monitoring that protects availability across your SAP landscape. Global Core Technologies transforms monitoring data into operational action — helping you define what matters, detect abnormal conditions early, prioritize alerts by business impact and coordinate remediation across SAP applications, databases, integrations and infrastructure.",
+        "heroSubtitle": "Proactive monitoring that protects availability across your SAP landscape.",
         "ctaPrimary": "Assess Your Monitoring Coverage",
         "ctaSecondary": "Speak with an Operations Expert",
         "metrics": {
@@ -3452,7 +3452,7 @@
         "metaDescription": "Structured SAP incident and problem management: triage, major incident coordination, root-cause analysis and preventive action to reduce recurring disruption.",
         "eyebrow": "Pillar · Operate",
         "h1": "Resolve Faster. Prevent Recurrence.",
-        "heroSubtitle": "Structured support that restores service and eliminates recurring operational issues. Global Core Technologies combines rapid incident response with disciplined problem management — restoring SAP services, coordinating specialists, identifying underlying causes and implementing permanent actions that reduce recurring disruption.",
+        "heroSubtitle": "Restore SAP services faster and prevent recurring operational issues.",
         "ctaPrimary": "Improve Your Resolution Model",
         "ctaSecondary": "Speak with a Support Expert",
         "metrics": {
@@ -3626,8 +3626,8 @@
         "metaTitle": "SAP Performance & Availability Management | SAP HANA Performance | Global Core Technologies",
         "metaDescription": "SAP performance and availability services: workload analysis, database and SAP HANA tuning, capacity planning and availability management for critical SAP services.",
         "eyebrow": "Pillar · Operate",
-        "h1": "Performance You Can Rely On",
-        "heroSubtitle": "Keep critical SAP services responsive, available and ready for demand. Global Core Technologies helps organizations protect SAP performance and availability through proactive analysis, capacity insight, technical optimization and disciplined service management — focusing on the user experience and business services behind the technical metrics.",
+        "h1": "Reliable SAP Performance",
+        "heroSubtitle": "Keep critical services responsive, available and ready for demand.",
         "ctaPrimary": "Assess SAP Performance",
         "ctaSecondary": "Speak with a Performance Expert",
         "metrics": {
@@ -3805,8 +3805,8 @@
         "metaTitle": "SAP Cloud ALM Operations | Implementation & Managed Services | Global Core Technologies",
         "metaDescription": "SAP Cloud ALM services: readiness, configuration, health and integration monitoring, business process monitoring and managed operations. Turn insights into action.",
         "eyebrow": "Pillar · Operate",
-        "h1": "Operate Smarter with Cloud ALM",
-        "heroSubtitle": "Turn SAP Cloud ALM insights into disciplined operational action. Global Core Technologies helps organizations design, configure and operate SAP Cloud ALM as part of a practical service-management model — connecting monitoring, integration visibility, business-process context and operational workflows so teams can detect issues earlier and respond with clarity.",
+        "h1": "Make Cloud ALM Actionable",
+        "heroSubtitle": "Turn SAP Cloud ALM insights into coordinated operational action.",
         "ctaPrimary": "Plan Your Cloud ALM Operations",
         "ctaSecondary": "Speak with a Cloud ALM Expert",
         "metrics": {
@@ -3985,7 +3985,7 @@
         "metaDescription": "The SAP Operations Hub unifies monitoring, Basis, application support, incident coordination and service governance into one integrated operating model with executive visibility.",
         "eyebrow": "Pillar · Operate",
         "h1": "One Hub. Complete Control.",
-        "heroSubtitle": "Unified SAP operations with clear ownership, governance and visibility. The Global Core Technologies SAP Operations Hub brings monitoring, Basis, application support, incident coordination and service governance into one integrated operating model — a single point of operational control for organizations that need consistent service quality across complex SAP landscapes.",
+        "heroSubtitle": "Unified SAP operations with clear ownership, governance and visibility.",
         "ctaPrimary": "Design Your Operations Hub",
         "ctaSecondary": "Speak with an Operations Leader",
         "metrics": {
