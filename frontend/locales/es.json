@@ -5415,8 +5415,8 @@
         "metaTitle": "SAP Business AI Platform Advisory | Consultoría de SAP BAIP | Global Core Technologies",
         "metaDescription": "Advisory de SAP Business AI Platform: estrategia, arquitectura target sobre SAP BTP, Business Data Cloud, AI Foundation y Joule Studio, habilitación de agentes y gobierno de IA desde la oportunidad hasta producción.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "Construí IA Empresarial con Control",
-        "heroSubtitle": "Una base gobernada que conecta datos confiables, procesos, agentes y aplicaciones. Global Core Technologies ayuda a las organizaciones a adoptar SAP Business AI Platform como una base empresarial unificada para IA, datos, aplicaciones, integración y gobierno — conectando las capacidades de SAP BTP, SAP Business Data Cloud, AI Foundation y Joule Studio a través de una arquitectura target y un roadmap que llevan los casos de uso valiosos a producción controlada.",
+        "h1": "Construí IA con Control",
+        "heroSubtitle": "Una base gobernada que conecta datos confiables, procesos, agentes y aplicaciones.",
         "ctaPrimary": "Planificá tu Roadmap de BAIP",
         "ctaSecondary": "Hablá con un Asesor de Plataforma",
         "metrics": {
@@ -5591,7 +5591,7 @@
         "metaDescription": "Servicios de SAP Integration Suite: estrategia de integración, integración cloud e híbrida, gestión de APIs y eventos, integración B2B y operación gestionada para un landscape gobernado y escalable.",
         "eyebrow": "Pilar · Innovate",
         "h1": "Conectá SAP Sin Complejidad",
-        "heroSubtitle": "Integración diseñada para visibilidad, resiliencia y cambio empresarial escalable. Global Core Technologies diseña, implementa y gobierna las capacidades de SAP Integration Suite para conectar aplicaciones, datos, procesos, eventos y partners entre entornos SAP y no-SAP — modernizando los landscapes de integración con patrones reutilizables, APIs seguras y una operación pensada para el cambio.",
+        "heroSubtitle": "Integración diseñada para visibilidad, resiliencia y cambio empresarial escalable.",
         "ctaPrimary": "Evaluá tu Landscape de Integración",
         "ctaSecondary": "Hablá con un Experto en Integración",
         "metrics": {
@@ -5766,7 +5766,7 @@
         "metaDescription": "Servicios de IA y automatización SAP: descubrimiento de oportunidades, automatización de procesos, habilitación de Business AI, arquitectura e integración, y operación responsable de la idea a producción gobernada.",
         "eyebrow": "Pilar · Innovate",
         "h1": "Convertí el Trabajo en Inteligencia",
-        "heroSubtitle": "IA y automatización que mejoran las decisiones, la velocidad y el control. Global Core Technologies identifica, diseña y entrega casos de uso de IA y automatización centrados en SAP que eliminan el trabajo repetitivo, mejoran la calidad de las decisiones y aceleran los procesos de negocio — combinando entendimiento de procesos, SAP Business AI, SAP Build e integración gobernada para pasar de ideas prometedoras a resultados de producción controlados.",
+        "heroSubtitle": "IA y automatización que mejoran las decisiones, la velocidad y el control.",
         "ctaPrimary": "Identificá tus Oportunidades de IA",
         "ctaSecondary": "Hablá con un Asesor de IA",
         "metrics": {
@@ -5941,7 +5941,7 @@
         "metaDescription": "Desarrollo de extensiones SAP: descubrimiento y diseño de extensiones, aplicaciones side-by-side, desarrollo alineado a SAP en ABAP Cloud, SAP Build y Fiori, calidad y seguridad, y ciclo de vida de aplicaciones.",
         "eyebrow": "Pilar · Innovate",
         "h1": "Extendé SAP. Protegé el Core.",
-        "heroSubtitle": "Aplicaciones de negocio construidas para la agilidad sin sumar complejidad al core. Global Core Technologies diseña y construye extensiones SAP que entregan capacidades de negocio diferenciadas preservando un core limpio y listo para upgrades — usando patrones de aplicación, workflow e integración alineados a SAP en SAP Business AI Platform, SAP Build, ABAP Cloud y experiencias de usuario modernas.",
+        "heroSubtitle": "Construí aplicaciones ágiles sin sumar complejidad al core de SAP.",
         "ctaPrimary": "Conversá tu Extensión",
         "ctaSecondary": "Hablá con un Arquitecto de Soluciones",
         "metrics": {
@@ -6116,7 +6116,7 @@
         "metaDescription": "Servicios de clean core SAP: línea base de código custom, estrategia de remediación, framework de decisión de extensiones, gobierno de clean core y un roadmap de innovación sostenible que mantiene SAP listo para upgrades.",
         "eyebrow": "Pilar · Innovate",
         "h1": "Innová Más Allá del Core",
-        "heroSubtitle": "Llevá la diferenciación a extensiones sostenibles manteniendo SAP listo para upgrades. Global Core Technologies ayuda a las organizaciones a reducir la dependencia de código custom y establecer un modelo de innovación clean-core — evaluando las customizaciones existentes, clasificando los requisitos futuros, definiendo patrones de extensión y creando el gobierno necesario para proteger el core SAP en cada release y transformación.",
+        "heroSubtitle": "Llevá la diferenciación a extensiones sostenibles manteniendo SAP listo para upgrades.",
         "ctaPrimary": "Evaluá tu Clean Core",
         "ctaSecondary": "Hablá con un Arquitecto SAP",
         "metrics": {
@@ -6291,7 +6291,7 @@
         "metaDescription": "Servicios de datos y analítica SAP: estrategia de datos y analítica, base de datos sobre SAP Datasphere y Business Data Cloud, analítica y planning con SAP Analytics Cloud, gobierno y modernización.",
         "eyebrow": "Pilar · Innovate",
         "h1": "Hacé Accionable la Data de SAP",
-        "heroSubtitle": "Datos confiables y analítica para decisiones de negocio más rápidas y mejores. Global Core Technologies ayuda a las organizaciones a conectar la data SAP, la semántica de negocio y la analítica en un entorno de decisión gobernado — diseñando data products, modelos, dashboards y capacidades de planning sobre SAP Business Data Cloud, SAP Datasphere, SAP Analytics Cloud y landscapes de datos empresariales híbridos.",
+        "heroSubtitle": "Datos confiables y analítica para decisiones de negocio más rápidas y mejores.",
         "ctaPrimary": "Evaluá tu Base de Datos",
         "ctaSecondary": "Hablá con un Asesor de Datos",
         "metrics": {
@@ -6465,8 +6465,8 @@
         "metaTitle": "Intelligent Agents para SAP Operations | Agentic AI para SAP | Global Core Technologies",
         "metaDescription": "Agentes inteligentes para operaciones SAP: descubrimiento de oportunidades de agentes, contexto y conocimiento, diseño de agentes y herramientas, gobierno y seguridad, e integración operativa bajo supervisión humana.",
         "eyebrow": "Pilar · Innovate",
-        "h1": "Llevá las Operaciones Hacia la Autonomía",
-        "heroSubtitle": "Agentes inteligentes que detectan, analizan y coordinan el trabajo operativo de SAP. Global Core Technologies ayuda a los equipos de operaciones SAP a adoptar agentes inteligentes a través de casos de uso controlados y supervisados por personas — conectando señales operativas, conocimiento, workflows y herramientas empresariales para que los agentes asistan en detección, análisis, priorización y coordinación preservando la seguridad, la auditabilidad y la toma de decisiones responsable.",
+        "h1": "Avanzá Hacia Operaciones Autónomas",
+        "heroSubtitle": "Agentes inteligentes que detectan, analizan y coordinan las operaciones de SAP.",
         "ctaPrimary": "Explorá Casos de Uso de Agentes Operativos",
         "ctaSecondary": "Hablá con un Experto en IA de Operaciones",
         "metrics": {
