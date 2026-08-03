@@ -4163,7 +4163,7 @@
         "metaDescription": "Servicios de SAP PMO: modelo de gobierno, planificación integrada, control de riesgos RAID, control de alcance y cambios, quality gates y reporting ejecutivo para una entrega SAP predecible.",
         "eyebrow": "Pilar · Govern",
         "h1": "Controlá Cada Proyecto SAP",
-        "heroSubtitle": "Gobierno claro para una entrega, decisiones y resultados predecibles. Global Core Technologies establece el gobierno, los controles y la visibilidad ejecutiva necesarios para mantener los proyectos SAP alineados con el alcance, el cronograma, el presupuesto, la calidad y las prioridades del negocio — creando una única fuente de verdad para decisiones, riesgos, dependencias y desempeño de la entrega.",
+        "heroSubtitle": "Gobierno claro para una entrega, decisiones y resultados predecibles.",
         "ctaPrimary": "Evaluá tu Gobierno de Proyectos",
         "ctaSecondary": "Hablá con un Experto en Gobierno",
         "metrics": {
@@ -4342,7 +4342,7 @@
         "metaDescription": "Gestión de programas SAP: estrategia de programa, gobierno integrado, roadmap y secuenciamiento, coordinación de recursos y partners, control financiero y de beneficios en transformaciones SAP complejas.",
         "eyebrow": "Pilar · Govern",
         "h1": "Liderá Programas SAP Complejos",
-        "heroSubtitle": "Liderazgo integrado entre workstreams, releases y prioridades del negocio. Global Core Technologies coordina programas SAP complejos como una única transformación conectada — alineando estrategia, secuenciamiento, recursos, partners y resultados de negocio entre proyectos para que los ejecutivos gestionen el programa completo, no un conjunto de workstreams desconectados.",
+        "heroSubtitle": "Liderazgo integrado entre workstreams, releases y prioridades del negocio.",
         "ctaPrimary": "Revisá tu Programa SAP",
         "ctaSecondary": "Hablá con un Líder de Programa",
         "metrics": {
@@ -4521,7 +4521,7 @@
         "metaDescription": "Gobierno de servicios SAP: modelo operativo de servicio, marco de SLAs y KPIs, gobierno del desempeño, coordinación multi-proveedor y mejora continua en todos los proveedores de servicios SAP.",
         "eyebrow": "Pilar · Govern",
         "h1": "Gobierná los Servicios SAP",
-        "heroSubtitle": "Responsabilidad, desempeño y mejora consistentes en todos los proveedores. Global Core Technologies diseña y opera modelos de gobierno que conectan equipos internos, especialistas SAP, proveedores cloud y partners de servicio — convirtiendo contratos, SLAs y datos operativos en responsabilidad clara, mejores decisiones y mejora continua del servicio.",
+        "heroSubtitle": "Generá responsabilidad, desempeño y mejora consistentes en todos los proveedores.",
         "ctaPrimary": "Evaluá tu Gobierno de Servicios",
         "ctaSecondary": "Hablá con un Experto en Servicios",
         "metrics": {
@@ -4700,7 +4700,7 @@
         "metaDescription": "Gobierno de la entrega SAP: estándares de entrega, gobierno de stage-gates, control de diseño y arquitectura, supervisión de calidad y testing, assurance de cutover y readiness operativo.",
         "eyebrow": "Pilar · Govern",
         "h1": "Entregá SAP con Disciplina",
-        "heroSubtitle": "Controles independientes que protegen la calidad, el alcance y el readiness del negocio. Global Core Technologies provee gobierno de la entrega en implementaciones, migraciones, releases y upgrades SAP — estableciendo controles objetivos de alcance, calidad, riesgo, arquitectura y readiness para que puedas responsabilizar a los equipos de entrega sin perder impulso.",
+        "heroSubtitle": "Controles independientes que protegen la calidad, el alcance y el readiness del negocio.",
         "ctaPrimary": "Revisá los Controles de Entrega",
         "ctaSecondary": "Hablá con un Experto en Entrega",
         "metrics": {
@@ -4879,7 +4879,7 @@
         "metaDescription": "Marco de controles SAP: diseño del framework, mapeo de procesos y controles, diseño de controles SAP, evidencia y testing, monitoreo continuo de controles y gobierno de compliance.",
         "eyebrow": "Pilar · Govern",
         "h1": "Incorporá el Control a SAP",
-        "heroSubtitle": "Un marco sostenible para compliance, evidencia y responsabilidad. Global Core Technologies ayuda a las organizaciones a traducir políticas, regulaciones y requisitos de riesgo en un marco de controles SAP práctico — alineando objetivos de control, configuración del sistema, ownership, evidencia y monitoreo para que el compliance sea parte de la operación diaria, no un ejercicio de auditoría periódico.",
+        "heroSubtitle": "Un marco sostenible para compliance, evidencia y responsabilidad.",
         "ctaPrimary": "Evaluá tu Marco de Controles",
         "ctaSecondary": "Hablá con un Experto en Compliance",
         "metrics": {
@@ -5058,7 +5058,7 @@
         "metaDescription": "Reporting ejecutivo SAP: marco de KPIs, datos y calidad, dashboards y narrativa listos para decidir, gobierno del reporting y automatización que convierten los datos SAP en decisiones de management.",
         "eyebrow": "Pilar · Govern",
         "h1": "Mostrá Lo que los Líderes Necesitan",
-        "heroSubtitle": "Reporting SAP listo para decidir, enfocado en desempeño, riesgo y valor. Global Core Technologies crea marcos de reporting ejecutivo que convierten los datos de proyecto, servicio y riesgo de SAP en insight de management claro — definiendo KPIs, umbrales, ownership y narrativas consistentes para que los líderes entiendan qué cambió, por qué importa y qué decisión se requiere.",
+        "heroSubtitle": "Reporting SAP listo para decidir, enfocado en desempeño, riesgo y valor.",
         "ctaPrimary": "Revisá tu Reporting Ejecutivo",
         "ctaSecondary": "Hablá con un Experto en Reporting",
         "metrics": {
@@ -5237,7 +5237,7 @@
         "metaDescription": "Advisory de metodología SAP: arquitectura de metodología, alineación con SAP Activate, entregables y estándares, disciplinas embebidas, roles y gobierno, y adopción y habilitación.",
         "eyebrow": "Pilar · Govern",
         "h1": "Construí un Mejor Método SAP",
-        "heroSubtitle": "Estándares prácticos para una entrega SAP consistente, escalable y gobernada. Global Core Technologies ayuda a las organizaciones a diseñar, adaptar e institucionalizar metodologías de entrega SAP que encajan con su realidad operativa — combinando los principios de SAP Activate, gobierno, controles de calidad, Clean Core, seguridad y readiness operativo en una forma de trabajar repetible.",
+        "heroSubtitle": "Estándares prácticos para una entrega SAP consistente, escalable y gobernada.",
         "ctaPrimary": "Evaluá tu Metodología SAP",
         "ctaSecondary": "Hablá con un Experto en Metodología",
         "metrics": {

@@ -4164,7 +4164,7 @@
         "metaDescription": "SAP PMO services: governance model, integrated planning, RAID and risk control, scope and change control, quality gates and executive reporting for predictable SAP delivery.",
         "eyebrow": "Pillar · Govern",
         "h1": "Control Every SAP Project",
-        "heroSubtitle": "Clear governance for predictable delivery, decisions and outcomes. Global Core Technologies establishes the governance, controls and executive visibility required to keep SAP projects aligned with scope, schedule, budget, quality and business priorities — creating a single source of truth for decisions, risks, dependencies and delivery performance.",
+        "heroSubtitle": "Clear governance for predictable delivery, decisions and outcomes.",
         "ctaPrimary": "Assess Your Project Governance",
         "ctaSecondary": "Speak with a Governance Expert",
         "metrics": {
@@ -4343,7 +4343,7 @@
         "metaDescription": "SAP program management: program strategy, integrated governance, roadmap and sequencing, resource and partner coordination, financial and benefits control across complex SAP transformations.",
         "eyebrow": "Pillar · Govern",
         "h1": "Lead Complex SAP Programs",
-        "heroSubtitle": "Integrated leadership across workstreams, releases and business priorities. Global Core Technologies coordinates complex SAP programs as one connected transformation — aligning strategy, sequencing, resources, partners and business outcomes across projects so executives can manage the whole program, not a collection of disconnected workstreams.",
+        "heroSubtitle": "Integrated leadership across workstreams, releases and business priorities.",
         "ctaPrimary": "Review Your SAP Program",
         "ctaSecondary": "Speak with a Program Leader",
         "metrics": {
@@ -4522,7 +4522,7 @@
         "metaDescription": "SAP service governance: service operating model, SLA and KPI framework, performance governance, multi-provider coordination and continuous improvement across every SAP service provider.",
         "eyebrow": "Pillar · Govern",
         "h1": "Govern SAP Services",
-        "heroSubtitle": "Consistent accountability, performance and improvement across every provider. Global Core Technologies designs and operates governance models that connect internal teams, SAP specialists, cloud providers and service partners — turning contracts, SLAs and operational data into clear accountability, better decisions and continuous service improvement.",
+        "heroSubtitle": "Create consistent accountability, performance and improvement across every provider.",
         "ctaPrimary": "Assess Your Service Governance",
         "ctaSecondary": "Speak with a Service Expert",
         "metrics": {
@@ -4701,7 +4701,7 @@
         "metaDescription": "SAP delivery governance: delivery standards, stage-gate governance, design and architecture control, quality and test oversight, cutover assurance and operational readiness.",
         "eyebrow": "Pillar · Govern",
         "h1": "Deliver SAP with Discipline",
-        "heroSubtitle": "Independent controls that protect quality, scope and business readiness. Global Core Technologies provides delivery governance across SAP implementations, migrations, releases and upgrades — establishing objective controls for scope, quality, risk, architecture and readiness so you can hold delivery teams accountable while preserving momentum.",
+        "heroSubtitle": "Independent controls that protect quality, scope and business readiness.",
         "ctaPrimary": "Review Delivery Controls",
         "ctaSecondary": "Speak with a Delivery Expert",
         "metrics": {
@@ -4880,7 +4880,7 @@
         "metaDescription": "SAP control framework: framework design, process and control mapping, SAP control design, evidence and testing, continuous control monitoring and compliance governance.",
         "eyebrow": "Pillar · Govern",
         "h1": "Embed Control into SAP",
-        "heroSubtitle": "A sustainable framework for compliance, evidence and accountability. Global Core Technologies helps organizations translate policies, regulations and risk requirements into a practical SAP control framework — aligning control objectives, system configuration, ownership, evidence and monitoring so compliance becomes part of daily operations, not a periodic audit exercise.",
+        "heroSubtitle": "A sustainable framework for compliance, evidence and accountability.",
         "ctaPrimary": "Assess Your Control Framework",
         "ctaSecondary": "Speak with a Compliance Expert",
         "metrics": {
@@ -5059,7 +5059,7 @@
         "metaDescription": "SAP executive reporting: KPI framework, data and quality, decision-ready dashboards and narrative, reporting governance and automation that turn SAP data into management decisions.",
         "eyebrow": "Pillar · Govern",
         "h1": "See What Leaders Need",
-        "heroSubtitle": "Decision-ready SAP reporting focused on performance, risk and value. Global Core Technologies creates executive reporting frameworks that convert SAP project, service and risk data into clear management insight — defining consistent KPIs, thresholds, ownership and narratives so leaders understand what changed, why it matters and what decision is required.",
+        "heroSubtitle": "Decision-ready SAP reporting focused on performance, risk and value.",
         "ctaPrimary": "Review Your Executive Reporting",
         "ctaSecondary": "Speak with a Reporting Expert",
         "metrics": {
@@ -5238,7 +5238,7 @@
         "metaDescription": "SAP methodology advisory: methodology architecture, SAP Activate alignment, deliverables and standards, embedded disciplines, roles and governance, and adoption and enablement.",
         "eyebrow": "Pillar · Govern",
         "h1": "Build a Better SAP Method",
-        "heroSubtitle": "Practical standards for consistent, scalable and governed SAP delivery. Global Core Technologies helps organizations design, adapt and institutionalize SAP delivery methodologies that fit their operating reality — combining SAP Activate principles, governance, quality controls, Clean Core, security and operational readiness into a repeatable way of working.",
+        "heroSubtitle": "Practical standards for consistent, scalable and governed SAP delivery.",
         "ctaPrimary": "Assess Your SAP Methodology",
         "ctaSecondary": "Speak with a Methodology Expert",
         "metrics": {
