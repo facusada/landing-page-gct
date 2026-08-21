@@ -124,7 +124,7 @@ const otherServices = services.filter(s => s.slug !== slug)
             <h3 class="font-display text-xl font-extrabold text-core-ink">{{ t('services.detail.sectionBenefits') }}</h3>
             <ul class="mt-5 grid gap-3">
               <li v-for="benefit in benefits" :key="benefit" class="flex items-start gap-3 text-slate-700">
-                <span class="mt-1 block h-2 w-2 shrink-0 rounded-full bg-core-cyan" />
+                <span class="mt-1 block h-2 w-2 shrink-0 rounded-full bg-core-blue" />
                 <span>{{ benefit }}</span>
               </li>
             </ul>

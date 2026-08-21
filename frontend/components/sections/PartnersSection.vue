@@ -17,7 +17,7 @@ const { t } = useI18n()
           v-for="partner in partnerLogos"
           :key="partner.name"
           v-tilt
-          class="relative grid h-56 w-[26rem] place-items-center overflow-hidden rounded-2xl border border-white/70 bg-white/60 px-16 shadow-lift backdrop-blur-md transition duration-200 hover:-translate-y-1 hover:border-core-orange/30 md:h-64 md:w-[30rem]"
+          class="relative grid h-36 w-[18rem] place-items-center overflow-hidden rounded-2xl border border-white/70 bg-white/60 px-10 shadow-lift backdrop-blur-md transition duration-200 hover:-translate-y-1 hover:border-core-orange/30 md:h-40 md:w-[20rem]"
         >
           <span class="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-core-orange via-core-blue to-core-cyan" />
           <img
@@ -26,7 +26,7 @@ const { t } = useI18n()
             :width="partner.width"
             :height="partner.height"
             loading="lazy"
-            class="max-h-28 w-full object-contain md:max-h-36"
+            class="max-h-16 w-full object-contain md:max-h-20"
           >
         </div>
       </div>
