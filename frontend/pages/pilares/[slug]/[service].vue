@@ -196,23 +196,23 @@ useHead({
         <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#060e18]" />
       </div>
       <div v-else class="absolute inset-0 bg-core-ink/85" />
-      <!-- Dark overlay for hero text legibility over photographic backgrounds:
-           confined to the left where the copy and buttons sit, fading fully to
-           transparent before the right so the imagery stays untouched. -->
-      <div v-if="heroBgSrc" class="absolute inset-0 -z-10 bg-gradient-to-r from-core-ink/90 from-0% via-core-ink/60 via-35% to-transparent to-70%" aria-hidden="true" />
       <ParticleField v-if="heroBgSrc" class="-z-10" />
       <div class="section-shell relative">
-        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_9px_rgba(6,14,24,0.95),0_0_20px_rgba(6,14,24,0.85)]">{{ eyebrow }}</p>
-        <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_0_4px_rgba(6,14,24,1),0_0_14px_rgba(6,14,24,0.95),0_0_30px_rgba(6,14,24,0.9),0_0_48px_rgba(6,14,24,0.75)]">
-          {{ h1 }}
-        </h1>
-        <p class="mt-5 max-w-3xl text-xl leading-8 text-white/90 [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_11px_rgba(6,14,24,0.95),0_0_24px_rgba(6,14,24,0.85)]">
-          {{ heroSubtitle }}
-        </p>
+        <!-- Dark scrim confined to the copy block itself so the rest of the
+             imagery stays untouched. -->
+        <div :class="heroBgSrc ? 'w-fit max-w-4xl rounded-2xl bg-[#060e18]/5 p-6 backdrop-blur-[2px] md:-ml-8 md:p-8' : ''">
+          <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_9px_rgba(6,14,24,0.95),0_0_20px_rgba(6,14,24,0.85)]">{{ eyebrow }}</p>
+          <h1 class="mt-3 max-w-4xl font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_0_4px_rgba(6,14,24,1),0_0_14px_rgba(6,14,24,0.95),0_0_30px_rgba(6,14,24,0.9),0_0_48px_rgba(6,14,24,0.75)]">
+            {{ h1 }}
+          </h1>
+          <p class="mt-5 max-w-3xl text-xl leading-8 text-white/90 [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_11px_rgba(6,14,24,0.95),0_0_24px_rgba(6,14,24,0.85)]">
+            {{ heroSubtitle }}
+          </p>
 
-        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-          <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`">{{ t(`${base}.ctaPrimary`) }}</BaseButton>
-          <BaseButton v-if="showHeroResourceCta" href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <BaseButton :to="`/contacto?servicio=${pillar?.relatedSlug ?? serviceSlug}`">{{ t(`${base}.ctaPrimary`) }}</BaseButton>
+            <BaseButton v-if="showHeroResourceCta" href="#recurso" variant="secondary">{{ t(`${base}.ctaSecondary`) }}</BaseButton>
+          </div>
         </div>
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />

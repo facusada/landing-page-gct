@@ -303,25 +303,25 @@ const framework = computed(() => {
       <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
       <div v-else class="absolute inset-0 bg-core-ink/80" />
-      <!-- Dark overlay for hero text legibility over photographic backgrounds:
-           confined to the left where the copy and buttons sit, fading fully to
-           transparent before the right so the imagery stays untouched. -->
-      <div v-if="isImageHero" class="absolute inset-0 -z-10 bg-gradient-to-r from-core-ink/90 from-0% via-core-ink/60 via-35% to-transparent to-70%" aria-hidden="true" />
       <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
       <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
       <div class="section-shell relative">
-        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_9px_rgba(6,14,24,0.95),0_0_20px_rgba(6,14,24,0.85)]">
-          {{ t('pillarDetail.eyebrow') }}
-        </p>
-        <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_0_4px_rgba(6,14,24,1),0_0_14px_rgba(6,14,24,0.95),0_0_30px_rgba(6,14,24,0.9),0_0_48px_rgba(6,14,24,0.75)]">
-          {{ heroOverride ? heroOverride.headline : title }}
-        </h1>
-        <p class="mt-4 max-w-2xl text-xl leading-8 text-white/90 [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_11px_rgba(6,14,24,0.95),0_0_24px_rgba(6,14,24,0.85)]">
-          {{ heroOverride ? heroOverride.subheadline : description }}
-        </p>
-        <div v-if="heroOverride" class="mt-9 flex flex-col gap-3 sm:flex-row">
-          <BaseButton :to="`/contacto?servicio=${pillar.relatedSlug}`">{{ heroOverride.primaryCta }}</BaseButton>
-          <BaseButton href="#related-services" variant="secondary">{{ heroOverride.secondaryCta }}</BaseButton>
+        <!-- Dark scrim confined to the copy block itself so the rest of the
+             imagery stays untouched. -->
+        <div :class="isImageHero ? 'w-fit max-w-3xl rounded-2xl bg-[#060e18]/5 p-6 backdrop-blur-[2px] md:-ml-8 md:p-8' : ''">
+          <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-core-orange [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_9px_rgba(6,14,24,0.95),0_0_20px_rgba(6,14,24,0.85)]">
+            {{ t('pillarDetail.eyebrow') }}
+          </p>
+          <h1 class="mt-3 font-display text-4xl font-extrabold leading-tight md:text-6xl [text-shadow:0_0_4px_rgba(6,14,24,1),0_0_14px_rgba(6,14,24,0.95),0_0_30px_rgba(6,14,24,0.9),0_0_48px_rgba(6,14,24,0.75)]">
+            {{ heroOverride ? heroOverride.headline : title }}
+          </h1>
+          <p class="mt-4 max-w-2xl text-xl leading-8 text-white/90 [text-shadow:0_0_3px_rgba(6,14,24,1),0_0_11px_rgba(6,14,24,0.95),0_0_24px_rgba(6,14,24,0.85)]">
+            {{ heroOverride ? heroOverride.subheadline : description }}
+          </p>
+          <div v-if="heroOverride" class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <BaseButton :to="`/contacto?servicio=${pillar.relatedSlug}`">{{ heroOverride.primaryCta }}</BaseButton>
+            <BaseButton href="#related-services" variant="secondary">{{ heroOverride.secondaryCta }}</BaseButton>
+          </div>
         </div>
       </div>
       <div id="hero-sentinel" class="absolute bottom-0" aria-hidden="true" />
