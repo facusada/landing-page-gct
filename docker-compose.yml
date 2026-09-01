@@ -21,7 +21,8 @@ services:
       retries: 3
       start_period: 40s
     networks:
-      - nginx_red_compartida
+      nginx_red_compartida:
+        ipv4_address: 172.18.0.40
 
   landing-api:
     build:
@@ -35,7 +36,8 @@ services:
       APP_ENV: production
     restart: unless-stopped
     networks:
-      - nginx_red_compartida
+      nginx_red_compartida:
+        ipv4_address: 172.18.0.41
 
 networks:
   nginx_red_compartida:
