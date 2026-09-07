@@ -75,6 +75,13 @@ const serviceHeroBg: Record<string, string> = {
   'sap-s4hana-transformation': '/backgrounds/transform-s4hana-transformation-hero.webp',
   'sap-migration-governance': '/backgrounds/transform-migration-governance-hero.webp',
   'clean-core-strategy': '/backgrounds/transform-clean-core-strategy-hero.webp',
+  'sap-business-ai-platform-advisory': '/backgrounds/innovate-business-ai-platform-advisory-hero.webp',
+  'sap-integration-suite': '/backgrounds/innovate-integration-suite-hero.webp',
+  'sap-ai-automation': '/backgrounds/innovate-ai-automation-hero.webp',
+  'sap-extension-development': '/backgrounds/innovate-extension-development-hero.webp',
+  'sap-clean-core-innovation': '/backgrounds/innovate-clean-core-innovation-hero.webp',
+  'sap-data-analytics': '/backgrounds/innovate-data-analytics-hero.webp',
+  'sap-intelligent-agents': '/backgrounds/innovate-intelligent-agents-hero.webp',
 }
 const heroBgSrc = serviceHeroBg[serviceSlug] ?? pillarHeroBg[pillarSlug] ?? null
 // WebP heros are panoramic photos that fill the whole band (object-cover);
