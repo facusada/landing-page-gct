@@ -95,6 +95,19 @@ const heroBgSrc = serviceHeroBg[serviceSlug] ?? pillarHeroBg[pillarSlug] ?? null
 // the SVG heros are tall compositions pinned to the top with a bottom fade.
 const heroBgCover = heroBgSrc?.endsWith('.webp') ?? false
 
+// Until the hero photo finishes downloading only the flat dark band shows —
+// the ParticleField would otherwise read as a placeholder "image" being swapped.
+const heroLoaded = ref(false)
+const heroImgEl = ref<HTMLImageElement | null>(null)
+onMounted(() => {
+  if (heroImgEl.value?.complete) heroLoaded.value = true
+})
+if (heroBgSrc) {
+  useHead({
+    link: [{ rel: 'preload', as: 'image', href: heroBgSrc, fetchpriority: 'high' }]
+  })
+}
+
 const related = (pillarServiceKeys[pillarSlug] ?? [])
   .filter(key => key !== service.key)
   .map((key) => {
@@ -204,13 +217,22 @@ useHead({
       :class="heroBgSrc ? 'bg-[#060e18]' : 'bg-core-ink'"
       :style="!heroBgSrc ? { backgroundImage: `url('${service.image}')`, backgroundSize: 'cover', backgroundPosition: service.bgPosition ?? pillar?.bgPosition ?? 'center' } : undefined"
     >
-      <img v-if="heroBgCover" :src="heroBgSrc!" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img
+        v-if="heroBgCover"
+        ref="heroImgEl"
+        :src="heroBgSrc!"
+        fetchpriority="high"
+        class="absolute inset-0 -z-20 h-full w-full object-cover transition-opacity duration-500"
+        :class="heroLoaded ? 'opacity-100' : 'opacity-0'"
+        aria-hidden="true"
+        @load="heroLoaded = true"
+      />
       <div v-else-if="heroBgSrc" class="absolute inset-x-0 top-0 -z-20">
         <img :src="heroBgSrc" class="w-full" aria-hidden="true" />
         <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#060e18]" />
       </div>
       <div v-else class="absolute inset-0 bg-core-ink/85" />
-      <ParticleField v-if="heroBgSrc" class="-z-10" />
+      <ParticleField v-if="heroBgSrc && (heroLoaded || !heroBgCover)" class="-z-10" />
       <div class="section-shell relative">
         <!-- Dark scrim confined to the copy block itself so the rest of the
              imagery stays untouched. -->
