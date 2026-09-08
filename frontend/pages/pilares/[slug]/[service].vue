@@ -107,6 +107,17 @@ if (heroBgSrc) {
     link: [{ rel: 'preload', as: 'image', href: heroBgSrc, fetchpriority: 'high' }]
   })
 }
+// On client-side navigation, hold the route transition (Nuxt wraps pages in
+// <Suspense>) until the hero photo is in cache, so the page appears with the
+// photo already in place. Capped so a slow network never blocks navigation.
+if (import.meta.client && heroBgSrc && heroBgCover) {
+  await new Promise<void>((resolve) => {
+    const img = new Image()
+    const timer = setTimeout(resolve, 2000)
+    img.onload = img.onerror = () => { clearTimeout(timer); resolve() }
+    img.src = heroBgSrc
+  })
+}
 
 const related = (pillarServiceKeys[pillarSlug] ?? [])
   .filter(key => key !== service.key)
