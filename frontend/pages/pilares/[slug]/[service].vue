@@ -90,6 +90,7 @@ const serviceHeroBg: Record<string, string> = {
   'sap-cloud-alm-operations': '/backgrounds/operate-cloud-alm-operations-hero.webp',
   'sap-operations-hub': '/backgrounds/operate-operations-hub-hero.webp',
   'sap-security-assessment': '/backgrounds/secure-security-assessment-hero.webp',
+  'sap-s4hana-security-readiness': '/backgrounds/secure-security-readiness-hero.webp',
   'sap-role-redesign': '/backgrounds/secure-role-redesign-hero.webp',
   'sap-segregation-of-duties': '/backgrounds/secure-segregation-of-duties-hero.webp',
   'sap-grc-access-control': '/backgrounds/secure-grc-access-control-hero.webp',
