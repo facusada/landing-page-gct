@@ -72,9 +72,22 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: '/favicon.png' }
       ],
       script: [
+        // Google Tag Manager (container managed by marketing). Loads GA4 and any
+        // other tags they configure; SPA route changes are tracked via GA4's
+        // enhanced measurement / a History Change trigger on the GTM side.
+        {
+          innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WRC84XZ6');`
+        },
         {
           type: 'application/ld+json',
           innerHTML: JSON.stringify(organizationJsonLd)
+        }
+      ],
+      noscript: [
+        // GTM fallback for browsers without JavaScript, right after <body> opens.
+        {
+          innerHTML: '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRC84XZ6" height="0" width="0" style="display:none;visibility:hidden"></iframe>',
+          tagPosition: 'bodyOpen'
         }
       ]
     }
