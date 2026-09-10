@@ -89,6 +89,12 @@ const serviceHeroBg: Record<string, string> = {
   'sap-performance-availability': '/backgrounds/operate-performance-availability-hero.webp',
   'sap-cloud-alm-operations': '/backgrounds/operate-cloud-alm-operations-hero.webp',
   'sap-operations-hub': '/backgrounds/operate-operations-hub-hero.webp',
+  'sap-security-assessment': '/backgrounds/secure-security-assessment-hero.webp',
+  'sap-role-redesign': '/backgrounds/secure-role-redesign-hero.webp',
+  'sap-segregation-of-duties': '/backgrounds/secure-segregation-of-duties-hero.webp',
+  'sap-grc-access-control': '/backgrounds/secure-grc-access-control-hero.webp',
+  'sap-emergency-access-management': '/backgrounds/secure-emergency-access-hero.webp',
+  'sap-security-managed-services': '/backgrounds/secure-security-managed-services-hero.webp',
 }
 const heroBgSrc = serviceHeroBg[serviceSlug] ?? pillarHeroBg[pillarSlug] ?? null
 // WebP heros are panoramic photos that fill the whole band (object-cover);
