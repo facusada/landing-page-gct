@@ -123,11 +123,12 @@ if (heroBgSrc) {
 }
 // On client-side navigation, hold the route transition (Nuxt wraps pages in
 // <Suspense>) until the hero photo is in cache, so the page appears with the
-// photo already in place. Capped so a slow network never blocks navigation.
+// photo already in place. Capped so a slow network never blocks navigation;
+// the wait is covered by the RouteLoadingOverlay takeover in app.vue.
 if (import.meta.client && heroBgSrc && heroBgCover) {
   await new Promise<void>((resolve) => {
     const img = new Image()
-    const timer = setTimeout(resolve, 2000)
+    const timer = setTimeout(resolve, 4000)
     img.onload = img.onerror = () => { clearTimeout(timer); resolve() }
     img.src = heroBgSrc
   })
