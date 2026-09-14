@@ -47,6 +47,33 @@ const otherPillars = pillars.filter(p => p.id !== slug)
 const imageHeroPillars = ['transform', 'secure', 'operate', 'govern', 'innovate']
 const isImageHero = imageHeroPillars.includes(slug)
 const heroAspectClass = 'md:aspect-[3936/1088]'
+const heroBgSrc = isImageHero ? `/backgrounds/${slug}-hero.webp` : null
+
+// Until the hero photo finishes downloading only the flat dark band shows —
+// the ParticleField would otherwise read as a placeholder "image" being swapped.
+const heroLoaded = ref(false)
+const heroImgEl = ref<HTMLImageElement | null>(null)
+onMounted(() => {
+  if (heroImgEl.value?.complete) heroLoaded.value = true
+})
+if (heroBgSrc) {
+  useHead({
+    link: [{ rel: 'preload', as: 'image', href: heroBgSrc, fetchpriority: 'high' }]
+  })
+}
+// On client-side navigation, hold the route transition (Nuxt wraps pages in
+// <Suspense>) until the hero photo is fully loaded, so the page always appears
+// with the photo in place — the RouteLoadingOverlay takeover in app.vue covers
+// the whole wait. The failsafe only exists so a stalled request can never
+// leave the site stuck on the loader forever.
+if (import.meta.client && heroBgSrc) {
+  await new Promise<void>((resolve) => {
+    const img = new Image()
+    const failsafe = setTimeout(resolve, 15000)
+    img.onload = img.onerror = () => { clearTimeout(failsafe); resolve() }
+    img.src = heroBgSrc
+  })
+}
 
 // One featured SAP innovation per pillar (data-driven, reusable via props)
 // Three rotating "What's New" SAP innovations per pillar (carousel).
@@ -297,14 +324,19 @@ const framework = computed(() => {
       :class="isImageHero ? `bg-[#060e18] md:flex md:flex-col md:justify-center md:py-0 ${heroAspectClass}` : 'bg-core-ink md:py-32'"
       :style="slug !== 'transform' && slug !== 'secure' && slug !== 'operate' && slug !== 'govern' && slug !== 'innovate' ? { backgroundImage: `url('${pillar.image}')`, backgroundSize: 'cover', backgroundPosition: pillar.bgPosition ?? 'center' } : undefined"
     >
-      <img v-if="slug === 'transform'" src="/backgrounds/transform-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'secure'" src="/backgrounds/secure-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'operate'" src="/backgrounds/operate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'govern'" src="/backgrounds/govern-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
-      <img v-else-if="slug === 'innovate'" src="/backgrounds/innovate-hero.webp" class="absolute inset-0 -z-20 h-full w-full object-cover" aria-hidden="true" />
+      <img
+        v-if="heroBgSrc"
+        ref="heroImgEl"
+        :src="heroBgSrc"
+        fetchpriority="high"
+        class="absolute inset-0 -z-20 h-full w-full object-cover transition-opacity duration-500"
+        :class="heroLoaded ? 'opacity-100' : 'opacity-0'"
+        aria-hidden="true"
+        @load="heroLoaded = true"
+      />
       <div v-else class="absolute inset-0 bg-core-ink/80" />
       <div class="absolute inset-0 -z-10 bg-core-orange/5" aria-hidden="true" />
-      <ParticleField v-if="slug === 'transform' || slug === 'secure' || slug === 'operate' || slug === 'govern' || slug === 'innovate'" class="-z-10" />
+      <ParticleField v-if="heroBgSrc && heroLoaded" class="-z-10" />
       <div class="section-shell relative">
         <!-- Dark scrim confined to the copy block itself so the rest of the
              imagery stays untouched. -->
