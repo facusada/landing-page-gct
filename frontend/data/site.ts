@@ -6,6 +6,10 @@ export const siteConfig = {
     'Consultora especializada en SAP, seguridad, GRC, migración S/4HANA, operación AMS, cloud e innovación para empresas medianas y grandes.',
   email: process.env.NUXT_PUBLIC_CONTACT_EMAIL ?? 'info@gctechs.com',
   phone: '+54 11 5697-2958',
+  // wa.me link for the same number. Argentine mobile numbers need a "9" inserted
+  // right after the country code (54) for WhatsApp/international dialing, even
+  // though it's dropped in the locally-formatted +54 11 5697-2958 above.
+  whatsapp: 'https://wa.me/5491156972958',
   address: 'Bartolomé Mitre 797, 4to piso, CABA, Argentina',
   social: {
     linkedin: 'https://www.linkedin.com/company/global-core-technologies',
