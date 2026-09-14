@@ -2,6 +2,7 @@ import httpx
 import pytest
 
 from app import email as email_module
+from app.email import MailDeliveryError
 from app.main import app
 
 VALID_PAYLOAD = {
@@ -66,3 +67,29 @@ async def test_honeypot_is_silently_accepted(client, stub_email):
     assert res.json()["ok"] is True
     # honeypot triggered -> no email sent
     assert len(stub_email) == 0
+
+
+async def test_delivery_failure_returns_generic_502(client, monkeypatch, caplog):
+    graph_detail = (
+        "Graph sendMail failed: HTTP 403 ErrorAccessDenied Access is denied. "
+        "(request-id=11111111-2222-3333-4444-555555555555)"
+    )
+
+    async def failing_send(payload, settings):
+        raise MailDeliveryError(graph_detail)
+
+    from app.routers import contact as contact_router
+
+    monkeypatch.setattr(contact_router, "send_contact_email", failing_send)
+
+    async with client:
+        res = await client.post("/api/contact", json=VALID_PAYLOAD)
+
+    assert res.status_code == 502
+    body = res.json()
+    assert body == {"detail": "No se pudo enviar el mensaje. Intentá nuevamente más tarde."}
+    # Graph details never reach the client...
+    for fragment in ("Graph", "403", "ErrorAccessDenied", "request-id"):
+        assert fragment not in res.text
+    # ...but they are logged server-side for diagnosis.
+    assert "ErrorAccessDenied" in caplog.text

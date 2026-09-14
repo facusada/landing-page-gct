@@ -5,7 +5,7 @@ Guía de despliegue del sitio (`frontend/`, Nuxt) y la API de contacto
 
 ## Arquitectura en el servidor
 
-- El repo vive en `/etc/GlobalCore/landing-page` (path del pipeline).
+- El repo vive en `/home/azuredevops/landing-page`.
 - Dos servicios definidos en `docker-compose.yml`:
   - `landing-page` (contenedor `gct-landing`) — sitio Nuxt.
   - `landing-api` (contenedor `gct-landing-api`) — API FastAPI.
@@ -13,13 +13,15 @@ Guía de despliegue del sitio (`frontend/`, Nuxt) y la API de contacto
   resuelven **por nombre de contenedor** (no usan IPs fijas).
 - `nginx` (reverse proxy) rutea el tráfico público hacia los contenedores
   por su nombre dentro de esa red.
-- El backend envía los correos del formulario por SMTP. En modo test usa el
-  contenedor `mailhog` que ya corre en la misma red.
+- El backend envía los correos del formulario por **Microsoft Graph**
+  (`POST /users/no-reply@gctechs.com/sendMail`) con OAuth 2.0 client
+  credentials. Con `MAIL_BACKEND=log` no envía: escribe el correo en el log.
 
 ```
 navegador ──> nginx ──┬─> gct-landing:<port>        (sitio)
                       └─> gct-landing-api:8000/api/  (formulario)
-                                  └─> SMTP (mailhog en test)
+                                  ├─> login.microsoftonline.com (token)
+                                  └─> graph.microsoft.com (sendMail)
 ```
 
 ## Deploy automático (Azure Pipelines)
@@ -61,8 +63,8 @@ Ver `.env.example` para la lista de claves. En la VM debe contener, además
 de las de puertos/SEO ya existentes, la URL pública de la API:
 
 ```bash
-cd /etc/GlobalCore/landing-page
-echo 'NUXT_PUBLIC_API_BASE=https://landing.gctechs.com' >> .env
+cd /home/azuredevops/landing-page
+echo 'NUXT_PUBLIC_API_BASE=https://www.gctechs.com' >> .env
 ```
 
 > `NUXT_PUBLIC_API_BASE` es la URL **pública** (la usa el navegador). Es el
@@ -77,23 +79,42 @@ cp backend/.env.example backend/.env
 # editar backend/.env
 ```
 
-**Modo test (MailHog en la VM)** — captura los correos, no los entrega:
+**Modo producción (Microsoft Graph)**:
 
 ```
 APP_ENV=production
-SMTP_HOST=mailhog
-SMTP_PORT=1025
-SMTP_USE_TLS=false
-SMTP_USE_SSL=false
-MAIL_FROM=no-reply@<dominio>
-MAIL_TO=<casilla-destino>
-ALLOWED_ORIGINS=https://landing.gctechs.com
+MAIL_BACKEND=graph
+GRAPH_TENANT_ID=<tenant id>
+GRAPH_CLIENT_ID=<application (client) id de gctechs-landing-mailer>
+GRAPH_CLIENT_SECRET=<valor del client secret>
+GRAPH_TIMEOUT_SECONDS=20
+MAIL_FROM=no-reply@gctechs.com
+MAIL_FROM_NAME=Global Core Technologies
+MAIL_TO=info@gctechs.com
+ALLOWED_ORIGINS=https://gctechs.com,https://www.gctechs.com
 ```
 
-**Modo producción** — completar con un SMTP real (host, usuario, contraseña
-y TLS/SSL según el proveedor; ver la sección "MODO PRODUCCIÓN" en
-`backend/.env.example`). Sin esto, los mensajes quedan atrapados en MailHog
-y no llegan a la casilla real.
+Después de editarlo: `chmod 600 backend/.env`. El secret no debe aparecer en
+git, en el pipeline ni en la línea de comandos.
+
+Requisitos del lado de Microsoft 365:
+
+- App Registration `gctechs-landing-mailer` con permiso **Microsoft Graph →
+  Mail.Send (Application)** y admin consent.
+- `MAIL_FROM` debe ser el UPN de un buzón real de Exchange Online (un buzón
+  compartido sirve). Si es solo un alias, Graph responde 404.
+- El client secret vence: anotar la fecha y rotarlo antes.
+- Pendiente (después de validar el envío real): acotar la app al buzón
+  `no-reply` con RBAC for Applications de Exchange Online. Hoy `Mail.Send`
+  Application permite enviar como cualquier buzón del tenant.
+
+Si el backend arranca con `MAIL_BACKEND=graph` y falta alguna variable
+`GRAPH_*`, falla al iniciar con un mensaje que indica cuál falta.
+
+**Modo log** (no envía; solo para diagnóstico): `MAIL_BACKEND=log` y ninguna
+variable `GRAPH_*`. Los correos aparecen en `docker compose logs landing-api`.
+
+Las variables `SMTP_*` de la versión anterior se ignoran; se pueden borrar.
 
 ### 3. nginx — ruteo de la API + estáticos
 
@@ -113,7 +134,7 @@ volumes:
 Recrear el contenedor nginx para que tome el volumen (`docker compose up -d`
 en el proyecto de nginx, o `docker run` con el `-v ...:ro` agregado).
 
-**(b) Config del `server` de `landing.gctechs.com`:**
+**(b) Config del `server` de `gctechs.com` / `www.gctechs.com`:**
 
 ```nginx
 # API → backend FastAPI (SIN barra final: preserva /api/...)
@@ -163,8 +184,21 @@ docker exec gct-landing-api \
 docker compose logs -f landing-api
 ```
 
-Probar el formulario desde el sitio y, en modo test, revisar que el mensaje
-aparezca en la web UI de MailHog (puerto 8025).
+Probar el formulario desde el sitio y verificar que el correo llegue a
+`MAIL_TO` con "Responder" apuntando al email del visitante. Si el envío falla,
+el log del backend muestra el código de error de Graph y el `request-id`.
+Los cambios en los requirements del backend requieren rebuild de la imagen;
+el pipeline ya hace `docker compose up --build`, así que un push a `main`
+alcanza.
+
+Un cambio **solo** en `backend/.env` requiere recrear el contenedor: las
+variables de `env_file` se inyectan al crearlo, y `docker compose restart`
+**no** las vuelve a leer.
+
+```bash
+cd /home/azuredevops/landing-page
+docker compose up -d --force-recreate landing-api
+```
 
 ## Encontrar el proyecto en la VM
 
@@ -178,5 +212,5 @@ docker inspect gct-landing \
 ## Desarrollo local
 
 - Frontend: `cd frontend && pnpm install && pnpm dev` (usa `frontend/.env`).
-- Backend: ver `backend/README.md` (incluye MailHog vía
-  `docker-compose.dev.yml`).
+- Backend: ver `backend/README.md` (`docker-compose.dev.yml` levanta la API
+  con `MAIL_BACKEND=log`).
