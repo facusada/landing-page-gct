@@ -522,7 +522,8 @@ export const clientLogos: ClientLogo[] = [
   { name: 'Travel Rock', src: '/clients/travel-rock.png', width: 204, height: 192, prominent: true },
   { name: 'Exolgan Container Terminal', src: '/clients/exolgan.png', width: 177, height: 145 },
   { name: 'Aeropuertos Argentina', src: '/clients/aeropuertos-argentina.png', width: 428, height: 100 },
-  { name: 'Hospital Universitario Austral', src: '/clients/hospital-universitario-austral.png', width: 1242, height: 381 }
+  { name: 'Hospital Universitario Austral', src: '/clients/hospital-universitario-austral.png', width: 1242, height: 381 },
+  { name: 'MSU Energy', src: '/clients/msu-energy.png', width: 253, height: 130 }
 ]
 
 export const partnerLogos: ClientLogo[] = [
