@@ -3,7 +3,6 @@ import { services } from '~/data/landing'
 
 const { t } = useI18n()
 const route = useRoute()
-const config = useRuntimeConfig()
 
 // Only preselect the service if the `?servicio=` query matches a real option
 // in the select; otherwise fall back to the "Select service" placeholder.
@@ -54,8 +53,9 @@ const handleSubmit = async () => {
   submitError.value = ''
 
   try {
+    // Same-origin relative request: nginx routes /api/ to the backend under
+    // the same domain the page was served from (works for http and https).
     await $fetch('/api/contact', {
-      baseURL: config.public.apiBase,
       method: 'POST',
       body: {
         name: form.name,

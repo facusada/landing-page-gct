@@ -59,16 +59,14 @@ Los archivos de entorno NO están en git. Hay que crearlos en la VM.
 
 ### 1. `.env` (raíz) — orquestación + frontend
 
-Ver `.env.example` para la lista de claves. En la VM debe contener, además
-de las de puertos/SEO ya existentes, la URL pública de la API:
+Ver `.env.example` para la lista de claves (puertos, `NUXT_PUBLIC_SITE_URL`,
+`NUXT_PUBLIC_CONTACT_EMAIL`).
 
-```bash
-cd /home/azuredevops/landing-page
-echo 'NUXT_PUBLIC_API_BASE=https://www.gctechs.com' >> .env
-```
-
-> `NUXT_PUBLIC_API_BASE` es la URL **pública** (la usa el navegador). Es el
-> mismo dominio del sitio; nginx se encarga de rutear `/api/` al backend.
+> El formulario de contacto hace `POST /api/contact` como ruta **relativa**
+> al origin desde el que se cargó la página; nginx rutea `/api/` al backend.
+> No hace falta configurar la URL del backend en el frontend. La variable
+> `NUXT_PUBLIC_API_BASE` de versiones anteriores ya no se usa: si quedó en el
+> `.env` del servidor, se ignora y se puede borrar.
 
 ### 2. `backend/.env` — configuración de la API
 
