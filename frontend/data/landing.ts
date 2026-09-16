@@ -506,7 +506,7 @@ export const industries: IndustryItem[] = [
 ]
 
 export const technologyPillars: TechnologyPillar[] = [
-  { id: 's4hana', tags: ['S/4HANA', 'Clean Core', 'Roadmap'], accent: 'core-blue' },
+  { id: 's4hana', tags: ['SAP Cloud ERP', 'Clean Core', 'Roadmap'], accent: 'core-blue' },
   { id: 'security', tags: ['RBAC', 'SoD', 'GRC'], accent: 'core-orange' },
   { id: 'cloud', tags: ['Cloud', 'Analytics', 'AI'], accent: 'core-cyan' }
 ]

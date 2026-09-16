@@ -62,7 +62,7 @@
       "lifeScience": {
         "eyebrow": "SAP for Life Sciences",
         "title": "SAP for Life Sciences",
-        "description": "End-to-end compliance, traceability and quality. We help laboratories and pharma companies operate under GxP, validate processes and accelerate time-to-market with SAP S/4HANA and industry-specific solutions.",
+        "description": "End-to-end compliance, traceability and quality. We help laboratories and pharma companies operate under GxP, validate processes and accelerate time-to-market with SAP Cloud ERP and industry-specific solutions.",
         "cta": "Explore our Life Sciences solutions"
       }
     }
@@ -73,7 +73,7 @@
     "description": "Every engagement is built on five connected disciplines — so your SAP landscape stays secure, governed and ready to evolve.",
     "learnMore": "Learn more →",
     "items": {
-      "transform": { "title": "Transform", "description": "Accelerate your journey to SAP S/4HANA and cloud-based ERP." },
+      "transform": { "title": "Transform", "description": "Accelerate your journey to SAP Cloud ERP and cloud-based ERP." },
       "secure": { "title": "Secure", "description": "Protect your SAP landscape through security, governance and compliance." },
       "operate": { "title": "Operate", "description": "Ensure availability, performance and operational excellence." },
       "govern": { "title": "Govern", "description": "Establish the frameworks, standards and controls required for long-term success." },
@@ -105,7 +105,7 @@
         "title": "SAP Cloud ERP",
         "highlight": "Transform with confidence.",
         "description": "We modernize SAP landscapes through structured transformation programs, migration readiness assessments and governance-driven execution.",
-        "chips": ["SAP S/4HANA", "RISE with SAP", "Readiness Assessments", "Clean Core Strategy", "Migration Governance"],
+        "chips": ["SAP Cloud ERP", "RISE with SAP", "Readiness Assessments", "Clean Core Strategy", "Migration Governance"],
         "cta": "Start Your Transformation Journey"
       },
       "governance": {
@@ -172,14 +172,14 @@
     "description": "As an SAP Silver Partner, we guide each organization in choosing and implementing the most suitable solution for their size and digital maturity.",
     "viewDetail": "View details →",
     "seoTitle": "SAP Solutions",
-    "seoDescription": "Full SAP portfolio: S/4HANA, S/4HANA Cloud (GROW & RISE), Business Technology Platform, Integration Suite and Analytics Cloud, implemented by Global Core Technologies.",
+    "seoDescription": "Full SAP portfolio: SAP Cloud ERP and SAP Cloud ERP Private (GROW & RISE), Business Technology Platform, Integration Suite and Analytics Cloud, implemented by Global Core Technologies.",
     "products": {
       "s4hana": {
-        "badge": "S/4HANA",
-        "title": "SAP S/4HANA",
+        "badge": "SAP Cloud ERP Private",
+        "title": "SAP Cloud ERP Private",
         "subtitle": "ERP for Large Enterprises",
         "description": "SAP's intelligent ERP for large organizations: integrated end-to-end processes, real-time on HANA, and digital transformation at scale.",
-        "longDescription": "SAP S/4HANA is the next-generation ERP designed for large enterprises that need to operate with full visibility, speed, and adaptability. Built on the SAP HANA in-memory database, it eliminates aggregation layers and enables real-time decisions across the entire value chain: finance, supply chain, manufacturing, procurement, and sales. Global Core Technologies supports S/4HANA projects with proven methodology in high-criticality environments, from target architecture design through post-go-live stabilization, with a focus on operational continuity and real adoption.",
+        "longDescription": "SAP Cloud ERP Private is the next-generation ERP designed for large enterprises that need to operate with full visibility, speed, and adaptability. Built on the SAP HANA in-memory database, it eliminates aggregation layers and enables real-time decisions across the entire value chain: finance, supply chain, manufacturing, procurement, and sales. Global Core Technologies supports SAP Cloud ERP Private projects with proven methodology in high-criticality environments, from target architecture design through post-go-live stabilization, with a focus on operational continuity and real adoption.",
         "minUsers": "Large organizations",
         "features": [
           { "title": "Real-Time Finance", "description": "SAP Universal Journal unifies financial and management accounting in a single data model without reconciliations." },
@@ -197,11 +197,11 @@
         ]
       },
       "cloud-erp": {
-        "badge": "S/4HANA Public Cloud",
-        "title": "SAP S/4HANA Public Cloud",
+        "badge": "SAP Cloud ERP",
+        "title": "SAP Cloud ERP",
         "subtitle": "GROW with SAP",
         "description": "Modernize your business management with GROW with SAP: a cloud ERP with industry best practices, automatic updates, and continuous innovation.",
-        "longDescription": "SAP S/4HANA Public Cloud with GROW with SAP is the ideal solution for mid-size companies looking to grow with a modern ERP without the complexity of on-premise implementations. You adopt industry best practices from day one, with a predictable subscription model and automatic updates that keep your platform always current. Global Core Technologies supports every stage of adoption — from process design through post-go-live stabilization — ensuring your team operates with confidence and your data is reliable from day one.",
+        "longDescription": "SAP Cloud ERP with GROW with SAP is the ideal solution for mid-size companies looking to grow with a modern ERP without the complexity of on-premise implementations. You adopt industry best practices from day one, with a predictable subscription model and automatic updates that keep your platform always current. Global Core Technologies supports every stage of adoption — from process design through post-go-live stabilization — ensuring your team operates with confidence and your data is reliable from day one.",
         "minUsers": "From 15 users",
         "features": [
           { "title": "Finance & Accounting", "description": "Agile period-close, general ledger, accounts payable and receivable integrated with operations." },
@@ -223,10 +223,10 @@
         "title": "SAP Cloud ERP Private",
         "subtitle": "RISE with SAP",
         "description": "Transform your SAP processes with RISE with SAP: a comprehensive package designed for your organization's unique transformation with advanced customization and full control.",
-        "longDescription": "SAP Cloud ERP Private with RISE with SAP is SAP's most complete digital transformation package, designed for organizations that need to migrate to S/4HANA Cloud while maintaining their level of customization and compliance. It includes private cloud infrastructure, process analysis tools (Business Process Intelligence), SAP BTP integration, and assisted migration support. At Global Core Technologies we accompany from the initial assessment through hyper-stabilization, with proven experience in high-criticality SAP environments where operational continuity admits no interruptions.",
+        "longDescription": "SAP Cloud ERP Private with RISE with SAP is SAP's most complete digital transformation package, designed for organizations that need to migrate to SAP Cloud ERP Private while maintaining their level of customization and compliance. It includes private cloud infrastructure, process analysis tools (Business Process Intelligence), SAP BTP integration, and assisted migration support. At Global Core Technologies we accompany from the initial assessment through hyper-stabilization, with proven experience in high-criticality SAP environments where operational continuity admits no interruptions.",
         "minUsers": "From 60 users",
         "features": [
-          { "title": "Assisted Migration to S/4HANA", "description": "Migration roadmap from SAP ECC or other versions with proven methodology and official SAP tools." },
+          { "title": "Assisted Migration to SAP Cloud ERP", "description": "Migration roadmap from SAP ECC or other versions with proven methodology and official SAP tools." },
           { "title": "Advanced Customization", "description": "Adaptation of exclusive business processes that go beyond standard best practices." },
           { "title": "Private Cloud Environment", "description": "Dedicated infrastructure with enterprise SLA, data isolation, and regulatory compliance." },
           { "title": "Business Process Intelligence", "description": "Analysis and optimization of existing processes before and during transformation with real data." },
@@ -253,10 +253,10 @@
           { "title": "Artificial Intelligence", "description": "SAP AI Core and AI Launchpad for deploying ML models, Joule as a generative AI copilot on SAP data." },
           { "title": "Data Management", "description": "SAP Datasphere for federation, virtualization, and governance of enterprise data with semantic visibility." },
           { "title": "Native Integration", "description": "Embedded SAP Integration Suite to connect SAP and non-SAP systems with APIs, iFlows, and events." },
-          { "title": "Clean Core Extensibility", "description": "Side-by-side extensions that enrich S/4HANA without touching the core, ensuring compatibility with future upgrades." }
+          { "title": "Clean Core Extensibility", "description": "Side-by-side extensions that enrich SAP Cloud ERP without touching the core, ensuring compatibility with future upgrades." }
         ],
         "useCases": [
-          "Organizations needing to extend S/4HANA with their own business logic without modifying the SAP core",
+          "Organizations needing to extend SAP Cloud ERP with their own business logic without modifying the SAP core",
           "Companies wanting to automate cross-functional processes by connecting SAP with third-party systems",
           "Teams looking to incorporate generative AI and advanced analytics on real-time SAP data",
           "Integration projects where SAP must connect with cloud platforms, external ERPs, or marketplaces"
@@ -280,7 +280,7 @@
         "useCases": [
           "Companies with hybrid landscapes needing to connect SAP on-premise with cloud applications from third parties",
           "Organizations seeking to replace point-to-point integrations with a centralized and auditable platform",
-          "S/4HANA migration projects where integration flows need to be redesigned or modernized",
+          "SAP Cloud ERP migration projects where integration flows need to be redesigned or modernized",
           "Businesses with B2B exchange requiring standard and traceable EDI connectivity with trading partners"
         ]
       },
@@ -289,10 +289,10 @@
         "title": "SAP Analytics Cloud",
         "subtitle": "Analytics & Planning",
         "description": "Real-time analytics and planning to turn SAP data into faster, more accurate decisions.",
-        "longDescription": "SAP Analytics Cloud (SAC) unifies business intelligence, financial planning, and augmented analytics in a single cloud platform with live connections to S/4HANA, BW, and external sources. It enables executive dashboards, collaborative budgets and forecasts, and what-if simulations on real operational data — without replicating information. Global Core Technologies designs and implements analytics and planning models aligned with business processes, so decisions are made on a single version of the truth.",
+        "longDescription": "SAP Analytics Cloud (SAC) unifies business intelligence, financial planning, and augmented analytics in a single cloud platform with live connections to SAP Cloud ERP, BW, and external sources. It enables executive dashboards, collaborative budgets and forecasts, and what-if simulations on real operational data — without replicating information. Global Core Technologies designs and implements analytics and planning models aligned with business processes, so decisions are made on a single version of the truth.",
         "minUsers": "Data & decisions",
         "features": [
-          { "title": "Executive Dashboards", "description": "Interactive stories and boards on live SAP data, with native connectivity to S/4HANA and BW." },
+          { "title": "Executive Dashboards", "description": "Interactive stories and boards on live SAP data, with native connectivity to SAP Cloud ERP and BW." },
           { "title": "Collaborative Planning", "description": "Budgets, forecasts, and what-if simulations integrated with real operational data." },
           { "title": "Augmented Analytics", "description": "Automatic insights, natural language search, and AI-assisted predictions." },
           { "title": "Live Connectivity", "description": "Live connections to SAP and non-SAP sources without replicating data or losing governance." },
@@ -303,7 +303,7 @@
           "Leadership teams needing real-time executive visibility into SAP operations",
           "Finance teams looking to unify budgeting, forecasting, and reporting in a single tool",
           "Organizations wanting to replace spreadsheets and manual reports with governed analytics",
-          "Companies on S/4HANA wanting to leverage embedded analytics and extend it across the organization"
+          "Companies on SAP Cloud ERP wanting to leverage embedded analytics and extend it across the organization"
         ]
       }
     }
@@ -320,7 +320,7 @@
       "title": "SAP Services to Evolve Without Losing Control",
       "description": "Eight work fronts for organizations that need to transform, secure, and operate with continuity.",
       "seoTitle": "SAP Services",
-      "seoDescription": "Eight SAP work fronts: S/4HANA migration, implementation, GRC security, AMS support, innovation, managed services, performance, and Solution Manager."
+      "seoDescription": "Eight SAP work fronts: SAP Cloud ERP migration, implementation, GRC security, AMS support, innovation, managed services, performance, and Solution Manager."
     },
     "detail": {
       "eyebrow": "SAP Service",
@@ -334,15 +334,15 @@
     "modules": {
       "migracion-transformacion-sap": {
         "title": "SAP Transformation",
-        "description": "We accompany the migration to S/4HANA and cloud with methodology, governance, and focus on operational continuity at every stage.",
+        "description": "We accompany the migration to SAP Cloud ERP and cloud with methodology, governance, and focus on operational continuity at every stage.",
         "benefit": "Clear roadmap and controlled risk at every phase of the transformation",
-        "capabilities": ["SAP ECC → S/4HANA Migration", "RISE with SAP", "SAP S/4HANA Public Cloud", "SAP Cloud ERP Private", "Assessment & Roadmap", "Clean Core Strategy", "Conversions & Rollouts"]
+        "capabilities": ["SAP ECC → SAP Cloud ERP Migration", "RISE with SAP", "SAP Cloud ERP", "SAP Cloud ERP Private", "Assessment & Roadmap", "Clean Core Strategy", "Conversions & Rollouts"]
       },
       "implementacion-sap": {
         "title": "SAP Implementation",
         "description": "We implement SAP solutions with a Clean Core approach, real adoption, and end-to-end traceability in projects of any scale.",
         "benefit": "System in production adopted by users from day one",
-        "capabilities": ["SAP S/4HANA", "SAP Business One", "SAP SuccessFactors", "SAP Analytics Cloud", "SAP Ariba", "SAP IBP", "SAP EWM", "SAP Commerce Cloud", "SAP BTP"]
+        "capabilities": ["SAP Cloud ERP", "SAP Business One", "SAP SuccessFactors", "SAP Analytics Cloud", "SAP Ariba", "SAP IBP", "SAP EWM", "SAP Commerce Cloud", "SAP BTP"]
       },
       "seguridad-sap-grc": {
         "title": "SAP Security & Compliance",
@@ -378,9 +378,9 @@
     "items": {
       "migracion-transformacion-sap": {
         "title": "SAP Migration & Transformation",
-        "description": "S/4HANA roadmaps, cloud evolution, and modernization of critical processes.",
-        "longDescription": "We design and execute migration strategies to SAP S/4HANA with a focus on risk reduction, operational continuity, and real adoption. Each roadmap covers target architecture, change governance, technical dependencies, and progress metrics so the transformation is measurable from the first sprint.",
-        "features": ["Technical and functional assessment of the current landscape", "S/4HANA migration roadmap with phases and milestones", "Brownfield, Greenfield, or hybrid conversion strategy", "Change governance and operational adoption plan", "Data migration with validation and reconciliation", "Post-migration support and stabilization"],
+        "description": "SAP Cloud ERP roadmaps, cloud evolution, and modernization of critical processes.",
+        "longDescription": "We design and execute migration strategies to SAP Cloud ERP with a focus on risk reduction, operational continuity, and real adoption. Each roadmap covers target architecture, change governance, technical dependencies, and progress metrics so the transformation is measurable from the first sprint.",
+        "features": ["Technical and functional assessment of the current landscape", "SAP Cloud ERP migration roadmap with phases and milestones", "Brownfield, Greenfield, or hybrid conversion strategy", "Change governance and operational adoption plan", "Data migration with validation and reconciliation", "Post-migration support and stabilization"],
         "benefits": ["Lower risk in migration decisions", "Operational continuity during the transition", "Clear roadmap with cost and timeline visibility", "Real adoption of the new environment by users"],
         "proof": "Lower risk in migration decisions"
       },
@@ -520,7 +520,7 @@
     "eyebrow": "Trust & Credibility",
     "title": "An Enterprise Partner You Can Build On",
     "cards": {
-      "sap": { "title": "Ecosystem Expertise", "description": "Deep specialization across SAP Security, BASIS and S/4HANA." },
+      "sap": { "title": "Ecosystem Expertise", "description": "Deep specialization across SAP Security, BASIS and SAP Cloud ERP." },
       "grc": { "title": "Governance & Compliance", "description": "Frameworks aligned to audit, SoD and regulatory needs." },
       "ai": { "title": "Innovation Platforms", "description": "Proprietary intelligence for SAP security and operations." },
       "ops": { "title": "Managed Operations", "description": "Continuous monitoring and flexible support models." }
@@ -531,7 +531,7 @@
     "eyebrow": "Technology",
     "title": "SAP, Security, Cloud & AI Connected to Operational Results",
     "pillars": {
-      "s4hana": { "title": "SAP S/4HANA", "description": "Migration planning, target architecture, change governance, and adoption." },
+      "s4hana": { "title": "SAP Cloud ERP", "description": "Migration planning, target architecture, change governance, and adoption." },
       "security": { "title": "Security & GRC", "description": "Role model, segregation of duties, compliance, and continuous monitoring." },
       "cloud": { "title": "Cloud, Data & AI", "description": "Automation, analytics, and cloud modernization focused on operational results." }
     }
@@ -555,7 +555,7 @@
   },
   "contactPage": {
     "seoTitle": "Contact",
-    "seoDescription": "Contact Global Core Technologies for SAP consulting, GRC security, S/4HANA migration, and AMS support.",
+    "seoDescription": "Contact Global Core Technologies for SAP consulting, GRC security, SAP Cloud ERP migration, and AMS support.",
     "breadcrumb": "Contact",
     "hero": {
       "eyebrow": "Next Step",
@@ -670,7 +670,7 @@
           "provisioning": "Manual user provisioning processes",
           "emergencyAccess": "Emergency access without enough traceability",
           "audit": "Audit findings and compliance pressure",
-          "roleComplexity": "Role complexity across ECC, S/4HANA, Fiori and hybrid landscapes",
+          "roleComplexity": "Role complexity across ECC, SAP Cloud ERP, Fiori and hybrid landscapes",
           "monitoring": "Lack of continuous monitoring and governance"
         },
         "closing": "Without structured governance, these gaps translate into growing access risk, recurring audit findings and higher operational exposure.",
@@ -871,7 +871,7 @@
     "items": {
       "transform": {
         "s4hana": {
-          "title": "SAP S/4HANA Transformation",
+          "title": "SAP Cloud ERP Transformation",
           "description": "Modernize your ERP landscape and prepare for the intelligent enterprise."
         },
         "riseWithSap": {
@@ -906,7 +906,7 @@
         },
         "rbac": {
           "title": "SAP Role Redesign & Authorization Model",
-          "description": "Design or redesign SAP role models for ECC, S/4HANA and Fiori, aligning business responsibilities with a sustainable, scalable and auditable access model."
+          "description": "Design or redesign SAP role models for ECC, SAP Cloud ERP and Fiori, aligning business responsibilities with a sustainable, scalable and auditable access model."
         },
         "emergencyAccess": {
           "title": "Emergency Access Management",
@@ -917,8 +917,8 @@
           "description": "Continuous SAP Security support — access administration, role maintenance, periodic controls, audit support and risk monitoring — to sustain security and reduce internal operational burden."
         },
         "s4hanaReadiness": {
-          "title": "SAP S/4HANA Security Readiness",
-          "description": "Assess and prepare your security model for S/4HANA — roles, Fiori catalogs, business roles, authorization impacts and SoD risks — to avoid carrying legacy security issues into the future landscape."
+          "title": "SAP Cloud ERP Security Readiness",
+          "description": "Assess and prepare your security model for SAP Cloud ERP — roles, Fiori catalogs, business roles, authorization impacts and SoD risks — to avoid carrying legacy security issues into the future landscape."
         }
       },
       "operate": {
@@ -1031,13 +1031,13 @@
     },
     "items": {
       "sap-s4hana-transformation": {
-        "metaTitle": "SAP S/4HANA Transformation | Governed Migration | Global Core Technologies",
-        "metaDescription": "Transform your ERP to SAP S/4HANA with a proven methodology, Clean Core, and risk control. +150 projects and +20 years of SAP expertise. Talk to an expert.",
+        "metaTitle": "SAP Cloud ERP Transformation | Governed Migration | Global Core Technologies",
+        "metaDescription": "Transform your ERP to SAP Cloud ERP with a proven methodology, Clean Core, and risk control. +150 projects and +20 years of SAP expertise. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "Move to SAP S/4HANA with Confidence",
+        "h1": "Move to SAP Cloud ERP with Confidence",
         "heroSubtitle": "Reduce risk with a structured transformation built for continuity and long-term value.",
-        "ctaPrimary": "Book an S/4HANA assessment",
-        "ctaSecondary": "Talk to an S/4HANA architect",
+        "ctaPrimary": "Book an SAP Cloud ERP assessment",
+        "ctaSecondary": "Talk to an SAP Cloud ERP architect",
         "metrics": {
           "projects": "completed projects",
           "years": "years in mission-critical SAP",
@@ -1056,10 +1056,10 @@
             },
             {
               "title": "The customized core",
-              "description": "Years of Z-code and modifications make every upgrade painful. Without a Clean Core strategy, S/4HANA inherits the same baggage you carried over from ECC."
+              "description": "Years of Z-code and modifications make every upgrade painful. Without a Clean Core strategy, SAP Cloud ERP inherits the same baggage you carried over from ECC."
             }
           ],
-          "closing": "The question is no longer whether to migrate to S/4HANA, but how to do it without turning the transformation into a business risk."
+          "closing": "The question is no longer whether to migrate to SAP Cloud ERP, but how to do it without turning the transformation into a business risk."
         },
         "howWeHelp": {
           "title": "An end-to-end transformation program",
@@ -1096,7 +1096,7 @@
             },
             {
               "title": "A future-proof core",
-              "description": "Clean Core keeps your S/4HANA upgradeable and ready to adopt AI and automation without friction."
+              "description": "Clean Core keeps your SAP Cloud ERP upgradeable and ready to adopt AI and automation without friction."
             },
             {
               "title": "Operational continuity",
@@ -1105,7 +1105,7 @@
           ]
         },
         "methodology": {
-          "title": "The Global Core Technologies path to S/4HANA",
+          "title": "The Global Core Technologies path to SAP Cloud ERP",
           "description": "Five phases that connect strategy to operations. The transformation doesn't end at go-live: it hands off to managed operations and continuous innovation.",
           "phases": [
             {
@@ -1131,11 +1131,11 @@
           ]
         },
         "engagementScenarios": {
-          "title": "Where S/4HANA Transformation Fits Your Path",
+          "title": "Where SAP Cloud ERP Transformation Fits Your Path",
           "items": [
             { "title": "Impending ECC End of Maintenance", "description": "SAP ECC support is approaching its 2027 (or 2030 extended) deadline and no migration roadmap exists yet." },
-            { "title": "Greenfield Reimplementation", "description": "The organization wants a clean S/4HANA build with standardized processes rather than carrying legacy customization forward." },
-            { "title": "Brownfield Technical Conversion", "description": "Current processes and customizations must be preserved while converting the existing ECC system to S/4HANA." },
+            { "title": "Greenfield Reimplementation", "description": "The organization wants a clean SAP Cloud ERP build with standardized processes rather than carrying legacy customization forward." },
+            { "title": "Brownfield Technical Conversion", "description": "Current processes and customizations must be preserved while converting the existing ECC system to SAP Cloud ERP." },
             { "title": "Selective Data Transition", "description": "Only specific company codes, processes, or historical data need to move, without a full system reimplementation." },
             { "title": "Post-RISE or Cloud Decision", "description": "The target deployment (on-premise, private cloud, or RISE with SAP) is defined and the migration itself needs to be executed with governance." }
           ]
@@ -1171,12 +1171,12 @@
         },
         "leadMagnet": {
           "eyebrow": "Free session",
-          "title": "Technical session: we map your path to S/4HANA",
+          "title": "Technical session: we map your path to SAP Cloud ERP",
           "description": "In 45 minutes with our architects we assess your current landscape, identify critical blockers, and walk you through your available migration path options.",
           "cta": "Book your technical session"
         },
         "finalCta": {
-          "title": "Ready to define your path to S/4HANA?",
+          "title": "Ready to define your path to SAP Cloud ERP?",
           "description": "Book a session with our architects and walk away with a prioritized roadmap and an initial business case for your transformation.",
           "ctaPrimary": "Book your assessment",
           "ctaSecondary": "Explore the Transform pillar"
@@ -1295,13 +1295,13 @@
         }
       },
       "s4hana-readiness-assessment": {
-        "metaTitle": "SAP S/4HANA Readiness Assessment | SAP Readiness Check Analysis | Global Core Technologies",
-        "metaDescription": "A fact-based SAP S/4HANA readiness assessment across architecture, custom code, data, security, and program readiness — turned into a prioritized transformation roadmap. Talk to an expert.",
+        "metaTitle": "SAP Cloud ERP Readiness Assessment | SAP Readiness Check Analysis | Global Core Technologies",
+        "metaDescription": "A fact-based SAP Cloud ERP readiness assessment across architecture, custom code, data, security, and program readiness — turned into a prioritized transformation roadmap. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
-        "h1": "Know Your S/4HANA Readiness",
+        "h1": "Know Your SAP Cloud ERP Readiness",
         "heroSubtitle": "Identify risks, dependencies and priorities before committing to your transformation.",
         "ctaPrimary": "Schedule a Readiness Assessment",
-        "ctaSecondary": "Download the S/4HANA Readiness Scorecard",
+        "ctaSecondary": "Download the SAP Cloud ERP Readiness Scorecard",
         "metrics": {
           "projects": "completed projects",
           "years": "years in mission-critical SAP",
@@ -1380,7 +1380,7 @@
         "engagementScenarios": {
           "title": "Assessment Options Aligned to Your Transformation Stage",
           "items": [
-            { "title": "Initial S/4HANA Assessment", "description": "Establish a first fact-based baseline for an ECC-to-S/4HANA transformation." },
+            { "title": "Initial SAP Cloud ERP Assessment", "description": "Establish a first fact-based baseline for an ECC-to-SAP Cloud ERP transformation." },
             { "title": "Brownfield Conversion Readiness", "description": "Focus on technical conversion blockers, simplification items, custom code, data volume, and cutover risks." },
             { "title": "RISE with SAP Readiness", "description": "Assess the additional architecture, responsibility, security, operations, and organizational implications of moving to the managed cloud model." },
             { "title": "Selective Transition Readiness", "description": "Evaluate data scope, organizational changes, historical retention, and transformation tooling requirements." },
@@ -1400,7 +1400,7 @@
         "leadMagnet": {
           "eyebrow": "Free scorecard",
           "title": "How Ready Is Your SAP Landscape?",
-          "description": "Download the SAP S/4HANA Readiness Scorecard and evaluate your current position across system and architecture, simplification impacts, custom code, data, integrations, security, operations, and program governance.",
+          "description": "Download the SAP Cloud ERP Readiness Scorecard and evaluate your current position across system and architecture, simplification impacts, custom code, data, integrations, security, operations, and program governance.",
           "cta": "Download the Readiness Scorecard"
         },
         "finalCta": {
@@ -1412,7 +1412,7 @@
       },
       "sap-migration-governance": {
         "metaTitle": "SAP Migration Governance | Program Assurance & PMO | Global Core Technologies",
-        "metaDescription": "Independent SAP migration governance: integrated program control, quality assurance, cutover and go-live governance for complex S/4HANA and RISE programs. Talk to an expert.",
+        "metaDescription": "Independent SAP migration governance: integrated program control, quality assurance, cutover and go-live governance for complex SAP Cloud ERP and RISE programs. Talk to an expert.",
         "eyebrow": "Pillar · Transform",
         "h1": "Keep Your SAP Migration on Track",
         "heroSubtitle": "Gain visibility, control and faster decisions across every transformation workstream.",
@@ -1496,7 +1496,7 @@
         "engagementScenarios": {
           "title": "Governance Models We Support",
           "items": [
-            { "title": "Full Transformation Governance Office", "description": "End-to-end independent governance for a complex S/4HANA or RISE with SAP program." },
+            { "title": "Full Transformation Governance Office", "description": "End-to-end independent governance for a complex SAP Cloud ERP or RISE with SAP program." },
             { "title": "Client-Side PMO Augmentation", "description": "Strengthen an existing PMO with SAP-specific risk, architecture, security, data, and cutover expertise." },
             { "title": "Independent Program Assurance", "description": "Periodic health checks and milestone assurance for executive sponsors or boards." },
             { "title": "Recovery Governance", "description": "Stabilize a delayed or distressed program through re-baselining, risk intervention, and decision acceleration." },
@@ -1608,7 +1608,7 @@
         "engagementScenarios": {
           "title": "Clean Core Engagements for Different Starting Points",
           "items": [
-            { "title": "Pre-S/4HANA Transformation", "description": "Use Clean Core to shape scope, target architecture, remediation, and migration decisions before implementation begins." },
+            { "title": "Pre-SAP Cloud ERP Transformation", "description": "Use Clean Core to shape scope, target architecture, remediation, and migration decisions before implementation begins." },
             { "title": "Brownfield Modernization", "description": "Reduce inherited complexity and establish a controlled path from technical conversion to continuous modernization." },
             { "title": "RISE with SAP Preparation", "description": "Align extensions, integrations, data, and operations with the target cloud model and clean-core expectations." },
             { "title": "Post-Go-Live Stabilization", "description": "Prevent the new environment from recreating legacy complexity after implementation." },
@@ -1633,7 +1633,7 @@
         },
         "finalCta": {
           "title": "Create a Clean Core That Stays Clean",
-          "description": "Whether you are preparing for S/4HANA, moving to RISE with SAP, or modernizing an existing environment, Global Core Technologies can help turn Clean Core principles into measurable action.",
+          "description": "Whether you are preparing for SAP Cloud ERP, moving to RISE with SAP, or modernizing an existing environment, Global Core Technologies can help turn Clean Core principles into measurable action.",
           "ctaPrimary": "Schedule a Clean Core Assessment",
           "ctaSecondary": "Speak with a Clean Core Expert"
         }
@@ -1716,7 +1716,7 @@
             },
             {
               "title": "Better Transformation Readiness",
-              "description": "Address security weaknesses before SAP S/4HANA migrations, cloud initiatives, or major system changes."
+              "description": "Address security weaknesses before SAP Cloud ERP migrations, cloud initiatives, or major system changes."
             }
           ]
         },
@@ -1774,7 +1774,7 @@
               "description": "Evaluate monitoring, incident handling, periodic reviews, and ongoing security management."
             },
             {
-              "title": "S/4HANA Readiness",
+              "title": "SAP Cloud ERP Readiness",
               "description": "Identify security risks that may affect migration planning or the future authorization model."
             }
           ]
@@ -1812,7 +1812,7 @@
         },
         "finalCta": {
           "title": "Identify and Reduce SAP Security Risk",
-          "description": "Whether you are preparing for an audit, reviewing access controls, planning an SAP S/4HANA migration, or strengthening your security program, our experts can help you define the right path forward.",
+          "description": "Whether you are preparing for an audit, reviewing access controls, planning an SAP Cloud ERP migration, or strengthening your security program, our experts can help you define the right path forward.",
           "ctaPrimary": "Schedule an SAP Security Assessment",
           "ctaSecondary": "Speak with an SAP Security Expert"
         }
@@ -1949,8 +1949,8 @@
               "description": "Adapt risk rules to actual business processes, organizational structure, and compliance requirements."
             },
             {
-              "title": "GRC for SAP S/4HANA",
-              "description": "Prepare access governance, connectors, rules, roles, and workflows for the S/4HANA environment."
+              "title": "GRC for SAP Cloud ERP",
+              "description": "Prepare access governance, connectors, rules, roles, and workflows for the SAP Cloud ERP environment."
             },
             {
               "title": "GRC Integration",
@@ -1995,7 +1995,7 @@
         },
         "finalCta": {
           "title": "Build a Sustainable SAP Access Governance Model",
-          "description": "Whether you are implementing SAP GRC for the first time, preparing for SAP S/4HANA, or improving an existing environment, Global Core Technologies can help you establish a more controlled and efficient access model.",
+          "description": "Whether you are implementing SAP GRC for the first time, preparing for SAP Cloud ERP, or improving an existing environment, Global Core Technologies can help you establish a more controlled and efficient access model.",
           "ctaPrimary": "Schedule an SAP GRC Assessment",
           "ctaSecondary": "Speak with an SAP GRC Expert"
         }
@@ -2181,7 +2181,7 @@
       },
       "sap-role-redesign": {
         "metaTitle": "SAP Role Redesign | Authorization Model & Role Cleanup | Global Core Technologies",
-        "metaDescription": "SAP role redesign services: business-aligned role architecture, legacy role cleanup, S/4HANA and Fiori authorization design, SoD-driven redesign, and controlled deployment.",
+        "metaDescription": "SAP role redesign services: business-aligned role architecture, legacy role cleanup, SAP Cloud ERP and Fiori authorization design, SoD-driven redesign, and controlled deployment.",
         "eyebrow": "Pillar · Secure",
         "h1": "Build a Smarter SAP Role Model",
         "heroSubtitle": "Reduce excessive access and create a scalable, business-aligned authorization model.",
@@ -2205,7 +2205,7 @@
             },
             {
               "title": "High maintenance effort and poor readiness",
-              "description": "Manual role maintenance, difficult access requests, limited documentation, and role models that do not support SAP S/4HANA slow the business and block transformation."
+              "description": "Manual role maintenance, difficult access requests, limited documentation, and role models that do not support SAP Cloud ERP slow the business and block transformation."
             }
           ],
           "closing": "A poorly structured role model increases security risk, administrative effort, provisioning time, and audit complexity."
@@ -2260,8 +2260,8 @@
               "description": "Provide users with the access they need without unnecessary menus, transactions, or applications."
             },
             {
-              "title": "Stronger S/4HANA Readiness",
-              "description": "Prepare the authorization model for Fiori, new business processes, and SAP S/4HANA."
+              "title": "Stronger SAP Cloud ERP Readiness",
+              "description": "Prepare the authorization model for Fiori, new business processes, and SAP Cloud ERP."
             }
           ]
         },
@@ -2303,7 +2303,7 @@
               "description": "Consolidate duplicated, obsolete, unused, or excessively broad roles."
             },
             {
-              "title": "SAP S/4HANA Role Redesign",
+              "title": "SAP Cloud ERP Role Redesign",
               "description": "Adapt roles for new transactions, applications, authorization objects, and business processes."
             },
             {
@@ -2357,7 +2357,7 @@
         },
         "finalCta": {
           "title": "Create a Scalable SAP Authorization Model",
-          "description": "Whether you need to clean up legacy roles, prepare for SAP S/4HANA, enable SAP Fiori, or reduce access risk, our experts can help design a role model that supports your business today and in the future.",
+          "description": "Whether you need to clean up legacy roles, prepare for SAP Cloud ERP, enable SAP Fiori, or reduce access risk, our experts can help design a role model that supports your business today and in the future.",
           "ctaPrimary": "Schedule a Role Redesign Assessment",
           "ctaSecondary": "Speak with an SAP Authorization Expert"
         }
@@ -2729,24 +2729,24 @@
         }
       },
       "sap-s4hana-security-readiness": {
-        "metaTitle": "SAP S/4HANA Security Readiness | Authorization & Fiori Security | Global Core Technologies",
-        "metaDescription": "SAP S/4HANA security readiness: role impact analysis, Fiori authorization design, SAP GRC readiness, and a security roadmap defined before your migration begins.",
+        "metaTitle": "SAP Cloud ERP Security Readiness | Authorization & Fiori Security | Global Core Technologies",
+        "metaDescription": "SAP Cloud ERP security readiness: role impact analysis, Fiori authorization design, SAP GRC readiness, and a security roadmap defined before your migration begins.",
         "eyebrow": "Pillar · Secure",
-        "h1": "Prepare Security for SAP S/4HANA",
+        "h1": "Prepare Security for SAP Cloud ERP",
         "heroSubtitle": "Address access, governance and technical security risks before migration begins.",
-        "ctaPrimary": "Schedule an S/4HANA Security Readiness Assessment",
-        "ctaSecondary": "Download the S/4HANA Security Readiness Checklist",
+        "ctaPrimary": "Schedule an SAP Cloud ERP Security Readiness Assessment",
+        "ctaSecondary": "Download the SAP Cloud ERP Security Readiness Checklist",
         "metrics": {
           "projects": "projects delivered",
           "years": "years in mission-critical SAP",
           "governance": "governance-first focus"
         },
         "problem": {
-          "title": "Security Is Frequently Addressed Too Late in S/4HANA Programs",
+          "title": "Security Is Frequently Addressed Too Late in SAP Cloud ERP Programs",
           "items": [
             {
               "title": "Legacy roles carried forward",
-              "description": "Legacy roles copied without redesign, obsolete transactions, excessive custom roles, and new S/4HANA authorization objects reproduce old risks in the new environment."
+              "description": "Legacy roles copied without redesign, obsolete transactions, excessive custom roles, and new SAP Cloud ERP authorization objects reproduce old risks in the new environment."
             },
             {
               "title": "New complexity across Fiori and processes",
@@ -2760,8 +2760,8 @@
           "closing": "When security is treated as a late technical activity, it can affect testing, cutover, compliance, and user adoption."
         },
         "howWeHelp": {
-          "title": "Comprehensive S/4HANA Security Readiness Services",
-          "description": "Global Core Technologies helps organizations assess and prepare their security model before the transition to SAP S/4HANA.",
+          "title": "Comprehensive SAP Cloud ERP Security Readiness Services",
+          "description": "Global Core Technologies helps organizations assess and prepare their security model before the transition to SAP Cloud ERP.",
           "items": [
             {
               "title": "Current Security Assessment",
@@ -2777,7 +2777,7 @@
             },
             {
               "title": "SAP GRC Readiness",
-              "description": "We assess connector requirements, rule set impact, S/4HANA function mapping, workflow changes, emergency access requirements, and user access review considerations."
+              "description": "We assess connector requirements, rule set impact, SAP Cloud ERP function mapping, workflow changes, emergency access requirements, and user access review considerations."
             },
             {
               "title": "Technical Security Readiness",
@@ -2819,7 +2819,7 @@
           ]
         },
         "methodology": {
-          "title": "A Security-Embedded S/4HANA Readiness Framework",
+          "title": "A Security-Embedded SAP Cloud ERP Readiness Framework",
           "description": "Our framework integrates security analysis, design, and planning into the transformation program from the start.",
           "phases": [
             {
@@ -2832,7 +2832,7 @@
             },
             {
               "name": "Map",
-              "deliverable": "Identify how S/4HANA, Fiori, integrations, and process changes affect security requirements."
+              "deliverable": "Identify how SAP Cloud ERP, Fiori, integrations, and process changes affect security requirements."
             },
             {
               "name": "Design",
@@ -2853,7 +2853,7 @@
           "items": [
             {
               "title": "Brownfield Conversion",
-              "description": "Assess existing roles, obsolete transactions, authorization impacts, and new S/4HANA requirements."
+              "description": "Assess existing roles, obsolete transactions, authorization impacts, and new SAP Cloud ERP requirements."
             },
             {
               "title": "Greenfield Implementation",
@@ -2882,7 +2882,7 @@
           "items": [
             {
               "title": "SAP Transformation and Security Expertise",
-              "description": "Our teams understand both SAP S/4HANA transformation requirements and SAP security implications."
+              "description": "Our teams understand both SAP Cloud ERP transformation requirements and SAP security implications."
             },
             {
               "title": "Security by Design",
@@ -2904,14 +2904,14 @@
         },
         "leadMagnet": {
           "eyebrow": "Free checklist",
-          "title": "Is Your Security Model Ready for SAP S/4HANA?",
-          "description": "Download the SAP S/4HANA Security Readiness Checklist and evaluate legacy roles, obsolete transactions, new authorization objects, SAP Fiori security, Segregation of Duties, SAP GRC readiness, identity and authentication, technical users, interfaces, and testing and cutover planning.",
-          "cta": "Download the S/4HANA Security Readiness Checklist"
+          "title": "Is Your Security Model Ready for SAP Cloud ERP?",
+          "description": "Download the SAP Cloud ERP Security Readiness Checklist and evaluate legacy roles, obsolete transactions, new authorization objects, SAP Fiori security, Segregation of Duties, SAP GRC readiness, identity and authentication, technical users, interfaces, and testing and cutover planning.",
+          "cta": "Download the SAP Cloud ERP Security Readiness Checklist"
         },
         "finalCta": {
-          "title": "Embed Security into Your SAP S/4HANA Journey",
+          "title": "Embed Security into Your SAP Cloud ERP Journey",
           "description": "Whether you are planning a Brownfield conversion, Greenfield implementation, RISE with SAP adoption, or SAP Fiori rollout, our experts can help ensure your security model is ready before the transformation begins.",
-          "ctaPrimary": "Schedule an S/4HANA Security Readiness Assessment",
+          "ctaPrimary": "Schedule an SAP Cloud ERP Security Readiness Assessment",
           "ctaSecondary": "Speak with an SAP Security Expert"
         }
       },
@@ -3252,7 +3252,7 @@
             },
             {
               "title": "Transformation Readiness",
-              "description": "Our operations model helps prepare systems for S/4HANA, RISE with SAP and future modernization."
+              "description": "Our operations model helps prepare systems for SAP Cloud ERP, RISE with SAP and future modernization."
             }
           ]
         },
@@ -4292,7 +4292,7 @@
               "description": "Provide objective oversight across an internal team and one or more implementation partners."
             },
             {
-              "title": "S/4HANA Transformation PMO",
+              "title": "SAP Cloud ERP Transformation PMO",
               "description": "Coordinate business, data, security, technical and change workstreams through a unified model."
             },
             {
@@ -4459,7 +4459,7 @@
           "title": "Leadership for Multi-Project Change",
           "items": [
             {
-              "title": "Enterprise S/4HANA Program",
+              "title": "Enterprise SAP Cloud ERP Program",
               "description": "Coordinate business transformation, technology, data and organizational change."
             },
             {
@@ -4821,7 +4821,7 @@
               "description": "Validate quality and readiness independently of the primary systems integrator."
             },
             {
-              "title": "S/4HANA Migration Assurance",
+              "title": "SAP Cloud ERP Migration Assurance",
               "description": "Govern conversion preparation, testing, cutover and stabilization."
             },
             {
@@ -4996,7 +4996,7 @@
           "title": "Control Frameworks for Changing Landscapes",
           "items": [
             {
-              "title": "S/4HANA Control Redesign",
+              "title": "SAP Cloud ERP Control Redesign",
               "description": "Rebuild controls for new processes, roles, workflows and system architecture."
             },
             {
@@ -5187,7 +5187,7 @@
               "description": "Present access, SoD, controls, findings and remediation exposure."
             },
             {
-              "title": "S/4HANA Readiness Reporting",
+              "title": "SAP Cloud ERP Readiness Reporting",
               "description": "Track preparation, decisions, dependencies and readiness evidence."
             },
             {
@@ -5366,7 +5366,7 @@
               "description": "Connect product and sprint delivery with executive control and quality gates."
             },
             {
-              "title": "S/4HANA Transformation Playbook",
+              "title": "SAP Cloud ERP Transformation Playbook",
               "description": "Define repeatable standards for programs, waves and deployment scenarios."
             },
             {
@@ -5712,7 +5712,7 @@
               "description": "Assess, rationalize and migrate legacy interfaces toward a cloud integration model."
             },
             {
-              "title": "S/4HANA Integration Readiness",
+              "title": "SAP Cloud ERP Integration Readiness",
               "description": "Prepare interface architecture, remediation priorities and testing for transformation."
             },
             {
@@ -5738,7 +5738,7 @@
             },
             {
               "title": "Migration Discipline",
-              "description": "Assessment and sequencing reduce risk during PI/PO and S/4HANA transitions."
+              "description": "Assessment and sequencing reduce risk during PI/PO and SAP Cloud ERP transitions."
             },
             {
               "title": "Operational Design",
@@ -6229,7 +6229,7 @@
           "title": "Clean Core Across the SAP Lifecycle",
           "items": [
             {
-              "title": "S/4HANA Clean-Core Assessment",
+              "title": "SAP Cloud ERP Clean-Core Assessment",
               "description": "Establish the customization baseline and remediation roadmap before transformation."
             },
             {
@@ -6259,7 +6259,7 @@
             },
             {
               "title": "Transformation Experience",
-              "description": "Clean-core choices are aligned with S/4HANA, cloud and lifecycle realities."
+              "description": "Clean-core choices are aligned with SAP Cloud ERP, cloud and lifecycle realities."
             },
             {
               "title": "Extension Capability",

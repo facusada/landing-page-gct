@@ -83,19 +83,19 @@ const featuredByPillar: Record<string, FeaturedItem[]> = {
     {
       badge: "What's New",
       title: 'RISE with SAP',
-      description: 'A single, guided path to S/4HANA Cloud — infrastructure, migration tooling and business transformation services bundled in one subscription.',
+      description: 'A single, guided path to SAP Cloud ERP Private — infrastructure, migration tooling and business transformation services bundled in one subscription.',
       accent: 'orange'
     },
     {
       badge: "What's New",
       title: 'GROW with SAP',
-      description: 'The fast-track adoption offering for S/4HANA Cloud Public Edition — preconfigured best practices, guided onboarding and built-in extensibility.',
+      description: 'The fast-track adoption offering for SAP Cloud ERP — preconfigured best practices, guided onboarding and built-in extensibility.',
       accent: 'blue'
     },
     {
       badge: "What's New",
       title: 'SAP Signavio',
-      description: 'Process intelligence to analyze, redesign and continuously improve business processes before and during your S/4HANA transformation.',
+      description: 'Process intelligence to analyze, redesign and continuously improve business processes before and during your SAP Cloud ERP transformation.',
       accent: 'orange'
     }
   ],

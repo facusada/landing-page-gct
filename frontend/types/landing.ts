@@ -128,13 +128,6 @@ export interface TabItem {
   content: string
 }
 
-export interface TestimonialItem {
-  quote: string
-  personName: string
-  role: string
-  company: string
-}
-
 export interface SapSolutionItem {
   title: string
   slug: string

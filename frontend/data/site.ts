@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: 'Global Core',
   url: process.env.NUXT_PUBLIC_SITE_URL ?? 'https://www.gctechs.com',
   description:
-    'Consultora especializada en SAP, seguridad, GRC, migración S/4HANA, operación AMS, cloud e innovación para empresas medianas y grandes.',
+    'Consultora especializada en SAP, seguridad, GRC, migración SAP Cloud ERP, operación AMS, cloud e innovación para empresas medianas y grandes.',
   email: process.env.NUXT_PUBLIC_CONTACT_EMAIL ?? 'info@gctechs.com',
   phone: '+54 11 5697-2958',
   // wa.me link for the same number. Argentine mobile numbers need a "9" inserted
@@ -33,5 +33,5 @@ export const organizationJsonLd = {
   },
   sameAs: Object.values(siteConfig.social),
   areaServed: ['Argentina', 'Latin America'],
-  knowsAbout: ['SAP S/4HANA', 'SAP GRC', 'SAP Security', 'AMS', 'Cloud', 'AI', 'Data Analytics']
+  knowsAbout: ['SAP Cloud ERP', 'SAP GRC', 'SAP Security', 'AMS', 'Cloud', 'AI', 'Data Analytics']
 }

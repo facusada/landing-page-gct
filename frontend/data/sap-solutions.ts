@@ -2,7 +2,7 @@ import type { SapSolutionItem } from '~/types/landing'
 
 export const sapSolutions: SapSolutionItem[] = [
   {
-    title: 'Migración S/4HANA',
+    title: 'Migración SAP Cloud ERP',
     slug: 'migracion-transformacion-sap',
     description: 'Llevá tu landscape SAP al futuro con una estrategia de migración que minimiza riesgos y maximiza adopción.',
     features: [
