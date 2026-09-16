@@ -102,7 +102,7 @@
       },
       "transformation": {
         "tag": "Pillar · Transform",
-        "title": "SAP S/4HANA Transformation",
+        "title": "SAP Cloud ERP",
         "highlight": "Transform with confidence.",
         "description": "We modernize SAP landscapes through structured transformation programs, migration readiness assessments and governance-driven execution.",
         "chips": ["SAP S/4HANA", "RISE with SAP", "Readiness Assessments", "Clean Core Strategy", "Migration Governance"],
