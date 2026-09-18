@@ -605,6 +605,35 @@
     "servicesDescription": "Capacidades especializadas que desplegamos dentro de este pilar para maximizar el valor de tu ecosistema SAP.",
     "relatedServiceCta": "Ver servicio completo",
     "contactCta": "Hablar con un especialista",
+    "featuredBadge": "Novedades",
+    "featuredCta": "Conocer más",
+    "featured": {
+      "transform": [
+        { "title": "RISE with SAP", "description": "Un camino único y guiado hacia SAP Cloud ERP Private, con infraestructura, herramientas de migración y servicios de transformación de negocio agrupados en una sola suscripción." },
+        { "title": "GROW with SAP", "description": "La oferta de adopción rápida para SAP Cloud ERP, con mejores prácticas preconfiguradas, onboarding guiado y extensibilidad incorporada." },
+        { "title": "SAP Signavio", "description": "Inteligencia de procesos para analizar, rediseñar y mejorar continuamente los procesos de negocio antes y durante tu transformación a SAP Cloud ERP." }
+      ],
+      "secure": [
+        { "title": "SAP Identity Access Governance", "description": "Gobierno de accesos cloud-native para SAP, con aprovisionamiento automatizado, análisis de Segregación de Funciones en tiempo real y monitoreo continuo del riesgo." },
+        { "title": "SAP Cloud Identity Services", "description": "Autenticación y aprovisionamiento centralizados para landscapes SAP cloud e híbridos, con single sign-on y gestión completa del ciclo de vida de identidades." },
+        { "title": "SAP Access Control", "description": "Análisis automatizado del riesgo de acceso, gestión de roles y acceso de emergencia, manteniendo la Segregación de Funciones bajo control continuo." }
+      ],
+      "govern": [
+        { "title": "SAP Cloud ALM", "description": "Un único centro de ciclo de vida para planificar, implementar y gobernar cada solución SAP en tu landscape, con procesos de mejores prácticas incorporados." },
+        { "title": "SAP LeanIX", "description": "Gestión de arquitectura empresarial para mapear tu landscape SAP y no SAP, y gobernar las decisiones de transformación con datos." },
+        { "title": "SAP Signavio Process Governance", "description": "Estandarizá y goberná los cambios de procesos con aprobaciones basadas en workflows, propiedad clara y trazabilidad completa." }
+      ],
+      "operate": [
+        { "title": "SAP Cloud Operations", "description": "Operaciones proactivas y asistidas por IA para SAP, con observabilidad unificada, remediación automatizada y gestión de servicios basada en SLA desde el primer momento." },
+        { "title": "SAP Cloud ALM for Operations", "description": "Monitoreo unificado de operaciones, health checks y alertas en todo tu landscape SAP cloud e híbrido." },
+        { "title": "SAP Focused Run", "description": "Monitoreo de alto volumen, alertas y análisis de causa raíz para operaciones SAP críticas y a gran escala." }
+      ],
+      "innovate": [
+        { "title": "SAP Joule", "description": "El copiloto de IA generativa de SAP: insights en lenguaje natural y automatización de tareas embebidos directamente en tus aplicaciones SAP." },
+        { "title": "SAP Build", "description": "Herramientas low-code para crear aplicaciones, automatizar procesos y diseñar sitios de negocio, extendiendo SAP sin código personalizado complejo." },
+        { "title": "SAP Business AI", "description": "IA embebida y generativa en las aplicaciones SAP, con el Generative AI Hub en SAP BTP para construir casos de uso de IA confiables." }
+      ]
+    },
     "servicesTitleByPillar": {
       "transform": "Explorá nuestras capacidades de transformación",
       "secure": "Explorá nuestras capacidades de seguridad SAP",

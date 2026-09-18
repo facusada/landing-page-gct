@@ -9,7 +9,7 @@ import StickyContextBar from '~/components/ui/StickyContextBar.vue'
 import { findL3ServiceByKey, pillars, pillarServiceKeys } from '~/data/landing'
 import { siteConfig } from '~/data/site'
 
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
 const localizedTo = useLocalizedTo()
 const route = useRoute()
 const slug = route.params.slug as string
@@ -77,115 +77,32 @@ if (import.meta.client && heroBgSrc) {
 
 // One featured SAP innovation per pillar (data-driven, reusable via props)
 // Three rotating "What's New" SAP innovations per pillar (carousel).
-type FeaturedItem = { badge: string; title: string; description: string; accent: string }
-const featuredByPillar: Record<string, FeaturedItem[]> = {
-  transform: [
-    {
-      badge: "What's New",
-      title: 'RISE with SAP',
-      description: 'A single, guided path to SAP Cloud ERP Private — infrastructure, migration tooling and business transformation services bundled in one subscription.',
-      accent: 'orange'
-    },
-    {
-      badge: "What's New",
-      title: 'GROW with SAP',
-      description: 'The fast-track adoption offering for SAP Cloud ERP — preconfigured best practices, guided onboarding and built-in extensibility.',
-      accent: 'blue'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Signavio',
-      description: 'Process intelligence to analyze, redesign and continuously improve business processes before and during your SAP Cloud ERP transformation.',
-      accent: 'orange'
-    }
-  ],
-  secure: [
-    {
-      badge: "What's New",
-      title: 'SAP Identity Access Governance',
-      description: 'Cloud-native access governance for SAP — automated provisioning, real-time Segregation of Duties analysis and continuous risk monitoring.',
-      accent: 'blue'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Cloud Identity Services',
-      description: 'Centralized authentication and provisioning for SAP cloud and hybrid landscapes, with single sign-on and full identity lifecycle management.',
-      accent: 'orange'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Access Control',
-      description: 'Automated access-risk analysis, role management and emergency access, keeping Segregation of Duties under continuous control.',
-      accent: 'blue'
-    }
-  ],
-  govern: [
-    {
-      badge: "What's New",
-      title: 'SAP Cloud ALM',
-      description: 'One lifecycle hub to plan, implement and govern every SAP solution across your landscape — with built-in best-practice processes.',
-      accent: 'blue'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP LeanIX',
-      description: 'Enterprise architecture management to map your SAP and non-SAP landscape and govern transformation decisions with data.',
-      accent: 'orange'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Signavio Process Governance',
-      description: 'Standardize and govern process changes with workflow-driven approvals, clear ownership and full traceability.',
-      accent: 'blue'
-    }
-  ],
-  operate: [
-    {
-      badge: "What's New",
-      title: 'SAP Cloud Operations',
-      description: 'Proactive, AI-assisted operations for SAP — unified observability, automated remediation and SLA-driven service management out of the box.',
-      accent: 'blue'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Cloud ALM for Operations',
-      description: 'Unified operations monitoring, health checks and alerting across your SAP cloud and hybrid landscape.',
-      accent: 'orange'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Focused Run',
-      description: 'High-volume monitoring, alerting and root-cause analysis for large-scale, mission-critical SAP operations.',
-      accent: 'blue'
-    }
-  ],
-  innovate: [
-    {
-      badge: "What's New",
-      title: 'SAP Joule',
-      description: "SAP's generative-AI copilot — natural-language insights and task automation embedded directly across your SAP applications.",
-      accent: 'orange'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Build',
-      description: 'Low-code tools to build apps, automate processes and design business sites — extending SAP without deep custom code.',
-      accent: 'blue'
-    },
-    {
-      badge: "What's New",
-      title: 'SAP Business AI',
-      description: 'Embedded and generative AI across SAP applications, with the Generative AI Hub on SAP BTP for building trusted AI use cases.',
-      accent: 'orange'
-    }
-  ]
+// Copy (title/description) lives in i18n (locales/en|es.json); only the
+// accent color order is kept here since it's presentational, not content.
+type RtMessage = Parameters<typeof rt>[0]
+const featuredAccentsByPillar: Record<string, string[]> = {
+  transform: ['orange', 'blue', 'orange'],
+  secure: ['blue', 'orange', 'blue'],
+  govern: ['blue', 'orange', 'blue'],
+  operate: ['blue', 'orange', 'blue'],
+  innovate: ['orange', 'blue', 'orange']
 }
 
 const featured = computed(() => {
-  const list = featuredByPillar[slug]
-  if (!list) return null
+  const accents = featuredAccentsByPillar[slug]
+  if (!accents) return null
+  const items = tm(`pillarDetail.featured.${slug}`) as Array<{ title: RtMessage; description: RtMessage }>
   const ctaHref = localizedTo(`/contacto?servicio=${pillar.relatedSlug}`)
-  return list.map(f => ({ ...f, ctaLabel: 'Learn more', ctaHref }))
+  const badge = t('pillarDetail.featuredBadge')
+  const ctaLabel = t('pillarDetail.featuredCta')
+  return items.map((f, i) => ({
+    badge,
+    title: rt(f.title),
+    description: rt(f.description),
+    accent: accents[i],
+    ctaLabel,
+    ctaHref
+  }))
 })
 
 // Pillars that have the full Level-2 document treatment (hero copy + services
